@@ -23,7 +23,15 @@ func TestGenerate(t *testing.T) {
 	parseFile("../../data/iso3166-1.json", &cw)
 
 	countrySlice := SlicesToMap(cw, sdw)
-	Generate(countrySlice)
+	GenerateCountryStates(countrySlice)
+}
+
+func TestGenerateCountryToAlpha2(t *testing.T) {
+	var cw CountryWrapper
+	parseFile("../../data/iso3166-1.json", &cw)
+
+	data := getCountryNameToAlpha2Map(cw)
+	GenerateCountryToAlpha2(data)
 }
 
 //func TestCS(t *testing.T) {
