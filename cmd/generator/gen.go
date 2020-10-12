@@ -15,13 +15,14 @@ type CountryWrapper struct {
 }
 
 type Country struct {
-	Alpha2       string `json:"alpha_2"`
-	Alpha3       string `json:"alpha_3"`
-	Name         string `json:"name"`
-	OfficialName string `json:"official_name"`
-	CommonName   string `json:"common_name"`
-	Numeric      string `json:"numeric"`
-	Child        map[string]SubDivision
+	Alpha2           string `json:"alpha_2"`
+	Alpha3           string `json:"alpha_3"`
+	Name             string `json:"name"`
+	OfficialName     string `json:"official_name"`
+	CommonName       string `json:"common_name"`
+	Numeric          string `json:"numeric"`
+	SubDivCodeToName map[string]SubDivisionNameWrapper
+	SubDivNameToCode map[string]SubDivisionCodeWrapper
 }
 
 type SubDivisionWrapper struct {
@@ -33,7 +34,17 @@ type SubDivision struct {
 	Code   string `json:"code"`
 	Parent string `json:"parent"`
 	Type   string `json:"type"`
-	Child  map[string]SubDivision
+}
+
+type SubDivisionNameWrapper struct {
+	Name             string                            `json:"name"`
+	Type             string                            `json:"type"`
+	SubDivCodeToName map[string]SubDivisionNameWrapper `json:"subdivision"`
+}
+
+type SubDivisionCodeWrapper struct {
+	Code             string                            `json:"code"`
+	SubDivNameToCode map[string]SubDivisionCodeWrapper `json:"subdivision"`
 }
 
 func parseFile(filename string, s interface{}) {
@@ -56,22 +67,59 @@ func SlicesToMap(cw CountryWrapper, sw SubDivisionWrapper) map[string]Country {
 
 	for _, countryCode := range countryCodes {
 		parentStructure := getParentStructure(countryCode, sw)
-		parentMap := make(map[string]SubDivision)
+		parentSubDivCodeMap := make(map[string]SubDivisionNameWrapper)
+		parentSubDivNameMap := make(map[string]SubDivisionCodeWrapper)
+
 		for k, v := range parentStructure {
-			tmpSubDiv := make(map[string]SubDivision)
+			tmpSubDivCode := make(map[string]SubDivisionNameWrapper)
+			tmpSubDivName := make(map[string]SubDivisionCodeWrapper)
+
 			for _, subCode := range v {
-				tmpSubDiv[subCode] = getSubDivision(countryCode, subCode, sw)
+				subDiv := getSubDivision(countryCode, subCode, sw)
+				tmpSubDivCode[subCode] = SubDivisionNameWrapper{
+					Name: subDiv.Name,
+					Type: subDiv.Type,
+				}
+				tmpSubDivName[subDiv.Name] = SubDivisionCodeWrapper{
+					Code: strings.Split(subDiv.Code, "-")[1],
+				}
 			}
 			subDiv := getSubDivision(countryCode, k, sw)
-			subDiv.Child = tmpSubDiv
-			parentMap[k] = subDiv
+			subDivCode := SubDivisionNameWrapper{
+				Name:             subDiv.Name,
+				Type:             subDiv.Type,
+				SubDivCodeToName: tmpSubDivCode,
+			}
+			subDivName := SubDivisionCodeWrapper{
+				Code:             strings.Split(subDiv.Code, "-")[1],
+				SubDivNameToCode: tmpSubDivName,
+			}
+
+			parentSubDivCodeMap[k] = subDivCode
+			parentSubDivNameMap[getSubDivName(countryCode, k, sw)] = subDivName
 		}
 		country := getCountry(countryCode, cw)
-		country.Child = parentMap
+		country.SubDivCodeToName = parentSubDivCodeMap
+		country.SubDivNameToCode = parentSubDivNameMap
 		countryMap[countryCode] = country
 	}
 
 	return countryMap
+}
+
+func getSubDivName(countryCode, divCode string, sw SubDivisionWrapper) string {
+	subDivName := ""
+	count := 0
+	for _, sd := range sw.SubDivisions {
+		if sd.Code == countryCode+"-"+divCode {
+			subDivName = sd.Name
+			count++
+		}
+	}
+	if count != 1 {
+		panic(divCode)
+	}
+	return subDivName
 }
 
 func getCountryNameToAlpha2Map(cw CountryWrapper) map[string]string {
@@ -135,16 +183,20 @@ package iso3166
 		OfficialName string 
 		CommonName   string 
 		Numeric      string 
-		Child        map[string]SubDivision
+		SubDivCodeToName map[string]SubDivisionNameWrapper
+		SubDivNameToCode map[string]SubDivisionCodeWrapper
 	}
 
-	type SubDivision struct {
-		Name   string 
-		Code   string
-		Parent string
-		Type   string
-		Child  map[string]SubDivision
-}
+	type SubDivisionNameWrapper struct {
+		Name             string                            
+		Type             string                            
+		SubDivCodeToName map[string]SubDivisionNameWrapper
+	}
+
+		type SubDivisionCodeWrapper struct {
+		Code             string                            
+		SubDivNameToCode map[string]SubDivisionCodeWrapper 
+	}
 
 	var CountryStates = map[string]Country {
 	{{ range $key, $value := . }}
@@ -155,22 +207,36 @@ package iso3166
 			OfficialName:	"{{$value.OfficialName}}",
 			CommonName:	"{{$value.CommonName}}",
 			Numeric:		"{{$value.Numeric}}",
-			{{ if ne (len $value.Child) 0}}
-			Child:       map[string]SubDivision{
-							{{ range $sk1, $sk2 := $value.Child}}
+			{{ if ne (len $value.SubDivCodeToName) 0}}
+			SubDivCodeToName:       map[string]SubDivisionNameWrapper{
+							{{ range $sk1, $sk2 := $value.SubDivCodeToName}}
 								"{{$sk1}}": {
 									Name:   "{{$sk2.Name}}",
-									Code:   "{{$sk2.Code}}",
-									Parent: "{{$sk2.Parent}}",
 									Type:   "{{$sk2.Type}}",
-									{{ if ne (len $sk2.Child) 0}}
-									Child:  map[string]SubDivision{
-										{{ range $childKey, $childVal := $sk2.Child}}
+									{{ if ne (len $sk2.SubDivCodeToName) 0}}
+									SubDivCodeToName:  map[string]SubDivisionNameWrapper{
+										{{ range $childKey, $childVal := $sk2.SubDivCodeToName}}
 											"{{$childKey}}": {
 												Name:   "{{$childVal.Name}}",
-												Code:   "{{$childVal.Code}}",
-												Parent: "{{$childVal.Parent}}",
 												Type:   "{{$childVal.Type}}",
+											},
+										{{- end}}
+										},
+									{{- end}}
+								},
+							{{- end}}
+							},
+			{{- end}}
+			{{ if ne (len $value.SubDivNameToCode) 0}}
+			SubDivNameToCode:       map[string]SubDivisionCodeWrapper{
+							{{ range $sk1, $sk2 := $value.SubDivNameToCode}}
+								"{{$sk1}}": {
+									Code:   "{{$sk2.Code}}",
+									{{ if ne (len $sk2.SubDivNameToCode) 0}}
+									SubDivNameToCode:  map[string]SubDivisionCodeWrapper{
+										{{ range $childKey, $childVal := $sk2.SubDivNameToCode}}
+											"{{$childKey}}": {
+												Code:   "{{$childVal.Code}}",
 											},
 										{{- end}}
 										},
@@ -224,7 +290,7 @@ func GenerateCountryStates(data map[string]Country) {
 	}
 }
 
-func GenerateCountryToAlpha2(data map[string]string)  {
+func GenerateCountryToAlpha2(data map[string]string) {
 	tmpl, err := template.New("country-to-alpha2-generator").Parse(countryToAlpha2Tmpl)
 	if err != nil {
 		panic(err)

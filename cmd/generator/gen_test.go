@@ -40,16 +40,27 @@ func TestGenerateCountryToAlpha2(t *testing.T) {
 
 func TestSlicesToMap(t *testing.T) {
 	var sdw SubDivisionWrapper
-	parseFile("../data/iso3166-2.json", &sdw)
+	parseFile("../../data/iso3166-2.json", &sdw)
 
 	var cw CountryWrapper
-	parseFile("../data/iso3166-1.json", &cw)
+	parseFile("../../data/iso3166-1.json", &cw)
 
 	countrySlice := SlicesToMap(cw, sdw)
-	for k, v := range countrySlice["RS"].Child {
-		fmt.Println(k, ":")
-		if len(v.Child) != 0 {
-			fmt.Printf("\t%v\n", v)
+	for k, v := range countrySlice["HU"].SubDivCodeToName {
+		fmt.Println(k, ":",v.Name)
+		if len(v.SubDivCodeToName) != 0 {
+			for k1,v1 := range v.SubDivCodeToName {
+				fmt.Printf("\t %s -> %s, \n",k1,v1.Name)
+			}
+		}
+	}
+
+	for k, v := range countrySlice["HU"].SubDivNameToCode {
+		fmt.Println(k, ":",v.Code)
+		if len(v.SubDivNameToCode) != 0 {
+			for k1,v1 := range v.SubDivNameToCode {
+				fmt.Printf("\t %s -> %s, \n",k1,v1.Code)
+			}
 		}
 	}
 }
