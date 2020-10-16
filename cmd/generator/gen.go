@@ -13,14 +13,14 @@ type CountryWrapper struct {
 }
 
 type Country struct {
-	Alpha2           string `json:"alpha_2"`
-	Alpha3           string `json:"alpha_3"`
-	Name             string `json:"name"`
-	OfficialName     string `json:"official_name"`
-	CommonName       string `json:"common_name"`
-	Numeric          string `json:"numeric"`
-	SubDivCodeToName map[string]SubDivisionNameWrapper
-	SubDivNameToCode map[string]SubDivisionCodeWrapper
+	Alpha2           string                            `json:"alpha_2"`
+	Alpha3           string                            `json:"alpha_3"`
+	Name             string                            `json:"name"`
+	OfficialName     string                            `json:"official_name"`
+	CommonName       string                            `json:"common_name"`
+	Numeric          string                            `json:"numeric"`
+	SubDivCodeToName map[string]SubDivisionNameWrapper `json:"sub_div_code_to_name"`
+	SubDivNameToCode map[string]SubDivisionCodeWrapper `json:"sub_div_name_to_code"`
 }
 
 type SubDivisionWrapper struct {
@@ -112,6 +112,7 @@ func getSubDivName(countryCode, divCode string, sw SubDivisionWrapper) string {
 	if count != 1 {
 		panic(divCode)
 	}
+
 	return subDivName
 }
 
@@ -120,6 +121,7 @@ func getCountryNameToAlpha2Map(cw CountryWrapper) map[string]string {
 	for _, country := range cw.Countries {
 		cNameToAlpha2Map[country.Name] = country.Alpha2
 	}
+
 	return cNameToAlpha2Map
 }
 
@@ -156,6 +158,7 @@ func getParentStructure(countryCode string, sw SubDivisionWrapper) map[string][]
 			}
 		}
 	}
+
 	return parents
 }
 
@@ -164,6 +167,7 @@ func getAlpha2CountryCodes(w CountryWrapper) []string {
 	for _, c := range w.Countries {
 		countries = append(countries, c.Alpha2)
 	}
+
 	return countries
 }
 
