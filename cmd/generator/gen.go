@@ -2,9 +2,7 @@ package generator
 
 import (
 	"bytes"
-	"encoding/json"
 	"go/format"
-	"io/ioutil"
 	"os"
 	"strings"
 	"text/template"
@@ -30,14 +28,18 @@ type SubDivisionWrapper struct {
 }
 
 type SubDivision struct {
-	Name   string `json:"name"`
-	Code   string `json:"code"`
-	Parent string `json:"parent"`
-	Type   string `json:"type"`
+	Name         string `json:"name"`
+	LocalName    string `json:"local_name"`
+	LanguageCode string `json:"language_code"`
+	Code         string `json:"code"`
+	Parent       string `json:"parent"`
+	Type         string `json:"type"`
 }
 
 type SubDivisionNameWrapper struct {
 	Name             string                            `json:"name"`
+	LocalName        string                            `json:"local_name"`
+	LanguageCode     string                            `json:"language_code"`
 	Type             string                            `json:"type"`
 	SubDivCodeToName map[string]SubDivisionNameWrapper `json:"subdivision"`
 }
@@ -45,20 +47,6 @@ type SubDivisionNameWrapper struct {
 type SubDivisionCodeWrapper struct {
 	Code             string                            `json:"code"`
 	SubDivNameToCode map[string]SubDivisionCodeWrapper `json:"subdivision"`
-}
-
-func parseFile(filename string, s interface{}) {
-	if err := json.Unmarshal(readFile(filename), &s); err != nil {
-		panic(err)
-	}
-}
-
-func readFile(fileName string) []byte {
-	dat, err := ioutil.ReadFile(fileName)
-	if err != nil {
-		panic(err)
-	}
-	return dat
 }
 
 func SlicesToMap(cw CountryWrapper, sw SubDivisionWrapper) map[string]Country {
@@ -77,16 +65,21 @@ func SlicesToMap(cw CountryWrapper, sw SubDivisionWrapper) map[string]Country {
 			for _, subCode := range v {
 				subDiv := getSubDivision(countryCode, subCode, sw)
 				tmpSubDivCode[subCode] = SubDivisionNameWrapper{
-					Name: subDiv.Name,
-					Type: subDiv.Type,
+					Name:         subDiv.Name,
+					LocalName:    subDiv.LocalName,
+					LanguageCode: subDiv.LanguageCode,
+					Type:         subDiv.Type,
 				}
 				tmpSubDivName[subDiv.Name] = SubDivisionCodeWrapper{
 					Code: strings.Split(subDiv.Code, "-")[1],
 				}
 			}
+
 			subDiv := getSubDivision(countryCode, k, sw)
 			subDivCode := SubDivisionNameWrapper{
 				Name:             subDiv.Name,
+				LocalName:        subDiv.LocalName,
+				LanguageCode:     subDiv.LanguageCode,
 				Type:             subDiv.Type,
 				SubDivCodeToName: tmpSubDivCode,
 			}
@@ -136,7 +129,7 @@ func getCountry(countryCode string, cw CountryWrapper) Country {
 			return country
 		}
 	}
-	panic("not found")
+	panic("country not found")
 }
 
 func getSubDivision(countryCode, subCode string, sw SubDivisionWrapper) SubDivision {
@@ -145,7 +138,7 @@ func getSubDivision(countryCode, subCode string, sw SubDivisionWrapper) SubDivis
 			return subDivision
 		}
 	}
-	panic("not found")
+	panic("subdiv not found" + countryCode + "subcode:" + subCode)
 }
 
 func getParentStructure(countryCode string, sw SubDivisionWrapper) map[string][]string {
@@ -153,7 +146,11 @@ func getParentStructure(countryCode string, sw SubDivisionWrapper) map[string][]
 	for _, sd := range sw.SubDivisions {
 		if code := strings.Split(sd.Code, "-"); code[0] == countryCode {
 			if sd.Parent != "" {
-				parents[sd.Parent] = append(parents[sd.Parent], code[1])
+				parentCode := sd.Parent
+				if splitted := strings.Split(sd.Parent, "-"); len(splitted) == 2 {
+					parentCode = splitted[1]
+				}
+				parents[parentCode] = append(parents[sd.Parent], code[1])
 			} else if _, ok := parents[code[1]]; !ok {
 				parents[code[1]] = make([]string, 0)
 			}
@@ -189,7 +186,9 @@ package iso3166
 
 	type SubDivisionNameWrapper struct {
 		Name             string                            
-		Type             string                            
+		Type             string
+		LocalName        string
+		LanguageCode     string 
 		SubDivCodeToName map[string]SubDivisionNameWrapper
 	}
 
@@ -212,12 +211,16 @@ package iso3166
 							{{ range $sk1, $sk2 := $value.SubDivCodeToName}}
 								"{{$sk1}}": {
 									Name:   "{{$sk2.Name}}",
+									LocalName: "{{$sk2.LocalName}}",
+									LanguageCode: "{{$sk2.LanguageCode}}",
 									Type:   "{{$sk2.Type}}",
 									{{ if ne (len $sk2.SubDivCodeToName) 0}}
 									SubDivCodeToName:  map[string]SubDivisionNameWrapper{
 										{{ range $childKey, $childVal := $sk2.SubDivCodeToName}}
 											"{{$childKey}}": {
 												Name:   "{{$childVal.Name}}",
+												LocalName: "{{$childVal.LocalName}}",
+												LanguageCode: "{{$childVal.LanguageCode}}",
 												Type:   "{{$childVal.Type}}",
 											},
 										{{- end}}
