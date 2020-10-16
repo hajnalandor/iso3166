@@ -22,6 +22,7 @@ func CountryNameToAlpha2(name string) (string, error) {
 
 func ValidCountryName(name string) bool {
 	_, ok := CountryToAlpha2[name]
+
 	return ok
 }
 
@@ -30,12 +31,14 @@ func CountryCodeToName(code string) (string, error) {
 	if country, ok := CountryStates[code]; ok {
 		return country.Name, nil
 	}
+
 	return "", ErrInvalidCountryCode
 }
 
 func ValidCountryCode(code string) bool {
 	code = strings.ToUpper(code)
 	_, ok := CountryStates[code]
+
 	return ok
 }
 
@@ -56,6 +59,7 @@ func SubDivisionNameToCode(countryCode, subDivName string) (string, error) {
 			return codeWrapper.Code, nil
 		}
 	}
+
 	return "", ErrInvalidSubDivName
 }
 
@@ -76,5 +80,6 @@ func SubDivisionCodeToName(countryCode, subDivCode string) (string, error) {
 			return codeWrapper.Name, nil
 		}
 	}
+
 	return "", ErrInvalidSubDivCode
 }

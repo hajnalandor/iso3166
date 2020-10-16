@@ -16,10 +16,5 @@ func MustParseJSONFile(filename string, s interface{}) {
 }
 
 func readFile(fileName string) ([]byte, error) {
-	dat, err := ioutil.ReadFile(fileName)
-	if err != nil {
-		return nil, err
-	}
-
-	return dat, nil
+	return ioutil.ReadFile(fileName)
 }

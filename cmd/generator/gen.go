@@ -55,65 +55,55 @@ func SlicesToMap(cw CountryWrapper, sw SubDivisionWrapper) map[string]Country {
 
 	for _, countryCode := range countryCodes {
 		parentStructure := getParentStructure(countryCode, sw)
-		parentSubDivCodeMap := make(map[string]SubDivisionNameWrapper)
-		parentSubDivNameMap := make(map[string]SubDivisionCodeWrapper)
-
-		for k, v := range parentStructure {
-			tmpSubDivCode := make(map[string]SubDivisionNameWrapper)
-			tmpSubDivName := make(map[string]SubDivisionCodeWrapper)
-
-			for _, subCode := range v {
-				subDiv := getSubDivision(countryCode, subCode, sw)
-				tmpSubDivCode[subCode] = SubDivisionNameWrapper{
-					Name:         subDiv.Name,
-					LocalName:    subDiv.LocalName,
-					LanguageCode: subDiv.LanguageCode,
-					Type:         subDiv.Type,
-				}
-				tmpSubDivName[subDiv.Name] = SubDivisionCodeWrapper{
-					Code: strings.Split(subDiv.Code, "-")[1],
-				}
-			}
-
-			subDiv := getSubDivision(countryCode, k, sw)
-			subDivCode := SubDivisionNameWrapper{
-				Name:             subDiv.Name,
-				LocalName:        subDiv.LocalName,
-				LanguageCode:     subDiv.LanguageCode,
-				Type:             subDiv.Type,
-				SubDivCodeToName: tmpSubDivCode,
-			}
-			subDivName := SubDivisionCodeWrapper{
-				Code:             strings.Split(subDiv.Code, "-")[1],
-				SubDivNameToCode: tmpSubDivName,
-			}
-
-			parentSubDivCodeMap[k] = subDivCode
-			parentSubDivNameMap[getSubDivName(countryCode, k, sw)] = subDivName
-		}
 		country := getCountry(countryCode, cw)
-		country.SubDivCodeToName = parentSubDivCodeMap
-		country.SubDivNameToCode = parentSubDivNameMap
+		country.SubDivCodeToName, country.SubDivNameToCode = buildSubDiv(parentStructure, countryCode, sw)
 		countryMap[countryCode] = country
 	}
 
 	return countryMap
 }
 
-func getSubDivName(countryCode, divCode string, sw SubDivisionWrapper) string {
-	subDivName := ""
-	count := 0
-	for _, sd := range sw.SubDivisions {
-		if sd.Code == countryCode+"-"+divCode {
-			subDivName = sd.Name
-			count++
+func buildSubDiv(parent map[string][]string,
+	countryCode string, wrapper SubDivisionWrapper) (map[string]SubDivisionNameWrapper, map[string]SubDivisionCodeWrapper) {
+	parentSubDivCodeMap := make(map[string]SubDivisionNameWrapper)
+	parentSubDivNameMap := make(map[string]SubDivisionCodeWrapper)
+	for subCode, parent := range parent {
+		subSubDivCode, subSubDivName := buildSubSubDiv(parent, countryCode, wrapper)
+
+		subDiv := getSubDivision(countryCode, subCode, wrapper)
+		parentSubDivCodeMap[subCode] = SubDivisionNameWrapper{
+			Name:             subDiv.Name,
+			LocalName:        subDiv.LocalName,
+			LanguageCode:     subDiv.LanguageCode,
+			Type:             subDiv.Type,
+			SubDivCodeToName: subSubDivCode,
+		}
+		parentSubDivNameMap[subDiv.Name] = SubDivisionCodeWrapper{
+			Code:             strings.Split(subDiv.Code, "-")[1],
+			SubDivNameToCode: subSubDivName,
 		}
 	}
-	if count != 1 {
-		panic(divCode)
+
+	return parentSubDivCodeMap, parentSubDivNameMap
+}
+
+func buildSubSubDiv(parent []string, countryCode string, wrapper SubDivisionWrapper) (map[string]SubDivisionNameWrapper, map[string]SubDivisionCodeWrapper) {
+	tmpSubDivCode := make(map[string]SubDivisionNameWrapper)
+	tmpSubDivName := make(map[string]SubDivisionCodeWrapper)
+	for _, subCode := range parent {
+		subDiv := getSubDivision(countryCode, subCode, wrapper)
+		tmpSubDivCode[subCode] = SubDivisionNameWrapper{
+			Name:         subDiv.Name,
+			LocalName:    subDiv.LocalName,
+			LanguageCode: subDiv.LanguageCode,
+			Type:         subDiv.Type,
+		}
+		tmpSubDivName[subDiv.Name] = SubDivisionCodeWrapper{
+			Code: strings.Split(subDiv.Code, "-")[1],
+		}
 	}
 
-	return subDivName
+	return tmpSubDivCode, tmpSubDivName
 }
 
 func getCountryNameToAlpha2Map(cw CountryWrapper) map[string]string {

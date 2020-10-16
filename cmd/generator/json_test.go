@@ -3,7 +3,7 @@ package generator
 import "testing"
 
 func TestReadFile(t *testing.T) {
-	readFile("../data/iso3166-1.json")
+	_, _ = readFile("../data/iso3166-1.json")
 }
 
 func TestParseFile(t *testing.T) {

@@ -25,6 +25,7 @@ func MustParseCsv(fileName string) []SubDiv {
 	if err != nil {
 		panic(err)
 	}
+
 	return parseCsv
 }
 
