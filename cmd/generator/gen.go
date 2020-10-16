@@ -152,7 +152,7 @@ func getParentStructure(countryCode string, sw SubDivisionWrapper) map[string][]
 				if splitted := strings.Split(sd.Parent, "-"); len(splitted) == 2 {
 					parentCode = splitted[1]
 				}
-				parents[parentCode] = append(parents[sd.Parent], code[1])
+				parents[parentCode] = append(parents[parentCode], code[1])
 			} else if _, ok := parents[code[1]]; !ok {
 				parents[code[1]] = make([]string, 0)
 			}
