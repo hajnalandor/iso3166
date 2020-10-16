@@ -27,7 +27,6 @@ func ValidCountryName(name string) bool {
 }
 
 func CountryCodeToName(code string) (string, error) {
-	code = strings.ToUpper(code)
 	if country, ok := CountryStates[code]; ok {
 		return country.Name, nil
 	}
@@ -36,7 +35,6 @@ func CountryCodeToName(code string) (string, error) {
 }
 
 func ValidCountryCode(code string) bool {
-	code = strings.ToUpper(code)
 	_, ok := CountryStates[code]
 
 	return ok

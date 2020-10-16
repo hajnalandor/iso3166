@@ -52,19 +52,19 @@ func TestValidCountryName(t *testing.T) {
 	}{
 		{
 			name: "United States",
-			want: false,
-		},
-		{
-			name: "Canada",
-			want: false,
-		},
-		{
-			name: "Invalid",
 			want: true,
 		},
 		{
-			name: "Hungary",
+			name: "Canada",
+			want: true,
+		},
+		{
+			name: "Invalid",
 			want: false,
+		},
+		{
+			name: "Hungary",
+			want: true,
 		},
 	}
 	for _, tt := range tests {
@@ -90,8 +90,7 @@ func TestCountryCodeToName(t *testing.T) {
 		},
 		{
 			code:    "us",
-			want:    "United States",
-			wantErr: false,
+			wantErr: true,
 		},
 		{
 			code:    "CA",
@@ -132,7 +131,7 @@ func TestValidCountryCode(t *testing.T) {
 	}{
 		{
 			code: "US",
-			want: false,
+			want: true,
 		},
 		{
 			code: "us",
@@ -140,15 +139,15 @@ func TestValidCountryCode(t *testing.T) {
 		},
 		{
 			code: "CA",
-			want: false,
-		},
-		{
-			code: "Invalid",
 			want: true,
 		},
 		{
-			code: "HU",
+			code: "Invalid",
 			want: false,
+		},
+		{
+			code: "HU",
+			want: true,
 		},
 	}
 	for _, tt := range tests {
