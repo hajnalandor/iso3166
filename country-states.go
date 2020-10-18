@@ -2248,8 +2248,32 @@ var CountryStates = map[string]Country{
 
 				SubDivCodeToName: map[string]SubDivisionNameWrapper{
 
+					"25": {
+						Name:         "Kosovski okrug",
+						LocalName:    "",
+						LanguageCode: "sr",
+						Type:         "district",
+					},
+					"26": {
+						Name:         "Pećki okrug",
+						LocalName:    "",
+						LanguageCode: "sr",
+						Type:         "district",
+					},
 					"27": {
 						Name:         "Prizrenski okrug",
+						LocalName:    "",
+						LanguageCode: "sr",
+						Type:         "district",
+					},
+					"28": {
+						Name:         "Kosovsko-Mitrovački okrug",
+						LocalName:    "",
+						LanguageCode: "sr",
+						Type:         "district",
+					},
+					"29": {
+						Name:         "Kosovsko-Pomoravski okrug",
 						LocalName:    "",
 						LanguageCode: "sr",
 						Type:         "district",
@@ -2264,8 +2288,44 @@ var CountryStates = map[string]Country{
 
 				SubDivCodeToName: map[string]SubDivisionNameWrapper{
 
+					"01": {
+						Name:         "Severnobački okrug",
+						LocalName:    "",
+						LanguageCode: "sr",
+						Type:         "district",
+					},
+					"02": {
+						Name:         "Srednjebanatski okrug",
+						LocalName:    "",
+						LanguageCode: "sr",
+						Type:         "district",
+					},
+					"03": {
+						Name:         "Severnobanatski okrug",
+						LocalName:    "",
+						LanguageCode: "sr",
+						Type:         "district",
+					},
+					"04": {
+						Name:         "Južnobanatski okrug",
+						LocalName:    "",
+						LanguageCode: "sr",
+						Type:         "district",
+					},
 					"05": {
 						Name:         "Zapadnobački okrug",
+						LocalName:    "",
+						LanguageCode: "sr",
+						Type:         "district",
+					},
+					"06": {
+						Name:         "Južnobački okrug",
+						LocalName:    "",
+						LanguageCode: "sr",
+						Type:         "district",
+					},
+					"07": {
+						Name:         "Sremski okrug",
 						LocalName:    "",
 						LanguageCode: "sr",
 						Type:         "district",
@@ -2296,6 +2356,18 @@ var CountryStates = map[string]Country{
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
+					"Kosovski okrug": {
+						Code: "25",
+					},
+					"Kosovsko-Mitrovački okrug": {
+						Code: "28",
+					},
+					"Kosovsko-Pomoravski okrug": {
+						Code: "29",
+					},
+					"Pećki okrug": {
+						Code: "26",
+					},
 					"Prizrenski okrug": {
 						Code: "27",
 					},
@@ -2336,6 +2408,24 @@ var CountryStates = map[string]Country{
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
+					"Južnobanatski okrug": {
+						Code: "04",
+					},
+					"Južnobački okrug": {
+						Code: "06",
+					},
+					"Severnobanatski okrug": {
+						Code: "03",
+					},
+					"Severnobački okrug": {
+						Code: "01",
+					},
+					"Srednjebanatski okrug": {
+						Code: "02",
+					},
+					"Sremski okrug": {
+						Code: "07",
+					},
 					"Zapadnobački okrug": {
 						Code: "05",
 					},

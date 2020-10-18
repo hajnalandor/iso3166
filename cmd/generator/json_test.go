@@ -3,21 +3,21 @@ package generator
 import "testing"
 
 func TestReadFile(t *testing.T) {
-	readFile("../data/iso3166-1.json")
+	_, _ = readFile("../data/iso3166-1.json")
 }
 
 func TestParseFile(t *testing.T) {
 	var w CountryWrapper
 
-	parseJSONFile("../data/iso3166-1.json", &w)
+	MustParseJSONFile("../data/iso3166-1.json", &w)
 }
 
 func TestGenerateFromJSON(t *testing.T) {
 	var sdw SubDivisionWrapper
-	parseJSONFile("../../data/iso3166-2.json", &sdw)
+	MustParseJSONFile("../../data/iso3166-2.json", &sdw)
 
 	var cw CountryWrapper
-	parseJSONFile("../../data/iso3166-1.json", &cw)
+	MustParseJSONFile("../../data/iso3166-1.json", &cw)
 
 	countrySlice := SlicesToMap(cw, sdw)
 	GenerateCountryStates(countrySlice)
@@ -25,7 +25,7 @@ func TestGenerateFromJSON(t *testing.T) {
 
 func TestGenerateCountryToAlpha2FromJSON(t *testing.T) {
 	var cw CountryWrapper
-	parseJSONFile("../../data/iso3166-1.json", &cw)
+	MustParseJSONFile("../../data/iso3166-1.json", &cw)
 
 	data := getCountryNameToAlpha2Map(cw)
 	GenerateCountryToAlpha2(data)

@@ -3,10 +3,11 @@ package generator
 import (
 	"bufio"
 	"encoding/csv"
-	"github.com/gocarina/gocsv"
-	"log"
+	"fmt"
 	"os"
 	"strings"
+
+	"github.com/gocarina/gocsv"
 )
 
 type SubDiv struct {
@@ -19,19 +20,29 @@ type SubDiv struct {
 	Parent             string `csv:"parent"`
 }
 
-func ParseCsv(fileName string) []SubDiv {
+func MustParseCsv(fileName string) []SubDiv {
+	parseCsv, err := ParseCsv(fileName)
+	if err != nil {
+		panic(err)
+	}
+
+	return parseCsv
+}
+
+func ParseCsv(fileName string) ([]SubDiv, error) {
 	csvFile, err := os.Open(fileName)
 	if err != nil {
-		log.Fatalln("Couldn't open the csv file", err)
+		return nil, fmt.Errorf("couldn't open the csv file because %v", err)
 	}
 
 	reader := csv.NewReader(bufio.NewReader(csvFile))
 	var lines []SubDiv
 
 	if err := gocsv.UnmarshalCSV(reader, &lines); err != nil {
-		panic("error unmarshalling csv")
+		return nil, err
 	}
-	return lines
+
+	return cleanLines(lines), nil
 }
 
 func cleanLines(csvLines []SubDiv) []SubDiv {
@@ -40,6 +51,7 @@ func cleanLines(csvLines []SubDiv) []SubDiv {
 		l.Code = strings.Replace(l.Code, "*", "", -1)
 		cLines = append(cLines, l)
 	}
+
 	return cLines
 }
 
@@ -47,13 +59,14 @@ func mapToSubDivision(csvLines []SubDiv) SubDivisionWrapper {
 	sd := make([]SubDivision, 0)
 	for _, l := range csvLines {
 		sd = append(sd, SubDivision{
-			Name:   l.Name,
-			LocalName: l.Local,
+			Name:         l.Name,
+			LocalName:    l.Local,
 			LanguageCode: l.LanguageCode,
-			Code:   l.Code,
-			Parent: l.Parent,
-			Type:   l.Type,
+			Code:         l.Code,
+			Parent:       l.Parent,
+			Type:         l.Type,
 		})
 	}
+
 	return SubDivisionWrapper{SubDivisions: sd}
 }

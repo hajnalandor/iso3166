@@ -30,10 +30,12 @@ func TestCountryNameToAlpha2(t *testing.T) {
 		},
 	}
 	for _, tt := range tests {
+		tt := tt
 		t.Run(tt.name, func(t *testing.T) {
 			got, err := CountryNameToAlpha2(tt.name)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("CountryNameToAlpha2() error = %v, wantErr %v", err, tt.wantErr)
+
 				return
 			}
 			if got != tt.want {
@@ -50,22 +52,23 @@ func TestValidCountryName(t *testing.T) {
 	}{
 		{
 			name: "United States",
-			want: false,
-		},
-		{
-			name: "Canada",
-			want: false,
-		},
-		{
-			name: "Invalid",
 			want: true,
 		},
 		{
-			name: "Hungary",
+			name: "Canada",
+			want: true,
+		},
+		{
+			name: "Invalid",
 			want: false,
+		},
+		{
+			name: "Hungary",
+			want: true,
 		},
 	}
 	for _, tt := range tests {
+		tt := tt
 		t.Run(tt.name, func(t *testing.T) {
 			if got := ValidCountryName(tt.name); got != tt.want {
 				t.Errorf("ValidCountryName() = %v, want %v", got, tt.want)
@@ -87,8 +90,7 @@ func TestCountryCodeToName(t *testing.T) {
 		},
 		{
 			code:    "us",
-			want:    "United States",
-			wantErr: false,
+			wantErr: true,
 		},
 		{
 			code:    "CA",
@@ -107,10 +109,12 @@ func TestCountryCodeToName(t *testing.T) {
 		},
 	}
 	for _, tt := range tests {
+		tt := tt
 		t.Run(tt.code, func(t *testing.T) {
 			got, err := CountryCodeToName(tt.code)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("CountryCodeToName() error = %v, wantErr %v", err, tt.wantErr)
+
 				return
 			}
 			if got != tt.want {
@@ -127,7 +131,7 @@ func TestValidCountryCode(t *testing.T) {
 	}{
 		{
 			code: "US",
-			want: false,
+			want: true,
 		},
 		{
 			code: "us",
@@ -135,18 +139,19 @@ func TestValidCountryCode(t *testing.T) {
 		},
 		{
 			code: "CA",
-			want: false,
-		},
-		{
-			code: "Invalid",
 			want: true,
 		},
 		{
-			code: "HU",
+			code: "Invalid",
 			want: false,
+		},
+		{
+			code: "HU",
+			want: true,
 		},
 	}
 	for _, tt := range tests {
+		tt := tt
 		t.Run(tt.code, func(t *testing.T) {
 			if got := ValidCountryCode(tt.code); got != tt.want {
 				t.Errorf("ValidCountryCode() = %v, want %v", got, tt.want)
@@ -314,10 +319,12 @@ func TestSubDivisionNameToCode(t *testing.T) {
 		},
 	}
 	for _, tt := range tests {
+		tt := tt
 		t.Run(tt.countryCode+tt.subDivName, func(t *testing.T) {
 			got, err := SubDivisionNameToCode(tt.countryCode, tt.subDivName)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("SubDivisionNameToCode() error = %v, wantErr %v", err, tt.wantErr)
+
 				return
 			}
 			if got != tt.want {
