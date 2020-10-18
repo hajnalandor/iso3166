@@ -36,6 +36,77 @@ var CountryStates = map[string]Country{
 		OfficialName: "Principality of Andorra",
 		CommonName:   "",
 		Numeric:      "020",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"02": {
+				Name:         "Canillo",
+				LocalName:    "",
+				LanguageCode: "ca",
+				Type:         "parish",
+			},
+			"03": {
+				Name:         "Encamp",
+				LocalName:    "",
+				LanguageCode: "ca",
+				Type:         "parish",
+			},
+			"04": {
+				Name:         "La Massana",
+				LocalName:    "",
+				LanguageCode: "ca",
+				Type:         "parish",
+			},
+			"05": {
+				Name:         "Ordino",
+				LocalName:    "",
+				LanguageCode: "ca",
+				Type:         "parish",
+			},
+			"06": {
+				Name:         "Sant Julià de Lòria",
+				LocalName:    "",
+				LanguageCode: "ca",
+				Type:         "parish",
+			},
+			"07": {
+				Name:         "Andorra la Vella",
+				LocalName:    "",
+				LanguageCode: "ca",
+				Type:         "parish",
+			},
+			"08": {
+				Name:         "Escaldes-Engordany",
+				LocalName:    "",
+				LanguageCode: "ca",
+				Type:         "parish",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Andorra la Vella": {
+				Code: "07",
+			},
+			"Canillo": {
+				Code: "02",
+			},
+			"Encamp": {
+				Code: "03",
+			},
+			"Escaldes-Engordany": {
+				Code: "08",
+			},
+			"La Massana": {
+				Code: "04",
+			},
+			"Ordino": {
+				Code: "05",
+			},
+			"Sant Julià de Lòria": {
+				Code: "06",
+			},
+		},
 	},
 
 	"AE": {
@@ -45,6 +116,77 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "784",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AJ": {
+				Name:         "‘Ajmān",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "emirate",
+			},
+			"AZ": {
+				Name:         "Abū Z̧aby",
+				LocalName:    "Abu Dhabi",
+				LanguageCode: "ar",
+				Type:         "emirate",
+			},
+			"DU": {
+				Name:         "Dubayy",
+				LocalName:    "Dubai",
+				LanguageCode: "ar",
+				Type:         "emirate",
+			},
+			"FU": {
+				Name:         "Al Fujayrah",
+				LocalName:    "Fujairah",
+				LanguageCode: "ar",
+				Type:         "emirate",
+			},
+			"RK": {
+				Name:         "Ra’s al Khaymah",
+				LocalName:    "Ras Al Khaimah",
+				LanguageCode: "ar",
+				Type:         "emirate",
+			},
+			"SH": {
+				Name:         "Ash Shāriqah",
+				LocalName:    "Sharjah",
+				LanguageCode: "ar",
+				Type:         "emirate",
+			},
+			"UQ": {
+				Name:         "Umm al Qaywayn",
+				LocalName:    "Umm Al Quwain",
+				LanguageCode: "ar",
+				Type:         "emirate",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Abū Z̧aby": {
+				Code: "AZ",
+			},
+			"Al Fujayrah": {
+				Code: "FU",
+			},
+			"Ash Shāriqah": {
+				Code: "SH",
+			},
+			"Dubayy": {
+				Code: "DU",
+			},
+			"Ra’s al Khaymah": {
+				Code: "RK",
+			},
+			"Umm al Qaywayn": {
+				Code: "UQ",
+			},
+			"‘Ajmān": {
+				Code: "AJ",
+			},
+		},
 	},
 
 	"AF": {
@@ -54,6 +196,320 @@ var CountryStates = map[string]Country{
 		OfficialName: "Islamic Republic of Afghanistan",
 		CommonName:   "",
 		Numeric:      "004",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BAL": {
+				Name:         "Balkh",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"BAM": {
+				Name:         "Bāmyān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"BDG": {
+				Name:         "Bādghīs",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"BDS": {
+				Name:         "Badakhshān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"BGL": {
+				Name:         "Baghlān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"DAY": {
+				Name:         "Dāykundī",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"FRA": {
+				Name:         "Farāh",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"FYB": {
+				Name:         "Fāryāb",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"GHA": {
+				Name:         "Ghaznī",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"GHO": {
+				Name:         "Ghōr",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"HEL": {
+				Name:         "Helmand",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"HER": {
+				Name:         "Herāt",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"JOW": {
+				Name:         "Jowzjān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"KAB": {
+				Name:         "Kābul",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"KAN": {
+				Name:         "Kandahār",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"KAP": {
+				Name:         "Kāpīsā",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"KDZ": {
+				Name:         "Kunduz",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"KHO": {
+				Name:         "Khōst",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"KNR": {
+				Name:         "Kunaṟ",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"LAG": {
+				Name:         "Laghmān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"LOG": {
+				Name:         "Lōgar",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"NAN": {
+				Name:         "Nangarhār",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"NIM": {
+				Name:         "Nīmrōz",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"NUR": {
+				Name:         "Nūristān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"PAN": {
+				Name:         "Panjshayr",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"PAR": {
+				Name:         "Parwān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"PIA": {
+				Name:         "Paktiyā",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"PKA": {
+				Name:         "Paktīkā",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"SAM": {
+				Name:         "Samangān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"SAR": {
+				Name:         "Sar-e Pul",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"TAK": {
+				Name:         "Takhār",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"URU": {
+				Name:         "Uruzgān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"WAR": {
+				Name:         "Wardak",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"ZAB": {
+				Name:         "Zābul",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Badakhshān": {
+				Code: "BDS",
+			},
+			"Baghlān": {
+				Code: "BGL",
+			},
+			"Balkh": {
+				Code: "BAL",
+			},
+			"Bādghīs": {
+				Code: "BDG",
+			},
+			"Bāmyān": {
+				Code: "BAM",
+			},
+			"Dāykundī": {
+				Code: "DAY",
+			},
+			"Farāh": {
+				Code: "FRA",
+			},
+			"Fāryāb": {
+				Code: "FYB",
+			},
+			"Ghaznī": {
+				Code: "GHA",
+			},
+			"Ghōr": {
+				Code: "GHO",
+			},
+			"Helmand": {
+				Code: "HEL",
+			},
+			"Herāt": {
+				Code: "HER",
+			},
+			"Jowzjān": {
+				Code: "JOW",
+			},
+			"Kandahār": {
+				Code: "KAN",
+			},
+			"Khōst": {
+				Code: "KHO",
+			},
+			"Kunaṟ": {
+				Code: "KNR",
+			},
+			"Kunduz": {
+				Code: "KDZ",
+			},
+			"Kābul": {
+				Code: "KAB",
+			},
+			"Kāpīsā": {
+				Code: "KAP",
+			},
+			"Laghmān": {
+				Code: "LAG",
+			},
+			"Lōgar": {
+				Code: "LOG",
+			},
+			"Nangarhār": {
+				Code: "NAN",
+			},
+			"Nīmrōz": {
+				Code: "NIM",
+			},
+			"Nūristān": {
+				Code: "NUR",
+			},
+			"Paktiyā": {
+				Code: "PIA",
+			},
+			"Paktīkā": {
+				Code: "PKA",
+			},
+			"Panjshayr": {
+				Code: "PAN",
+			},
+			"Parwān": {
+				Code: "PAR",
+			},
+			"Samangān": {
+				Code: "SAM",
+			},
+			"Sar-e Pul": {
+				Code: "SAR",
+			},
+			"Takhār": {
+				Code: "TAK",
+			},
+			"Uruzgān": {
+				Code: "URU",
+			},
+			"Wardak": {
+				Code: "WAR",
+			},
+			"Zābul": {
+				Code: "ZAB",
+			},
+		},
 	},
 
 	"AG": {
@@ -63,6 +519,86 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "028",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"03": {
+				Name:         "Saint George",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"04": {
+				Name:         "Saint John",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"05": {
+				Name:         "Saint Mary",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"06": {
+				Name:         "Saint Paul",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"07": {
+				Name:         "Saint Peter",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"08": {
+				Name:         "Saint Philip",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"10": {
+				Name:         "Barbuda",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "dependency",
+			},
+			"11": {
+				Name:         "Redonda",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "dependency",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Barbuda": {
+				Code: "10",
+			},
+			"Redonda": {
+				Code: "11",
+			},
+			"Saint George": {
+				Code: "03",
+			},
+			"Saint John": {
+				Code: "04",
+			},
+			"Saint Mary": {
+				Code: "05",
+			},
+			"Saint Paul": {
+				Code: "06",
+			},
+			"Saint Peter": {
+				Code: "07",
+			},
+			"Saint Philip": {
+				Code: "08",
+			},
+		},
 	},
 
 	"AI": {
@@ -81,6 +617,122 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Albania",
 		CommonName:   "",
 		Numeric:      "008",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Berat",
+				LocalName:    "",
+				LanguageCode: "sq",
+				Type:         "county",
+			},
+			"02": {
+				Name:         "Durrës",
+				LocalName:    "",
+				LanguageCode: "sq",
+				Type:         "county",
+			},
+			"03": {
+				Name:         "Elbasan",
+				LocalName:    "",
+				LanguageCode: "sq",
+				Type:         "county",
+			},
+			"04": {
+				Name:         "Fier",
+				LocalName:    "",
+				LanguageCode: "sq",
+				Type:         "county",
+			},
+			"05": {
+				Name:         "Gjirokastër",
+				LocalName:    "",
+				LanguageCode: "sq",
+				Type:         "county",
+			},
+			"06": {
+				Name:         "Korçë",
+				LocalName:    "",
+				LanguageCode: "sq",
+				Type:         "county",
+			},
+			"07": {
+				Name:         "Kukës",
+				LocalName:    "",
+				LanguageCode: "sq",
+				Type:         "county",
+			},
+			"08": {
+				Name:         "Lezhë",
+				LocalName:    "",
+				LanguageCode: "sq",
+				Type:         "county",
+			},
+			"09": {
+				Name:         "Dibër",
+				LocalName:    "",
+				LanguageCode: "sq",
+				Type:         "county",
+			},
+			"10": {
+				Name:         "Shkodër",
+				LocalName:    "",
+				LanguageCode: "sq",
+				Type:         "county",
+			},
+			"11": {
+				Name:         "Tiranë",
+				LocalName:    "",
+				LanguageCode: "sq",
+				Type:         "county",
+			},
+			"12": {
+				Name:         "Vlorë",
+				LocalName:    "",
+				LanguageCode: "sq",
+				Type:         "county",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Berat": {
+				Code: "01",
+			},
+			"Dibër": {
+				Code: "09",
+			},
+			"Durrës": {
+				Code: "02",
+			},
+			"Elbasan": {
+				Code: "03",
+			},
+			"Fier": {
+				Code: "04",
+			},
+			"Gjirokastër": {
+				Code: "05",
+			},
+			"Korçë": {
+				Code: "06",
+			},
+			"Kukës": {
+				Code: "07",
+			},
+			"Lezhë": {
+				Code: "08",
+			},
+			"Shkodër": {
+				Code: "10",
+			},
+			"Tiranë": {
+				Code: "11",
+			},
+			"Vlorë": {
+				Code: "12",
+			},
+		},
 	},
 
 	"AM": {
@@ -90,6 +742,113 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Armenia",
 		CommonName:   "",
 		Numeric:      "051",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AG": {
+				Name:         "Aragac̣otn",
+				LocalName:    "",
+				LanguageCode: "hy",
+				Type:         "region",
+			},
+			"AR": {
+				Name:         "Ararat",
+				LocalName:    "",
+				LanguageCode: "hy",
+				Type:         "region",
+			},
+			"AV": {
+				Name:         "Armavir",
+				LocalName:    "",
+				LanguageCode: "hy",
+				Type:         "region",
+			},
+			"ER": {
+				Name:         "Erevan",
+				LocalName:    "",
+				LanguageCode: "hy",
+				Type:         "city",
+			},
+			"GR": {
+				Name:         "Geġark'unik'",
+				LocalName:    "",
+				LanguageCode: "hy",
+				Type:         "region",
+			},
+			"KT": {
+				Name:         "Kotayk'",
+				LocalName:    "",
+				LanguageCode: "hy",
+				Type:         "region",
+			},
+			"LO": {
+				Name:         "Loṙi",
+				LocalName:    "",
+				LanguageCode: "hy",
+				Type:         "region",
+			},
+			"SH": {
+				Name:         "Širak",
+				LocalName:    "",
+				LanguageCode: "hy",
+				Type:         "region",
+			},
+			"SU": {
+				Name:         "Syunik'",
+				LocalName:    "",
+				LanguageCode: "hy",
+				Type:         "region",
+			},
+			"TV": {
+				Name:         "Tavuš",
+				LocalName:    "",
+				LanguageCode: "hy",
+				Type:         "region",
+			},
+			"VD": {
+				Name:         "Vayoć Jor",
+				LocalName:    "",
+				LanguageCode: "hy",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aragac̣otn": {
+				Code: "AG",
+			},
+			"Ararat": {
+				Code: "AR",
+			},
+			"Armavir": {
+				Code: "AV",
+			},
+			"Erevan": {
+				Code: "ER",
+			},
+			"Geġark'unik'": {
+				Code: "GR",
+			},
+			"Kotayk'": {
+				Code: "KT",
+			},
+			"Loṙi": {
+				Code: "LO",
+			},
+			"Syunik'": {
+				Code: "SU",
+			},
+			"Tavuš": {
+				Code: "TV",
+			},
+			"Vayoć Jor": {
+				Code: "VD",
+			},
+			"Širak": {
+				Code: "SH",
+			},
+		},
 	},
 
 	"AO": {
@@ -99,6 +858,176 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Angola",
 		CommonName:   "",
 		Numeric:      "024",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BGO": {
+				Name:         "Bengo",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"BGU": {
+				Name:         "Benguela",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"BIE": {
+				Name:         "Bié",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"CAB": {
+				Name:         "Cabinda",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"CCU": {
+				Name:         "Kuando Kubango",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"CNN": {
+				Name:         "Cunene",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"CNO": {
+				Name:         "Kwanza Norte",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"CUS": {
+				Name:         "Kwanza Sul",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"HUA": {
+				Name:         "Huambo",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"HUI": {
+				Name:         "Huíla",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"LNO": {
+				Name:         "Lunda Norte",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"LSU": {
+				Name:         "Lunda Sul",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"LUA": {
+				Name:         "Luanda",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"MAL": {
+				Name:         "Malange",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"MOX": {
+				Name:         "Moxico",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"NAM": {
+				Name:         "Namibe",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"UIG": {
+				Name:         "Uíge",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"ZAI": {
+				Name:         "Zaire",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bengo": {
+				Code: "BGO",
+			},
+			"Benguela": {
+				Code: "BGU",
+			},
+			"Bié": {
+				Code: "BIE",
+			},
+			"Cabinda": {
+				Code: "CAB",
+			},
+			"Cunene": {
+				Code: "CNN",
+			},
+			"Huambo": {
+				Code: "HUA",
+			},
+			"Huíla": {
+				Code: "HUI",
+			},
+			"Kuando Kubango": {
+				Code: "CCU",
+			},
+			"Kwanza Norte": {
+				Code: "CNO",
+			},
+			"Kwanza Sul": {
+				Code: "CUS",
+			},
+			"Luanda": {
+				Code: "LUA",
+			},
+			"Lunda Norte": {
+				Code: "LNO",
+			},
+			"Lunda Sul": {
+				Code: "LSU",
+			},
+			"Malange": {
+				Code: "MAL",
+			},
+			"Moxico": {
+				Code: "MOX",
+			},
+			"Namibe": {
+				Code: "NAM",
+			},
+			"Uíge": {
+				Code: "UIG",
+			},
+			"Zaire": {
+				Code: "ZAI",
+			},
+		},
 	},
 
 	"AQ": {
@@ -117,6 +1046,230 @@ var CountryStates = map[string]Country{
 		OfficialName: "Argentine Republic",
 		CommonName:   "",
 		Numeric:      "032",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"A": {
+				Name:         "Salta",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"B": {
+				Name:         "Buenos Aires",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"C": {
+				Name:         "Ciudad Autónoma de Buenos Aires",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "city",
+			},
+			"D": {
+				Name:         "San Luis",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"E": {
+				Name:         "Entre Ríos",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"F": {
+				Name:         "La Rioja",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"G": {
+				Name:         "Santiago del Estero",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"H": {
+				Name:         "Chaco",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"J": {
+				Name:         "San Juan",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"K": {
+				Name:         "Catamarca",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"L": {
+				Name:         "La Pampa",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"M": {
+				Name:         "Mendoza",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"N": {
+				Name:         "Misiones",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"P": {
+				Name:         "Formosa",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"Q": {
+				Name:         "Neuquén",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"R": {
+				Name:         "Río Negro",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"S": {
+				Name:         "Santa Fe",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"T": {
+				Name:         "Tucumán",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"U": {
+				Name:         "Chubut",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"V": {
+				Name:         "Tierra del Fuego",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"W": {
+				Name:         "Corrientes",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"X": {
+				Name:         "Córdoba",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"Y": {
+				Name:         "Jujuy",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"Z": {
+				Name:         "Santa Cruz",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Buenos Aires": {
+				Code: "B",
+			},
+			"Catamarca": {
+				Code: "K",
+			},
+			"Chaco": {
+				Code: "H",
+			},
+			"Chubut": {
+				Code: "U",
+			},
+			"Ciudad Autónoma de Buenos Aires": {
+				Code: "C",
+			},
+			"Corrientes": {
+				Code: "W",
+			},
+			"Córdoba": {
+				Code: "X",
+			},
+			"Entre Ríos": {
+				Code: "E",
+			},
+			"Formosa": {
+				Code: "P",
+			},
+			"Jujuy": {
+				Code: "Y",
+			},
+			"La Pampa": {
+				Code: "L",
+			},
+			"La Rioja": {
+				Code: "F",
+			},
+			"Mendoza": {
+				Code: "M",
+			},
+			"Misiones": {
+				Code: "N",
+			},
+			"Neuquén": {
+				Code: "Q",
+			},
+			"Río Negro": {
+				Code: "R",
+			},
+			"Salta": {
+				Code: "A",
+			},
+			"San Juan": {
+				Code: "J",
+			},
+			"San Luis": {
+				Code: "D",
+			},
+			"Santa Cruz": {
+				Code: "Z",
+			},
+			"Santa Fe": {
+				Code: "S",
+			},
+			"Santiago del Estero": {
+				Code: "G",
+			},
+			"Tierra del Fuego": {
+				Code: "V",
+			},
+			"Tucumán": {
+				Code: "T",
+			},
+		},
 	},
 
 	"AS": {
@@ -135,6 +1288,95 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Austria",
 		CommonName:   "",
 		Numeric:      "040",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"1": {
+				Name:         "Burgenland",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "state",
+			},
+			"2": {
+				Name:         "Kärnten",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "state",
+			},
+			"3": {
+				Name:         "Niederösterreich",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "state",
+			},
+			"4": {
+				Name:         "Oberösterreich",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "state",
+			},
+			"5": {
+				Name:         "Salzburg",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "state",
+			},
+			"6": {
+				Name:         "Steiermark",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "state",
+			},
+			"7": {
+				Name:         "Tirol",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "state",
+			},
+			"8": {
+				Name:         "Vorarlberg",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "state",
+			},
+			"9": {
+				Name:         "Wien",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Burgenland": {
+				Code: "1",
+			},
+			"Kärnten": {
+				Code: "2",
+			},
+			"Niederösterreich": {
+				Code: "3",
+			},
+			"Oberösterreich": {
+				Code: "4",
+			},
+			"Salzburg": {
+				Code: "5",
+			},
+			"Steiermark": {
+				Code: "6",
+			},
+			"Tirol": {
+				Code: "7",
+			},
+			"Vorarlberg": {
+				Code: "8",
+			},
+			"Wien": {
+				Code: "9",
+			},
+		},
 	},
 
 	"AU": {
@@ -144,6 +1386,86 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "036",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"ACT": {
+				Name:         "Australian Capital Territory",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "territory",
+			},
+			"NSW": {
+				Name:         "New South Wales",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NT": {
+				Name:         "Northern Territory",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "territory",
+			},
+			"QLD": {
+				Name:         "Queensland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"SA": {
+				Name:         "South Australia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"TAS": {
+				Name:         "Tasmania",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"VIC": {
+				Name:         "Victoria",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"WA": {
+				Name:         "Western Australia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Australian Capital Territory": {
+				Code: "ACT",
+			},
+			"New South Wales": {
+				Code: "NSW",
+			},
+			"Northern Territory": {
+				Code: "NT",
+			},
+			"Queensland": {
+				Code: "QLD",
+			},
+			"South Australia": {
+				Code: "SA",
+			},
+			"Tasmania": {
+				Code: "TAS",
+			},
+			"Victoria": {
+				Code: "VIC",
+			},
+			"Western Australia": {
+				Code: "WA",
+			},
+		},
 	},
 
 	"AW": {
@@ -171,6 +1493,715 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Azerbaijan",
 		CommonName:   "",
 		Numeric:      "031",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"ABS": {
+				Name:         "Abşeron",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"AGA": {
+				Name:         "Ağstafa",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"AGC": {
+				Name:         "Ağcabədi",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"AGM": {
+				Name:         "Ağdam",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"AGS": {
+				Name:         "Ağdaş",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"AGU": {
+				Name:         "Ağsu",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"AST": {
+				Name:         "Astara",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"BA": {
+				Name:         "Bakı",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "municipality",
+			},
+			"BAL": {
+				Name:         "Balakən",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"BAR": {
+				Name:         "Bərdə",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"BEY": {
+				Name:         "Beyləqan",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"BIL": {
+				Name:         "Biləsuvar",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"CAB": {
+				Name:         "Cəbrayıl",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"CAL": {
+				Name:         "Cəlilabad",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"DAS": {
+				Name:         "Daşkəsən",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"FUZ": {
+				Name:         "Füzuli",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"GA": {
+				Name:         "Gəncə",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "municipality",
+			},
+			"GAD": {
+				Name:         "Gədəbəy",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"GOR": {
+				Name:         "Goranboy",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"GOY": {
+				Name:         "Göyçay",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"GYG": {
+				Name:         "Göygöl",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"HAC": {
+				Name:         "Hacıqabul",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"IMI": {
+				Name:         "İmişli",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"ISM": {
+				Name:         "İsmayıllı",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"KAL": {
+				Name:         "Kəlbəcər",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"KUR": {
+				Name:         "Kürdəmir",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"LA": {
+				Name:         "Lənkəran",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "municipality",
+			},
+			"LAC": {
+				Name:         "Laçın",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"LAN": {
+				Name:         "Lənkəran",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"LER": {
+				Name:         "Lerik",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"MAS": {
+				Name:         "Masallı",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"MI": {
+				Name:         "Mingəçevir",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "municipality",
+			},
+			"NA": {
+				Name:         "Naftalan",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "municipality",
+			},
+			"NEF": {
+				Name:         "Neftçala",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"NX": {
+				Name:         "Naxçıvan",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "autonomous republic",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BAB": {
+						Name:         "Babək",
+						LocalName:    "",
+						LanguageCode: "az",
+						Type:         "rayon",
+					},
+					"CUL": {
+						Name:         "Culfa",
+						LocalName:    "",
+						LanguageCode: "az",
+						Type:         "rayon",
+					},
+					"KAN": {
+						Name:         "Kǝngǝrli",
+						LocalName:    "",
+						LanguageCode: "az",
+						Type:         "rayon",
+					},
+					"NV": {
+						Name:         "Naxçıvan",
+						LocalName:    "",
+						LanguageCode: "az",
+						Type:         "municipality",
+					},
+					"ORD": {
+						Name:         "Ordubad",
+						LocalName:    "",
+						LanguageCode: "az",
+						Type:         "rayon",
+					},
+					"SAD": {
+						Name:         "Sədərək",
+						LocalName:    "",
+						LanguageCode: "az",
+						Type:         "rayon",
+					},
+					"SAH": {
+						Name:         "Şahbuz",
+						LocalName:    "",
+						LanguageCode: "az",
+						Type:         "rayon",
+					},
+					"SAR": {
+						Name:         "Şərur",
+						LocalName:    "",
+						LanguageCode: "az",
+						Type:         "rayon",
+					},
+				},
+			},
+			"OGU": {
+				Name:         "Oğuz",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"QAB": {
+				Name:         "Qəbələ",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"QAX": {
+				Name:         "Qax",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"QAZ": {
+				Name:         "Qazax",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"QBA": {
+				Name:         "Quba",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"QBI": {
+				Name:         "Qubadlı",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"QOB": {
+				Name:         "Qobustan",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"QUS": {
+				Name:         "Qusar",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"SA": {
+				Name:         "Şəki",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "municipality",
+			},
+			"SAB": {
+				Name:         "Sabirabad",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"SAK": {
+				Name:         "Şəki",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"SAL": {
+				Name:         "Salyan",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"SAT": {
+				Name:         "Saatlı",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"SBN": {
+				Name:         "Şabran",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"SIY": {
+				Name:         "Siyəzən",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"SKR": {
+				Name:         "Şəmkir",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"SM": {
+				Name:         "Sumqayıt",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "municipality",
+			},
+			"SMI": {
+				Name:         "Şamaxı",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"SMX": {
+				Name:         "Samux",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"SR": {
+				Name:         "Şirvan",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "municipality",
+			},
+			"SUS": {
+				Name:         "Şuşa",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"TAR": {
+				Name:         "Tərtər",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"TOV": {
+				Name:         "Tovuz",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"UCA": {
+				Name:         "Ucar",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"XA": {
+				Name:         "Xankəndi",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "municipality",
+			},
+			"XAC": {
+				Name:         "Xaçmaz",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"XCI": {
+				Name:         "Xocalı",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"XIZ": {
+				Name:         "Xızı",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"XVD": {
+				Name:         "Xocavənd",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"YAR": {
+				Name:         "Yardımlı",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"YE": {
+				Name:         "Yevlax",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "municipality",
+			},
+			"YEV": {
+				Name:         "Yevlax",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"ZAN": {
+				Name:         "Zəngilan",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"ZAQ": {
+				Name:         "Zaqatala",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+			"ZAR": {
+				Name:         "Zərdab",
+				LocalName:    "",
+				LanguageCode: "az",
+				Type:         "rayon",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Abşeron": {
+				Code: "ABS",
+			},
+			"Astara": {
+				Code: "AST",
+			},
+			"Ağcabədi": {
+				Code: "AGC",
+			},
+			"Ağdam": {
+				Code: "AGM",
+			},
+			"Ağdaş": {
+				Code: "AGS",
+			},
+			"Ağstafa": {
+				Code: "AGA",
+			},
+			"Ağsu": {
+				Code: "AGU",
+			},
+			"Bakı": {
+				Code: "BA",
+			},
+			"Balakən": {
+				Code: "BAL",
+			},
+			"Beyləqan": {
+				Code: "BEY",
+			},
+			"Biləsuvar": {
+				Code: "BIL",
+			},
+			"Bərdə": {
+				Code: "BAR",
+			},
+			"Cəbrayıl": {
+				Code: "CAB",
+			},
+			"Cəlilabad": {
+				Code: "CAL",
+			},
+			"Daşkəsən": {
+				Code: "DAS",
+			},
+			"Füzuli": {
+				Code: "FUZ",
+			},
+			"Goranboy": {
+				Code: "GOR",
+			},
+			"Göygöl": {
+				Code: "GYG",
+			},
+			"Göyçay": {
+				Code: "GOY",
+			},
+			"Gədəbəy": {
+				Code: "GAD",
+			},
+			"Gəncə": {
+				Code: "GA",
+			},
+			"Hacıqabul": {
+				Code: "HAC",
+			},
+			"Kürdəmir": {
+				Code: "KUR",
+			},
+			"Kəlbəcər": {
+				Code: "KAL",
+			},
+			"Laçın": {
+				Code: "LAC",
+			},
+			"Lerik": {
+				Code: "LER",
+			},
+			"Lənkəran": {
+				Code: "LAN",
+			},
+			"Masallı": {
+				Code: "MAS",
+			},
+			"Mingəçevir": {
+				Code: "MI",
+			},
+			"Naftalan": {
+				Code: "NA",
+			},
+			"Naxçıvan": {
+				Code: "NX",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Babək": {
+						Code: "BAB",
+					},
+					"Culfa": {
+						Code: "CUL",
+					},
+					"Kǝngǝrli": {
+						Code: "KAN",
+					},
+					"Naxçıvan": {
+						Code: "NV",
+					},
+					"Ordubad": {
+						Code: "ORD",
+					},
+					"Sədərək": {
+						Code: "SAD",
+					},
+					"Şahbuz": {
+						Code: "SAH",
+					},
+					"Şərur": {
+						Code: "SAR",
+					},
+				},
+			},
+			"Neftçala": {
+				Code: "NEF",
+			},
+			"Oğuz": {
+				Code: "OGU",
+			},
+			"Qax": {
+				Code: "QAX",
+			},
+			"Qazax": {
+				Code: "QAZ",
+			},
+			"Qobustan": {
+				Code: "QOB",
+			},
+			"Quba": {
+				Code: "QBA",
+			},
+			"Qubadlı": {
+				Code: "QBI",
+			},
+			"Qusar": {
+				Code: "QUS",
+			},
+			"Qəbələ": {
+				Code: "QAB",
+			},
+			"Saatlı": {
+				Code: "SAT",
+			},
+			"Sabirabad": {
+				Code: "SAB",
+			},
+			"Salyan": {
+				Code: "SAL",
+			},
+			"Samux": {
+				Code: "SMX",
+			},
+			"Siyəzən": {
+				Code: "SIY",
+			},
+			"Sumqayıt": {
+				Code: "SM",
+			},
+			"Tovuz": {
+				Code: "TOV",
+			},
+			"Tərtər": {
+				Code: "TAR",
+			},
+			"Ucar": {
+				Code: "UCA",
+			},
+			"Xankəndi": {
+				Code: "XA",
+			},
+			"Xaçmaz": {
+				Code: "XAC",
+			},
+			"Xocalı": {
+				Code: "XCI",
+			},
+			"Xocavənd": {
+				Code: "XVD",
+			},
+			"Xızı": {
+				Code: "XIZ",
+			},
+			"Yardımlı": {
+				Code: "YAR",
+			},
+			"Yevlax": {
+				Code: "YE",
+			},
+			"Zaqatala": {
+				Code: "ZAQ",
+			},
+			"Zəngilan": {
+				Code: "ZAN",
+			},
+			"Zərdab": {
+				Code: "ZAR",
+			},
+			"İmişli": {
+				Code: "IMI",
+			},
+			"İsmayıllı": {
+				Code: "ISM",
+			},
+			"Şabran": {
+				Code: "SBN",
+			},
+			"Şamaxı": {
+				Code: "SMI",
+			},
+			"Şirvan": {
+				Code: "SR",
+			},
+			"Şuşa": {
+				Code: "SUS",
+			},
+			"Şəki": {
+				Code: "SAK",
+			},
+			"Şəmkir": {
+				Code: "SKR",
+			},
+		},
 	},
 
 	"BA": {
@@ -180,6 +2211,41 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Bosnia and Herzegovina",
 		CommonName:   "",
 		Numeric:      "070",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BIH": {
+				Name:         "Federacija Bosne i Hercegovine",
+				LocalName:    "",
+				LanguageCode: "bs",
+				Type:         "entity",
+			},
+			"BRC": {
+				Name:         "Brčko distrikt",
+				LocalName:    "",
+				LanguageCode: "bs",
+				Type:         "district with special status",
+			},
+			"SRP": {
+				Name:         "Republika Srpska",
+				LocalName:    "",
+				LanguageCode: "bs",
+				Type:         "entity",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Brčko distrikt": {
+				Code: "BRC",
+			},
+			"Federacija Bosne i Hercegovine": {
+				Code: "BIH",
+			},
+			"Republika Srpska": {
+				Code: "SRP",
+			},
+		},
 	},
 
 	"BB": {
@@ -189,6 +2255,113 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "052",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Christ Church",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"02": {
+				Name:         "Saint Andrew",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"03": {
+				Name:         "Saint George",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"04": {
+				Name:         "Saint James",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"05": {
+				Name:         "Saint John",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"06": {
+				Name:         "Saint Joseph",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"07": {
+				Name:         "Saint Lucy",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"08": {
+				Name:         "Saint Michael",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"09": {
+				Name:         "Saint Peter",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"10": {
+				Name:         "Saint Philip",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"11": {
+				Name:         "Saint Thomas",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Christ Church": {
+				Code: "01",
+			},
+			"Saint Andrew": {
+				Code: "02",
+			},
+			"Saint George": {
+				Code: "03",
+			},
+			"Saint James": {
+				Code: "04",
+			},
+			"Saint John": {
+				Code: "05",
+			},
+			"Saint Joseph": {
+				Code: "06",
+			},
+			"Saint Lucy": {
+				Code: "07",
+			},
+			"Saint Michael": {
+				Code: "08",
+			},
+			"Saint Peter": {
+				Code: "09",
+			},
+			"Saint Philip": {
+				Code: "10",
+			},
+			"Saint Thomas": {
+				Code: "11",
+			},
+		},
 	},
 
 	"BD": {
@@ -198,6 +2371,726 @@ var CountryStates = map[string]Country{
 		OfficialName: "People's Republic of Bangladesh",
 		CommonName:   "",
 		Numeric:      "050",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"A": {
+				Name:         "Barisal",
+				LocalName:    "",
+				LanguageCode: "bn",
+				Type:         "division",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"02": {
+						Name:         "Barguna",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"06": {
+						Name:         "Barisal",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"07": {
+						Name:         "Bhola",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"25": {
+						Name:         "Jhalakathi",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"50": {
+						Name:         "Pirojpur",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"51": {
+						Name:         "Patuakhali",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+				},
+			},
+			"B": {
+				Name:         "Chittagong",
+				LocalName:    "",
+				LanguageCode: "bn",
+				Type:         "division",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"01": {
+						Name:         "Bandarban",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"04": {
+						Name:         "Brahmanbaria",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"08": {
+						Name:         "Comilla",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"09": {
+						Name:         "Chandpur",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"10": {
+						Name:         "Chittagong",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"11": {
+						Name:         "Cox's Bazar",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"16": {
+						Name:         "Feni",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"29": {
+						Name:         "Khagrachhari",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"31": {
+						Name:         "Lakshmipur",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"47": {
+						Name:         "Noakhali",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"56": {
+						Name:         "Rangamati",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+				},
+			},
+			"C": {
+				Name:         "Dhaka",
+				LocalName:    "",
+				LanguageCode: "bn",
+				Type:         "division",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"13": {
+						Name:         "Dhaka",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"15": {
+						Name:         "Faridpur",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"17": {
+						Name:         "Gopalganj",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"18": {
+						Name:         "Gazipur",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"26": {
+						Name:         "Kishoreganj",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"33": {
+						Name:         "Manikganj",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"35": {
+						Name:         "Munshiganj",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"36": {
+						Name:         "Madaripur",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"40": {
+						Name:         "Narayanganj",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"42": {
+						Name:         "Narsingdi",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"53": {
+						Name:         "Rajbari",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"62": {
+						Name:         "Shariatpur",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"63": {
+						Name:         "Tangail",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+				},
+			},
+			"D": {
+				Name:         "Khulna",
+				LocalName:    "",
+				LanguageCode: "bn",
+				Type:         "division",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"05": {
+						Name:         "Bagerhat",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"12": {
+						Name:         "Chuadanga",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"22": {
+						Name:         "Jessore",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"23": {
+						Name:         "Jhenaidah",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"27": {
+						Name:         "Khulna",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"30": {
+						Name:         "Kushtia",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"37": {
+						Name:         "Magura",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"39": {
+						Name:         "Meherpur",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"43": {
+						Name:         "Narail",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"58": {
+						Name:         "Satkhira",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+				},
+			},
+			"E": {
+				Name:         "Rajshahi",
+				LocalName:    "",
+				LanguageCode: "bn",
+				Type:         "division",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"03": {
+						Name:         "Bogra",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"24": {
+						Name:         "Joypurhat",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"44": {
+						Name:         "Natore",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"45": {
+						Name:         "Chapai Nawabganj",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"48": {
+						Name:         "Naogaon",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"49": {
+						Name:         "Pabna",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"54": {
+						Name:         "Rajshahi",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"59": {
+						Name:         "Sirajganj",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+				},
+			},
+			"F": {
+				Name:         "Rangpur",
+				LocalName:    "",
+				LanguageCode: "bn",
+				Type:         "division",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"14": {
+						Name:         "Dinajpur",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"19": {
+						Name:         "Gaibandha",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"28": {
+						Name:         "Kurigram",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"32": {
+						Name:         "Lalmonirhat",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"46": {
+						Name:         "Nilphamari",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"52": {
+						Name:         "Panchagarh",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"55": {
+						Name:         "Rangpur",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"64": {
+						Name:         "Thakurgaon",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+				},
+			},
+			"G": {
+				Name:         "Sylhet",
+				LocalName:    "",
+				LanguageCode: "bn",
+				Type:         "division",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"20": {
+						Name:         "Habiganj",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"38": {
+						Name:         "Moulvibazar",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"60": {
+						Name:         "Sylhet",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"61": {
+						Name:         "Sunamganj",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+				},
+			},
+			"H": {
+				Name:         "Mymensingh",
+				LocalName:    "",
+				LanguageCode: "bn",
+				Type:         "division",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"21": {
+						Name:         "Jamalpur",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"34": {
+						Name:         "Mymensingh",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"41": {
+						Name:         "Netrakona",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+					"57": {
+						Name:         "Sherpur",
+						LocalName:    "",
+						LanguageCode: "bn",
+						Type:         "district",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Barisal": {
+				Code: "A",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Barguna": {
+						Code: "02",
+					},
+					"Barisal": {
+						Code: "06",
+					},
+					"Bhola": {
+						Code: "07",
+					},
+					"Jhalakathi": {
+						Code: "25",
+					},
+					"Patuakhali": {
+						Code: "51",
+					},
+					"Pirojpur": {
+						Code: "50",
+					},
+				},
+			},
+			"Chittagong": {
+				Code: "B",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bandarban": {
+						Code: "01",
+					},
+					"Brahmanbaria": {
+						Code: "04",
+					},
+					"Chandpur": {
+						Code: "09",
+					},
+					"Chittagong": {
+						Code: "10",
+					},
+					"Comilla": {
+						Code: "08",
+					},
+					"Cox's Bazar": {
+						Code: "11",
+					},
+					"Feni": {
+						Code: "16",
+					},
+					"Khagrachhari": {
+						Code: "29",
+					},
+					"Lakshmipur": {
+						Code: "31",
+					},
+					"Noakhali": {
+						Code: "47",
+					},
+					"Rangamati": {
+						Code: "56",
+					},
+				},
+			},
+			"Dhaka": {
+				Code: "C",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Dhaka": {
+						Code: "13",
+					},
+					"Faridpur": {
+						Code: "15",
+					},
+					"Gazipur": {
+						Code: "18",
+					},
+					"Gopalganj": {
+						Code: "17",
+					},
+					"Kishoreganj": {
+						Code: "26",
+					},
+					"Madaripur": {
+						Code: "36",
+					},
+					"Manikganj": {
+						Code: "33",
+					},
+					"Munshiganj": {
+						Code: "35",
+					},
+					"Narayanganj": {
+						Code: "40",
+					},
+					"Narsingdi": {
+						Code: "42",
+					},
+					"Rajbari": {
+						Code: "53",
+					},
+					"Shariatpur": {
+						Code: "62",
+					},
+					"Tangail": {
+						Code: "63",
+					},
+				},
+			},
+			"Khulna": {
+				Code: "D",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bagerhat": {
+						Code: "05",
+					},
+					"Chuadanga": {
+						Code: "12",
+					},
+					"Jessore": {
+						Code: "22",
+					},
+					"Jhenaidah": {
+						Code: "23",
+					},
+					"Khulna": {
+						Code: "27",
+					},
+					"Kushtia": {
+						Code: "30",
+					},
+					"Magura": {
+						Code: "37",
+					},
+					"Meherpur": {
+						Code: "39",
+					},
+					"Narail": {
+						Code: "43",
+					},
+					"Satkhira": {
+						Code: "58",
+					},
+				},
+			},
+			"Mymensingh": {
+				Code: "H",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Jamalpur": {
+						Code: "21",
+					},
+					"Mymensingh": {
+						Code: "34",
+					},
+					"Netrakona": {
+						Code: "41",
+					},
+					"Sherpur": {
+						Code: "57",
+					},
+				},
+			},
+			"Rajshahi": {
+				Code: "E",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bogra": {
+						Code: "03",
+					},
+					"Chapai Nawabganj": {
+						Code: "45",
+					},
+					"Joypurhat": {
+						Code: "24",
+					},
+					"Naogaon": {
+						Code: "48",
+					},
+					"Natore": {
+						Code: "44",
+					},
+					"Pabna": {
+						Code: "49",
+					},
+					"Rajshahi": {
+						Code: "54",
+					},
+					"Sirajganj": {
+						Code: "59",
+					},
+				},
+			},
+			"Rangpur": {
+				Code: "F",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Dinajpur": {
+						Code: "14",
+					},
+					"Gaibandha": {
+						Code: "19",
+					},
+					"Kurigram": {
+						Code: "28",
+					},
+					"Lalmonirhat": {
+						Code: "32",
+					},
+					"Nilphamari": {
+						Code: "46",
+					},
+					"Panchagarh": {
+						Code: "52",
+					},
+					"Rangpur": {
+						Code: "55",
+					},
+					"Thakurgaon": {
+						Code: "64",
+					},
+				},
+			},
+			"Sylhet": {
+				Code: "G",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Habiganj": {
+						Code: "20",
+					},
+					"Moulvibazar": {
+						Code: "38",
+					},
+					"Sunamganj": {
+						Code: "61",
+					},
+					"Sylhet": {
+						Code: "60",
+					},
+				},
+			},
+		},
 	},
 
 	"BE": {
@@ -207,6 +3100,147 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Belgium",
 		CommonName:   "",
 		Numeric:      "056",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BRU": {
+				Name:         "Brussels Hoofdstedelijk Gewest",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "region",
+			},
+			"VLG": {
+				Name:         "Vlaams Gewest",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"VAN": {
+						Name:         "Antwerpen",
+						LocalName:    "",
+						LanguageCode: "nl",
+						Type:         "province",
+					},
+					"VBR": {
+						Name:         "Vlaams-Brabant",
+						LocalName:    "",
+						LanguageCode: "nl",
+						Type:         "province",
+					},
+					"VLI": {
+						Name:         "Limburg",
+						LocalName:    "",
+						LanguageCode: "nl",
+						Type:         "province",
+					},
+					"VOV": {
+						Name:         "Oost-Vlaanderen",
+						LocalName:    "",
+						LanguageCode: "nl",
+						Type:         "province",
+					},
+					"VWV": {
+						Name:         "West-Vlaanderen",
+						LocalName:    "",
+						LanguageCode: "nl",
+						Type:         "province",
+					},
+				},
+			},
+			"WAL": {
+				Name:         "wallonne, Région",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"WBR": {
+						Name:         "Brabant wallon",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"WHT": {
+						Name:         "Hainaut",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"WLG": {
+						Name:         "Liège",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"WLX": {
+						Name:         "Luxembourg",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"WNA": {
+						Name:         "Namur",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Brussels Hoofdstedelijk Gewest": {
+				Code: "BRU",
+			},
+			"Vlaams Gewest": {
+				Code: "VLG",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Antwerpen": {
+						Code: "VAN",
+					},
+					"Limburg": {
+						Code: "VLI",
+					},
+					"Oost-Vlaanderen": {
+						Code: "VOV",
+					},
+					"Vlaams-Brabant": {
+						Code: "VBR",
+					},
+					"West-Vlaanderen": {
+						Code: "VWV",
+					},
+				},
+			},
+			"wallonne, Région": {
+				Code: "WAL",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Brabant wallon": {
+						Code: "WBR",
+					},
+					"Hainaut": {
+						Code: "WHT",
+					},
+					"Liège": {
+						Code: "WLG",
+					},
+					"Luxembourg": {
+						Code: "WLX",
+					},
+					"Namur": {
+						Code: "WNA",
+					},
+				},
+			},
+		},
 	},
 
 	"BF": {
@@ -216,6 +3250,640 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "854",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Boucle du Mouhoun",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BAL": {
+						Name:         "Balé",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"BAN": {
+						Name:         "Banwa",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"KOS": {
+						Name:         "Kossi",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"MOU": {
+						Name:         "Mouhoun",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"NAY": {
+						Name:         "Nayala",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"SOR": {
+						Name:         "Sourou",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"02": {
+				Name:         "Cascades",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"COM": {
+						Name:         "Comoé",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"LER": {
+						Name:         "Léraba",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"03": {
+				Name:         "Centre",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"KAD": {
+						Name:         "Kadiogo",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"04": {
+				Name:         "Centre-Est",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BLG": {
+						Name:         "Boulgou",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"KOP": {
+						Name:         "Koulpélogo",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"KOT": {
+						Name:         "Kouritenga",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"05": {
+				Name:         "Centre-Nord",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BAM": {
+						Name:         "Bam",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"NAM": {
+						Name:         "Namentenga",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"SMT": {
+						Name:         "Sanmatenga",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"06": {
+				Name:         "Centre-Ouest",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BLK": {
+						Name:         "Boulkiemdé",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"SIS": {
+						Name:         "Sissili",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"SNG": {
+						Name:         "Sanguié",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"ZIR": {
+						Name:         "Ziro",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"07": {
+				Name:         "Centre-Sud",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BAZ": {
+						Name:         "Bazèga",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"NAO": {
+						Name:         "Nahouri",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"ZOU": {
+						Name:         "Zoundwéogo",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"08": {
+				Name:         "Est",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"GNA": {
+						Name:         "Gnagna",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"GOU": {
+						Name:         "Gourma",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"KMD": {
+						Name:         "Komondjari",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"KMP": {
+						Name:         "Kompienga",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"TAP": {
+						Name:         "Tapoa",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"09": {
+				Name:         "Hauts-Bassins",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"HOU": {
+						Name:         "Houet",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"KEN": {
+						Name:         "Kénédougou",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"TUI": {
+						Name:         "Tuy",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"10": {
+				Name:         "Nord",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"LOR": {
+						Name:         "Loroum",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"PAS": {
+						Name:         "Passoré",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"YAT": {
+						Name:         "Yatenga",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"ZON": {
+						Name:         "Zondoma",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"11": {
+				Name:         "Plateau-Central",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"GAN": {
+						Name:         "Ganzourgou",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"KOW": {
+						Name:         "Kourwéogo",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"OUB": {
+						Name:         "Oubritenga",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"12": {
+				Name:         "Sahel",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"OUD": {
+						Name:         "Oudalan",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"SEN": {
+						Name:         "Séno",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"SOM": {
+						Name:         "Soum",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"YAG": {
+						Name:         "Yagha",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"13": {
+				Name:         "Sud-Ouest",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BGR": {
+						Name:         "Bougouriba",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"IOB": {
+						Name:         "Ioba",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"NOU": {
+						Name:         "Noumbiel",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"PON": {
+						Name:         "Poni",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Boucle du Mouhoun": {
+				Code: "01",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Balé": {
+						Code: "BAL",
+					},
+					"Banwa": {
+						Code: "BAN",
+					},
+					"Kossi": {
+						Code: "KOS",
+					},
+					"Mouhoun": {
+						Code: "MOU",
+					},
+					"Nayala": {
+						Code: "NAY",
+					},
+					"Sourou": {
+						Code: "SOR",
+					},
+				},
+			},
+			"Cascades": {
+				Code: "02",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Comoé": {
+						Code: "COM",
+					},
+					"Léraba": {
+						Code: "LER",
+					},
+				},
+			},
+			"Centre": {
+				Code: "03",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Kadiogo": {
+						Code: "KAD",
+					},
+				},
+			},
+			"Centre-Est": {
+				Code: "04",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Boulgou": {
+						Code: "BLG",
+					},
+					"Koulpélogo": {
+						Code: "KOP",
+					},
+					"Kouritenga": {
+						Code: "KOT",
+					},
+				},
+			},
+			"Centre-Nord": {
+				Code: "05",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bam": {
+						Code: "BAM",
+					},
+					"Namentenga": {
+						Code: "NAM",
+					},
+					"Sanmatenga": {
+						Code: "SMT",
+					},
+				},
+			},
+			"Centre-Ouest": {
+				Code: "06",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Boulkiemdé": {
+						Code: "BLK",
+					},
+					"Sanguié": {
+						Code: "SNG",
+					},
+					"Sissili": {
+						Code: "SIS",
+					},
+					"Ziro": {
+						Code: "ZIR",
+					},
+				},
+			},
+			"Centre-Sud": {
+				Code: "07",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bazèga": {
+						Code: "BAZ",
+					},
+					"Nahouri": {
+						Code: "NAO",
+					},
+					"Zoundwéogo": {
+						Code: "ZOU",
+					},
+				},
+			},
+			"Est": {
+				Code: "08",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Gnagna": {
+						Code: "GNA",
+					},
+					"Gourma": {
+						Code: "GOU",
+					},
+					"Komondjari": {
+						Code: "KMD",
+					},
+					"Kompienga": {
+						Code: "KMP",
+					},
+					"Tapoa": {
+						Code: "TAP",
+					},
+				},
+			},
+			"Hauts-Bassins": {
+				Code: "09",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Houet": {
+						Code: "HOU",
+					},
+					"Kénédougou": {
+						Code: "KEN",
+					},
+					"Tuy": {
+						Code: "TUI",
+					},
+				},
+			},
+			"Nord": {
+				Code: "10",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Loroum": {
+						Code: "LOR",
+					},
+					"Passoré": {
+						Code: "PAS",
+					},
+					"Yatenga": {
+						Code: "YAT",
+					},
+					"Zondoma": {
+						Code: "ZON",
+					},
+				},
+			},
+			"Plateau-Central": {
+				Code: "11",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Ganzourgou": {
+						Code: "GAN",
+					},
+					"Kourwéogo": {
+						Code: "KOW",
+					},
+					"Oubritenga": {
+						Code: "OUB",
+					},
+				},
+			},
+			"Sahel": {
+				Code: "12",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Oudalan": {
+						Code: "OUD",
+					},
+					"Soum": {
+						Code: "SOM",
+					},
+					"Séno": {
+						Code: "SEN",
+					},
+					"Yagha": {
+						Code: "YAG",
+					},
+				},
+			},
+			"Sud-Ouest": {
+				Code: "13",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bougouriba": {
+						Code: "BGR",
+					},
+					"Ioba": {
+						Code: "IOB",
+					},
+					"Noumbiel": {
+						Code: "NOU",
+					},
+					"Poni": {
+						Code: "PON",
+					},
+				},
+			},
+		},
 	},
 
 	"BG": {
@@ -225,6 +3893,266 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Bulgaria",
 		CommonName:   "",
 		Numeric:      "100",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Blagoevgrad",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"02": {
+				Name:         "Burgas",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"03": {
+				Name:         "Varna",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"04": {
+				Name:         "Veliko Tarnovo",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"05": {
+				Name:         "Vidin",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"06": {
+				Name:         "Vratsa",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"07": {
+				Name:         "Gabrovo",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"08": {
+				Name:         "Dobrich",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"09": {
+				Name:         "Kardzhali",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"10": {
+				Name:         "Kyustendil",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"11": {
+				Name:         "Lovech",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"12": {
+				Name:         "Montana",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"13": {
+				Name:         "Pazardzhik",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"14": {
+				Name:         "Pernik",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"15": {
+				Name:         "Pleven",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"16": {
+				Name:         "Plovdiv",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"17": {
+				Name:         "Razgrad",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"18": {
+				Name:         "Ruse",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"19": {
+				Name:         "Silistra",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"20": {
+				Name:         "Sliven",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"21": {
+				Name:         "Smolyan",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"22": {
+				Name:         "Sofia (stolitsa)",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"23": {
+				Name:         "Sofia",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"24": {
+				Name:         "Stara Zagora",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"25": {
+				Name:         "Targovishte",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"26": {
+				Name:         "Haskovo",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"27": {
+				Name:         "Shumen",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+			"28": {
+				Name:         "Yambol",
+				LocalName:    "",
+				LanguageCode: "bg",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Blagoevgrad": {
+				Code: "01",
+			},
+			"Burgas": {
+				Code: "02",
+			},
+			"Dobrich": {
+				Code: "08",
+			},
+			"Gabrovo": {
+				Code: "07",
+			},
+			"Haskovo": {
+				Code: "26",
+			},
+			"Kardzhali": {
+				Code: "09",
+			},
+			"Kyustendil": {
+				Code: "10",
+			},
+			"Lovech": {
+				Code: "11",
+			},
+			"Montana": {
+				Code: "12",
+			},
+			"Pazardzhik": {
+				Code: "13",
+			},
+			"Pernik": {
+				Code: "14",
+			},
+			"Pleven": {
+				Code: "15",
+			},
+			"Plovdiv": {
+				Code: "16",
+			},
+			"Razgrad": {
+				Code: "17",
+			},
+			"Ruse": {
+				Code: "18",
+			},
+			"Shumen": {
+				Code: "27",
+			},
+			"Silistra": {
+				Code: "19",
+			},
+			"Sliven": {
+				Code: "20",
+			},
+			"Smolyan": {
+				Code: "21",
+			},
+			"Sofia": {
+				Code: "23",
+			},
+			"Sofia (stolitsa)": {
+				Code: "22",
+			},
+			"Stara Zagora": {
+				Code: "24",
+			},
+			"Targovishte": {
+				Code: "25",
+			},
+			"Varna": {
+				Code: "03",
+			},
+			"Veliko Tarnovo": {
+				Code: "04",
+			},
+			"Vidin": {
+				Code: "05",
+			},
+			"Vratsa": {
+				Code: "06",
+			},
+			"Yambol": {
+				Code: "28",
+			},
+		},
 	},
 
 	"BH": {
@@ -234,6 +4162,50 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Bahrain",
 		CommonName:   "",
 		Numeric:      "048",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"13": {
+				Name:         "Al ‘Āşimah",
+				LocalName:    "Al Manāmah",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"14": {
+				Name:         "Al Janūbīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"15": {
+				Name:         "Al Muḩarraq",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"17": {
+				Name:         "Ash Shamālīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Al Janūbīyah": {
+				Code: "14",
+			},
+			"Al Muḩarraq": {
+				Code: "15",
+			},
+			"Al ‘Āşimah": {
+				Code: "13",
+			},
+			"Ash Shamālīyah": {
+				Code: "17",
+			},
+		},
 	},
 
 	"BI": {
@@ -243,6 +4215,176 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Burundi",
 		CommonName:   "",
 		Numeric:      "108",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BB": {
+				Name:         "Bubanza",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"BL": {
+				Name:         "Bujumbura Rural",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"BM": {
+				Name:         "Bujumbura Mairie",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"BR": {
+				Name:         "Bururi",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"CA": {
+				Name:         "Cankuzo",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"CI": {
+				Name:         "Cibitoke",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"GI": {
+				Name:         "Gitega",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"KI": {
+				Name:         "Kirundo",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"KR": {
+				Name:         "Karuzi",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"KY": {
+				Name:         "Kayanza",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"MA": {
+				Name:         "Makamba",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"MU": {
+				Name:         "Muramvya",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"MW": {
+				Name:         "Mwaro",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"MY": {
+				Name:         "Muyinga",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"NG": {
+				Name:         "Ngozi",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"RM": {
+				Name:         "Rumonge",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"RT": {
+				Name:         "Rutana",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"RY": {
+				Name:         "Ruyigi",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bubanza": {
+				Code: "BB",
+			},
+			"Bujumbura Mairie": {
+				Code: "BM",
+			},
+			"Bujumbura Rural": {
+				Code: "BL",
+			},
+			"Bururi": {
+				Code: "BR",
+			},
+			"Cankuzo": {
+				Code: "CA",
+			},
+			"Cibitoke": {
+				Code: "CI",
+			},
+			"Gitega": {
+				Code: "GI",
+			},
+			"Karuzi": {
+				Code: "KR",
+			},
+			"Kayanza": {
+				Code: "KY",
+			},
+			"Kirundo": {
+				Code: "KI",
+			},
+			"Makamba": {
+				Code: "MA",
+			},
+			"Muramvya": {
+				Code: "MU",
+			},
+			"Muyinga": {
+				Code: "MY",
+			},
+			"Mwaro": {
+				Code: "MW",
+			},
+			"Ngozi": {
+				Code: "NG",
+			},
+			"Rumonge": {
+				Code: "RM",
+			},
+			"Rutana": {
+				Code: "RT",
+			},
+			"Ruyigi": {
+				Code: "RY",
+			},
+		},
 	},
 
 	"BJ": {
@@ -252,6 +4394,122 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Benin",
 		CommonName:   "",
 		Numeric:      "204",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AK": {
+				Name:         "Atacora",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"AL": {
+				Name:         "Alibori",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"AQ": {
+				Name:         "Atlantique",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"BO": {
+				Name:         "Borgou",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"CO": {
+				Name:         "Collines",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"DO": {
+				Name:         "Donga",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"KO": {
+				Name:         "Couffo",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"LI": {
+				Name:         "Littoral",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"MO": {
+				Name:         "Mono",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"OU": {
+				Name:         "Ouémé",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"PL": {
+				Name:         "Plateau",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"ZO": {
+				Name:         "Zou",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Alibori": {
+				Code: "AL",
+			},
+			"Atacora": {
+				Code: "AK",
+			},
+			"Atlantique": {
+				Code: "AQ",
+			},
+			"Borgou": {
+				Code: "BO",
+			},
+			"Collines": {
+				Code: "CO",
+			},
+			"Couffo": {
+				Code: "KO",
+			},
+			"Donga": {
+				Code: "DO",
+			},
+			"Littoral": {
+				Code: "LI",
+			},
+			"Mono": {
+				Code: "MO",
+			},
+			"Ouémé": {
+				Code: "OU",
+			},
+			"Plateau": {
+				Code: "PL",
+			},
+			"Zou": {
+				Code: "ZO",
+			},
+		},
 	},
 
 	"BL": {
@@ -279,6 +4537,50 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "096",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BE": {
+				Name:         "Belait",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"BM": {
+				Name:         "Brunei-Muara",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"TE": {
+				Name:         "Temburong",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"TU": {
+				Name:         "Tutong",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Belait": {
+				Code: "BE",
+			},
+			"Brunei-Muara": {
+				Code: "BM",
+			},
+			"Temburong": {
+				Code: "TE",
+			},
+			"Tutong": {
+				Code: "TU",
+			},
+		},
 	},
 
 	"BO": {
@@ -288,6 +4590,95 @@ var CountryStates = map[string]Country{
 		OfficialName: "Plurinational State of Bolivia",
 		CommonName:   "Bolivia",
 		Numeric:      "068",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"B": {
+				Name:         "El Beni",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"C": {
+				Name:         "Cochabamba",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"H": {
+				Name:         "Chuquisaca",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"L": {
+				Name:         "La Paz",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"N": {
+				Name:         "Pando",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"O": {
+				Name:         "Oruro",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"P": {
+				Name:         "Potosí",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"S": {
+				Name:         "Santa Cruz",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"T": {
+				Name:         "Tarija",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Chuquisaca": {
+				Code: "H",
+			},
+			"Cochabamba": {
+				Code: "C",
+			},
+			"El Beni": {
+				Code: "B",
+			},
+			"La Paz": {
+				Code: "L",
+			},
+			"Oruro": {
+				Code: "O",
+			},
+			"Pando": {
+				Code: "N",
+			},
+			"Potosí": {
+				Code: "P",
+			},
+			"Santa Cruz": {
+				Code: "S",
+			},
+			"Tarija": {
+				Code: "T",
+			},
+		},
 	},
 
 	"BQ": {
@@ -297,6 +4688,41 @@ var CountryStates = map[string]Country{
 		OfficialName: "Bonaire, Sint Eustatius and Saba",
 		CommonName:   "",
 		Numeric:      "535",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BO": {
+				Name:         "Bonaire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "special municipality",
+			},
+			"SA": {
+				Name:         "Saba",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "special municipality",
+			},
+			"SE": {
+				Name:         "Sint Eustatius",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "special municipality",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bonaire": {
+				Code: "BO",
+			},
+			"Saba": {
+				Code: "SA",
+			},
+			"Sint Eustatius": {
+				Code: "SE",
+			},
+		},
 	},
 
 	"BR": {
@@ -306,6 +4732,257 @@ var CountryStates = map[string]Country{
 		OfficialName: "Federative Republic of Brazil",
 		CommonName:   "",
 		Numeric:      "076",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AC": {
+				Name:         "Acre",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"AL": {
+				Name:         "Alagoas",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"AM": {
+				Name:         "Amazonas",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"AP": {
+				Name:         "Amapá",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"BA": {
+				Name:         "Bahia",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"CE": {
+				Name:         "Ceará",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"DF": {
+				Name:         "Distrito Federal",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "federal district",
+			},
+			"ES": {
+				Name:         "Espírito Santo",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"GO": {
+				Name:         "Goiás",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"MA": {
+				Name:         "Maranhão",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"MG": {
+				Name:         "Minas Gerais",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"MS": {
+				Name:         "Mato Grosso do Sul",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"MT": {
+				Name:         "Mato Grosso",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"PA": {
+				Name:         "Pará",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"PB": {
+				Name:         "Paraíba",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"PE": {
+				Name:         "Pernambuco",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"PI": {
+				Name:         "Piauí",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"PR": {
+				Name:         "Paraná",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"RJ": {
+				Name:         "Rio de Janeiro",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"RN": {
+				Name:         "Rio Grande do Norte",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"RO": {
+				Name:         "Rondônia",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"RR": {
+				Name:         "Roraima",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"RS": {
+				Name:         "Rio Grande do Sul",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"SC": {
+				Name:         "Santa Catarina",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"SE": {
+				Name:         "Sergipe",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"SP": {
+				Name:         "São Paulo",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+			"TO": {
+				Name:         "Tocantins",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Acre": {
+				Code: "AC",
+			},
+			"Alagoas": {
+				Code: "AL",
+			},
+			"Amapá": {
+				Code: "AP",
+			},
+			"Amazonas": {
+				Code: "AM",
+			},
+			"Bahia": {
+				Code: "BA",
+			},
+			"Ceará": {
+				Code: "CE",
+			},
+			"Distrito Federal": {
+				Code: "DF",
+			},
+			"Espírito Santo": {
+				Code: "ES",
+			},
+			"Goiás": {
+				Code: "GO",
+			},
+			"Maranhão": {
+				Code: "MA",
+			},
+			"Mato Grosso": {
+				Code: "MT",
+			},
+			"Mato Grosso do Sul": {
+				Code: "MS",
+			},
+			"Minas Gerais": {
+				Code: "MG",
+			},
+			"Paraná": {
+				Code: "PR",
+			},
+			"Paraíba": {
+				Code: "PB",
+			},
+			"Pará": {
+				Code: "PA",
+			},
+			"Pernambuco": {
+				Code: "PE",
+			},
+			"Piauí": {
+				Code: "PI",
+			},
+			"Rio Grande do Norte": {
+				Code: "RN",
+			},
+			"Rio Grande do Sul": {
+				Code: "RS",
+			},
+			"Rio de Janeiro": {
+				Code: "RJ",
+			},
+			"Rondônia": {
+				Code: "RO",
+			},
+			"Roraima": {
+				Code: "RR",
+			},
+			"Santa Catarina": {
+				Code: "SC",
+			},
+			"Sergipe": {
+				Code: "SE",
+			},
+			"São Paulo": {
+				Code: "SP",
+			},
+			"Tocantins": {
+				Code: "TO",
+			},
+		},
 	},
 
 	"BS": {
@@ -315,6 +4992,302 @@ var CountryStates = map[string]Country{
 		OfficialName: "Commonwealth of the Bahamas",
 		CommonName:   "",
 		Numeric:      "044",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AK": {
+				Name:         "Acklins",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"BI": {
+				Name:         "Bimini",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"BP": {
+				Name:         "Black Point",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"BY": {
+				Name:         "Berry Islands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"CE": {
+				Name:         "Central Eleuthera",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"CI": {
+				Name:         "Cat Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"CK": {
+				Name:         "Crooked Island and Long Cay",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"CO": {
+				Name:         "Central Abaco",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"CS": {
+				Name:         "Central Andros",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"EG": {
+				Name:         "East Grand Bahama",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"EX": {
+				Name:         "Exuma",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"FP": {
+				Name:         "City of Freeport",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"GC": {
+				Name:         "Grand Cay",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"HI": {
+				Name:         "Harbour Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"HT": {
+				Name:         "Hope Town",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"IN": {
+				Name:         "Inagua",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"LI": {
+				Name:         "Long Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"MC": {
+				Name:         "Mangrove Cay",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"MG": {
+				Name:         "Mayaguana",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"MI": {
+				Name:         "Moore's Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"NE": {
+				Name:         "North Eleuthera",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"NO": {
+				Name:         "North Abaco",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"NP": {
+				Name:         "New Providence",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "island",
+			},
+			"NS": {
+				Name:         "North Andros",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"RC": {
+				Name:         "Rum Cay",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"RI": {
+				Name:         "Ragged Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"SA": {
+				Name:         "South Andros",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"SE": {
+				Name:         "South Eleuthera",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"SO": {
+				Name:         "South Abaco",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"SS": {
+				Name:         "San Salvador",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"SW": {
+				Name:         "Spanish Wells",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"WG": {
+				Name:         "West Grand Bahama",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Acklins": {
+				Code: "AK",
+			},
+			"Berry Islands": {
+				Code: "BY",
+			},
+			"Bimini": {
+				Code: "BI",
+			},
+			"Black Point": {
+				Code: "BP",
+			},
+			"Cat Island": {
+				Code: "CI",
+			},
+			"Central Abaco": {
+				Code: "CO",
+			},
+			"Central Andros": {
+				Code: "CS",
+			},
+			"Central Eleuthera": {
+				Code: "CE",
+			},
+			"City of Freeport": {
+				Code: "FP",
+			},
+			"Crooked Island and Long Cay": {
+				Code: "CK",
+			},
+			"East Grand Bahama": {
+				Code: "EG",
+			},
+			"Exuma": {
+				Code: "EX",
+			},
+			"Grand Cay": {
+				Code: "GC",
+			},
+			"Harbour Island": {
+				Code: "HI",
+			},
+			"Hope Town": {
+				Code: "HT",
+			},
+			"Inagua": {
+				Code: "IN",
+			},
+			"Long Island": {
+				Code: "LI",
+			},
+			"Mangrove Cay": {
+				Code: "MC",
+			},
+			"Mayaguana": {
+				Code: "MG",
+			},
+			"Moore's Island": {
+				Code: "MI",
+			},
+			"New Providence": {
+				Code: "NP",
+			},
+			"North Abaco": {
+				Code: "NO",
+			},
+			"North Andros": {
+				Code: "NS",
+			},
+			"North Eleuthera": {
+				Code: "NE",
+			},
+			"Ragged Island": {
+				Code: "RI",
+			},
+			"Rum Cay": {
+				Code: "RC",
+			},
+			"San Salvador": {
+				Code: "SS",
+			},
+			"South Abaco": {
+				Code: "SO",
+			},
+			"South Andros": {
+				Code: "SA",
+			},
+			"South Eleuthera": {
+				Code: "SE",
+			},
+			"Spanish Wells": {
+				Code: "SW",
+			},
+			"West Grand Bahama": {
+				Code: "WG",
+			},
+		},
 	},
 
 	"BT": {
@@ -324,6 +5297,194 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Bhutan",
 		CommonName:   "",
 		Numeric:      "064",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"11": {
+				Name:         "Paro",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"12": {
+				Name:         "Chhukha",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"13": {
+				Name:         "Haa",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"14": {
+				Name:         "Samtse",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"15": {
+				Name:         "Thimphu",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"21": {
+				Name:         "Tsirang",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"22": {
+				Name:         "Dagana",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"23": {
+				Name:         "Punakha",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"24": {
+				Name:         "Wangdue Phodrang",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"31": {
+				Name:         "Sarpang",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"32": {
+				Name:         "Trongsa",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"33": {
+				Name:         "Bumthang",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"34": {
+				Name:         "Zhemgang",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"41": {
+				Name:         "Trashigang",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"42": {
+				Name:         "Monggar",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"43": {
+				Name:         "Pemagatshel",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"44": {
+				Name:         "Lhuentse",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"45": {
+				Name:         "Samdrup Jongkhar",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"GA": {
+				Name:         "Gasa",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+			"TY": {
+				Name:         "Trashi Yangtse",
+				LocalName:    "",
+				LanguageCode: "dz",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bumthang": {
+				Code: "33",
+			},
+			"Chhukha": {
+				Code: "12",
+			},
+			"Dagana": {
+				Code: "22",
+			},
+			"Gasa": {
+				Code: "GA",
+			},
+			"Haa": {
+				Code: "13",
+			},
+			"Lhuentse": {
+				Code: "44",
+			},
+			"Monggar": {
+				Code: "42",
+			},
+			"Paro": {
+				Code: "11",
+			},
+			"Pemagatshel": {
+				Code: "43",
+			},
+			"Punakha": {
+				Code: "23",
+			},
+			"Samdrup Jongkhar": {
+				Code: "45",
+			},
+			"Samtse": {
+				Code: "14",
+			},
+			"Sarpang": {
+				Code: "31",
+			},
+			"Thimphu": {
+				Code: "15",
+			},
+			"Trashi Yangtse": {
+				Code: "TY",
+			},
+			"Trashigang": {
+				Code: "41",
+			},
+			"Trongsa": {
+				Code: "32",
+			},
+			"Tsirang": {
+				Code: "21",
+			},
+			"Wangdue Phodrang": {
+				Code: "24",
+			},
+			"Zhemgang": {
+				Code: "34",
+			},
+		},
 	},
 
 	"BV": {
@@ -342,6 +5503,158 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Botswana",
 		CommonName:   "",
 		Numeric:      "072",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"CE": {
+				Name:         "Central",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"CH": {
+				Name:         "Chobe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"FR": {
+				Name:         "Francistown",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "city",
+			},
+			"GA": {
+				Name:         "Gaborone",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "city",
+			},
+			"GH": {
+				Name:         "Ghanzi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"JW": {
+				Name:         "Jwaneng",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "town",
+			},
+			"KG": {
+				Name:         "Kgalagadi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"KL": {
+				Name:         "Kgatleng",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"KW": {
+				Name:         "Kweneng",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"LO": {
+				Name:         "Lobatse",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "town",
+			},
+			"NE": {
+				Name:         "North East",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"NW": {
+				Name:         "North West",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"SE": {
+				Name:         "South East",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"SO": {
+				Name:         "Southern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"SP": {
+				Name:         "Selibe Phikwe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "town",
+			},
+			"ST": {
+				Name:         "Sowa Town",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "town",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Central": {
+				Code: "CE",
+			},
+			"Chobe": {
+				Code: "CH",
+			},
+			"Francistown": {
+				Code: "FR",
+			},
+			"Gaborone": {
+				Code: "GA",
+			},
+			"Ghanzi": {
+				Code: "GH",
+			},
+			"Jwaneng": {
+				Code: "JW",
+			},
+			"Kgalagadi": {
+				Code: "KG",
+			},
+			"Kgatleng": {
+				Code: "KL",
+			},
+			"Kweneng": {
+				Code: "KW",
+			},
+			"Lobatse": {
+				Code: "LO",
+			},
+			"North East": {
+				Code: "NE",
+			},
+			"North West": {
+				Code: "NW",
+			},
+			"Selibe Phikwe": {
+				Code: "SP",
+			},
+			"South East": {
+				Code: "SE",
+			},
+			"Southern": {
+				Code: "SO",
+			},
+			"Sowa Town": {
+				Code: "ST",
+			},
+		},
 	},
 
 	"BY": {
@@ -351,6 +5664,77 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Belarus",
 		CommonName:   "",
 		Numeric:      "112",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BR": {
+				Name:         "Bresckaja voblasć",
+				LocalName:    "",
+				LanguageCode: "be",
+				Type:         "oblast",
+			},
+			"HM": {
+				Name:         "Horad Minsk",
+				LocalName:    "",
+				LanguageCode: "be",
+				Type:         "city",
+			},
+			"HO": {
+				Name:         "Homieĺskaja voblasć",
+				LocalName:    "",
+				LanguageCode: "be",
+				Type:         "oblast",
+			},
+			"HR": {
+				Name:         "Hrodzienskaja voblasć",
+				LocalName:    "",
+				LanguageCode: "be",
+				Type:         "oblast",
+			},
+			"MA": {
+				Name:         "Mahilioŭskaja voblasć",
+				LocalName:    "",
+				LanguageCode: "be",
+				Type:         "oblast",
+			},
+			"MI": {
+				Name:         "Minskaja voblasć",
+				LocalName:    "",
+				LanguageCode: "be",
+				Type:         "oblast",
+			},
+			"VI": {
+				Name:         "Viciebskaja voblasć",
+				LocalName:    "",
+				LanguageCode: "be",
+				Type:         "oblast",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bresckaja voblasć": {
+				Code: "BR",
+			},
+			"Homieĺskaja voblasć": {
+				Code: "HO",
+			},
+			"Horad Minsk": {
+				Code: "HM",
+			},
+			"Hrodzienskaja voblasć": {
+				Code: "HR",
+			},
+			"Mahilioŭskaja voblasć": {
+				Code: "MA",
+			},
+			"Minskaja voblasć": {
+				Code: "MI",
+			},
+			"Viciebskaja voblasć": {
+				Code: "VI",
+			},
+		},
 	},
 
 	"BZ": {
@@ -360,6 +5744,68 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "084",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BZ": {
+				Name:         "Belize",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"CY": {
+				Name:         "Cayo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"CZL": {
+				Name:         "Corozal",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"OW": {
+				Name:         "Orange Walk",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"SC": {
+				Name:         "Stann Creek",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"TOL": {
+				Name:         "Toledo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Belize": {
+				Code: "BZ",
+			},
+			"Cayo": {
+				Code: "CY",
+			},
+			"Corozal": {
+				Code: "CZL",
+			},
+			"Orange Walk": {
+				Code: "OW",
+			},
+			"Stann Creek": {
+				Code: "SC",
+			},
+			"Toledo": {
+				Code: "TOL",
+			},
+		},
 	},
 
 	"CA": {
@@ -369,6 +5815,131 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "124",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AB": {
+				Name:         "Alberta",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"BC": {
+				Name:         "British Columbia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MB": {
+				Name:         "Manitoba",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"NB": {
+				Name:         "New Brunswick",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"NL": {
+				Name:         "Newfoundland and Labrador",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"NS": {
+				Name:         "Nova Scotia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"NT": {
+				Name:         "Northwest Territories",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "territory",
+			},
+			"NU": {
+				Name:         "Nunavut",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "territory",
+			},
+			"ON": {
+				Name:         "Ontario",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"PE": {
+				Name:         "Prince Edward Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"QC": {
+				Name:         "Quebec",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"SK": {
+				Name:         "Saskatchewan",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"YT": {
+				Name:         "Yukon",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "territory",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Alberta": {
+				Code: "AB",
+			},
+			"British Columbia": {
+				Code: "BC",
+			},
+			"Manitoba": {
+				Code: "MB",
+			},
+			"New Brunswick": {
+				Code: "NB",
+			},
+			"Newfoundland and Labrador": {
+				Code: "NL",
+			},
+			"Northwest Territories": {
+				Code: "NT",
+			},
+			"Nova Scotia": {
+				Code: "NS",
+			},
+			"Nunavut": {
+				Code: "NU",
+			},
+			"Ontario": {
+				Code: "ON",
+			},
+			"Prince Edward Island": {
+				Code: "PE",
+			},
+			"Quebec": {
+				Code: "QC",
+			},
+			"Saskatchewan": {
+				Code: "SK",
+			},
+			"Yukon": {
+				Code: "YT",
+			},
+		},
 	},
 
 	"CC": {
@@ -387,6 +5958,248 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "180",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BC": {
+				Name:         "Kongo Central",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"BU": {
+				Name:         "Bas-Uélé",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"EQ": {
+				Name:         "Équateur",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"HK": {
+				Name:         "Haut-Katanga",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"HL": {
+				Name:         "Haut-Lomami",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"HU": {
+				Name:         "Haut-Uélé",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"IT": {
+				Name:         "Ituri",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"KC": {
+				Name:         "Kasaï Central",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"KE": {
+				Name:         "Kasaï Oriental",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"KG": {
+				Name:         "Kwango",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"KL": {
+				Name:         "Kwilu",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"KN": {
+				Name:         "Kinshasa",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "city",
+			},
+			"KS": {
+				Name:         "Kasaï",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"LO": {
+				Name:         "Lomami",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"LU": {
+				Name:         "Lualaba",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"MA": {
+				Name:         "Maniema",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"MN": {
+				Name:         "Mai-Ndombe",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"MO": {
+				Name:         "Mongala",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"NK": {
+				Name:         "Nord-Kivu",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"NU": {
+				Name:         "Nord-Ubangi",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"SA": {
+				Name:         "Sankuru",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"SK": {
+				Name:         "Sud-Kivu",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"SU": {
+				Name:         "Sud-Ubangi",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"TA": {
+				Name:         "Tanganyika",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"TO": {
+				Name:         "Tshopo",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"TU": {
+				Name:         "Tshuapa",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bas-Uélé": {
+				Code: "BU",
+			},
+			"Haut-Katanga": {
+				Code: "HK",
+			},
+			"Haut-Lomami": {
+				Code: "HL",
+			},
+			"Haut-Uélé": {
+				Code: "HU",
+			},
+			"Ituri": {
+				Code: "IT",
+			},
+			"Kasaï": {
+				Code: "KS",
+			},
+			"Kasaï Central": {
+				Code: "KC",
+			},
+			"Kasaï Oriental": {
+				Code: "KE",
+			},
+			"Kinshasa": {
+				Code: "KN",
+			},
+			"Kongo Central": {
+				Code: "BC",
+			},
+			"Kwango": {
+				Code: "KG",
+			},
+			"Kwilu": {
+				Code: "KL",
+			},
+			"Lomami": {
+				Code: "LO",
+			},
+			"Lualaba": {
+				Code: "LU",
+			},
+			"Mai-Ndombe": {
+				Code: "MN",
+			},
+			"Maniema": {
+				Code: "MA",
+			},
+			"Mongala": {
+				Code: "MO",
+			},
+			"Nord-Kivu": {
+				Code: "NK",
+			},
+			"Nord-Ubangi": {
+				Code: "NU",
+			},
+			"Sankuru": {
+				Code: "SA",
+			},
+			"Sud-Kivu": {
+				Code: "SK",
+			},
+			"Sud-Ubangi": {
+				Code: "SU",
+			},
+			"Tanganyika": {
+				Code: "TA",
+			},
+			"Tshopo": {
+				Code: "TO",
+			},
+			"Tshuapa": {
+				Code: "TU",
+			},
+			"Équateur": {
+				Code: "EQ",
+			},
+		},
 	},
 
 	"CF": {
@@ -396,6 +6209,167 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "140",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AC": {
+				Name:         "Ouham",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"BB": {
+				Name:         "Bamingui-Bangoran",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"BGF": {
+				Name:         "Bangui",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "commune",
+			},
+			"BK": {
+				Name:         "Basse-Kotto",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"HK": {
+				Name:         "Haute-Kotto",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"HM": {
+				Name:         "Haut-Mbomou",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"HS": {
+				Name:         "Haute-Sangha / Mambéré-Kadéï",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"KB": {
+				Name:         "Gribingui",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "economic prefecture",
+			},
+			"KG": {
+				Name:         "Kémo-Gribingui",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"LB": {
+				Name:         "Lobaye",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"MB": {
+				Name:         "Mbomou",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"MP": {
+				Name:         "Ombella-Mpoko",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"NM": {
+				Name:         "Nana-Mambéré",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"OP": {
+				Name:         "Ouham-Pendé",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"SE": {
+				Name:         "Sangha",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "economic prefecture",
+			},
+			"UK": {
+				Name:         "Ouaka",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+			"VK": {
+				Name:         "Vakaga",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "prefecture",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bamingui-Bangoran": {
+				Code: "BB",
+			},
+			"Bangui": {
+				Code: "BGF",
+			},
+			"Basse-Kotto": {
+				Code: "BK",
+			},
+			"Gribingui": {
+				Code: "KB",
+			},
+			"Haut-Mbomou": {
+				Code: "HM",
+			},
+			"Haute-Kotto": {
+				Code: "HK",
+			},
+			"Haute-Sangha / Mambéré-Kadéï": {
+				Code: "HS",
+			},
+			"Kémo-Gribingui": {
+				Code: "KG",
+			},
+			"Lobaye": {
+				Code: "LB",
+			},
+			"Mbomou": {
+				Code: "MB",
+			},
+			"Nana-Mambéré": {
+				Code: "NM",
+			},
+			"Ombella-Mpoko": {
+				Code: "MP",
+			},
+			"Ouaka": {
+				Code: "UK",
+			},
+			"Ouham": {
+				Code: "AC",
+			},
+			"Ouham-Pendé": {
+				Code: "OP",
+			},
+			"Sangha": {
+				Code: "SE",
+			},
+			"Vakaga": {
+				Code: "VK",
+			},
+		},
 	},
 
 	"CG": {
@@ -405,6 +6379,122 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of the Congo",
 		CommonName:   "",
 		Numeric:      "178",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"11": {
+				Name:         "Bouenza",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"12": {
+				Name:         "Pool",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"13": {
+				Name:         "Sangha",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"14": {
+				Name:         "Plateaux",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"15": {
+				Name:         "Cuvette-Ouest",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"16": {
+				Name:         "Pointe-Noire",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"2": {
+				Name:         "Lékoumou",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"5": {
+				Name:         "Kouilou",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"7": {
+				Name:         "Likouala",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"8": {
+				Name:         "Cuvette",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"9": {
+				Name:         "Niari",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+			"BZV": {
+				Name:         "Brazzaville",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "department",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bouenza": {
+				Code: "11",
+			},
+			"Brazzaville": {
+				Code: "BZV",
+			},
+			"Cuvette": {
+				Code: "8",
+			},
+			"Cuvette-Ouest": {
+				Code: "15",
+			},
+			"Kouilou": {
+				Code: "5",
+			},
+			"Likouala": {
+				Code: "7",
+			},
+			"Lékoumou": {
+				Code: "2",
+			},
+			"Niari": {
+				Code: "9",
+			},
+			"Plateaux": {
+				Code: "14",
+			},
+			"Pointe-Noire": {
+				Code: "16",
+			},
+			"Pool": {
+				Code: "12",
+			},
+			"Sangha": {
+				Code: "13",
+			},
+		},
 	},
 
 	"CH": {
@@ -414,6 +6504,248 @@ var CountryStates = map[string]Country{
 		OfficialName: "Swiss Confederation",
 		CommonName:   "",
 		Numeric:      "756",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AG": {
+				Name:         "Aargau",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"AI": {
+				Name:         "Appenzell Innerrhoden",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"AR": {
+				Name:         "Appenzell Ausserrhoden",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"BE": {
+				Name:         "Bern",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"BL": {
+				Name:         "Basel-Landschaft",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"BS": {
+				Name:         "Basel-Stadt",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"FR": {
+				Name:         "Freiburg",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"GE": {
+				Name:         "Genève",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "canton",
+			},
+			"GL": {
+				Name:         "Glarus",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"GR": {
+				Name:         "Graubünden",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"JU": {
+				Name:         "Jura",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "canton",
+			},
+			"LU": {
+				Name:         "Luzern",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"NE": {
+				Name:         "Neuchâtel",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "canton",
+			},
+			"NW": {
+				Name:         "Nidwalden",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"OW": {
+				Name:         "Obwalden",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"SG": {
+				Name:         "Sankt Gallen",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"SH": {
+				Name:         "Schaffhausen",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"SO": {
+				Name:         "Solothurn",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"SZ": {
+				Name:         "Schwyz",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"TG": {
+				Name:         "Thurgau",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"TI": {
+				Name:         "Ticino",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "canton",
+			},
+			"UR": {
+				Name:         "Uri",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"VD": {
+				Name:         "Vaud",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "canton",
+			},
+			"VS": {
+				Name:         "Wallis",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"ZG": {
+				Name:         "Zug",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"ZH": {
+				Name:         "Zürich",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aargau": {
+				Code: "AG",
+			},
+			"Appenzell Ausserrhoden": {
+				Code: "AR",
+			},
+			"Appenzell Innerrhoden": {
+				Code: "AI",
+			},
+			"Basel-Landschaft": {
+				Code: "BL",
+			},
+			"Basel-Stadt": {
+				Code: "BS",
+			},
+			"Bern": {
+				Code: "BE",
+			},
+			"Freiburg": {
+				Code: "FR",
+			},
+			"Genève": {
+				Code: "GE",
+			},
+			"Glarus": {
+				Code: "GL",
+			},
+			"Graubünden": {
+				Code: "GR",
+			},
+			"Jura": {
+				Code: "JU",
+			},
+			"Luzern": {
+				Code: "LU",
+			},
+			"Neuchâtel": {
+				Code: "NE",
+			},
+			"Nidwalden": {
+				Code: "NW",
+			},
+			"Obwalden": {
+				Code: "OW",
+			},
+			"Sankt Gallen": {
+				Code: "SG",
+			},
+			"Schaffhausen": {
+				Code: "SH",
+			},
+			"Schwyz": {
+				Code: "SZ",
+			},
+			"Solothurn": {
+				Code: "SO",
+			},
+			"Thurgau": {
+				Code: "TG",
+			},
+			"Ticino": {
+				Code: "TI",
+			},
+			"Uri": {
+				Code: "UR",
+			},
+			"Vaud": {
+				Code: "VD",
+			},
+			"Wallis": {
+				Code: "VS",
+			},
+			"Zug": {
+				Code: "ZG",
+			},
+			"Zürich": {
+				Code: "ZH",
+			},
+		},
 	},
 
 	"CI": {
@@ -423,6 +6755,140 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Côte d'Ivoire",
 		CommonName:   "",
 		Numeric:      "384",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AB": {
+				Name:         "Abidjan",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "autonomous district",
+			},
+			"BS": {
+				Name:         "Bas-Sassandra",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+			"CM": {
+				Name:         "Comoé",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+			"DN": {
+				Name:         "Denguélé",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+			"GD": {
+				Name:         "Gôh-Djiboua",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+			"LC": {
+				Name:         "Lacs",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+			"LG": {
+				Name:         "Lagunes",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+			"MG": {
+				Name:         "Montagnes",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+			"SM": {
+				Name:         "Sassandra-Marahoué",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+			"SV": {
+				Name:         "Savanes",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+			"VB": {
+				Name:         "Vallée du Bandama",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+			"WR": {
+				Name:         "Woroba",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+			"YM": {
+				Name:         "Yamoussoukro",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "autonomous district",
+			},
+			"ZZ": {
+				Name:         "Zanzan",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Abidjan": {
+				Code: "AB",
+			},
+			"Bas-Sassandra": {
+				Code: "BS",
+			},
+			"Comoé": {
+				Code: "CM",
+			},
+			"Denguélé": {
+				Code: "DN",
+			},
+			"Gôh-Djiboua": {
+				Code: "GD",
+			},
+			"Lacs": {
+				Code: "LC",
+			},
+			"Lagunes": {
+				Code: "LG",
+			},
+			"Montagnes": {
+				Code: "MG",
+			},
+			"Sassandra-Marahoué": {
+				Code: "SM",
+			},
+			"Savanes": {
+				Code: "SV",
+			},
+			"Vallée du Bandama": {
+				Code: "VB",
+			},
+			"Woroba": {
+				Code: "WR",
+			},
+			"Yamoussoukro": {
+				Code: "YM",
+			},
+			"Zanzan": {
+				Code: "ZZ",
+			},
+		},
 	},
 
 	"CK": {
@@ -441,6 +6907,158 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Chile",
 		CommonName:   "",
 		Numeric:      "152",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AI": {
+				Name:         "Aisén del General Carlos Ibañez del Campo",
+				LocalName:    "Aysén, Aisén",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"AN": {
+				Name:         "Antofagasta",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"AP": {
+				Name:         "Arica y Parinacota",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"AR": {
+				Name:         "La Araucanía",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"AT": {
+				Name:         "Atacama",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"BI": {
+				Name:         "Biobío",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"CO": {
+				Name:         "Coquimbo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"LI": {
+				Name:         "Libertador General Bernardo O'Higgins",
+				LocalName:    "O'Higgins",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"LL": {
+				Name:         "Los Lagos",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"LR": {
+				Name:         "Los Ríos",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"MA": {
+				Name:         "Magallanes",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"ML": {
+				Name:         "Maule",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"NB": {
+				Name:         "Ñuble",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"RM": {
+				Name:         "Región Metropolitana de Santiago",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"TA": {
+				Name:         "Tarapacá",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"VS": {
+				Name:         "Valparaíso",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aisén del General Carlos Ibañez del Campo": {
+				Code: "AI",
+			},
+			"Antofagasta": {
+				Code: "AN",
+			},
+			"Arica y Parinacota": {
+				Code: "AP",
+			},
+			"Atacama": {
+				Code: "AT",
+			},
+			"Biobío": {
+				Code: "BI",
+			},
+			"Coquimbo": {
+				Code: "CO",
+			},
+			"La Araucanía": {
+				Code: "AR",
+			},
+			"Libertador General Bernardo O'Higgins": {
+				Code: "LI",
+			},
+			"Los Lagos": {
+				Code: "LL",
+			},
+			"Los Ríos": {
+				Code: "LR",
+			},
+			"Magallanes": {
+				Code: "MA",
+			},
+			"Maule": {
+				Code: "ML",
+			},
+			"Región Metropolitana de Santiago": {
+				Code: "RM",
+			},
+			"Tarapacá": {
+				Code: "TA",
+			},
+			"Valparaíso": {
+				Code: "VS",
+			},
+			"Ñuble": {
+				Code: "NB",
+			},
+		},
 	},
 
 	"CM": {
@@ -450,6 +7068,104 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Cameroon",
 		CommonName:   "",
 		Numeric:      "120",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AD": {
+				Name:         "Adamaoua",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"CE": {
+				Name:         "Centre",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"EN": {
+				Name:         "Far North",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"ES": {
+				Name:         "East",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"LT": {
+				Name:         "Littoral",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"NO": {
+				Name:         "North",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"NW": {
+				Name:         "North-West",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"OU": {
+				Name:         "West",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"SU": {
+				Name:         "South",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"SW": {
+				Name:         "South-West",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Adamaoua": {
+				Code: "AD",
+			},
+			"Centre": {
+				Code: "CE",
+			},
+			"East": {
+				Code: "ES",
+			},
+			"Far North": {
+				Code: "EN",
+			},
+			"Littoral": {
+				Code: "LT",
+			},
+			"North": {
+				Code: "NO",
+			},
+			"North-West": {
+				Code: "NW",
+			},
+			"South": {
+				Code: "SU",
+			},
+			"South-West": {
+				Code: "SW",
+			},
+			"West": {
+				Code: "OU",
+			},
+		},
 	},
 
 	"CN": {
@@ -459,6 +7175,320 @@ var CountryStates = map[string]Country{
 		OfficialName: "People's Republic of China",
 		CommonName:   "",
 		Numeric:      "156",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AH": {
+				Name:         "Anhui Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"BJ": {
+				Name:         "Beijing Shi",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "municipality",
+			},
+			"CQ": {
+				Name:         "Chongqing Shi",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "municipality",
+			},
+			"FJ": {
+				Name:         "Fujian Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"GD": {
+				Name:         "Guangdong Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"GS": {
+				Name:         "Gansu Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"GX": {
+				Name:         "Guangxi Zhuangzu Zizhiqu",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "autonomous region",
+			},
+			"GZ": {
+				Name:         "Guizhou Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"HA": {
+				Name:         "Henan Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"HB": {
+				Name:         "Hubei Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"HE": {
+				Name:         "Hebei Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"HI": {
+				Name:         "Hainan Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"HK": {
+				Name:         "Xianggang Tebiexingzhengqu (see also separate country code entry under HK)",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "special administrative region",
+			},
+			"HL": {
+				Name:         "Heilongjiang Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"HN": {
+				Name:         "Hunan Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"JL": {
+				Name:         "Jilin Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"JS": {
+				Name:         "Jiangsu Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"JX": {
+				Name:         "Jiangxi Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"LN": {
+				Name:         "Liaoning Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"MO": {
+				Name:         "Aomen Tebiexingzhengqu (see also separate country code entry under MO)",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "special administrative region",
+			},
+			"NM": {
+				Name:         "Nei Mongol Zizhiqu",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "autonomous region",
+			},
+			"NX": {
+				Name:         "Ningxia Huizi Zizhiqu",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "autonomous region",
+			},
+			"QH": {
+				Name:         "Qinghai Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"SC": {
+				Name:         "Sichuan Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"SD": {
+				Name:         "Shandong Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"SH": {
+				Name:         "Shanghai Shi",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "municipality",
+			},
+			"SN": {
+				Name:         "Shaanxi Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"SX": {
+				Name:         "Shanxi Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"TJ": {
+				Name:         "Tianjin Shi",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "municipality",
+			},
+			"TW": {
+				Name:         "Taiwan Sheng (see also separate country code entry under TW)",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"XJ": {
+				Name:         "Xinjiang Uygur Zizhiqu",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "autonomous region",
+			},
+			"XZ": {
+				Name:         "Xizang Zizhiqu",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "autonomous region",
+			},
+			"YN": {
+				Name:         "Yunnan Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+			"ZJ": {
+				Name:         "Zhejiang Sheng",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Anhui Sheng": {
+				Code: "AH",
+			},
+			"Aomen Tebiexingzhengqu (see also separate country code entry under MO)": {
+				Code: "MO",
+			},
+			"Beijing Shi": {
+				Code: "BJ",
+			},
+			"Chongqing Shi": {
+				Code: "CQ",
+			},
+			"Fujian Sheng": {
+				Code: "FJ",
+			},
+			"Gansu Sheng": {
+				Code: "GS",
+			},
+			"Guangdong Sheng": {
+				Code: "GD",
+			},
+			"Guangxi Zhuangzu Zizhiqu": {
+				Code: "GX",
+			},
+			"Guizhou Sheng": {
+				Code: "GZ",
+			},
+			"Hainan Sheng": {
+				Code: "HI",
+			},
+			"Hebei Sheng": {
+				Code: "HE",
+			},
+			"Heilongjiang Sheng": {
+				Code: "HL",
+			},
+			"Henan Sheng": {
+				Code: "HA",
+			},
+			"Hubei Sheng": {
+				Code: "HB",
+			},
+			"Hunan Sheng": {
+				Code: "HN",
+			},
+			"Jiangsu Sheng": {
+				Code: "JS",
+			},
+			"Jiangxi Sheng": {
+				Code: "JX",
+			},
+			"Jilin Sheng": {
+				Code: "JL",
+			},
+			"Liaoning Sheng": {
+				Code: "LN",
+			},
+			"Nei Mongol Zizhiqu": {
+				Code: "NM",
+			},
+			"Ningxia Huizi Zizhiqu": {
+				Code: "NX",
+			},
+			"Qinghai Sheng": {
+				Code: "QH",
+			},
+			"Shaanxi Sheng": {
+				Code: "SN",
+			},
+			"Shandong Sheng": {
+				Code: "SD",
+			},
+			"Shanghai Shi": {
+				Code: "SH",
+			},
+			"Shanxi Sheng": {
+				Code: "SX",
+			},
+			"Sichuan Sheng": {
+				Code: "SC",
+			},
+			"Taiwan Sheng (see also separate country code entry under TW)": {
+				Code: "TW",
+			},
+			"Tianjin Shi": {
+				Code: "TJ",
+			},
+			"Xianggang Tebiexingzhengqu (see also separate country code entry under HK)": {
+				Code: "HK",
+			},
+			"Xinjiang Uygur Zizhiqu": {
+				Code: "XJ",
+			},
+			"Xizang Zizhiqu": {
+				Code: "XZ",
+			},
+			"Yunnan Sheng": {
+				Code: "YN",
+			},
+			"Zhejiang Sheng": {
+				Code: "ZJ",
+			},
+		},
 	},
 
 	"CO": {
@@ -468,6 +7498,311 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Colombia",
 		CommonName:   "",
 		Numeric:      "170",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AMA": {
+				Name:         "Amazonas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"ANT": {
+				Name:         "Antioquia",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"ARA": {
+				Name:         "Arauca",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"ATL": {
+				Name:         "Atlántico",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"BOL": {
+				Name:         "Bolívar",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"BOY": {
+				Name:         "Boyacá",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CAL": {
+				Name:         "Caldas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CAQ": {
+				Name:         "Caquetá",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CAS": {
+				Name:         "Casanare",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CAU": {
+				Name:         "Cauca",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CES": {
+				Name:         "Cesar",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CHO": {
+				Name:         "Chocó",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"COR": {
+				Name:         "Córdoba",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CUN": {
+				Name:         "Cundinamarca",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"DC": {
+				Name:         "Distrito Capital de Bogotá",
+				LocalName:    "Distrito Capital",
+				LanguageCode: "es",
+				Type:         "capital district",
+			},
+			"GUA": {
+				Name:         "Guainía",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"GUV": {
+				Name:         "Guaviare",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"HUI": {
+				Name:         "Huila",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"LAG": {
+				Name:         "La Guajira",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"MAG": {
+				Name:         "Magdalena",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"MET": {
+				Name:         "Meta",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"NAR": {
+				Name:         "Nariño",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"NSA": {
+				Name:         "Norte de Santander",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"PUT": {
+				Name:         "Putumayo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"QUI": {
+				Name:         "Quindío",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"RIS": {
+				Name:         "Risaralda",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SAN": {
+				Name:         "Santander",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SAP": {
+				Name:         "San Andrés, Providencia y Santa Catalina",
+				LocalName:    "San Andrés",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SUC": {
+				Name:         "Sucre",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"TOL": {
+				Name:         "Tolima",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"VAC": {
+				Name:         "Valle del Cauca",
+				LocalName:    "Valle",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"VAU": {
+				Name:         "Vaupés",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"VID": {
+				Name:         "Vichada",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Amazonas": {
+				Code: "AMA",
+			},
+			"Antioquia": {
+				Code: "ANT",
+			},
+			"Arauca": {
+				Code: "ARA",
+			},
+			"Atlántico": {
+				Code: "ATL",
+			},
+			"Bolívar": {
+				Code: "BOL",
+			},
+			"Boyacá": {
+				Code: "BOY",
+			},
+			"Caldas": {
+				Code: "CAL",
+			},
+			"Caquetá": {
+				Code: "CAQ",
+			},
+			"Casanare": {
+				Code: "CAS",
+			},
+			"Cauca": {
+				Code: "CAU",
+			},
+			"Cesar": {
+				Code: "CES",
+			},
+			"Chocó": {
+				Code: "CHO",
+			},
+			"Cundinamarca": {
+				Code: "CUN",
+			},
+			"Córdoba": {
+				Code: "COR",
+			},
+			"Distrito Capital de Bogotá": {
+				Code: "DC",
+			},
+			"Guainía": {
+				Code: "GUA",
+			},
+			"Guaviare": {
+				Code: "GUV",
+			},
+			"Huila": {
+				Code: "HUI",
+			},
+			"La Guajira": {
+				Code: "LAG",
+			},
+			"Magdalena": {
+				Code: "MAG",
+			},
+			"Meta": {
+				Code: "MET",
+			},
+			"Nariño": {
+				Code: "NAR",
+			},
+			"Norte de Santander": {
+				Code: "NSA",
+			},
+			"Putumayo": {
+				Code: "PUT",
+			},
+			"Quindío": {
+				Code: "QUI",
+			},
+			"Risaralda": {
+				Code: "RIS",
+			},
+			"San Andrés, Providencia y Santa Catalina": {
+				Code: "SAP",
+			},
+			"Santander": {
+				Code: "SAN",
+			},
+			"Sucre": {
+				Code: "SUC",
+			},
+			"Tolima": {
+				Code: "TOL",
+			},
+			"Valle del Cauca": {
+				Code: "VAC",
+			},
+			"Vaupés": {
+				Code: "VAU",
+			},
+			"Vichada": {
+				Code: "VID",
+			},
+		},
 	},
 
 	"CR": {
@@ -477,6 +7812,77 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Costa Rica",
 		CommonName:   "",
 		Numeric:      "188",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"A": {
+				Name:         "Alajuela",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"C": {
+				Name:         "Cartago",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"G": {
+				Name:         "Guanacaste",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"H": {
+				Name:         "Heredia",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"L": {
+				Name:         "Limón",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"P": {
+				Name:         "Puntarenas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"SJ": {
+				Name:         "San José",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Alajuela": {
+				Code: "A",
+			},
+			"Cartago": {
+				Code: "C",
+			},
+			"Guanacaste": {
+				Code: "G",
+			},
+			"Heredia": {
+				Code: "H",
+			},
+			"Limón": {
+				Code: "L",
+			},
+			"Puntarenas": {
+				Code: "P",
+			},
+			"San José": {
+				Code: "SJ",
+			},
+		},
 	},
 
 	"CU": {
@@ -486,6 +7892,158 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Cuba",
 		CommonName:   "",
 		Numeric:      "192",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Pinar del Río",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"03": {
+				Name:         "La Habana",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"04": {
+				Name:         "Matanzas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"05": {
+				Name:         "Villa Clara",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"06": {
+				Name:         "Cienfuegos",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"07": {
+				Name:         "Sancti Spíritus",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"08": {
+				Name:         "Ciego de Ávila",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"09": {
+				Name:         "Camagüey",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"10": {
+				Name:         "Las Tunas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"11": {
+				Name:         "Holguín",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"12": {
+				Name:         "Granma",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"13": {
+				Name:         "Santiago de Cuba",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"14": {
+				Name:         "Guantánamo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"15": {
+				Name:         "Artemisa",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"16": {
+				Name:         "Mayabeque",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"99": {
+				Name:         "Isla de la Juventud",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "special municipality",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Artemisa": {
+				Code: "15",
+			},
+			"Camagüey": {
+				Code: "09",
+			},
+			"Ciego de Ávila": {
+				Code: "08",
+			},
+			"Cienfuegos": {
+				Code: "06",
+			},
+			"Granma": {
+				Code: "12",
+			},
+			"Guantánamo": {
+				Code: "14",
+			},
+			"Holguín": {
+				Code: "11",
+			},
+			"Isla de la Juventud": {
+				Code: "99",
+			},
+			"La Habana": {
+				Code: "03",
+			},
+			"Las Tunas": {
+				Code: "10",
+			},
+			"Matanzas": {
+				Code: "04",
+			},
+			"Mayabeque": {
+				Code: "16",
+			},
+			"Pinar del Río": {
+				Code: "01",
+			},
+			"Sancti Spíritus": {
+				Code: "07",
+			},
+			"Santiago de Cuba": {
+				Code: "13",
+			},
+			"Villa Clara": {
+				Code: "05",
+			},
+		},
 	},
 
 	"CV": {
@@ -495,6 +8053,246 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Cabo Verde",
 		CommonName:   "",
 		Numeric:      "132",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"B": {
+				Name:         "Ilhas de Barlavento",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "geographical region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BV": {
+						Name:         "Boa Vista",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"PA": {
+						Name:         "Paul",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"PN": {
+						Name:         "Porto Novo",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"RB": {
+						Name:         "Ribeira Brava",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"RG": {
+						Name:         "Ribeira Grande",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"SL": {
+						Name:         "Sal",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"SV": {
+						Name:         "São Vicente",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"TS": {
+						Name:         "Tarrafal de São Nicolau",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+				},
+			},
+			"S": {
+				Name:         "Ilhas de Sotavento",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "geographical region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BR": {
+						Name:         "Brava",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"CA": {
+						Name:         "Santa Catarina",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"CF": {
+						Name:         "Santa Catarina do Fogo",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"CR": {
+						Name:         "Santa Cruz",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"MA": {
+						Name:         "Maio",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"MO": {
+						Name:         "Mosteiros",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"PR": {
+						Name:         "Praia",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"RS": {
+						Name:         "Ribeira Grande de Santiago",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"SD": {
+						Name:         "São Domingos",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"SF": {
+						Name:         "São Filipe",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"SM": {
+						Name:         "São Miguel",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"SO": {
+						Name:         "São Lourenço dos Órgãos",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"SS": {
+						Name:         "São Salvador do Mundo",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+					"TA": {
+						Name:         "Tarrafal",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "municipality",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ilhas de Barlavento": {
+				Code: "B",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Boa Vista": {
+						Code: "BV",
+					},
+					"Paul": {
+						Code: "PA",
+					},
+					"Porto Novo": {
+						Code: "PN",
+					},
+					"Ribeira Brava": {
+						Code: "RB",
+					},
+					"Ribeira Grande": {
+						Code: "RG",
+					},
+					"Sal": {
+						Code: "SL",
+					},
+					"São Vicente": {
+						Code: "SV",
+					},
+					"Tarrafal de São Nicolau": {
+						Code: "TS",
+					},
+				},
+			},
+			"Ilhas de Sotavento": {
+				Code: "S",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Brava": {
+						Code: "BR",
+					},
+					"Maio": {
+						Code: "MA",
+					},
+					"Mosteiros": {
+						Code: "MO",
+					},
+					"Praia": {
+						Code: "PR",
+					},
+					"Ribeira Grande de Santiago": {
+						Code: "RS",
+					},
+					"Santa Catarina": {
+						Code: "CA",
+					},
+					"Santa Catarina do Fogo": {
+						Code: "CF",
+					},
+					"Santa Cruz": {
+						Code: "CR",
+					},
+					"São Domingos": {
+						Code: "SD",
+					},
+					"São Filipe": {
+						Code: "SF",
+					},
+					"São Lourenço dos Órgãos": {
+						Code: "SO",
+					},
+					"São Miguel": {
+						Code: "SM",
+					},
+					"São Salvador do Mundo": {
+						Code: "SS",
+					},
+					"Tarrafal": {
+						Code: "TA",
+					},
+				},
+			},
+		},
 	},
 
 	"CW": {
@@ -522,6 +8320,68 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Cyprus",
 		CommonName:   "",
 		Numeric:      "196",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Lefkosia",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "district",
+			},
+			"02": {
+				Name:         "Lemesos",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "district",
+			},
+			"03": {
+				Name:         "Larnaka",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "district",
+			},
+			"04": {
+				Name:         "Ammochostos",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "district",
+			},
+			"05": {
+				Name:         "Pafos",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "district",
+			},
+			"06": {
+				Name:         "Keryneia",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ammochostos": {
+				Code: "04",
+			},
+			"Keryneia": {
+				Code: "06",
+			},
+			"Larnaka": {
+				Code: "03",
+			},
+			"Lefkosia": {
+				Code: "01",
+			},
+			"Lemesos": {
+				Code: "02",
+			},
+			"Pafos": {
+				Code: "05",
+			},
+		},
 	},
 
 	"CZ": {
@@ -531,6 +8391,928 @@ var CountryStates = map[string]Country{
 		OfficialName: "Czech Republic",
 		CommonName:   "",
 		Numeric:      "203",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"10": {
+				Name:         "Praha, Hlavní město",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "capital city",
+			},
+			"20": {
+				Name:         "Středočeský kraj",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"201": {
+						Name:         "Benešov",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"202": {
+						Name:         "Beroun",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"203": {
+						Name:         "Kladno",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"204": {
+						Name:         "Kolín",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"205": {
+						Name:         "Kutná Hora",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"206": {
+						Name:         "Mělník",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"207": {
+						Name:         "Mladá Boleslav",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"208": {
+						Name:         "Nymburk",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"209": {
+						Name:         "Praha-východ",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"20A": {
+						Name:         "Praha-západ",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"20B": {
+						Name:         "Příbram",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"20C": {
+						Name:         "Rakovník",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+			"31": {
+				Name:         "Jihočeský kraj",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"311": {
+						Name:         "České Budějovice",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"312": {
+						Name:         "Český Krumlov",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"313": {
+						Name:         "Jindřichův Hradec",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"314": {
+						Name:         "Písek",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"315": {
+						Name:         "Prachatice",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"316": {
+						Name:         "Strakonice",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"317": {
+						Name:         "Tábor",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+			"32": {
+				Name:         "Plzeňský kraj",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"321": {
+						Name:         "Domažlice",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"322": {
+						Name:         "Klatovy",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"323": {
+						Name:         "Plzeň-město",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"324": {
+						Name:         "Plzeň-jih",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"325": {
+						Name:         "Plzeň-sever",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"326": {
+						Name:         "Rokycany",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"327": {
+						Name:         "Tachov",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+			"41": {
+				Name:         "Karlovarský kraj",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"411": {
+						Name:         "Cheb",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"412": {
+						Name:         "Karlovy Vary",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"413": {
+						Name:         "Sokolov",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+			"42": {
+				Name:         "Ústecký kraj",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"421": {
+						Name:         "Děčín",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"422": {
+						Name:         "Chomutov",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"423": {
+						Name:         "Litoměřice",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"424": {
+						Name:         "Louny",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"425": {
+						Name:         "Most",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"426": {
+						Name:         "Teplice",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"427": {
+						Name:         "Ústí nad Labem",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+			"51": {
+				Name:         "Liberecký kraj",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"511": {
+						Name:         "Česká Lípa",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"512": {
+						Name:         "Jablonec nad Nisou",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"513": {
+						Name:         "Liberec",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"514": {
+						Name:         "Semily",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+			"52": {
+				Name:         "Královéhradecký kraj",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"521": {
+						Name:         "Hradec Králové",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"522": {
+						Name:         "Jičín",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"523": {
+						Name:         "Náchod",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"524": {
+						Name:         "Rychnov nad Kněžnou",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"525": {
+						Name:         "Trutnov",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+			"53": {
+				Name:         "Pardubický kraj",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"531": {
+						Name:         "Chrudim",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"532": {
+						Name:         "Pardubice",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"533": {
+						Name:         "Svitavy",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"534": {
+						Name:         "Ústí nad Orlicí",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+			"63": {
+				Name:         "Kraj Vysočina",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"631": {
+						Name:         "Havlíčkův Brod",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"632": {
+						Name:         "Jihlava",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"633": {
+						Name:         "Pelhřimov",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"634": {
+						Name:         "Třebíč",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"635": {
+						Name:         "Žďár nad Sázavou",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+			"64": {
+				Name:         "Jihomoravský kraj",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"641": {
+						Name:         "Blansko",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"642": {
+						Name:         "Brno-město",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"643": {
+						Name:         "Brno-venkov",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"644": {
+						Name:         "Břeclav",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"645": {
+						Name:         "Hodonín",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"646": {
+						Name:         "Vyškov",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"647": {
+						Name:         "Znojmo",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+			"71": {
+				Name:         "Olomoucký kraj",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"711": {
+						Name:         "Jeseník",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"712": {
+						Name:         "Olomouc",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"713": {
+						Name:         "Prostějov",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"714": {
+						Name:         "Přerov",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"715": {
+						Name:         "Šumperk",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+			"72": {
+				Name:         "Zlínský kraj",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"721": {
+						Name:         "Kroměříž",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"722": {
+						Name:         "Uherské Hradiště",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"723": {
+						Name:         "Vsetín",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"724": {
+						Name:         "Zlín",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+			"80": {
+				Name:         "Moravskoslezský kraj",
+				LocalName:    "",
+				LanguageCode: "cs",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"801": {
+						Name:         "Bruntál",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"802": {
+						Name:         "Frýdek-Místek",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"803": {
+						Name:         "Karviná",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"804": {
+						Name:         "Nový Jičín",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"805": {
+						Name:         "Opava",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+					"806": {
+						Name:         "Ostrava-město",
+						LocalName:    "",
+						LanguageCode: "cs",
+						Type:         "district",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Jihomoravský kraj": {
+				Code: "64",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Blansko": {
+						Code: "641",
+					},
+					"Brno-město": {
+						Code: "642",
+					},
+					"Brno-venkov": {
+						Code: "643",
+					},
+					"Břeclav": {
+						Code: "644",
+					},
+					"Hodonín": {
+						Code: "645",
+					},
+					"Vyškov": {
+						Code: "646",
+					},
+					"Znojmo": {
+						Code: "647",
+					},
+				},
+			},
+			"Jihočeský kraj": {
+				Code: "31",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Jindřichův Hradec": {
+						Code: "313",
+					},
+					"Prachatice": {
+						Code: "315",
+					},
+					"Písek": {
+						Code: "314",
+					},
+					"Strakonice": {
+						Code: "316",
+					},
+					"Tábor": {
+						Code: "317",
+					},
+					"České Budějovice": {
+						Code: "311",
+					},
+					"Český Krumlov": {
+						Code: "312",
+					},
+				},
+			},
+			"Karlovarský kraj": {
+				Code: "41",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Cheb": {
+						Code: "411",
+					},
+					"Karlovy Vary": {
+						Code: "412",
+					},
+					"Sokolov": {
+						Code: "413",
+					},
+				},
+			},
+			"Kraj Vysočina": {
+				Code: "63",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Havlíčkův Brod": {
+						Code: "631",
+					},
+					"Jihlava": {
+						Code: "632",
+					},
+					"Pelhřimov": {
+						Code: "633",
+					},
+					"Třebíč": {
+						Code: "634",
+					},
+					"Žďár nad Sázavou": {
+						Code: "635",
+					},
+				},
+			},
+			"Královéhradecký kraj": {
+				Code: "52",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Hradec Králové": {
+						Code: "521",
+					},
+					"Jičín": {
+						Code: "522",
+					},
+					"Náchod": {
+						Code: "523",
+					},
+					"Rychnov nad Kněžnou": {
+						Code: "524",
+					},
+					"Trutnov": {
+						Code: "525",
+					},
+				},
+			},
+			"Liberecký kraj": {
+				Code: "51",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Jablonec nad Nisou": {
+						Code: "512",
+					},
+					"Liberec": {
+						Code: "513",
+					},
+					"Semily": {
+						Code: "514",
+					},
+					"Česká Lípa": {
+						Code: "511",
+					},
+				},
+			},
+			"Moravskoslezský kraj": {
+				Code: "80",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bruntál": {
+						Code: "801",
+					},
+					"Frýdek-Místek": {
+						Code: "802",
+					},
+					"Karviná": {
+						Code: "803",
+					},
+					"Nový Jičín": {
+						Code: "804",
+					},
+					"Opava": {
+						Code: "805",
+					},
+					"Ostrava-město": {
+						Code: "806",
+					},
+				},
+			},
+			"Olomoucký kraj": {
+				Code: "71",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Jeseník": {
+						Code: "711",
+					},
+					"Olomouc": {
+						Code: "712",
+					},
+					"Prostějov": {
+						Code: "713",
+					},
+					"Přerov": {
+						Code: "714",
+					},
+					"Šumperk": {
+						Code: "715",
+					},
+				},
+			},
+			"Pardubický kraj": {
+				Code: "53",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Chrudim": {
+						Code: "531",
+					},
+					"Pardubice": {
+						Code: "532",
+					},
+					"Svitavy": {
+						Code: "533",
+					},
+					"Ústí nad Orlicí": {
+						Code: "534",
+					},
+				},
+			},
+			"Plzeňský kraj": {
+				Code: "32",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Domažlice": {
+						Code: "321",
+					},
+					"Klatovy": {
+						Code: "322",
+					},
+					"Plzeň-jih": {
+						Code: "324",
+					},
+					"Plzeň-město": {
+						Code: "323",
+					},
+					"Plzeň-sever": {
+						Code: "325",
+					},
+					"Rokycany": {
+						Code: "326",
+					},
+					"Tachov": {
+						Code: "327",
+					},
+				},
+			},
+			"Praha, Hlavní město": {
+				Code: "10",
+			},
+			"Středočeský kraj": {
+				Code: "20",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Benešov": {
+						Code: "201",
+					},
+					"Beroun": {
+						Code: "202",
+					},
+					"Kladno": {
+						Code: "203",
+					},
+					"Kolín": {
+						Code: "204",
+					},
+					"Kutná Hora": {
+						Code: "205",
+					},
+					"Mladá Boleslav": {
+						Code: "207",
+					},
+					"Mělník": {
+						Code: "206",
+					},
+					"Nymburk": {
+						Code: "208",
+					},
+					"Praha-východ": {
+						Code: "209",
+					},
+					"Praha-západ": {
+						Code: "20A",
+					},
+					"Příbram": {
+						Code: "20B",
+					},
+					"Rakovník": {
+						Code: "20C",
+					},
+				},
+			},
+			"Zlínský kraj": {
+				Code: "72",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Kroměříž": {
+						Code: "721",
+					},
+					"Uherské Hradiště": {
+						Code: "722",
+					},
+					"Vsetín": {
+						Code: "723",
+					},
+					"Zlín": {
+						Code: "724",
+					},
+				},
+			},
+			"Ústecký kraj": {
+				Code: "42",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Chomutov": {
+						Code: "422",
+					},
+					"Děčín": {
+						Code: "421",
+					},
+					"Litoměřice": {
+						Code: "423",
+					},
+					"Louny": {
+						Code: "424",
+					},
+					"Most": {
+						Code: "425",
+					},
+					"Teplice": {
+						Code: "426",
+					},
+					"Ústí nad Labem": {
+						Code: "427",
+					},
+				},
+			},
+		},
 	},
 
 	"DE": {
@@ -540,6 +9322,158 @@ var CountryStates = map[string]Country{
 		OfficialName: "Federal Republic of Germany",
 		CommonName:   "",
 		Numeric:      "276",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BB": {
+				Name:         "Brandenburg",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"BE": {
+				Name:         "Berlin",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"BW": {
+				Name:         "Baden-Württemberg",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"BY": {
+				Name:         "Bayern",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"HB": {
+				Name:         "Bremen",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"HE": {
+				Name:         "Hessen",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"HH": {
+				Name:         "Hamburg",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"MV": {
+				Name:         "Mecklenburg-Vorpommern",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"NI": {
+				Name:         "Niedersachsen",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"NW": {
+				Name:         "Nordrhein-Westfalen",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"RP": {
+				Name:         "Rheinland-Pfalz",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"SH": {
+				Name:         "Schleswig-Holstein",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"SL": {
+				Name:         "Saarland",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"SN": {
+				Name:         "Sachsen",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"ST": {
+				Name:         "Sachsen-Anhalt",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+			"TH": {
+				Name:         "Thüringen",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "Land",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Baden-Württemberg": {
+				Code: "BW",
+			},
+			"Bayern": {
+				Code: "BY",
+			},
+			"Berlin": {
+				Code: "BE",
+			},
+			"Brandenburg": {
+				Code: "BB",
+			},
+			"Bremen": {
+				Code: "HB",
+			},
+			"Hamburg": {
+				Code: "HH",
+			},
+			"Hessen": {
+				Code: "HE",
+			},
+			"Mecklenburg-Vorpommern": {
+				Code: "MV",
+			},
+			"Niedersachsen": {
+				Code: "NI",
+			},
+			"Nordrhein-Westfalen": {
+				Code: "NW",
+			},
+			"Rheinland-Pfalz": {
+				Code: "RP",
+			},
+			"Saarland": {
+				Code: "SL",
+			},
+			"Sachsen": {
+				Code: "SN",
+			},
+			"Sachsen-Anhalt": {
+				Code: "ST",
+			},
+			"Schleswig-Holstein": {
+				Code: "SH",
+			},
+			"Thüringen": {
+				Code: "TH",
+			},
+		},
 	},
 
 	"DJ": {
@@ -549,6 +9483,68 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Djibouti",
 		CommonName:   "",
 		Numeric:      "262",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AR": {
+				Name:         "Arta",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"AS": {
+				Name:         "Ali Sabieh",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"DI": {
+				Name:         "Dikhil",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"DJ": {
+				Name:         "Djibouti",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "city",
+			},
+			"OB": {
+				Name:         "Obock",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"TA": {
+				Name:         "Tadjourah",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ali Sabieh": {
+				Code: "AS",
+			},
+			"Arta": {
+				Code: "AR",
+			},
+			"Dikhil": {
+				Code: "DI",
+			},
+			"Djibouti": {
+				Code: "DJ",
+			},
+			"Obock": {
+				Code: "OB",
+			},
+			"Tadjourah": {
+				Code: "TA",
+			},
+		},
 	},
 
 	"DK": {
@@ -558,6 +9554,59 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Denmark",
 		CommonName:   "",
 		Numeric:      "208",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"81": {
+				Name:         "Nordjylland",
+				LocalName:    "",
+				LanguageCode: "da",
+				Type:         "region",
+			},
+			"82": {
+				Name:         "Midtjylland",
+				LocalName:    "",
+				LanguageCode: "da",
+				Type:         "region",
+			},
+			"83": {
+				Name:         "Syddanmark",
+				LocalName:    "",
+				LanguageCode: "da",
+				Type:         "region",
+			},
+			"84": {
+				Name:         "Hovedstaden",
+				LocalName:    "",
+				LanguageCode: "da",
+				Type:         "region",
+			},
+			"85": {
+				Name:         "Sjælland",
+				LocalName:    "",
+				LanguageCode: "da",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Hovedstaden": {
+				Code: "84",
+			},
+			"Midtjylland": {
+				Code: "82",
+			},
+			"Nordjylland": {
+				Code: "81",
+			},
+			"Sjælland": {
+				Code: "85",
+			},
+			"Syddanmark": {
+				Code: "83",
+			},
+		},
 	},
 
 	"DM": {
@@ -567,6 +9616,104 @@ var CountryStates = map[string]Country{
 		OfficialName: "Commonwealth of Dominica",
 		CommonName:   "",
 		Numeric:      "212",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"02": {
+				Name:         "Saint Andrew",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"03": {
+				Name:         "Saint David",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"04": {
+				Name:         "Saint George",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"05": {
+				Name:         "Saint John",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"06": {
+				Name:         "Saint Joseph",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"07": {
+				Name:         "Saint Luke",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"08": {
+				Name:         "Saint Mark",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"09": {
+				Name:         "Saint Patrick",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"10": {
+				Name:         "Saint Paul",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"11": {
+				Name:         "Saint Peter",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Saint Andrew": {
+				Code: "02",
+			},
+			"Saint David": {
+				Code: "03",
+			},
+			"Saint George": {
+				Code: "04",
+			},
+			"Saint John": {
+				Code: "05",
+			},
+			"Saint Joseph": {
+				Code: "06",
+			},
+			"Saint Luke": {
+				Code: "07",
+			},
+			"Saint Mark": {
+				Code: "08",
+			},
+			"Saint Patrick": {
+				Code: "09",
+			},
+			"Saint Paul": {
+				Code: "10",
+			},
+			"Saint Peter": {
+				Code: "11",
+			},
+		},
 	},
 
 	"DO": {
@@ -576,6 +9723,472 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "214",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"33": {
+				Name:         "Cibao Nordeste",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"06": {
+						Name:         "Duarte",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"14": {
+						Name:         "María Trinidad Sánchez",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"19": {
+						Name:         "Hermanas Mirabal",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"20": {
+						Name:         "Samaná",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"34": {
+				Name:         "Cibao Noroeste",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"05": {
+						Name:         "Dajabón",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"15": {
+						Name:         "Monte Cristi",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"26": {
+						Name:         "Santiago Rodríguez",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"27": {
+						Name:         "Valverde",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"35": {
+				Name:         "Cibao Norte",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"09": {
+						Name:         "Espaillat",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"18": {
+						Name:         "Puerto Plata",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"25": {
+						Name:         "Santiago",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"36": {
+				Name:         "Cibao Sur",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"13": {
+						Name:         "La Vega",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"24": {
+						Name:         "Sánchez Ramírez",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"28": {
+						Name:         "Monseñor Nouel",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"37": {
+				Name:         "El Valle",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"07": {
+						Name:         "Elías Piña",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"22": {
+						Name:         "San Juan",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"38": {
+				Name:         "Enriquillo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"03": {
+						Name:         "Baoruco",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"04": {
+						Name:         "Barahona",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"10": {
+						Name:         "Independencia",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"16": {
+						Name:         "Pedernales",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"39": {
+				Name:         "Higuamo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"23": {
+						Name:         "San Pedro de Macorís",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"29": {
+						Name:         "Monte Plata",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"30": {
+						Name:         "Hato Mayor",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"40": {
+				Name:         "Ozama",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"01": {
+						Name:         "Distrito Nacional (Santo Domingo)",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "district",
+					},
+					"32": {
+						Name:         "Santo Domingo",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"41": {
+				Name:         "Valdesia",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"02": {
+						Name:         "Azua",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"17": {
+						Name:         "Peravia",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"21": {
+						Name:         "San Cristóbal",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"31": {
+						Name:         "San José de Ocoa",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"42": {
+				Name:         "Yuma",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"08": {
+						Name:         "El Seibo",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"11": {
+						Name:         "La Altagracia",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"12": {
+						Name:         "La Romana",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Cibao Nordeste": {
+				Code: "33",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Duarte": {
+						Code: "06",
+					},
+					"Hermanas Mirabal": {
+						Code: "19",
+					},
+					"María Trinidad Sánchez": {
+						Code: "14",
+					},
+					"Samaná": {
+						Code: "20",
+					},
+				},
+			},
+			"Cibao Noroeste": {
+				Code: "34",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Dajabón": {
+						Code: "05",
+					},
+					"Monte Cristi": {
+						Code: "15",
+					},
+					"Santiago Rodríguez": {
+						Code: "26",
+					},
+					"Valverde": {
+						Code: "27",
+					},
+				},
+			},
+			"Cibao Norte": {
+				Code: "35",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Espaillat": {
+						Code: "09",
+					},
+					"Puerto Plata": {
+						Code: "18",
+					},
+					"Santiago": {
+						Code: "25",
+					},
+				},
+			},
+			"Cibao Sur": {
+				Code: "36",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"La Vega": {
+						Code: "13",
+					},
+					"Monseñor Nouel": {
+						Code: "28",
+					},
+					"Sánchez Ramírez": {
+						Code: "24",
+					},
+				},
+			},
+			"El Valle": {
+				Code: "37",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Elías Piña": {
+						Code: "07",
+					},
+					"San Juan": {
+						Code: "22",
+					},
+				},
+			},
+			"Enriquillo": {
+				Code: "38",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Baoruco": {
+						Code: "03",
+					},
+					"Barahona": {
+						Code: "04",
+					},
+					"Independencia": {
+						Code: "10",
+					},
+					"Pedernales": {
+						Code: "16",
+					},
+				},
+			},
+			"Higuamo": {
+				Code: "39",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Hato Mayor": {
+						Code: "30",
+					},
+					"Monte Plata": {
+						Code: "29",
+					},
+					"San Pedro de Macorís": {
+						Code: "23",
+					},
+				},
+			},
+			"Ozama": {
+				Code: "40",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Distrito Nacional (Santo Domingo)": {
+						Code: "01",
+					},
+					"Santo Domingo": {
+						Code: "32",
+					},
+				},
+			},
+			"Valdesia": {
+				Code: "41",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Azua": {
+						Code: "02",
+					},
+					"Peravia": {
+						Code: "17",
+					},
+					"San Cristóbal": {
+						Code: "21",
+					},
+					"San José de Ocoa": {
+						Code: "31",
+					},
+				},
+			},
+			"Yuma": {
+				Code: "42",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"El Seibo": {
+						Code: "08",
+					},
+					"La Altagracia": {
+						Code: "11",
+					},
+					"La Romana": {
+						Code: "12",
+					},
+				},
+			},
+		},
 	},
 
 	"DZ": {
@@ -585,6 +10198,446 @@ var CountryStates = map[string]Country{
 		OfficialName: "People's Democratic Republic of Algeria",
 		CommonName:   "",
 		Numeric:      "012",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Adrar",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"02": {
+				Name:         "Chlef",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"03": {
+				Name:         "Laghouat",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"04": {
+				Name:         "Oum el Bouaghi",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"05": {
+				Name:         "Batna",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"06": {
+				Name:         "Béjaïa",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"07": {
+				Name:         "Biskra",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"08": {
+				Name:         "Béchar",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"09": {
+				Name:         "Blida",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"10": {
+				Name:         "Bouira",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"11": {
+				Name:         "Tamanrasset",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"12": {
+				Name:         "Tébessa",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"13": {
+				Name:         "Tlemcen",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"14": {
+				Name:         "Tiaret",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"15": {
+				Name:         "Tizi Ouzou",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"16": {
+				Name:         "Alger",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"17": {
+				Name:         "Djelfa",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"18": {
+				Name:         "Jijel",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"19": {
+				Name:         "Sétif",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"20": {
+				Name:         "Saïda",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"21": {
+				Name:         "Skikda",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"22": {
+				Name:         "Sidi Bel Abbès",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"23": {
+				Name:         "Annaba",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"24": {
+				Name:         "Guelma",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"25": {
+				Name:         "Constantine",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"26": {
+				Name:         "Médéa",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"27": {
+				Name:         "Mostaganem",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"28": {
+				Name:         "M'sila",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"29": {
+				Name:         "Mascara",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"30": {
+				Name:         "Ouargla",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"31": {
+				Name:         "Oran",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"32": {
+				Name:         "El Bayadh",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"33": {
+				Name:         "Illizi",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"34": {
+				Name:         "Bordj Bou Arréridj",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"35": {
+				Name:         "Boumerdès",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"36": {
+				Name:         "El Tarf",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"37": {
+				Name:         "Tindouf",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"38": {
+				Name:         "Tissemsilt",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"39": {
+				Name:         "El Oued",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"40": {
+				Name:         "Khenchela",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"41": {
+				Name:         "Souk Ahras",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"42": {
+				Name:         "Tipaza",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"43": {
+				Name:         "Mila",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"44": {
+				Name:         "Aïn Defla",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"45": {
+				Name:         "Naama",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"46": {
+				Name:         "Aïn Témouchent",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"47": {
+				Name:         "Ghardaïa",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"48": {
+				Name:         "Relizane",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Adrar": {
+				Code: "01",
+			},
+			"Alger": {
+				Code: "16",
+			},
+			"Annaba": {
+				Code: "23",
+			},
+			"Aïn Defla": {
+				Code: "44",
+			},
+			"Aïn Témouchent": {
+				Code: "46",
+			},
+			"Batna": {
+				Code: "05",
+			},
+			"Biskra": {
+				Code: "07",
+			},
+			"Blida": {
+				Code: "09",
+			},
+			"Bordj Bou Arréridj": {
+				Code: "34",
+			},
+			"Bouira": {
+				Code: "10",
+			},
+			"Boumerdès": {
+				Code: "35",
+			},
+			"Béchar": {
+				Code: "08",
+			},
+			"Béjaïa": {
+				Code: "06",
+			},
+			"Chlef": {
+				Code: "02",
+			},
+			"Constantine": {
+				Code: "25",
+			},
+			"Djelfa": {
+				Code: "17",
+			},
+			"El Bayadh": {
+				Code: "32",
+			},
+			"El Oued": {
+				Code: "39",
+			},
+			"El Tarf": {
+				Code: "36",
+			},
+			"Ghardaïa": {
+				Code: "47",
+			},
+			"Guelma": {
+				Code: "24",
+			},
+			"Illizi": {
+				Code: "33",
+			},
+			"Jijel": {
+				Code: "18",
+			},
+			"Khenchela": {
+				Code: "40",
+			},
+			"Laghouat": {
+				Code: "03",
+			},
+			"M'sila": {
+				Code: "28",
+			},
+			"Mascara": {
+				Code: "29",
+			},
+			"Mila": {
+				Code: "43",
+			},
+			"Mostaganem": {
+				Code: "27",
+			},
+			"Médéa": {
+				Code: "26",
+			},
+			"Naama": {
+				Code: "45",
+			},
+			"Oran": {
+				Code: "31",
+			},
+			"Ouargla": {
+				Code: "30",
+			},
+			"Oum el Bouaghi": {
+				Code: "04",
+			},
+			"Relizane": {
+				Code: "48",
+			},
+			"Saïda": {
+				Code: "20",
+			},
+			"Sidi Bel Abbès": {
+				Code: "22",
+			},
+			"Skikda": {
+				Code: "21",
+			},
+			"Souk Ahras": {
+				Code: "41",
+			},
+			"Sétif": {
+				Code: "19",
+			},
+			"Tamanrasset": {
+				Code: "11",
+			},
+			"Tiaret": {
+				Code: "14",
+			},
+			"Tindouf": {
+				Code: "37",
+			},
+			"Tipaza": {
+				Code: "42",
+			},
+			"Tissemsilt": {
+				Code: "38",
+			},
+			"Tizi Ouzou": {
+				Code: "15",
+			},
+			"Tlemcen": {
+				Code: "13",
+			},
+			"Tébessa": {
+				Code: "12",
+			},
+		},
 	},
 
 	"EC": {
@@ -594,6 +10647,230 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Ecuador",
 		CommonName:   "",
 		Numeric:      "218",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"A": {
+				Name:         "Azuay",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"B": {
+				Name:         "Bolívar",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"C": {
+				Name:         "Carchi",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"D": {
+				Name:         "Orellana",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"E": {
+				Name:         "Esmeraldas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"F": {
+				Name:         "Cañar",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"G": {
+				Name:         "Guayas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"H": {
+				Name:         "Chimborazo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"I": {
+				Name:         "Imbabura",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"L": {
+				Name:         "Loja",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"M": {
+				Name:         "Manabí",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"N": {
+				Name:         "Napo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"O": {
+				Name:         "El Oro",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"P": {
+				Name:         "Pichincha",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"R": {
+				Name:         "Los Ríos",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"S": {
+				Name:         "Morona Santiago",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"SD": {
+				Name:         "Santo Domingo de los Tsáchilas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"SE": {
+				Name:         "Santa Elena",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"T": {
+				Name:         "Tungurahua",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"U": {
+				Name:         "Sucumbíos",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"W": {
+				Name:         "Galápagos",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"X": {
+				Name:         "Cotopaxi",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"Y": {
+				Name:         "Pastaza",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"Z": {
+				Name:         "Zamora Chinchipe",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Azuay": {
+				Code: "A",
+			},
+			"Bolívar": {
+				Code: "B",
+			},
+			"Carchi": {
+				Code: "C",
+			},
+			"Cañar": {
+				Code: "F",
+			},
+			"Chimborazo": {
+				Code: "H",
+			},
+			"Cotopaxi": {
+				Code: "X",
+			},
+			"El Oro": {
+				Code: "O",
+			},
+			"Esmeraldas": {
+				Code: "E",
+			},
+			"Galápagos": {
+				Code: "W",
+			},
+			"Guayas": {
+				Code: "G",
+			},
+			"Imbabura": {
+				Code: "I",
+			},
+			"Loja": {
+				Code: "L",
+			},
+			"Los Ríos": {
+				Code: "R",
+			},
+			"Manabí": {
+				Code: "M",
+			},
+			"Morona Santiago": {
+				Code: "S",
+			},
+			"Napo": {
+				Code: "N",
+			},
+			"Orellana": {
+				Code: "D",
+			},
+			"Pastaza": {
+				Code: "Y",
+			},
+			"Pichincha": {
+				Code: "P",
+			},
+			"Santa Elena": {
+				Code: "SE",
+			},
+			"Santo Domingo de los Tsáchilas": {
+				Code: "SD",
+			},
+			"Sucumbíos": {
+				Code: "U",
+			},
+			"Tungurahua": {
+				Code: "T",
+			},
+			"Zamora Chinchipe": {
+				Code: "Z",
+			},
+		},
 	},
 
 	"EE": {
@@ -603,6 +10880,149 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Estonia",
 		CommonName:   "",
 		Numeric:      "233",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"37": {
+				Name:         "Harjumaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"39": {
+				Name:         "Hiiumaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"44": {
+				Name:         "Ida-Virumaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"49": {
+				Name:         "Jõgevamaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"51": {
+				Name:         "Järvamaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"57": {
+				Name:         "Läänemaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"59": {
+				Name:         "Lääne-Virumaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"65": {
+				Name:         "Põlvamaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"67": {
+				Name:         "Pärnumaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"70": {
+				Name:         "Raplamaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"74": {
+				Name:         "Saaremaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"78": {
+				Name:         "Tartumaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"82": {
+				Name:         "Valgamaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"84": {
+				Name:         "Viljandimaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+			"86": {
+				Name:         "Võrumaa",
+				LocalName:    "",
+				LanguageCode: "et",
+				Type:         "county",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Harjumaa": {
+				Code: "37",
+			},
+			"Hiiumaa": {
+				Code: "39",
+			},
+			"Ida-Virumaa": {
+				Code: "44",
+			},
+			"Järvamaa": {
+				Code: "51",
+			},
+			"Jõgevamaa": {
+				Code: "49",
+			},
+			"Lääne-Virumaa": {
+				Code: "59",
+			},
+			"Läänemaa": {
+				Code: "57",
+			},
+			"Pärnumaa": {
+				Code: "67",
+			},
+			"Põlvamaa": {
+				Code: "65",
+			},
+			"Raplamaa": {
+				Code: "70",
+			},
+			"Saaremaa": {
+				Code: "74",
+			},
+			"Tartumaa": {
+				Code: "78",
+			},
+			"Valgamaa": {
+				Code: "82",
+			},
+			"Viljandimaa": {
+				Code: "84",
+			},
+			"Võrumaa": {
+				Code: "86",
+			},
+		},
 	},
 
 	"EG": {
@@ -612,6 +11032,257 @@ var CountryStates = map[string]Country{
 		OfficialName: "Arab Republic of Egypt",
 		CommonName:   "",
 		Numeric:      "818",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"ALX": {
+				Name:         "Al Iskandarīyah",
+				LocalName:    "Alexandria",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"ASN": {
+				Name:         "Aswān",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"AST": {
+				Name:         "Asyūţ",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"BA": {
+				Name:         "Al Baḩr al Aḩmar",
+				LocalName:    "Red Sea",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"BH": {
+				Name:         "Al Buḩayrah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"BNS": {
+				Name:         "Banī Suwayf",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"C": {
+				Name:         "Al Qāhirah",
+				LocalName:    "Cairo",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"DK": {
+				Name:         "Ad Daqahlīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"DT": {
+				Name:         "Dumyāţ",
+				LocalName:    "Damietta",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"FYM": {
+				Name:         "Al Fayyūm",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"GH": {
+				Name:         "Al Gharbīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"GZ": {
+				Name:         "Al Jīzah",
+				LocalName:    "Giza",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"IS": {
+				Name:         "Al Ismā'īlīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"JS": {
+				Name:         "Janūb Sīnā'",
+				LocalName:    "South Sinai",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"KB": {
+				Name:         "Al Qalyūbīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"KFS": {
+				Name:         "Kafr ash Shaykh",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"KN": {
+				Name:         "Qinā",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"LX": {
+				Name:         "Al Uqşur",
+				LocalName:    "Luxor",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MN": {
+				Name:         "Al Minyā",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MNF": {
+				Name:         "Al Minūfīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MT": {
+				Name:         "Maţrūḩ",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"PTS": {
+				Name:         "Būr Sa‘īd",
+				LocalName:    "Port Said",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"SHG": {
+				Name:         "Sūhāj",
+				LocalName:    "Sohag",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"SHR": {
+				Name:         "Ash Sharqīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"SIN": {
+				Name:         "Shamāl Sīnā'",
+				LocalName:    "North Sinai",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"SUZ": {
+				Name:         "As Suways",
+				LocalName:    "Suez",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"WAD": {
+				Name:         "Al Wādī al Jadīd",
+				LocalName:    "New Valley",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ad Daqahlīyah": {
+				Code: "DK",
+			},
+			"Al Baḩr al Aḩmar": {
+				Code: "BA",
+			},
+			"Al Buḩayrah": {
+				Code: "BH",
+			},
+			"Al Fayyūm": {
+				Code: "FYM",
+			},
+			"Al Gharbīyah": {
+				Code: "GH",
+			},
+			"Al Iskandarīyah": {
+				Code: "ALX",
+			},
+			"Al Ismā'īlīyah": {
+				Code: "IS",
+			},
+			"Al Jīzah": {
+				Code: "GZ",
+			},
+			"Al Minyā": {
+				Code: "MN",
+			},
+			"Al Minūfīyah": {
+				Code: "MNF",
+			},
+			"Al Qalyūbīyah": {
+				Code: "KB",
+			},
+			"Al Qāhirah": {
+				Code: "C",
+			},
+			"Al Uqşur": {
+				Code: "LX",
+			},
+			"Al Wādī al Jadīd": {
+				Code: "WAD",
+			},
+			"As Suways": {
+				Code: "SUZ",
+			},
+			"Ash Sharqīyah": {
+				Code: "SHR",
+			},
+			"Aswān": {
+				Code: "ASN",
+			},
+			"Asyūţ": {
+				Code: "AST",
+			},
+			"Banī Suwayf": {
+				Code: "BNS",
+			},
+			"Būr Sa‘īd": {
+				Code: "PTS",
+			},
+			"Dumyāţ": {
+				Code: "DT",
+			},
+			"Janūb Sīnā'": {
+				Code: "JS",
+			},
+			"Kafr ash Shaykh": {
+				Code: "KFS",
+			},
+			"Maţrūḩ": {
+				Code: "MT",
+			},
+			"Qinā": {
+				Code: "KN",
+			},
+			"Shamāl Sīnā'": {
+				Code: "SIN",
+			},
+			"Sūhāj": {
+				Code: "SHG",
+			},
+		},
 	},
 
 	"EH": {
@@ -630,6 +11301,68 @@ var CountryStates = map[string]Country{
 		OfficialName: "the State of Eritrea",
 		CommonName:   "",
 		Numeric:      "232",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AN": {
+				Name:         "‘Anseba",
+				LocalName:    "",
+				LanguageCode: "ti",
+				Type:         "region",
+			},
+			"DK": {
+				Name:         "Debubawi K’eyyĭḥ Baḥri",
+				LocalName:    "",
+				LanguageCode: "ti",
+				Type:         "region",
+			},
+			"DU": {
+				Name:         "Debub",
+				LocalName:    "",
+				LanguageCode: "ti",
+				Type:         "region",
+			},
+			"GB": {
+				Name:         "Gash-Barka",
+				LocalName:    "",
+				LanguageCode: "ti",
+				Type:         "region",
+			},
+			"MA": {
+				Name:         "Ma’ĭkel",
+				LocalName:    "",
+				LanguageCode: "ti",
+				Type:         "region",
+			},
+			"SK": {
+				Name:         "Semienawi K’eyyĭḥ Baḥri",
+				LocalName:    "",
+				LanguageCode: "ti",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Debub": {
+				Code: "DU",
+			},
+			"Debubawi K’eyyĭḥ Baḥri": {
+				Code: "DK",
+			},
+			"Gash-Barka": {
+				Code: "GB",
+			},
+			"Ma’ĭkel": {
+				Code: "MA",
+			},
+			"Semienawi K’eyyĭḥ Baḥri": {
+				Code: "SK",
+			},
+			"‘Anseba": {
+				Code: "AN",
+			},
+		},
 	},
 
 	"ES": {
@@ -639,6 +11372,771 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Spain",
 		CommonName:   "",
 		Numeric:      "724",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AN": {
+				Name:         "Andalucía",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AL": {
+						Name:         "Almería",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"CA": {
+						Name:         "Cádiz",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"CO": {
+						Name:         "Córdoba",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"GR": {
+						Name:         "Granada",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"H": {
+						Name:         "Huelva",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"J": {
+						Name:         "Jaén",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"MA": {
+						Name:         "Málaga",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"SE": {
+						Name:         "Sevilla",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"AR": {
+				Name:         "Aragón",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"HU": {
+						Name:         "Huesca",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"TE": {
+						Name:         "Teruel",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"Z": {
+						Name:         "Zaragoza",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"AS": {
+				Name:         "Asturias, Principado de",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"O": {
+						Name:         "Asturias",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"CB": {
+				Name:         "Cantabria",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"S": {
+						Name:         "Cantabria",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"CE": {
+				Name:         "Ceuta",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous city in North Africa",
+			},
+			"CL": {
+				Name:         "Castilla y León",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AV": {
+						Name:         "Ávila",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"BU": {
+						Name:         "Burgos",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"LE": {
+						Name:         "León",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"P": {
+						Name:         "Palencia",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"SA": {
+						Name:         "Salamanca",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"SG": {
+						Name:         "Segovia",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"SO": {
+						Name:         "Soria",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"VA": {
+						Name:         "Valladolid",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"ZA": {
+						Name:         "Zamora",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"CM": {
+				Name:         "Castilla-La Mancha",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AB": {
+						Name:         "Albacete",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"CR": {
+						Name:         "Ciudad Real",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"CU": {
+						Name:         "Cuenca",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"GU": {
+						Name:         "Guadalajara",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"TO": {
+						Name:         "Toledo",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"CN": {
+				Name:         "Canarias",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"GC": {
+						Name:         "Las Palmas",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"TF": {
+						Name:         "Santa Cruz de Tenerife",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"CT": {
+				Name:         "Catalunya [Cataluña]",
+				LocalName:    "",
+				LanguageCode: "ca",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"B": {
+						Name:         "Barcelona [Barcelona]",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"GI": {
+						Name:         "Girona [Gerona]",
+						LocalName:    "",
+						LanguageCode: "ca",
+						Type:         "province",
+					},
+					"L": {
+						Name:         "Lleida [Lérida]",
+						LocalName:    "",
+						LanguageCode: "ca",
+						Type:         "province",
+					},
+					"T": {
+						Name:         "Tarragona [Tarragona]",
+						LocalName:    "",
+						LanguageCode: "ca",
+						Type:         "province",
+					},
+				},
+			},
+			"EX": {
+				Name:         "Extremadura",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BA": {
+						Name:         "Badajoz",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"CC": {
+						Name:         "Cáceres",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"GA": {
+				Name:         "Galicia [Galicia]",
+				LocalName:    "",
+				LanguageCode: "gl",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"C": {
+						Name:         "A Coruña [La Coruña]",
+						LocalName:    "",
+						LanguageCode: "gl",
+						Type:         "province",
+					},
+					"LU": {
+						Name:         "Lugo [Lugo]",
+						LocalName:    "",
+						LanguageCode: "gl",
+						Type:         "province",
+					},
+					"OR": {
+						Name:         "Ourense [Orense]",
+						LocalName:    "",
+						LanguageCode: "gl",
+						Type:         "province",
+					},
+					"PO": {
+						Name:         "Pontevedra [Pontevedra]",
+						LocalName:    "",
+						LanguageCode: "gl",
+						Type:         "province",
+					},
+				},
+			},
+			"IB": {
+				Name:         "Illes Balears [Islas Baleares]",
+				LocalName:    "",
+				LanguageCode: "ca",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"PM": {
+						Name:         "Balears [Baleares]",
+						LocalName:    "",
+						LanguageCode: "ca",
+						Type:         "province",
+					},
+				},
+			},
+			"MC": {
+				Name:         "Murcia, Región de",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"MU": {
+						Name:         "Murcia",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"MD": {
+				Name:         "Madrid, Comunidad de",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"M": {
+						Name:         "Madrid",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"ML": {
+				Name:         "Melilla",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous city in North Africa",
+			},
+			"NC": {
+				Name:         "Navarra, Comunidad Foral de",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"NA": {
+						Name:         "Navarra",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"PV": {
+				Name:         "País Vasco",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BI": {
+						Name:         "Bizkaia",
+						LocalName:    "",
+						LanguageCode: "eu",
+						Type:         "province",
+					},
+					"SS": {
+						Name:         "Gipuzkoa",
+						LocalName:    "",
+						LanguageCode: "eu",
+						Type:         "province",
+					},
+					"VI": {
+						Name:         "Álava",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"RI": {
+				Name:         "La Rioja",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"LO": {
+						Name:         "La Rioja",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+			"VC": {
+				Name:         "Valenciana, Comunidad",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous community",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"A": {
+						Name:         "Alicante",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"CS": {
+						Name:         "Castellón",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+					"V": {
+						Name:         "Valencia",
+						LocalName:    "",
+						LanguageCode: "es",
+						Type:         "province",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Andalucía": {
+				Code: "AN",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Almería": {
+						Code: "AL",
+					},
+					"Cádiz": {
+						Code: "CA",
+					},
+					"Córdoba": {
+						Code: "CO",
+					},
+					"Granada": {
+						Code: "GR",
+					},
+					"Huelva": {
+						Code: "H",
+					},
+					"Jaén": {
+						Code: "J",
+					},
+					"Málaga": {
+						Code: "MA",
+					},
+					"Sevilla": {
+						Code: "SE",
+					},
+				},
+			},
+			"Aragón": {
+				Code: "AR",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Huesca": {
+						Code: "HU",
+					},
+					"Teruel": {
+						Code: "TE",
+					},
+					"Zaragoza": {
+						Code: "Z",
+					},
+				},
+			},
+			"Asturias, Principado de": {
+				Code: "AS",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Asturias": {
+						Code: "O",
+					},
+				},
+			},
+			"Canarias": {
+				Code: "CN",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Las Palmas": {
+						Code: "GC",
+					},
+					"Santa Cruz de Tenerife": {
+						Code: "TF",
+					},
+				},
+			},
+			"Cantabria": {
+				Code: "CB",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Cantabria": {
+						Code: "S",
+					},
+				},
+			},
+			"Castilla y León": {
+				Code: "CL",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Burgos": {
+						Code: "BU",
+					},
+					"León": {
+						Code: "LE",
+					},
+					"Palencia": {
+						Code: "P",
+					},
+					"Salamanca": {
+						Code: "SA",
+					},
+					"Segovia": {
+						Code: "SG",
+					},
+					"Soria": {
+						Code: "SO",
+					},
+					"Valladolid": {
+						Code: "VA",
+					},
+					"Zamora": {
+						Code: "ZA",
+					},
+					"Ávila": {
+						Code: "AV",
+					},
+				},
+			},
+			"Castilla-La Mancha": {
+				Code: "CM",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Albacete": {
+						Code: "AB",
+					},
+					"Ciudad Real": {
+						Code: "CR",
+					},
+					"Cuenca": {
+						Code: "CU",
+					},
+					"Guadalajara": {
+						Code: "GU",
+					},
+					"Toledo": {
+						Code: "TO",
+					},
+				},
+			},
+			"Catalunya [Cataluña]": {
+				Code: "CT",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Barcelona [Barcelona]": {
+						Code: "B",
+					},
+					"Girona [Gerona]": {
+						Code: "GI",
+					},
+					"Lleida [Lérida]": {
+						Code: "L",
+					},
+					"Tarragona [Tarragona]": {
+						Code: "T",
+					},
+				},
+			},
+			"Ceuta": {
+				Code: "CE",
+			},
+			"Extremadura": {
+				Code: "EX",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Badajoz": {
+						Code: "BA",
+					},
+					"Cáceres": {
+						Code: "CC",
+					},
+				},
+			},
+			"Galicia [Galicia]": {
+				Code: "GA",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"A Coruña [La Coruña]": {
+						Code: "C",
+					},
+					"Lugo [Lugo]": {
+						Code: "LU",
+					},
+					"Ourense [Orense]": {
+						Code: "OR",
+					},
+					"Pontevedra [Pontevedra]": {
+						Code: "PO",
+					},
+				},
+			},
+			"Illes Balears [Islas Baleares]": {
+				Code: "IB",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Balears [Baleares]": {
+						Code: "PM",
+					},
+				},
+			},
+			"La Rioja": {
+				Code: "RI",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"La Rioja": {
+						Code: "LO",
+					},
+				},
+			},
+			"Madrid, Comunidad de": {
+				Code: "MD",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Madrid": {
+						Code: "M",
+					},
+				},
+			},
+			"Melilla": {
+				Code: "ML",
+			},
+			"Murcia, Región de": {
+				Code: "MC",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Murcia": {
+						Code: "MU",
+					},
+				},
+			},
+			"Navarra, Comunidad Foral de": {
+				Code: "NC",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Navarra": {
+						Code: "NA",
+					},
+				},
+			},
+			"País Vasco": {
+				Code: "PV",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bizkaia": {
+						Code: "BI",
+					},
+					"Gipuzkoa": {
+						Code: "SS",
+					},
+					"Álava": {
+						Code: "VI",
+					},
+				},
+			},
+			"Valenciana, Comunidad": {
+				Code: "VC",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Alicante": {
+						Code: "A",
+					},
+					"Castellón": {
+						Code: "CS",
+					},
+					"Valencia": {
+						Code: "V",
+					},
+				},
+			},
+		},
 	},
 
 	"ET": {
@@ -648,6 +12146,113 @@ var CountryStates = map[string]Country{
 		OfficialName: "Federal Democratic Republic of Ethiopia",
 		CommonName:   "",
 		Numeric:      "231",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AA": {
+				Name:         "Addis Ababa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administration",
+			},
+			"AF": {
+				Name:         "Afar",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "regional state",
+			},
+			"AM": {
+				Name:         "Amara",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "regional state",
+			},
+			"BE": {
+				Name:         "Benshangul-Gumaz",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "regional state",
+			},
+			"DD": {
+				Name:         "Dire Dawa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administration",
+			},
+			"GA": {
+				Name:         "Gambela Peoples",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "regional state",
+			},
+			"HA": {
+				Name:         "Harari People",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "regional state",
+			},
+			"OR": {
+				Name:         "Oromia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "regional state",
+			},
+			"SN": {
+				Name:         "Southern Nations, Nationalities and Peoples",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "regional state",
+			},
+			"SO": {
+				Name:         "Somali",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "regional state",
+			},
+			"TI": {
+				Name:         "Tigrai",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "regional state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Addis Ababa": {
+				Code: "AA",
+			},
+			"Afar": {
+				Code: "AF",
+			},
+			"Amara": {
+				Code: "AM",
+			},
+			"Benshangul-Gumaz": {
+				Code: "BE",
+			},
+			"Dire Dawa": {
+				Code: "DD",
+			},
+			"Gambela Peoples": {
+				Code: "GA",
+			},
+			"Harari People": {
+				Code: "HA",
+			},
+			"Oromia": {
+				Code: "OR",
+			},
+			"Somali": {
+				Code: "SO",
+			},
+			"Southern Nations, Nationalities and Peoples": {
+				Code: "SN",
+			},
+			"Tigrai": {
+				Code: "TI",
+			},
+		},
 	},
 
 	"FI": {
@@ -657,6 +12262,185 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Finland",
 		CommonName:   "",
 		Numeric:      "246",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Landskapet Åland",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"02": {
+				Name:         "Södra Karelen",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"03": {
+				Name:         "Södra Österbotten",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"04": {
+				Name:         "Södra Savolax",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"05": {
+				Name:         "Kajanaland",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"06": {
+				Name:         "Egentliga Tavastland",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"07": {
+				Name:         "Mellersta Österbotten",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"08": {
+				Name:         "Mellersta Finland",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"09": {
+				Name:         "Kymmenedalen",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"10": {
+				Name:         "Lappland",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"11": {
+				Name:         "Birkaland",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"12": {
+				Name:         "Österbotten",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"13": {
+				Name:         "Norra Karelen",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"14": {
+				Name:         "Norra Österbotten",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"15": {
+				Name:         "Norra Savolax",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"16": {
+				Name:         "Päijänne-Tavastland",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"17": {
+				Name:         "Satakunda",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"18": {
+				Name:         "Nyland",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+			"19": {
+				Name:         "Egentliga Finland",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Birkaland": {
+				Code: "11",
+			},
+			"Egentliga Finland": {
+				Code: "19",
+			},
+			"Egentliga Tavastland": {
+				Code: "06",
+			},
+			"Kajanaland": {
+				Code: "05",
+			},
+			"Kymmenedalen": {
+				Code: "09",
+			},
+			"Landskapet Åland": {
+				Code: "01",
+			},
+			"Lappland": {
+				Code: "10",
+			},
+			"Mellersta Finland": {
+				Code: "08",
+			},
+			"Mellersta Österbotten": {
+				Code: "07",
+			},
+			"Norra Karelen": {
+				Code: "13",
+			},
+			"Norra Savolax": {
+				Code: "15",
+			},
+			"Norra Österbotten": {
+				Code: "14",
+			},
+			"Nyland": {
+				Code: "18",
+			},
+			"Päijänne-Tavastland": {
+				Code: "16",
+			},
+			"Satakunda": {
+				Code: "17",
+			},
+			"Södra Karelen": {
+				Code: "02",
+			},
+			"Södra Savolax": {
+				Code: "04",
+			},
+			"Södra Österbotten": {
+				Code: "03",
+			},
+			"Österbotten": {
+				Code: "12",
+			},
+		},
 	},
 
 	"FJ": {
@@ -666,6 +12450,217 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Fiji",
 		CommonName:   "",
 		Numeric:      "242",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"C": {
+				Name:         "Central",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"09": {
+						Name:         "Naitasiri",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"10": {
+						Name:         "Namosi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"12": {
+						Name:         "Rewa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"13": {
+						Name:         "Serua",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"14": {
+						Name:         "Tailevu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"E": {
+				Name:         "Eastern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"04": {
+						Name:         "Kadavu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"05": {
+						Name:         "Lau",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"06": {
+						Name:         "Lomaiviti",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"N": {
+				Name:         "Northern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"02": {
+						Name:         "Bua",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"03": {
+						Name:         "Cakaudrove",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"07": {
+						Name:         "Macuata",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"R": {
+				Name:         "Rotuma",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "dependency",
+			},
+			"W": {
+				Name:         "Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"01": {
+						Name:         "Ba",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"08": {
+						Name:         "Nadroga and Navosa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"11": {
+						Name:         "Ra",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Central": {
+				Code: "C",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Naitasiri": {
+						Code: "09",
+					},
+					"Namosi": {
+						Code: "10",
+					},
+					"Rewa": {
+						Code: "12",
+					},
+					"Serua": {
+						Code: "13",
+					},
+					"Tailevu": {
+						Code: "14",
+					},
+				},
+			},
+			"Eastern": {
+				Code: "E",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Kadavu": {
+						Code: "04",
+					},
+					"Lau": {
+						Code: "05",
+					},
+					"Lomaiviti": {
+						Code: "06",
+					},
+				},
+			},
+			"Northern": {
+				Code: "N",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bua": {
+						Code: "02",
+					},
+					"Cakaudrove": {
+						Code: "03",
+					},
+					"Macuata": {
+						Code: "07",
+					},
+				},
+			},
+			"Rotuma": {
+				Code: "R",
+			},
+			"Western": {
+				Code: "W",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Ba": {
+						Code: "01",
+					},
+					"Nadroga and Navosa": {
+						Code: "08",
+					},
+					"Ra": {
+						Code: "11",
+					},
+				},
+			},
+		},
 	},
 
 	"FK": {
@@ -684,6 +12679,50 @@ var CountryStates = map[string]Country{
 		OfficialName: "Federated States of Micronesia",
 		CommonName:   "",
 		Numeric:      "583",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"KSA": {
+				Name:         "Kosrae",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"PNI": {
+				Name:         "Pohnpei",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"TRK": {
+				Name:         "Chuuk",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"YAP": {
+				Name:         "Yap",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Chuuk": {
+				Code: "TRK",
+			},
+			"Kosrae": {
+				Code: "KSA",
+			},
+			"Pohnpei": {
+				Code: "PNI",
+			},
+			"Yap": {
+				Code: "YAP",
+			},
+		},
 	},
 
 	"FO": {
@@ -702,6 +12741,1267 @@ var CountryStates = map[string]Country{
 		OfficialName: "French Republic",
 		CommonName:   "",
 		Numeric:      "250",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"ARA": {
+				Name:         "Auvergne-Rhône-Alpes",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "metropolitan region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"01": {
+						Name:         "Ain",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"03": {
+						Name:         "Allier",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"07": {
+						Name:         "Ardèche",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"15": {
+						Name:         "Cantal",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"26": {
+						Name:         "Drôme",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"38": {
+						Name:         "Isère",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"42": {
+						Name:         "Loire",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"43": {
+						Name:         "Haute-Loire",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"63": {
+						Name:         "Puy-de-Dôme",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"69": {
+						Name:         "Rhône",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"73": {
+						Name:         "Savoie",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"74": {
+						Name:         "Haute-Savoie",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"BFC": {
+				Name:         "Bourgogne-Franche-Comté",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "metropolitan region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"21": {
+						Name:         "Côte-d'Or",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"25": {
+						Name:         "Doubs",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"39": {
+						Name:         "Jura",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"58": {
+						Name:         "Nièvre",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"70": {
+						Name:         "Haute-Saône",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"71": {
+						Name:         "Saône-et-Loire",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"89": {
+						Name:         "Yonne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"90": {
+						Name:         "Territoire de Belfort",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"BL": {
+				Name:         "Saint-Barthélemy (see also separate country code entry under BL)",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "overseas territorial collectivity",
+			},
+			"BRE": {
+				Name:         "Bretagne",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "metropolitan region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"22": {
+						Name:         "Côtes-d'Armor",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"29": {
+						Name:         "Finistère",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"35": {
+						Name:         "Ille-et-Vilaine",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"56": {
+						Name:         "Morbihan",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"COR": {
+				Name:         "Corse",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "collectivity",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"2A": {
+						Name:         "Corse-du-Sud",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"2B": {
+						Name:         "Haute-Corse",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"CP": {
+				Name:         "Clipperton",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "dependency",
+			},
+			"CVL": {
+				Name:         "Centre-Val de Loire",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "metropolitan region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"18": {
+						Name:         "Cher",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"28": {
+						Name:         "Eure-et-Loir",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"36": {
+						Name:         "Indre",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"37": {
+						Name:         "Indre-et-Loire",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"41": {
+						Name:         "Loir-et-Cher",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"45": {
+						Name:         "Loiret",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"GES": {
+				Name:         "Grand-Est",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "metropolitan region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"08": {
+						Name:         "Ardennes",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"10": {
+						Name:         "Aube",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"51": {
+						Name:         "Marne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"52": {
+						Name:         "Haute-Marne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"54": {
+						Name:         "Meurthe-et-Moselle",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"55": {
+						Name:         "Meuse",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"57": {
+						Name:         "Moselle",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"67": {
+						Name:         "Bas-Rhin",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"68": {
+						Name:         "Haut-Rhin",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"88": {
+						Name:         "Vosges",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"GF": {
+				Name:         "Guyane (française) (see also separate country code entry under GF)",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "overseas territorial collectivity",
+			},
+			"GUA": {
+				Name:         "Guadeloupe",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "overseas region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"GP": {
+						Name:         "Guadeloupe (see also separate country code entry under GP)",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "overseas department",
+					},
+				},
+			},
+			"HDF": {
+				Name:         "Hauts-de-France",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "metropolitan region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"02": {
+						Name:         "Aisne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"59": {
+						Name:         "Nord",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"60": {
+						Name:         "Oise",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"62": {
+						Name:         "Pas-de-Calais",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"80": {
+						Name:         "Somme",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"IDF": {
+				Name:         "Île-de-France",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "metropolitan region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"75": {
+						Name:         "Paris",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"77": {
+						Name:         "Seine-et-Marne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"78": {
+						Name:         "Yvelines",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"91": {
+						Name:         "Essonne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"92": {
+						Name:         "Hauts-de-Seine",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"93": {
+						Name:         "Seine-Saint-Denis",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"94": {
+						Name:         "Val-de-Marne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"95": {
+						Name:         "Val-d'Oise",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"LRE": {
+				Name:         "La Réunion",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "overseas region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"RE": {
+						Name:         "La Réunion (see also separate country code entry under RE)",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "overseas department",
+					},
+				},
+			},
+			"MAY": {
+				Name:         "Mayotte",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "overseas region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"YT": {
+						Name:         "Mayotte (see also separate country code entry under YT)",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "overseas department",
+					},
+				},
+			},
+			"MF": {
+				Name:         "Saint-Martin (see also separate country code entry under MF)",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "overseas territorial collectivity",
+			},
+			"MQ": {
+				Name:         "Martinique (see also separate country code entry under MQ)",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "overseas territorial collectivity",
+			},
+			"NAQ": {
+				Name:         "Nouvelle-Aquitaine",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "metropolitan region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"16": {
+						Name:         "Charente",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"17": {
+						Name:         "Charente-Maritime",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"19": {
+						Name:         "Corrèze",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"23": {
+						Name:         "Creuse",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"24": {
+						Name:         "Dordogne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"33": {
+						Name:         "Gironde",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"40": {
+						Name:         "Landes",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"47": {
+						Name:         "Lot-et-Garonne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"64": {
+						Name:         "Pyrénées-Atlantiques",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"79": {
+						Name:         "Deux-Sèvres",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"86": {
+						Name:         "Vienne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"87": {
+						Name:         "Haute-Vienne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"NC": {
+				Name:         "Nouvelle-Calédonie (see also separate country code entry under NC)",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "overseas territorial collectivity",
+			},
+			"NOR": {
+				Name:         "Normandie",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "metropolitan region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"14": {
+						Name:         "Calvados",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"27": {
+						Name:         "Eure",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"50": {
+						Name:         "Manche",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"61": {
+						Name:         "Orne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"76": {
+						Name:         "Seine-Maritime",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"OCC": {
+				Name:         "Occitanie",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "metropolitan region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"09": {
+						Name:         "Ariège",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"11": {
+						Name:         "Aude",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"12": {
+						Name:         "Aveyron",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"30": {
+						Name:         "Gard",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"31": {
+						Name:         "Haute-Garonne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"32": {
+						Name:         "Gers",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"34": {
+						Name:         "Hérault",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"46": {
+						Name:         "Lot",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"48": {
+						Name:         "Lozère",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"65": {
+						Name:         "Hautes-Pyrénées",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"66": {
+						Name:         "Pyrénées-Orientales",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"81": {
+						Name:         "Tarn",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"82": {
+						Name:         "Tarn-et-Garonne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"PAC": {
+				Name:         "Provence-Alpes-Côte-d’Azur",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "metropolitan region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"04": {
+						Name:         "Alpes-de-Haute-Provence",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"05": {
+						Name:         "Hautes-Alpes",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"06": {
+						Name:         "Alpes-Maritimes",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"13": {
+						Name:         "Bouches-du-Rhône",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"83": {
+						Name:         "Var",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"84": {
+						Name:         "Vaucluse",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"PDL": {
+				Name:         "Pays-de-la-Loire",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "metropolitan region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"44": {
+						Name:         "Loire-Atlantique",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"49": {
+						Name:         "Maine-et-Loire",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"53": {
+						Name:         "Mayenne",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"72": {
+						Name:         "Sarthe",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+					"85": {
+						Name:         "Vendée",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "metropolitan department",
+					},
+				},
+			},
+			"PF": {
+				Name:         "Polynésie française (see also separate country code entry under PF)",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "overseas territorial collectivity",
+			},
+			"PM": {
+				Name:         "Saint-Pierre-et-Miquelon (see also separate country code entry under PM)",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "overseas territorial collectivity",
+			},
+			"TF": {
+				Name:         "Terres australes françaises (see also separate country code entry under TF)",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "overseas territorial collectivity",
+			},
+			"WF": {
+				Name:         "Wallis-et-Futuna (see also separate country code entry under WF)",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "overseas territorial collectivity",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Auvergne-Rhône-Alpes": {
+				Code: "ARA",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Ain": {
+						Code: "01",
+					},
+					"Allier": {
+						Code: "03",
+					},
+					"Ardèche": {
+						Code: "07",
+					},
+					"Cantal": {
+						Code: "15",
+					},
+					"Drôme": {
+						Code: "26",
+					},
+					"Haute-Loire": {
+						Code: "43",
+					},
+					"Haute-Savoie": {
+						Code: "74",
+					},
+					"Isère": {
+						Code: "38",
+					},
+					"Loire": {
+						Code: "42",
+					},
+					"Puy-de-Dôme": {
+						Code: "63",
+					},
+					"Rhône": {
+						Code: "69",
+					},
+					"Savoie": {
+						Code: "73",
+					},
+				},
+			},
+			"Bourgogne-Franche-Comté": {
+				Code: "BFC",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Côte-d'Or": {
+						Code: "21",
+					},
+					"Doubs": {
+						Code: "25",
+					},
+					"Haute-Saône": {
+						Code: "70",
+					},
+					"Jura": {
+						Code: "39",
+					},
+					"Nièvre": {
+						Code: "58",
+					},
+					"Saône-et-Loire": {
+						Code: "71",
+					},
+					"Territoire de Belfort": {
+						Code: "90",
+					},
+					"Yonne": {
+						Code: "89",
+					},
+				},
+			},
+			"Bretagne": {
+				Code: "BRE",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Côtes-d'Armor": {
+						Code: "22",
+					},
+					"Finistère": {
+						Code: "29",
+					},
+					"Ille-et-Vilaine": {
+						Code: "35",
+					},
+					"Morbihan": {
+						Code: "56",
+					},
+				},
+			},
+			"Centre-Val de Loire": {
+				Code: "CVL",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Cher": {
+						Code: "18",
+					},
+					"Eure-et-Loir": {
+						Code: "28",
+					},
+					"Indre": {
+						Code: "36",
+					},
+					"Indre-et-Loire": {
+						Code: "37",
+					},
+					"Loir-et-Cher": {
+						Code: "41",
+					},
+					"Loiret": {
+						Code: "45",
+					},
+				},
+			},
+			"Clipperton": {
+				Code: "CP",
+			},
+			"Corse": {
+				Code: "COR",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Corse-du-Sud": {
+						Code: "2A",
+					},
+					"Haute-Corse": {
+						Code: "2B",
+					},
+				},
+			},
+			"Grand-Est": {
+				Code: "GES",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Ardennes": {
+						Code: "08",
+					},
+					"Aube": {
+						Code: "10",
+					},
+					"Bas-Rhin": {
+						Code: "67",
+					},
+					"Haut-Rhin": {
+						Code: "68",
+					},
+					"Haute-Marne": {
+						Code: "52",
+					},
+					"Marne": {
+						Code: "51",
+					},
+					"Meurthe-et-Moselle": {
+						Code: "54",
+					},
+					"Meuse": {
+						Code: "55",
+					},
+					"Moselle": {
+						Code: "57",
+					},
+					"Vosges": {
+						Code: "88",
+					},
+				},
+			},
+			"Guadeloupe": {
+				Code: "GUA",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Guadeloupe (see also separate country code entry under GP)": {
+						Code: "GP",
+					},
+				},
+			},
+			"Guyane (française) (see also separate country code entry under GF)": {
+				Code: "GF",
+			},
+			"Hauts-de-France": {
+				Code: "HDF",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Aisne": {
+						Code: "02",
+					},
+					"Nord": {
+						Code: "59",
+					},
+					"Oise": {
+						Code: "60",
+					},
+					"Pas-de-Calais": {
+						Code: "62",
+					},
+					"Somme": {
+						Code: "80",
+					},
+				},
+			},
+			"La Réunion": {
+				Code: "LRE",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"La Réunion (see also separate country code entry under RE)": {
+						Code: "RE",
+					},
+				},
+			},
+			"Martinique (see also separate country code entry under MQ)": {
+				Code: "MQ",
+			},
+			"Mayotte": {
+				Code: "MAY",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Mayotte (see also separate country code entry under YT)": {
+						Code: "YT",
+					},
+				},
+			},
+			"Normandie": {
+				Code: "NOR",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Calvados": {
+						Code: "14",
+					},
+					"Eure": {
+						Code: "27",
+					},
+					"Manche": {
+						Code: "50",
+					},
+					"Orne": {
+						Code: "61",
+					},
+					"Seine-Maritime": {
+						Code: "76",
+					},
+				},
+			},
+			"Nouvelle-Aquitaine": {
+				Code: "NAQ",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Charente": {
+						Code: "16",
+					},
+					"Charente-Maritime": {
+						Code: "17",
+					},
+					"Corrèze": {
+						Code: "19",
+					},
+					"Creuse": {
+						Code: "23",
+					},
+					"Deux-Sèvres": {
+						Code: "79",
+					},
+					"Dordogne": {
+						Code: "24",
+					},
+					"Gironde": {
+						Code: "33",
+					},
+					"Haute-Vienne": {
+						Code: "87",
+					},
+					"Landes": {
+						Code: "40",
+					},
+					"Lot-et-Garonne": {
+						Code: "47",
+					},
+					"Pyrénées-Atlantiques": {
+						Code: "64",
+					},
+					"Vienne": {
+						Code: "86",
+					},
+				},
+			},
+			"Nouvelle-Calédonie (see also separate country code entry under NC)": {
+				Code: "NC",
+			},
+			"Occitanie": {
+				Code: "OCC",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Ariège": {
+						Code: "09",
+					},
+					"Aude": {
+						Code: "11",
+					},
+					"Aveyron": {
+						Code: "12",
+					},
+					"Gard": {
+						Code: "30",
+					},
+					"Gers": {
+						Code: "32",
+					},
+					"Haute-Garonne": {
+						Code: "31",
+					},
+					"Hautes-Pyrénées": {
+						Code: "65",
+					},
+					"Hérault": {
+						Code: "34",
+					},
+					"Lot": {
+						Code: "46",
+					},
+					"Lozère": {
+						Code: "48",
+					},
+					"Pyrénées-Orientales": {
+						Code: "66",
+					},
+					"Tarn": {
+						Code: "81",
+					},
+					"Tarn-et-Garonne": {
+						Code: "82",
+					},
+				},
+			},
+			"Pays-de-la-Loire": {
+				Code: "PDL",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Loire-Atlantique": {
+						Code: "44",
+					},
+					"Maine-et-Loire": {
+						Code: "49",
+					},
+					"Mayenne": {
+						Code: "53",
+					},
+					"Sarthe": {
+						Code: "72",
+					},
+					"Vendée": {
+						Code: "85",
+					},
+				},
+			},
+			"Polynésie française (see also separate country code entry under PF)": {
+				Code: "PF",
+			},
+			"Provence-Alpes-Côte-d’Azur": {
+				Code: "PAC",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Alpes-Maritimes": {
+						Code: "06",
+					},
+					"Alpes-de-Haute-Provence": {
+						Code: "04",
+					},
+					"Bouches-du-Rhône": {
+						Code: "13",
+					},
+					"Hautes-Alpes": {
+						Code: "05",
+					},
+					"Var": {
+						Code: "83",
+					},
+					"Vaucluse": {
+						Code: "84",
+					},
+				},
+			},
+			"Saint-Barthélemy (see also separate country code entry under BL)": {
+				Code: "BL",
+			},
+			"Saint-Martin (see also separate country code entry under MF)": {
+				Code: "MF",
+			},
+			"Saint-Pierre-et-Miquelon (see also separate country code entry under PM)": {
+				Code: "PM",
+			},
+			"Terres australes françaises (see also separate country code entry under TF)": {
+				Code: "TF",
+			},
+			"Wallis-et-Futuna (see also separate country code entry under WF)": {
+				Code: "WF",
+			},
+			"Île-de-France": {
+				Code: "IDF",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Essonne": {
+						Code: "91",
+					},
+					"Hauts-de-Seine": {
+						Code: "92",
+					},
+					"Paris": {
+						Code: "75",
+					},
+					"Seine-Saint-Denis": {
+						Code: "93",
+					},
+					"Seine-et-Marne": {
+						Code: "77",
+					},
+					"Val-d'Oise": {
+						Code: "95",
+					},
+					"Val-de-Marne": {
+						Code: "94",
+					},
+					"Yvelines": {
+						Code: "78",
+					},
+				},
+			},
+		},
 	},
 
 	"GA": {
@@ -711,6 +14011,95 @@ var CountryStates = map[string]Country{
 		OfficialName: "Gabonese Republic",
 		CommonName:   "",
 		Numeric:      "266",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"1": {
+				Name:         "Estuaire",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"2": {
+				Name:         "Haut-Ogooué",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"3": {
+				Name:         "Moyen-Ogooué",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"4": {
+				Name:         "Ngounié",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"5": {
+				Name:         "Nyanga",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"6": {
+				Name:         "Ogooué-Ivindo",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"7": {
+				Name:         "Ogooué-Lolo",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"8": {
+				Name:         "Ogooué-Maritime",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+			"9": {
+				Name:         "Woleu-Ntem",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Estuaire": {
+				Code: "1",
+			},
+			"Haut-Ogooué": {
+				Code: "2",
+			},
+			"Moyen-Ogooué": {
+				Code: "3",
+			},
+			"Ngounié": {
+				Code: "4",
+			},
+			"Nyanga": {
+				Code: "5",
+			},
+			"Ogooué-Ivindo": {
+				Code: "6",
+			},
+			"Ogooué-Lolo": {
+				Code: "7",
+			},
+			"Ogooué-Maritime": {
+				Code: "8",
+			},
+			"Woleu-Ntem": {
+				Code: "9",
+			},
+		},
 	},
 
 	"GB": {
@@ -720,6 +14109,1967 @@ var CountryStates = map[string]Country{
 		OfficialName: "United Kingdom of Great Britain and Northern Ireland",
 		CommonName:   "",
 		Numeric:      "826",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"ABC": {
+				Name:         "Armagh City, Banbridge and Craigavon",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"ABD": {
+				Name:         "Aberdeenshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"ABE": {
+				Name:         "Aberdeen City",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"AGB": {
+				Name:         "Argyll and Bute",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"AGY": {
+				Name:         "Isle of Anglesey [Sir Ynys Môn GB-YNM]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"AND": {
+				Name:         "Ards and North Down",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"ANN": {
+				Name:         "Antrim and Newtownabbey",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"ANS": {
+				Name:         "Angus",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"BAS": {
+				Name:         "Bath and North East Somerset",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"BBD": {
+				Name:         "Blackburn with Darwen",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"BDF": {
+				Name:         "Bedford",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"BDG": {
+				Name:         "Barking and Dagenham",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"BEN": {
+				Name:         "Brent",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"BEX": {
+				Name:         "Bexley",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"BFS": {
+				Name:         "Belfast",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"BGE": {
+				Name:         "Bridgend [Pen-y-bont ar Ogwr GB-POG]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"BGW": {
+				Name:         "Blaenau Gwent",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"BIR": {
+				Name:         "Birmingham",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"BKM": {
+				Name:         "Buckinghamshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"BMH": {
+				Name:         "Bournemouth",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"BNE": {
+				Name:         "Barnet",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"BNH": {
+				Name:         "Brighton and Hove",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"BNS": {
+				Name:         "Barnsley",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"BOL": {
+				Name:         "Bolton",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"BPL": {
+				Name:         "Blackpool",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"BRC": {
+				Name:         "Bracknell Forest",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"BRD": {
+				Name:         "Bradford",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"BRY": {
+				Name:         "Bromley",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"BST": {
+				Name:         "Bristol, City of",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"BUR": {
+				Name:         "Bury",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"CAM": {
+				Name:         "Cambridgeshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"CAY": {
+				Name:         "Caerphilly [Caerffili GB-CAF]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"CBF": {
+				Name:         "Central Bedfordshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"CCG": {
+				Name:         "Causeway Coast and Glens",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"CGN": {
+				Name:         "Ceredigion [Sir Ceredigion]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"CHE": {
+				Name:         "Cheshire East",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"CHW": {
+				Name:         "Cheshire West and Chester",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"CLD": {
+				Name:         "Calderdale",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"CLK": {
+				Name:         "Clackmannanshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"CMA": {
+				Name:         "Cumbria",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"CMD": {
+				Name:         "Camden",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"CMN": {
+				Name:         "Carmarthenshire [Sir Gaerfyrddin GB-GFY]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"CON": {
+				Name:         "Cornwall",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"COV": {
+				Name:         "Coventry",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"CRF": {
+				Name:         "Cardiff [Caerdydd GB-CRD]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"CRY": {
+				Name:         "Croydon",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"CWY": {
+				Name:         "Conwy",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"DAL": {
+				Name:         "Darlington",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"DBY": {
+				Name:         "Derbyshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"DEN": {
+				Name:         "Denbighshire [Sir Ddinbych GB-DDB]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"DER": {
+				Name:         "Derby",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"DEV": {
+				Name:         "Devon",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"DGY": {
+				Name:         "Dumfries and Galloway",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"DNC": {
+				Name:         "Doncaster",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"DND": {
+				Name:         "Dundee City",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"DOR": {
+				Name:         "Dorset",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"DRS": {
+				Name:         "Derry City and Strabane",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"DUD": {
+				Name:         "Dudley",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"DUR": {
+				Name:         "Durham County",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"EAL": {
+				Name:         "Ealing",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"EAY": {
+				Name:         "East Ayrshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"EDH": {
+				Name:         "Edinburgh, City of",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"EDU": {
+				Name:         "East Dunbartonshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"ELN": {
+				Name:         "East Lothian",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"ELS": {
+				Name:         "Eilean Siar",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"ENF": {
+				Name:         "Enfield",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"ERW": {
+				Name:         "East Renfrewshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"ERY": {
+				Name:         "East Riding of Yorkshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"ESS": {
+				Name:         "Essex",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"ESX": {
+				Name:         "East Sussex",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"FAL": {
+				Name:         "Falkirk",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"FIF": {
+				Name:         "Fife",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"FLN": {
+				Name:         "Flintshire [Sir y Fflint GB-FFL]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"FMO": {
+				Name:         "Fermanagh and Omagh",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"GAT": {
+				Name:         "Gateshead",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"GLG": {
+				Name:         "Glasgow City",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"GLS": {
+				Name:         "Gloucestershire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"GRE": {
+				Name:         "Greenwich",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"GWN": {
+				Name:         "Gwynedd",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"HAL": {
+				Name:         "Halton",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"HAM": {
+				Name:         "Hampshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"HAV": {
+				Name:         "Havering",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"HCK": {
+				Name:         "Hackney",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"HEF": {
+				Name:         "Herefordshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"HIL": {
+				Name:         "Hillingdon",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"HLD": {
+				Name:         "Highland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"HMF": {
+				Name:         "Hammersmith and Fulham",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"HNS": {
+				Name:         "Hounslow",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"HPL": {
+				Name:         "Hartlepool",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"HRT": {
+				Name:         "Hertfordshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"HRW": {
+				Name:         "Harrow",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"HRY": {
+				Name:         "Haringey",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"IOS": {
+				Name:         "Isles of Scilly",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"IOW": {
+				Name:         "Isle of Wight",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"ISL": {
+				Name:         "Islington",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"IVC": {
+				Name:         "Inverclyde",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"KEC": {
+				Name:         "Kensington and Chelsea",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"KEN": {
+				Name:         "Kent",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"KHL": {
+				Name:         "Kingston upon Hull",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"KIR": {
+				Name:         "Kirklees",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"KTT": {
+				Name:         "Kingston upon Thames",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"KWL": {
+				Name:         "Knowsley",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"LAN": {
+				Name:         "Lancashire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"LBC": {
+				Name:         "Lisburn and Castlereagh",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"LBH": {
+				Name:         "Lambeth",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"LCE": {
+				Name:         "Leicester",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"LDS": {
+				Name:         "Leeds",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"LEC": {
+				Name:         "Leicestershire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"LEW": {
+				Name:         "Lewisham",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"LIN": {
+				Name:         "Lincolnshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"LIV": {
+				Name:         "Liverpool",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"LND": {
+				Name:         "London, City of",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "city corporation",
+			},
+			"LUT": {
+				Name:         "Luton",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"MAN": {
+				Name:         "Manchester",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"MDB": {
+				Name:         "Middlesbrough",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"MDW": {
+				Name:         "Medway",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"MEA": {
+				Name:         "Mid and East Antrim",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"MIK": {
+				Name:         "Milton Keynes",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"MLN": {
+				Name:         "Midlothian",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"MON": {
+				Name:         "Monmouthshire [Sir Fynwy GB-FYN]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"MRT": {
+				Name:         "Merton",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"MRY": {
+				Name:         "Moray",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"MTY": {
+				Name:         "Merthyr Tydfil [Merthyr Tudful GB-MTU]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"MUL": {
+				Name:         "Mid Ulster",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"NAY": {
+				Name:         "North Ayrshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"NBL": {
+				Name:         "Northumberland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"NEL": {
+				Name:         "North East Lincolnshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"NET": {
+				Name:         "Newcastle upon Tyne",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"NFK": {
+				Name:         "Norfolk",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"NGM": {
+				Name:         "Nottingham",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"NLK": {
+				Name:         "North Lanarkshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"NLN": {
+				Name:         "North Lincolnshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"NMD": {
+				Name:         "Newry, Mourne and Down",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"NSM": {
+				Name:         "North Somerset",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"NTH": {
+				Name:         "Northamptonshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"NTL": {
+				Name:         "Neath Port Talbot [Castell-nedd Port Talbot GB-CTL]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"NTT": {
+				Name:         "Nottinghamshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"NTY": {
+				Name:         "North Tyneside",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"NWM": {
+				Name:         "Newham",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"NWP": {
+				Name:         "Newport [Casnewydd GB-CNW]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"NYK": {
+				Name:         "North Yorkshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"OLD": {
+				Name:         "Oldham",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"ORK": {
+				Name:         "Orkney Islands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"OXF": {
+				Name:         "Oxfordshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"PEM": {
+				Name:         "Pembrokeshire [Sir Benfro GB-BNF]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"PKN": {
+				Name:         "Perth and Kinross",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"PLY": {
+				Name:         "Plymouth",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"POL": {
+				Name:         "Poole",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"POR": {
+				Name:         "Portsmouth",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"POW": {
+				Name:         "Powys",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"PTE": {
+				Name:         "Peterborough",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"RCC": {
+				Name:         "Redcar and Cleveland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"RCH": {
+				Name:         "Rochdale",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"RCT": {
+				Name:         "Rhondda, Cynon, Taff [Rhondda, Cynon,Taf]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"RDB": {
+				Name:         "Redbridge",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"RDG": {
+				Name:         "Reading",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"RFW": {
+				Name:         "Renfrewshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"RIC": {
+				Name:         "Richmond upon Thames",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"ROT": {
+				Name:         "Rotherham",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"RUT": {
+				Name:         "Rutland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"SAW": {
+				Name:         "Sandwell",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"SAY": {
+				Name:         "South Ayrshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"SCB": {
+				Name:         "Scottish Borders, The",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"SFK": {
+				Name:         "Suffolk",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"SFT": {
+				Name:         "Sefton",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"SGC": {
+				Name:         "South Gloucestershire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"SHF": {
+				Name:         "Sheffield",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"SHN": {
+				Name:         "St. Helens",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"SHR": {
+				Name:         "Shropshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"SKP": {
+				Name:         "Stockport",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"SLF": {
+				Name:         "Salford",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"SLG": {
+				Name:         "Slough",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"SLK": {
+				Name:         "South Lanarkshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"SND": {
+				Name:         "Sunderland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"SOL": {
+				Name:         "Solihull",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"SOM": {
+				Name:         "Somerset",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"SOS": {
+				Name:         "Southend-on-Sea",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"SRY": {
+				Name:         "Surrey",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"STE": {
+				Name:         "Stoke-on-Trent",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"STG": {
+				Name:         "Stirling",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"STH": {
+				Name:         "Southampton",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"STN": {
+				Name:         "Sutton",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"STS": {
+				Name:         "Staffordshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"STT": {
+				Name:         "Stockton-on-Tees",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"STY": {
+				Name:         "South Tyneside",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"SWA": {
+				Name:         "Swansea [Abertawe GB-ATA]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"SWD": {
+				Name:         "Swindon",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"SWK": {
+				Name:         "Southwark",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"TAM": {
+				Name:         "Tameside",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"TFW": {
+				Name:         "Telford and Wrekin",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"THR": {
+				Name:         "Thurrock",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"TOB": {
+				Name:         "Torbay",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"TOF": {
+				Name:         "Torfaen [Tor-faen]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"TRF": {
+				Name:         "Trafford",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"TWH": {
+				Name:         "Tower Hamlets",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"VGL": {
+				Name:         "Vale of Glamorgan, The [Bro Morgannwg GB-BMG]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"WAR": {
+				Name:         "Warwickshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"WBK": {
+				Name:         "West Berkshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"WDU": {
+				Name:         "West Dunbartonshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"WFT": {
+				Name:         "Waltham Forest",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"WGN": {
+				Name:         "Wigan",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"WIL": {
+				Name:         "Wiltshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"WKF": {
+				Name:         "Wakefield",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"WLL": {
+				Name:         "Walsall",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"WLN": {
+				Name:         "West Lothian",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+			"WLV": {
+				Name:         "Wolverhampton",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"WND": {
+				Name:         "Wandsworth",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"WNM": {
+				Name:         "Windsor and Maidenhead",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"WOK": {
+				Name:         "Wokingham",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"WOR": {
+				Name:         "Worcestershire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"WRL": {
+				Name:         "Wirral",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "metropolitan district",
+			},
+			"WRT": {
+				Name:         "Warrington",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"WRX": {
+				Name:         "Wrexham [Wrecsam GB-WRC]",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"WSM": {
+				Name:         "Westminster",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "London borough",
+			},
+			"WSX": {
+				Name:         "West Sussex",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "two-tier county",
+			},
+			"YOR": {
+				Name:         "York",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "unitary authority",
+			},
+			"ZET": {
+				Name:         "Shetland Islands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "council area",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aberdeen City": {
+				Code: "ABE",
+			},
+			"Aberdeenshire": {
+				Code: "ABD",
+			},
+			"Angus": {
+				Code: "ANS",
+			},
+			"Antrim and Newtownabbey": {
+				Code: "ANN",
+			},
+			"Ards and North Down": {
+				Code: "AND",
+			},
+			"Argyll and Bute": {
+				Code: "AGB",
+			},
+			"Armagh City, Banbridge and Craigavon": {
+				Code: "ABC",
+			},
+			"Barking and Dagenham": {
+				Code: "BDG",
+			},
+			"Barnet": {
+				Code: "BNE",
+			},
+			"Barnsley": {
+				Code: "BNS",
+			},
+			"Bath and North East Somerset": {
+				Code: "BAS",
+			},
+			"Bedford": {
+				Code: "BDF",
+			},
+			"Belfast": {
+				Code: "BFS",
+			},
+			"Bexley": {
+				Code: "BEX",
+			},
+			"Birmingham": {
+				Code: "BIR",
+			},
+			"Blackburn with Darwen": {
+				Code: "BBD",
+			},
+			"Blackpool": {
+				Code: "BPL",
+			},
+			"Blaenau Gwent": {
+				Code: "BGW",
+			},
+			"Bolton": {
+				Code: "BOL",
+			},
+			"Bournemouth": {
+				Code: "BMH",
+			},
+			"Bracknell Forest": {
+				Code: "BRC",
+			},
+			"Bradford": {
+				Code: "BRD",
+			},
+			"Brent": {
+				Code: "BEN",
+			},
+			"Bridgend [Pen-y-bont ar Ogwr GB-POG]": {
+				Code: "BGE",
+			},
+			"Brighton and Hove": {
+				Code: "BNH",
+			},
+			"Bristol, City of": {
+				Code: "BST",
+			},
+			"Bromley": {
+				Code: "BRY",
+			},
+			"Buckinghamshire": {
+				Code: "BKM",
+			},
+			"Bury": {
+				Code: "BUR",
+			},
+			"Caerphilly [Caerffili GB-CAF]": {
+				Code: "CAY",
+			},
+			"Calderdale": {
+				Code: "CLD",
+			},
+			"Cambridgeshire": {
+				Code: "CAM",
+			},
+			"Camden": {
+				Code: "CMD",
+			},
+			"Cardiff [Caerdydd GB-CRD]": {
+				Code: "CRF",
+			},
+			"Carmarthenshire [Sir Gaerfyrddin GB-GFY]": {
+				Code: "CMN",
+			},
+			"Causeway Coast and Glens": {
+				Code: "CCG",
+			},
+			"Central Bedfordshire": {
+				Code: "CBF",
+			},
+			"Ceredigion [Sir Ceredigion]": {
+				Code: "CGN",
+			},
+			"Cheshire East": {
+				Code: "CHE",
+			},
+			"Cheshire West and Chester": {
+				Code: "CHW",
+			},
+			"Clackmannanshire": {
+				Code: "CLK",
+			},
+			"Conwy": {
+				Code: "CWY",
+			},
+			"Cornwall": {
+				Code: "CON",
+			},
+			"Coventry": {
+				Code: "COV",
+			},
+			"Croydon": {
+				Code: "CRY",
+			},
+			"Cumbria": {
+				Code: "CMA",
+			},
+			"Darlington": {
+				Code: "DAL",
+			},
+			"Denbighshire [Sir Ddinbych GB-DDB]": {
+				Code: "DEN",
+			},
+			"Derby": {
+				Code: "DER",
+			},
+			"Derbyshire": {
+				Code: "DBY",
+			},
+			"Derry City and Strabane": {
+				Code: "DRS",
+			},
+			"Devon": {
+				Code: "DEV",
+			},
+			"Doncaster": {
+				Code: "DNC",
+			},
+			"Dorset": {
+				Code: "DOR",
+			},
+			"Dudley": {
+				Code: "DUD",
+			},
+			"Dumfries and Galloway": {
+				Code: "DGY",
+			},
+			"Dundee City": {
+				Code: "DND",
+			},
+			"Durham County": {
+				Code: "DUR",
+			},
+			"Ealing": {
+				Code: "EAL",
+			},
+			"East Ayrshire": {
+				Code: "EAY",
+			},
+			"East Dunbartonshire": {
+				Code: "EDU",
+			},
+			"East Lothian": {
+				Code: "ELN",
+			},
+			"East Renfrewshire": {
+				Code: "ERW",
+			},
+			"East Riding of Yorkshire": {
+				Code: "ERY",
+			},
+			"East Sussex": {
+				Code: "ESX",
+			},
+			"Edinburgh, City of": {
+				Code: "EDH",
+			},
+			"Eilean Siar": {
+				Code: "ELS",
+			},
+			"Enfield": {
+				Code: "ENF",
+			},
+			"Essex": {
+				Code: "ESS",
+			},
+			"Falkirk": {
+				Code: "FAL",
+			},
+			"Fermanagh and Omagh": {
+				Code: "FMO",
+			},
+			"Fife": {
+				Code: "FIF",
+			},
+			"Flintshire [Sir y Fflint GB-FFL]": {
+				Code: "FLN",
+			},
+			"Gateshead": {
+				Code: "GAT",
+			},
+			"Glasgow City": {
+				Code: "GLG",
+			},
+			"Gloucestershire": {
+				Code: "GLS",
+			},
+			"Greenwich": {
+				Code: "GRE",
+			},
+			"Gwynedd": {
+				Code: "GWN",
+			},
+			"Hackney": {
+				Code: "HCK",
+			},
+			"Halton": {
+				Code: "HAL",
+			},
+			"Hammersmith and Fulham": {
+				Code: "HMF",
+			},
+			"Hampshire": {
+				Code: "HAM",
+			},
+			"Haringey": {
+				Code: "HRY",
+			},
+			"Harrow": {
+				Code: "HRW",
+			},
+			"Hartlepool": {
+				Code: "HPL",
+			},
+			"Havering": {
+				Code: "HAV",
+			},
+			"Herefordshire": {
+				Code: "HEF",
+			},
+			"Hertfordshire": {
+				Code: "HRT",
+			},
+			"Highland": {
+				Code: "HLD",
+			},
+			"Hillingdon": {
+				Code: "HIL",
+			},
+			"Hounslow": {
+				Code: "HNS",
+			},
+			"Inverclyde": {
+				Code: "IVC",
+			},
+			"Isle of Anglesey [Sir Ynys Môn GB-YNM]": {
+				Code: "AGY",
+			},
+			"Isle of Wight": {
+				Code: "IOW",
+			},
+			"Isles of Scilly": {
+				Code: "IOS",
+			},
+			"Islington": {
+				Code: "ISL",
+			},
+			"Kensington and Chelsea": {
+				Code: "KEC",
+			},
+			"Kent": {
+				Code: "KEN",
+			},
+			"Kingston upon Hull": {
+				Code: "KHL",
+			},
+			"Kingston upon Thames": {
+				Code: "KTT",
+			},
+			"Kirklees": {
+				Code: "KIR",
+			},
+			"Knowsley": {
+				Code: "KWL",
+			},
+			"Lambeth": {
+				Code: "LBH",
+			},
+			"Lancashire": {
+				Code: "LAN",
+			},
+			"Leeds": {
+				Code: "LDS",
+			},
+			"Leicester": {
+				Code: "LCE",
+			},
+			"Leicestershire": {
+				Code: "LEC",
+			},
+			"Lewisham": {
+				Code: "LEW",
+			},
+			"Lincolnshire": {
+				Code: "LIN",
+			},
+			"Lisburn and Castlereagh": {
+				Code: "LBC",
+			},
+			"Liverpool": {
+				Code: "LIV",
+			},
+			"London, City of": {
+				Code: "LND",
+			},
+			"Luton": {
+				Code: "LUT",
+			},
+			"Manchester": {
+				Code: "MAN",
+			},
+			"Medway": {
+				Code: "MDW",
+			},
+			"Merthyr Tydfil [Merthyr Tudful GB-MTU]": {
+				Code: "MTY",
+			},
+			"Merton": {
+				Code: "MRT",
+			},
+			"Mid Ulster": {
+				Code: "MUL",
+			},
+			"Mid and East Antrim": {
+				Code: "MEA",
+			},
+			"Middlesbrough": {
+				Code: "MDB",
+			},
+			"Midlothian": {
+				Code: "MLN",
+			},
+			"Milton Keynes": {
+				Code: "MIK",
+			},
+			"Monmouthshire [Sir Fynwy GB-FYN]": {
+				Code: "MON",
+			},
+			"Moray": {
+				Code: "MRY",
+			},
+			"Neath Port Talbot [Castell-nedd Port Talbot GB-CTL]": {
+				Code: "NTL",
+			},
+			"Newcastle upon Tyne": {
+				Code: "NET",
+			},
+			"Newham": {
+				Code: "NWM",
+			},
+			"Newport [Casnewydd GB-CNW]": {
+				Code: "NWP",
+			},
+			"Newry, Mourne and Down": {
+				Code: "NMD",
+			},
+			"Norfolk": {
+				Code: "NFK",
+			},
+			"North Ayrshire": {
+				Code: "NAY",
+			},
+			"North East Lincolnshire": {
+				Code: "NEL",
+			},
+			"North Lanarkshire": {
+				Code: "NLK",
+			},
+			"North Lincolnshire": {
+				Code: "NLN",
+			},
+			"North Somerset": {
+				Code: "NSM",
+			},
+			"North Tyneside": {
+				Code: "NTY",
+			},
+			"North Yorkshire": {
+				Code: "NYK",
+			},
+			"Northamptonshire": {
+				Code: "NTH",
+			},
+			"Northumberland": {
+				Code: "NBL",
+			},
+			"Nottingham": {
+				Code: "NGM",
+			},
+			"Nottinghamshire": {
+				Code: "NTT",
+			},
+			"Oldham": {
+				Code: "OLD",
+			},
+			"Orkney Islands": {
+				Code: "ORK",
+			},
+			"Oxfordshire": {
+				Code: "OXF",
+			},
+			"Pembrokeshire [Sir Benfro GB-BNF]": {
+				Code: "PEM",
+			},
+			"Perth and Kinross": {
+				Code: "PKN",
+			},
+			"Peterborough": {
+				Code: "PTE",
+			},
+			"Plymouth": {
+				Code: "PLY",
+			},
+			"Poole": {
+				Code: "POL",
+			},
+			"Portsmouth": {
+				Code: "POR",
+			},
+			"Powys": {
+				Code: "POW",
+			},
+			"Reading": {
+				Code: "RDG",
+			},
+			"Redbridge": {
+				Code: "RDB",
+			},
+			"Redcar and Cleveland": {
+				Code: "RCC",
+			},
+			"Renfrewshire": {
+				Code: "RFW",
+			},
+			"Rhondda, Cynon, Taff [Rhondda, Cynon,Taf]": {
+				Code: "RCT",
+			},
+			"Richmond upon Thames": {
+				Code: "RIC",
+			},
+			"Rochdale": {
+				Code: "RCH",
+			},
+			"Rotherham": {
+				Code: "ROT",
+			},
+			"Rutland": {
+				Code: "RUT",
+			},
+			"Salford": {
+				Code: "SLF",
+			},
+			"Sandwell": {
+				Code: "SAW",
+			},
+			"Scottish Borders, The": {
+				Code: "SCB",
+			},
+			"Sefton": {
+				Code: "SFT",
+			},
+			"Sheffield": {
+				Code: "SHF",
+			},
+			"Shetland Islands": {
+				Code: "ZET",
+			},
+			"Shropshire": {
+				Code: "SHR",
+			},
+			"Slough": {
+				Code: "SLG",
+			},
+			"Solihull": {
+				Code: "SOL",
+			},
+			"Somerset": {
+				Code: "SOM",
+			},
+			"South Ayrshire": {
+				Code: "SAY",
+			},
+			"South Gloucestershire": {
+				Code: "SGC",
+			},
+			"South Lanarkshire": {
+				Code: "SLK",
+			},
+			"South Tyneside": {
+				Code: "STY",
+			},
+			"Southampton": {
+				Code: "STH",
+			},
+			"Southend-on-Sea": {
+				Code: "SOS",
+			},
+			"Southwark": {
+				Code: "SWK",
+			},
+			"St. Helens": {
+				Code: "SHN",
+			},
+			"Staffordshire": {
+				Code: "STS",
+			},
+			"Stirling": {
+				Code: "STG",
+			},
+			"Stockport": {
+				Code: "SKP",
+			},
+			"Stockton-on-Tees": {
+				Code: "STT",
+			},
+			"Stoke-on-Trent": {
+				Code: "STE",
+			},
+			"Suffolk": {
+				Code: "SFK",
+			},
+			"Sunderland": {
+				Code: "SND",
+			},
+			"Surrey": {
+				Code: "SRY",
+			},
+			"Sutton": {
+				Code: "STN",
+			},
+			"Swansea [Abertawe GB-ATA]": {
+				Code: "SWA",
+			},
+			"Swindon": {
+				Code: "SWD",
+			},
+			"Tameside": {
+				Code: "TAM",
+			},
+			"Telford and Wrekin": {
+				Code: "TFW",
+			},
+			"Thurrock": {
+				Code: "THR",
+			},
+			"Torbay": {
+				Code: "TOB",
+			},
+			"Torfaen [Tor-faen]": {
+				Code: "TOF",
+			},
+			"Tower Hamlets": {
+				Code: "TWH",
+			},
+			"Trafford": {
+				Code: "TRF",
+			},
+			"Vale of Glamorgan, The [Bro Morgannwg GB-BMG]": {
+				Code: "VGL",
+			},
+			"Wakefield": {
+				Code: "WKF",
+			},
+			"Walsall": {
+				Code: "WLL",
+			},
+			"Waltham Forest": {
+				Code: "WFT",
+			},
+			"Wandsworth": {
+				Code: "WND",
+			},
+			"Warrington": {
+				Code: "WRT",
+			},
+			"Warwickshire": {
+				Code: "WAR",
+			},
+			"West Berkshire": {
+				Code: "WBK",
+			},
+			"West Dunbartonshire": {
+				Code: "WDU",
+			},
+			"West Lothian": {
+				Code: "WLN",
+			},
+			"West Sussex": {
+				Code: "WSX",
+			},
+			"Westminster": {
+				Code: "WSM",
+			},
+			"Wigan": {
+				Code: "WGN",
+			},
+			"Wiltshire": {
+				Code: "WIL",
+			},
+			"Windsor and Maidenhead": {
+				Code: "WNM",
+			},
+			"Wirral": {
+				Code: "WRL",
+			},
+			"Wokingham": {
+				Code: "WOK",
+			},
+			"Wolverhampton": {
+				Code: "WLV",
+			},
+			"Worcestershire": {
+				Code: "WOR",
+			},
+			"Wrexham [Wrecsam GB-WRC]": {
+				Code: "WRX",
+			},
+			"York": {
+				Code: "YOR",
+			},
+		},
 	},
 
 	"GD": {
@@ -729,6 +16079,77 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "308",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Saint Andrew",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"02": {
+				Name:         "Saint David",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"03": {
+				Name:         "Saint George",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"04": {
+				Name:         "Saint John",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"05": {
+				Name:         "Saint Mark",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"06": {
+				Name:         "Saint Patrick",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"10": {
+				Name:         "Southern Grenadine Islands",
+				LocalName:    "Carriacou",
+				LanguageCode: "en",
+				Type:         "dependency",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Saint Andrew": {
+				Code: "01",
+			},
+			"Saint David": {
+				Code: "02",
+			},
+			"Saint George": {
+				Code: "03",
+			},
+			"Saint John": {
+				Code: "04",
+			},
+			"Saint Mark": {
+				Code: "05",
+			},
+			"Saint Patrick": {
+				Code: "06",
+			},
+			"Southern Grenadine Islands": {
+				Code: "10",
+			},
+		},
 	},
 
 	"GE": {
@@ -738,6 +16159,122 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "268",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AB": {
+				Name:         "Abkhazia",
+				LocalName:    "Apkhazeti",
+				LanguageCode: "ka",
+				Type:         "autonomous republic",
+			},
+			"AJ": {
+				Name:         "Ajaria",
+				LocalName:    "Ach'ara",
+				LanguageCode: "ka",
+				Type:         "autonomous republic",
+			},
+			"GU": {
+				Name:         "Guria",
+				LocalName:    "",
+				LanguageCode: "ka",
+				Type:         "region",
+			},
+			"IM": {
+				Name:         "Imereti",
+				LocalName:    "",
+				LanguageCode: "ka",
+				Type:         "region",
+			},
+			"KA": {
+				Name:         "K'akheti",
+				LocalName:    "",
+				LanguageCode: "ka",
+				Type:         "region",
+			},
+			"KK": {
+				Name:         "Kvemo Kartli",
+				LocalName:    "",
+				LanguageCode: "ka",
+				Type:         "region",
+			},
+			"MM": {
+				Name:         "Mtskheta-Mtianeti",
+				LocalName:    "",
+				LanguageCode: "ka",
+				Type:         "region",
+			},
+			"RL": {
+				Name:         "Rach'a-Lechkhumi-Kvemo Svaneti",
+				LocalName:    "",
+				LanguageCode: "ka",
+				Type:         "region",
+			},
+			"SJ": {
+				Name:         "Samtskhe-Javakheti",
+				LocalName:    "",
+				LanguageCode: "ka",
+				Type:         "region",
+			},
+			"SK": {
+				Name:         "Shida Kartli",
+				LocalName:    "",
+				LanguageCode: "ka",
+				Type:         "region",
+			},
+			"SZ": {
+				Name:         "Samegrelo-Zemo Svaneti",
+				LocalName:    "",
+				LanguageCode: "ka",
+				Type:         "region",
+			},
+			"TB": {
+				Name:         "Tbilisi",
+				LocalName:    "",
+				LanguageCode: "ka",
+				Type:         "city",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Abkhazia": {
+				Code: "AB",
+			},
+			"Ajaria": {
+				Code: "AJ",
+			},
+			"Guria": {
+				Code: "GU",
+			},
+			"Imereti": {
+				Code: "IM",
+			},
+			"K'akheti": {
+				Code: "KA",
+			},
+			"Kvemo Kartli": {
+				Code: "KK",
+			},
+			"Mtskheta-Mtianeti": {
+				Code: "MM",
+			},
+			"Rach'a-Lechkhumi-Kvemo Svaneti": {
+				Code: "RL",
+			},
+			"Samegrelo-Zemo Svaneti": {
+				Code: "SZ",
+			},
+			"Samtskhe-Javakheti": {
+				Code: "SJ",
+			},
+			"Shida Kartli": {
+				Code: "SK",
+			},
+			"Tbilisi": {
+				Code: "TB",
+			},
+		},
 	},
 
 	"GF": {
@@ -765,6 +16302,158 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Ghana",
 		CommonName:   "",
 		Numeric:      "288",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AA": {
+				Name:         "Greater Accra",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"AF": {
+				Name:         "Ahafo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"AH": {
+				Name:         "Ashanti",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"BE": {
+				Name:         "Bono East",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"BO": {
+				Name:         "Bono",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"CP": {
+				Name:         "Central",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"EP": {
+				Name:         "Eastern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"NE": {
+				Name:         "North East",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"NP": {
+				Name:         "Northern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"OT": {
+				Name:         "Oti",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"SV": {
+				Name:         "Savannah",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"TV": {
+				Name:         "Volta",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"UE": {
+				Name:         "Upper East",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"UW": {
+				Name:         "Upper West",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"WN": {
+				Name:         "Western North",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"WP": {
+				Name:         "Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ahafo": {
+				Code: "AF",
+			},
+			"Ashanti": {
+				Code: "AH",
+			},
+			"Bono": {
+				Code: "BO",
+			},
+			"Bono East": {
+				Code: "BE",
+			},
+			"Central": {
+				Code: "CP",
+			},
+			"Eastern": {
+				Code: "EP",
+			},
+			"Greater Accra": {
+				Code: "AA",
+			},
+			"North East": {
+				Code: "NE",
+			},
+			"Northern": {
+				Code: "NP",
+			},
+			"Oti": {
+				Code: "OT",
+			},
+			"Savannah": {
+				Code: "SV",
+			},
+			"Upper East": {
+				Code: "UE",
+			},
+			"Upper West": {
+				Code: "UW",
+			},
+			"Volta": {
+				Code: "TV",
+			},
+			"Western": {
+				Code: "WP",
+			},
+			"Western North": {
+				Code: "WN",
+			},
+		},
 	},
 
 	"GI": {
@@ -783,6 +16472,59 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "304",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AV": {
+				Name:         "Avannaata Kommunia",
+				LocalName:    "",
+				LanguageCode: "kl",
+				Type:         "municipality",
+			},
+			"KU": {
+				Name:         "Kommune Kujalleq",
+				LocalName:    "",
+				LanguageCode: "kl",
+				Type:         "municipality",
+			},
+			"QE": {
+				Name:         "Qeqqata Kommunia",
+				LocalName:    "",
+				LanguageCode: "kl",
+				Type:         "municipality",
+			},
+			"QT": {
+				Name:         "Kommune Qeqertalik",
+				LocalName:    "",
+				LanguageCode: "kl",
+				Type:         "municipality",
+			},
+			"SM": {
+				Name:         "Kommuneqarfik Sermersooq",
+				LocalName:    "",
+				LanguageCode: "kl",
+				Type:         "municipality",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Avannaata Kommunia": {
+				Code: "AV",
+			},
+			"Kommune Kujalleq": {
+				Code: "KU",
+			},
+			"Kommune Qeqertalik": {
+				Code: "QT",
+			},
+			"Kommuneqarfik Sermersooq": {
+				Code: "SM",
+			},
+			"Qeqqata Kommunia": {
+				Code: "QE",
+			},
+		},
 	},
 
 	"GM": {
@@ -792,6 +16534,68 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of the Gambia",
 		CommonName:   "",
 		Numeric:      "270",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"B": {
+				Name:         "Banjul",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "city",
+			},
+			"L": {
+				Name:         "Lower River",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+			},
+			"M": {
+				Name:         "Central River",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+			},
+			"N": {
+				Name:         "North Bank",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+			},
+			"U": {
+				Name:         "Upper River",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+			},
+			"W": {
+				Name:         "Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Banjul": {
+				Code: "B",
+			},
+			"Central River": {
+				Code: "M",
+			},
+			"Lower River": {
+				Code: "L",
+			},
+			"North Bank": {
+				Code: "N",
+			},
+			"Upper River": {
+				Code: "U",
+			},
+			"Western": {
+				Code: "W",
+			},
+		},
 	},
 
 	"GN": {
@@ -801,6 +16605,439 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Guinea",
 		CommonName:   "",
 		Numeric:      "324",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"B": {
+				Name:         "Boké",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "administrative region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BF": {
+						Name:         "Boffa",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"BK": {
+						Name:         "Boké",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"FR": {
+						Name:         "Fria",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"GA": {
+						Name:         "Gaoual",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"KN": {
+						Name:         "Koundara",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+				},
+			},
+			"C": {
+				Name:         "Conakry",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "governorate",
+			},
+			"D": {
+				Name:         "Kindia",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "administrative region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"CO": {
+						Name:         "Coyah",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"DU": {
+						Name:         "Dubréka",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"FO": {
+						Name:         "Forécariah",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"KD": {
+						Name:         "Kindia",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"TE": {
+						Name:         "Télimélé",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+				},
+			},
+			"F": {
+				Name:         "Faranah",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "administrative region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"DB": {
+						Name:         "Dabola",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"DI": {
+						Name:         "Dinguiraye",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"FA": {
+						Name:         "Faranah",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"KS": {
+						Name:         "Kissidougou",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+				},
+			},
+			"K": {
+				Name:         "Kankan",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "administrative region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"KA": {
+						Name:         "Kankan",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"KE": {
+						Name:         "Kérouané",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"KO": {
+						Name:         "Kouroussa",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"MD": {
+						Name:         "Mandiana",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"SI": {
+						Name:         "Siguiri",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+				},
+			},
+			"L": {
+				Name:         "Labé",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "administrative region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"KB": {
+						Name:         "Koubia",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"LA": {
+						Name:         "Labé",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"LE": {
+						Name:         "Lélouma",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"ML": {
+						Name:         "Mali",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"TO": {
+						Name:         "Tougué",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+				},
+			},
+			"M": {
+				Name:         "Mamou",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "administrative region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"DL": {
+						Name:         "Dalaba",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"MM": {
+						Name:         "Mamou",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"PI": {
+						Name:         "Pita",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+				},
+			},
+			"N": {
+				Name:         "Nzérékoré",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "administrative region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BE": {
+						Name:         "Beyla",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"GU": {
+						Name:         "Guékédou",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"LO": {
+						Name:         "Lola",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"MC": {
+						Name:         "Macenta",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"NZ": {
+						Name:         "Nzérékoré",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+					"YO": {
+						Name:         "Yomou",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "prefecture",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Boké": {
+				Code: "B",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Boffa": {
+						Code: "BF",
+					},
+					"Boké": {
+						Code: "BK",
+					},
+					"Fria": {
+						Code: "FR",
+					},
+					"Gaoual": {
+						Code: "GA",
+					},
+					"Koundara": {
+						Code: "KN",
+					},
+				},
+			},
+			"Conakry": {
+				Code: "C",
+			},
+			"Faranah": {
+				Code: "F",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Dabola": {
+						Code: "DB",
+					},
+					"Dinguiraye": {
+						Code: "DI",
+					},
+					"Faranah": {
+						Code: "FA",
+					},
+					"Kissidougou": {
+						Code: "KS",
+					},
+				},
+			},
+			"Kankan": {
+				Code: "K",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Kankan": {
+						Code: "KA",
+					},
+					"Kouroussa": {
+						Code: "KO",
+					},
+					"Kérouané": {
+						Code: "KE",
+					},
+					"Mandiana": {
+						Code: "MD",
+					},
+					"Siguiri": {
+						Code: "SI",
+					},
+				},
+			},
+			"Kindia": {
+				Code: "D",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Coyah": {
+						Code: "CO",
+					},
+					"Dubréka": {
+						Code: "DU",
+					},
+					"Forécariah": {
+						Code: "FO",
+					},
+					"Kindia": {
+						Code: "KD",
+					},
+					"Télimélé": {
+						Code: "TE",
+					},
+				},
+			},
+			"Labé": {
+				Code: "L",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Koubia": {
+						Code: "KB",
+					},
+					"Labé": {
+						Code: "LA",
+					},
+					"Lélouma": {
+						Code: "LE",
+					},
+					"Mali": {
+						Code: "ML",
+					},
+					"Tougué": {
+						Code: "TO",
+					},
+				},
+			},
+			"Mamou": {
+				Code: "M",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Dalaba": {
+						Code: "DL",
+					},
+					"Mamou": {
+						Code: "MM",
+					},
+					"Pita": {
+						Code: "PI",
+					},
+				},
+			},
+			"Nzérékoré": {
+				Code: "N",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Beyla": {
+						Code: "BE",
+					},
+					"Guékédou": {
+						Code: "GU",
+					},
+					"Lola": {
+						Code: "LO",
+					},
+					"Macenta": {
+						Code: "MC",
+					},
+					"Nzérékoré": {
+						Code: "NZ",
+					},
+					"Yomou": {
+						Code: "YO",
+					},
+				},
+			},
+		},
 	},
 
 	"GP": {
@@ -819,6 +17056,111 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Equatorial Guinea",
 		CommonName:   "",
 		Numeric:      "226",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"C": {
+				Name:         "Région Continentale",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"CS": {
+						Name:         "Centro Sud",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"KN": {
+						Name:         "Kié-Ntem",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"LI": {
+						Name:         "Littoral",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"WN": {
+						Name:         "Wele-Nzas",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+			"I": {
+				Name:         "Région Insulaire",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AN": {
+						Name:         "Annobon",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"BN": {
+						Name:         "Bioko Nord",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+					"BS": {
+						Name:         "Bioko Sud",
+						LocalName:    "",
+						LanguageCode: "fr",
+						Type:         "province",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Région Continentale": {
+				Code: "C",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Centro Sud": {
+						Code: "CS",
+					},
+					"Kié-Ntem": {
+						Code: "KN",
+					},
+					"Littoral": {
+						Code: "LI",
+					},
+					"Wele-Nzas": {
+						Code: "WN",
+					},
+				},
+			},
+			"Région Insulaire": {
+				Code: "I",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Annobon": {
+						Code: "AN",
+					},
+					"Bioko Nord": {
+						Code: "BN",
+					},
+					"Bioko Sud": {
+						Code: "BS",
+					},
+				},
+			},
+		},
 	},
 
 	"GR": {
@@ -828,6 +17170,140 @@ var CountryStates = map[string]Country{
 		OfficialName: "Hellenic Republic",
 		CommonName:   "",
 		Numeric:      "300",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"69": {
+				Name:         "Ágion Óros",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "self-governed part",
+			},
+			"A": {
+				Name:         "Anatolikí Makedonía kai Thráki",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+			"B": {
+				Name:         "Kentrikí Makedonía",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+			"C": {
+				Name:         "Dytikí Makedonía",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+			"D": {
+				Name:         "Ípeiros",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+			"E": {
+				Name:         "Thessalía",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+			"F": {
+				Name:         "Ionía Nísia",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+			"G": {
+				Name:         "Dytikí Elláda",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+			"H": {
+				Name:         "Stereá Elláda",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+			"I": {
+				Name:         "Attikí",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+			"J": {
+				Name:         "Pelopónnisos",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+			"K": {
+				Name:         "Vóreio Aigaío",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+			"L": {
+				Name:         "Nótio Aigaío",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+			"M": {
+				Name:         "Kríti",
+				LocalName:    "",
+				LanguageCode: "el",
+				Type:         "administrative region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Anatolikí Makedonía kai Thráki": {
+				Code: "A",
+			},
+			"Attikí": {
+				Code: "I",
+			},
+			"Dytikí Elláda": {
+				Code: "G",
+			},
+			"Dytikí Makedonía": {
+				Code: "C",
+			},
+			"Ionía Nísia": {
+				Code: "F",
+			},
+			"Kentrikí Makedonía": {
+				Code: "B",
+			},
+			"Kríti": {
+				Code: "M",
+			},
+			"Nótio Aigaío": {
+				Code: "L",
+			},
+			"Pelopónnisos": {
+				Code: "J",
+			},
+			"Stereá Elláda": {
+				Code: "H",
+			},
+			"Thessalía": {
+				Code: "E",
+			},
+			"Vóreio Aigaío": {
+				Code: "K",
+			},
+			"Ágion Óros": {
+				Code: "69",
+			},
+			"Ípeiros": {
+				Code: "D",
+			},
+		},
 	},
 
 	"GS": {
@@ -846,6 +17322,212 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Guatemala",
 		CommonName:   "",
 		Numeric:      "320",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AV": {
+				Name:         "Alta Verapaz",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"BV": {
+				Name:         "Baja Verapaz",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CM": {
+				Name:         "Chimaltenango",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CQ": {
+				Name:         "Chiquimula",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"ES": {
+				Name:         "Escuintla",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"GU": {
+				Name:         "Guatemala",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"HU": {
+				Name:         "Huehuetenango",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"IZ": {
+				Name:         "Izabal",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"JA": {
+				Name:         "Jalapa",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"JU": {
+				Name:         "Jutiapa",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"PE": {
+				Name:         "Petén",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"PR": {
+				Name:         "El Progreso",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"QC": {
+				Name:         "Quiché",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"QZ": {
+				Name:         "Quetzaltenango",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"RE": {
+				Name:         "Retalhuleu",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SA": {
+				Name:         "Sacatepéquez",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SM": {
+				Name:         "San Marcos",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SO": {
+				Name:         "Sololá",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SR": {
+				Name:         "Santa Rosa",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SU": {
+				Name:         "Suchitepéquez",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"TO": {
+				Name:         "Totonicapán",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"ZA": {
+				Name:         "Zacapa",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Alta Verapaz": {
+				Code: "AV",
+			},
+			"Baja Verapaz": {
+				Code: "BV",
+			},
+			"Chimaltenango": {
+				Code: "CM",
+			},
+			"Chiquimula": {
+				Code: "CQ",
+			},
+			"El Progreso": {
+				Code: "PR",
+			},
+			"Escuintla": {
+				Code: "ES",
+			},
+			"Guatemala": {
+				Code: "GU",
+			},
+			"Huehuetenango": {
+				Code: "HU",
+			},
+			"Izabal": {
+				Code: "IZ",
+			},
+			"Jalapa": {
+				Code: "JA",
+			},
+			"Jutiapa": {
+				Code: "JU",
+			},
+			"Petén": {
+				Code: "PE",
+			},
+			"Quetzaltenango": {
+				Code: "QZ",
+			},
+			"Quiché": {
+				Code: "QC",
+			},
+			"Retalhuleu": {
+				Code: "RE",
+			},
+			"Sacatepéquez": {
+				Code: "SA",
+			},
+			"San Marcos": {
+				Code: "SM",
+			},
+			"Santa Rosa": {
+				Code: "SR",
+			},
+			"Sololá": {
+				Code: "SO",
+			},
+			"Suchitepéquez": {
+				Code: "SU",
+			},
+			"Totonicapán": {
+				Code: "TO",
+			},
+			"Zacapa": {
+				Code: "ZA",
+			},
+		},
 	},
 
 	"GU": {
@@ -864,6 +17546,146 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Guinea-Bissau",
 		CommonName:   "",
 		Numeric:      "624",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BS": {
+				Name:         "Bissau",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "autonomous sector",
+			},
+			"L": {
+				Name:         "Leste",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BA": {
+						Name:         "Bafatá",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "region",
+					},
+					"GA": {
+						Name:         "Gabú",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "region",
+					},
+				},
+			},
+			"N": {
+				Name:         "Norte",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BM": {
+						Name:         "Biombo",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "region",
+					},
+					"CA": {
+						Name:         "Cacheu",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "region",
+					},
+					"OI": {
+						Name:         "Oio",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "region",
+					},
+				},
+			},
+			"S": {
+				Name:         "Sul",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BL": {
+						Name:         "Bolama",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "region",
+					},
+					"QU": {
+						Name:         "Quinara",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "region",
+					},
+					"TO": {
+						Name:         "Tombali",
+						LocalName:    "",
+						LanguageCode: "pt",
+						Type:         "region",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bissau": {
+				Code: "BS",
+			},
+			"Leste": {
+				Code: "L",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bafatá": {
+						Code: "BA",
+					},
+					"Gabú": {
+						Code: "GA",
+					},
+				},
+			},
+			"Norte": {
+				Code: "N",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Biombo": {
+						Code: "BM",
+					},
+					"Cacheu": {
+						Code: "CA",
+					},
+					"Oio": {
+						Code: "OI",
+					},
+				},
+			},
+			"Sul": {
+				Code: "S",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bolama": {
+						Code: "BL",
+					},
+					"Quinara": {
+						Code: "QU",
+					},
+					"Tombali": {
+						Code: "TO",
+					},
+				},
+			},
+		},
 	},
 
 	"GY": {
@@ -873,6 +17695,104 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Guyana",
 		CommonName:   "",
 		Numeric:      "328",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BA": {
+				Name:         "Barima-Waini",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"CU": {
+				Name:         "Cuyuni-Mazaruni",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"DE": {
+				Name:         "Demerara-Mahaica",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"EB": {
+				Name:         "East Berbice-Corentyne",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"ES": {
+				Name:         "Essequibo Islands-West Demerara",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"MA": {
+				Name:         "Mahaica-Berbice",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"PM": {
+				Name:         "Pomeroon-Supenaam",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"PT": {
+				Name:         "Potaro-Siparuni",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"UD": {
+				Name:         "Upper Demerara-Berbice",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"UT": {
+				Name:         "Upper Takutu-Upper Essequibo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Barima-Waini": {
+				Code: "BA",
+			},
+			"Cuyuni-Mazaruni": {
+				Code: "CU",
+			},
+			"Demerara-Mahaica": {
+				Code: "DE",
+			},
+			"East Berbice-Corentyne": {
+				Code: "EB",
+			},
+			"Essequibo Islands-West Demerara": {
+				Code: "ES",
+			},
+			"Mahaica-Berbice": {
+				Code: "MA",
+			},
+			"Pomeroon-Supenaam": {
+				Code: "PM",
+			},
+			"Potaro-Siparuni": {
+				Code: "PT",
+			},
+			"Upper Demerara-Berbice": {
+				Code: "UD",
+			},
+			"Upper Takutu-Upper Essequibo": {
+				Code: "UT",
+			},
+		},
 	},
 
 	"HK": {
@@ -900,6 +17820,176 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Honduras",
 		CommonName:   "",
 		Numeric:      "340",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AT": {
+				Name:         "Atlántida",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CH": {
+				Name:         "Choluteca",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CL": {
+				Name:         "Colón",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CM": {
+				Name:         "Comayagua",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CP": {
+				Name:         "Copán",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CR": {
+				Name:         "Cortés",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"EP": {
+				Name:         "El Paraíso",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"FM": {
+				Name:         "Francisco Morazán",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"GD": {
+				Name:         "Gracias a Dios",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"IB": {
+				Name:         "Islas de la Bahía",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"IN": {
+				Name:         "Intibucá",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"LE": {
+				Name:         "Lempira",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"LP": {
+				Name:         "La Paz",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"OC": {
+				Name:         "Ocotepeque",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"OL": {
+				Name:         "Olancho",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SB": {
+				Name:         "Santa Bárbara",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"VA": {
+				Name:         "Valle",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"YO": {
+				Name:         "Yoro",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Atlántida": {
+				Code: "AT",
+			},
+			"Choluteca": {
+				Code: "CH",
+			},
+			"Colón": {
+				Code: "CL",
+			},
+			"Comayagua": {
+				Code: "CM",
+			},
+			"Copán": {
+				Code: "CP",
+			},
+			"Cortés": {
+				Code: "CR",
+			},
+			"El Paraíso": {
+				Code: "EP",
+			},
+			"Francisco Morazán": {
+				Code: "FM",
+			},
+			"Gracias a Dios": {
+				Code: "GD",
+			},
+			"Intibucá": {
+				Code: "IN",
+			},
+			"Islas de la Bahía": {
+				Code: "IB",
+			},
+			"La Paz": {
+				Code: "LP",
+			},
+			"Lempira": {
+				Code: "LE",
+			},
+			"Ocotepeque": {
+				Code: "OC",
+			},
+			"Olancho": {
+				Code: "OL",
+			},
+			"Santa Bárbara": {
+				Code: "SB",
+			},
+			"Valle": {
+				Code: "VA",
+			},
+			"Yoro": {
+				Code: "YO",
+			},
+		},
 	},
 
 	"HR": {
@@ -909,6 +17999,203 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Croatia",
 		CommonName:   "",
 		Numeric:      "191",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Zagrebačka županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"02": {
+				Name:         "Krapinsko-zagorska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"03": {
+				Name:         "Sisačko-moslavačka županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"04": {
+				Name:         "Karlovačka županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"05": {
+				Name:         "Varaždinska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"06": {
+				Name:         "Koprivničko-križevačka županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"07": {
+				Name:         "Bjelovarsko-bilogorska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"08": {
+				Name:         "Primorsko-goranska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"09": {
+				Name:         "Ličko-senjska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"10": {
+				Name:         "Virovitičko-podravska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"11": {
+				Name:         "Požeško-slavonska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"12": {
+				Name:         "Brodsko-posavska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"13": {
+				Name:         "Zadarska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"14": {
+				Name:         "Osječko-baranjska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"15": {
+				Name:         "Šibensko-kninska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"16": {
+				Name:         "Vukovarsko-srijemska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"17": {
+				Name:         "Splitsko-dalmatinska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"18": {
+				Name:         "Istarska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"19": {
+				Name:         "Dubrovačko-neretvanska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"20": {
+				Name:         "Međimurska županija",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "county",
+			},
+			"21": {
+				Name:         "Grad Zagreb",
+				LocalName:    "",
+				LanguageCode: "hr",
+				Type:         "city",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bjelovarsko-bilogorska županija": {
+				Code: "07",
+			},
+			"Brodsko-posavska županija": {
+				Code: "12",
+			},
+			"Dubrovačko-neretvanska županija": {
+				Code: "19",
+			},
+			"Grad Zagreb": {
+				Code: "21",
+			},
+			"Istarska županija": {
+				Code: "18",
+			},
+			"Karlovačka županija": {
+				Code: "04",
+			},
+			"Koprivničko-križevačka županija": {
+				Code: "06",
+			},
+			"Krapinsko-zagorska županija": {
+				Code: "02",
+			},
+			"Ličko-senjska županija": {
+				Code: "09",
+			},
+			"Međimurska županija": {
+				Code: "20",
+			},
+			"Osječko-baranjska županija": {
+				Code: "14",
+			},
+			"Požeško-slavonska županija": {
+				Code: "11",
+			},
+			"Primorsko-goranska županija": {
+				Code: "08",
+			},
+			"Sisačko-moslavačka županija": {
+				Code: "03",
+			},
+			"Splitsko-dalmatinska županija": {
+				Code: "17",
+			},
+			"Varaždinska županija": {
+				Code: "05",
+			},
+			"Virovitičko-podravska županija": {
+				Code: "10",
+			},
+			"Vukovarsko-srijemska županija": {
+				Code: "16",
+			},
+			"Zadarska županija": {
+				Code: "13",
+			},
+			"Zagrebačka županija": {
+				Code: "01",
+			},
+			"Šibensko-kninska županija": {
+				Code: "15",
+			},
+		},
 	},
 
 	"HT": {
@@ -918,6 +18205,104 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Haiti",
 		CommonName:   "",
 		Numeric:      "332",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AR": {
+				Name:         "Latibonit",
+				LocalName:    "",
+				LanguageCode: "ht",
+				Type:         "department",
+			},
+			"CE": {
+				Name:         "Sant",
+				LocalName:    "",
+				LanguageCode: "ht",
+				Type:         "department",
+			},
+			"GA": {
+				Name:         "Grandans",
+				LocalName:    "",
+				LanguageCode: "ht",
+				Type:         "department",
+			},
+			"ND": {
+				Name:         "Nò",
+				LocalName:    "",
+				LanguageCode: "ht",
+				Type:         "department",
+			},
+			"NE": {
+				Name:         "Nòdès",
+				LocalName:    "",
+				LanguageCode: "ht",
+				Type:         "department",
+			},
+			"NI": {
+				Name:         "Nip",
+				LocalName:    "",
+				LanguageCode: "ht",
+				Type:         "department",
+			},
+			"NO": {
+				Name:         "Nòdwès",
+				LocalName:    "",
+				LanguageCode: "ht",
+				Type:         "department",
+			},
+			"OU": {
+				Name:         "Lwès",
+				LocalName:    "",
+				LanguageCode: "ht",
+				Type:         "department",
+			},
+			"SD": {
+				Name:         "Sid",
+				LocalName:    "",
+				LanguageCode: "ht",
+				Type:         "department",
+			},
+			"SE": {
+				Name:         "Sidès",
+				LocalName:    "",
+				LanguageCode: "ht",
+				Type:         "department",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Grandans": {
+				Code: "GA",
+			},
+			"Latibonit": {
+				Code: "AR",
+			},
+			"Lwès": {
+				Code: "OU",
+			},
+			"Nip": {
+				Code: "NI",
+			},
+			"Nò": {
+				Code: "ND",
+			},
+			"Nòdwès": {
+				Code: "NO",
+			},
+			"Nòdès": {
+				Code: "NE",
+			},
+			"Sant": {
+				Code: "CE",
+			},
+			"Sid": {
+				Code: "SD",
+			},
+			"Sidès": {
+				Code: "SE",
+			},
+		},
 	},
 
 	"HU": {
@@ -1307,7 +18692,7 @@ var CountryStates = map[string]Country{
 				Code: "VA",
 			},
 			"Veszprém": {
-				Code: "VE",
+				Code: "VM",
 			},
 			"Zala": {
 				Code: "ZA",
@@ -1328,6 +18713,439 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Indonesia",
 		CommonName:   "",
 		Numeric:      "360",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"JW": {
+				Name:         "Jawa",
+				LocalName:    "",
+				LanguageCode: "id",
+				Type:         "geographical unit",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BT": {
+						Name:         "Banten",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"JB": {
+						Name:         "Jawa Barat",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"JI": {
+						Name:         "Jawa Timur",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"JK": {
+						Name:         "Jakarta Raya",
+						LocalName:    "DKI Jakarta; DKI",
+						LanguageCode: "id",
+						Type:         "capital district",
+					},
+					"JT": {
+						Name:         "Jawa Tengah",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"YO": {
+						Name:         "Yogyakarta",
+						LocalName:    "DI Yogya; DIY",
+						LanguageCode: "id",
+						Type:         "special region",
+					},
+				},
+			},
+			"KA": {
+				Name:         "Kalimantan",
+				LocalName:    "",
+				LanguageCode: "id",
+				Type:         "geographical unit",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"KB": {
+						Name:         "Kalimantan Barat",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"KI": {
+						Name:         "Kalimantan Timur",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"KS": {
+						Name:         "Kalimantan Selatan",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"KT": {
+						Name:         "Kalimantan Tengah",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"KU": {
+						Name:         "Kalimantan Utara",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+				},
+			},
+			"ML": {
+				Name:         "Maluku",
+				LocalName:    "",
+				LanguageCode: "id",
+				Type:         "geographical unit",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"MA": {
+						Name:         "Maluku",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"MU": {
+						Name:         "Maluku Utara",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+				},
+			},
+			"NU": {
+				Name:         "Nusa Tenggara",
+				LocalName:    "",
+				LanguageCode: "id",
+				Type:         "geographical unit",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BA": {
+						Name:         "Bali",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"NB": {
+						Name:         "Nusa Tenggara Barat",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"NT": {
+						Name:         "Nusa Tenggara Timur",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+				},
+			},
+			"PP": {
+				Name:         "Papua",
+				LocalName:    "",
+				LanguageCode: "id",
+				Type:         "geographical unit",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"PA": {
+						Name:         "Papua",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"PB": {
+						Name:         "Papua Barat",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+				},
+			},
+			"SL": {
+				Name:         "Sulawesi",
+				LocalName:    "",
+				LanguageCode: "id",
+				Type:         "geographical unit",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"GO": {
+						Name:         "Gorontalo",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"SA": {
+						Name:         "Sulawesi Utara",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"SG": {
+						Name:         "Sulawesi Tenggara",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"SN": {
+						Name:         "Sulawesi Selatan",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"SR": {
+						Name:         "Sulawesi Barat",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"ST": {
+						Name:         "Sulawesi Tengah",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+				},
+			},
+			"SM": {
+				Name:         "Sumatera",
+				LocalName:    "",
+				LanguageCode: "id",
+				Type:         "geographical unit",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AC": {
+						Name:         "Aceh",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"BB": {
+						Name:         "Kepulauan Bangka Belitung",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"BE": {
+						Name:         "Bengkulu",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"JA": {
+						Name:         "Jambi",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"KR": {
+						Name:         "Kepulauan Riau",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"LA": {
+						Name:         "Lampung",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"RI": {
+						Name:         "Riau",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"SB": {
+						Name:         "Sumatera Barat",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"SS": {
+						Name:         "Sumatera Selatan",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+					"SU": {
+						Name:         "Sumatera Utara",
+						LocalName:    "",
+						LanguageCode: "id",
+						Type:         "province",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Jawa": {
+				Code: "JW",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Banten": {
+						Code: "BT",
+					},
+					"Jakarta Raya": {
+						Code: "JK",
+					},
+					"Jawa Barat": {
+						Code: "JB",
+					},
+					"Jawa Tengah": {
+						Code: "JT",
+					},
+					"Jawa Timur": {
+						Code: "JI",
+					},
+					"Yogyakarta": {
+						Code: "YO",
+					},
+				},
+			},
+			"Kalimantan": {
+				Code: "KA",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Kalimantan Barat": {
+						Code: "KB",
+					},
+					"Kalimantan Selatan": {
+						Code: "KS",
+					},
+					"Kalimantan Tengah": {
+						Code: "KT",
+					},
+					"Kalimantan Timur": {
+						Code: "KI",
+					},
+					"Kalimantan Utara": {
+						Code: "KU",
+					},
+				},
+			},
+			"Maluku": {
+				Code: "ML",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Maluku": {
+						Code: "MA",
+					},
+					"Maluku Utara": {
+						Code: "MU",
+					},
+				},
+			},
+			"Nusa Tenggara": {
+				Code: "NU",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bali": {
+						Code: "BA",
+					},
+					"Nusa Tenggara Barat": {
+						Code: "NB",
+					},
+					"Nusa Tenggara Timur": {
+						Code: "NT",
+					},
+				},
+			},
+			"Papua": {
+				Code: "PP",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Papua": {
+						Code: "PA",
+					},
+					"Papua Barat": {
+						Code: "PB",
+					},
+				},
+			},
+			"Sulawesi": {
+				Code: "SL",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Gorontalo": {
+						Code: "GO",
+					},
+					"Sulawesi Barat": {
+						Code: "SR",
+					},
+					"Sulawesi Selatan": {
+						Code: "SN",
+					},
+					"Sulawesi Tengah": {
+						Code: "ST",
+					},
+					"Sulawesi Tenggara": {
+						Code: "SG",
+					},
+					"Sulawesi Utara": {
+						Code: "SA",
+					},
+				},
+			},
+			"Sumatera": {
+				Code: "SM",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Aceh": {
+						Code: "AC",
+					},
+					"Bengkulu": {
+						Code: "BE",
+					},
+					"Jambi": {
+						Code: "JA",
+					},
+					"Kepulauan Bangka Belitung": {
+						Code: "BB",
+					},
+					"Kepulauan Riau": {
+						Code: "KR",
+					},
+					"Lampung": {
+						Code: "LA",
+					},
+					"Riau": {
+						Code: "RI",
+					},
+					"Sumatera Barat": {
+						Code: "SB",
+					},
+					"Sumatera Selatan": {
+						Code: "SS",
+					},
+					"Sumatera Utara": {
+						Code: "SU",
+					},
+				},
+			},
+		},
 	},
 
 	"IE": {
@@ -1337,6 +19155,316 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "372",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"C": {
+				Name:         "Connaught",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"G": {
+						Name:         "Galway",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"LM": {
+						Name:         "Leitrim",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"MO": {
+						Name:         "Mayo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"RN": {
+						Name:         "Roscommon",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"SO": {
+						Name:         "Sligo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+				},
+			},
+			"L": {
+				Name:         "Leinster",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"CW": {
+						Name:         "Carlow",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"D": {
+						Name:         "Dublin",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"KE": {
+						Name:         "Kildare",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"KK": {
+						Name:         "Kilkenny",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"LD": {
+						Name:         "Longford",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"LH": {
+						Name:         "Louth",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"LS": {
+						Name:         "Laois",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"MH": {
+						Name:         "Meath",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"OY": {
+						Name:         "Offaly",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"WH": {
+						Name:         "Westmeath",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"WW": {
+						Name:         "Wicklow",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"WX": {
+						Name:         "Wexford",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+				},
+			},
+			"M": {
+				Name:         "Munster",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"CE": {
+						Name:         "Clare",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"CO": {
+						Name:         "Cork",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"KY": {
+						Name:         "Kerry",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"LK": {
+						Name:         "Limerick",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"TA": {
+						Name:         "Tipperary",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"WD": {
+						Name:         "Waterford",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+				},
+			},
+			"U": {
+				Name:         "Ulster",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"CN": {
+						Name:         "Cavan",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"DL": {
+						Name:         "Donegal",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+					"MN": {
+						Name:         "Monaghan",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "county",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Connaught": {
+				Code: "C",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Galway": {
+						Code: "G",
+					},
+					"Leitrim": {
+						Code: "LM",
+					},
+					"Mayo": {
+						Code: "MO",
+					},
+					"Roscommon": {
+						Code: "RN",
+					},
+					"Sligo": {
+						Code: "SO",
+					},
+				},
+			},
+			"Leinster": {
+				Code: "L",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Carlow": {
+						Code: "CW",
+					},
+					"Dublin": {
+						Code: "D",
+					},
+					"Kildare": {
+						Code: "KE",
+					},
+					"Kilkenny": {
+						Code: "KK",
+					},
+					"Laois": {
+						Code: "LS",
+					},
+					"Longford": {
+						Code: "LD",
+					},
+					"Louth": {
+						Code: "LH",
+					},
+					"Meath": {
+						Code: "MH",
+					},
+					"Offaly": {
+						Code: "OY",
+					},
+					"Westmeath": {
+						Code: "WH",
+					},
+					"Wexford": {
+						Code: "WX",
+					},
+					"Wicklow": {
+						Code: "WW",
+					},
+				},
+			},
+			"Munster": {
+				Code: "M",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Clare": {
+						Code: "CE",
+					},
+					"Cork": {
+						Code: "CO",
+					},
+					"Kerry": {
+						Code: "KY",
+					},
+					"Limerick": {
+						Code: "LK",
+					},
+					"Tipperary": {
+						Code: "TA",
+					},
+					"Waterford": {
+						Code: "WD",
+					},
+				},
+			},
+			"Ulster": {
+				Code: "U",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Cavan": {
+						Code: "CN",
+					},
+					"Donegal": {
+						Code: "DL",
+					},
+					"Monaghan": {
+						Code: "MN",
+					},
+				},
+			},
+		},
 	},
 
 	"IL": {
@@ -1346,6 +19474,68 @@ var CountryStates = map[string]Country{
 		OfficialName: "State of Israel",
 		CommonName:   "",
 		Numeric:      "376",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"D": {
+				Name:         "HaDarom",
+				LocalName:    "Southern",
+				LanguageCode: "he",
+				Type:         "district",
+			},
+			"HA": {
+				Name:         "H̱efa",
+				LocalName:    "Haifa",
+				LanguageCode: "he",
+				Type:         "district",
+			},
+			"JM": {
+				Name:         "Yerushalayim",
+				LocalName:    "Jerusalem",
+				LanguageCode: "he",
+				Type:         "district",
+			},
+			"M": {
+				Name:         "HaMerkaz",
+				LocalName:    "Central",
+				LanguageCode: "he",
+				Type:         "district",
+			},
+			"TA": {
+				Name:         "Tel Aviv",
+				LocalName:    "",
+				LanguageCode: "he",
+				Type:         "district",
+			},
+			"Z": {
+				Name:         "HaTsafon",
+				LocalName:    "Northern",
+				LanguageCode: "he",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"HaDarom": {
+				Code: "D",
+			},
+			"HaMerkaz": {
+				Code: "M",
+			},
+			"HaTsafon": {
+				Code: "Z",
+			},
+			"H̱efa": {
+				Code: "HA",
+			},
+			"Tel Aviv": {
+				Code: "TA",
+			},
+			"Yerushalayim": {
+				Code: "JM",
+			},
+		},
 	},
 
 	"IM": {
@@ -1364,6 +19554,347 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of India",
 		CommonName:   "",
 		Numeric:      "356",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AN": {
+				Name:         "Andaman and Nicobar Islands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "Union territory",
+			},
+			"AP": {
+				Name:         "Andhra Pradesh",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"AR": {
+				Name:         "Arunachal Pradesh",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"AS": {
+				Name:         "Assam",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"BR": {
+				Name:         "Bihar",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"CH": {
+				Name:         "Chandigarh",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "Union territory",
+			},
+			"CT": {
+				Name:         "Chhattisgarh",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"DD": {
+				Name:         "Daman and Diu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "Union territory",
+			},
+			"DL": {
+				Name:         "Delhi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "Union territory",
+			},
+			"DN": {
+				Name:         "Dadra and Nagar Haveli",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "Union territory",
+			},
+			"GA": {
+				Name:         "Goa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"GJ": {
+				Name:         "Gujarat",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"HP": {
+				Name:         "Himachal Pradesh",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"HR": {
+				Name:         "Haryana",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"JH": {
+				Name:         "Jharkhand",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"JK": {
+				Name:         "Jammu and Kashmir",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "Union territory",
+			},
+			"KA": {
+				Name:         "Karnataka",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KL": {
+				Name:         "Kerala",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"LA": {
+				Name:         "Ladakh",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "Union territory",
+			},
+			"LD": {
+				Name:         "Lakshadweep",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "Union territory",
+			},
+			"MH": {
+				Name:         "Maharashtra",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"ML": {
+				Name:         "Meghalaya",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"MN": {
+				Name:         "Manipur",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"MP": {
+				Name:         "Madhya Pradesh",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"MZ": {
+				Name:         "Mizoram",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NL": {
+				Name:         "Nagaland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"OR": {
+				Name:         "Odisha",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"PB": {
+				Name:         "Punjab",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"PY": {
+				Name:         "Puducherry",
+				LocalName:    "Pondicherry",
+				LanguageCode: "en",
+				Type:         "Union territory",
+			},
+			"RJ": {
+				Name:         "Rajasthan",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"SK": {
+				Name:         "Sikkim",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"TG": {
+				Name:         "Telangana",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"TN": {
+				Name:         "Tamil Nadu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"TR": {
+				Name:         "Tripura",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"UP": {
+				Name:         "Uttar Pradesh",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"UT": {
+				Name:         "Uttarakhand",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"WB": {
+				Name:         "West Bengal",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Andaman and Nicobar Islands": {
+				Code: "AN",
+			},
+			"Andhra Pradesh": {
+				Code: "AP",
+			},
+			"Arunachal Pradesh": {
+				Code: "AR",
+			},
+			"Assam": {
+				Code: "AS",
+			},
+			"Bihar": {
+				Code: "BR",
+			},
+			"Chandigarh": {
+				Code: "CH",
+			},
+			"Chhattisgarh": {
+				Code: "CT",
+			},
+			"Dadra and Nagar Haveli": {
+				Code: "DN",
+			},
+			"Daman and Diu": {
+				Code: "DD",
+			},
+			"Delhi": {
+				Code: "DL",
+			},
+			"Goa": {
+				Code: "GA",
+			},
+			"Gujarat": {
+				Code: "GJ",
+			},
+			"Haryana": {
+				Code: "HR",
+			},
+			"Himachal Pradesh": {
+				Code: "HP",
+			},
+			"Jammu and Kashmir": {
+				Code: "JK",
+			},
+			"Jharkhand": {
+				Code: "JH",
+			},
+			"Karnataka": {
+				Code: "KA",
+			},
+			"Kerala": {
+				Code: "KL",
+			},
+			"Ladakh": {
+				Code: "LA",
+			},
+			"Lakshadweep": {
+				Code: "LD",
+			},
+			"Madhya Pradesh": {
+				Code: "MP",
+			},
+			"Maharashtra": {
+				Code: "MH",
+			},
+			"Manipur": {
+				Code: "MN",
+			},
+			"Meghalaya": {
+				Code: "ML",
+			},
+			"Mizoram": {
+				Code: "MZ",
+			},
+			"Nagaland": {
+				Code: "NL",
+			},
+			"Odisha": {
+				Code: "OR",
+			},
+			"Puducherry": {
+				Code: "PY",
+			},
+			"Punjab": {
+				Code: "PB",
+			},
+			"Rajasthan": {
+				Code: "RJ",
+			},
+			"Sikkim": {
+				Code: "SK",
+			},
+			"Tamil Nadu": {
+				Code: "TN",
+			},
+			"Telangana": {
+				Code: "TG",
+			},
+			"Tripura": {
+				Code: "TR",
+			},
+			"Uttar Pradesh": {
+				Code: "UP",
+			},
+			"Uttarakhand": {
+				Code: "UT",
+			},
+			"West Bengal": {
+				Code: "WB",
+			},
+		},
 	},
 
 	"IO": {
@@ -1382,6 +19913,176 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Iraq",
 		CommonName:   "",
 		Numeric:      "368",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AN": {
+				Name:         "Al Anbār",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"AR": {
+				Name:         "Hewlêr",
+				LocalName:    "",
+				LanguageCode: "ku",
+				Type:         "governorate",
+			},
+			"BA": {
+				Name:         "Al Başrah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"BB": {
+				Name:         "Bābil",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"BG": {
+				Name:         "Baghdād",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"DA": {
+				Name:         "Dihok",
+				LocalName:    "",
+				LanguageCode: "ku",
+				Type:         "governorate",
+			},
+			"DI": {
+				Name:         "Diyālá",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"DQ": {
+				Name:         "Dhī Qār",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"KA": {
+				Name:         "Karbalā’",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"KI": {
+				Name:         "Kirkūk",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MA": {
+				Name:         "Maysān",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MU": {
+				Name:         "Al Muthanná",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"NA": {
+				Name:         "An Najaf",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"NI": {
+				Name:         "Nīnawá",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"QA": {
+				Name:         "Al Qādisīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"SD": {
+				Name:         "Şalāḩ ad Dīn",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"SU": {
+				Name:         "Slêmanî",
+				LocalName:    "",
+				LanguageCode: "ku",
+				Type:         "governorate",
+			},
+			"WA": {
+				Name:         "Wāsiţ",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Al Anbār": {
+				Code: "AN",
+			},
+			"Al Başrah": {
+				Code: "BA",
+			},
+			"Al Muthanná": {
+				Code: "MU",
+			},
+			"Al Qādisīyah": {
+				Code: "QA",
+			},
+			"An Najaf": {
+				Code: "NA",
+			},
+			"Baghdād": {
+				Code: "BG",
+			},
+			"Bābil": {
+				Code: "BB",
+			},
+			"Dhī Qār": {
+				Code: "DQ",
+			},
+			"Dihok": {
+				Code: "DA",
+			},
+			"Diyālá": {
+				Code: "DI",
+			},
+			"Hewlêr": {
+				Code: "AR",
+			},
+			"Karbalā’": {
+				Code: "KA",
+			},
+			"Kirkūk": {
+				Code: "KI",
+			},
+			"Maysān": {
+				Code: "MA",
+			},
+			"Nīnawá": {
+				Code: "NI",
+			},
+			"Slêmanî": {
+				Code: "SU",
+			},
+			"Wāsiţ": {
+				Code: "WA",
+			},
+			"Şalāḩ ad Dīn": {
+				Code: "SD",
+			},
+		},
 	},
 
 	"IR": {
@@ -1391,6 +20092,293 @@ var CountryStates = map[string]Country{
 		OfficialName: "Islamic Republic of Iran",
 		CommonName:   "",
 		Numeric:      "364",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Āz̄ārbāyjān-e Shārqī",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"02": {
+				Name:         "Āz̄ārbāyjān-e Ghārbī",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"03": {
+				Name:         "Ardabīl",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"04": {
+				Name:         "Eşfahān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"05": {
+				Name:         "Īlām",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"06": {
+				Name:         "Būshehr",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"07": {
+				Name:         "Tehrān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"08": {
+				Name:         "Chahār Maḩāl va Bakhtīārī",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"10": {
+				Name:         "Khūzestān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"11": {
+				Name:         "Zanjān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"12": {
+				Name:         "Semnān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"13": {
+				Name:         "Sīstān va Balūchestān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"14": {
+				Name:         "Fārs",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"15": {
+				Name:         "Kermān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"16": {
+				Name:         "Kordestān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"17": {
+				Name:         "Kermānshāh",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"18": {
+				Name:         "Kohgīlūyeh va Bowyer Aḩmad",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"19": {
+				Name:         "Gīlān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"20": {
+				Name:         "Lorestān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"21": {
+				Name:         "Māzandarān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"22": {
+				Name:         "Markazī",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"23": {
+				Name:         "Hormozgān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"24": {
+				Name:         "Hamadān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"25": {
+				Name:         "Yazd",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"26": {
+				Name:         "Qom",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"27": {
+				Name:         "Golestān",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"28": {
+				Name:         "Qazvīn",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"29": {
+				Name:         "Khorāsān-e Jonūbī",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"30": {
+				Name:         "Khorāsān-e Raẕavī",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"31": {
+				Name:         "Khorāsān-e Shomālī",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+			"32": {
+				Name:         "Alborz",
+				LocalName:    "",
+				LanguageCode: "fa",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Alborz": {
+				Code: "32",
+			},
+			"Ardabīl": {
+				Code: "03",
+			},
+			"Būshehr": {
+				Code: "06",
+			},
+			"Chahār Maḩāl va Bakhtīārī": {
+				Code: "08",
+			},
+			"Eşfahān": {
+				Code: "04",
+			},
+			"Fārs": {
+				Code: "14",
+			},
+			"Golestān": {
+				Code: "27",
+			},
+			"Gīlān": {
+				Code: "19",
+			},
+			"Hamadān": {
+				Code: "24",
+			},
+			"Hormozgān": {
+				Code: "23",
+			},
+			"Kermān": {
+				Code: "15",
+			},
+			"Kermānshāh": {
+				Code: "17",
+			},
+			"Khorāsān-e Jonūbī": {
+				Code: "29",
+			},
+			"Khorāsān-e Raẕavī": {
+				Code: "30",
+			},
+			"Khorāsān-e Shomālī": {
+				Code: "31",
+			},
+			"Khūzestān": {
+				Code: "10",
+			},
+			"Kohgīlūyeh va Bowyer Aḩmad": {
+				Code: "18",
+			},
+			"Kordestān": {
+				Code: "16",
+			},
+			"Lorestān": {
+				Code: "20",
+			},
+			"Markazī": {
+				Code: "22",
+			},
+			"Māzandarān": {
+				Code: "21",
+			},
+			"Qazvīn": {
+				Code: "28",
+			},
+			"Qom": {
+				Code: "26",
+			},
+			"Semnān": {
+				Code: "12",
+			},
+			"Sīstān va Balūchestān": {
+				Code: "13",
+			},
+			"Tehrān": {
+				Code: "07",
+			},
+			"Yazd": {
+				Code: "25",
+			},
+			"Zanjān": {
+				Code: "11",
+			},
+			"Āz̄ārbāyjān-e Ghārbī": {
+				Code: "02",
+			},
+			"Āz̄ārbāyjān-e Shārqī": {
+				Code: "01",
+			},
+			"Īlām": {
+				Code: "05",
+			},
+		},
 	},
 
 	"IS": {
@@ -1400,6 +20388,86 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Iceland",
 		CommonName:   "",
 		Numeric:      "352",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"1": {
+				Name:         "Höfuðborgarsvæði",
+				LocalName:    "",
+				LanguageCode: "is",
+				Type:         "region",
+			},
+			"2": {
+				Name:         "Suðurnes",
+				LocalName:    "",
+				LanguageCode: "is",
+				Type:         "region",
+			},
+			"3": {
+				Name:         "Vesturland",
+				LocalName:    "",
+				LanguageCode: "is",
+				Type:         "region",
+			},
+			"4": {
+				Name:         "Vestfirðir",
+				LocalName:    "",
+				LanguageCode: "is",
+				Type:         "region",
+			},
+			"5": {
+				Name:         "Norðurland vestra",
+				LocalName:    "",
+				LanguageCode: "is",
+				Type:         "region",
+			},
+			"6": {
+				Name:         "Norðurland eystra",
+				LocalName:    "",
+				LanguageCode: "is",
+				Type:         "region",
+			},
+			"7": {
+				Name:         "Austurland",
+				LocalName:    "",
+				LanguageCode: "is",
+				Type:         "region",
+			},
+			"8": {
+				Name:         "Suðurland",
+				LocalName:    "",
+				LanguageCode: "is",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Austurland": {
+				Code: "7",
+			},
+			"Höfuðborgarsvæði": {
+				Code: "1",
+			},
+			"Norðurland eystra": {
+				Code: "6",
+			},
+			"Norðurland vestra": {
+				Code: "5",
+			},
+			"Suðurland": {
+				Code: "8",
+			},
+			"Suðurnes": {
+				Code: "2",
+			},
+			"Vestfirðir": {
+				Code: "4",
+			},
+			"Vesturland": {
+				Code: "3",
+			},
+		},
 	},
 
 	"IT": {
@@ -1409,6 +20477,1256 @@ var CountryStates = map[string]Country{
 		OfficialName: "Italian Republic",
 		CommonName:   "",
 		Numeric:      "380",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"21": {
+				Name:         "Piemonte",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AL": {
+						Name:         "Alessandria",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"AT": {
+						Name:         "Asti",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"BI": {
+						Name:         "Biella",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"CN": {
+						Name:         "Cuneo",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"NO": {
+						Name:         "Novara",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"TO": {
+						Name:         "Torino",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"VB": {
+						Name:         "Verbano-Cusio-Ossola",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"VC": {
+						Name:         "Vercelli",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"23": {
+				Name:         "Valle d'Aosta",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "autonomous region",
+			},
+			"25": {
+				Name:         "Lombardia",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BG": {
+						Name:         "Bergamo",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"BS": {
+						Name:         "Brescia",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"CO": {
+						Name:         "Como",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"CR": {
+						Name:         "Cremona",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"LC": {
+						Name:         "Lecco",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"LO": {
+						Name:         "Lodi",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"MB": {
+						Name:         "Monza e Brianza",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"MI": {
+						Name:         "Milano",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"MN": {
+						Name:         "Mantova",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"PV": {
+						Name:         "Pavia",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"SO": {
+						Name:         "Sondrio",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"VA": {
+						Name:         "Varese",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"32": {
+				Name:         "Trentino-Alto Adige",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "autonomous region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BZ": {
+						Name:         "Bolzano",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "autonomous province",
+					},
+					"TN": {
+						Name:         "Trento",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "autonomous province",
+					},
+				},
+			},
+			"34": {
+				Name:         "Veneto",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BL": {
+						Name:         "Belluno",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"PD": {
+						Name:         "Padova",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"RO": {
+						Name:         "Rovigo",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"TV": {
+						Name:         "Treviso",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"VE": {
+						Name:         "Venezia",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"VI": {
+						Name:         "Vicenza",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"VR": {
+						Name:         "Verona",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"36": {
+				Name:         "Friuli Venezia Giulia",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "autonomous region",
+			},
+			"42": {
+				Name:         "Liguria",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"GE": {
+						Name:         "Genova",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"IM": {
+						Name:         "Imperia",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"SP": {
+						Name:         "La Spezia",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"SV": {
+						Name:         "Savona",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"45": {
+				Name:         "Emilia-Romagna",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BO": {
+						Name:         "Bologna",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"FC": {
+						Name:         "Forlì-Cesena",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"FE": {
+						Name:         "Ferrara",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"MO": {
+						Name:         "Modena",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"PC": {
+						Name:         "Piacenza",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"PR": {
+						Name:         "Parma",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"RA": {
+						Name:         "Ravenna",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"RE": {
+						Name:         "Reggio Emilia",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"RN": {
+						Name:         "Rimini",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"52": {
+				Name:         "Toscana",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AR": {
+						Name:         "Arezzo",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"FI": {
+						Name:         "Firenze",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"GR": {
+						Name:         "Grosseto",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"LI": {
+						Name:         "Livorno",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"LU": {
+						Name:         "Lucca",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"MS": {
+						Name:         "Massa-Carrara",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"PI": {
+						Name:         "Pisa",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"PO": {
+						Name:         "Prato",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"PT": {
+						Name:         "Pistoia",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"SI": {
+						Name:         "Siena",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"55": {
+				Name:         "Umbria",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"PG": {
+						Name:         "Perugia",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"TR": {
+						Name:         "Terni",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"57": {
+				Name:         "Marche",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AN": {
+						Name:         "Ancona",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"AP": {
+						Name:         "Ascoli Piceno",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"FM": {
+						Name:         "Fermo",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"MC": {
+						Name:         "Macerata",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"PU": {
+						Name:         "Pesaro e Urbino",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"62": {
+				Name:         "Lazio",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"FR": {
+						Name:         "Frosinone",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"LT": {
+						Name:         "Latina",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"RI": {
+						Name:         "Rieti",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"RM": {
+						Name:         "Roma",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"VT": {
+						Name:         "Viterbo",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"65": {
+				Name:         "Abruzzo",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AQ": {
+						Name:         "L'Aquila",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"CH": {
+						Name:         "Chieti",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"PE": {
+						Name:         "Pescara",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"TE": {
+						Name:         "Teramo",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"67": {
+				Name:         "Molise",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"CB": {
+						Name:         "Campobasso",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"IS": {
+						Name:         "Isernia",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"72": {
+				Name:         "Campania",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AV": {
+						Name:         "Avellino",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"BN": {
+						Name:         "Benevento",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"CE": {
+						Name:         "Caserta",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"NA": {
+						Name:         "Napoli",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"SA": {
+						Name:         "Salerno",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"75": {
+				Name:         "Puglia",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BA": {
+						Name:         "Bari",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"BR": {
+						Name:         "Brindisi",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"BT": {
+						Name:         "Barletta-Andria-Trani",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"FG": {
+						Name:         "Foggia",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"LE": {
+						Name:         "Lecce",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"TA": {
+						Name:         "Taranto",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"77": {
+				Name:         "Basilicata",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"MT": {
+						Name:         "Matera",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"PZ": {
+						Name:         "Potenza",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"78": {
+				Name:         "Calabria",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"CS": {
+						Name:         "Cosenza",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"CZ": {
+						Name:         "Catanzaro",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"KR": {
+						Name:         "Crotone",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"RC": {
+						Name:         "Reggio Calabria",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"VV": {
+						Name:         "Vibo Valentia",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+			"82": {
+				Name:         "Sicilia",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "autonomous region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AG": {
+						Name:         "Agrigento",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "free municipal consortium",
+					},
+					"CL": {
+						Name:         "Caltanissetta",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "free municipal consortium",
+					},
+					"CT": {
+						Name:         "Catania",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"EN": {
+						Name:         "Enna",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "free municipal consortium",
+					},
+					"ME": {
+						Name:         "Messina",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"PA": {
+						Name:         "Palermo",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"RG": {
+						Name:         "Ragusa",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "free municipal consortium",
+					},
+					"SR": {
+						Name:         "Siracusa",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "free municipal consortium",
+					},
+					"TP": {
+						Name:         "Trapani",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "free municipal consortium",
+					},
+				},
+			},
+			"88": {
+				Name:         "Sardegna",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "autonomous region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"CA": {
+						Name:         "Cagliari",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "metropolitan city",
+					},
+					"NU": {
+						Name:         "Nuoro",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"OR": {
+						Name:         "Oristano",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"SD": {
+						Name:         "Sud Sardegna",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+					"SS": {
+						Name:         "Sassari",
+						LocalName:    "",
+						LanguageCode: "it",
+						Type:         "province",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Abruzzo": {
+				Code: "65",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Chieti": {
+						Code: "CH",
+					},
+					"L'Aquila": {
+						Code: "AQ",
+					},
+					"Pescara": {
+						Code: "PE",
+					},
+					"Teramo": {
+						Code: "TE",
+					},
+				},
+			},
+			"Basilicata": {
+				Code: "77",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Matera": {
+						Code: "MT",
+					},
+					"Potenza": {
+						Code: "PZ",
+					},
+				},
+			},
+			"Calabria": {
+				Code: "78",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Catanzaro": {
+						Code: "CZ",
+					},
+					"Cosenza": {
+						Code: "CS",
+					},
+					"Crotone": {
+						Code: "KR",
+					},
+					"Reggio Calabria": {
+						Code: "RC",
+					},
+					"Vibo Valentia": {
+						Code: "VV",
+					},
+				},
+			},
+			"Campania": {
+				Code: "72",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Avellino": {
+						Code: "AV",
+					},
+					"Benevento": {
+						Code: "BN",
+					},
+					"Caserta": {
+						Code: "CE",
+					},
+					"Napoli": {
+						Code: "NA",
+					},
+					"Salerno": {
+						Code: "SA",
+					},
+				},
+			},
+			"Emilia-Romagna": {
+				Code: "45",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bologna": {
+						Code: "BO",
+					},
+					"Ferrara": {
+						Code: "FE",
+					},
+					"Forlì-Cesena": {
+						Code: "FC",
+					},
+					"Modena": {
+						Code: "MO",
+					},
+					"Parma": {
+						Code: "PR",
+					},
+					"Piacenza": {
+						Code: "PC",
+					},
+					"Ravenna": {
+						Code: "RA",
+					},
+					"Reggio Emilia": {
+						Code: "RE",
+					},
+					"Rimini": {
+						Code: "RN",
+					},
+				},
+			},
+			"Friuli Venezia Giulia": {
+				Code: "36",
+			},
+			"Lazio": {
+				Code: "62",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Frosinone": {
+						Code: "FR",
+					},
+					"Latina": {
+						Code: "LT",
+					},
+					"Rieti": {
+						Code: "RI",
+					},
+					"Roma": {
+						Code: "RM",
+					},
+					"Viterbo": {
+						Code: "VT",
+					},
+				},
+			},
+			"Liguria": {
+				Code: "42",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Genova": {
+						Code: "GE",
+					},
+					"Imperia": {
+						Code: "IM",
+					},
+					"La Spezia": {
+						Code: "SP",
+					},
+					"Savona": {
+						Code: "SV",
+					},
+				},
+			},
+			"Lombardia": {
+				Code: "25",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bergamo": {
+						Code: "BG",
+					},
+					"Brescia": {
+						Code: "BS",
+					},
+					"Como": {
+						Code: "CO",
+					},
+					"Cremona": {
+						Code: "CR",
+					},
+					"Lecco": {
+						Code: "LC",
+					},
+					"Lodi": {
+						Code: "LO",
+					},
+					"Mantova": {
+						Code: "MN",
+					},
+					"Milano": {
+						Code: "MI",
+					},
+					"Monza e Brianza": {
+						Code: "MB",
+					},
+					"Pavia": {
+						Code: "PV",
+					},
+					"Sondrio": {
+						Code: "SO",
+					},
+					"Varese": {
+						Code: "VA",
+					},
+				},
+			},
+			"Marche": {
+				Code: "57",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Ancona": {
+						Code: "AN",
+					},
+					"Ascoli Piceno": {
+						Code: "AP",
+					},
+					"Fermo": {
+						Code: "FM",
+					},
+					"Macerata": {
+						Code: "MC",
+					},
+					"Pesaro e Urbino": {
+						Code: "PU",
+					},
+				},
+			},
+			"Molise": {
+				Code: "67",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Campobasso": {
+						Code: "CB",
+					},
+					"Isernia": {
+						Code: "IS",
+					},
+				},
+			},
+			"Piemonte": {
+				Code: "21",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Alessandria": {
+						Code: "AL",
+					},
+					"Asti": {
+						Code: "AT",
+					},
+					"Biella": {
+						Code: "BI",
+					},
+					"Cuneo": {
+						Code: "CN",
+					},
+					"Novara": {
+						Code: "NO",
+					},
+					"Torino": {
+						Code: "TO",
+					},
+					"Verbano-Cusio-Ossola": {
+						Code: "VB",
+					},
+					"Vercelli": {
+						Code: "VC",
+					},
+				},
+			},
+			"Puglia": {
+				Code: "75",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bari": {
+						Code: "BA",
+					},
+					"Barletta-Andria-Trani": {
+						Code: "BT",
+					},
+					"Brindisi": {
+						Code: "BR",
+					},
+					"Foggia": {
+						Code: "FG",
+					},
+					"Lecce": {
+						Code: "LE",
+					},
+					"Taranto": {
+						Code: "TA",
+					},
+				},
+			},
+			"Sardegna": {
+				Code: "88",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Cagliari": {
+						Code: "CA",
+					},
+					"Nuoro": {
+						Code: "NU",
+					},
+					"Oristano": {
+						Code: "OR",
+					},
+					"Sassari": {
+						Code: "SS",
+					},
+					"Sud Sardegna": {
+						Code: "SD",
+					},
+				},
+			},
+			"Sicilia": {
+				Code: "82",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Agrigento": {
+						Code: "AG",
+					},
+					"Caltanissetta": {
+						Code: "CL",
+					},
+					"Catania": {
+						Code: "CT",
+					},
+					"Enna": {
+						Code: "EN",
+					},
+					"Messina": {
+						Code: "ME",
+					},
+					"Palermo": {
+						Code: "PA",
+					},
+					"Ragusa": {
+						Code: "RG",
+					},
+					"Siracusa": {
+						Code: "SR",
+					},
+					"Trapani": {
+						Code: "TP",
+					},
+				},
+			},
+			"Toscana": {
+				Code: "52",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Arezzo": {
+						Code: "AR",
+					},
+					"Firenze": {
+						Code: "FI",
+					},
+					"Grosseto": {
+						Code: "GR",
+					},
+					"Livorno": {
+						Code: "LI",
+					},
+					"Lucca": {
+						Code: "LU",
+					},
+					"Massa-Carrara": {
+						Code: "MS",
+					},
+					"Pisa": {
+						Code: "PI",
+					},
+					"Pistoia": {
+						Code: "PT",
+					},
+					"Prato": {
+						Code: "PO",
+					},
+					"Siena": {
+						Code: "SI",
+					},
+				},
+			},
+			"Trentino-Alto Adige": {
+				Code: "32",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bolzano": {
+						Code: "BZ",
+					},
+					"Trento": {
+						Code: "TN",
+					},
+				},
+			},
+			"Umbria": {
+				Code: "55",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Perugia": {
+						Code: "PG",
+					},
+					"Terni": {
+						Code: "TR",
+					},
+				},
+			},
+			"Valle d'Aosta": {
+				Code: "23",
+			},
+			"Veneto": {
+				Code: "34",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Belluno": {
+						Code: "BL",
+					},
+					"Padova": {
+						Code: "PD",
+					},
+					"Rovigo": {
+						Code: "RO",
+					},
+					"Treviso": {
+						Code: "TV",
+					},
+					"Venezia": {
+						Code: "VE",
+					},
+					"Verona": {
+						Code: "VR",
+					},
+					"Vicenza": {
+						Code: "VI",
+					},
+				},
+			},
+		},
 	},
 
 	"JE": {
@@ -1427,6 +21745,140 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "388",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Kingston",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"02": {
+				Name:         "Saint Andrew",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"03": {
+				Name:         "Saint Thomas",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"04": {
+				Name:         "Portland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"05": {
+				Name:         "Saint Mary",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"06": {
+				Name:         "Saint Ann",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"07": {
+				Name:         "Trelawny",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"08": {
+				Name:         "Saint James",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"09": {
+				Name:         "Hanover",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"10": {
+				Name:         "Westmoreland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"11": {
+				Name:         "Saint Elizabeth",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"12": {
+				Name:         "Manchester",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"13": {
+				Name:         "Clarendon",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"14": {
+				Name:         "Saint Catherine",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Clarendon": {
+				Code: "13",
+			},
+			"Hanover": {
+				Code: "09",
+			},
+			"Kingston": {
+				Code: "01",
+			},
+			"Manchester": {
+				Code: "12",
+			},
+			"Portland": {
+				Code: "04",
+			},
+			"Saint Andrew": {
+				Code: "02",
+			},
+			"Saint Ann": {
+				Code: "06",
+			},
+			"Saint Catherine": {
+				Code: "14",
+			},
+			"Saint Elizabeth": {
+				Code: "11",
+			},
+			"Saint James": {
+				Code: "08",
+			},
+			"Saint Mary": {
+				Code: "05",
+			},
+			"Saint Thomas": {
+				Code: "03",
+			},
+			"Trelawny": {
+				Code: "07",
+			},
+			"Westmoreland": {
+				Code: "10",
+			},
+		},
 	},
 
 	"JO": {
@@ -1436,6 +21888,122 @@ var CountryStates = map[string]Country{
 		OfficialName: "Hashemite Kingdom of Jordan",
 		CommonName:   "",
 		Numeric:      "400",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AJ": {
+				Name:         "‘Ajlūn",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"AM": {
+				Name:         "Al ‘A̅şimah",
+				LocalName:    "‘Ammān",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"AQ": {
+				Name:         "Al ‘Aqabah",
+				LocalName:    "Aqaba",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"AT": {
+				Name:         "Aţ Ţafīlah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"AZ": {
+				Name:         "Az Zarqā’",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"BA": {
+				Name:         "Al Balqā’",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"IR": {
+				Name:         "Irbid",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"JA": {
+				Name:         "Jarash",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"KA": {
+				Name:         "Al Karak",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MA": {
+				Name:         "Al Mafraq",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MD": {
+				Name:         "Mādabā",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MN": {
+				Name:         "Ma‘ān",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Al Balqā’": {
+				Code: "BA",
+			},
+			"Al Karak": {
+				Code: "KA",
+			},
+			"Al Mafraq": {
+				Code: "MA",
+			},
+			"Al ‘Aqabah": {
+				Code: "AQ",
+			},
+			"Al ‘A̅şimah": {
+				Code: "AM",
+			},
+			"Az Zarqā’": {
+				Code: "AZ",
+			},
+			"Aţ Ţafīlah": {
+				Code: "AT",
+			},
+			"Irbid": {
+				Code: "IR",
+			},
+			"Jarash": {
+				Code: "JA",
+			},
+			"Ma‘ān": {
+				Code: "MN",
+			},
+			"Mādabā": {
+				Code: "MD",
+			},
+			"‘Ajlūn": {
+				Code: "AJ",
+			},
+		},
 	},
 
 	"JP": {
@@ -1445,6 +22013,437 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "392",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Hokkaido",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"02": {
+				Name:         "Aomori",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"03": {
+				Name:         "Iwate",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"04": {
+				Name:         "Miyagi",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"05": {
+				Name:         "Akita",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"06": {
+				Name:         "Yamagata",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"07": {
+				Name:         "Fukushima",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"08": {
+				Name:         "Ibaraki",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"09": {
+				Name:         "Tochigi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"10": {
+				Name:         "Gunma",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"11": {
+				Name:         "Saitama",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"12": {
+				Name:         "Chiba",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"13": {
+				Name:         "Tokyo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"14": {
+				Name:         "Kanagawa",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"15": {
+				Name:         "Niigata",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"16": {
+				Name:         "Toyama",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"17": {
+				Name:         "Ishikawa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"18": {
+				Name:         "Fukui",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"19": {
+				Name:         "Yamanashi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"20": {
+				Name:         "Nagano",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"21": {
+				Name:         "Gifu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"22": {
+				Name:         "Shizuoka",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"23": {
+				Name:         "Aichi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"24": {
+				Name:         "Mie",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"25": {
+				Name:         "Shiga",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"26": {
+				Name:         "Kyoto",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"27": {
+				Name:         "Osaka",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"28": {
+				Name:         "Hyogo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"29": {
+				Name:         "Nara",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"30": {
+				Name:         "Wakayama",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"31": {
+				Name:         "Tottori",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"32": {
+				Name:         "Shimane",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"33": {
+				Name:         "Okayama",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"34": {
+				Name:         "Hiroshima",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"35": {
+				Name:         "Yamaguchi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"36": {
+				Name:         "Tokushima",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"37": {
+				Name:         "Kagawa",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"38": {
+				Name:         "Ehime",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"39": {
+				Name:         "Kochi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"40": {
+				Name:         "Fukuoka",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"41": {
+				Name:         "Saga",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"42": {
+				Name:         "Nagasaki",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"43": {
+				Name:         "Kumamoto",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"44": {
+				Name:         "Oita",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"45": {
+				Name:         "Miyazaki",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+			"46": {
+				Name:         "Kagoshima",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "prefecture",
+			},
+			"47": {
+				Name:         "Okinawa",
+				LocalName:    "",
+				LanguageCode: "ja",
+				Type:         "prefecture",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aichi": {
+				Code: "23",
+			},
+			"Akita": {
+				Code: "05",
+			},
+			"Aomori": {
+				Code: "02",
+			},
+			"Chiba": {
+				Code: "12",
+			},
+			"Ehime": {
+				Code: "38",
+			},
+			"Fukui": {
+				Code: "18",
+			},
+			"Fukuoka": {
+				Code: "40",
+			},
+			"Fukushima": {
+				Code: "07",
+			},
+			"Gifu": {
+				Code: "21",
+			},
+			"Gunma": {
+				Code: "10",
+			},
+			"Hiroshima": {
+				Code: "34",
+			},
+			"Hokkaido": {
+				Code: "01",
+			},
+			"Hyogo": {
+				Code: "28",
+			},
+			"Ibaraki": {
+				Code: "08",
+			},
+			"Ishikawa": {
+				Code: "17",
+			},
+			"Iwate": {
+				Code: "03",
+			},
+			"Kagawa": {
+				Code: "37",
+			},
+			"Kagoshima": {
+				Code: "46",
+			},
+			"Kanagawa": {
+				Code: "14",
+			},
+			"Kochi": {
+				Code: "39",
+			},
+			"Kumamoto": {
+				Code: "43",
+			},
+			"Kyoto": {
+				Code: "26",
+			},
+			"Mie": {
+				Code: "24",
+			},
+			"Miyagi": {
+				Code: "04",
+			},
+			"Miyazaki": {
+				Code: "45",
+			},
+			"Nagano": {
+				Code: "20",
+			},
+			"Nagasaki": {
+				Code: "42",
+			},
+			"Nara": {
+				Code: "29",
+			},
+			"Niigata": {
+				Code: "15",
+			},
+			"Oita": {
+				Code: "44",
+			},
+			"Okayama": {
+				Code: "33",
+			},
+			"Okinawa": {
+				Code: "47",
+			},
+			"Osaka": {
+				Code: "27",
+			},
+			"Saga": {
+				Code: "41",
+			},
+			"Saitama": {
+				Code: "11",
+			},
+			"Shiga": {
+				Code: "25",
+			},
+			"Shimane": {
+				Code: "32",
+			},
+			"Shizuoka": {
+				Code: "22",
+			},
+			"Tochigi": {
+				Code: "09",
+			},
+			"Tokushima": {
+				Code: "36",
+			},
+			"Tokyo": {
+				Code: "13",
+			},
+			"Tottori": {
+				Code: "31",
+			},
+			"Toyama": {
+				Code: "16",
+			},
+			"Wakayama": {
+				Code: "30",
+			},
+			"Yamagata": {
+				Code: "06",
+			},
+			"Yamaguchi": {
+				Code: "35",
+			},
+			"Yamanashi": {
+				Code: "19",
+			},
+		},
 	},
 
 	"KE": {
@@ -1454,6 +22453,437 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Kenya",
 		CommonName:   "",
 		Numeric:      "404",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Baringo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"02": {
+				Name:         "Bomet",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"03": {
+				Name:         "Bungoma",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"04": {
+				Name:         "Busia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"05": {
+				Name:         "Elgeyo/Marakwet",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"06": {
+				Name:         "Embu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"07": {
+				Name:         "Garissa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"08": {
+				Name:         "Homa Bay",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"09": {
+				Name:         "Isiolo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"10": {
+				Name:         "Kajiado",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"11": {
+				Name:         "Kakamega",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"12": {
+				Name:         "Kericho",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"13": {
+				Name:         "Kiambu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"14": {
+				Name:         "Kilifi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"15": {
+				Name:         "Kirinyaga",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"16": {
+				Name:         "Kisii",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"17": {
+				Name:         "Kisumu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"18": {
+				Name:         "Kitui",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"19": {
+				Name:         "Kwale",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"20": {
+				Name:         "Laikipia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"21": {
+				Name:         "Lamu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"22": {
+				Name:         "Machakos",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"23": {
+				Name:         "Makueni",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"24": {
+				Name:         "Mandera",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"25": {
+				Name:         "Marsabit",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"26": {
+				Name:         "Meru",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"27": {
+				Name:         "Migori",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"28": {
+				Name:         "Mombasa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"29": {
+				Name:         "Murang'a",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"30": {
+				Name:         "Nairobi City",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"31": {
+				Name:         "Nakuru",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"32": {
+				Name:         "Nandi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"33": {
+				Name:         "Narok",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"34": {
+				Name:         "Nyamira",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"35": {
+				Name:         "Nyandarua",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"36": {
+				Name:         "Nyeri",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"37": {
+				Name:         "Samburu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"38": {
+				Name:         "Siaya",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"39": {
+				Name:         "Taita/Taveta",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"40": {
+				Name:         "Tana River",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"41": {
+				Name:         "Tharaka-Nithi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"42": {
+				Name:         "Trans Nzoia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"43": {
+				Name:         "Turkana",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"44": {
+				Name:         "Uasin Gishu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"45": {
+				Name:         "Vihiga",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"46": {
+				Name:         "Wajir",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"47": {
+				Name:         "West Pokot",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Baringo": {
+				Code: "01",
+			},
+			"Bomet": {
+				Code: "02",
+			},
+			"Bungoma": {
+				Code: "03",
+			},
+			"Busia": {
+				Code: "04",
+			},
+			"Elgeyo/Marakwet": {
+				Code: "05",
+			},
+			"Embu": {
+				Code: "06",
+			},
+			"Garissa": {
+				Code: "07",
+			},
+			"Homa Bay": {
+				Code: "08",
+			},
+			"Isiolo": {
+				Code: "09",
+			},
+			"Kajiado": {
+				Code: "10",
+			},
+			"Kakamega": {
+				Code: "11",
+			},
+			"Kericho": {
+				Code: "12",
+			},
+			"Kiambu": {
+				Code: "13",
+			},
+			"Kilifi": {
+				Code: "14",
+			},
+			"Kirinyaga": {
+				Code: "15",
+			},
+			"Kisii": {
+				Code: "16",
+			},
+			"Kisumu": {
+				Code: "17",
+			},
+			"Kitui": {
+				Code: "18",
+			},
+			"Kwale": {
+				Code: "19",
+			},
+			"Laikipia": {
+				Code: "20",
+			},
+			"Lamu": {
+				Code: "21",
+			},
+			"Machakos": {
+				Code: "22",
+			},
+			"Makueni": {
+				Code: "23",
+			},
+			"Mandera": {
+				Code: "24",
+			},
+			"Marsabit": {
+				Code: "25",
+			},
+			"Meru": {
+				Code: "26",
+			},
+			"Migori": {
+				Code: "27",
+			},
+			"Mombasa": {
+				Code: "28",
+			},
+			"Murang'a": {
+				Code: "29",
+			},
+			"Nairobi City": {
+				Code: "30",
+			},
+			"Nakuru": {
+				Code: "31",
+			},
+			"Nandi": {
+				Code: "32",
+			},
+			"Narok": {
+				Code: "33",
+			},
+			"Nyamira": {
+				Code: "34",
+			},
+			"Nyandarua": {
+				Code: "35",
+			},
+			"Nyeri": {
+				Code: "36",
+			},
+			"Samburu": {
+				Code: "37",
+			},
+			"Siaya": {
+				Code: "38",
+			},
+			"Taita/Taveta": {
+				Code: "39",
+			},
+			"Tana River": {
+				Code: "40",
+			},
+			"Tharaka-Nithi": {
+				Code: "41",
+			},
+			"Trans Nzoia": {
+				Code: "42",
+			},
+			"Turkana": {
+				Code: "43",
+			},
+			"Uasin Gishu": {
+				Code: "44",
+			},
+			"Vihiga": {
+				Code: "45",
+			},
+			"Wajir": {
+				Code: "46",
+			},
+			"West Pokot": {
+				Code: "47",
+			},
+		},
 	},
 
 	"KG": {
@@ -1463,6 +22893,95 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kyrgyz Republic",
 		CommonName:   "",
 		Numeric:      "417",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"B": {
+				Name:         "Batkenskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"C": {
+				Name:         "Čujskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"GB": {
+				Name:         "Gorod Biškek",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "city",
+			},
+			"GO": {
+				Name:         "Gorod Oš",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "city",
+			},
+			"J": {
+				Name:         "Džalal-Abadskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"N": {
+				Name:         "Narynskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"O": {
+				Name:         "Ošskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"T": {
+				Name:         "Talasskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"Y": {
+				Name:         "Issyk-Kul'skaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Batkenskaja oblast'": {
+				Code: "B",
+			},
+			"Džalal-Abadskaja oblast'": {
+				Code: "J",
+			},
+			"Gorod Biškek": {
+				Code: "GB",
+			},
+			"Gorod Oš": {
+				Code: "GO",
+			},
+			"Issyk-Kul'skaja oblast'": {
+				Code: "Y",
+			},
+			"Narynskaja oblast'": {
+				Code: "N",
+			},
+			"Ošskaja oblast'": {
+				Code: "O",
+			},
+			"Talasskaja oblast'": {
+				Code: "T",
+			},
+			"Čujskaja oblast'": {
+				Code: "C",
+			},
+		},
 	},
 
 	"KH": {
@@ -1472,6 +22991,239 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Cambodia",
 		CommonName:   "",
 		Numeric:      "116",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"1": {
+				Name:         "Banteay Mean Chey",
+				LocalName:    "Banteay Meanchey",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"10": {
+				Name:         "Kracheh",
+				LocalName:    "Kratie",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"11": {
+				Name:         "Mondol Kiri",
+				LocalName:    "Mondolkiri",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"12": {
+				Name:         "Phnom Penh",
+				LocalName:    "",
+				LanguageCode: "km",
+				Type:         "autonomous municipality",
+			},
+			"13": {
+				Name:         "Preah Vihear",
+				LocalName:    "",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"14": {
+				Name:         "Prey Veaeng",
+				LocalName:    "",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"15": {
+				Name:         "Pousaat",
+				LocalName:    "Pursat",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"16": {
+				Name:         "Rotanak Kiri",
+				LocalName:    "Ratanakiri",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"17": {
+				Name:         "Siem Reab",
+				LocalName:    "Siem Reap",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"18": {
+				Name:         "Preah Sihanouk",
+				LocalName:    "Sihanoukville",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"19": {
+				Name:         "Stoĕng Trêng",
+				LocalName:    "",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"2": {
+				Name:         "Baat Dambang",
+				LocalName:    "Battambang",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"20": {
+				Name:         "Svaay Rieng",
+				LocalName:    "Svay Rieng",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"21": {
+				Name:         "Taakaev",
+				LocalName:    "Takeo",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"22": {
+				Name:         "Otdar Mean Chey",
+				LocalName:    "Oddar Meanchey",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"23": {
+				Name:         "Kaeb",
+				LocalName:    "Kep",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"24": {
+				Name:         "Pailin",
+				LocalName:    "",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"25": {
+				Name:         "Tbong Khmum",
+				LocalName:    "",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"3": {
+				Name:         "Kampong Chaam",
+				LocalName:    "Kampong Cham",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"4": {
+				Name:         "Kampong Chhnang",
+				LocalName:    "",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"5": {
+				Name:         "Kampong Spueu",
+				LocalName:    "Kampong Speu",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"6": {
+				Name:         "Kampong Thum",
+				LocalName:    "Kampong Thom",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"7": {
+				Name:         "Kampot",
+				LocalName:    "",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"8": {
+				Name:         "Kandaal",
+				LocalName:    "Kandal",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+			"9": {
+				Name:         "Kaoh Kong",
+				LocalName:    "Koh Kong",
+				LanguageCode: "km",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Baat Dambang": {
+				Code: "2",
+			},
+			"Banteay Mean Chey": {
+				Code: "1",
+			},
+			"Kaeb": {
+				Code: "23",
+			},
+			"Kampong Chaam": {
+				Code: "3",
+			},
+			"Kampong Chhnang": {
+				Code: "4",
+			},
+			"Kampong Spueu": {
+				Code: "5",
+			},
+			"Kampong Thum": {
+				Code: "6",
+			},
+			"Kampot": {
+				Code: "7",
+			},
+			"Kandaal": {
+				Code: "8",
+			},
+			"Kaoh Kong": {
+				Code: "9",
+			},
+			"Kracheh": {
+				Code: "10",
+			},
+			"Mondol Kiri": {
+				Code: "11",
+			},
+			"Otdar Mean Chey": {
+				Code: "22",
+			},
+			"Pailin": {
+				Code: "24",
+			},
+			"Phnom Penh": {
+				Code: "12",
+			},
+			"Pousaat": {
+				Code: "15",
+			},
+			"Preah Sihanouk": {
+				Code: "18",
+			},
+			"Preah Vihear": {
+				Code: "13",
+			},
+			"Prey Veaeng": {
+				Code: "14",
+			},
+			"Rotanak Kiri": {
+				Code: "16",
+			},
+			"Siem Reab": {
+				Code: "17",
+			},
+			"Stoĕng Trêng": {
+				Code: "19",
+			},
+			"Svaay Rieng": {
+				Code: "20",
+			},
+			"Taakaev": {
+				Code: "21",
+			},
+			"Tbong Khmum": {
+				Code: "25",
+			},
+		},
 	},
 
 	"KI": {
@@ -1481,6 +23233,41 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Kiribati",
 		CommonName:   "",
 		Numeric:      "296",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"G": {
+				Name:         "Gilbert Islands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "group of islands (20 inhabited islands)",
+			},
+			"L": {
+				Name:         "Line Islands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "group of islands (20 inhabited islands)",
+			},
+			"P": {
+				Name:         "Phoenix Islands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "group of islands (20 inhabited islands)",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Gilbert Islands": {
+				Code: "G",
+			},
+			"Line Islands": {
+				Code: "L",
+			},
+			"Phoenix Islands": {
+				Code: "P",
+			},
+		},
 	},
 
 	"KM": {
@@ -1490,6 +23277,41 @@ var CountryStates = map[string]Country{
 		OfficialName: "Union of the Comoros",
 		CommonName:   "",
 		Numeric:      "174",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"A": {
+				Name:         "Andjouân",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "island",
+			},
+			"G": {
+				Name:         "Andjazîdja",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "island",
+			},
+			"M": {
+				Name:         "Moûhîlî",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "island",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Andjazîdja": {
+				Code: "G",
+			},
+			"Andjouân": {
+				Code: "A",
+			},
+			"Moûhîlî": {
+				Code: "M",
+			},
+		},
 	},
 
 	"KN": {
@@ -1499,6 +23321,174 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "659",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"K": {
+				Name:         "Saint Kitts",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"01": {
+						Name:         "Christ Church Nichola Town",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+					"02": {
+						Name:         "Saint Anne Sandy Point",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+					"03": {
+						Name:         "Saint George Basseterre",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+					"06": {
+						Name:         "Saint John Capisterre",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+					"08": {
+						Name:         "Saint Mary Cayon",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+					"09": {
+						Name:         "Saint Paul Capisterre",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+					"11": {
+						Name:         "Saint Peter Basseterre",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+					"13": {
+						Name:         "Saint Thomas Middle Island",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+					"15": {
+						Name:         "Trinity Palmetto Point",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+				},
+			},
+			"N": {
+				Name:         "Nevis",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"04": {
+						Name:         "Saint George Gingerland",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+					"05": {
+						Name:         "Saint James Windward",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+					"07": {
+						Name:         "Saint John Figtree",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+					"10": {
+						Name:         "Saint Paul Charlestown",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+					"12": {
+						Name:         "Saint Thomas Lowland",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "parish",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Nevis": {
+				Code: "N",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Saint George Gingerland": {
+						Code: "04",
+					},
+					"Saint James Windward": {
+						Code: "05",
+					},
+					"Saint John Figtree": {
+						Code: "07",
+					},
+					"Saint Paul Charlestown": {
+						Code: "10",
+					},
+					"Saint Thomas Lowland": {
+						Code: "12",
+					},
+				},
+			},
+			"Saint Kitts": {
+				Code: "K",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Christ Church Nichola Town": {
+						Code: "01",
+					},
+					"Saint Anne Sandy Point": {
+						Code: "02",
+					},
+					"Saint George Basseterre": {
+						Code: "03",
+					},
+					"Saint John Capisterre": {
+						Code: "06",
+					},
+					"Saint Mary Cayon": {
+						Code: "08",
+					},
+					"Saint Paul Capisterre": {
+						Code: "09",
+					},
+					"Saint Peter Basseterre": {
+						Code: "11",
+					},
+					"Saint Thomas Middle Island": {
+						Code: "13",
+					},
+					"Trinity Palmetto Point": {
+						Code: "15",
+					},
+				},
+			},
+		},
 	},
 
 	"KP": {
@@ -1508,6 +23498,122 @@ var CountryStates = map[string]Country{
 		OfficialName: "Democratic People's Republic of Korea",
 		CommonName:   "",
 		Numeric:      "408",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Phyeongyang",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "capital city",
+			},
+			"02": {
+				Name:         "Phyeongannamto",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"03": {
+				Name:         "Phyeonganpukto",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"04": {
+				Name:         "Jakangto",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"05": {
+				Name:         "Hwanghainamto",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"06": {
+				Name:         "Hwanghaipukto",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"07": {
+				Name:         "Kangweonto",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"08": {
+				Name:         "Hamkyeongnamto",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"09": {
+				Name:         "Hamkyeongpukto",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"10": {
+				Name:         "Ryangkangto",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"13": {
+				Name:         "Raseon",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "special city",
+			},
+			"14": {
+				Name:         "Nampho",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "metropolitan city",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Hamkyeongnamto": {
+				Code: "08",
+			},
+			"Hamkyeongpukto": {
+				Code: "09",
+			},
+			"Hwanghainamto": {
+				Code: "05",
+			},
+			"Hwanghaipukto": {
+				Code: "06",
+			},
+			"Jakangto": {
+				Code: "04",
+			},
+			"Kangweonto": {
+				Code: "07",
+			},
+			"Nampho": {
+				Code: "14",
+			},
+			"Phyeongannamto": {
+				Code: "02",
+			},
+			"Phyeonganpukto": {
+				Code: "03",
+			},
+			"Phyeongyang": {
+				Code: "01",
+			},
+			"Raseon": {
+				Code: "13",
+			},
+			"Ryangkangto": {
+				Code: "10",
+			},
+		},
 	},
 
 	"KR": {
@@ -1517,6 +23623,167 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "410",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"11": {
+				Name:         "Seoul-teukbyeolsi",
+				LocalName:    "Seoul",
+				LanguageCode: "ko",
+				Type:         "special city",
+			},
+			"26": {
+				Name:         "Busan-gwangyeoksi",
+				LocalName:    "Busan",
+				LanguageCode: "ko",
+				Type:         "metropolitan city",
+			},
+			"27": {
+				Name:         "Daegu-gwangyeoksi",
+				LocalName:    "Daegu",
+				LanguageCode: "ko",
+				Type:         "metropolitan city",
+			},
+			"28": {
+				Name:         "Incheon-gwangyeoksi",
+				LocalName:    "Incheon",
+				LanguageCode: "ko",
+				Type:         "metropolitan city",
+			},
+			"29": {
+				Name:         "Gwangju-gwangyeoksi",
+				LocalName:    "Gwangju",
+				LanguageCode: "ko",
+				Type:         "metropolitan city",
+			},
+			"30": {
+				Name:         "Daejeon-gwangyeoksi",
+				LocalName:    "Daejeon",
+				LanguageCode: "ko",
+				Type:         "metropolitan city",
+			},
+			"31": {
+				Name:         "Ulsan-gwangyeoksi",
+				LocalName:    "Ulsan",
+				LanguageCode: "ko",
+				Type:         "metropolitan city",
+			},
+			"41": {
+				Name:         "Gyeonggi-do",
+				LocalName:    "Gyeonggi",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"42": {
+				Name:         "Gangwon-do",
+				LocalName:    "Gangwon",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"43": {
+				Name:         "Chungcheongbuk-do",
+				LocalName:    "Chungbuk",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"44": {
+				Name:         "Chungcheongnam-do",
+				LocalName:    "Chungnam",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"45": {
+				Name:         "Jeollabuk-do",
+				LocalName:    "Jeonbuk",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"46": {
+				Name:         "Jeollanam-do",
+				LocalName:    "Jeonnam",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"47": {
+				Name:         "Gyeongsangbuk-do",
+				LocalName:    "Gyeongbuk",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"48": {
+				Name:         "Gyeongsangnam-do",
+				LocalName:    "Gyeongnam",
+				LanguageCode: "ko",
+				Type:         "province",
+			},
+			"49": {
+				Name:         "Jeju-teukbyeoljachido",
+				LocalName:    "Jeju",
+				LanguageCode: "ko",
+				Type:         "special self-governing province",
+			},
+			"50": {
+				Name:         "Sejong",
+				LocalName:    "",
+				LanguageCode: "ko",
+				Type:         "special self-governing city",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Busan-gwangyeoksi": {
+				Code: "26",
+			},
+			"Chungcheongbuk-do": {
+				Code: "43",
+			},
+			"Chungcheongnam-do": {
+				Code: "44",
+			},
+			"Daegu-gwangyeoksi": {
+				Code: "27",
+			},
+			"Daejeon-gwangyeoksi": {
+				Code: "30",
+			},
+			"Gangwon-do": {
+				Code: "42",
+			},
+			"Gwangju-gwangyeoksi": {
+				Code: "29",
+			},
+			"Gyeonggi-do": {
+				Code: "41",
+			},
+			"Gyeongsangbuk-do": {
+				Code: "47",
+			},
+			"Gyeongsangnam-do": {
+				Code: "48",
+			},
+			"Incheon-gwangyeoksi": {
+				Code: "28",
+			},
+			"Jeju-teukbyeoljachido": {
+				Code: "49",
+			},
+			"Jeollabuk-do": {
+				Code: "45",
+			},
+			"Jeollanam-do": {
+				Code: "46",
+			},
+			"Sejong": {
+				Code: "50",
+			},
+			"Seoul-teukbyeolsi": {
+				Code: "11",
+			},
+			"Ulsan-gwangyeoksi": {
+				Code: "31",
+			},
+		},
 	},
 
 	"KW": {
@@ -1526,6 +23793,68 @@ var CountryStates = map[string]Country{
 		OfficialName: "State of Kuwait",
 		CommonName:   "",
 		Numeric:      "414",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AH": {
+				Name:         "Al Aḩmadī",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"FA": {
+				Name:         "Al Farwānīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"HA": {
+				Name:         "Ḩawallī",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"JA": {
+				Name:         "Al Jahrā’",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"KU": {
+				Name:         "Al ‘Āşimah",
+				LocalName:    "Al Kuwayt",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MU": {
+				Name:         "Mubārak al Kabīr",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Al Aḩmadī": {
+				Code: "AH",
+			},
+			"Al Farwānīyah": {
+				Code: "FA",
+			},
+			"Al Jahrā’": {
+				Code: "JA",
+			},
+			"Al ‘Āşimah": {
+				Code: "KU",
+			},
+			"Mubārak al Kabīr": {
+				Code: "MU",
+			},
+			"Ḩawallī": {
+				Code: "HA",
+			},
+		},
 	},
 
 	"KY": {
@@ -1544,6 +23873,176 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Kazakhstan",
 		CommonName:   "",
 		Numeric:      "398",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AKM": {
+				Name:         "Akmolinskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"AKT": {
+				Name:         "Aktjubinskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"ALA": {
+				Name:         "Almaty",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "city",
+			},
+			"ALM": {
+				Name:         "Almatinskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"AST": {
+				Name:         "Astana",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "city",
+			},
+			"ATY": {
+				Name:         "Atyrauskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"BAY": {
+				Name:         "Bajkonyr",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "city",
+			},
+			"KAR": {
+				Name:         "Karagandinskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"KUS": {
+				Name:         "Kostanajskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"KZY": {
+				Name:         "Kyzylordinskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"MAN": {
+				Name:         "Mangystauskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"PAV": {
+				Name:         "Pavlodarskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"SEV": {
+				Name:         "Severo-Kazahstanskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"SHY": {
+				Name:         "Šimkent",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "city",
+			},
+			"VOS": {
+				Name:         "Vostočno-Kazahstanskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"YUZ": {
+				Name:         "Turkestanskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"ZAP": {
+				Name:         "Zapadno-Kazahstanskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+			"ZHA": {
+				Name:         "Žambylskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Akmolinskaja oblast'": {
+				Code: "AKM",
+			},
+			"Aktjubinskaja oblast'": {
+				Code: "AKT",
+			},
+			"Almatinskaja oblast'": {
+				Code: "ALM",
+			},
+			"Almaty": {
+				Code: "ALA",
+			},
+			"Astana": {
+				Code: "AST",
+			},
+			"Atyrauskaja oblast'": {
+				Code: "ATY",
+			},
+			"Bajkonyr": {
+				Code: "BAY",
+			},
+			"Karagandinskaja oblast'": {
+				Code: "KAR",
+			},
+			"Kostanajskaja oblast'": {
+				Code: "KUS",
+			},
+			"Kyzylordinskaja oblast'": {
+				Code: "KZY",
+			},
+			"Mangystauskaja oblast'": {
+				Code: "MAN",
+			},
+			"Pavlodarskaja oblast'": {
+				Code: "PAV",
+			},
+			"Severo-Kazahstanskaja oblast'": {
+				Code: "SEV",
+			},
+			"Turkestanskaja oblast'": {
+				Code: "YUZ",
+			},
+			"Vostočno-Kazahstanskaja oblast'": {
+				Code: "VOS",
+			},
+			"Zapadno-Kazahstanskaja oblast'": {
+				Code: "ZAP",
+			},
+			"Šimkent": {
+				Code: "SHY",
+			},
+			"Žambylskaja oblast'": {
+				Code: "ZHA",
+			},
+		},
 	},
 
 	"LA": {
@@ -1553,6 +24052,173 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "418",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AT": {
+				Name:         "Attapu",
+				LocalName:    "Attapeu",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"BK": {
+				Name:         "Bokèo",
+				LocalName:    "",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"BL": {
+				Name:         "Bolikhamxai",
+				LocalName:    "Borikhamxay",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"CH": {
+				Name:         "Champasak",
+				LocalName:    "Champasack",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"HO": {
+				Name:         "Houaphan",
+				LocalName:    "Huaphanh",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"KH": {
+				Name:         "Khammouan",
+				LocalName:    "Khammuane",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"LM": {
+				Name:         "Louang Namtha",
+				LocalName:    "Luangnamtha",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"LP": {
+				Name:         "Louangphabang",
+				LocalName:    "Luangprabang",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"OU": {
+				Name:         "Oudômxai",
+				LocalName:    "Oudomxay",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"PH": {
+				Name:         "Phôngsali",
+				LocalName:    "Phongsaly",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"SL": {
+				Name:         "Salavan",
+				LocalName:    "Saravane",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"SV": {
+				Name:         "Savannakhét",
+				LocalName:    "Savannakhet",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"VI": {
+				Name:         "Viangchan",
+				LocalName:    "Vientiane",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"VT": {
+				Name:         "Viangchan",
+				LocalName:    "Vientiane",
+				LanguageCode: "lo",
+				Type:         "prefecture",
+			},
+			"XA": {
+				Name:         "Xaignabouli",
+				LocalName:    "Xayabury",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"XE": {
+				Name:         "Xékong",
+				LocalName:    "Sekong",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"XI": {
+				Name:         "Xiangkhouang",
+				LocalName:    "Xiengkhuang",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+			"XS": {
+				Name:         "Xaisômboun",
+				LocalName:    "Xaysomboon",
+				LanguageCode: "lo",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Attapu": {
+				Code: "AT",
+			},
+			"Bokèo": {
+				Code: "BK",
+			},
+			"Bolikhamxai": {
+				Code: "BL",
+			},
+			"Champasak": {
+				Code: "CH",
+			},
+			"Houaphan": {
+				Code: "HO",
+			},
+			"Khammouan": {
+				Code: "KH",
+			},
+			"Louang Namtha": {
+				Code: "LM",
+			},
+			"Louangphabang": {
+				Code: "LP",
+			},
+			"Oudômxai": {
+				Code: "OU",
+			},
+			"Phôngsali": {
+				Code: "PH",
+			},
+			"Salavan": {
+				Code: "SL",
+			},
+			"Savannakhét": {
+				Code: "SV",
+			},
+			"Viangchan": {
+				Code: "VI",
+			},
+			"Xaignabouli": {
+				Code: "XA",
+			},
+			"Xaisômboun": {
+				Code: "XS",
+			},
+			"Xiangkhouang": {
+				Code: "XI",
+			},
+			"Xékong": {
+				Code: "XE",
+			},
+		},
 	},
 
 	"LB": {
@@ -1562,6 +24228,86 @@ var CountryStates = map[string]Country{
 		OfficialName: "Lebanese Republic",
 		CommonName:   "",
 		Numeric:      "422",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AK": {
+				Name:         "Aakkâr",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"AS": {
+				Name:         "Liban-Nord",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"BA": {
+				Name:         "Beyrouth",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"BH": {
+				Name:         "Baalbek-Hermel",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"BI": {
+				Name:         "Béqaa",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"JA": {
+				Name:         "Liban-Sud",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"JL": {
+				Name:         "Mont-Liban",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"NA": {
+				Name:         "Nabatîyé",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aakkâr": {
+				Code: "AK",
+			},
+			"Baalbek-Hermel": {
+				Code: "BH",
+			},
+			"Beyrouth": {
+				Code: "BA",
+			},
+			"Béqaa": {
+				Code: "BI",
+			},
+			"Liban-Nord": {
+				Code: "AS",
+			},
+			"Liban-Sud": {
+				Code: "JA",
+			},
+			"Mont-Liban": {
+				Code: "JL",
+			},
+			"Nabatîyé": {
+				Code: "NA",
+			},
+		},
 	},
 
 	"LC": {
@@ -1571,6 +24317,104 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "662",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Anse la Raye",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"02": {
+				Name:         "Castries",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"03": {
+				Name:         "Choiseul",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"05": {
+				Name:         "Dennery",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"06": {
+				Name:         "Gros Islet",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"07": {
+				Name:         "Laborie",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"08": {
+				Name:         "Micoud",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"10": {
+				Name:         "Soufrière",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"11": {
+				Name:         "Vieux Fort",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"12": {
+				Name:         "Canaries",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Anse la Raye": {
+				Code: "01",
+			},
+			"Canaries": {
+				Code: "12",
+			},
+			"Castries": {
+				Code: "02",
+			},
+			"Choiseul": {
+				Code: "03",
+			},
+			"Dennery": {
+				Code: "05",
+			},
+			"Gros Islet": {
+				Code: "06",
+			},
+			"Laborie": {
+				Code: "07",
+			},
+			"Micoud": {
+				Code: "08",
+			},
+			"Soufrière": {
+				Code: "10",
+			},
+			"Vieux Fort": {
+				Code: "11",
+			},
+		},
 	},
 
 	"LI": {
@@ -1580,6 +24424,113 @@ var CountryStates = map[string]Country{
 		OfficialName: "Principality of Liechtenstein",
 		CommonName:   "",
 		Numeric:      "438",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Balzers",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "commune",
+			},
+			"02": {
+				Name:         "Eschen",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "commune",
+			},
+			"03": {
+				Name:         "Gamprin",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "commune",
+			},
+			"04": {
+				Name:         "Mauren",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "commune",
+			},
+			"05": {
+				Name:         "Planken",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "commune",
+			},
+			"06": {
+				Name:         "Ruggell",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "commune",
+			},
+			"07": {
+				Name:         "Schaan",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "commune",
+			},
+			"08": {
+				Name:         "Schellenberg",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "commune",
+			},
+			"09": {
+				Name:         "Triesen",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "commune",
+			},
+			"10": {
+				Name:         "Triesenberg",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "commune",
+			},
+			"11": {
+				Name:         "Vaduz",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "commune",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Balzers": {
+				Code: "01",
+			},
+			"Eschen": {
+				Code: "02",
+			},
+			"Gamprin": {
+				Code: "03",
+			},
+			"Mauren": {
+				Code: "04",
+			},
+			"Planken": {
+				Code: "05",
+			},
+			"Ruggell": {
+				Code: "06",
+			},
+			"Schaan": {
+				Code: "07",
+			},
+			"Schellenberg": {
+				Code: "08",
+			},
+			"Triesen": {
+				Code: "09",
+			},
+			"Triesenberg": {
+				Code: "10",
+			},
+			"Vaduz": {
+				Code: "11",
+			},
+		},
 	},
 
 	"LK": {
@@ -1589,6 +24540,392 @@ var CountryStates = map[string]Country{
 		OfficialName: "Democratic Socialist Republic of Sri Lanka",
 		CommonName:   "",
 		Numeric:      "144",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"1": {
+				Name:         "Western Province",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"11": {
+						Name:         "Colombo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"12": {
+						Name:         "Gampaha",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"13": {
+						Name:         "Kalutara",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"2": {
+				Name:         "Central Province",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"21": {
+						Name:         "Kandy",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"22": {
+						Name:         "Matale",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"23": {
+						Name:         "Nuwara Eliya",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"3": {
+				Name:         "Southern Province",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"31": {
+						Name:         "Galle",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"32": {
+						Name:         "Matara",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"33": {
+						Name:         "Hambantota",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"4": {
+				Name:         "Northern Province",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"41": {
+						Name:         "Jaffna",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"42": {
+						Name:         "Kilinochchi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"43": {
+						Name:         "Mannar",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"44": {
+						Name:         "Vavuniya",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"45": {
+						Name:         "Mullaittivu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"5": {
+				Name:         "Eastern Province",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"51": {
+						Name:         "Batticaloa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"52": {
+						Name:         "Ampara",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"53": {
+						Name:         "Trincomalee",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"6": {
+				Name:         "North Western Province",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"61": {
+						Name:         "Kurunegala",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"62": {
+						Name:         "Puttalam",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"7": {
+				Name:         "North Central Province",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"71": {
+						Name:         "Anuradhapura",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"72": {
+						Name:         "Polonnaruwa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"8": {
+				Name:         "Uva Province",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"81": {
+						Name:         "Badulla",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"82": {
+						Name:         "Monaragala",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"9": {
+				Name:         "Sabaragamuwa Province",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"91": {
+						Name:         "Ratnapura",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"92": {
+						Name:         "Kegalla",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Central Province": {
+				Code: "2",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Kandy": {
+						Code: "21",
+					},
+					"Matale": {
+						Code: "22",
+					},
+					"Nuwara Eliya": {
+						Code: "23",
+					},
+				},
+			},
+			"Eastern Province": {
+				Code: "5",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Ampara": {
+						Code: "52",
+					},
+					"Batticaloa": {
+						Code: "51",
+					},
+					"Trincomalee": {
+						Code: "53",
+					},
+				},
+			},
+			"North Central Province": {
+				Code: "7",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Anuradhapura": {
+						Code: "71",
+					},
+					"Polonnaruwa": {
+						Code: "72",
+					},
+				},
+			},
+			"North Western Province": {
+				Code: "6",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Kurunegala": {
+						Code: "61",
+					},
+					"Puttalam": {
+						Code: "62",
+					},
+				},
+			},
+			"Northern Province": {
+				Code: "4",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Jaffna": {
+						Code: "41",
+					},
+					"Kilinochchi": {
+						Code: "42",
+					},
+					"Mannar": {
+						Code: "43",
+					},
+					"Mullaittivu": {
+						Code: "45",
+					},
+					"Vavuniya": {
+						Code: "44",
+					},
+				},
+			},
+			"Sabaragamuwa Province": {
+				Code: "9",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Kegalla": {
+						Code: "92",
+					},
+					"Ratnapura": {
+						Code: "91",
+					},
+				},
+			},
+			"Southern Province": {
+				Code: "3",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Galle": {
+						Code: "31",
+					},
+					"Hambantota": {
+						Code: "33",
+					},
+					"Matara": {
+						Code: "32",
+					},
+				},
+			},
+			"Uva Province": {
+				Code: "8",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Badulla": {
+						Code: "81",
+					},
+					"Monaragala": {
+						Code: "82",
+					},
+				},
+			},
+			"Western Province": {
+				Code: "1",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Colombo": {
+						Code: "11",
+					},
+					"Gampaha": {
+						Code: "12",
+					},
+					"Kalutara": {
+						Code: "13",
+					},
+				},
+			},
+		},
 	},
 
 	"LR": {
@@ -1598,6 +24935,149 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Liberia",
 		CommonName:   "",
 		Numeric:      "430",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BG": {
+				Name:         "Bong",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"BM": {
+				Name:         "Bomi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"CM": {
+				Name:         "Grand Cape Mount",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"GB": {
+				Name:         "Grand Bassa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"GG": {
+				Name:         "Grand Gedeh",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"GK": {
+				Name:         "Grand Kru",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"GP": {
+				Name:         "Gbarpolu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"LO": {
+				Name:         "Lofa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"MG": {
+				Name:         "Margibi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"MO": {
+				Name:         "Montserrado",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"MY": {
+				Name:         "Maryland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"NI": {
+				Name:         "Nimba",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"RG": {
+				Name:         "River Gee",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"RI": {
+				Name:         "River Cess",
+				LocalName:    "Rivercess",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+			"SI": {
+				Name:         "Sinoe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "county",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bomi": {
+				Code: "BM",
+			},
+			"Bong": {
+				Code: "BG",
+			},
+			"Gbarpolu": {
+				Code: "GP",
+			},
+			"Grand Bassa": {
+				Code: "GB",
+			},
+			"Grand Cape Mount": {
+				Code: "CM",
+			},
+			"Grand Gedeh": {
+				Code: "GG",
+			},
+			"Grand Kru": {
+				Code: "GK",
+			},
+			"Lofa": {
+				Code: "LO",
+			},
+			"Margibi": {
+				Code: "MG",
+			},
+			"Maryland": {
+				Code: "MY",
+			},
+			"Montserrado": {
+				Code: "MO",
+			},
+			"Nimba": {
+				Code: "NI",
+			},
+			"River Cess": {
+				Code: "RI",
+			},
+			"River Gee": {
+				Code: "RG",
+			},
+			"Sinoe": {
+				Code: "SI",
+			},
+		},
 	},
 
 	"LS": {
@@ -1607,6 +25087,104 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Lesotho",
 		CommonName:   "",
 		Numeric:      "426",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"A": {
+				Name:         "Maseru",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"B": {
+				Name:         "Butha-Buthe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"C": {
+				Name:         "Leribe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"D": {
+				Name:         "Berea",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"E": {
+				Name:         "Mafeteng",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"F": {
+				Name:         "Mohale's Hoek",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"G": {
+				Name:         "Quthing",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"H": {
+				Name:         "Qacha's Nek",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"J": {
+				Name:         "Mokhotlong",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"K": {
+				Name:         "Thaba-Tseka",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Berea": {
+				Code: "D",
+			},
+			"Butha-Buthe": {
+				Code: "B",
+			},
+			"Leribe": {
+				Code: "C",
+			},
+			"Mafeteng": {
+				Code: "E",
+			},
+			"Maseru": {
+				Code: "A",
+			},
+			"Mohale's Hoek": {
+				Code: "F",
+			},
+			"Mokhotlong": {
+				Code: "J",
+			},
+			"Qacha's Nek": {
+				Code: "H",
+			},
+			"Quthing": {
+				Code: "G",
+			},
+			"Thaba-Tseka": {
+				Code: "K",
+			},
+		},
 	},
 
 	"LT": {
@@ -1616,6 +25194,644 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Lithuania",
 		CommonName:   "",
 		Numeric:      "440",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Akmenė",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"02": {
+				Name:         "Alytaus miestas",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "city municipality",
+			},
+			"03": {
+				Name:         "Alytus",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"04": {
+				Name:         "Anykščiai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"05": {
+				Name:         "Birštono",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "municipality",
+			},
+			"06": {
+				Name:         "Biržai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"07": {
+				Name:         "Druskininkai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "municipality",
+			},
+			"08": {
+				Name:         "Elektrėnai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "municipality",
+			},
+			"09": {
+				Name:         "Ignalina",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"10": {
+				Name:         "Jonava",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"11": {
+				Name:         "Joniškis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"12": {
+				Name:         "Jurbarkas",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"13": {
+				Name:         "Kaišiadorys",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"14": {
+				Name:         "Kalvarijos",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "municipality",
+			},
+			"15": {
+				Name:         "Kauno miestas",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "city municipality",
+			},
+			"16": {
+				Name:         "Kaunas",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"17": {
+				Name:         "Kazlų Rūdos",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "municipality",
+			},
+			"18": {
+				Name:         "Kėdainiai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"19": {
+				Name:         "Kelmė",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"20": {
+				Name:         "Klaipėdos miestas",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "city municipality",
+			},
+			"21": {
+				Name:         "Klaipėda",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"22": {
+				Name:         "Kretinga",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"23": {
+				Name:         "Kupiškis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"24": {
+				Name:         "Lazdijai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"25": {
+				Name:         "Marijampolė",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"26": {
+				Name:         "Mažeikiai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"27": {
+				Name:         "Molėtai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"28": {
+				Name:         "Neringa",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "municipality",
+			},
+			"29": {
+				Name:         "Pagėgiai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "municipality",
+			},
+			"30": {
+				Name:         "Pakruojis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"31": {
+				Name:         "Palangos miestas",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "city municipality",
+			},
+			"32": {
+				Name:         "Panevėžio miestas",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "city municipality",
+			},
+			"33": {
+				Name:         "Panevėžys",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"34": {
+				Name:         "Pasvalys",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"35": {
+				Name:         "Plungė",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"36": {
+				Name:         "Prienai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"37": {
+				Name:         "Radviliškis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"38": {
+				Name:         "Raseiniai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"39": {
+				Name:         "Rietavo",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "municipality",
+			},
+			"40": {
+				Name:         "Rokiškis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"41": {
+				Name:         "Šakiai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"42": {
+				Name:         "Šalčininkai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"43": {
+				Name:         "Šiaulių miestas",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "city municipality",
+			},
+			"44": {
+				Name:         "Šiauliai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"45": {
+				Name:         "Šilalė",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"46": {
+				Name:         "Šilutė",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"47": {
+				Name:         "Širvintos",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"48": {
+				Name:         "Skuodas",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"49": {
+				Name:         "Švenčionys",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"50": {
+				Name:         "Tauragė",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"51": {
+				Name:         "Telšiai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"52": {
+				Name:         "Trakai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"53": {
+				Name:         "Ukmergė",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"54": {
+				Name:         "Utena",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"55": {
+				Name:         "Varėna",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"56": {
+				Name:         "Vilkaviškis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"57": {
+				Name:         "Vilniaus miestas",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "city municipality",
+			},
+			"58": {
+				Name:         "Vilnius",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"59": {
+				Name:         "Visaginas",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "municipality",
+			},
+			"60": {
+				Name:         "Zarasai",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "district municipality",
+			},
+			"AL": {
+				Name:         "Alytaus apskritis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "county",
+			},
+			"KL": {
+				Name:         "Klaipėdos apskritis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "county",
+			},
+			"KU": {
+				Name:         "Kauno apskritis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "county",
+			},
+			"MR": {
+				Name:         "Marijampolės apskritis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "county",
+			},
+			"PN": {
+				Name:         "Panevėžio apskritis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "county",
+			},
+			"SA": {
+				Name:         "Šiaulių apskritis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "county",
+			},
+			"TA": {
+				Name:         "Tauragės apskritis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "county",
+			},
+			"TE": {
+				Name:         "Telšių apskritis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "county",
+			},
+			"UT": {
+				Name:         "Utenos apskritis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "county",
+			},
+			"VL": {
+				Name:         "Vilniaus apskritis",
+				LocalName:    "",
+				LanguageCode: "lt",
+				Type:         "county",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Akmenė": {
+				Code: "01",
+			},
+			"Alytaus apskritis": {
+				Code: "AL",
+			},
+			"Alytaus miestas": {
+				Code: "02",
+			},
+			"Alytus": {
+				Code: "03",
+			},
+			"Anykščiai": {
+				Code: "04",
+			},
+			"Birštono": {
+				Code: "05",
+			},
+			"Biržai": {
+				Code: "06",
+			},
+			"Druskininkai": {
+				Code: "07",
+			},
+			"Elektrėnai": {
+				Code: "08",
+			},
+			"Ignalina": {
+				Code: "09",
+			},
+			"Jonava": {
+				Code: "10",
+			},
+			"Joniškis": {
+				Code: "11",
+			},
+			"Jurbarkas": {
+				Code: "12",
+			},
+			"Kaišiadorys": {
+				Code: "13",
+			},
+			"Kalvarijos": {
+				Code: "14",
+			},
+			"Kaunas": {
+				Code: "16",
+			},
+			"Kauno apskritis": {
+				Code: "KU",
+			},
+			"Kauno miestas": {
+				Code: "15",
+			},
+			"Kazlų Rūdos": {
+				Code: "17",
+			},
+			"Kelmė": {
+				Code: "19",
+			},
+			"Klaipėda": {
+				Code: "21",
+			},
+			"Klaipėdos apskritis": {
+				Code: "KL",
+			},
+			"Klaipėdos miestas": {
+				Code: "20",
+			},
+			"Kretinga": {
+				Code: "22",
+			},
+			"Kupiškis": {
+				Code: "23",
+			},
+			"Kėdainiai": {
+				Code: "18",
+			},
+			"Lazdijai": {
+				Code: "24",
+			},
+			"Marijampolė": {
+				Code: "25",
+			},
+			"Marijampolės apskritis": {
+				Code: "MR",
+			},
+			"Mažeikiai": {
+				Code: "26",
+			},
+			"Molėtai": {
+				Code: "27",
+			},
+			"Neringa": {
+				Code: "28",
+			},
+			"Pagėgiai": {
+				Code: "29",
+			},
+			"Pakruojis": {
+				Code: "30",
+			},
+			"Palangos miestas": {
+				Code: "31",
+			},
+			"Panevėžio apskritis": {
+				Code: "PN",
+			},
+			"Panevėžio miestas": {
+				Code: "32",
+			},
+			"Panevėžys": {
+				Code: "33",
+			},
+			"Pasvalys": {
+				Code: "34",
+			},
+			"Plungė": {
+				Code: "35",
+			},
+			"Prienai": {
+				Code: "36",
+			},
+			"Radviliškis": {
+				Code: "37",
+			},
+			"Raseiniai": {
+				Code: "38",
+			},
+			"Rietavo": {
+				Code: "39",
+			},
+			"Rokiškis": {
+				Code: "40",
+			},
+			"Skuodas": {
+				Code: "48",
+			},
+			"Tauragė": {
+				Code: "50",
+			},
+			"Tauragės apskritis": {
+				Code: "TA",
+			},
+			"Telšiai": {
+				Code: "51",
+			},
+			"Telšių apskritis": {
+				Code: "TE",
+			},
+			"Trakai": {
+				Code: "52",
+			},
+			"Ukmergė": {
+				Code: "53",
+			},
+			"Utena": {
+				Code: "54",
+			},
+			"Utenos apskritis": {
+				Code: "UT",
+			},
+			"Varėna": {
+				Code: "55",
+			},
+			"Vilkaviškis": {
+				Code: "56",
+			},
+			"Vilniaus apskritis": {
+				Code: "VL",
+			},
+			"Vilniaus miestas": {
+				Code: "57",
+			},
+			"Vilnius": {
+				Code: "58",
+			},
+			"Visaginas": {
+				Code: "59",
+			},
+			"Zarasai": {
+				Code: "60",
+			},
+			"Šakiai": {
+				Code: "41",
+			},
+			"Šalčininkai": {
+				Code: "42",
+			},
+			"Šiauliai": {
+				Code: "44",
+			},
+			"Šiaulių apskritis": {
+				Code: "SA",
+			},
+			"Šiaulių miestas": {
+				Code: "43",
+			},
+			"Šilalė": {
+				Code: "45",
+			},
+			"Šilutė": {
+				Code: "46",
+			},
+			"Širvintos": {
+				Code: "47",
+			},
+			"Švenčionys": {
+				Code: "49",
+			},
+		},
 	},
 
 	"LU": {
@@ -1625,6 +25841,122 @@ var CountryStates = map[string]Country{
 		OfficialName: "Grand Duchy of Luxembourg",
 		CommonName:   "",
 		Numeric:      "442",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"CA": {
+				Name:         "Capellen",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"CL": {
+				Name:         "Clerf",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"DI": {
+				Name:         "Diekirch",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"EC": {
+				Name:         "Echternach",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"ES": {
+				Name:         "Esch an der Alzette",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"GR": {
+				Name:         "Grevenmacher",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"LU": {
+				Name:         "Luxemburg",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"ME": {
+				Name:         "Mersch",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"RD": {
+				Name:         "Redingen",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"RM": {
+				Name:         "Remich",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"VD": {
+				Name:         "Vianden",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+			"WI": {
+				Name:         "Wiltz",
+				LocalName:    "",
+				LanguageCode: "de",
+				Type:         "canton",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Capellen": {
+				Code: "CA",
+			},
+			"Clerf": {
+				Code: "CL",
+			},
+			"Diekirch": {
+				Code: "DI",
+			},
+			"Echternach": {
+				Code: "EC",
+			},
+			"Esch an der Alzette": {
+				Code: "ES",
+			},
+			"Grevenmacher": {
+				Code: "GR",
+			},
+			"Luxemburg": {
+				Code: "LU",
+			},
+			"Mersch": {
+				Code: "ME",
+			},
+			"Redingen": {
+				Code: "RD",
+			},
+			"Remich": {
+				Code: "RM",
+			},
+			"Vianden": {
+				Code: "VD",
+			},
+			"Wiltz": {
+				Code: "WI",
+			},
+		},
 	},
 
 	"LV": {
@@ -1634,6 +25966,1085 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Latvia",
 		CommonName:   "",
 		Numeric:      "428",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"001": {
+				Name:         "Aglonas novads",
+				LocalName:    "Aglona",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"002": {
+				Name:         "Aizkraukles novads",
+				LocalName:    "Aizkraukle",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"003": {
+				Name:         "Aizputes novads",
+				LocalName:    "Aizpute",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"004": {
+				Name:         "Aknīstes novads",
+				LocalName:    "Aknīste",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"005": {
+				Name:         "Alojas novads",
+				LocalName:    "Aloja",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"006": {
+				Name:         "Alsungas novads",
+				LocalName:    "Alsunga",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"007": {
+				Name:         "Alūksnes novads",
+				LocalName:    "Alūksne",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"008": {
+				Name:         "Amatas novads",
+				LocalName:    "Amata",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"009": {
+				Name:         "Apes novads",
+				LocalName:    "Ape",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"010": {
+				Name:         "Auces novads",
+				LocalName:    "Auce",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"011": {
+				Name:         "Ādažu novads",
+				LocalName:    "Ādaži",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"012": {
+				Name:         "Babītes novads",
+				LocalName:    "Babīte",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"013": {
+				Name:         "Baldones novads",
+				LocalName:    "Baldone",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"014": {
+				Name:         "Baltinavas novads",
+				LocalName:    "Baltinava",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"015": {
+				Name:         "Balvu novads",
+				LocalName:    "Balvi",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"016": {
+				Name:         "Bauskas novads",
+				LocalName:    "Bauska",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"017": {
+				Name:         "Beverīnas novads",
+				LocalName:    "Beverīna",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"018": {
+				Name:         "Brocēnu novads",
+				LocalName:    "Brocēni",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"019": {
+				Name:         "Burtnieku novads",
+				LocalName:    "Burtnieki",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"020": {
+				Name:         "Carnikavas novads",
+				LocalName:    "Carnikava",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"021": {
+				Name:         "Cesvaines novads",
+				LocalName:    "Cesvaine",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"022": {
+				Name:         "Cēsu novads",
+				LocalName:    "Cēsis",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"023": {
+				Name:         "Ciblas novads",
+				LocalName:    "Cibla",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"024": {
+				Name:         "Dagdas novads",
+				LocalName:    "Dagda",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"025": {
+				Name:         "Daugavpils novads",
+				LocalName:    "Daugavpils",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"026": {
+				Name:         "Dobeles novads",
+				LocalName:    "Dobele",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"027": {
+				Name:         "Dundagas novads",
+				LocalName:    "Dundaga",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"028": {
+				Name:         "Durbes novads",
+				LocalName:    "Durbe",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"029": {
+				Name:         "Engures novads",
+				LocalName:    "Engure",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"030": {
+				Name:         "Ērgļu novads",
+				LocalName:    "Ērgļi",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"031": {
+				Name:         "Garkalnes novads",
+				LocalName:    "Garkalne",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"032": {
+				Name:         "Grobiņas novads",
+				LocalName:    "Grobiņa",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"033": {
+				Name:         "Gulbenes novads",
+				LocalName:    "Gulbene",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"034": {
+				Name:         "Iecavas novads",
+				LocalName:    "Iecava",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"035": {
+				Name:         "Ikšķiles novads",
+				LocalName:    "Ikšķile",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"036": {
+				Name:         "Ilūkstes novads",
+				LocalName:    "Ilūkste",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"037": {
+				Name:         "Inčukalna novads",
+				LocalName:    "Inčukalns",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"038": {
+				Name:         "Jaunjelgavas novads",
+				LocalName:    "Jaunjelgava",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"039": {
+				Name:         "Jaunpiebalgas novads",
+				LocalName:    "Jaunpiebalga",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"040": {
+				Name:         "Jaunpils novads",
+				LocalName:    "Jaunpils",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"041": {
+				Name:         "Jelgavas novads",
+				LocalName:    "Jelgava",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"042": {
+				Name:         "Jēkabpils novads",
+				LocalName:    "Jēkabpils",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"043": {
+				Name:         "Kandavas novads",
+				LocalName:    "Kandava",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"044": {
+				Name:         "Kārsavas novads",
+				LocalName:    "Kārsava",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"045": {
+				Name:         "Kocēnu novads",
+				LocalName:    "Kocēni",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"046": {
+				Name:         "Kokneses novads",
+				LocalName:    "Koknese",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"047": {
+				Name:         "Krāslavas novads",
+				LocalName:    "Krāslava",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"048": {
+				Name:         "Krimuldas novads",
+				LocalName:    "Krimulda",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"049": {
+				Name:         "Krustpils novads",
+				LocalName:    "Krustpils",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"050": {
+				Name:         "Kuldīgas novads",
+				LocalName:    "Kuldīga",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"051": {
+				Name:         "Ķeguma novads",
+				LocalName:    "Ķegums",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"052": {
+				Name:         "Ķekavas novads",
+				LocalName:    "Ķekava",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"053": {
+				Name:         "Lielvārdes novads",
+				LocalName:    "Lielvārde",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"054": {
+				Name:         "Limbažu novads",
+				LocalName:    "Limbaži",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"055": {
+				Name:         "Līgatnes novads",
+				LocalName:    "Līgatne",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"056": {
+				Name:         "Līvānu novads",
+				LocalName:    "Līvāni",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"057": {
+				Name:         "Lubānas novads",
+				LocalName:    "Lubāna",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"058": {
+				Name:         "Ludzas novads",
+				LocalName:    "Ludza",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"059": {
+				Name:         "Madonas novads",
+				LocalName:    "Madona",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"060": {
+				Name:         "Mazsalacas novads",
+				LocalName:    "Mazsalaca",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"061": {
+				Name:         "Mālpils novads",
+				LocalName:    "Mālpils",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"062": {
+				Name:         "Mārupes novads",
+				LocalName:    "Mārupe",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"063": {
+				Name:         "Mērsraga novads",
+				LocalName:    "Mērsrags",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"064": {
+				Name:         "Naukšēnu novads",
+				LocalName:    "Naukšēni",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"065": {
+				Name:         "Neretas novads",
+				LocalName:    "Nereta",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"066": {
+				Name:         "Nīcas novads",
+				LocalName:    "Nīca",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"067": {
+				Name:         "Ogres novads",
+				LocalName:    "Ogre",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"068": {
+				Name:         "Olaines novads",
+				LocalName:    "Olaine",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"069": {
+				Name:         "Ozolnieku novads",
+				LocalName:    "Ozolnieki",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"070": {
+				Name:         "Pārgaujas novads",
+				LocalName:    "Pārgauja",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"071": {
+				Name:         "Pāvilostas novads",
+				LocalName:    "Pāvilosta",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"072": {
+				Name:         "Pļaviņu novads",
+				LocalName:    "Pļaviņas",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"073": {
+				Name:         "Preiļu novads",
+				LocalName:    "Preiļi",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"074": {
+				Name:         "Priekules novads",
+				LocalName:    "Priekule",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"075": {
+				Name:         "Priekuļu novads",
+				LocalName:    "Priekuļi",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"076": {
+				Name:         "Raunas novads",
+				LocalName:    "Rauna",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"077": {
+				Name:         "Rēzeknes novads",
+				LocalName:    "Rēzekne",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"078": {
+				Name:         "Riebiņu novads",
+				LocalName:    "Riebiņi",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"079": {
+				Name:         "Rojas novads",
+				LocalName:    "Roja",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"080": {
+				Name:         "Ropažu novads",
+				LocalName:    "Ropaži",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"081": {
+				Name:         "Rucavas novads",
+				LocalName:    "Rucava",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"082": {
+				Name:         "Rugāju novads",
+				LocalName:    "Rugāji",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"083": {
+				Name:         "Rundāles novads",
+				LocalName:    "Rundāle",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"084": {
+				Name:         "Rūjienas novads",
+				LocalName:    "Rūjiena",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"085": {
+				Name:         "Salas novads",
+				LocalName:    "Sala",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"086": {
+				Name:         "Salacgrīvas novads",
+				LocalName:    "Salacgrīva",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"087": {
+				Name:         "Salaspils novads",
+				LocalName:    "Salaspils",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"088": {
+				Name:         "Saldus novads",
+				LocalName:    "Saldus",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"089": {
+				Name:         "Saulkrastu novads",
+				LocalName:    "Saulkrasti",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"090": {
+				Name:         "Sējas novads",
+				LocalName:    "Sēja",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"091": {
+				Name:         "Siguldas novads",
+				LocalName:    "Sigulda",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"092": {
+				Name:         "Skrīveru novads",
+				LocalName:    "Skrīveri",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"093": {
+				Name:         "Skrundas novads",
+				LocalName:    "Skrunda",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"094": {
+				Name:         "Smiltenes novads",
+				LocalName:    "Smiltene",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"095": {
+				Name:         "Stopiņu novads",
+				LocalName:    "Stopiņi",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"096": {
+				Name:         "Strenču novads",
+				LocalName:    "Strenči",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"097": {
+				Name:         "Talsu novads",
+				LocalName:    "Talsi",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"098": {
+				Name:         "Tērvetes novads",
+				LocalName:    "Tērvete",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"099": {
+				Name:         "Tukuma novads",
+				LocalName:    "Tukums",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"100": {
+				Name:         "Vaiņodes novads",
+				LocalName:    "Vaiņode",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"101": {
+				Name:         "Valkas novads",
+				LocalName:    "Valka",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"102": {
+				Name:         "Varakļānu novads",
+				LocalName:    "Varakļāni",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"103": {
+				Name:         "Vārkavas novads",
+				LocalName:    "Vārkava",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"104": {
+				Name:         "Vecpiebalgas novads",
+				LocalName:    "Vecpiebalga",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"105": {
+				Name:         "Vecumnieku novads",
+				LocalName:    "Vecumnieki",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"106": {
+				Name:         "Ventspils novads",
+				LocalName:    "Ventspils",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"107": {
+				Name:         "Viesītes novads",
+				LocalName:    "Viesīte",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"108": {
+				Name:         "Viļakas novads",
+				LocalName:    "Viļaka",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"109": {
+				Name:         "Viļānu novads",
+				LocalName:    "Viļāni",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"110": {
+				Name:         "Zilupes novads",
+				LocalName:    "Zilupe",
+				LanguageCode: "lv",
+				Type:         "municipality",
+			},
+			"DGV": {
+				Name:         "Daugavpils",
+				LocalName:    "",
+				LanguageCode: "lv",
+				Type:         "republican city",
+			},
+			"JEL": {
+				Name:         "Jelgava",
+				LocalName:    "",
+				LanguageCode: "lv",
+				Type:         "republican city",
+			},
+			"JKB": {
+				Name:         "Jēkabpils",
+				LocalName:    "",
+				LanguageCode: "lv",
+				Type:         "republican city",
+			},
+			"JUR": {
+				Name:         "Jūrmala",
+				LocalName:    "",
+				LanguageCode: "lv",
+				Type:         "republican city",
+			},
+			"LPX": {
+				Name:         "Liepāja",
+				LocalName:    "",
+				LanguageCode: "lv",
+				Type:         "republican city",
+			},
+			"REZ": {
+				Name:         "Rēzekne",
+				LocalName:    "",
+				LanguageCode: "lv",
+				Type:         "republican city",
+			},
+			"RIX": {
+				Name:         "Rīga",
+				LocalName:    "",
+				LanguageCode: "lv",
+				Type:         "republican city",
+			},
+			"VEN": {
+				Name:         "Ventspils",
+				LocalName:    "",
+				LanguageCode: "lv",
+				Type:         "republican city",
+			},
+			"VMR": {
+				Name:         "Valmiera",
+				LocalName:    "",
+				LanguageCode: "lv",
+				Type:         "republican city",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aglonas novads": {
+				Code: "001",
+			},
+			"Aizkraukles novads": {
+				Code: "002",
+			},
+			"Aizputes novads": {
+				Code: "003",
+			},
+			"Aknīstes novads": {
+				Code: "004",
+			},
+			"Alojas novads": {
+				Code: "005",
+			},
+			"Alsungas novads": {
+				Code: "006",
+			},
+			"Alūksnes novads": {
+				Code: "007",
+			},
+			"Amatas novads": {
+				Code: "008",
+			},
+			"Apes novads": {
+				Code: "009",
+			},
+			"Auces novads": {
+				Code: "010",
+			},
+			"Babītes novads": {
+				Code: "012",
+			},
+			"Baldones novads": {
+				Code: "013",
+			},
+			"Baltinavas novads": {
+				Code: "014",
+			},
+			"Balvu novads": {
+				Code: "015",
+			},
+			"Bauskas novads": {
+				Code: "016",
+			},
+			"Beverīnas novads": {
+				Code: "017",
+			},
+			"Brocēnu novads": {
+				Code: "018",
+			},
+			"Burtnieku novads": {
+				Code: "019",
+			},
+			"Carnikavas novads": {
+				Code: "020",
+			},
+			"Cesvaines novads": {
+				Code: "021",
+			},
+			"Ciblas novads": {
+				Code: "023",
+			},
+			"Cēsu novads": {
+				Code: "022",
+			},
+			"Dagdas novads": {
+				Code: "024",
+			},
+			"Daugavpils": {
+				Code: "DGV",
+			},
+			"Daugavpils novads": {
+				Code: "025",
+			},
+			"Dobeles novads": {
+				Code: "026",
+			},
+			"Dundagas novads": {
+				Code: "027",
+			},
+			"Durbes novads": {
+				Code: "028",
+			},
+			"Engures novads": {
+				Code: "029",
+			},
+			"Garkalnes novads": {
+				Code: "031",
+			},
+			"Grobiņas novads": {
+				Code: "032",
+			},
+			"Gulbenes novads": {
+				Code: "033",
+			},
+			"Iecavas novads": {
+				Code: "034",
+			},
+			"Ikšķiles novads": {
+				Code: "035",
+			},
+			"Ilūkstes novads": {
+				Code: "036",
+			},
+			"Inčukalna novads": {
+				Code: "037",
+			},
+			"Jaunjelgavas novads": {
+				Code: "038",
+			},
+			"Jaunpiebalgas novads": {
+				Code: "039",
+			},
+			"Jaunpils novads": {
+				Code: "040",
+			},
+			"Jelgava": {
+				Code: "JEL",
+			},
+			"Jelgavas novads": {
+				Code: "041",
+			},
+			"Jēkabpils": {
+				Code: "JKB",
+			},
+			"Jēkabpils novads": {
+				Code: "042",
+			},
+			"Jūrmala": {
+				Code: "JUR",
+			},
+			"Kandavas novads": {
+				Code: "043",
+			},
+			"Kocēnu novads": {
+				Code: "045",
+			},
+			"Kokneses novads": {
+				Code: "046",
+			},
+			"Krimuldas novads": {
+				Code: "048",
+			},
+			"Krustpils novads": {
+				Code: "049",
+			},
+			"Krāslavas novads": {
+				Code: "047",
+			},
+			"Kuldīgas novads": {
+				Code: "050",
+			},
+			"Kārsavas novads": {
+				Code: "044",
+			},
+			"Lielvārdes novads": {
+				Code: "053",
+			},
+			"Liepāja": {
+				Code: "LPX",
+			},
+			"Limbažu novads": {
+				Code: "054",
+			},
+			"Lubānas novads": {
+				Code: "057",
+			},
+			"Ludzas novads": {
+				Code: "058",
+			},
+			"Līgatnes novads": {
+				Code: "055",
+			},
+			"Līvānu novads": {
+				Code: "056",
+			},
+			"Madonas novads": {
+				Code: "059",
+			},
+			"Mazsalacas novads": {
+				Code: "060",
+			},
+			"Mālpils novads": {
+				Code: "061",
+			},
+			"Mārupes novads": {
+				Code: "062",
+			},
+			"Mērsraga novads": {
+				Code: "063",
+			},
+			"Naukšēnu novads": {
+				Code: "064",
+			},
+			"Neretas novads": {
+				Code: "065",
+			},
+			"Nīcas novads": {
+				Code: "066",
+			},
+			"Ogres novads": {
+				Code: "067",
+			},
+			"Olaines novads": {
+				Code: "068",
+			},
+			"Ozolnieku novads": {
+				Code: "069",
+			},
+			"Preiļu novads": {
+				Code: "073",
+			},
+			"Priekules novads": {
+				Code: "074",
+			},
+			"Priekuļu novads": {
+				Code: "075",
+			},
+			"Pārgaujas novads": {
+				Code: "070",
+			},
+			"Pāvilostas novads": {
+				Code: "071",
+			},
+			"Pļaviņu novads": {
+				Code: "072",
+			},
+			"Raunas novads": {
+				Code: "076",
+			},
+			"Riebiņu novads": {
+				Code: "078",
+			},
+			"Rojas novads": {
+				Code: "079",
+			},
+			"Ropažu novads": {
+				Code: "080",
+			},
+			"Rucavas novads": {
+				Code: "081",
+			},
+			"Rugāju novads": {
+				Code: "082",
+			},
+			"Rundāles novads": {
+				Code: "083",
+			},
+			"Rēzekne": {
+				Code: "REZ",
+			},
+			"Rēzeknes novads": {
+				Code: "077",
+			},
+			"Rīga": {
+				Code: "RIX",
+			},
+			"Rūjienas novads": {
+				Code: "084",
+			},
+			"Salacgrīvas novads": {
+				Code: "086",
+			},
+			"Salas novads": {
+				Code: "085",
+			},
+			"Salaspils novads": {
+				Code: "087",
+			},
+			"Saldus novads": {
+				Code: "088",
+			},
+			"Saulkrastu novads": {
+				Code: "089",
+			},
+			"Siguldas novads": {
+				Code: "091",
+			},
+			"Skrundas novads": {
+				Code: "093",
+			},
+			"Skrīveru novads": {
+				Code: "092",
+			},
+			"Smiltenes novads": {
+				Code: "094",
+			},
+			"Stopiņu novads": {
+				Code: "095",
+			},
+			"Strenču novads": {
+				Code: "096",
+			},
+			"Sējas novads": {
+				Code: "090",
+			},
+			"Talsu novads": {
+				Code: "097",
+			},
+			"Tukuma novads": {
+				Code: "099",
+			},
+			"Tērvetes novads": {
+				Code: "098",
+			},
+			"Vaiņodes novads": {
+				Code: "100",
+			},
+			"Valkas novads": {
+				Code: "101",
+			},
+			"Valmiera": {
+				Code: "VMR",
+			},
+			"Varakļānu novads": {
+				Code: "102",
+			},
+			"Vecpiebalgas novads": {
+				Code: "104",
+			},
+			"Vecumnieku novads": {
+				Code: "105",
+			},
+			"Ventspils": {
+				Code: "VEN",
+			},
+			"Ventspils novads": {
+				Code: "106",
+			},
+			"Viesītes novads": {
+				Code: "107",
+			},
+			"Viļakas novads": {
+				Code: "108",
+			},
+			"Viļānu novads": {
+				Code: "109",
+			},
+			"Vārkavas novads": {
+				Code: "103",
+			},
+			"Zilupes novads": {
+				Code: "110",
+			},
+			"Ādažu novads": {
+				Code: "011",
+			},
+			"Ērgļu novads": {
+				Code: "030",
+			},
+			"Ķeguma novads": {
+				Code: "051",
+			},
+			"Ķekavas novads": {
+				Code: "052",
+			},
+		},
 	},
 
 	"LY": {
@@ -1643,6 +27054,212 @@ var CountryStates = map[string]Country{
 		OfficialName: "Libya",
 		CommonName:   "",
 		Numeric:      "434",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BA": {
+				Name:         "Banghāzī",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"BU": {
+				Name:         "Al Buţnān",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"DR": {
+				Name:         "Darnah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"GT": {
+				Name:         "Ghāt",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"JA": {
+				Name:         "Al Jabal al Akhḑar",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"JG": {
+				Name:         "Al Jabal al Gharbī",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"JI": {
+				Name:         "Al Jafārah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"JU": {
+				Name:         "Al Jufrah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"KF": {
+				Name:         "Al Kufrah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"MB": {
+				Name:         "Al Marqab",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"MI": {
+				Name:         "Mişrātah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"MJ": {
+				Name:         "Al Marj",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"MQ": {
+				Name:         "Murzuq",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"NL": {
+				Name:         "Nālūt",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"NQ": {
+				Name:         "An Nuqāţ al Khams",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"SB": {
+				Name:         "Sabhā",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"SR": {
+				Name:         "Surt",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"TB": {
+				Name:         "Ţarābulus",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"WA": {
+				Name:         "Al Wāḩāt",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"WD": {
+				Name:         "Wādī al Ḩayāt",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"WS": {
+				Name:         "Wādī ash Shāţi’",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+			"ZA": {
+				Name:         "Az Zāwiyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "popularate",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Al Buţnān": {
+				Code: "BU",
+			},
+			"Al Jabal al Akhḑar": {
+				Code: "JA",
+			},
+			"Al Jabal al Gharbī": {
+				Code: "JG",
+			},
+			"Al Jafārah": {
+				Code: "JI",
+			},
+			"Al Jufrah": {
+				Code: "JU",
+			},
+			"Al Kufrah": {
+				Code: "KF",
+			},
+			"Al Marj": {
+				Code: "MJ",
+			},
+			"Al Marqab": {
+				Code: "MB",
+			},
+			"Al Wāḩāt": {
+				Code: "WA",
+			},
+			"An Nuqāţ al Khams": {
+				Code: "NQ",
+			},
+			"Az Zāwiyah": {
+				Code: "ZA",
+			},
+			"Banghāzī": {
+				Code: "BA",
+			},
+			"Darnah": {
+				Code: "DR",
+			},
+			"Ghāt": {
+				Code: "GT",
+			},
+			"Mişrātah": {
+				Code: "MI",
+			},
+			"Murzuq": {
+				Code: "MQ",
+			},
+			"Nālūt": {
+				Code: "NL",
+			},
+			"Sabhā": {
+				Code: "SB",
+			},
+			"Surt": {
+				Code: "SR",
+			},
+			"Wādī al Ḩayāt": {
+				Code: "WD",
+			},
+			"Wādī ash Shāţi’": {
+				Code: "WS",
+			},
+			"Ţarābulus": {
+				Code: "TB",
+			},
+		},
 	},
 
 	"MA": {
@@ -1652,6 +27269,893 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Morocco",
 		CommonName:   "",
 		Numeric:      "504",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Tanger-Tétouan-Al Hoceïma",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"CHE": {
+						Name:         "Chefchaouen",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"FAH": {
+						Name:         "Fahs-Anjra",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"HOC": {
+						Name:         "Al Hoceïma",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"LAR": {
+						Name:         "Larache",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"MDF": {
+						Name:         "M’diq-Fnideq",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+					"OUZ": {
+						Name:         "Ouezzane",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"TET": {
+						Name:         "Tétouan",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"TNG": {
+						Name:         "Tanger-Assilah",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+				},
+			},
+			"02": {
+				Name:         "L'Oriental",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BER": {
+						Name:         "Berkane",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"DRI": {
+						Name:         "Driouch",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"FIG": {
+						Name:         "Figuig",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"GUF": {
+						Name:         "Guercif",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"JRA": {
+						Name:         "Jerada",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"NAD": {
+						Name:         "Nador",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"OUJ": {
+						Name:         "Oujda-Angad",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+					"TAI": {
+						Name:         "Taourirt",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+				},
+			},
+			"03": {
+				Name:         "Fès-Meknès",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BOM": {
+						Name:         "Boulemane",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"FES": {
+						Name:         "Fès",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+					"HAJ": {
+						Name:         "El Hajeb",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"IFR": {
+						Name:         "Ifrane",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"MEK": {
+						Name:         "Meknès",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+					"MOU": {
+						Name:         "Moulay Yacoub",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"SEF": {
+						Name:         "Sefrou",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"TAO": {
+						Name:         "Taounate",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"TAZ": {
+						Name:         "Taza",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+				},
+			},
+			"04": {
+				Name:         "Rabat-Salé-Kénitra",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"KEN": {
+						Name:         "Kénitra",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"KHE": {
+						Name:         "Khemisset",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"NOU": {
+						Name:         "Nouaceur",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"RAB": {
+						Name:         "Rabat",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+					"SAL": {
+						Name:         "Salé",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+					"SIK": {
+						Name:         "Sidi Kacem",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"SIL": {
+						Name:         "Sidi Slimane",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"SKH": {
+						Name:         "Skhirate-Témara",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+				},
+			},
+			"05": {
+				Name:         "Béni Mellal-Khénifra",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AZI": {
+						Name:         "Azilal",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"BEM": {
+						Name:         "Béni Mellal",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"FQH": {
+						Name:         "Fquih Ben Salah",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"KHN": {
+						Name:         "Khenifra",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"KHO": {
+						Name:         "Khouribga",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+				},
+			},
+			"06": {
+				Name:         "Casablanca-Settat",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BES": {
+						Name:         "Benslimane",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"BRR": {
+						Name:         "Berrechid",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"CAS": {
+						Name:         "Casablanca",
+						LocalName:    "Dar el Beïda*",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+					"CHT": {
+						Name:         "Chtouka-Ait Baha",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"JDI": {
+						Name:         "El Jadida",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"MED": {
+						Name:         "Médiouna",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"MOH": {
+						Name:         "Mohammadia",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+					"SET": {
+						Name:         "Settat",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"SIB": {
+						Name:         "Sidi Bennour",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+				},
+			},
+			"07": {
+				Name:         "Marrakech-Safi",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"CHI": {
+						Name:         "Chichaoua",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"ESI": {
+						Name:         "Essaouira",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"HAO": {
+						Name:         "Al Haouz",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"KES": {
+						Name:         "El Kelâa des Sraghna",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"MAR": {
+						Name:         "Marrakech",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+					"REH": {
+						Name:         "Rehamna",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"SAF": {
+						Name:         "Safi",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"YUS": {
+						Name:         "Youssoufia",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+				},
+			},
+			"08": {
+				Name:         "Drâa-Tafilalet",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"ERR": {
+						Name:         "Errachidia",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"MID": {
+						Name:         "Midelt",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"OUA": {
+						Name:         "Ouarzazate",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"TIN": {
+						Name:         "Tinghir",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"ZAG": {
+						Name:         "Zagora",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+				},
+			},
+			"09": {
+				Name:         "Souss-Massa",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AGD": {
+						Name:         "Agadir-Ida-Ou-Tanane",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+					"INE": {
+						Name:         "Inezgane-Ait Melloul",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "prefecture",
+					},
+					"TAR": {
+						Name:         "Taroudant",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"TAT": {
+						Name:         "Tata",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"TIZ": {
+						Name:         "Tiznit",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+				},
+			},
+			"10": {
+				Name:         "Guelmim-Oued Noun (EH-partial)",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"ASZ": {
+						Name:         "Assa-Zag (EH-partial)",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"GUE": {
+						Name:         "Guelmim",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"SIF": {
+						Name:         "Sidi Ifni",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"TNT": {
+						Name:         "Tan-Tan (EH-partial)",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+				},
+			},
+			"11": {
+				Name:         "Laâyoune-Sakia El Hamra (EH-partial)",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BOD": {
+						Name:         "Boujdour (EH)",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"ESM": {
+						Name:         "Es-Semara (EH-partial)",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"LAA": {
+						Name:         "Laâyoune (EH)",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"TAF": {
+						Name:         "Tarfaya (EH-partial)",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+				},
+			},
+			"12": {
+				Name:         "Dakhla-Oued Ed-Dahab (EH)",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AOU": {
+						Name:         "Aousserd (EH)",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+					"OUD": {
+						Name:         "Oued Ed-Dahab (EH)",
+						LocalName:    "",
+						LanguageCode: "ar",
+						Type:         "province",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Béni Mellal-Khénifra": {
+				Code: "05",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Azilal": {
+						Code: "AZI",
+					},
+					"Béni Mellal": {
+						Code: "BEM",
+					},
+					"Fquih Ben Salah": {
+						Code: "FQH",
+					},
+					"Khenifra": {
+						Code: "KHN",
+					},
+					"Khouribga": {
+						Code: "KHO",
+					},
+				},
+			},
+			"Casablanca-Settat": {
+				Code: "06",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Benslimane": {
+						Code: "BES",
+					},
+					"Berrechid": {
+						Code: "BRR",
+					},
+					"Casablanca": {
+						Code: "CAS",
+					},
+					"Chtouka-Ait Baha": {
+						Code: "CHT",
+					},
+					"El Jadida": {
+						Code: "JDI",
+					},
+					"Mohammadia": {
+						Code: "MOH",
+					},
+					"Médiouna": {
+						Code: "MED",
+					},
+					"Settat": {
+						Code: "SET",
+					},
+					"Sidi Bennour": {
+						Code: "SIB",
+					},
+				},
+			},
+			"Dakhla-Oued Ed-Dahab (EH)": {
+				Code: "12",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Aousserd (EH)": {
+						Code: "AOU",
+					},
+					"Oued Ed-Dahab (EH)": {
+						Code: "OUD",
+					},
+				},
+			},
+			"Drâa-Tafilalet": {
+				Code: "08",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Errachidia": {
+						Code: "ERR",
+					},
+					"Midelt": {
+						Code: "MID",
+					},
+					"Ouarzazate": {
+						Code: "OUA",
+					},
+					"Tinghir": {
+						Code: "TIN",
+					},
+					"Zagora": {
+						Code: "ZAG",
+					},
+				},
+			},
+			"Fès-Meknès": {
+				Code: "03",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Boulemane": {
+						Code: "BOM",
+					},
+					"El Hajeb": {
+						Code: "HAJ",
+					},
+					"Fès": {
+						Code: "FES",
+					},
+					"Ifrane": {
+						Code: "IFR",
+					},
+					"Meknès": {
+						Code: "MEK",
+					},
+					"Moulay Yacoub": {
+						Code: "MOU",
+					},
+					"Sefrou": {
+						Code: "SEF",
+					},
+					"Taounate": {
+						Code: "TAO",
+					},
+					"Taza": {
+						Code: "TAZ",
+					},
+				},
+			},
+			"Guelmim-Oued Noun (EH-partial)": {
+				Code: "10",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Assa-Zag (EH-partial)": {
+						Code: "ASZ",
+					},
+					"Guelmim": {
+						Code: "GUE",
+					},
+					"Sidi Ifni": {
+						Code: "SIF",
+					},
+					"Tan-Tan (EH-partial)": {
+						Code: "TNT",
+					},
+				},
+			},
+			"L'Oriental": {
+				Code: "02",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Berkane": {
+						Code: "BER",
+					},
+					"Driouch": {
+						Code: "DRI",
+					},
+					"Figuig": {
+						Code: "FIG",
+					},
+					"Guercif": {
+						Code: "GUF",
+					},
+					"Jerada": {
+						Code: "JRA",
+					},
+					"Nador": {
+						Code: "NAD",
+					},
+					"Oujda-Angad": {
+						Code: "OUJ",
+					},
+					"Taourirt": {
+						Code: "TAI",
+					},
+				},
+			},
+			"Laâyoune-Sakia El Hamra (EH-partial)": {
+				Code: "11",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Boujdour (EH)": {
+						Code: "BOD",
+					},
+					"Es-Semara (EH-partial)": {
+						Code: "ESM",
+					},
+					"Laâyoune (EH)": {
+						Code: "LAA",
+					},
+					"Tarfaya (EH-partial)": {
+						Code: "TAF",
+					},
+				},
+			},
+			"Marrakech-Safi": {
+				Code: "07",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Al Haouz": {
+						Code: "HAO",
+					},
+					"Chichaoua": {
+						Code: "CHI",
+					},
+					"El Kelâa des Sraghna": {
+						Code: "KES",
+					},
+					"Essaouira": {
+						Code: "ESI",
+					},
+					"Marrakech": {
+						Code: "MAR",
+					},
+					"Rehamna": {
+						Code: "REH",
+					},
+					"Safi": {
+						Code: "SAF",
+					},
+					"Youssoufia": {
+						Code: "YUS",
+					},
+				},
+			},
+			"Rabat-Salé-Kénitra": {
+				Code: "04",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Khemisset": {
+						Code: "KHE",
+					},
+					"Kénitra": {
+						Code: "KEN",
+					},
+					"Nouaceur": {
+						Code: "NOU",
+					},
+					"Rabat": {
+						Code: "RAB",
+					},
+					"Salé": {
+						Code: "SAL",
+					},
+					"Sidi Kacem": {
+						Code: "SIK",
+					},
+					"Sidi Slimane": {
+						Code: "SIL",
+					},
+					"Skhirate-Témara": {
+						Code: "SKH",
+					},
+				},
+			},
+			"Souss-Massa": {
+				Code: "09",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Agadir-Ida-Ou-Tanane": {
+						Code: "AGD",
+					},
+					"Inezgane-Ait Melloul": {
+						Code: "INE",
+					},
+					"Taroudant": {
+						Code: "TAR",
+					},
+					"Tata": {
+						Code: "TAT",
+					},
+					"Tiznit": {
+						Code: "TIZ",
+					},
+				},
+			},
+			"Tanger-Tétouan-Al Hoceïma": {
+				Code: "01",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Al Hoceïma": {
+						Code: "HOC",
+					},
+					"Chefchaouen": {
+						Code: "CHE",
+					},
+					"Fahs-Anjra": {
+						Code: "FAH",
+					},
+					"Larache": {
+						Code: "LAR",
+					},
+					"M’diq-Fnideq": {
+						Code: "MDF",
+					},
+					"Ouezzane": {
+						Code: "OUZ",
+					},
+					"Tanger-Assilah": {
+						Code: "TNG",
+					},
+					"Tétouan": {
+						Code: "TET",
+					},
+				},
+			},
+		},
 	},
 
 	"MC": {
@@ -1661,6 +28165,167 @@ var CountryStates = map[string]Country{
 		OfficialName: "Principality of Monaco",
 		CommonName:   "",
 		Numeric:      "492",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"CL": {
+				Name:         "La Colle",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"CO": {
+				Name:         "La Condamine",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"FO": {
+				Name:         "Fontvieille",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"GA": {
+				Name:         "La Gare",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"JE": {
+				Name:         "Jardin Exotique",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"LA": {
+				Name:         "Larvotto",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"MA": {
+				Name:         "Malbousquet",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"MC": {
+				Name:         "Monte-Carlo",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"MG": {
+				Name:         "Moneghetti",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"MO": {
+				Name:         "Monaco-Ville",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"MU": {
+				Name:         "Moulins",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"PH": {
+				Name:         "Port-Hercule",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"SD": {
+				Name:         "Sainte-Dévote",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"SO": {
+				Name:         "La Source",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"SP": {
+				Name:         "Spélugues",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"SR": {
+				Name:         "Saint-Roman",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+			"VR": {
+				Name:         "Vallon de la Rousse",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "quarter",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Fontvieille": {
+				Code: "FO",
+			},
+			"Jardin Exotique": {
+				Code: "JE",
+			},
+			"La Colle": {
+				Code: "CL",
+			},
+			"La Condamine": {
+				Code: "CO",
+			},
+			"La Gare": {
+				Code: "GA",
+			},
+			"La Source": {
+				Code: "SO",
+			},
+			"Larvotto": {
+				Code: "LA",
+			},
+			"Malbousquet": {
+				Code: "MA",
+			},
+			"Monaco-Ville": {
+				Code: "MO",
+			},
+			"Moneghetti": {
+				Code: "MG",
+			},
+			"Monte-Carlo": {
+				Code: "MC",
+			},
+			"Moulins": {
+				Code: "MU",
+			},
+			"Port-Hercule": {
+				Code: "PH",
+			},
+			"Saint-Roman": {
+				Code: "SR",
+			},
+			"Sainte-Dévote": {
+				Code: "SD",
+			},
+			"Spélugues": {
+				Code: "SP",
+			},
+			"Vallon de la Rousse": {
+				Code: "VR",
+			},
+		},
 	},
 
 	"MD": {
@@ -1670,6 +28335,347 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Moldova",
 		CommonName:   "Moldova",
 		Numeric:      "498",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AN": {
+				Name:         "Anenii Noi",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"BA": {
+				Name:         "Bălți",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "city",
+			},
+			"BD": {
+				Name:         "Bender [Tighina]",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "city",
+			},
+			"BR": {
+				Name:         "Briceni",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"BS": {
+				Name:         "Basarabeasca",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"CA": {
+				Name:         "Cahul",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"CL": {
+				Name:         "Călărași",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"CM": {
+				Name:         "Cimișlia",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"CR": {
+				Name:         "Criuleni",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"CS": {
+				Name:         "Căușeni",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"CT": {
+				Name:         "Cantemir",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"CU": {
+				Name:         "Chișinău",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "city",
+			},
+			"DO": {
+				Name:         "Dondușeni",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"DR": {
+				Name:         "Drochia",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"DU": {
+				Name:         "Dubăsari",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"ED": {
+				Name:         "Edineț",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"FA": {
+				Name:         "Fălești",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"FL": {
+				Name:         "Florești",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"GA": {
+				Name:         "Găgăuzia, Unitatea teritorială autonomă (UTAG)",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "autonomous territorial unit",
+			},
+			"GL": {
+				Name:         "Glodeni",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"HI": {
+				Name:         "Hîncești",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"IA": {
+				Name:         "Ialoveni",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"LE": {
+				Name:         "Leova",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"NI": {
+				Name:         "Nisporeni",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"OC": {
+				Name:         "Ocnița",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"OR": {
+				Name:         "Orhei",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"RE": {
+				Name:         "Rezina",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"RI": {
+				Name:         "Rîșcani",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"SD": {
+				Name:         "Șoldănești",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"SI": {
+				Name:         "Sîngerei",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"SN": {
+				Name:         "Stînga Nistrului, unitatea teritorială din",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "territorial unit",
+			},
+			"SO": {
+				Name:         "Soroca",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"ST": {
+				Name:         "Strășeni",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"SV": {
+				Name:         "Ștefan Vodă",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"TA": {
+				Name:         "Taraclia",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"TE": {
+				Name:         "Telenești",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+			"UN": {
+				Name:         "Ungheni",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Anenii Noi": {
+				Code: "AN",
+			},
+			"Basarabeasca": {
+				Code: "BS",
+			},
+			"Bender [Tighina]": {
+				Code: "BD",
+			},
+			"Briceni": {
+				Code: "BR",
+			},
+			"Bălți": {
+				Code: "BA",
+			},
+			"Cahul": {
+				Code: "CA",
+			},
+			"Cantemir": {
+				Code: "CT",
+			},
+			"Chișinău": {
+				Code: "CU",
+			},
+			"Cimișlia": {
+				Code: "CM",
+			},
+			"Criuleni": {
+				Code: "CR",
+			},
+			"Călărași": {
+				Code: "CL",
+			},
+			"Căușeni": {
+				Code: "CS",
+			},
+			"Dondușeni": {
+				Code: "DO",
+			},
+			"Drochia": {
+				Code: "DR",
+			},
+			"Dubăsari": {
+				Code: "DU",
+			},
+			"Edineț": {
+				Code: "ED",
+			},
+			"Florești": {
+				Code: "FL",
+			},
+			"Fălești": {
+				Code: "FA",
+			},
+			"Glodeni": {
+				Code: "GL",
+			},
+			"Găgăuzia, Unitatea teritorială autonomă (UTAG)": {
+				Code: "GA",
+			},
+			"Hîncești": {
+				Code: "HI",
+			},
+			"Ialoveni": {
+				Code: "IA",
+			},
+			"Leova": {
+				Code: "LE",
+			},
+			"Nisporeni": {
+				Code: "NI",
+			},
+			"Ocnița": {
+				Code: "OC",
+			},
+			"Orhei": {
+				Code: "OR",
+			},
+			"Rezina": {
+				Code: "RE",
+			},
+			"Rîșcani": {
+				Code: "RI",
+			},
+			"Soroca": {
+				Code: "SO",
+			},
+			"Strășeni": {
+				Code: "ST",
+			},
+			"Stînga Nistrului, unitatea teritorială din": {
+				Code: "SN",
+			},
+			"Sîngerei": {
+				Code: "SI",
+			},
+			"Taraclia": {
+				Code: "TA",
+			},
+			"Telenești": {
+				Code: "TE",
+			},
+			"Ungheni": {
+				Code: "UN",
+			},
+			"Șoldănești": {
+				Code: "SD",
+			},
+			"Ștefan Vodă": {
+				Code: "SV",
+			},
+		},
 	},
 
 	"ME": {
@@ -1679,6 +28685,230 @@ var CountryStates = map[string]Country{
 		OfficialName: "Montenegro",
 		CommonName:   "",
 		Numeric:      "499",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Andrijevica",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"02": {
+				Name:         "Bar",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"03": {
+				Name:         "Berane",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"04": {
+				Name:         "Bijelo Polje",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"05": {
+				Name:         "Budva",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"06": {
+				Name:         "Cetinje",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"07": {
+				Name:         "Danilovgrad",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"08": {
+				Name:         "Herceg-Novi",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"09": {
+				Name:         "Kolašin",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"10": {
+				Name:         "Kotor",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"11": {
+				Name:         "Mojkovac",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"12": {
+				Name:         "Nikšić",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"13": {
+				Name:         "Plav",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"14": {
+				Name:         "Pljevlja",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"15": {
+				Name:         "Plužine",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"16": {
+				Name:         "Podgorica",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"17": {
+				Name:         "Rožaje",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"18": {
+				Name:         "Šavnik",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"19": {
+				Name:         "Tivat",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"20": {
+				Name:         "Ulcinj",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"21": {
+				Name:         "Žabljak",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"22": {
+				Name:         "Gusinje",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"23": {
+				Name:         "Petnjica",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"24": {
+				Name:         "Tuzi",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Andrijevica": {
+				Code: "01",
+			},
+			"Bar": {
+				Code: "02",
+			},
+			"Berane": {
+				Code: "03",
+			},
+			"Bijelo Polje": {
+				Code: "04",
+			},
+			"Budva": {
+				Code: "05",
+			},
+			"Cetinje": {
+				Code: "06",
+			},
+			"Danilovgrad": {
+				Code: "07",
+			},
+			"Gusinje": {
+				Code: "22",
+			},
+			"Herceg-Novi": {
+				Code: "08",
+			},
+			"Kolašin": {
+				Code: "09",
+			},
+			"Kotor": {
+				Code: "10",
+			},
+			"Mojkovac": {
+				Code: "11",
+			},
+			"Nikšić": {
+				Code: "12",
+			},
+			"Petnjica": {
+				Code: "23",
+			},
+			"Plav": {
+				Code: "13",
+			},
+			"Pljevlja": {
+				Code: "14",
+			},
+			"Plužine": {
+				Code: "15",
+			},
+			"Podgorica": {
+				Code: "16",
+			},
+			"Rožaje": {
+				Code: "17",
+			},
+			"Tivat": {
+				Code: "19",
+			},
+			"Tuzi": {
+				Code: "24",
+			},
+			"Ulcinj": {
+				Code: "20",
+			},
+			"Šavnik": {
+				Code: "18",
+			},
+			"Žabljak": {
+				Code: "21",
+			},
+		},
 	},
 
 	"MF": {
@@ -1697,6 +28927,68 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Madagascar",
 		CommonName:   "",
 		Numeric:      "450",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"A": {
+				Name:         "Toamasina",
+				LocalName:    "",
+				LanguageCode: "mg",
+				Type:         "province",
+			},
+			"D": {
+				Name:         "Antsiranana",
+				LocalName:    "",
+				LanguageCode: "mg",
+				Type:         "province",
+			},
+			"F": {
+				Name:         "Fianarantsoa",
+				LocalName:    "",
+				LanguageCode: "mg",
+				Type:         "province",
+			},
+			"M": {
+				Name:         "Mahajanga",
+				LocalName:    "",
+				LanguageCode: "mg",
+				Type:         "province",
+			},
+			"T": {
+				Name:         "Antananarivo",
+				LocalName:    "",
+				LanguageCode: "mg",
+				Type:         "province",
+			},
+			"U": {
+				Name:         "Toliara",
+				LocalName:    "",
+				LanguageCode: "mg",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Antananarivo": {
+				Code: "T",
+			},
+			"Antsiranana": {
+				Code: "D",
+			},
+			"Fianarantsoa": {
+				Code: "F",
+			},
+			"Mahajanga": {
+				Code: "M",
+			},
+			"Toamasina": {
+				Code: "A",
+			},
+			"Toliara": {
+				Code: "U",
+			},
+		},
 	},
 
 	"MH": {
@@ -1706,6 +28998,264 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of the Marshall Islands",
 		CommonName:   "",
 		Numeric:      "584",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"L": {
+				Name:         "Ralik chain",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "chain (of islands)",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"ALL": {
+						Name:         "Ailinglaplap",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"EBO": {
+						Name:         "Ebon",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"ENI": {
+						Name:         "Enewetak & Ujelang",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"JAB": {
+						Name:         "Jabat",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"JAL": {
+						Name:         "Jaluit",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"KIL": {
+						Name:         "Bikini & Kili",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"KWA": {
+						Name:         "Kwajalein",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"LAE": {
+						Name:         "Lae",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"LIB": {
+						Name:         "Lib",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"NMK": {
+						Name:         "Namdrik",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"NMU": {
+						Name:         "Namu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"RON": {
+						Name:         "Rongelap",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"UJA": {
+						Name:         "Ujae",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"WTH": {
+						Name:         "Wotho",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+				},
+			},
+			"T": {
+				Name:         "Ratak chain",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "chain (of islands)",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"ALK": {
+						Name:         "Ailuk",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"ARN": {
+						Name:         "Arno",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"AUR": {
+						Name:         "Aur",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"LIK": {
+						Name:         "Likiep",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"MAJ": {
+						Name:         "Majuro",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"MAL": {
+						Name:         "Maloelap",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"MEJ": {
+						Name:         "Mejit",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"MIL": {
+						Name:         "Mili",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"UTI": {
+						Name:         "Utrik",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+					"WTJ": {
+						Name:         "Wotje",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "municipality",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ralik chain": {
+				Code: "L",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Ailinglaplap": {
+						Code: "ALL",
+					},
+					"Bikini & Kili": {
+						Code: "KIL",
+					},
+					"Ebon": {
+						Code: "EBO",
+					},
+					"Enewetak & Ujelang": {
+						Code: "ENI",
+					},
+					"Jabat": {
+						Code: "JAB",
+					},
+					"Jaluit": {
+						Code: "JAL",
+					},
+					"Kwajalein": {
+						Code: "KWA",
+					},
+					"Lae": {
+						Code: "LAE",
+					},
+					"Lib": {
+						Code: "LIB",
+					},
+					"Namdrik": {
+						Code: "NMK",
+					},
+					"Namu": {
+						Code: "NMU",
+					},
+					"Rongelap": {
+						Code: "RON",
+					},
+					"Ujae": {
+						Code: "UJA",
+					},
+					"Wotho": {
+						Code: "WTH",
+					},
+				},
+			},
+			"Ratak chain": {
+				Code: "T",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Ailuk": {
+						Code: "ALK",
+					},
+					"Arno": {
+						Code: "ARN",
+					},
+					"Aur": {
+						Code: "AUR",
+					},
+					"Likiep": {
+						Code: "LIK",
+					},
+					"Majuro": {
+						Code: "MAJ",
+					},
+					"Maloelap": {
+						Code: "MAL",
+					},
+					"Mejit": {
+						Code: "MEJ",
+					},
+					"Mili": {
+						Code: "MIL",
+					},
+					"Utrik": {
+						Code: "UTI",
+					},
+					"Wotje": {
+						Code: "WTJ",
+					},
+				},
+			},
+		},
 	},
 
 	"MK": {
@@ -1715,6 +29265,734 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of North Macedonia",
 		CommonName:   "",
 		Numeric:      "807",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"101": {
+				Name:         "Veles",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"102": {
+				Name:         "Gradsko",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"103": {
+				Name:         "Demir Kapija",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"104": {
+				Name:         "Kavadarci",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"105": {
+				Name:         "Lozovo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"106": {
+				Name:         "Negotino",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"107": {
+				Name:         "Rosoman",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"108": {
+				Name:         "Sveti Nikole",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"109": {
+				Name:         "Čaška",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"201": {
+				Name:         "Berovo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"202": {
+				Name:         "Vinica",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"203": {
+				Name:         "Delčevo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"204": {
+				Name:         "Zrnovci",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"205": {
+				Name:         "Karbinci",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"206": {
+				Name:         "Kočani",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"207": {
+				Name:         "Makedonska Kamenica",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"208": {
+				Name:         "Pehčevo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"209": {
+				Name:         "Probištip",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"210": {
+				Name:         "Češinovo-Obleševo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"211": {
+				Name:         "Štip",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"301": {
+				Name:         "Vevčani",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"303": {
+				Name:         "Debar",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"304": {
+				Name:         "Debrca",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"307": {
+				Name:         "Kičevo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"308": {
+				Name:         "Makedonski Brod",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"310": {
+				Name:         "Ohrid",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"311": {
+				Name:         "Plasnica",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"312": {
+				Name:         "Struga",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"313": {
+				Name:         "Centar Župa",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"401": {
+				Name:         "Bogdanci",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"402": {
+				Name:         "Bosilovo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"403": {
+				Name:         "Valandovo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"404": {
+				Name:         "Vasilevo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"405": {
+				Name:         "Gevgelija",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"406": {
+				Name:         "Dojran",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"407": {
+				Name:         "Konče",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"408": {
+				Name:         "Novo Selo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"409": {
+				Name:         "Radoviš",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"410": {
+				Name:         "Strumica",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"501": {
+				Name:         "Bitola",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"502": {
+				Name:         "Demir Hisar",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"503": {
+				Name:         "Dolneni",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"504": {
+				Name:         "Krivogaštani",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"505": {
+				Name:         "Kruševo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"506": {
+				Name:         "Mogila",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"507": {
+				Name:         "Novaci",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"508": {
+				Name:         "Prilep",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"509": {
+				Name:         "Resen",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"601": {
+				Name:         "Bogovinje",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"602": {
+				Name:         "Brvenica",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"603": {
+				Name:         "Vrapčište",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"604": {
+				Name:         "Gostivar",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"605": {
+				Name:         "Želino",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"606": {
+				Name:         "Jegunovce",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"607": {
+				Name:         "Mavrovo i Rostuše",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"608": {
+				Name:         "Tearce",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"609": {
+				Name:         "Tetovo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"701": {
+				Name:         "Kratovo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"702": {
+				Name:         "Kriva Palanka",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"703": {
+				Name:         "Kumanovo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"704": {
+				Name:         "Lipkovo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"705": {
+				Name:         "Rankovce",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"706": {
+				Name:         "Staro Nagoričane",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"801": {
+				Name:         "Aerodrom †",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"802": {
+				Name:         "Aračinovo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"803": {
+				Name:         "Butel †",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"804": {
+				Name:         "Gazi Baba †",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"805": {
+				Name:         "Gjorče Petrov †",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"806": {
+				Name:         "Zelenikovo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"807": {
+				Name:         "Ilinden",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"808": {
+				Name:         "Karpoš †",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"809": {
+				Name:         "Kisela Voda †",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"810": {
+				Name:         "Petrovec",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"811": {
+				Name:         "Saraj †",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"812": {
+				Name:         "Sopište",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"813": {
+				Name:         "Studeničani",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"814": {
+				Name:         "Centar †",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"815": {
+				Name:         "Čair †",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"816": {
+				Name:         "Čučer-Sandevo",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+			"817": {
+				Name:         "Šuto Orizari †",
+				LocalName:    "",
+				LanguageCode: "mk",
+				Type:         "municipality",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aerodrom †": {
+				Code: "801",
+			},
+			"Aračinovo": {
+				Code: "802",
+			},
+			"Berovo": {
+				Code: "201",
+			},
+			"Bitola": {
+				Code: "501",
+			},
+			"Bogdanci": {
+				Code: "401",
+			},
+			"Bogovinje": {
+				Code: "601",
+			},
+			"Bosilovo": {
+				Code: "402",
+			},
+			"Brvenica": {
+				Code: "602",
+			},
+			"Butel †": {
+				Code: "803",
+			},
+			"Centar Župa": {
+				Code: "313",
+			},
+			"Centar †": {
+				Code: "814",
+			},
+			"Debar": {
+				Code: "303",
+			},
+			"Debrca": {
+				Code: "304",
+			},
+			"Delčevo": {
+				Code: "203",
+			},
+			"Demir Hisar": {
+				Code: "502",
+			},
+			"Demir Kapija": {
+				Code: "103",
+			},
+			"Dojran": {
+				Code: "406",
+			},
+			"Dolneni": {
+				Code: "503",
+			},
+			"Gazi Baba †": {
+				Code: "804",
+			},
+			"Gevgelija": {
+				Code: "405",
+			},
+			"Gjorče Petrov †": {
+				Code: "805",
+			},
+			"Gostivar": {
+				Code: "604",
+			},
+			"Gradsko": {
+				Code: "102",
+			},
+			"Ilinden": {
+				Code: "807",
+			},
+			"Jegunovce": {
+				Code: "606",
+			},
+			"Karbinci": {
+				Code: "205",
+			},
+			"Karpoš †": {
+				Code: "808",
+			},
+			"Kavadarci": {
+				Code: "104",
+			},
+			"Kisela Voda †": {
+				Code: "809",
+			},
+			"Kičevo": {
+				Code: "307",
+			},
+			"Konče": {
+				Code: "407",
+			},
+			"Kočani": {
+				Code: "206",
+			},
+			"Kratovo": {
+				Code: "701",
+			},
+			"Kriva Palanka": {
+				Code: "702",
+			},
+			"Krivogaštani": {
+				Code: "504",
+			},
+			"Kruševo": {
+				Code: "505",
+			},
+			"Kumanovo": {
+				Code: "703",
+			},
+			"Lipkovo": {
+				Code: "704",
+			},
+			"Lozovo": {
+				Code: "105",
+			},
+			"Makedonska Kamenica": {
+				Code: "207",
+			},
+			"Makedonski Brod": {
+				Code: "308",
+			},
+			"Mavrovo i Rostuše": {
+				Code: "607",
+			},
+			"Mogila": {
+				Code: "506",
+			},
+			"Negotino": {
+				Code: "106",
+			},
+			"Novaci": {
+				Code: "507",
+			},
+			"Novo Selo": {
+				Code: "408",
+			},
+			"Ohrid": {
+				Code: "310",
+			},
+			"Pehčevo": {
+				Code: "208",
+			},
+			"Petrovec": {
+				Code: "810",
+			},
+			"Plasnica": {
+				Code: "311",
+			},
+			"Prilep": {
+				Code: "508",
+			},
+			"Probištip": {
+				Code: "209",
+			},
+			"Radoviš": {
+				Code: "409",
+			},
+			"Rankovce": {
+				Code: "705",
+			},
+			"Resen": {
+				Code: "509",
+			},
+			"Rosoman": {
+				Code: "107",
+			},
+			"Saraj †": {
+				Code: "811",
+			},
+			"Sopište": {
+				Code: "812",
+			},
+			"Staro Nagoričane": {
+				Code: "706",
+			},
+			"Struga": {
+				Code: "312",
+			},
+			"Strumica": {
+				Code: "410",
+			},
+			"Studeničani": {
+				Code: "813",
+			},
+			"Sveti Nikole": {
+				Code: "108",
+			},
+			"Tearce": {
+				Code: "608",
+			},
+			"Tetovo": {
+				Code: "609",
+			},
+			"Valandovo": {
+				Code: "403",
+			},
+			"Vasilevo": {
+				Code: "404",
+			},
+			"Veles": {
+				Code: "101",
+			},
+			"Vevčani": {
+				Code: "301",
+			},
+			"Vinica": {
+				Code: "202",
+			},
+			"Vrapčište": {
+				Code: "603",
+			},
+			"Zelenikovo": {
+				Code: "806",
+			},
+			"Zrnovci": {
+				Code: "204",
+			},
+			"Čair †": {
+				Code: "815",
+			},
+			"Čaška": {
+				Code: "109",
+			},
+			"Češinovo-Obleševo": {
+				Code: "210",
+			},
+			"Čučer-Sandevo": {
+				Code: "816",
+			},
+			"Štip": {
+				Code: "211",
+			},
+			"Šuto Orizari †": {
+				Code: "817",
+			},
+			"Želino": {
+				Code: "605",
+			},
+		},
 	},
 
 	"ML": {
@@ -1724,6 +30002,113 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Mali",
 		CommonName:   "",
 		Numeric:      "466",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"1": {
+				Name:         "Kayes",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"10": {
+				Name:         "Taoudénit",
+				LocalName:    "Taoudenni; Taoudéni",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"2": {
+				Name:         "Koulikoro",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"3": {
+				Name:         "Sikasso",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"4": {
+				Name:         "Ségou",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"5": {
+				Name:         "Mopti",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"6": {
+				Name:         "Tombouctou",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"7": {
+				Name:         "Gao",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"8": {
+				Name:         "Kidal",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"9": {
+				Name:         "Ménaka",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"BKO": {
+				Name:         "Bamako",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bamako": {
+				Code: "BKO",
+			},
+			"Gao": {
+				Code: "7",
+			},
+			"Kayes": {
+				Code: "1",
+			},
+			"Kidal": {
+				Code: "8",
+			},
+			"Koulikoro": {
+				Code: "2",
+			},
+			"Mopti": {
+				Code: "5",
+			},
+			"Ménaka": {
+				Code: "9",
+			},
+			"Sikasso": {
+				Code: "3",
+			},
+			"Ségou": {
+				Code: "4",
+			},
+			"Taoudénit": {
+				Code: "10",
+			},
+			"Tombouctou": {
+				Code: "6",
+			},
+		},
 	},
 
 	"MM": {
@@ -1733,6 +30118,149 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Myanmar",
 		CommonName:   "",
 		Numeric:      "104",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Sagaing",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "region",
+			},
+			"02": {
+				Name:         "Bago",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "region",
+			},
+			"03": {
+				Name:         "Magway",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "region",
+			},
+			"04": {
+				Name:         "Mandalay",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "region",
+			},
+			"05": {
+				Name:         "Tanintharyi",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "region",
+			},
+			"06": {
+				Name:         "Yangon",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "region",
+			},
+			"07": {
+				Name:         "Ayeyarwady",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "region",
+			},
+			"11": {
+				Name:         "Kachin",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "state",
+			},
+			"12": {
+				Name:         "Kayah",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "state",
+			},
+			"13": {
+				Name:         "Kayin",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "state",
+			},
+			"14": {
+				Name:         "Chin",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "state",
+			},
+			"15": {
+				Name:         "Mon",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "state",
+			},
+			"16": {
+				Name:         "Rakhine",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "state",
+			},
+			"17": {
+				Name:         "Shan",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "state",
+			},
+			"18": {
+				Name:         "Nay Pyi Taw",
+				LocalName:    "",
+				LanguageCode: "my",
+				Type:         "union territory",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ayeyarwady": {
+				Code: "07",
+			},
+			"Bago": {
+				Code: "02",
+			},
+			"Chin": {
+				Code: "14",
+			},
+			"Kachin": {
+				Code: "11",
+			},
+			"Kayah": {
+				Code: "12",
+			},
+			"Kayin": {
+				Code: "13",
+			},
+			"Magway": {
+				Code: "03",
+			},
+			"Mandalay": {
+				Code: "04",
+			},
+			"Mon": {
+				Code: "15",
+			},
+			"Nay Pyi Taw": {
+				Code: "18",
+			},
+			"Rakhine": {
+				Code: "16",
+			},
+			"Sagaing": {
+				Code: "01",
+			},
+			"Shan": {
+				Code: "17",
+			},
+			"Tanintharyi": {
+				Code: "05",
+			},
+			"Yangon": {
+				Code: "06",
+			},
+		},
 	},
 
 	"MN": {
@@ -1742,6 +30270,212 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "496",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"035": {
+				Name:         "Orhon",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"037": {
+				Name:         "Darhan uul",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"039": {
+				Name:         "Hentiy",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"041": {
+				Name:         "Hövsgöl",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"043": {
+				Name:         "Hovd",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"046": {
+				Name:         "Uvs",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"047": {
+				Name:         "Töv",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"049": {
+				Name:         "Selenge",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"051": {
+				Name:         "Sühbaatar",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"053": {
+				Name:         "Ömnögovĭ",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"055": {
+				Name:         "Övörhangay",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"057": {
+				Name:         "Dzavhan",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"059": {
+				Name:         "Dundgovĭ",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"061": {
+				Name:         "Dornod",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"063": {
+				Name:         "Dornogovĭ",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"064": {
+				Name:         "Govĭ-Sümber",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"065": {
+				Name:         "Govĭ-Altay",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"067": {
+				Name:         "Bulgan",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"069": {
+				Name:         "Bayanhongor",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"071": {
+				Name:         "Bayan-Ölgiy",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"073": {
+				Name:         "Arhangay",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "province",
+			},
+			"1": {
+				Name:         "Ulaanbaatar",
+				LocalName:    "",
+				LanguageCode: "mn",
+				Type:         "capital city",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Arhangay": {
+				Code: "073",
+			},
+			"Bayan-Ölgiy": {
+				Code: "071",
+			},
+			"Bayanhongor": {
+				Code: "069",
+			},
+			"Bulgan": {
+				Code: "067",
+			},
+			"Darhan uul": {
+				Code: "037",
+			},
+			"Dornod": {
+				Code: "061",
+			},
+			"Dornogovĭ": {
+				Code: "063",
+			},
+			"Dundgovĭ": {
+				Code: "059",
+			},
+			"Dzavhan": {
+				Code: "057",
+			},
+			"Govĭ-Altay": {
+				Code: "065",
+			},
+			"Govĭ-Sümber": {
+				Code: "064",
+			},
+			"Hentiy": {
+				Code: "039",
+			},
+			"Hovd": {
+				Code: "043",
+			},
+			"Hövsgöl": {
+				Code: "041",
+			},
+			"Orhon": {
+				Code: "035",
+			},
+			"Selenge": {
+				Code: "049",
+			},
+			"Sühbaatar": {
+				Code: "051",
+			},
+			"Töv": {
+				Code: "047",
+			},
+			"Ulaanbaatar": {
+				Code: "1",
+			},
+			"Uvs": {
+				Code: "046",
+			},
+			"Ömnögovĭ": {
+				Code: "053",
+			},
+			"Övörhangay": {
+				Code: "055",
+			},
+		},
 	},
 
 	"MO": {
@@ -1778,6 +30512,149 @@ var CountryStates = map[string]Country{
 		OfficialName: "Islamic Republic of Mauritania",
 		CommonName:   "",
 		Numeric:      "478",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Hodh ech Chargui",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"02": {
+				Name:         "Hodh el Gharbi",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"03": {
+				Name:         "Assaba",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"04": {
+				Name:         "Gorgol",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"05": {
+				Name:         "Brakna",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"06": {
+				Name:         "Trarza",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"07": {
+				Name:         "Adrar",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"08": {
+				Name:         "Dakhlet Nouâdhibou",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"09": {
+				Name:         "Tagant",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"10": {
+				Name:         "Guidimaka",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"11": {
+				Name:         "Tiris Zemmour",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"12": {
+				Name:         "Inchiri",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"13": {
+				Name:         "Nuwākshūţ al Gharbīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"14": {
+				Name:         "Nuwākshūţ ash Shamālīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"15": {
+				Name:         "Nuwākshūţ al Janūbīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Adrar": {
+				Code: "07",
+			},
+			"Assaba": {
+				Code: "03",
+			},
+			"Brakna": {
+				Code: "05",
+			},
+			"Dakhlet Nouâdhibou": {
+				Code: "08",
+			},
+			"Gorgol": {
+				Code: "04",
+			},
+			"Guidimaka": {
+				Code: "10",
+			},
+			"Hodh ech Chargui": {
+				Code: "01",
+			},
+			"Hodh el Gharbi": {
+				Code: "02",
+			},
+			"Inchiri": {
+				Code: "12",
+			},
+			"Nuwākshūţ al Gharbīyah": {
+				Code: "13",
+			},
+			"Nuwākshūţ al Janūbīyah": {
+				Code: "15",
+			},
+			"Nuwākshūţ ash Shamālīyah": {
+				Code: "14",
+			},
+			"Tagant": {
+				Code: "09",
+			},
+			"Tiris Zemmour": {
+				Code: "11",
+			},
+			"Trarza": {
+				Code: "06",
+			},
+		},
 	},
 
 	"MS": {
@@ -1796,6 +30673,626 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Malta",
 		CommonName:   "",
 		Numeric:      "470",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Attard",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"02": {
+				Name:         "Balzan",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"03": {
+				Name:         "Birgu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"04": {
+				Name:         "Birkirkara",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"05": {
+				Name:         "Birżebbuġa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"06": {
+				Name:         "Bormla",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"07": {
+				Name:         "Dingli",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"08": {
+				Name:         "Fgura",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"09": {
+				Name:         "Floriana",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"10": {
+				Name:         "Fontana",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"11": {
+				Name:         "Gudja",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"12": {
+				Name:         "Gżira",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"13": {
+				Name:         "Għajnsielem",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"14": {
+				Name:         "Għarb",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"15": {
+				Name:         "Għargħur",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"16": {
+				Name:         "Għasri",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"17": {
+				Name:         "Għaxaq",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"18": {
+				Name:         "Ħamrun",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"19": {
+				Name:         "Iklin",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"20": {
+				Name:         "Isla",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"21": {
+				Name:         "Kalkara",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"22": {
+				Name:         "Kerċem",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"23": {
+				Name:         "Kirkop",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"24": {
+				Name:         "Lija",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"25": {
+				Name:         "Luqa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"26": {
+				Name:         "Marsa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"27": {
+				Name:         "Marsaskala",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"28": {
+				Name:         "Marsaxlokk",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"29": {
+				Name:         "Mdina",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"30": {
+				Name:         "Mellieħa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"31": {
+				Name:         "Mġarr",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"32": {
+				Name:         "Mosta",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"33": {
+				Name:         "Mqabba",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"34": {
+				Name:         "Msida",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"35": {
+				Name:         "Mtarfa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"36": {
+				Name:         "Munxar",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"37": {
+				Name:         "Nadur",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"38": {
+				Name:         "Naxxar",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"39": {
+				Name:         "Paola",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"40": {
+				Name:         "Pembroke",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"41": {
+				Name:         "Pietà",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"42": {
+				Name:         "Qala",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"43": {
+				Name:         "Qormi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"44": {
+				Name:         "Qrendi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"45": {
+				Name:         "Rabat Gozo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"46": {
+				Name:         "Rabat Malta",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"47": {
+				Name:         "Safi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"48": {
+				Name:         "Saint Julian's",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"49": {
+				Name:         "Saint John",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"50": {
+				Name:         "Saint Lawrence",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"51": {
+				Name:         "Saint Paul's Bay",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"52": {
+				Name:         "Sannat",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"53": {
+				Name:         "Saint Lucia's",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"54": {
+				Name:         "Santa Venera",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"55": {
+				Name:         "Siġġiewi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"56": {
+				Name:         "Sliema",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"57": {
+				Name:         "Swieqi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"58": {
+				Name:         "Ta' Xbiex",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"59": {
+				Name:         "Tarxien",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"60": {
+				Name:         "Valletta",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"61": {
+				Name:         "Xagħra",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"62": {
+				Name:         "Xewkija",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"63": {
+				Name:         "Xgħajra",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"64": {
+				Name:         "Żabbar",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"65": {
+				Name:         "Żebbuġ Gozo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"66": {
+				Name:         "Żebbuġ Malta",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"67": {
+				Name:         "Żejtun",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+			"68": {
+				Name:         "Żurrieq",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "local council",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Attard": {
+				Code: "01",
+			},
+			"Balzan": {
+				Code: "02",
+			},
+			"Birgu": {
+				Code: "03",
+			},
+			"Birkirkara": {
+				Code: "04",
+			},
+			"Birżebbuġa": {
+				Code: "05",
+			},
+			"Bormla": {
+				Code: "06",
+			},
+			"Dingli": {
+				Code: "07",
+			},
+			"Fgura": {
+				Code: "08",
+			},
+			"Floriana": {
+				Code: "09",
+			},
+			"Fontana": {
+				Code: "10",
+			},
+			"Gudja": {
+				Code: "11",
+			},
+			"Għajnsielem": {
+				Code: "13",
+			},
+			"Għarb": {
+				Code: "14",
+			},
+			"Għargħur": {
+				Code: "15",
+			},
+			"Għasri": {
+				Code: "16",
+			},
+			"Għaxaq": {
+				Code: "17",
+			},
+			"Gżira": {
+				Code: "12",
+			},
+			"Iklin": {
+				Code: "19",
+			},
+			"Isla": {
+				Code: "20",
+			},
+			"Kalkara": {
+				Code: "21",
+			},
+			"Kerċem": {
+				Code: "22",
+			},
+			"Kirkop": {
+				Code: "23",
+			},
+			"Lija": {
+				Code: "24",
+			},
+			"Luqa": {
+				Code: "25",
+			},
+			"Marsa": {
+				Code: "26",
+			},
+			"Marsaskala": {
+				Code: "27",
+			},
+			"Marsaxlokk": {
+				Code: "28",
+			},
+			"Mdina": {
+				Code: "29",
+			},
+			"Mellieħa": {
+				Code: "30",
+			},
+			"Mosta": {
+				Code: "32",
+			},
+			"Mqabba": {
+				Code: "33",
+			},
+			"Msida": {
+				Code: "34",
+			},
+			"Mtarfa": {
+				Code: "35",
+			},
+			"Munxar": {
+				Code: "36",
+			},
+			"Mġarr": {
+				Code: "31",
+			},
+			"Nadur": {
+				Code: "37",
+			},
+			"Naxxar": {
+				Code: "38",
+			},
+			"Paola": {
+				Code: "39",
+			},
+			"Pembroke": {
+				Code: "40",
+			},
+			"Pietà": {
+				Code: "41",
+			},
+			"Qala": {
+				Code: "42",
+			},
+			"Qormi": {
+				Code: "43",
+			},
+			"Qrendi": {
+				Code: "44",
+			},
+			"Rabat Gozo": {
+				Code: "45",
+			},
+			"Rabat Malta": {
+				Code: "46",
+			},
+			"Safi": {
+				Code: "47",
+			},
+			"Saint John": {
+				Code: "49",
+			},
+			"Saint Julian's": {
+				Code: "48",
+			},
+			"Saint Lawrence": {
+				Code: "50",
+			},
+			"Saint Lucia's": {
+				Code: "53",
+			},
+			"Saint Paul's Bay": {
+				Code: "51",
+			},
+			"Sannat": {
+				Code: "52",
+			},
+			"Santa Venera": {
+				Code: "54",
+			},
+			"Siġġiewi": {
+				Code: "55",
+			},
+			"Sliema": {
+				Code: "56",
+			},
+			"Swieqi": {
+				Code: "57",
+			},
+			"Ta' Xbiex": {
+				Code: "58",
+			},
+			"Tarxien": {
+				Code: "59",
+			},
+			"Valletta": {
+				Code: "60",
+			},
+			"Xagħra": {
+				Code: "61",
+			},
+			"Xewkija": {
+				Code: "62",
+			},
+			"Xgħajra": {
+				Code: "63",
+			},
+			"Ħamrun": {
+				Code: "18",
+			},
+			"Żabbar": {
+				Code: "64",
+			},
+			"Żebbuġ Gozo": {
+				Code: "65",
+			},
+			"Żebbuġ Malta": {
+				Code: "66",
+			},
+			"Żejtun": {
+				Code: "67",
+			},
+			"Żurrieq": {
+				Code: "68",
+			},
+		},
 	},
 
 	"MU": {
@@ -1805,6 +31302,164 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Mauritius",
 		CommonName:   "",
 		Numeric:      "480",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AG": {
+				Name:         "Agalega Islands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "dependency",
+			},
+			"BL": {
+				Name:         "Black River",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"BR": {
+				Name:         "Beau Bassin-Rose Hill",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "city",
+			},
+			"CC": {
+				Name:         "Cargados Carajos Shoals",
+				LocalName:    "Saint Brandon Islands",
+				LanguageCode: "en",
+				Type:         "dependency",
+			},
+			"CU": {
+				Name:         "Curepipe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "city",
+			},
+			"FL": {
+				Name:         "Flacq",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"GP": {
+				Name:         "Grand Port",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"MO": {
+				Name:         "Moka",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"PA": {
+				Name:         "Pamplemousses",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"PL": {
+				Name:         "Port Louis",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"PU": {
+				Name:         "Port Louis",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "city",
+			},
+			"PW": {
+				Name:         "Plaines Wilhems",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"QB": {
+				Name:         "Quatre Bornes",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "city",
+			},
+			"RO": {
+				Name:         "Rodrigues Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "dependency",
+			},
+			"RR": {
+				Name:         "Rivière du Rempart",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"SA": {
+				Name:         "Savanne",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"VP": {
+				Name:         "Vacoas-Phoenix",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "city",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Agalega Islands": {
+				Code: "AG",
+			},
+			"Beau Bassin-Rose Hill": {
+				Code: "BR",
+			},
+			"Black River": {
+				Code: "BL",
+			},
+			"Cargados Carajos Shoals": {
+				Code: "CC",
+			},
+			"Curepipe": {
+				Code: "CU",
+			},
+			"Flacq": {
+				Code: "FL",
+			},
+			"Grand Port": {
+				Code: "GP",
+			},
+			"Moka": {
+				Code: "MO",
+			},
+			"Pamplemousses": {
+				Code: "PA",
+			},
+			"Plaines Wilhems": {
+				Code: "PW",
+			},
+			"Port Louis": {
+				Code: "PL",
+			},
+			"Quatre Bornes": {
+				Code: "QB",
+			},
+			"Rivière du Rempart": {
+				Code: "RR",
+			},
+			"Rodrigues Island": {
+				Code: "RO",
+			},
+			"Savanne": {
+				Code: "SA",
+			},
+			"Vacoas-Phoenix": {
+				Code: "VP",
+			},
+		},
 	},
 
 	"MV": {
@@ -1814,6 +31469,203 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Maldives",
 		CommonName:   "",
 		Numeric:      "462",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"00": {
+				Name:         "South Ari Atoll",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"01": {
+				Name:         "Addu City",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "city",
+			},
+			"02": {
+				Name:         "North Ari Atoll",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"03": {
+				Name:         "Faadhippolhu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"04": {
+				Name:         "Felidhu Atoll",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"05": {
+				Name:         "Hahdhunmathi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"07": {
+				Name:         "North Thiladhunmathi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"08": {
+				Name:         "Kolhumadulu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"12": {
+				Name:         "Mulaku Atoll",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"13": {
+				Name:         "North Maalhosmadulu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"14": {
+				Name:         "North Nilandhe Atoll",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"17": {
+				Name:         "South Nilandhe Atoll",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"20": {
+				Name:         "South Maalhosmadulu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"23": {
+				Name:         "South Thiladhunmathi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"24": {
+				Name:         "North Miladhunmadulu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"25": {
+				Name:         "South Miladhunmadulu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"26": {
+				Name:         "Male Atoll",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"27": {
+				Name:         "North Huvadhu Atoll",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"28": {
+				Name:         "South Huvadhu Atoll",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"29": {
+				Name:         "Fuvammulah",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "administrative atoll",
+			},
+			"MLE": {
+				Name:         "Male",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "city",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Addu City": {
+				Code: "01",
+			},
+			"Faadhippolhu": {
+				Code: "03",
+			},
+			"Felidhu Atoll": {
+				Code: "04",
+			},
+			"Fuvammulah": {
+				Code: "29",
+			},
+			"Hahdhunmathi": {
+				Code: "05",
+			},
+			"Kolhumadulu": {
+				Code: "08",
+			},
+			"Male": {
+				Code: "MLE",
+			},
+			"Male Atoll": {
+				Code: "26",
+			},
+			"Mulaku Atoll": {
+				Code: "12",
+			},
+			"North Ari Atoll": {
+				Code: "02",
+			},
+			"North Huvadhu Atoll": {
+				Code: "27",
+			},
+			"North Maalhosmadulu": {
+				Code: "13",
+			},
+			"North Miladhunmadulu": {
+				Code: "24",
+			},
+			"North Nilandhe Atoll": {
+				Code: "14",
+			},
+			"North Thiladhunmathi": {
+				Code: "07",
+			},
+			"South Ari Atoll": {
+				Code: "00",
+			},
+			"South Huvadhu Atoll": {
+				Code: "28",
+			},
+			"South Maalhosmadulu": {
+				Code: "20",
+			},
+			"South Miladhunmadulu": {
+				Code: "25",
+			},
+			"South Nilandhe Atoll": {
+				Code: "17",
+			},
+			"South Thiladhunmathi": {
+				Code: "23",
+			},
+		},
 	},
 
 	"MW": {
@@ -1823,6 +31675,317 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Malawi",
 		CommonName:   "",
 		Numeric:      "454",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"C": {
+				Name:         "Central Region",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"DE": {
+						Name:         "Dedza",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"DO": {
+						Name:         "Dowa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"KS": {
+						Name:         "Kasungu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"LI": {
+						Name:         "Lilongwe",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"MC": {
+						Name:         "Mchinji",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"NI": {
+						Name:         "Ntchisi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"NK": {
+						Name:         "Nkhotakota",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"NU": {
+						Name:         "Ntcheu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"SA": {
+						Name:         "Salima",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"N": {
+				Name:         "Northern Region",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"CT": {
+						Name:         "Chitipa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"KR": {
+						Name:         "Karonga",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"LK": {
+						Name:         "Likoma",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"MZ": {
+						Name:         "Mzimba",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"NB": {
+						Name:         "Nkhata Bay",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"RU": {
+						Name:         "Rumphi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"S": {
+				Name:         "Southern Region",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BA": {
+						Name:         "Balaka",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"BL": {
+						Name:         "Blantyre",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"CK": {
+						Name:         "Chikwawa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"CR": {
+						Name:         "Chiradzulu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"MG": {
+						Name:         "Mangochi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"MH": {
+						Name:         "Machinga",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"MU": {
+						Name:         "Mulanje",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"MW": {
+						Name:         "Mwanza",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"NE": {
+						Name:         "Neno",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"NS": {
+						Name:         "Nsanje",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"PH": {
+						Name:         "Phalombe",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"TH": {
+						Name:         "Thyolo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"ZO": {
+						Name:         "Zomba",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Central Region": {
+				Code: "C",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Dedza": {
+						Code: "DE",
+					},
+					"Dowa": {
+						Code: "DO",
+					},
+					"Kasungu": {
+						Code: "KS",
+					},
+					"Lilongwe": {
+						Code: "LI",
+					},
+					"Mchinji": {
+						Code: "MC",
+					},
+					"Nkhotakota": {
+						Code: "NK",
+					},
+					"Ntcheu": {
+						Code: "NU",
+					},
+					"Ntchisi": {
+						Code: "NI",
+					},
+					"Salima": {
+						Code: "SA",
+					},
+				},
+			},
+			"Northern Region": {
+				Code: "N",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Chitipa": {
+						Code: "CT",
+					},
+					"Karonga": {
+						Code: "KR",
+					},
+					"Likoma": {
+						Code: "LK",
+					},
+					"Mzimba": {
+						Code: "MZ",
+					},
+					"Nkhata Bay": {
+						Code: "NB",
+					},
+					"Rumphi": {
+						Code: "RU",
+					},
+				},
+			},
+			"Southern Region": {
+				Code: "S",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Balaka": {
+						Code: "BA",
+					},
+					"Blantyre": {
+						Code: "BL",
+					},
+					"Chikwawa": {
+						Code: "CK",
+					},
+					"Chiradzulu": {
+						Code: "CR",
+					},
+					"Machinga": {
+						Code: "MH",
+					},
+					"Mangochi": {
+						Code: "MG",
+					},
+					"Mulanje": {
+						Code: "MU",
+					},
+					"Mwanza": {
+						Code: "MW",
+					},
+					"Neno": {
+						Code: "NE",
+					},
+					"Nsanje": {
+						Code: "NS",
+					},
+					"Phalombe": {
+						Code: "PH",
+					},
+					"Thyolo": {
+						Code: "TH",
+					},
+					"Zomba": {
+						Code: "ZO",
+					},
+				},
+			},
+		},
 	},
 
 	"MX": {
@@ -1832,6 +31995,302 @@ var CountryStates = map[string]Country{
 		OfficialName: "United Mexican States",
 		CommonName:   "",
 		Numeric:      "484",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AGU": {
+				Name:         "Aguascalientes",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"BCN": {
+				Name:         "Baja California",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"BCS": {
+				Name:         "Baja California Sur",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"CAM": {
+				Name:         "Campeche",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"CHH": {
+				Name:         "Chihuahua",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"CHP": {
+				Name:         "Chiapas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"CMX": {
+				Name:         "Ciudad de México",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "federal district",
+			},
+			"COA": {
+				Name:         "Coahuila de Zaragoza",
+				LocalName:    "Coahuila",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"COL": {
+				Name:         "Colima",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"DUR": {
+				Name:         "Durango",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"GRO": {
+				Name:         "Guerrero",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"GUA": {
+				Name:         "Guanajuato",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"HID": {
+				Name:         "Hidalgo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"JAL": {
+				Name:         "Jalisco",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"MEX": {
+				Name:         "México",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"MIC": {
+				Name:         "Michoacán de Ocampo",
+				LocalName:    "Michoacán",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"MOR": {
+				Name:         "Morelos",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"NAY": {
+				Name:         "Nayarit",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"NLE": {
+				Name:         "Nuevo León",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"OAX": {
+				Name:         "Oaxaca",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"PUE": {
+				Name:         "Puebla",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"QUE": {
+				Name:         "Querétaro",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"ROO": {
+				Name:         "Quintana Roo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"SIN": {
+				Name:         "Sinaloa",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"SLP": {
+				Name:         "San Luis Potosí",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"SON": {
+				Name:         "Sonora",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"TAB": {
+				Name:         "Tabasco",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"TAM": {
+				Name:         "Tamaulipas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"TLA": {
+				Name:         "Tlaxcala",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"VER": {
+				Name:         "Veracruz de Ignacio de la Llave",
+				LocalName:    "Veracruz",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"YUC": {
+				Name:         "Yucatán",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"ZAC": {
+				Name:         "Zacatecas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aguascalientes": {
+				Code: "AGU",
+			},
+			"Baja California": {
+				Code: "BCN",
+			},
+			"Baja California Sur": {
+				Code: "BCS",
+			},
+			"Campeche": {
+				Code: "CAM",
+			},
+			"Chiapas": {
+				Code: "CHP",
+			},
+			"Chihuahua": {
+				Code: "CHH",
+			},
+			"Ciudad de México": {
+				Code: "CMX",
+			},
+			"Coahuila de Zaragoza": {
+				Code: "COA",
+			},
+			"Colima": {
+				Code: "COL",
+			},
+			"Durango": {
+				Code: "DUR",
+			},
+			"Guanajuato": {
+				Code: "GUA",
+			},
+			"Guerrero": {
+				Code: "GRO",
+			},
+			"Hidalgo": {
+				Code: "HID",
+			},
+			"Jalisco": {
+				Code: "JAL",
+			},
+			"Michoacán de Ocampo": {
+				Code: "MIC",
+			},
+			"Morelos": {
+				Code: "MOR",
+			},
+			"México": {
+				Code: "MEX",
+			},
+			"Nayarit": {
+				Code: "NAY",
+			},
+			"Nuevo León": {
+				Code: "NLE",
+			},
+			"Oaxaca": {
+				Code: "OAX",
+			},
+			"Puebla": {
+				Code: "PUE",
+			},
+			"Querétaro": {
+				Code: "QUE",
+			},
+			"Quintana Roo": {
+				Code: "ROO",
+			},
+			"San Luis Potosí": {
+				Code: "SLP",
+			},
+			"Sinaloa": {
+				Code: "SIN",
+			},
+			"Sonora": {
+				Code: "SON",
+			},
+			"Tabasco": {
+				Code: "TAB",
+			},
+			"Tamaulipas": {
+				Code: "TAM",
+			},
+			"Tlaxcala": {
+				Code: "TLA",
+			},
+			"Veracruz de Ignacio de la Llave": {
+				Code: "VER",
+			},
+			"Yucatán": {
+				Code: "YUC",
+			},
+			"Zacatecas": {
+				Code: "ZAC",
+			},
+		},
 	},
 
 	"MY": {
@@ -1841,6 +32300,158 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "458",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Johor",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"02": {
+				Name:         "Kedah",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"03": {
+				Name:         "Kelantan",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"04": {
+				Name:         "Melaka",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"05": {
+				Name:         "Negeri Sembilan",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"06": {
+				Name:         "Pahang",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"07": {
+				Name:         "Pulau Pinang",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"08": {
+				Name:         "Perak",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"09": {
+				Name:         "Perlis",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"10": {
+				Name:         "Selangor",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"11": {
+				Name:         "Terengganu",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"12": {
+				Name:         "Sabah",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"13": {
+				Name:         "Sarawak",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "state",
+			},
+			"14": {
+				Name:         "Wilayah Persekutuan Kuala Lumpur",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "federal territory",
+			},
+			"15": {
+				Name:         "Wilayah Persekutuan Labuan",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "federal territory",
+			},
+			"16": {
+				Name:         "Wilayah Persekutuan Putrajaya",
+				LocalName:    "",
+				LanguageCode: "ms",
+				Type:         "federal territory",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Johor": {
+				Code: "01",
+			},
+			"Kedah": {
+				Code: "02",
+			},
+			"Kelantan": {
+				Code: "03",
+			},
+			"Melaka": {
+				Code: "04",
+			},
+			"Negeri Sembilan": {
+				Code: "05",
+			},
+			"Pahang": {
+				Code: "06",
+			},
+			"Perak": {
+				Code: "08",
+			},
+			"Perlis": {
+				Code: "09",
+			},
+			"Pulau Pinang": {
+				Code: "07",
+			},
+			"Sabah": {
+				Code: "12",
+			},
+			"Sarawak": {
+				Code: "13",
+			},
+			"Selangor": {
+				Code: "10",
+			},
+			"Terengganu": {
+				Code: "11",
+			},
+			"Wilayah Persekutuan Kuala Lumpur": {
+				Code: "14",
+			},
+			"Wilayah Persekutuan Labuan": {
+				Code: "15",
+			},
+			"Wilayah Persekutuan Putrajaya": {
+				Code: "16",
+			},
+		},
 	},
 
 	"MZ": {
@@ -1850,6 +32461,110 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Mozambique",
 		CommonName:   "",
 		Numeric:      "508",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"A": {
+				Name:         "Niassa",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"B": {
+				Name:         "Manica",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"G": {
+				Name:         "Gaza",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"I": {
+				Name:         "Inhambane",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"L": {
+				Name:         "Maputo",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"MPM": {
+				Name:         "Maputo",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "city",
+			},
+			"N": {
+				Name:         "Nampula",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"P": {
+				Name:         "Cabo Delgado",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"Q": {
+				Name:         "Zambézia",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"S": {
+				Name:         "Sofala",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"T": {
+				Name:         "Tete",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Cabo Delgado": {
+				Code: "P",
+			},
+			"Gaza": {
+				Code: "G",
+			},
+			"Inhambane": {
+				Code: "I",
+			},
+			"Manica": {
+				Code: "B",
+			},
+			"Maputo": {
+				Code: "MPM",
+			},
+			"Nampula": {
+				Code: "N",
+			},
+			"Niassa": {
+				Code: "A",
+			},
+			"Sofala": {
+				Code: "S",
+			},
+			"Tete": {
+				Code: "T",
+			},
+			"Zambézia": {
+				Code: "Q",
+			},
+		},
 	},
 
 	"NA": {
@@ -1859,6 +32574,140 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Namibia",
 		CommonName:   "",
 		Numeric:      "516",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"CA": {
+				Name:         "Zambezi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"ER": {
+				Name:         "Erongo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"HA": {
+				Name:         "Hardap",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"KA": {
+				Name:         "Karas",
+				LocalName:    "//Karas",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"KE": {
+				Name:         "Kavango East",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"KH": {
+				Name:         "Khomas",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"KU": {
+				Name:         "Kunene",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"KW": {
+				Name:         "Kavango West",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"OD": {
+				Name:         "Otjozondjupa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"OH": {
+				Name:         "Omaheke",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"ON": {
+				Name:         "Oshana",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"OS": {
+				Name:         "Omusati",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"OT": {
+				Name:         "Oshikoto",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"OW": {
+				Name:         "Ohangwena",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Erongo": {
+				Code: "ER",
+			},
+			"Hardap": {
+				Code: "HA",
+			},
+			"Karas": {
+				Code: "KA",
+			},
+			"Kavango East": {
+				Code: "KE",
+			},
+			"Kavango West": {
+				Code: "KW",
+			},
+			"Khomas": {
+				Code: "KH",
+			},
+			"Kunene": {
+				Code: "KU",
+			},
+			"Ohangwena": {
+				Code: "OW",
+			},
+			"Omaheke": {
+				Code: "OH",
+			},
+			"Omusati": {
+				Code: "OS",
+			},
+			"Oshana": {
+				Code: "ON",
+			},
+			"Oshikoto": {
+				Code: "OT",
+			},
+			"Otjozondjupa": {
+				Code: "OD",
+			},
+			"Zambezi": {
+				Code: "CA",
+			},
+		},
 	},
 
 	"NC": {
@@ -1877,6 +32726,86 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of the Niger",
 		CommonName:   "",
 		Numeric:      "562",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"1": {
+				Name:         "Agadez",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"2": {
+				Name:         "Diffa",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"3": {
+				Name:         "Dosso",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"4": {
+				Name:         "Maradi",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"5": {
+				Name:         "Tahoua",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"6": {
+				Name:         "Tillabéri",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"7": {
+				Name:         "Zinder",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"8": {
+				Name:         "Niamey",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "urban community",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Agadez": {
+				Code: "1",
+			},
+			"Diffa": {
+				Code: "2",
+			},
+			"Dosso": {
+				Code: "3",
+			},
+			"Maradi": {
+				Code: "4",
+			},
+			"Niamey": {
+				Code: "8",
+			},
+			"Tahoua": {
+				Code: "5",
+			},
+			"Tillabéri": {
+				Code: "6",
+			},
+			"Zinder": {
+				Code: "7",
+			},
+		},
 	},
 
 	"NF": {
@@ -1895,6 +32824,347 @@ var CountryStates = map[string]Country{
 		OfficialName: "Federal Republic of Nigeria",
 		CommonName:   "",
 		Numeric:      "566",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AB": {
+				Name:         "Abia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"AD": {
+				Name:         "Adamawa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"AK": {
+				Name:         "Akwa Ibom",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"AN": {
+				Name:         "Anambra",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"BA": {
+				Name:         "Bauchi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"BE": {
+				Name:         "Benue",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"BO": {
+				Name:         "Borno",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"BY": {
+				Name:         "Bayelsa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"CR": {
+				Name:         "Cross River",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"DE": {
+				Name:         "Delta",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"EB": {
+				Name:         "Ebonyi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"ED": {
+				Name:         "Edo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"EK": {
+				Name:         "Ekiti",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"EN": {
+				Name:         "Enugu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"FC": {
+				Name:         "Abuja Federal Capital Territory",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "capital territory",
+			},
+			"GO": {
+				Name:         "Gombe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"IM": {
+				Name:         "Imo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"JI": {
+				Name:         "Jigawa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KD": {
+				Name:         "Kaduna",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KE": {
+				Name:         "Kebbi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KN": {
+				Name:         "Kano",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KO": {
+				Name:         "Kogi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KT": {
+				Name:         "Katsina",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KW": {
+				Name:         "Kwara",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"LA": {
+				Name:         "Lagos",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NA": {
+				Name:         "Nasarawa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NI": {
+				Name:         "Niger",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"OG": {
+				Name:         "Ogun",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"ON": {
+				Name:         "Ondo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"OS": {
+				Name:         "Osun",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"OY": {
+				Name:         "Oyo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"PL": {
+				Name:         "Plateau",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"RI": {
+				Name:         "Rivers",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"SO": {
+				Name:         "Sokoto",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"TA": {
+				Name:         "Taraba",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"YO": {
+				Name:         "Yobe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"ZA": {
+				Name:         "Zamfara",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Abia": {
+				Code: "AB",
+			},
+			"Abuja Federal Capital Territory": {
+				Code: "FC",
+			},
+			"Adamawa": {
+				Code: "AD",
+			},
+			"Akwa Ibom": {
+				Code: "AK",
+			},
+			"Anambra": {
+				Code: "AN",
+			},
+			"Bauchi": {
+				Code: "BA",
+			},
+			"Bayelsa": {
+				Code: "BY",
+			},
+			"Benue": {
+				Code: "BE",
+			},
+			"Borno": {
+				Code: "BO",
+			},
+			"Cross River": {
+				Code: "CR",
+			},
+			"Delta": {
+				Code: "DE",
+			},
+			"Ebonyi": {
+				Code: "EB",
+			},
+			"Edo": {
+				Code: "ED",
+			},
+			"Ekiti": {
+				Code: "EK",
+			},
+			"Enugu": {
+				Code: "EN",
+			},
+			"Gombe": {
+				Code: "GO",
+			},
+			"Imo": {
+				Code: "IM",
+			},
+			"Jigawa": {
+				Code: "JI",
+			},
+			"Kaduna": {
+				Code: "KD",
+			},
+			"Kano": {
+				Code: "KN",
+			},
+			"Katsina": {
+				Code: "KT",
+			},
+			"Kebbi": {
+				Code: "KE",
+			},
+			"Kogi": {
+				Code: "KO",
+			},
+			"Kwara": {
+				Code: "KW",
+			},
+			"Lagos": {
+				Code: "LA",
+			},
+			"Nasarawa": {
+				Code: "NA",
+			},
+			"Niger": {
+				Code: "NI",
+			},
+			"Ogun": {
+				Code: "OG",
+			},
+			"Ondo": {
+				Code: "ON",
+			},
+			"Osun": {
+				Code: "OS",
+			},
+			"Oyo": {
+				Code: "OY",
+			},
+			"Plateau": {
+				Code: "PL",
+			},
+			"Rivers": {
+				Code: "RI",
+			},
+			"Sokoto": {
+				Code: "SO",
+			},
+			"Taraba": {
+				Code: "TA",
+			},
+			"Yobe": {
+				Code: "YO",
+			},
+			"Zamfara": {
+				Code: "ZA",
+			},
+		},
 	},
 
 	"NI": {
@@ -1904,6 +33174,167 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Nicaragua",
 		CommonName:   "",
 		Numeric:      "558",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AN": {
+				Name:         "Costa Caribe Norte",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous region",
+			},
+			"AS": {
+				Name:         "Costa Caribe Sur",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "autonomous region",
+			},
+			"BO": {
+				Name:         "Boaco",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CA": {
+				Name:         "Carazo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CI": {
+				Name:         "Chinandega",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CO": {
+				Name:         "Chontales",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"ES": {
+				Name:         "Estelí",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"GR": {
+				Name:         "Granada",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"JI": {
+				Name:         "Jinotega",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"LE": {
+				Name:         "León",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"MD": {
+				Name:         "Madriz",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"MN": {
+				Name:         "Managua",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"MS": {
+				Name:         "Masaya",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"MT": {
+				Name:         "Matagalpa",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"NS": {
+				Name:         "Nueva Segovia",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"RI": {
+				Name:         "Rivas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SJ": {
+				Name:         "Río San Juan",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Boaco": {
+				Code: "BO",
+			},
+			"Carazo": {
+				Code: "CA",
+			},
+			"Chinandega": {
+				Code: "CI",
+			},
+			"Chontales": {
+				Code: "CO",
+			},
+			"Costa Caribe Norte": {
+				Code: "AN",
+			},
+			"Costa Caribe Sur": {
+				Code: "AS",
+			},
+			"Estelí": {
+				Code: "ES",
+			},
+			"Granada": {
+				Code: "GR",
+			},
+			"Jinotega": {
+				Code: "JI",
+			},
+			"León": {
+				Code: "LE",
+			},
+			"Madriz": {
+				Code: "MD",
+			},
+			"Managua": {
+				Code: "MN",
+			},
+			"Masaya": {
+				Code: "MS",
+			},
+			"Matagalpa": {
+				Code: "MT",
+			},
+			"Nueva Segovia": {
+				Code: "NS",
+			},
+			"Rivas": {
+				Code: "RI",
+			},
+			"Río San Juan": {
+				Code: "SJ",
+			},
+		},
 	},
 
 	"NL": {
@@ -1913,6 +33344,176 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of the Netherlands",
 		CommonName:   "",
 		Numeric:      "528",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AW": {
+				Name:         "Aruba (see also separate country code entry under AW)",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "country",
+			},
+			"BQ1": {
+				Name:         "Bonaire (see also separate country code entry under BQ)",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "special municipality",
+			},
+			"BQ2": {
+				Name:         "Saba (see also separate country code entry under BQ)",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "special municipality",
+			},
+			"BQ3": {
+				Name:         "Sint Eustatius (see also separate country code entry under BQ)",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "special municipality",
+			},
+			"CW": {
+				Name:         "Curaçao (see also separate country code entry under CW)",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "country",
+			},
+			"DR": {
+				Name:         "Drenthe",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "province",
+			},
+			"FL": {
+				Name:         "Flevoland",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "province",
+			},
+			"FR": {
+				Name:         "Fryslân",
+				LocalName:    "",
+				LanguageCode: "fy",
+				Type:         "province",
+			},
+			"GE": {
+				Name:         "Gelderland",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "province",
+			},
+			"GR": {
+				Name:         "Groningen",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "province",
+			},
+			"LI": {
+				Name:         "Limburg",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "province",
+			},
+			"NB": {
+				Name:         "Noord-Brabant",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "province",
+			},
+			"NH": {
+				Name:         "Noord-Holland",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "province",
+			},
+			"OV": {
+				Name:         "Overijssel",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "province",
+			},
+			"SX": {
+				Name:         "Sint Maarten (see also separate country code entry under SX)",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "country",
+			},
+			"UT": {
+				Name:         "Utrecht",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "province",
+			},
+			"ZE": {
+				Name:         "Zeeland",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "province",
+			},
+			"ZH": {
+				Name:         "Zuid-Holland",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aruba (see also separate country code entry under AW)": {
+				Code: "AW",
+			},
+			"Bonaire (see also separate country code entry under BQ)": {
+				Code: "BQ1",
+			},
+			"Curaçao (see also separate country code entry under CW)": {
+				Code: "CW",
+			},
+			"Drenthe": {
+				Code: "DR",
+			},
+			"Flevoland": {
+				Code: "FL",
+			},
+			"Fryslân": {
+				Code: "FR",
+			},
+			"Gelderland": {
+				Code: "GE",
+			},
+			"Groningen": {
+				Code: "GR",
+			},
+			"Limburg": {
+				Code: "LI",
+			},
+			"Noord-Brabant": {
+				Code: "NB",
+			},
+			"Noord-Holland": {
+				Code: "NH",
+			},
+			"Overijssel": {
+				Code: "OV",
+			},
+			"Saba (see also separate country code entry under BQ)": {
+				Code: "BQ2",
+			},
+			"Sint Eustatius (see also separate country code entry under BQ)": {
+				Code: "BQ3",
+			},
+			"Sint Maarten (see also separate country code entry under SX)": {
+				Code: "SX",
+			},
+			"Utrecht": {
+				Code: "UT",
+			},
+			"Zeeland": {
+				Code: "ZE",
+			},
+			"Zuid-Holland": {
+				Code: "ZH",
+			},
+		},
 	},
 
 	"NO": {
@@ -1922,6 +33523,194 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Norway",
 		CommonName:   "",
 		Numeric:      "578",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Østfold",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"02": {
+				Name:         "Akershus",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"03": {
+				Name:         "Oslo",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"04": {
+				Name:         "Hedmark",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"05": {
+				Name:         "Oppland",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"06": {
+				Name:         "Buskerud",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"07": {
+				Name:         "Vestfold",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"08": {
+				Name:         "Telemark",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"09": {
+				Name:         "Aust-Agder",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"10": {
+				Name:         "Vest-Agder",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"11": {
+				Name:         "Rogaland",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"12": {
+				Name:         "Hordaland",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"14": {
+				Name:         "Sogn og Fjordane",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"15": {
+				Name:         "Møre og Romsdal",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"18": {
+				Name:         "Nordland",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"19": {
+				Name:         "Troms",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"20": {
+				Name:         "Finnmark",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+			"21": {
+				Name:         "Svalbard (Arctic Region) (see also separate country code entry under SJ)",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "arctic region",
+			},
+			"22": {
+				Name:         "Jan Mayen (Arctic Region) (see also separate country code entry under SJ)",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "arctic region",
+			},
+			"50": {
+				Name:         "Trøndelag",
+				LocalName:    "",
+				LanguageCode: "nn",
+				Type:         "county",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Akershus": {
+				Code: "02",
+			},
+			"Aust-Agder": {
+				Code: "09",
+			},
+			"Buskerud": {
+				Code: "06",
+			},
+			"Finnmark": {
+				Code: "20",
+			},
+			"Hedmark": {
+				Code: "04",
+			},
+			"Hordaland": {
+				Code: "12",
+			},
+			"Jan Mayen (Arctic Region) (see also separate country code entry under SJ)": {
+				Code: "22",
+			},
+			"Møre og Romsdal": {
+				Code: "15",
+			},
+			"Nordland": {
+				Code: "18",
+			},
+			"Oppland": {
+				Code: "05",
+			},
+			"Oslo": {
+				Code: "03",
+			},
+			"Rogaland": {
+				Code: "11",
+			},
+			"Sogn og Fjordane": {
+				Code: "14",
+			},
+			"Svalbard (Arctic Region) (see also separate country code entry under SJ)": {
+				Code: "21",
+			},
+			"Telemark": {
+				Code: "08",
+			},
+			"Troms": {
+				Code: "19",
+			},
+			"Trøndelag": {
+				Code: "50",
+			},
+			"Vest-Agder": {
+				Code: "10",
+			},
+			"Vestfold": {
+				Code: "07",
+			},
+			"Østfold": {
+				Code: "01",
+			},
+		},
 	},
 
 	"NP": {
@@ -1931,6 +33720,288 @@ var CountryStates = map[string]Country{
 		OfficialName: "Federal Democratic Republic of Nepal",
 		CommonName:   "",
 		Numeric:      "524",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"1": {
+				Name:         "Central",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "development region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BA": {
+						Name:         "Bagmati",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+					"JA": {
+						Name:         "Janakpur",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+					"NA": {
+						Name:         "Narayani",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+				},
+			},
+			"2": {
+				Name:         "Mid Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "development region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BH": {
+						Name:         "Bheri",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+					"KA": {
+						Name:         "Karnali",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+					"RA": {
+						Name:         "Rapti",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+				},
+			},
+			"3": {
+				Name:         "Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "development region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"DH": {
+						Name:         "Dhawalagiri",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+					"GA": {
+						Name:         "Gandaki",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+					"LU": {
+						Name:         "Lumbini",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+				},
+			},
+			"4": {
+				Name:         "Eastern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "development region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"KO": {
+						Name:         "Kosi",
+						LocalName:    "Koshi",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+					"ME": {
+						Name:         "Mechi",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+					"SA": {
+						Name:         "Sagarmatha",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+				},
+			},
+			"5": {
+				Name:         "Far Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "development region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"MA": {
+						Name:         "Mahakali",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+					"SE": {
+						Name:         "Seti",
+						LocalName:    "",
+						LanguageCode: "ne",
+						Type:         "zone",
+					},
+				},
+			},
+			"P1": {
+				Name:         "Province 1",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"P2": {
+				Name:         "Province 2",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"P3": {
+				Name:         "Province 3",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"P4": {
+				Name:         "Gandaki",
+				LocalName:    "Province 4",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"P5": {
+				Name:         "Province 5",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"P6": {
+				Name:         "Karnali",
+				LocalName:    "Province 6",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"P7": {
+				Name:         "Province 7",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Central": {
+				Code: "1",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bagmati": {
+						Code: "BA",
+					},
+					"Janakpur": {
+						Code: "JA",
+					},
+					"Narayani": {
+						Code: "NA",
+					},
+				},
+			},
+			"Eastern": {
+				Code: "4",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Kosi": {
+						Code: "KO",
+					},
+					"Mechi": {
+						Code: "ME",
+					},
+					"Sagarmatha": {
+						Code: "SA",
+					},
+				},
+			},
+			"Far Western": {
+				Code: "5",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Mahakali": {
+						Code: "MA",
+					},
+					"Seti": {
+						Code: "SE",
+					},
+				},
+			},
+			"Gandaki": {
+				Code: "P4",
+			},
+			"Karnali": {
+				Code: "P6",
+			},
+			"Mid Western": {
+				Code: "2",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bheri": {
+						Code: "BH",
+					},
+					"Karnali": {
+						Code: "KA",
+					},
+					"Rapti": {
+						Code: "RA",
+					},
+				},
+			},
+			"Province 1": {
+				Code: "P1",
+			},
+			"Province 2": {
+				Code: "P2",
+			},
+			"Province 3": {
+				Code: "P3",
+			},
+			"Province 5": {
+				Code: "P5",
+			},
+			"Province 7": {
+				Code: "P7",
+			},
+			"Western": {
+				Code: "3",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Dhawalagiri": {
+						Code: "DH",
+					},
+					"Gandaki": {
+						Code: "GA",
+					},
+					"Lumbini": {
+						Code: "LU",
+					},
+				},
+			},
+		},
 	},
 
 	"NR": {
@@ -1940,6 +34011,140 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Nauru",
 		CommonName:   "",
 		Numeric:      "520",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Aiwo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"02": {
+				Name:         "Anabar",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"03": {
+				Name:         "Anetan",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"04": {
+				Name:         "Anibare",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"05": {
+				Name:         "Baitsi",
+				LocalName:    "Baiti",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"06": {
+				Name:         "Boe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"07": {
+				Name:         "Buada",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"08": {
+				Name:         "Denigomodu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"09": {
+				Name:         "Ewa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"10": {
+				Name:         "Ijuw",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"11": {
+				Name:         "Meneng",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"12": {
+				Name:         "Nibok",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"13": {
+				Name:         "Uaboe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"14": {
+				Name:         "Yaren",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aiwo": {
+				Code: "01",
+			},
+			"Anabar": {
+				Code: "02",
+			},
+			"Anetan": {
+				Code: "03",
+			},
+			"Anibare": {
+				Code: "04",
+			},
+			"Baitsi": {
+				Code: "05",
+			},
+			"Boe": {
+				Code: "06",
+			},
+			"Buada": {
+				Code: "07",
+			},
+			"Denigomodu": {
+				Code: "08",
+			},
+			"Ewa": {
+				Code: "09",
+			},
+			"Ijuw": {
+				Code: "10",
+			},
+			"Meneng": {
+				Code: "11",
+			},
+			"Nibok": {
+				Code: "12",
+			},
+			"Uaboe": {
+				Code: "13",
+			},
+			"Yaren": {
+				Code: "14",
+			},
+		},
 	},
 
 	"NU": {
@@ -1958,6 +34163,167 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "554",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AUK": {
+				Name:         "Auckland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"BOP": {
+				Name:         "Bay of Plenty",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"CAN": {
+				Name:         "Canterbury",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"CIT": {
+				Name:         "Chatham Islands Territory",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "special island authority",
+			},
+			"GIS": {
+				Name:         "Gisborne",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"HKB": {
+				Name:         "Hawke's Bay",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"MBH": {
+				Name:         "Marlborough",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"MWT": {
+				Name:         "Manawatu-Wanganui",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"NSN": {
+				Name:         "Nelson",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"NTL": {
+				Name:         "Northland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"OTA": {
+				Name:         "Otago",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"STL": {
+				Name:         "Southland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"TAS": {
+				Name:         "Tasman",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"TKI": {
+				Name:         "Taranaki",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"WGN": {
+				Name:         "Wellington",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"WKO": {
+				Name:         "Waikato",
+				LocalName:    "",
+				LanguageCode: "mi",
+				Type:         "region",
+			},
+			"WTC": {
+				Name:         "West Coast",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Auckland": {
+				Code: "AUK",
+			},
+			"Bay of Plenty": {
+				Code: "BOP",
+			},
+			"Canterbury": {
+				Code: "CAN",
+			},
+			"Chatham Islands Territory": {
+				Code: "CIT",
+			},
+			"Gisborne": {
+				Code: "GIS",
+			},
+			"Hawke's Bay": {
+				Code: "HKB",
+			},
+			"Manawatu-Wanganui": {
+				Code: "MWT",
+			},
+			"Marlborough": {
+				Code: "MBH",
+			},
+			"Nelson": {
+				Code: "NSN",
+			},
+			"Northland": {
+				Code: "NTL",
+			},
+			"Otago": {
+				Code: "OTA",
+			},
+			"Southland": {
+				Code: "STL",
+			},
+			"Taranaki": {
+				Code: "TKI",
+			},
+			"Tasman": {
+				Code: "TAS",
+			},
+			"Waikato": {
+				Code: "WKO",
+			},
+			"Wellington": {
+				Code: "WGN",
+			},
+			"West Coast": {
+				Code: "WTC",
+			},
+		},
 	},
 
 	"OM": {
@@ -1967,6 +34333,113 @@ var CountryStates = map[string]Country{
 		OfficialName: "Sultanate of Oman",
 		CommonName:   "",
 		Numeric:      "512",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BJ": {
+				Name:         "Janūb al Bāţinah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"BS": {
+				Name:         "Shamāl al Bāţinah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"BU": {
+				Name:         "Al Buraymī",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"DA": {
+				Name:         "Ad Dākhilīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MA": {
+				Name:         "Masqaţ",
+				LocalName:    "Muscat",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MU": {
+				Name:         "Musandam",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"SJ": {
+				Name:         "Janūb ash Sharqīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"SS": {
+				Name:         "Shamāl ash Sharqīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"WU": {
+				Name:         "Al Wusţá",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"ZA": {
+				Name:         "Az̧ Z̧āhirah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"ZU": {
+				Name:         "Z̧ufār",
+				LocalName:    "Dhofar",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ad Dākhilīyah": {
+				Code: "DA",
+			},
+			"Al Buraymī": {
+				Code: "BU",
+			},
+			"Al Wusţá": {
+				Code: "WU",
+			},
+			"Az̧ Z̧āhirah": {
+				Code: "ZA",
+			},
+			"Janūb al Bāţinah": {
+				Code: "BJ",
+			},
+			"Janūb ash Sharqīyah": {
+				Code: "SJ",
+			},
+			"Masqaţ": {
+				Code: "MA",
+			},
+			"Musandam": {
+				Code: "MU",
+			},
+			"Shamāl al Bāţinah": {
+				Code: "BS",
+			},
+			"Shamāl ash Sharqīyah": {
+				Code: "SS",
+			},
+			"Z̧ufār": {
+				Code: "ZU",
+			},
+		},
 	},
 
 	"PA": {
@@ -1976,6 +34449,131 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Panama",
 		CommonName:   "",
 		Numeric:      "591",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"1": {
+				Name:         "Bocas del Toro",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"10": {
+				Name:         "Panamá Oeste",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"2": {
+				Name:         "Coclé",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"3": {
+				Name:         "Colón",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"4": {
+				Name:         "Chiriquí",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"5": {
+				Name:         "Darién",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"6": {
+				Name:         "Herrera",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"7": {
+				Name:         "Los Santos",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"8": {
+				Name:         "Panamá",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"9": {
+				Name:         "Veraguas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "province",
+			},
+			"EM": {
+				Name:         "Emberá",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "indigenous region",
+			},
+			"KY": {
+				Name:         "Guna Yala",
+				LocalName:    "Kuna Yala",
+				LanguageCode: "es",
+				Type:         "indigenous region",
+			},
+			"NB": {
+				Name:         "Ngöbe-Buglé",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "indigenous region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bocas del Toro": {
+				Code: "1",
+			},
+			"Chiriquí": {
+				Code: "4",
+			},
+			"Coclé": {
+				Code: "2",
+			},
+			"Colón": {
+				Code: "3",
+			},
+			"Darién": {
+				Code: "5",
+			},
+			"Emberá": {
+				Code: "EM",
+			},
+			"Guna Yala": {
+				Code: "KY",
+			},
+			"Herrera": {
+				Code: "6",
+			},
+			"Los Santos": {
+				Code: "7",
+			},
+			"Ngöbe-Buglé": {
+				Code: "NB",
+			},
+			"Panamá": {
+				Code: "8",
+			},
+			"Panamá Oeste": {
+				Code: "10",
+			},
+			"Veraguas": {
+				Code: "9",
+			},
+		},
 	},
 
 	"PE": {
@@ -1985,6 +34583,248 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Peru",
 		CommonName:   "",
 		Numeric:      "604",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AMA": {
+				Name:         "Amazonas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"ANC": {
+				Name:         "Ancash",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"APU": {
+				Name:         "Apurímac",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"ARE": {
+				Name:         "Arequipa",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"AYA": {
+				Name:         "Ayacucho",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"CAJ": {
+				Name:         "Cajamarca",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"CAL": {
+				Name:         "El Callao",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"CUS": {
+				Name:         "Cusco",
+				LocalName:    "Cuzco",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"HUC": {
+				Name:         "Huánuco",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"HUV": {
+				Name:         "Huancavelica",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"ICA": {
+				Name:         "Ica",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"JUN": {
+				Name:         "Junín",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"LAL": {
+				Name:         "La Libertad",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"LAM": {
+				Name:         "Lambayeque",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"LIM": {
+				Name:         "Lima",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"LMA": {
+				Name:         "Municipalidad Metropolitana de Lima",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "municipality",
+			},
+			"LOR": {
+				Name:         "Loreto",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"MDD": {
+				Name:         "Madre de Dios",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"MOQ": {
+				Name:         "Moquegua",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"PAS": {
+				Name:         "Pasco",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"PIU": {
+				Name:         "Piura",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"PUN": {
+				Name:         "Puno",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"SAM": {
+				Name:         "San Martín",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"TAC": {
+				Name:         "Tacna",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"TUM": {
+				Name:         "Tumbes",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+			"UCA": {
+				Name:         "Ucayali",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Amazonas": {
+				Code: "AMA",
+			},
+			"Ancash": {
+				Code: "ANC",
+			},
+			"Apurímac": {
+				Code: "APU",
+			},
+			"Arequipa": {
+				Code: "ARE",
+			},
+			"Ayacucho": {
+				Code: "AYA",
+			},
+			"Cajamarca": {
+				Code: "CAJ",
+			},
+			"Cusco": {
+				Code: "CUS",
+			},
+			"El Callao": {
+				Code: "CAL",
+			},
+			"Huancavelica": {
+				Code: "HUV",
+			},
+			"Huánuco": {
+				Code: "HUC",
+			},
+			"Ica": {
+				Code: "ICA",
+			},
+			"Junín": {
+				Code: "JUN",
+			},
+			"La Libertad": {
+				Code: "LAL",
+			},
+			"Lambayeque": {
+				Code: "LAM",
+			},
+			"Lima": {
+				Code: "LIM",
+			},
+			"Loreto": {
+				Code: "LOR",
+			},
+			"Madre de Dios": {
+				Code: "MDD",
+			},
+			"Moquegua": {
+				Code: "MOQ",
+			},
+			"Municipalidad Metropolitana de Lima": {
+				Code: "LMA",
+			},
+			"Pasco": {
+				Code: "PAS",
+			},
+			"Piura": {
+				Code: "PIU",
+			},
+			"Puno": {
+				Code: "PUN",
+			},
+			"San Martín": {
+				Code: "SAM",
+			},
+			"Tacna": {
+				Code: "TAC",
+			},
+			"Tumbes": {
+				Code: "TUM",
+			},
+			"Ucayali": {
+				Code: "UCA",
+			},
+		},
 	},
 
 	"PF": {
@@ -2003,6 +34843,212 @@ var CountryStates = map[string]Country{
 		OfficialName: "Independent State of Papua New Guinea",
 		CommonName:   "",
 		Numeric:      "598",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"CPK": {
+				Name:         "Chimbu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"CPM": {
+				Name:         "Central",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"EBR": {
+				Name:         "East New Britain",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"EHG": {
+				Name:         "Eastern Highlands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"EPW": {
+				Name:         "Enga",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"ESW": {
+				Name:         "East Sepik",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"GPK": {
+				Name:         "Gulf",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"HLA": {
+				Name:         "Hela",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"JWK": {
+				Name:         "Jiwaka",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MBA": {
+				Name:         "Milne Bay",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MPL": {
+				Name:         "Morobe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MPM": {
+				Name:         "Madang",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MRL": {
+				Name:         "Manus",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"NCD": {
+				Name:         "National Capital District (Port Moresby)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"NIK": {
+				Name:         "New Ireland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"NPP": {
+				Name:         "Northern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"NSB": {
+				Name:         "Bougainville",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "autonomous region",
+			},
+			"SAN": {
+				Name:         "West Sepik",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"SHM": {
+				Name:         "Southern Highlands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"WBK": {
+				Name:         "West New Britain",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"WHM": {
+				Name:         "Western Highlands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"WPD": {
+				Name:         "Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bougainville": {
+				Code: "NSB",
+			},
+			"Central": {
+				Code: "CPM",
+			},
+			"Chimbu": {
+				Code: "CPK",
+			},
+			"East New Britain": {
+				Code: "EBR",
+			},
+			"East Sepik": {
+				Code: "ESW",
+			},
+			"Eastern Highlands": {
+				Code: "EHG",
+			},
+			"Enga": {
+				Code: "EPW",
+			},
+			"Gulf": {
+				Code: "GPK",
+			},
+			"Hela": {
+				Code: "HLA",
+			},
+			"Jiwaka": {
+				Code: "JWK",
+			},
+			"Madang": {
+				Code: "MPM",
+			},
+			"Manus": {
+				Code: "MRL",
+			},
+			"Milne Bay": {
+				Code: "MBA",
+			},
+			"Morobe": {
+				Code: "MPL",
+			},
+			"National Capital District (Port Moresby)": {
+				Code: "NCD",
+			},
+			"New Ireland": {
+				Code: "NIK",
+			},
+			"Northern": {
+				Code: "NPP",
+			},
+			"Southern Highlands": {
+				Code: "SHM",
+			},
+			"West New Britain": {
+				Code: "WBK",
+			},
+			"West Sepik": {
+				Code: "SAN",
+			},
+			"Western": {
+				Code: "WPD",
+			},
+			"Western Highlands": {
+				Code: "WHM",
+			},
+		},
 	},
 
 	"PH": {
@@ -2012,6 +35058,1024 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of the Philippines",
 		CommonName:   "",
 		Numeric:      "608",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"00": {
+				Name:         "National Capital Region",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"01": {
+				Name:         "Ilocos (Region I)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"ILN": {
+						Name:         "Ilocos Norte",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"ILS": {
+						Name:         "Ilocos Sur",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"LUN": {
+						Name:         "La Union",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"PAN": {
+						Name:         "Pangasinan",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"02": {
+				Name:         "Cagayan Valley (Region II)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BTN": {
+						Name:         "Batanes",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"CAG": {
+						Name:         "Cagayan",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"ISA": {
+						Name:         "Isabela",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"NUV": {
+						Name:         "Nueva Vizcaya",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"QUI": {
+						Name:         "Quirino",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"03": {
+				Name:         "Central Luzon (Region III)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AUR": {
+						Name:         "Aurora",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"BAN": {
+						Name:         "Bataan",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"BUL": {
+						Name:         "Bulacan",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"NUE": {
+						Name:         "Nueva Ecija",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"PAM": {
+						Name:         "Pampanga",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"TAR": {
+						Name:         "Tarlac",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"ZMB": {
+						Name:         "Zambales",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"05": {
+				Name:         "Bicol (Region V)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"ALB": {
+						Name:         "Albay",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"CAN": {
+						Name:         "Camarines Norte",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"CAS": {
+						Name:         "Camarines Sur",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"CAT": {
+						Name:         "Catanduanes",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"MAS": {
+						Name:         "Masbate",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"SOR": {
+						Name:         "Sorsogon",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"06": {
+				Name:         "Western Visayas (Region VI)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AKL": {
+						Name:         "Aklan",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"ANT": {
+						Name:         "Antique",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"CAP": {
+						Name:         "Capiz",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"GUI": {
+						Name:         "Guimaras",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"ILI": {
+						Name:         "Iloilo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"NEC": {
+						Name:         "Negros Occidental",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"07": {
+				Name:         "Central Visayas (Region VII)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BOH": {
+						Name:         "Bohol",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"CEB": {
+						Name:         "Cebu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"NER": {
+						Name:         "Negros Oriental",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"SIG": {
+						Name:         "Siquijor",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"08": {
+				Name:         "Eastern Visayas (Region VIII)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BIL": {
+						Name:         "Biliran",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"EAS": {
+						Name:         "Eastern Samar",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"LEY": {
+						Name:         "Leyte",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"NSA": {
+						Name:         "Northern Samar",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"SLE": {
+						Name:         "Southern Leyte",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"WSA": {
+						Name:         "Samar",
+						LocalName:    "Western Samar",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"09": {
+				Name:         "Zamboanga Peninsula (Region IX)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BAS": {
+						Name:         "Basilan",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"ZAN": {
+						Name:         "Zamboanga del Norte",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"ZAS": {
+						Name:         "Zamboanga del Sur",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"ZSI": {
+						Name:         "Zamboanga Sibugay",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"10": {
+				Name:         "Northern Mindanao (Region X)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BUK": {
+						Name:         "Bukidnon",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"CAM": {
+						Name:         "Camiguin",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"MSC": {
+						Name:         "Misamis Occidental",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"MSR": {
+						Name:         "Misamis Oriental",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"11": {
+				Name:         "Davao (Region XI)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"COM": {
+						Name:         "Compostela Valley",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"DAO": {
+						Name:         "Davao Oriental",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"DAS": {
+						Name:         "Davao del Sur",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"DAV": {
+						Name:         "Davao del Norte",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"DVO": {
+						Name:         "Davao Occidental",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"SAR": {
+						Name:         "Sarangani",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"SCO": {
+						Name:         "South Cotabato",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"12": {
+				Name:         "Soccsksargen (Region XII)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"LAN": {
+						Name:         "Lanao del Norte",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"NCO": {
+						Name:         "Cotabato",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"SUK": {
+						Name:         "Sultan Kudarat",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"13": {
+				Name:         "Caraga (Region XIII)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"AGN": {
+						Name:         "Agusan del Norte",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"AGS": {
+						Name:         "Agusan del Sur",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"DIN": {
+						Name:         "Dinagat Islands",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"SUN": {
+						Name:         "Surigao del Norte",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"SUR": {
+						Name:         "Surigao del Sur",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"14": {
+				Name:         "Autonomous Region in Muslim Mindanao (ARMM)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"LAS": {
+						Name:         "Lanao del Sur",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"MAG": {
+						Name:         "Maguindanao",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"SLU": {
+						Name:         "Sulu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"TAW": {
+						Name:         "Tawi-Tawi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"15": {
+				Name:         "Cordillera Administrative Region (CAR)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"ABR": {
+						Name:         "Abra",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"APA": {
+						Name:         "Apayao",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"BEN": {
+						Name:         "Benguet",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"IFU": {
+						Name:         "Ifugao",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"KAL": {
+						Name:         "Kalinga",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"MOU": {
+						Name:         "Mountain Province",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"40": {
+				Name:         "Calabarzon (Region IV-A)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"BTG": {
+						Name:         "Batangas",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"CAV": {
+						Name:         "Cavite",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"LAG": {
+						Name:         "Laguna",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"QUE": {
+						Name:         "Quezon",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"RIZ": {
+						Name:         "Rizal",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+			"41": {
+				Name:         "Mimaropa (Region IV-B)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"MAD": {
+						Name:         "Marinduque",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"MDC": {
+						Name:         "Mindoro Occidental",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"MDR": {
+						Name:         "Mindoro Oriental",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"PLW": {
+						Name:         "Palawan",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+					"ROM": {
+						Name:         "Romblon",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "province",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Autonomous Region in Muslim Mindanao (ARMM)": {
+				Code: "14",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Lanao del Sur": {
+						Code: "LAS",
+					},
+					"Maguindanao": {
+						Code: "MAG",
+					},
+					"Sulu": {
+						Code: "SLU",
+					},
+					"Tawi-Tawi": {
+						Code: "TAW",
+					},
+				},
+			},
+			"Bicol (Region V)": {
+				Code: "05",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Albay": {
+						Code: "ALB",
+					},
+					"Camarines Norte": {
+						Code: "CAN",
+					},
+					"Camarines Sur": {
+						Code: "CAS",
+					},
+					"Catanduanes": {
+						Code: "CAT",
+					},
+					"Masbate": {
+						Code: "MAS",
+					},
+					"Sorsogon": {
+						Code: "SOR",
+					},
+				},
+			},
+			"Cagayan Valley (Region II)": {
+				Code: "02",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Batanes": {
+						Code: "BTN",
+					},
+					"Cagayan": {
+						Code: "CAG",
+					},
+					"Isabela": {
+						Code: "ISA",
+					},
+					"Nueva Vizcaya": {
+						Code: "NUV",
+					},
+					"Quirino": {
+						Code: "QUI",
+					},
+				},
+			},
+			"Calabarzon (Region IV-A)": {
+				Code: "40",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Batangas": {
+						Code: "BTG",
+					},
+					"Cavite": {
+						Code: "CAV",
+					},
+					"Laguna": {
+						Code: "LAG",
+					},
+					"Quezon": {
+						Code: "QUE",
+					},
+					"Rizal": {
+						Code: "RIZ",
+					},
+				},
+			},
+			"Caraga (Region XIII)": {
+				Code: "13",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Agusan del Norte": {
+						Code: "AGN",
+					},
+					"Agusan del Sur": {
+						Code: "AGS",
+					},
+					"Dinagat Islands": {
+						Code: "DIN",
+					},
+					"Surigao del Norte": {
+						Code: "SUN",
+					},
+					"Surigao del Sur": {
+						Code: "SUR",
+					},
+				},
+			},
+			"Central Luzon (Region III)": {
+				Code: "03",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Aurora": {
+						Code: "AUR",
+					},
+					"Bataan": {
+						Code: "BAN",
+					},
+					"Bulacan": {
+						Code: "BUL",
+					},
+					"Nueva Ecija": {
+						Code: "NUE",
+					},
+					"Pampanga": {
+						Code: "PAM",
+					},
+					"Tarlac": {
+						Code: "TAR",
+					},
+					"Zambales": {
+						Code: "ZMB",
+					},
+				},
+			},
+			"Central Visayas (Region VII)": {
+				Code: "07",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bohol": {
+						Code: "BOH",
+					},
+					"Cebu": {
+						Code: "CEB",
+					},
+					"Negros Oriental": {
+						Code: "NER",
+					},
+					"Siquijor": {
+						Code: "SIG",
+					},
+				},
+			},
+			"Cordillera Administrative Region (CAR)": {
+				Code: "15",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Abra": {
+						Code: "ABR",
+					},
+					"Apayao": {
+						Code: "APA",
+					},
+					"Benguet": {
+						Code: "BEN",
+					},
+					"Ifugao": {
+						Code: "IFU",
+					},
+					"Kalinga": {
+						Code: "KAL",
+					},
+					"Mountain Province": {
+						Code: "MOU",
+					},
+				},
+			},
+			"Davao (Region XI)": {
+				Code: "11",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Compostela Valley": {
+						Code: "COM",
+					},
+					"Davao Occidental": {
+						Code: "DVO",
+					},
+					"Davao Oriental": {
+						Code: "DAO",
+					},
+					"Davao del Norte": {
+						Code: "DAV",
+					},
+					"Davao del Sur": {
+						Code: "DAS",
+					},
+					"Sarangani": {
+						Code: "SAR",
+					},
+					"South Cotabato": {
+						Code: "SCO",
+					},
+				},
+			},
+			"Eastern Visayas (Region VIII)": {
+				Code: "08",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Biliran": {
+						Code: "BIL",
+					},
+					"Eastern Samar": {
+						Code: "EAS",
+					},
+					"Leyte": {
+						Code: "LEY",
+					},
+					"Northern Samar": {
+						Code: "NSA",
+					},
+					"Samar": {
+						Code: "WSA",
+					},
+					"Southern Leyte": {
+						Code: "SLE",
+					},
+				},
+			},
+			"Ilocos (Region I)": {
+				Code: "01",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Ilocos Norte": {
+						Code: "ILN",
+					},
+					"Ilocos Sur": {
+						Code: "ILS",
+					},
+					"La Union": {
+						Code: "LUN",
+					},
+					"Pangasinan": {
+						Code: "PAN",
+					},
+				},
+			},
+			"Mimaropa (Region IV-B)": {
+				Code: "41",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Marinduque": {
+						Code: "MAD",
+					},
+					"Mindoro Occidental": {
+						Code: "MDC",
+					},
+					"Mindoro Oriental": {
+						Code: "MDR",
+					},
+					"Palawan": {
+						Code: "PLW",
+					},
+					"Romblon": {
+						Code: "ROM",
+					},
+				},
+			},
+			"National Capital Region": {
+				Code: "00",
+			},
+			"Northern Mindanao (Region X)": {
+				Code: "10",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Bukidnon": {
+						Code: "BUK",
+					},
+					"Camiguin": {
+						Code: "CAM",
+					},
+					"Misamis Occidental": {
+						Code: "MSC",
+					},
+					"Misamis Oriental": {
+						Code: "MSR",
+					},
+				},
+			},
+			"Soccsksargen (Region XII)": {
+				Code: "12",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Cotabato": {
+						Code: "NCO",
+					},
+					"Lanao del Norte": {
+						Code: "LAN",
+					},
+					"Sultan Kudarat": {
+						Code: "SUK",
+					},
+				},
+			},
+			"Western Visayas (Region VI)": {
+				Code: "06",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Aklan": {
+						Code: "AKL",
+					},
+					"Antique": {
+						Code: "ANT",
+					},
+					"Capiz": {
+						Code: "CAP",
+					},
+					"Guimaras": {
+						Code: "GUI",
+					},
+					"Iloilo": {
+						Code: "ILI",
+					},
+					"Negros Occidental": {
+						Code: "NEC",
+					},
+				},
+			},
+			"Zamboanga Peninsula (Region IX)": {
+				Code: "09",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Basilan": {
+						Code: "BAS",
+					},
+					"Zamboanga Sibugay": {
+						Code: "ZSI",
+					},
+					"Zamboanga del Norte": {
+						Code: "ZAN",
+					},
+					"Zamboanga del Sur": {
+						Code: "ZAS",
+					},
+				},
+			},
+		},
 	},
 
 	"PK": {
@@ -2021,6 +36085,77 @@ var CountryStates = map[string]Country{
 		OfficialName: "Islamic Republic of Pakistan",
 		CommonName:   "",
 		Numeric:      "586",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BA": {
+				Name:         "Balochistan",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"GB": {
+				Name:         "Gilgit-Baltistan",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "Pakistan administered area",
+			},
+			"IS": {
+				Name:         "Islamabad",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "federal capital territory",
+			},
+			"JK": {
+				Name:         "Azad Jammu and Kashmir",
+				LocalName:    "AJ&K",
+				LanguageCode: "en",
+				Type:         "Pakistan administered area",
+			},
+			"KP": {
+				Name:         "Khyber Pakhtunkhwa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"PB": {
+				Name:         "Punjab",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"SD": {
+				Name:         "Sindh",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Azad Jammu and Kashmir": {
+				Code: "JK",
+			},
+			"Balochistan": {
+				Code: "BA",
+			},
+			"Gilgit-Baltistan": {
+				Code: "GB",
+			},
+			"Islamabad": {
+				Code: "IS",
+			},
+			"Khyber Pakhtunkhwa": {
+				Code: "KP",
+			},
+			"Punjab": {
+				Code: "PB",
+			},
+			"Sindh": {
+				Code: "SD",
+			},
+		},
 	},
 
 	"PL": {
@@ -2030,6 +36165,158 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Poland",
 		CommonName:   "",
 		Numeric:      "616",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"02": {
+				Name:         "Dolnośląskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"04": {
+				Name:         "Kujawsko-pomorskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"06": {
+				Name:         "Lubelskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"08": {
+				Name:         "Lubuskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"10": {
+				Name:         "Łódzkie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"12": {
+				Name:         "Małopolskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"14": {
+				Name:         "Mazowieckie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"16": {
+				Name:         "Opolskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"18": {
+				Name:         "Podkarpackie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"20": {
+				Name:         "Podlaskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"22": {
+				Name:         "Pomorskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"24": {
+				Name:         "Śląskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"26": {
+				Name:         "Świętokrzyskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"28": {
+				Name:         "Warmińsko-mazurskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"30": {
+				Name:         "Wielkopolskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+			"32": {
+				Name:         "Zachodniopomorskie",
+				LocalName:    "",
+				LanguageCode: "pl",
+				Type:         "voivodship",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Dolnośląskie": {
+				Code: "02",
+			},
+			"Kujawsko-pomorskie": {
+				Code: "04",
+			},
+			"Lubelskie": {
+				Code: "06",
+			},
+			"Lubuskie": {
+				Code: "08",
+			},
+			"Mazowieckie": {
+				Code: "14",
+			},
+			"Małopolskie": {
+				Code: "12",
+			},
+			"Opolskie": {
+				Code: "16",
+			},
+			"Podkarpackie": {
+				Code: "18",
+			},
+			"Podlaskie": {
+				Code: "20",
+			},
+			"Pomorskie": {
+				Code: "22",
+			},
+			"Warmińsko-mazurskie": {
+				Code: "28",
+			},
+			"Wielkopolskie": {
+				Code: "30",
+			},
+			"Zachodniopomorskie": {
+				Code: "32",
+			},
+			"Łódzkie": {
+				Code: "10",
+			},
+			"Śląskie": {
+				Code: "24",
+			},
+			"Świętokrzyskie": {
+				Code: "26",
+			},
+		},
 	},
 
 	"PM": {
@@ -2066,6 +36353,158 @@ var CountryStates = map[string]Country{
 		OfficialName: "the State of Palestine",
 		CommonName:   "",
 		Numeric:      "275",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BTH": {
+				Name:         "Bethlehem",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"DEB": {
+				Name:         "Deir El Balah",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"GZA": {
+				Name:         "Gaza",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"HBN": {
+				Name:         "Hebron",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"JEM": {
+				Name:         "Jerusalem",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"JEN": {
+				Name:         "Jenin",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"JRH": {
+				Name:         "Jericho and Al Aghwar",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"KYS": {
+				Name:         "Khan Yunis",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"NBS": {
+				Name:         "Nablus",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"NGZ": {
+				Name:         "North Gaza",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"QQA": {
+				Name:         "Qalqilya",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"RBH": {
+				Name:         "Ramallah",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"RFH": {
+				Name:         "Rafah",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"SLT": {
+				Name:         "Salfit",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"TBS": {
+				Name:         "Tubas",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+			"TKM": {
+				Name:         "Tulkarm",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "governorate",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bethlehem": {
+				Code: "BTH",
+			},
+			"Deir El Balah": {
+				Code: "DEB",
+			},
+			"Gaza": {
+				Code: "GZA",
+			},
+			"Hebron": {
+				Code: "HBN",
+			},
+			"Jenin": {
+				Code: "JEN",
+			},
+			"Jericho and Al Aghwar": {
+				Code: "JRH",
+			},
+			"Jerusalem": {
+				Code: "JEM",
+			},
+			"Khan Yunis": {
+				Code: "KYS",
+			},
+			"Nablus": {
+				Code: "NBS",
+			},
+			"North Gaza": {
+				Code: "NGZ",
+			},
+			"Qalqilya": {
+				Code: "QQA",
+			},
+			"Rafah": {
+				Code: "RFH",
+			},
+			"Ramallah": {
+				Code: "RBH",
+			},
+			"Salfit": {
+				Code: "SLT",
+			},
+			"Tubas": {
+				Code: "TBS",
+			},
+			"Tulkarm": {
+				Code: "TKM",
+			},
+		},
 	},
 
 	"PT": {
@@ -2075,6 +36514,194 @@ var CountryStates = map[string]Country{
 		OfficialName: "Portuguese Republic",
 		CommonName:   "",
 		Numeric:      "620",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Aveiro",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"02": {
+				Name:         "Beja",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"03": {
+				Name:         "Braga",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"04": {
+				Name:         "Bragança",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"05": {
+				Name:         "Castelo Branco",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"06": {
+				Name:         "Coimbra",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"07": {
+				Name:         "Évora",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"08": {
+				Name:         "Faro",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"09": {
+				Name:         "Guarda",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"10": {
+				Name:         "Leiria",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"11": {
+				Name:         "Lisboa",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"12": {
+				Name:         "Portalegre",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"13": {
+				Name:         "Porto",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"14": {
+				Name:         "Santarém",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"15": {
+				Name:         "Setúbal",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"16": {
+				Name:         "Viana do Castelo",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"17": {
+				Name:         "Vila Real",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"18": {
+				Name:         "Viseu",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "district",
+			},
+			"20": {
+				Name:         "Região Autónoma dos Açores",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "autonomous region",
+			},
+			"30": {
+				Name:         "Região Autónoma da Madeira",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "autonomous region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aveiro": {
+				Code: "01",
+			},
+			"Beja": {
+				Code: "02",
+			},
+			"Braga": {
+				Code: "03",
+			},
+			"Bragança": {
+				Code: "04",
+			},
+			"Castelo Branco": {
+				Code: "05",
+			},
+			"Coimbra": {
+				Code: "06",
+			},
+			"Faro": {
+				Code: "08",
+			},
+			"Guarda": {
+				Code: "09",
+			},
+			"Leiria": {
+				Code: "10",
+			},
+			"Lisboa": {
+				Code: "11",
+			},
+			"Portalegre": {
+				Code: "12",
+			},
+			"Porto": {
+				Code: "13",
+			},
+			"Região Autónoma da Madeira": {
+				Code: "30",
+			},
+			"Região Autónoma dos Açores": {
+				Code: "20",
+			},
+			"Santarém": {
+				Code: "14",
+			},
+			"Setúbal": {
+				Code: "15",
+			},
+			"Viana do Castelo": {
+				Code: "16",
+			},
+			"Vila Real": {
+				Code: "17",
+			},
+			"Viseu": {
+				Code: "18",
+			},
+			"Évora": {
+				Code: "07",
+			},
+		},
 	},
 
 	"PW": {
@@ -2084,6 +36711,158 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Palau",
 		CommonName:   "",
 		Numeric:      "585",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"002": {
+				Name:         "Aimeliik",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"004": {
+				Name:         "Airai",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"010": {
+				Name:         "Angaur",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"050": {
+				Name:         "Hatohobei",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"100": {
+				Name:         "Kayangel",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"150": {
+				Name:         "Koror",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"212": {
+				Name:         "Melekeok",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"214": {
+				Name:         "Ngaraard",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"218": {
+				Name:         "Ngarchelong",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"222": {
+				Name:         "Ngardmau",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"224": {
+				Name:         "Ngatpang",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"226": {
+				Name:         "Ngchesar",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"227": {
+				Name:         "Ngeremlengui",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"228": {
+				Name:         "Ngiwal",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"350": {
+				Name:         "Peleliu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"370": {
+				Name:         "Sonsorol",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aimeliik": {
+				Code: "002",
+			},
+			"Airai": {
+				Code: "004",
+			},
+			"Angaur": {
+				Code: "010",
+			},
+			"Hatohobei": {
+				Code: "050",
+			},
+			"Kayangel": {
+				Code: "100",
+			},
+			"Koror": {
+				Code: "150",
+			},
+			"Melekeok": {
+				Code: "212",
+			},
+			"Ngaraard": {
+				Code: "214",
+			},
+			"Ngarchelong": {
+				Code: "218",
+			},
+			"Ngardmau": {
+				Code: "222",
+			},
+			"Ngatpang": {
+				Code: "224",
+			},
+			"Ngchesar": {
+				Code: "226",
+			},
+			"Ngeremlengui": {
+				Code: "227",
+			},
+			"Ngiwal": {
+				Code: "228",
+			},
+			"Peleliu": {
+				Code: "350",
+			},
+			"Sonsorol": {
+				Code: "370",
+			},
+		},
 	},
 
 	"PY": {
@@ -2093,6 +36872,176 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Paraguay",
 		CommonName:   "",
 		Numeric:      "600",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"1": {
+				Name:         "Concepción",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"10": {
+				Name:         "Alto Paraná",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"11": {
+				Name:         "Central",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"12": {
+				Name:         "Ñeembucú",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"13": {
+				Name:         "Amambay",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"14": {
+				Name:         "Canindeyú",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"15": {
+				Name:         "Presidente Hayes",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"16": {
+				Name:         "Alto Paraguay",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"19": {
+				Name:         "Boquerón",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"2": {
+				Name:         "San Pedro",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"3": {
+				Name:         "Cordillera",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"4": {
+				Name:         "Guairá",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"5": {
+				Name:         "Caaguazú",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"6": {
+				Name:         "Caazapá",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"7": {
+				Name:         "Itapúa",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"8": {
+				Name:         "Misiones",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"9": {
+				Name:         "Paraguarí",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"ASU": {
+				Name:         "Asunción",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "capital",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Alto Paraguay": {
+				Code: "16",
+			},
+			"Alto Paraná": {
+				Code: "10",
+			},
+			"Amambay": {
+				Code: "13",
+			},
+			"Asunción": {
+				Code: "ASU",
+			},
+			"Boquerón": {
+				Code: "19",
+			},
+			"Caaguazú": {
+				Code: "5",
+			},
+			"Caazapá": {
+				Code: "6",
+			},
+			"Canindeyú": {
+				Code: "14",
+			},
+			"Central": {
+				Code: "11",
+			},
+			"Concepción": {
+				Code: "1",
+			},
+			"Cordillera": {
+				Code: "3",
+			},
+			"Guairá": {
+				Code: "4",
+			},
+			"Itapúa": {
+				Code: "7",
+			},
+			"Misiones": {
+				Code: "8",
+			},
+			"Paraguarí": {
+				Code: "9",
+			},
+			"Presidente Hayes": {
+				Code: "15",
+			},
+			"San Pedro": {
+				Code: "2",
+			},
+			"Ñeembucú": {
+				Code: "12",
+			},
+		},
 	},
 
 	"QA": {
@@ -2102,6 +37051,86 @@ var CountryStates = map[string]Country{
 		OfficialName: "State of Qatar",
 		CommonName:   "",
 		Numeric:      "634",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"DA": {
+				Name:         "Ad Dawḩah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "municipality",
+			},
+			"KH": {
+				Name:         "Al Khawr wa adh Dhakhīrah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "municipality",
+			},
+			"MS": {
+				Name:         "Ash Shamāl",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "municipality",
+			},
+			"RA": {
+				Name:         "Ar Rayyān",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "municipality",
+			},
+			"SH": {
+				Name:         "Ash Shīḩānīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "municipality",
+			},
+			"US": {
+				Name:         "Umm Şalāl",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "municipality",
+			},
+			"WA": {
+				Name:         "Al Wakrah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "municipality",
+			},
+			"ZA": {
+				Name:         "Az̧ Z̧a‘āyin",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "municipality",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ad Dawḩah": {
+				Code: "DA",
+			},
+			"Al Khawr wa adh Dhakhīrah": {
+				Code: "KH",
+			},
+			"Al Wakrah": {
+				Code: "WA",
+			},
+			"Ar Rayyān": {
+				Code: "RA",
+			},
+			"Ash Shamāl": {
+				Code: "MS",
+			},
+			"Ash Shīḩānīyah": {
+				Code: "SH",
+			},
+			"Az̧ Z̧a‘āyin": {
+				Code: "ZA",
+			},
+			"Umm Şalāl": {
+				Code: "US",
+			},
+		},
 	},
 
 	"RE": {
@@ -2120,6 +37149,392 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "642",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AB": {
+				Name:         "Alba",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"AG": {
+				Name:         "Argeș",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"AR": {
+				Name:         "Arad",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"B": {
+				Name:         "București",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "municipality",
+			},
+			"BC": {
+				Name:         "Bacău",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"BH": {
+				Name:         "Bihor",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"BN": {
+				Name:         "Bistrița-Năsăud",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"BR": {
+				Name:         "Brăila",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"BT": {
+				Name:         "Botoșani",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"BV": {
+				Name:         "Brașov",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"BZ": {
+				Name:         "Buzău",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"CJ": {
+				Name:         "Cluj",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"CL": {
+				Name:         "Călărași",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"CS": {
+				Name:         "Caraș-Severin",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"CT": {
+				Name:         "Constanța",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"CV": {
+				Name:         "Covasna",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"DB": {
+				Name:         "Dâmbovița",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"DJ": {
+				Name:         "Dolj",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"GJ": {
+				Name:         "Gorj",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"GL": {
+				Name:         "Galați",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"GR": {
+				Name:         "Giurgiu",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"HD": {
+				Name:         "Hunedoara",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"HR": {
+				Name:         "Harghita",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"IF": {
+				Name:         "Ilfov",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"IL": {
+				Name:         "Ialomița",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"IS": {
+				Name:         "Iași",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"MH": {
+				Name:         "Mehedinți",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"MM": {
+				Name:         "Maramureș",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"MS": {
+				Name:         "Mureș",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"NT": {
+				Name:         "Neamț",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"OT": {
+				Name:         "Olt",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"PH": {
+				Name:         "Prahova",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"SB": {
+				Name:         "Sibiu",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"SJ": {
+				Name:         "Sălaj",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"SM": {
+				Name:         "Satu Mare",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"SV": {
+				Name:         "Suceava",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"TL": {
+				Name:         "Tulcea",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"TM": {
+				Name:         "Timiș",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"TR": {
+				Name:         "Teleorman",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"VL": {
+				Name:         "Vâlcea",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"VN": {
+				Name:         "Vrancea",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+			"VS": {
+				Name:         "Vaslui",
+				LocalName:    "",
+				LanguageCode: "ro",
+				Type:         "department",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Alba": {
+				Code: "AB",
+			},
+			"Arad": {
+				Code: "AR",
+			},
+			"Argeș": {
+				Code: "AG",
+			},
+			"Bacău": {
+				Code: "BC",
+			},
+			"Bihor": {
+				Code: "BH",
+			},
+			"Bistrița-Năsăud": {
+				Code: "BN",
+			},
+			"Botoșani": {
+				Code: "BT",
+			},
+			"Brașov": {
+				Code: "BV",
+			},
+			"Brăila": {
+				Code: "BR",
+			},
+			"București": {
+				Code: "B",
+			},
+			"Buzău": {
+				Code: "BZ",
+			},
+			"Caraș-Severin": {
+				Code: "CS",
+			},
+			"Cluj": {
+				Code: "CJ",
+			},
+			"Constanța": {
+				Code: "CT",
+			},
+			"Covasna": {
+				Code: "CV",
+			},
+			"Călărași": {
+				Code: "CL",
+			},
+			"Dolj": {
+				Code: "DJ",
+			},
+			"Dâmbovița": {
+				Code: "DB",
+			},
+			"Galați": {
+				Code: "GL",
+			},
+			"Giurgiu": {
+				Code: "GR",
+			},
+			"Gorj": {
+				Code: "GJ",
+			},
+			"Harghita": {
+				Code: "HR",
+			},
+			"Hunedoara": {
+				Code: "HD",
+			},
+			"Ialomița": {
+				Code: "IL",
+			},
+			"Iași": {
+				Code: "IS",
+			},
+			"Ilfov": {
+				Code: "IF",
+			},
+			"Maramureș": {
+				Code: "MM",
+			},
+			"Mehedinți": {
+				Code: "MH",
+			},
+			"Mureș": {
+				Code: "MS",
+			},
+			"Neamț": {
+				Code: "NT",
+			},
+			"Olt": {
+				Code: "OT",
+			},
+			"Prahova": {
+				Code: "PH",
+			},
+			"Satu Mare": {
+				Code: "SM",
+			},
+			"Sibiu": {
+				Code: "SB",
+			},
+			"Suceava": {
+				Code: "SV",
+			},
+			"Sălaj": {
+				Code: "SJ",
+			},
+			"Teleorman": {
+				Code: "TR",
+			},
+			"Timiș": {
+				Code: "TM",
+			},
+			"Tulcea": {
+				Code: "TL",
+			},
+			"Vaslui": {
+				Code: "VS",
+			},
+			"Vrancea": {
+				Code: "VN",
+			},
+			"Vâlcea": {
+				Code: "VL",
+			},
+		},
 	},
 
 	"RS": {
@@ -2450,6 +37865,761 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "643",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AD": {
+				Name:         "Adygeja, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"AL": {
+				Name:         "Altaj, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"ALT": {
+				Name:         "Altajskij kraj",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative territory",
+			},
+			"AMU": {
+				Name:         "Amurskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"ARK": {
+				Name:         "Arhangel'skaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"AST": {
+				Name:         "Astrahanskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"BA": {
+				Name:         "Baškortostan, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"BEL": {
+				Name:         "Belgorodskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"BRY": {
+				Name:         "Brjanskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"BU": {
+				Name:         "Burjatija, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"CE": {
+				Name:         "Čečenskaja Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"CHE": {
+				Name:         "Čeljabinskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"CHU": {
+				Name:         "Čukotskij avtonomnyj okrug",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "autonomous district",
+			},
+			"CU": {
+				Name:         "Čuvašskaja Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"DA": {
+				Name:         "Dagestan, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"IN": {
+				Name:         "Ingušetija, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"IRK": {
+				Name:         "Irkutskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"IVA": {
+				Name:         "Ivanovskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"KAM": {
+				Name:         "Kamčatskij kraj",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative territory",
+			},
+			"KB": {
+				Name:         "Kabardino-Balkarskaja Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"KC": {
+				Name:         "Karačaevo-Čerkesskaja Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"KDA": {
+				Name:         "Krasnodarskij kraj",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative territory",
+			},
+			"KEM": {
+				Name:         "Kemerovskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"KGD": {
+				Name:         "Kaliningradskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"KGN": {
+				Name:         "Kurganskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"KHA": {
+				Name:         "Habarovskij kraj",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative territory",
+			},
+			"KHM": {
+				Name:         "Hanty-Mansijskij avtonomnyj okrug",
+				LocalName:    "Jugra",
+				LanguageCode: "ru",
+				Type:         "autonomous district",
+			},
+			"KIR": {
+				Name:         "Kirovskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"KK": {
+				Name:         "Hakasija, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"KL": {
+				Name:         "Kalmykija, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"KLU": {
+				Name:         "Kalužskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"KO": {
+				Name:         "Komi, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"KOS": {
+				Name:         "Kostromskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"KR": {
+				Name:         "Karelija, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"KRS": {
+				Name:         "Kurskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"KYA": {
+				Name:         "Krasnojarskij kraj",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative territory",
+			},
+			"LEN": {
+				Name:         "Leningradskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"LIP": {
+				Name:         "Lipeckaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"MAG": {
+				Name:         "Magadanskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"ME": {
+				Name:         "Marij Èl, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"MO": {
+				Name:         "Mordovija, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"MOS": {
+				Name:         "Moskovskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"MOW": {
+				Name:         "Moskva",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "autonomous city",
+			},
+			"MUR": {
+				Name:         "Murmanskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"NEN": {
+				Name:         "Neneckij avtonomnyj okrug",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "autonomous district",
+			},
+			"NGR": {
+				Name:         "Novgorodskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"NIZ": {
+				Name:         "Nizhegorodskaya oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"NVS": {
+				Name:         "Novosibirskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"OMS": {
+				Name:         "Omskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"ORE": {
+				Name:         "Orenburgskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"ORL": {
+				Name:         "Orlovskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"PER": {
+				Name:         "Permskij kraj",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative territory",
+			},
+			"PNZ": {
+				Name:         "Penzenskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"PRI": {
+				Name:         "Primorskij kraj",
+				LocalName:    "",
+				LanguageCode: "ur",
+				Type:         "administrative territory",
+			},
+			"PSK": {
+				Name:         "Pskovskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ur",
+				Type:         "administrative region",
+			},
+			"ROS": {
+				Name:         "Rostovskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ur",
+				Type:         "administrative region",
+			},
+			"RYA": {
+				Name:         "Rjazanskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"SA": {
+				Name:         "Sakha, Respublika",
+				LocalName:    "Yakutiya",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"SAK": {
+				Name:         "Sahalinskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"SAM": {
+				Name:         "Samarskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"SAR": {
+				Name:         "Saratovskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"SE": {
+				Name:         "Severnaja Osetija, Respublika",
+				LocalName:    "Alanija [Respublika Severnaja Osetija-Alanija]",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"SMO": {
+				Name:         "Smolenskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"SPE": {
+				Name:         "Sankt-Peterburg",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "autonomous city",
+			},
+			"STA": {
+				Name:         "Stavropol'skij kraj",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative territory",
+			},
+			"SVE": {
+				Name:         "Sverdlovskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"TA": {
+				Name:         "Tatarstan, Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"TAM": {
+				Name:         "Tambovskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"TOM": {
+				Name:         "Tomskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"TUL": {
+				Name:         "Tul'skaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"TVE": {
+				Name:         "Tverskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"TY": {
+				Name:         "Tyva, Respublika",
+				LocalName:    "Tuva",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"TYU": {
+				Name:         "Tjumenskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"UD": {
+				Name:         "Udmurtskaja Respublika",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "republic",
+			},
+			"ULY": {
+				Name:         "Ul'janovskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"VGG": {
+				Name:         "Volgogradskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"VLA": {
+				Name:         "Vladimirskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"VLG": {
+				Name:         "Vologodskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"VOR": {
+				Name:         "Voronežskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"YAN": {
+				Name:         "Jamalo-Neneckij avtonomnyj okrug",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "autonomous district",
+			},
+			"YAR": {
+				Name:         "Jaroslavskaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative region",
+			},
+			"YEV": {
+				Name:         "Evrejskaja avtonomnaja oblast'",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "autonomous region",
+			},
+			"ZAB": {
+				Name:         "Zabajkal'skij kraj",
+				LocalName:    "",
+				LanguageCode: "ru",
+				Type:         "administrative territory",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Adygeja, Respublika": {
+				Code: "AD",
+			},
+			"Altaj, Respublika": {
+				Code: "AL",
+			},
+			"Altajskij kraj": {
+				Code: "ALT",
+			},
+			"Amurskaja oblast'": {
+				Code: "AMU",
+			},
+			"Arhangel'skaja oblast'": {
+				Code: "ARK",
+			},
+			"Astrahanskaja oblast'": {
+				Code: "AST",
+			},
+			"Baškortostan, Respublika": {
+				Code: "BA",
+			},
+			"Belgorodskaja oblast'": {
+				Code: "BEL",
+			},
+			"Brjanskaja oblast'": {
+				Code: "BRY",
+			},
+			"Burjatija, Respublika": {
+				Code: "BU",
+			},
+			"Dagestan, Respublika": {
+				Code: "DA",
+			},
+			"Evrejskaja avtonomnaja oblast'": {
+				Code: "YEV",
+			},
+			"Habarovskij kraj": {
+				Code: "KHA",
+			},
+			"Hakasija, Respublika": {
+				Code: "KK",
+			},
+			"Hanty-Mansijskij avtonomnyj okrug": {
+				Code: "KHM",
+			},
+			"Ingušetija, Respublika": {
+				Code: "IN",
+			},
+			"Irkutskaja oblast'": {
+				Code: "IRK",
+			},
+			"Ivanovskaja oblast'": {
+				Code: "IVA",
+			},
+			"Jamalo-Neneckij avtonomnyj okrug": {
+				Code: "YAN",
+			},
+			"Jaroslavskaja oblast'": {
+				Code: "YAR",
+			},
+			"Kabardino-Balkarskaja Respublika": {
+				Code: "KB",
+			},
+			"Kaliningradskaja oblast'": {
+				Code: "KGD",
+			},
+			"Kalmykija, Respublika": {
+				Code: "KL",
+			},
+			"Kalužskaja oblast'": {
+				Code: "KLU",
+			},
+			"Kamčatskij kraj": {
+				Code: "KAM",
+			},
+			"Karačaevo-Čerkesskaja Respublika": {
+				Code: "KC",
+			},
+			"Karelija, Respublika": {
+				Code: "KR",
+			},
+			"Kemerovskaja oblast'": {
+				Code: "KEM",
+			},
+			"Kirovskaja oblast'": {
+				Code: "KIR",
+			},
+			"Komi, Respublika": {
+				Code: "KO",
+			},
+			"Kostromskaja oblast'": {
+				Code: "KOS",
+			},
+			"Krasnodarskij kraj": {
+				Code: "KDA",
+			},
+			"Krasnojarskij kraj": {
+				Code: "KYA",
+			},
+			"Kurganskaja oblast'": {
+				Code: "KGN",
+			},
+			"Kurskaja oblast'": {
+				Code: "KRS",
+			},
+			"Leningradskaja oblast'": {
+				Code: "LEN",
+			},
+			"Lipeckaja oblast'": {
+				Code: "LIP",
+			},
+			"Magadanskaja oblast'": {
+				Code: "MAG",
+			},
+			"Marij Èl, Respublika": {
+				Code: "ME",
+			},
+			"Mordovija, Respublika": {
+				Code: "MO",
+			},
+			"Moskovskaja oblast'": {
+				Code: "MOS",
+			},
+			"Moskva": {
+				Code: "MOW",
+			},
+			"Murmanskaja oblast'": {
+				Code: "MUR",
+			},
+			"Neneckij avtonomnyj okrug": {
+				Code: "NEN",
+			},
+			"Nizhegorodskaya oblast'": {
+				Code: "NIZ",
+			},
+			"Novgorodskaja oblast'": {
+				Code: "NGR",
+			},
+			"Novosibirskaja oblast'": {
+				Code: "NVS",
+			},
+			"Omskaja oblast'": {
+				Code: "OMS",
+			},
+			"Orenburgskaja oblast'": {
+				Code: "ORE",
+			},
+			"Orlovskaja oblast'": {
+				Code: "ORL",
+			},
+			"Penzenskaja oblast'": {
+				Code: "PNZ",
+			},
+			"Permskij kraj": {
+				Code: "PER",
+			},
+			"Primorskij kraj": {
+				Code: "PRI",
+			},
+			"Pskovskaja oblast'": {
+				Code: "PSK",
+			},
+			"Rjazanskaja oblast'": {
+				Code: "RYA",
+			},
+			"Rostovskaja oblast'": {
+				Code: "ROS",
+			},
+			"Sahalinskaja oblast'": {
+				Code: "SAK",
+			},
+			"Sakha, Respublika": {
+				Code: "SA",
+			},
+			"Samarskaja oblast'": {
+				Code: "SAM",
+			},
+			"Sankt-Peterburg": {
+				Code: "SPE",
+			},
+			"Saratovskaja oblast'": {
+				Code: "SAR",
+			},
+			"Severnaja Osetija, Respublika": {
+				Code: "SE",
+			},
+			"Smolenskaja oblast'": {
+				Code: "SMO",
+			},
+			"Stavropol'skij kraj": {
+				Code: "STA",
+			},
+			"Sverdlovskaja oblast'": {
+				Code: "SVE",
+			},
+			"Tambovskaja oblast'": {
+				Code: "TAM",
+			},
+			"Tatarstan, Respublika": {
+				Code: "TA",
+			},
+			"Tjumenskaja oblast'": {
+				Code: "TYU",
+			},
+			"Tomskaja oblast'": {
+				Code: "TOM",
+			},
+			"Tul'skaja oblast'": {
+				Code: "TUL",
+			},
+			"Tverskaja oblast'": {
+				Code: "TVE",
+			},
+			"Tyva, Respublika": {
+				Code: "TY",
+			},
+			"Udmurtskaja Respublika": {
+				Code: "UD",
+			},
+			"Ul'janovskaja oblast'": {
+				Code: "ULY",
+			},
+			"Vladimirskaja oblast'": {
+				Code: "VLA",
+			},
+			"Volgogradskaja oblast'": {
+				Code: "VGG",
+			},
+			"Vologodskaja oblast'": {
+				Code: "VLG",
+			},
+			"Voronežskaja oblast'": {
+				Code: "VOR",
+			},
+			"Zabajkal'skij kraj": {
+				Code: "ZAB",
+			},
+			"Čeljabinskaja oblast'": {
+				Code: "CHE",
+			},
+			"Čečenskaja Respublika": {
+				Code: "CE",
+			},
+			"Čukotskij avtonomnyj okrug": {
+				Code: "CHU",
+			},
+			"Čuvašskaja Respublika": {
+				Code: "CU",
+			},
+		},
 	},
 
 	"RW": {
@@ -2459,6 +38629,59 @@ var CountryStates = map[string]Country{
 		OfficialName: "Rwandese Republic",
 		CommonName:   "",
 		Numeric:      "646",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "City of Kigali",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "city",
+			},
+			"02": {
+				Name:         "Eastern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"03": {
+				Name:         "Northern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"04": {
+				Name:         "Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"05": {
+				Name:         "Southern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"City of Kigali": {
+				Code: "01",
+			},
+			"Eastern": {
+				Code: "02",
+			},
+			"Northern": {
+				Code: "03",
+			},
+			"Southern": {
+				Code: "05",
+			},
+			"Western": {
+				Code: "04",
+			},
+		},
 	},
 
 	"SA": {
@@ -2468,6 +38691,131 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Saudi Arabia",
 		CommonName:   "",
 		Numeric:      "682",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Ar Riyāḑ",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"02": {
+				Name:         "Makkah al Mukarramah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"03": {
+				Name:         "Al Madīnah al Munawwarah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"04": {
+				Name:         "Ash Sharqīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"05": {
+				Name:         "Al Qaşīm",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"06": {
+				Name:         "Ḩā'il",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"07": {
+				Name:         "Tabūk",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"08": {
+				Name:         "Al Ḩudūd ash Shamālīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"09": {
+				Name:         "Jāzān",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"10": {
+				Name:         "Najrān",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"11": {
+				Name:         "Al Bāḩah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"12": {
+				Name:         "Al Jawf",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+			"14": {
+				Name:         "Asīr",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Al Bāḩah": {
+				Code: "11",
+			},
+			"Al Jawf": {
+				Code: "12",
+			},
+			"Al Madīnah al Munawwarah": {
+				Code: "03",
+			},
+			"Al Qaşīm": {
+				Code: "05",
+			},
+			"Al Ḩudūd ash Shamālīyah": {
+				Code: "08",
+			},
+			"Ar Riyāḑ": {
+				Code: "01",
+			},
+			"Ash Sharqīyah": {
+				Code: "04",
+			},
+			"Asīr": {
+				Code: "14",
+			},
+			"Jāzān": {
+				Code: "09",
+			},
+			"Makkah al Mukarramah": {
+				Code: "02",
+			},
+			"Najrān": {
+				Code: "10",
+			},
+			"Tabūk": {
+				Code: "07",
+			},
+			"Ḩā'il": {
+				Code: "06",
+			},
+		},
 	},
 
 	"SB": {
@@ -2477,6 +38825,104 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "090",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"CE": {
+				Name:         "Central",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"CH": {
+				Name:         "Choiseul",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"CT": {
+				Name:         "Capital Territory (Honiara)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "capital territory",
+			},
+			"GU": {
+				Name:         "Guadalcanal",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"IS": {
+				Name:         "Isabel",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MK": {
+				Name:         "Makira-Ulawa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"ML": {
+				Name:         "Malaita",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"RB": {
+				Name:         "Rennell and Bellona",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"TE": {
+				Name:         "Temotu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"WE": {
+				Name:         "Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Capital Territory (Honiara)": {
+				Code: "CT",
+			},
+			"Central": {
+				Code: "CE",
+			},
+			"Choiseul": {
+				Code: "CH",
+			},
+			"Guadalcanal": {
+				Code: "GU",
+			},
+			"Isabel": {
+				Code: "IS",
+			},
+			"Makira-Ulawa": {
+				Code: "MK",
+			},
+			"Malaita": {
+				Code: "ML",
+			},
+			"Rennell and Bellona": {
+				Code: "RB",
+			},
+			"Temotu": {
+				Code: "TE",
+			},
+			"Western": {
+				Code: "WE",
+			},
+		},
 	},
 
 	"SC": {
@@ -2486,6 +38932,239 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Seychelles",
 		CommonName:   "",
 		Numeric:      "690",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Anse aux Pins",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"02": {
+				Name:         "Anse Boileau",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"03": {
+				Name:         "Anse Etoile",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"04": {
+				Name:         "Au Cap",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"05": {
+				Name:         "Anse Royale",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"06": {
+				Name:         "Baie Lazare",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"07": {
+				Name:         "Baie Sainte Anne",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"08": {
+				Name:         "Beau Vallon",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"09": {
+				Name:         "Bel Air",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"10": {
+				Name:         "Bel Ombre",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"11": {
+				Name:         "Cascade",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"12": {
+				Name:         "Glacis",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"13": {
+				Name:         "Grand Anse Mahe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"14": {
+				Name:         "Grand Anse Praslin",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"15": {
+				Name:         "La Digue",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"16": {
+				Name:         "English River",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"17": {
+				Name:         "Mont Buxton",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"18": {
+				Name:         "Mont Fleuri",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"19": {
+				Name:         "Plaisance",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"20": {
+				Name:         "Pointe Larue",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"21": {
+				Name:         "Port Glaud",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"22": {
+				Name:         "Saint Louis",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"23": {
+				Name:         "Takamaka",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"24": {
+				Name:         "Les Mamelles",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"25": {
+				Name:         "Roche Caiman",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Anse Boileau": {
+				Code: "02",
+			},
+			"Anse Etoile": {
+				Code: "03",
+			},
+			"Anse Royale": {
+				Code: "05",
+			},
+			"Anse aux Pins": {
+				Code: "01",
+			},
+			"Au Cap": {
+				Code: "04",
+			},
+			"Baie Lazare": {
+				Code: "06",
+			},
+			"Baie Sainte Anne": {
+				Code: "07",
+			},
+			"Beau Vallon": {
+				Code: "08",
+			},
+			"Bel Air": {
+				Code: "09",
+			},
+			"Bel Ombre": {
+				Code: "10",
+			},
+			"Cascade": {
+				Code: "11",
+			},
+			"English River": {
+				Code: "16",
+			},
+			"Glacis": {
+				Code: "12",
+			},
+			"Grand Anse Mahe": {
+				Code: "13",
+			},
+			"Grand Anse Praslin": {
+				Code: "14",
+			},
+			"La Digue": {
+				Code: "15",
+			},
+			"Les Mamelles": {
+				Code: "24",
+			},
+			"Mont Buxton": {
+				Code: "17",
+			},
+			"Mont Fleuri": {
+				Code: "18",
+			},
+			"Plaisance": {
+				Code: "19",
+			},
+			"Pointe Larue": {
+				Code: "20",
+			},
+			"Port Glaud": {
+				Code: "21",
+			},
+			"Roche Caiman": {
+				Code: "25",
+			},
+			"Saint Louis": {
+				Code: "22",
+			},
+			"Takamaka": {
+				Code: "23",
+			},
+		},
 	},
 
 	"SD": {
@@ -2495,6 +39174,176 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of the Sudan",
 		CommonName:   "",
 		Numeric:      "729",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"DC": {
+				Name:         "Central Darfur",
+				LocalName:    "Zalingei",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"DE": {
+				Name:         "East Darfur",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"DN": {
+				Name:         "North Darfur",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"DS": {
+				Name:         "South Darfur",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"DW": {
+				Name:         "West Darfur",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"GD": {
+				Name:         "Gedaref",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"GK": {
+				Name:         "West Kordofan",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"GZ": {
+				Name:         "Gezira",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KA": {
+				Name:         "Kassala",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KH": {
+				Name:         "Khartoum",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KN": {
+				Name:         "North Kordofan",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KS": {
+				Name:         "South Kordofan",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NB": {
+				Name:         "Blue Nile",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NO": {
+				Name:         "Northern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NR": {
+				Name:         "River Nile",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NW": {
+				Name:         "White Nile",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"RS": {
+				Name:         "Red Sea",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"SI": {
+				Name:         "Sennar",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Blue Nile": {
+				Code: "NB",
+			},
+			"Central Darfur": {
+				Code: "DC",
+			},
+			"East Darfur": {
+				Code: "DE",
+			},
+			"Gedaref": {
+				Code: "GD",
+			},
+			"Gezira": {
+				Code: "GZ",
+			},
+			"Kassala": {
+				Code: "KA",
+			},
+			"Khartoum": {
+				Code: "KH",
+			},
+			"North Darfur": {
+				Code: "DN",
+			},
+			"North Kordofan": {
+				Code: "KN",
+			},
+			"Northern": {
+				Code: "NO",
+			},
+			"Red Sea": {
+				Code: "RS",
+			},
+			"River Nile": {
+				Code: "NR",
+			},
+			"Sennar": {
+				Code: "SI",
+			},
+			"South Darfur": {
+				Code: "DS",
+			},
+			"South Kordofan": {
+				Code: "KS",
+			},
+			"West Darfur": {
+				Code: "DW",
+			},
+			"West Kordofan": {
+				Code: "GK",
+			},
+			"White Nile": {
+				Code: "NW",
+			},
+		},
 	},
 
 	"SE": {
@@ -2504,6 +39353,203 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Sweden",
 		CommonName:   "",
 		Numeric:      "752",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AB": {
+				Name:         "Stockholms län [SE-01]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"AC": {
+				Name:         "Västerbottens län [SE-24]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"BD": {
+				Name:         "Norrbottens län [SE-25]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"C": {
+				Name:         "Uppsala län [SE-03]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"D": {
+				Name:         "Södermanlands län [SE-04]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"E": {
+				Name:         "Östergötlands län [SE-05]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"F": {
+				Name:         "Jönköpings län [SE-06]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"G": {
+				Name:         "Kronobergs län [SE-07]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"H": {
+				Name:         "Kalmar län [SE-08]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"I": {
+				Name:         "Gotlands län [SE-09]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"K": {
+				Name:         "Blekinge län [SE-10]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"M": {
+				Name:         "Skåne län [SE-12]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"N": {
+				Name:         "Hallands län [SE-13]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"O": {
+				Name:         "Västra Götalands län [SE-14]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"S": {
+				Name:         "Värmlands län [SE-17]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"T": {
+				Name:         "Örebro län [SE-18]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"U": {
+				Name:         "Västmanlands län [SE-19]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"W": {
+				Name:         "Dalarnas län [SE-20]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"X": {
+				Name:         "Gävleborgs län [SE-21]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"Y": {
+				Name:         "Västernorrlands län [SE-22]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+			"Z": {
+				Name:         "Jämtlands län [SE-23]",
+				LocalName:    "",
+				LanguageCode: "sv",
+				Type:         "county",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Blekinge län [SE-10]": {
+				Code: "K",
+			},
+			"Dalarnas län [SE-20]": {
+				Code: "W",
+			},
+			"Gotlands län [SE-09]": {
+				Code: "I",
+			},
+			"Gävleborgs län [SE-21]": {
+				Code: "X",
+			},
+			"Hallands län [SE-13]": {
+				Code: "N",
+			},
+			"Jämtlands län [SE-23]": {
+				Code: "Z",
+			},
+			"Jönköpings län [SE-06]": {
+				Code: "F",
+			},
+			"Kalmar län [SE-08]": {
+				Code: "H",
+			},
+			"Kronobergs län [SE-07]": {
+				Code: "G",
+			},
+			"Norrbottens län [SE-25]": {
+				Code: "BD",
+			},
+			"Skåne län [SE-12]": {
+				Code: "M",
+			},
+			"Stockholms län [SE-01]": {
+				Code: "AB",
+			},
+			"Södermanlands län [SE-04]": {
+				Code: "D",
+			},
+			"Uppsala län [SE-03]": {
+				Code: "C",
+			},
+			"Värmlands län [SE-17]": {
+				Code: "S",
+			},
+			"Västerbottens län [SE-24]": {
+				Code: "AC",
+			},
+			"Västernorrlands län [SE-22]": {
+				Code: "Y",
+			},
+			"Västmanlands län [SE-19]": {
+				Code: "U",
+			},
+			"Västra Götalands län [SE-14]": {
+				Code: "O",
+			},
+			"Örebro län [SE-18]": {
+				Code: "T",
+			},
+			"Östergötlands län [SE-05]": {
+				Code: "E",
+			},
+		},
 	},
 
 	"SG": {
@@ -2513,6 +39559,59 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Singapore",
 		CommonName:   "",
 		Numeric:      "702",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Central Singapore",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"02": {
+				Name:         "North East",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"03": {
+				Name:         "North West",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"04": {
+				Name:         "South East",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"05": {
+				Name:         "South West",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Central Singapore": {
+				Code: "01",
+			},
+			"North East": {
+				Code: "02",
+			},
+			"North West": {
+				Code: "03",
+			},
+			"South East": {
+				Code: "04",
+			},
+			"South West": {
+				Code: "05",
+			},
+		},
 	},
 
 	"SH": {
@@ -2522,6 +39621,41 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "654",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AC": {
+				Name:         "Ascension",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "geographical entity",
+			},
+			"HL": {
+				Name:         "Saint Helena",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "geographical entity",
+			},
+			"TA": {
+				Name:         "Tristan da Cunha",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "geographical entity",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ascension": {
+				Code: "AC",
+			},
+			"Saint Helena": {
+				Code: "HL",
+			},
+			"Tristan da Cunha": {
+				Code: "TA",
+			},
+		},
 	},
 
 	"SI": {
@@ -2531,6 +39665,1922 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Slovenia",
 		CommonName:   "",
 		Numeric:      "705",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"001": {
+				Name:         "Ajdovščina",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"002": {
+				Name:         "Beltinci",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"003": {
+				Name:         "Bled",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"004": {
+				Name:         "Bohinj",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"005": {
+				Name:         "Borovnica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"006": {
+				Name:         "Bovec",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"007": {
+				Name:         "Brda",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"008": {
+				Name:         "Brezovica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"009": {
+				Name:         "Brežice",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"010": {
+				Name:         "Tišina",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"011": {
+				Name:         "Celje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"012": {
+				Name:         "Cerklje na Gorenjskem",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"013": {
+				Name:         "Cerknica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"014": {
+				Name:         "Cerkno",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"015": {
+				Name:         "Črenšovci",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"016": {
+				Name:         "Črna na Koroškem",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"017": {
+				Name:         "Črnomelj",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"018": {
+				Name:         "Destrnik",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"019": {
+				Name:         "Divača",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"020": {
+				Name:         "Dobrepolje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"021": {
+				Name:         "Dobrova-Polhov Gradec",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"022": {
+				Name:         "Dol pri Ljubljani",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"023": {
+				Name:         "Domžale",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"024": {
+				Name:         "Dornava",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"025": {
+				Name:         "Dravograd",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"026": {
+				Name:         "Duplek",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"027": {
+				Name:         "Gorenja vas-Poljane",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"028": {
+				Name:         "Gorišnica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"029": {
+				Name:         "Gornja Radgona",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"030": {
+				Name:         "Gornji Grad",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"031": {
+				Name:         "Gornji Petrovci",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"032": {
+				Name:         "Grosuplje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"033": {
+				Name:         "Šalovci",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"034": {
+				Name:         "Hrastnik",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"035": {
+				Name:         "Hrpelje-Kozina",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"036": {
+				Name:         "Idrija",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"037": {
+				Name:         "Ig",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"038": {
+				Name:         "Ilirska Bistrica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"039": {
+				Name:         "Ivančna Gorica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"040": {
+				Name:         "Izola",
+				LocalName:    "Isola",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"041": {
+				Name:         "Jesenice",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"042": {
+				Name:         "Juršinci",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"043": {
+				Name:         "Kamnik",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"044": {
+				Name:         "Kanal",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"045": {
+				Name:         "Kidričevo",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"046": {
+				Name:         "Kobarid",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"047": {
+				Name:         "Kobilje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"048": {
+				Name:         "Kočevje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"049": {
+				Name:         "Komen",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"050": {
+				Name:         "Koper",
+				LocalName:    "Capodistria",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"051": {
+				Name:         "Kozje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"052": {
+				Name:         "Kranj",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"053": {
+				Name:         "Kranjska Gora",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"054": {
+				Name:         "Krško",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"055": {
+				Name:         "Kungota",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"056": {
+				Name:         "Kuzma",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"057": {
+				Name:         "Laško",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"058": {
+				Name:         "Lenart",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"059": {
+				Name:         "Lendava",
+				LocalName:    "Lendva",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"060": {
+				Name:         "Litija",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"061": {
+				Name:         "Ljubljana",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"062": {
+				Name:         "Ljubno",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"063": {
+				Name:         "Ljutomer",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"064": {
+				Name:         "Logatec",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"065": {
+				Name:         "Loška Dolina",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"066": {
+				Name:         "Loški Potok",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"067": {
+				Name:         "Luče",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"068": {
+				Name:         "Lukovica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"069": {
+				Name:         "Majšperk",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"070": {
+				Name:         "Maribor",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"071": {
+				Name:         "Medvode",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"072": {
+				Name:         "Mengeš",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"073": {
+				Name:         "Metlika",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"074": {
+				Name:         "Mežica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"075": {
+				Name:         "Miren-Kostanjevica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"076": {
+				Name:         "Mislinja",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"077": {
+				Name:         "Moravče",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"078": {
+				Name:         "Moravske Toplice",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"079": {
+				Name:         "Mozirje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"080": {
+				Name:         "Murska Sobota",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"081": {
+				Name:         "Muta",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"082": {
+				Name:         "Naklo",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"083": {
+				Name:         "Nazarje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"084": {
+				Name:         "Nova Gorica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"085": {
+				Name:         "Novo Mesto",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"086": {
+				Name:         "Odranci",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"087": {
+				Name:         "Ormož",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"088": {
+				Name:         "Osilnica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"089": {
+				Name:         "Pesnica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"090": {
+				Name:         "Piran",
+				LocalName:    "Pirano",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"091": {
+				Name:         "Pivka",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"092": {
+				Name:         "Podčetrtek",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"093": {
+				Name:         "Podvelka",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"094": {
+				Name:         "Postojna",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"095": {
+				Name:         "Preddvor",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"096": {
+				Name:         "Ptuj",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"097": {
+				Name:         "Puconci",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"098": {
+				Name:         "Rače-Fram",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"099": {
+				Name:         "Radeče",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"100": {
+				Name:         "Radenci",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"101": {
+				Name:         "Radlje ob Dravi",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"102": {
+				Name:         "Radovljica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"103": {
+				Name:         "Ravne na Koroškem",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"104": {
+				Name:         "Ribnica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"105": {
+				Name:         "Rogašovci",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"106": {
+				Name:         "Rogaška Slatina",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"107": {
+				Name:         "Rogatec",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"108": {
+				Name:         "Ruše",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"109": {
+				Name:         "Semič",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"110": {
+				Name:         "Sevnica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"111": {
+				Name:         "Sežana",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"112": {
+				Name:         "Slovenj Gradec",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"113": {
+				Name:         "Slovenska Bistrica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"114": {
+				Name:         "Slovenske Konjice",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"115": {
+				Name:         "Starše",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"116": {
+				Name:         "Sveti Jurij",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"117": {
+				Name:         "Šenčur",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"118": {
+				Name:         "Šentilj",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"119": {
+				Name:         "Šentjernej",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"120": {
+				Name:         "Šentjur",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"121": {
+				Name:         "Škocjan",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"122": {
+				Name:         "Škofja Loka",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"123": {
+				Name:         "Škofljica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"124": {
+				Name:         "Šmarje pri Jelšah",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"125": {
+				Name:         "Šmartno ob Paki",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"126": {
+				Name:         "Šoštanj",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"127": {
+				Name:         "Štore",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"128": {
+				Name:         "Tolmin",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"129": {
+				Name:         "Trbovlje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"130": {
+				Name:         "Trebnje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"131": {
+				Name:         "Tržič",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"132": {
+				Name:         "Turnišče",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"133": {
+				Name:         "Velenje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"134": {
+				Name:         "Velike Lašče",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"135": {
+				Name:         "Videm",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"136": {
+				Name:         "Vipava",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"137": {
+				Name:         "Vitanje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"138": {
+				Name:         "Vodice",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"139": {
+				Name:         "Vojnik",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"140": {
+				Name:         "Vrhnika",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"141": {
+				Name:         "Vuzenica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"142": {
+				Name:         "Zagorje ob Savi",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"143": {
+				Name:         "Zavrč",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"144": {
+				Name:         "Zreče",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"146": {
+				Name:         "Železniki",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"147": {
+				Name:         "Žiri",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"148": {
+				Name:         "Benedikt",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"149": {
+				Name:         "Bistrica ob Sotli",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"150": {
+				Name:         "Bloke",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"151": {
+				Name:         "Braslovče",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"152": {
+				Name:         "Cankova",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"153": {
+				Name:         "Cerkvenjak",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"154": {
+				Name:         "Dobje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"155": {
+				Name:         "Dobrna",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"156": {
+				Name:         "Dobrovnik",
+				LocalName:    "Dobronak",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"157": {
+				Name:         "Dolenjske Toplice",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"158": {
+				Name:         "Grad",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"159": {
+				Name:         "Hajdina",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"160": {
+				Name:         "Hoče-Slivnica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"161": {
+				Name:         "Hodoš",
+				LocalName:    "Hodos",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"162": {
+				Name:         "Horjul",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"163": {
+				Name:         "Jezersko",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"164": {
+				Name:         "Komenda",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"165": {
+				Name:         "Kostel",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"166": {
+				Name:         "Križevci",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"167": {
+				Name:         "Lovrenc na Pohorju",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"168": {
+				Name:         "Markovci",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"169": {
+				Name:         "Miklavž na Dravskem Polju",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"170": {
+				Name:         "Mirna Peč",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"171": {
+				Name:         "Oplotnica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"172": {
+				Name:         "Podlehnik",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"173": {
+				Name:         "Polzela",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"174": {
+				Name:         "Prebold",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"175": {
+				Name:         "Prevalje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"176": {
+				Name:         "Razkrižje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"177": {
+				Name:         "Ribnica na Pohorju",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"178": {
+				Name:         "Selnica ob Dravi",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"179": {
+				Name:         "Sodražica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"180": {
+				Name:         "Solčava",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"181": {
+				Name:         "Sveta Ana",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"182": {
+				Name:         "Sveti Andraž v Slovenskih Goricah",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"183": {
+				Name:         "Šempeter-Vrtojba",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"184": {
+				Name:         "Tabor",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"185": {
+				Name:         "Trnovska Vas",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"186": {
+				Name:         "Trzin",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"187": {
+				Name:         "Velika Polana",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"188": {
+				Name:         "Veržej",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"189": {
+				Name:         "Vransko",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"190": {
+				Name:         "Žalec",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"191": {
+				Name:         "Žetale",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"192": {
+				Name:         "Žirovnica",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"193": {
+				Name:         "Žužemberk",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"194": {
+				Name:         "Šmartno pri Litiji",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"195": {
+				Name:         "Apače",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"196": {
+				Name:         "Cirkulane",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"197": {
+				Name:         "Kosanjevica na Krki",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"198": {
+				Name:         "Makole",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"199": {
+				Name:         "Mokronog-Trebelno",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"200": {
+				Name:         "Poljčane",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"201": {
+				Name:         "Renče-Vogrsko",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"202": {
+				Name:         "Središče ob Dravi",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"203": {
+				Name:         "Straža",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"204": {
+				Name:         "Sveta Trojica v Slovenskih Goricah",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"205": {
+				Name:         "Sveti Tomaž",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"206": {
+				Name:         "Šmarješke Toplice",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"207": {
+				Name:         "Gorje",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"208": {
+				Name:         "Log-Dragomer",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"209": {
+				Name:         "Rečica ob Savinji",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"210": {
+				Name:         "Sveti Jurij v Slovenskih Goricah",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"211": {
+				Name:         "Šentrupert",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"212": {
+				Name:         "Mirna",
+				LocalName:    "",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+			"213": {
+				Name:         "Ankaran",
+				LocalName:    "Ancarano",
+				LanguageCode: "sl",
+				Type:         "municipality",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ajdovščina": {
+				Code: "001",
+			},
+			"Ankaran": {
+				Code: "213",
+			},
+			"Apače": {
+				Code: "195",
+			},
+			"Beltinci": {
+				Code: "002",
+			},
+			"Benedikt": {
+				Code: "148",
+			},
+			"Bistrica ob Sotli": {
+				Code: "149",
+			},
+			"Bled": {
+				Code: "003",
+			},
+			"Bloke": {
+				Code: "150",
+			},
+			"Bohinj": {
+				Code: "004",
+			},
+			"Borovnica": {
+				Code: "005",
+			},
+			"Bovec": {
+				Code: "006",
+			},
+			"Braslovče": {
+				Code: "151",
+			},
+			"Brda": {
+				Code: "007",
+			},
+			"Brezovica": {
+				Code: "008",
+			},
+			"Brežice": {
+				Code: "009",
+			},
+			"Cankova": {
+				Code: "152",
+			},
+			"Celje": {
+				Code: "011",
+			},
+			"Cerklje na Gorenjskem": {
+				Code: "012",
+			},
+			"Cerknica": {
+				Code: "013",
+			},
+			"Cerkno": {
+				Code: "014",
+			},
+			"Cerkvenjak": {
+				Code: "153",
+			},
+			"Cirkulane": {
+				Code: "196",
+			},
+			"Destrnik": {
+				Code: "018",
+			},
+			"Divača": {
+				Code: "019",
+			},
+			"Dobje": {
+				Code: "154",
+			},
+			"Dobrepolje": {
+				Code: "020",
+			},
+			"Dobrna": {
+				Code: "155",
+			},
+			"Dobrova-Polhov Gradec": {
+				Code: "021",
+			},
+			"Dobrovnik": {
+				Code: "156",
+			},
+			"Dol pri Ljubljani": {
+				Code: "022",
+			},
+			"Dolenjske Toplice": {
+				Code: "157",
+			},
+			"Domžale": {
+				Code: "023",
+			},
+			"Dornava": {
+				Code: "024",
+			},
+			"Dravograd": {
+				Code: "025",
+			},
+			"Duplek": {
+				Code: "026",
+			},
+			"Gorenja vas-Poljane": {
+				Code: "027",
+			},
+			"Gorišnica": {
+				Code: "028",
+			},
+			"Gorje": {
+				Code: "207",
+			},
+			"Gornja Radgona": {
+				Code: "029",
+			},
+			"Gornji Grad": {
+				Code: "030",
+			},
+			"Gornji Petrovci": {
+				Code: "031",
+			},
+			"Grad": {
+				Code: "158",
+			},
+			"Grosuplje": {
+				Code: "032",
+			},
+			"Hajdina": {
+				Code: "159",
+			},
+			"Hodoš": {
+				Code: "161",
+			},
+			"Horjul": {
+				Code: "162",
+			},
+			"Hoče-Slivnica": {
+				Code: "160",
+			},
+			"Hrastnik": {
+				Code: "034",
+			},
+			"Hrpelje-Kozina": {
+				Code: "035",
+			},
+			"Idrija": {
+				Code: "036",
+			},
+			"Ig": {
+				Code: "037",
+			},
+			"Ilirska Bistrica": {
+				Code: "038",
+			},
+			"Ivančna Gorica": {
+				Code: "039",
+			},
+			"Izola": {
+				Code: "040",
+			},
+			"Jesenice": {
+				Code: "041",
+			},
+			"Jezersko": {
+				Code: "163",
+			},
+			"Juršinci": {
+				Code: "042",
+			},
+			"Kamnik": {
+				Code: "043",
+			},
+			"Kanal": {
+				Code: "044",
+			},
+			"Kidričevo": {
+				Code: "045",
+			},
+			"Kobarid": {
+				Code: "046",
+			},
+			"Kobilje": {
+				Code: "047",
+			},
+			"Komen": {
+				Code: "049",
+			},
+			"Komenda": {
+				Code: "164",
+			},
+			"Koper": {
+				Code: "050",
+			},
+			"Kosanjevica na Krki": {
+				Code: "197",
+			},
+			"Kostel": {
+				Code: "165",
+			},
+			"Kozje": {
+				Code: "051",
+			},
+			"Kočevje": {
+				Code: "048",
+			},
+			"Kranj": {
+				Code: "052",
+			},
+			"Kranjska Gora": {
+				Code: "053",
+			},
+			"Križevci": {
+				Code: "166",
+			},
+			"Krško": {
+				Code: "054",
+			},
+			"Kungota": {
+				Code: "055",
+			},
+			"Kuzma": {
+				Code: "056",
+			},
+			"Laško": {
+				Code: "057",
+			},
+			"Lenart": {
+				Code: "058",
+			},
+			"Lendava": {
+				Code: "059",
+			},
+			"Litija": {
+				Code: "060",
+			},
+			"Ljubljana": {
+				Code: "061",
+			},
+			"Ljubno": {
+				Code: "062",
+			},
+			"Ljutomer": {
+				Code: "063",
+			},
+			"Log-Dragomer": {
+				Code: "208",
+			},
+			"Logatec": {
+				Code: "064",
+			},
+			"Lovrenc na Pohorju": {
+				Code: "167",
+			},
+			"Loška Dolina": {
+				Code: "065",
+			},
+			"Loški Potok": {
+				Code: "066",
+			},
+			"Lukovica": {
+				Code: "068",
+			},
+			"Luče": {
+				Code: "067",
+			},
+			"Majšperk": {
+				Code: "069",
+			},
+			"Makole": {
+				Code: "198",
+			},
+			"Maribor": {
+				Code: "070",
+			},
+			"Markovci": {
+				Code: "168",
+			},
+			"Medvode": {
+				Code: "071",
+			},
+			"Mengeš": {
+				Code: "072",
+			},
+			"Metlika": {
+				Code: "073",
+			},
+			"Mežica": {
+				Code: "074",
+			},
+			"Miklavž na Dravskem Polju": {
+				Code: "169",
+			},
+			"Miren-Kostanjevica": {
+				Code: "075",
+			},
+			"Mirna": {
+				Code: "212",
+			},
+			"Mirna Peč": {
+				Code: "170",
+			},
+			"Mislinja": {
+				Code: "076",
+			},
+			"Mokronog-Trebelno": {
+				Code: "199",
+			},
+			"Moravske Toplice": {
+				Code: "078",
+			},
+			"Moravče": {
+				Code: "077",
+			},
+			"Mozirje": {
+				Code: "079",
+			},
+			"Murska Sobota": {
+				Code: "080",
+			},
+			"Muta": {
+				Code: "081",
+			},
+			"Naklo": {
+				Code: "082",
+			},
+			"Nazarje": {
+				Code: "083",
+			},
+			"Nova Gorica": {
+				Code: "084",
+			},
+			"Novo Mesto": {
+				Code: "085",
+			},
+			"Odranci": {
+				Code: "086",
+			},
+			"Oplotnica": {
+				Code: "171",
+			},
+			"Ormož": {
+				Code: "087",
+			},
+			"Osilnica": {
+				Code: "088",
+			},
+			"Pesnica": {
+				Code: "089",
+			},
+			"Piran": {
+				Code: "090",
+			},
+			"Pivka": {
+				Code: "091",
+			},
+			"Podlehnik": {
+				Code: "172",
+			},
+			"Podvelka": {
+				Code: "093",
+			},
+			"Podčetrtek": {
+				Code: "092",
+			},
+			"Poljčane": {
+				Code: "200",
+			},
+			"Polzela": {
+				Code: "173",
+			},
+			"Postojna": {
+				Code: "094",
+			},
+			"Prebold": {
+				Code: "174",
+			},
+			"Preddvor": {
+				Code: "095",
+			},
+			"Prevalje": {
+				Code: "175",
+			},
+			"Ptuj": {
+				Code: "096",
+			},
+			"Puconci": {
+				Code: "097",
+			},
+			"Radenci": {
+				Code: "100",
+			},
+			"Radeče": {
+				Code: "099",
+			},
+			"Radlje ob Dravi": {
+				Code: "101",
+			},
+			"Radovljica": {
+				Code: "102",
+			},
+			"Ravne na Koroškem": {
+				Code: "103",
+			},
+			"Razkrižje": {
+				Code: "176",
+			},
+			"Rače-Fram": {
+				Code: "098",
+			},
+			"Renče-Vogrsko": {
+				Code: "201",
+			},
+			"Rečica ob Savinji": {
+				Code: "209",
+			},
+			"Ribnica": {
+				Code: "104",
+			},
+			"Ribnica na Pohorju": {
+				Code: "177",
+			},
+			"Rogatec": {
+				Code: "107",
+			},
+			"Rogaška Slatina": {
+				Code: "106",
+			},
+			"Rogašovci": {
+				Code: "105",
+			},
+			"Ruše": {
+				Code: "108",
+			},
+			"Selnica ob Dravi": {
+				Code: "178",
+			},
+			"Semič": {
+				Code: "109",
+			},
+			"Sevnica": {
+				Code: "110",
+			},
+			"Sežana": {
+				Code: "111",
+			},
+			"Slovenj Gradec": {
+				Code: "112",
+			},
+			"Slovenska Bistrica": {
+				Code: "113",
+			},
+			"Slovenske Konjice": {
+				Code: "114",
+			},
+			"Sodražica": {
+				Code: "179",
+			},
+			"Solčava": {
+				Code: "180",
+			},
+			"Središče ob Dravi": {
+				Code: "202",
+			},
+			"Starše": {
+				Code: "115",
+			},
+			"Straža": {
+				Code: "203",
+			},
+			"Sveta Ana": {
+				Code: "181",
+			},
+			"Sveta Trojica v Slovenskih Goricah": {
+				Code: "204",
+			},
+			"Sveti Andraž v Slovenskih Goricah": {
+				Code: "182",
+			},
+			"Sveti Jurij": {
+				Code: "116",
+			},
+			"Sveti Jurij v Slovenskih Goricah": {
+				Code: "210",
+			},
+			"Sveti Tomaž": {
+				Code: "205",
+			},
+			"Tabor": {
+				Code: "184",
+			},
+			"Tišina": {
+				Code: "010",
+			},
+			"Tolmin": {
+				Code: "128",
+			},
+			"Trbovlje": {
+				Code: "129",
+			},
+			"Trebnje": {
+				Code: "130",
+			},
+			"Trnovska Vas": {
+				Code: "185",
+			},
+			"Trzin": {
+				Code: "186",
+			},
+			"Tržič": {
+				Code: "131",
+			},
+			"Turnišče": {
+				Code: "132",
+			},
+			"Velenje": {
+				Code: "133",
+			},
+			"Velika Polana": {
+				Code: "187",
+			},
+			"Velike Lašče": {
+				Code: "134",
+			},
+			"Veržej": {
+				Code: "188",
+			},
+			"Videm": {
+				Code: "135",
+			},
+			"Vipava": {
+				Code: "136",
+			},
+			"Vitanje": {
+				Code: "137",
+			},
+			"Vodice": {
+				Code: "138",
+			},
+			"Vojnik": {
+				Code: "139",
+			},
+			"Vransko": {
+				Code: "189",
+			},
+			"Vrhnika": {
+				Code: "140",
+			},
+			"Vuzenica": {
+				Code: "141",
+			},
+			"Zagorje ob Savi": {
+				Code: "142",
+			},
+			"Zavrč": {
+				Code: "143",
+			},
+			"Zreče": {
+				Code: "144",
+			},
+			"Črenšovci": {
+				Code: "015",
+			},
+			"Črna na Koroškem": {
+				Code: "016",
+			},
+			"Črnomelj": {
+				Code: "017",
+			},
+			"Šalovci": {
+				Code: "033",
+			},
+			"Šempeter-Vrtojba": {
+				Code: "183",
+			},
+			"Šentilj": {
+				Code: "118",
+			},
+			"Šentjernej": {
+				Code: "119",
+			},
+			"Šentjur": {
+				Code: "120",
+			},
+			"Šentrupert": {
+				Code: "211",
+			},
+			"Šenčur": {
+				Code: "117",
+			},
+			"Škocjan": {
+				Code: "121",
+			},
+			"Škofja Loka": {
+				Code: "122",
+			},
+			"Škofljica": {
+				Code: "123",
+			},
+			"Šmarje pri Jelšah": {
+				Code: "124",
+			},
+			"Šmarješke Toplice": {
+				Code: "206",
+			},
+			"Šmartno ob Paki": {
+				Code: "125",
+			},
+			"Šmartno pri Litiji": {
+				Code: "194",
+			},
+			"Šoštanj": {
+				Code: "126",
+			},
+			"Štore": {
+				Code: "127",
+			},
+			"Žalec": {
+				Code: "190",
+			},
+			"Železniki": {
+				Code: "146",
+			},
+			"Žetale": {
+				Code: "191",
+			},
+			"Žiri": {
+				Code: "147",
+			},
+			"Žirovnica": {
+				Code: "192",
+			},
+			"Žužemberk": {
+				Code: "193",
+			},
+		},
 	},
 
 	"SJ": {
@@ -2549,6 +41599,86 @@ var CountryStates = map[string]Country{
 		OfficialName: "Slovak Republic",
 		CommonName:   "",
 		Numeric:      "703",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BC": {
+				Name:         "Banskobystrický kraj",
+				LocalName:    "",
+				LanguageCode: "sk",
+				Type:         "region",
+			},
+			"BL": {
+				Name:         "Bratislavský kraj",
+				LocalName:    "",
+				LanguageCode: "sk",
+				Type:         "region",
+			},
+			"KI": {
+				Name:         "Košický kraj",
+				LocalName:    "",
+				LanguageCode: "sk",
+				Type:         "region",
+			},
+			"NI": {
+				Name:         "Nitriansky kraj",
+				LocalName:    "",
+				LanguageCode: "sk",
+				Type:         "region",
+			},
+			"PV": {
+				Name:         "Prešovský kraj",
+				LocalName:    "",
+				LanguageCode: "sk",
+				Type:         "region",
+			},
+			"TA": {
+				Name:         "Trnavský kraj",
+				LocalName:    "",
+				LanguageCode: "sk",
+				Type:         "region",
+			},
+			"TC": {
+				Name:         "Trenčiansky kraj",
+				LocalName:    "",
+				LanguageCode: "sk",
+				Type:         "region",
+			},
+			"ZI": {
+				Name:         "Žilinský kraj",
+				LocalName:    "",
+				LanguageCode: "sk",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Banskobystrický kraj": {
+				Code: "BC",
+			},
+			"Bratislavský kraj": {
+				Code: "BL",
+			},
+			"Košický kraj": {
+				Code: "KI",
+			},
+			"Nitriansky kraj": {
+				Code: "NI",
+			},
+			"Prešovský kraj": {
+				Code: "PV",
+			},
+			"Trenčiansky kraj": {
+				Code: "TC",
+			},
+			"Trnavský kraj": {
+				Code: "TA",
+			},
+			"Žilinský kraj": {
+				Code: "ZI",
+			},
+		},
 	},
 
 	"SL": {
@@ -2558,6 +41688,59 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Sierra Leone",
 		CommonName:   "",
 		Numeric:      "694",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"E": {
+				Name:         "Eastern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"N": {
+				Name:         "Northern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"NW": {
+				Name:         "North Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"S": {
+				Name:         "Southern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"W": {
+				Name:         "Western Area (Freetown)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "area",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Eastern": {
+				Code: "E",
+			},
+			"North Western": {
+				Code: "NW",
+			},
+			"Northern": {
+				Code: "N",
+			},
+			"Southern": {
+				Code: "S",
+			},
+			"Western Area (Freetown)": {
+				Code: "W",
+			},
+		},
 	},
 
 	"SM": {
@@ -2567,6 +41750,95 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of San Marino",
 		CommonName:   "",
 		Numeric:      "674",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Acquaviva",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "municipality",
+			},
+			"02": {
+				Name:         "Chiesanuova",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "municipality",
+			},
+			"03": {
+				Name:         "Domagnano",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "municipality",
+			},
+			"04": {
+				Name:         "Faetano",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "municipality",
+			},
+			"05": {
+				Name:         "Fiorentino",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "municipality",
+			},
+			"06": {
+				Name:         "Borgo Maggiore",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "municipality",
+			},
+			"07": {
+				Name:         "San Marino",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "municipality",
+			},
+			"08": {
+				Name:         "Montegiardino",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "municipality",
+			},
+			"09": {
+				Name:         "Serravalle",
+				LocalName:    "",
+				LanguageCode: "it",
+				Type:         "municipality",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Acquaviva": {
+				Code: "01",
+			},
+			"Borgo Maggiore": {
+				Code: "06",
+			},
+			"Chiesanuova": {
+				Code: "02",
+			},
+			"Domagnano": {
+				Code: "03",
+			},
+			"Faetano": {
+				Code: "04",
+			},
+			"Fiorentino": {
+				Code: "05",
+			},
+			"Montegiardino": {
+				Code: "08",
+			},
+			"San Marino": {
+				Code: "07",
+			},
+			"Serravalle": {
+				Code: "09",
+			},
+		},
 	},
 
 	"SN": {
@@ -2576,6 +41848,140 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Senegal",
 		CommonName:   "",
 		Numeric:      "686",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"DB": {
+				Name:         "Diourbel",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"DK": {
+				Name:         "Dakar",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"FK": {
+				Name:         "Fatick",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"KA": {
+				Name:         "Kaffrine",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"KD": {
+				Name:         "Kolda",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"KE": {
+				Name:         "Kédougou",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"KL": {
+				Name:         "Kaolack",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"LG": {
+				Name:         "Louga",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"MT": {
+				Name:         "Matam",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"SE": {
+				Name:         "Sédhiou",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"SL": {
+				Name:         "Saint-Louis",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"TC": {
+				Name:         "Tambacounda",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"TH": {
+				Name:         "Thiès",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"ZG": {
+				Name:         "Ziguinchor",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Dakar": {
+				Code: "DK",
+			},
+			"Diourbel": {
+				Code: "DB",
+			},
+			"Fatick": {
+				Code: "FK",
+			},
+			"Kaffrine": {
+				Code: "KA",
+			},
+			"Kaolack": {
+				Code: "KL",
+			},
+			"Kolda": {
+				Code: "KD",
+			},
+			"Kédougou": {
+				Code: "KE",
+			},
+			"Louga": {
+				Code: "LG",
+			},
+			"Matam": {
+				Code: "MT",
+			},
+			"Saint-Louis": {
+				Code: "SL",
+			},
+			"Sédhiou": {
+				Code: "SE",
+			},
+			"Tambacounda": {
+				Code: "TC",
+			},
+			"Thiès": {
+				Code: "TH",
+			},
+			"Ziguinchor": {
+				Code: "ZG",
+			},
+		},
 	},
 
 	"SO": {
@@ -2585,6 +41991,176 @@ var CountryStates = map[string]Country{
 		OfficialName: "Federal Republic of Somalia",
 		CommonName:   "",
 		Numeric:      "706",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AW": {
+				Name:         "Awdal",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"BK": {
+				Name:         "Bakool",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"BN": {
+				Name:         "Banaadir",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"BR": {
+				Name:         "Bari",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"BY": {
+				Name:         "Bay",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"GA": {
+				Name:         "Galguduud",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"GE": {
+				Name:         "Gedo",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"HI": {
+				Name:         "Hiiraan",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"JD": {
+				Name:         "Jubbada Dhexe",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"JH": {
+				Name:         "Jubbada Hoose",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"MU": {
+				Name:         "Mudug",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"NU": {
+				Name:         "Nugaal",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"SA": {
+				Name:         "Sanaag",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"SD": {
+				Name:         "Shabeellaha Dhexe",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"SH": {
+				Name:         "Shabeellaha Hoose",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"SO": {
+				Name:         "Sool",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"TO": {
+				Name:         "Togdheer",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+			"WO": {
+				Name:         "Woqooyi Galbeed",
+				LocalName:    "",
+				LanguageCode: "so",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Awdal": {
+				Code: "AW",
+			},
+			"Bakool": {
+				Code: "BK",
+			},
+			"Banaadir": {
+				Code: "BN",
+			},
+			"Bari": {
+				Code: "BR",
+			},
+			"Bay": {
+				Code: "BY",
+			},
+			"Galguduud": {
+				Code: "GA",
+			},
+			"Gedo": {
+				Code: "GE",
+			},
+			"Hiiraan": {
+				Code: "HI",
+			},
+			"Jubbada Dhexe": {
+				Code: "JD",
+			},
+			"Jubbada Hoose": {
+				Code: "JH",
+			},
+			"Mudug": {
+				Code: "MU",
+			},
+			"Nugaal": {
+				Code: "NU",
+			},
+			"Sanaag": {
+				Code: "SA",
+			},
+			"Shabeellaha Dhexe": {
+				Code: "SD",
+			},
+			"Shabeellaha Hoose": {
+				Code: "SH",
+			},
+			"Sool": {
+				Code: "SO",
+			},
+			"Togdheer": {
+				Code: "TO",
+			},
+			"Woqooyi Galbeed": {
+				Code: "WO",
+			},
+		},
 	},
 
 	"SR": {
@@ -2594,6 +42170,104 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Suriname",
 		CommonName:   "",
 		Numeric:      "740",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BR": {
+				Name:         "Brokopondo",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "district",
+			},
+			"CM": {
+				Name:         "Commewijne",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "district",
+			},
+			"CR": {
+				Name:         "Coronie",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "district",
+			},
+			"MA": {
+				Name:         "Marowijne",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "district",
+			},
+			"NI": {
+				Name:         "Nickerie",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "district",
+			},
+			"PM": {
+				Name:         "Paramaribo",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "district",
+			},
+			"PR": {
+				Name:         "Para",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "district",
+			},
+			"SA": {
+				Name:         "Saramacca",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "district",
+			},
+			"SI": {
+				Name:         "Sipaliwini",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "district",
+			},
+			"WA": {
+				Name:         "Wanica",
+				LocalName:    "",
+				LanguageCode: "nl",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Brokopondo": {
+				Code: "BR",
+			},
+			"Commewijne": {
+				Code: "CM",
+			},
+			"Coronie": {
+				Code: "CR",
+			},
+			"Marowijne": {
+				Code: "MA",
+			},
+			"Nickerie": {
+				Code: "NI",
+			},
+			"Para": {
+				Code: "PR",
+			},
+			"Paramaribo": {
+				Code: "PM",
+			},
+			"Saramacca": {
+				Code: "SA",
+			},
+			"Sipaliwini": {
+				Code: "SI",
+			},
+			"Wanica": {
+				Code: "WA",
+			},
+		},
 	},
 
 	"SS": {
@@ -2603,6 +42277,104 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of South Sudan",
 		CommonName:   "",
 		Numeric:      "728",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BN": {
+				Name:         "Northern Bahr el Ghazal",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"BW": {
+				Name:         "Western Bahr el Ghazal",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"EC": {
+				Name:         "Central Equatoria",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"EE": {
+				Name:         "Eastern Equatoria",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"EW": {
+				Name:         "Western Equatoria",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"JG": {
+				Name:         "Jonglei",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"LK": {
+				Name:         "Lakes",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NU": {
+				Name:         "Upper Nile",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"UY": {
+				Name:         "Unity",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"WR": {
+				Name:         "Warrap",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Central Equatoria": {
+				Code: "EC",
+			},
+			"Eastern Equatoria": {
+				Code: "EE",
+			},
+			"Jonglei": {
+				Code: "JG",
+			},
+			"Lakes": {
+				Code: "LK",
+			},
+			"Northern Bahr el Ghazal": {
+				Code: "BN",
+			},
+			"Unity": {
+				Code: "UY",
+			},
+			"Upper Nile": {
+				Code: "NU",
+			},
+			"Warrap": {
+				Code: "WR",
+			},
+			"Western Bahr el Ghazal": {
+				Code: "BW",
+			},
+			"Western Equatoria": {
+				Code: "EW",
+			},
+		},
 	},
 
 	"ST": {
@@ -2612,6 +42384,32 @@ var CountryStates = map[string]Country{
 		OfficialName: "Democratic Republic of Sao Tome and Principe",
 		CommonName:   "",
 		Numeric:      "678",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"P": {
+				Name:         "Príncipe",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+			"S": {
+				Name:         "São Tomé",
+				LocalName:    "",
+				LanguageCode: "pt",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Príncipe": {
+				Code: "P",
+			},
+			"São Tomé": {
+				Code: "S",
+			},
+		},
 	},
 
 	"SV": {
@@ -2621,6 +42419,140 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of El Salvador",
 		CommonName:   "",
 		Numeric:      "222",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AH": {
+				Name:         "Ahuachapán",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CA": {
+				Name:         "Cabañas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CH": {
+				Name:         "Chalatenango",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CU": {
+				Name:         "Cuscatlán",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"LI": {
+				Name:         "La Libertad",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"MO": {
+				Name:         "Morazán",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"PA": {
+				Name:         "La Paz",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SA": {
+				Name:         "Santa Ana",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SM": {
+				Name:         "San Miguel",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SO": {
+				Name:         "Sonsonate",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SS": {
+				Name:         "San Salvador",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SV": {
+				Name:         "San Vicente",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"UN": {
+				Name:         "La Unión",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"US": {
+				Name:         "Usulután",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ahuachapán": {
+				Code: "AH",
+			},
+			"Cabañas": {
+				Code: "CA",
+			},
+			"Chalatenango": {
+				Code: "CH",
+			},
+			"Cuscatlán": {
+				Code: "CU",
+			},
+			"La Libertad": {
+				Code: "LI",
+			},
+			"La Paz": {
+				Code: "PA",
+			},
+			"La Unión": {
+				Code: "UN",
+			},
+			"Morazán": {
+				Code: "MO",
+			},
+			"San Miguel": {
+				Code: "SM",
+			},
+			"San Salvador": {
+				Code: "SS",
+			},
+			"San Vicente": {
+				Code: "SV",
+			},
+			"Santa Ana": {
+				Code: "SA",
+			},
+			"Sonsonate": {
+				Code: "SO",
+			},
+			"Usulután": {
+				Code: "US",
+			},
+		},
 	},
 
 	"SX": {
@@ -2639,6 +42571,140 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "760",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"DI": {
+				Name:         "Dimashq",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"DR": {
+				Name:         "Dar'ā",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"DY": {
+				Name:         "Dayr az Zawr",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"HA": {
+				Name:         "Al Ḩasakah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"HI": {
+				Name:         "Ḩimş",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"HL": {
+				Name:         "Ḩalab",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"HM": {
+				Name:         "Ḩamāh",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"ID": {
+				Name:         "Idlib",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"LA": {
+				Name:         "Al Lādhiqīyah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"QU": {
+				Name:         "Al Qunayţirah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"RA": {
+				Name:         "Ar Raqqah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"RD": {
+				Name:         "Rīf Dimashq",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"SU": {
+				Name:         "As Suwaydā'",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+			"TA": {
+				Name:         "Ţarţūs",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Al Lādhiqīyah": {
+				Code: "LA",
+			},
+			"Al Qunayţirah": {
+				Code: "QU",
+			},
+			"Al Ḩasakah": {
+				Code: "HA",
+			},
+			"Ar Raqqah": {
+				Code: "RA",
+			},
+			"As Suwaydā'": {
+				Code: "SU",
+			},
+			"Dar'ā": {
+				Code: "DR",
+			},
+			"Dayr az Zawr": {
+				Code: "DY",
+			},
+			"Dimashq": {
+				Code: "DI",
+			},
+			"Idlib": {
+				Code: "ID",
+			},
+			"Rīf Dimashq": {
+				Code: "RD",
+			},
+			"Ţarţūs": {
+				Code: "TA",
+			},
+			"Ḩalab": {
+				Code: "HL",
+			},
+			"Ḩamāh": {
+				Code: "HM",
+			},
+			"Ḩimş": {
+				Code: "HI",
+			},
+		},
 	},
 
 	"SZ": {
@@ -2648,6 +42714,50 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Eswatini",
 		CommonName:   "",
 		Numeric:      "748",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"HH": {
+				Name:         "Hhohho",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"LU": {
+				Name:         "Lubombo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"MA": {
+				Name:         "Manzini",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"SH": {
+				Name:         "Shiselweni",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Hhohho": {
+				Code: "HH",
+			},
+			"Lubombo": {
+				Code: "LU",
+			},
+			"Manzini": {
+				Code: "MA",
+			},
+			"Shiselweni": {
+				Code: "SH",
+			},
+		},
 	},
 
 	"TC": {
@@ -2666,6 +42776,221 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Chad",
 		CommonName:   "",
 		Numeric:      "148",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BA": {
+				Name:         "Batha",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"BG": {
+				Name:         "Bahr el Ghazal",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"BO": {
+				Name:         "Borkou",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"CB": {
+				Name:         "Chari-Baguirmi",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"EE": {
+				Name:         "Ennedi-Est",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"EO": {
+				Name:         "Ennedi-Ouest",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"GR": {
+				Name:         "Guéra",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"HL": {
+				Name:         "Hadjer Lamis",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"KA": {
+				Name:         "Kanem",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"LC": {
+				Name:         "Lac",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"LO": {
+				Name:         "Logone-Occidental",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"LR": {
+				Name:         "Logone-Oriental",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"MA": {
+				Name:         "Mandoul",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"MC": {
+				Name:         "Moyen-Chari",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"ME": {
+				Name:         "Mayo-Kebbi-Est",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"MO": {
+				Name:         "Mayo-Kebbi-Ouest",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"ND": {
+				Name:         "Ville de Ndjamena",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"OD": {
+				Name:         "Ouaddaï",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"SA": {
+				Name:         "Salamat",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"SI": {
+				Name:         "Sila",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"TA": {
+				Name:         "Tandjilé",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"TI": {
+				Name:         "Tibesti",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"WF": {
+				Name:         "Wadi Fira",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bahr el Ghazal": {
+				Code: "BG",
+			},
+			"Batha": {
+				Code: "BA",
+			},
+			"Borkou": {
+				Code: "BO",
+			},
+			"Chari-Baguirmi": {
+				Code: "CB",
+			},
+			"Ennedi-Est": {
+				Code: "EE",
+			},
+			"Ennedi-Ouest": {
+				Code: "EO",
+			},
+			"Guéra": {
+				Code: "GR",
+			},
+			"Hadjer Lamis": {
+				Code: "HL",
+			},
+			"Kanem": {
+				Code: "KA",
+			},
+			"Lac": {
+				Code: "LC",
+			},
+			"Logone-Occidental": {
+				Code: "LO",
+			},
+			"Logone-Oriental": {
+				Code: "LR",
+			},
+			"Mandoul": {
+				Code: "MA",
+			},
+			"Mayo-Kebbi-Est": {
+				Code: "ME",
+			},
+			"Mayo-Kebbi-Ouest": {
+				Code: "MO",
+			},
+			"Moyen-Chari": {
+				Code: "MC",
+			},
+			"Ouaddaï": {
+				Code: "OD",
+			},
+			"Salamat": {
+				Code: "SA",
+			},
+			"Sila": {
+				Code: "SI",
+			},
+			"Tandjilé": {
+				Code: "TA",
+			},
+			"Tibesti": {
+				Code: "TI",
+			},
+			"Ville de Ndjamena": {
+				Code: "ND",
+			},
+			"Wadi Fira": {
+				Code: "WF",
+			},
+		},
 	},
 
 	"TF": {
@@ -2684,6 +43009,59 @@ var CountryStates = map[string]Country{
 		OfficialName: "Togolese Republic",
 		CommonName:   "",
 		Numeric:      "768",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"C": {
+				Name:         "Centrale",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"K": {
+				Name:         "Kara",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"M": {
+				Name:         "Maritime (Région)",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"P": {
+				Name:         "Plateaux",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+			"S": {
+				Name:         "Savanes",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Centrale": {
+				Code: "C",
+			},
+			"Kara": {
+				Code: "K",
+			},
+			"Maritime (Région)": {
+				Code: "M",
+			},
+			"Plateaux": {
+				Code: "P",
+			},
+			"Savanes": {
+				Code: "S",
+			},
+		},
 	},
 
 	"TH": {
@@ -2693,6 +43071,716 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Thailand",
 		CommonName:   "",
 		Numeric:      "764",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"10": {
+				Name:         "Krung Thep Maha Nakhon",
+				LocalName:    "Bangkok",
+				LanguageCode: "th",
+				Type:         "metropolitan administration",
+			},
+			"11": {
+				Name:         "Samut Prakan",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"12": {
+				Name:         "Nonthaburi",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"13": {
+				Name:         "Pathum Thani",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"14": {
+				Name:         "Phra Nakhon Si Ayutthaya",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"15": {
+				Name:         "Ang Thong",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"16": {
+				Name:         "Lop Buri",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"17": {
+				Name:         "Sing Buri",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"18": {
+				Name:         "Chai Nat",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"19": {
+				Name:         "Saraburi",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"20": {
+				Name:         "Chon Buri",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"21": {
+				Name:         "Rayong",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"22": {
+				Name:         "Chanthaburi",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"23": {
+				Name:         "Trat",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"24": {
+				Name:         "Chachoengsao",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"25": {
+				Name:         "Prachin Buri",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"26": {
+				Name:         "Nakhon Nayok",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"27": {
+				Name:         "Sa Kaeo",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"30": {
+				Name:         "Nakhon Ratchasima",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"31": {
+				Name:         "Buri Ram",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"32": {
+				Name:         "Surin",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"33": {
+				Name:         "Si Sa Ket",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"34": {
+				Name:         "Ubon Ratchathani",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"35": {
+				Name:         "Yasothon",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"36": {
+				Name:         "Chaiyaphum",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"37": {
+				Name:         "Amnat Charoen",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"38": {
+				Name:         "Bueng Kan",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"39": {
+				Name:         "Nong Bua Lam Phu",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"40": {
+				Name:         "Khon Kaen",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"41": {
+				Name:         "Udon Thani",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"42": {
+				Name:         "Loei",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"43": {
+				Name:         "Nong Khai",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"44": {
+				Name:         "Maha Sarakham",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"45": {
+				Name:         "Roi Et",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"46": {
+				Name:         "Kalasin",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"47": {
+				Name:         "Sakon Nakhon",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"48": {
+				Name:         "Nakhon Phanom",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"49": {
+				Name:         "Mukdahan",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"50": {
+				Name:         "Chiang Mai",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"51": {
+				Name:         "Lamphun",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"52": {
+				Name:         "Lampang",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"53": {
+				Name:         "Uttaradit",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"54": {
+				Name:         "Phrae",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"55": {
+				Name:         "Nan",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"56": {
+				Name:         "Phayao",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"57": {
+				Name:         "Chiang Rai",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"58": {
+				Name:         "Mae Hong Son",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"60": {
+				Name:         "Nakhon Sawan",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"61": {
+				Name:         "Uthai Thani",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"62": {
+				Name:         "Kamphaeng Phet",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"63": {
+				Name:         "Tak",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"64": {
+				Name:         "Sukhothai",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"65": {
+				Name:         "Phitsanulok",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"66": {
+				Name:         "Phichit",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"67": {
+				Name:         "Phetchabun",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"70": {
+				Name:         "Ratchaburi",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"71": {
+				Name:         "Kanchanaburi",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"72": {
+				Name:         "Suphan Buri",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"73": {
+				Name:         "Nakhon Pathom",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"74": {
+				Name:         "Samut Sakhon",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"75": {
+				Name:         "Samut Songkhram",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"76": {
+				Name:         "Phetchaburi",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"77": {
+				Name:         "Prachuap Khiri Khan",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"80": {
+				Name:         "Nakhon Si Thammarat",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"81": {
+				Name:         "Krabi",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"82": {
+				Name:         "Phangnga",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"83": {
+				Name:         "Phuket",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"84": {
+				Name:         "Surat Thani",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"85": {
+				Name:         "Ranong",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"86": {
+				Name:         "Chumphon",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"90": {
+				Name:         "Songkhla",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"91": {
+				Name:         "Satun",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"92": {
+				Name:         "Trang",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"93": {
+				Name:         "Phatthalung",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"94": {
+				Name:         "Pattani",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"95": {
+				Name:         "Yala",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"96": {
+				Name:         "Narathiwat",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "province",
+			},
+			"S": {
+				Name:         "Phatthaya",
+				LocalName:    "",
+				LanguageCode: "th",
+				Type:         "special administrative city",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Amnat Charoen": {
+				Code: "37",
+			},
+			"Ang Thong": {
+				Code: "15",
+			},
+			"Bueng Kan": {
+				Code: "38",
+			},
+			"Buri Ram": {
+				Code: "31",
+			},
+			"Chachoengsao": {
+				Code: "24",
+			},
+			"Chai Nat": {
+				Code: "18",
+			},
+			"Chaiyaphum": {
+				Code: "36",
+			},
+			"Chanthaburi": {
+				Code: "22",
+			},
+			"Chiang Mai": {
+				Code: "50",
+			},
+			"Chiang Rai": {
+				Code: "57",
+			},
+			"Chon Buri": {
+				Code: "20",
+			},
+			"Chumphon": {
+				Code: "86",
+			},
+			"Kalasin": {
+				Code: "46",
+			},
+			"Kamphaeng Phet": {
+				Code: "62",
+			},
+			"Kanchanaburi": {
+				Code: "71",
+			},
+			"Khon Kaen": {
+				Code: "40",
+			},
+			"Krabi": {
+				Code: "81",
+			},
+			"Krung Thep Maha Nakhon": {
+				Code: "10",
+			},
+			"Lampang": {
+				Code: "52",
+			},
+			"Lamphun": {
+				Code: "51",
+			},
+			"Loei": {
+				Code: "42",
+			},
+			"Lop Buri": {
+				Code: "16",
+			},
+			"Mae Hong Son": {
+				Code: "58",
+			},
+			"Maha Sarakham": {
+				Code: "44",
+			},
+			"Mukdahan": {
+				Code: "49",
+			},
+			"Nakhon Nayok": {
+				Code: "26",
+			},
+			"Nakhon Pathom": {
+				Code: "73",
+			},
+			"Nakhon Phanom": {
+				Code: "48",
+			},
+			"Nakhon Ratchasima": {
+				Code: "30",
+			},
+			"Nakhon Sawan": {
+				Code: "60",
+			},
+			"Nakhon Si Thammarat": {
+				Code: "80",
+			},
+			"Nan": {
+				Code: "55",
+			},
+			"Narathiwat": {
+				Code: "96",
+			},
+			"Nong Bua Lam Phu": {
+				Code: "39",
+			},
+			"Nong Khai": {
+				Code: "43",
+			},
+			"Nonthaburi": {
+				Code: "12",
+			},
+			"Pathum Thani": {
+				Code: "13",
+			},
+			"Pattani": {
+				Code: "94",
+			},
+			"Phangnga": {
+				Code: "82",
+			},
+			"Phatthalung": {
+				Code: "93",
+			},
+			"Phatthaya": {
+				Code: "S",
+			},
+			"Phayao": {
+				Code: "56",
+			},
+			"Phetchabun": {
+				Code: "67",
+			},
+			"Phetchaburi": {
+				Code: "76",
+			},
+			"Phichit": {
+				Code: "66",
+			},
+			"Phitsanulok": {
+				Code: "65",
+			},
+			"Phra Nakhon Si Ayutthaya": {
+				Code: "14",
+			},
+			"Phrae": {
+				Code: "54",
+			},
+			"Phuket": {
+				Code: "83",
+			},
+			"Prachin Buri": {
+				Code: "25",
+			},
+			"Prachuap Khiri Khan": {
+				Code: "77",
+			},
+			"Ranong": {
+				Code: "85",
+			},
+			"Ratchaburi": {
+				Code: "70",
+			},
+			"Rayong": {
+				Code: "21",
+			},
+			"Roi Et": {
+				Code: "45",
+			},
+			"Sa Kaeo": {
+				Code: "27",
+			},
+			"Sakon Nakhon": {
+				Code: "47",
+			},
+			"Samut Prakan": {
+				Code: "11",
+			},
+			"Samut Sakhon": {
+				Code: "74",
+			},
+			"Samut Songkhram": {
+				Code: "75",
+			},
+			"Saraburi": {
+				Code: "19",
+			},
+			"Satun": {
+				Code: "91",
+			},
+			"Si Sa Ket": {
+				Code: "33",
+			},
+			"Sing Buri": {
+				Code: "17",
+			},
+			"Songkhla": {
+				Code: "90",
+			},
+			"Sukhothai": {
+				Code: "64",
+			},
+			"Suphan Buri": {
+				Code: "72",
+			},
+			"Surat Thani": {
+				Code: "84",
+			},
+			"Surin": {
+				Code: "32",
+			},
+			"Tak": {
+				Code: "63",
+			},
+			"Trang": {
+				Code: "92",
+			},
+			"Trat": {
+				Code: "23",
+			},
+			"Ubon Ratchathani": {
+				Code: "34",
+			},
+			"Udon Thani": {
+				Code: "41",
+			},
+			"Uthai Thani": {
+				Code: "61",
+			},
+			"Uttaradit": {
+				Code: "53",
+			},
+			"Yala": {
+				Code: "95",
+			},
+			"Yasothon": {
+				Code: "35",
+			},
+		},
 	},
 
 	"TJ": {
@@ -2702,6 +43790,59 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Tajikistan",
 		CommonName:   "",
 		Numeric:      "762",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"DU": {
+				Name:         "Dushanbe",
+				LocalName:    "",
+				LanguageCode: "tg",
+				Type:         "capital territory",
+			},
+			"GB": {
+				Name:         "Kŭhistoni Badakhshon",
+				LocalName:    "",
+				LanguageCode: "tg",
+				Type:         "autonomous region",
+			},
+			"KT": {
+				Name:         "Khatlon",
+				LocalName:    "",
+				LanguageCode: "tg",
+				Type:         "region",
+			},
+			"RA": {
+				Name:         "nohiyahoi tobei jumhurí",
+				LocalName:    "",
+				LanguageCode: "tg",
+				Type:         "districts under republic administration",
+			},
+			"SU": {
+				Name:         "Sughd",
+				LocalName:    "",
+				LanguageCode: "tg",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Dushanbe": {
+				Code: "DU",
+			},
+			"Khatlon": {
+				Code: "KT",
+			},
+			"Kŭhistoni Badakhshon": {
+				Code: "GB",
+			},
+			"Sughd": {
+				Code: "SU",
+			},
+			"nohiyahoi tobei jumhurí": {
+				Code: "RA",
+			},
+		},
 	},
 
 	"TK": {
@@ -2720,6 +43861,131 @@ var CountryStates = map[string]Country{
 		OfficialName: "Democratic Republic of Timor-Leste",
 		CommonName:   "",
 		Numeric:      "626",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AL": {
+				Name:         "Aileu",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"AN": {
+				Name:         "Ainaru",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"BA": {
+				Name:         "Baukau",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"BO": {
+				Name:         "Bobonaru",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"CO": {
+				Name:         "Kovalima",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"DI": {
+				Name:         "Díli",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"ER": {
+				Name:         "Ermera",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"LA": {
+				Name:         "Lautein",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"LI": {
+				Name:         "Likisá",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"MF": {
+				Name:         "Manufahi",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"MT": {
+				Name:         "Manatutu",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+			"OE": {
+				Name:         "Oekusi-Ambenu",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "special administrative region",
+			},
+			"VI": {
+				Name:         "Vikeke",
+				LocalName:    "",
+				LanguageCode: "-",
+				Type:         "municipality",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Aileu": {
+				Code: "AL",
+			},
+			"Ainaru": {
+				Code: "AN",
+			},
+			"Baukau": {
+				Code: "BA",
+			},
+			"Bobonaru": {
+				Code: "BO",
+			},
+			"Díli": {
+				Code: "DI",
+			},
+			"Ermera": {
+				Code: "ER",
+			},
+			"Kovalima": {
+				Code: "CO",
+			},
+			"Lautein": {
+				Code: "LA",
+			},
+			"Likisá": {
+				Code: "LI",
+			},
+			"Manatutu": {
+				Code: "MT",
+			},
+			"Manufahi": {
+				Code: "MF",
+			},
+			"Oekusi-Ambenu": {
+				Code: "OE",
+			},
+			"Vikeke": {
+				Code: "VI",
+			},
+		},
 	},
 
 	"TM": {
@@ -2729,6 +43995,68 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "795",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"A": {
+				Name:         "Ahal",
+				LocalName:    "",
+				LanguageCode: "tk",
+				Type:         "region",
+			},
+			"B": {
+				Name:         "Balkan",
+				LocalName:    "",
+				LanguageCode: "tk",
+				Type:         "region",
+			},
+			"D": {
+				Name:         "Daşoguz",
+				LocalName:    "",
+				LanguageCode: "tk",
+				Type:         "region",
+			},
+			"L": {
+				Name:         "Lebap",
+				LocalName:    "",
+				LanguageCode: "tk",
+				Type:         "region",
+			},
+			"M": {
+				Name:         "Mary",
+				LocalName:    "",
+				LanguageCode: "tk",
+				Type:         "region",
+			},
+			"S": {
+				Name:         "Aşgabat",
+				LocalName:    "",
+				LanguageCode: "tk",
+				Type:         "city",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ahal": {
+				Code: "A",
+			},
+			"Aşgabat": {
+				Code: "S",
+			},
+			"Balkan": {
+				Code: "B",
+			},
+			"Daşoguz": {
+				Code: "D",
+			},
+			"Lebap": {
+				Code: "L",
+			},
+			"Mary": {
+				Code: "M",
+			},
+		},
 	},
 
 	"TN": {
@@ -2738,6 +44066,230 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Tunisia",
 		CommonName:   "",
 		Numeric:      "788",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"11": {
+				Name:         "Tunis",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"12": {
+				Name:         "L'Ariana",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"13": {
+				Name:         "Ben Arous",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"14": {
+				Name:         "La Manouba",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"21": {
+				Name:         "Nabeul",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"22": {
+				Name:         "Zaghouan",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"23": {
+				Name:         "Bizerte",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"31": {
+				Name:         "Béja",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"32": {
+				Name:         "Jendouba",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"33": {
+				Name:         "Le Kef",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"34": {
+				Name:         "Siliana",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"41": {
+				Name:         "Kairouan",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"42": {
+				Name:         "Kasserine",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"43": {
+				Name:         "Sidi Bouzid",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"51": {
+				Name:         "Sousse",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"52": {
+				Name:         "Monastir",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"53": {
+				Name:         "Mahdia",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"61": {
+				Name:         "Sfax",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"71": {
+				Name:         "Gafsa",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"72": {
+				Name:         "Tozeur",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"73": {
+				Name:         "Kébili",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"81": {
+				Name:         "Gabès",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"82": {
+				Name:         "Médenine",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"83": {
+				Name:         "Tataouine",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Ben Arous": {
+				Code: "13",
+			},
+			"Bizerte": {
+				Code: "23",
+			},
+			"Béja": {
+				Code: "31",
+			},
+			"Gabès": {
+				Code: "81",
+			},
+			"Gafsa": {
+				Code: "71",
+			},
+			"Jendouba": {
+				Code: "32",
+			},
+			"Kairouan": {
+				Code: "41",
+			},
+			"Kasserine": {
+				Code: "42",
+			},
+			"Kébili": {
+				Code: "73",
+			},
+			"L'Ariana": {
+				Code: "12",
+			},
+			"La Manouba": {
+				Code: "14",
+			},
+			"Le Kef": {
+				Code: "33",
+			},
+			"Mahdia": {
+				Code: "53",
+			},
+			"Monastir": {
+				Code: "52",
+			},
+			"Médenine": {
+				Code: "82",
+			},
+			"Nabeul": {
+				Code: "21",
+			},
+			"Sfax": {
+				Code: "61",
+			},
+			"Sidi Bouzid": {
+				Code: "43",
+			},
+			"Siliana": {
+				Code: "34",
+			},
+			"Sousse": {
+				Code: "51",
+			},
+			"Tataouine": {
+				Code: "83",
+			},
+			"Tozeur": {
+				Code: "72",
+			},
+			"Tunis": {
+				Code: "11",
+			},
+			"Zaghouan": {
+				Code: "22",
+			},
+		},
 	},
 
 	"TO": {
@@ -2747,6 +44299,59 @@ var CountryStates = map[string]Country{
 		OfficialName: "Kingdom of Tonga",
 		CommonName:   "",
 		Numeric:      "776",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Eua",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+			},
+			"02": {
+				Name:         "Ha'apai",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+			},
+			"03": {
+				Name:         "Niuas",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+			},
+			"04": {
+				Name:         "Tongatapu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+			},
+			"05": {
+				Name:         "Vava'u",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "division",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Eua": {
+				Code: "01",
+			},
+			"Ha'apai": {
+				Code: "02",
+			},
+			"Niuas": {
+				Code: "03",
+			},
+			"Tongatapu": {
+				Code: "04",
+			},
+			"Vava'u": {
+				Code: "05",
+			},
+		},
 	},
 
 	"TR": {
@@ -2756,6 +44361,743 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Turkey",
 		CommonName:   "",
 		Numeric:      "792",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Adana",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"02": {
+				Name:         "Adıyaman",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"03": {
+				Name:         "Afyonkarahisar",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"04": {
+				Name:         "Ağrı",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"05": {
+				Name:         "Amasya",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"06": {
+				Name:         "Ankara",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"07": {
+				Name:         "Antalya",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"08": {
+				Name:         "Artvin",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"09": {
+				Name:         "Aydın",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"10": {
+				Name:         "Balıkesir",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"11": {
+				Name:         "Bilecik",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"12": {
+				Name:         "Bingöl",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"13": {
+				Name:         "Bitlis",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"14": {
+				Name:         "Bolu",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"15": {
+				Name:         "Burdur",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"16": {
+				Name:         "Bursa",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"17": {
+				Name:         "Çanakkale",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"18": {
+				Name:         "Çankırı",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"19": {
+				Name:         "Çorum",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"20": {
+				Name:         "Denizli",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"21": {
+				Name:         "Diyarbakır",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"22": {
+				Name:         "Edirne",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"23": {
+				Name:         "Elazığ",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"24": {
+				Name:         "Erzincan",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"25": {
+				Name:         "Erzurum",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"26": {
+				Name:         "Eskişehir",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"27": {
+				Name:         "Gaziantep",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"28": {
+				Name:         "Giresun",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"29": {
+				Name:         "Gümüşhane",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"30": {
+				Name:         "Hakkâri",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"31": {
+				Name:         "Hatay",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"32": {
+				Name:         "Isparta",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"33": {
+				Name:         "Mersin",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"34": {
+				Name:         "İstanbul",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"35": {
+				Name:         "İzmir",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"36": {
+				Name:         "Kars",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"37": {
+				Name:         "Kastamonu",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"38": {
+				Name:         "Kayseri",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"39": {
+				Name:         "Kırklareli",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"40": {
+				Name:         "Kırşehir",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"41": {
+				Name:         "Kocaeli",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"42": {
+				Name:         "Konya",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"43": {
+				Name:         "Kütahya",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"44": {
+				Name:         "Malatya",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"45": {
+				Name:         "Manisa",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"46": {
+				Name:         "Kahramanmaraş",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"47": {
+				Name:         "Mardin",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"48": {
+				Name:         "Muğla",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"49": {
+				Name:         "Muş",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"50": {
+				Name:         "Nevşehir",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"51": {
+				Name:         "Niğde",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"52": {
+				Name:         "Ordu",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"53": {
+				Name:         "Rize",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"54": {
+				Name:         "Sakarya",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"55": {
+				Name:         "Samsun",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"56": {
+				Name:         "Siirt",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"57": {
+				Name:         "Sinop",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"58": {
+				Name:         "Sivas",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"59": {
+				Name:         "Tekirdağ",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"60": {
+				Name:         "Tokat",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"61": {
+				Name:         "Trabzon",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"62": {
+				Name:         "Tunceli",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"63": {
+				Name:         "Şanlıurfa",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"64": {
+				Name:         "Uşak",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"65": {
+				Name:         "Van",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"66": {
+				Name:         "Yozgat",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"67": {
+				Name:         "Zonguldak",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"68": {
+				Name:         "Aksaray",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"69": {
+				Name:         "Bayburt",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"70": {
+				Name:         "Karaman",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"71": {
+				Name:         "Kırıkkale",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"72": {
+				Name:         "Batman",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"73": {
+				Name:         "Şırnak",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"74": {
+				Name:         "Bartın",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"75": {
+				Name:         "Ardahan",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"76": {
+				Name:         "Iğdır",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"77": {
+				Name:         "Yalova",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"78": {
+				Name:         "Karabük",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"79": {
+				Name:         "Kilis",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"80": {
+				Name:         "Osmaniye",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+			"81": {
+				Name:         "Düzce",
+				LocalName:    "",
+				LanguageCode: "tr",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Adana": {
+				Code: "01",
+			},
+			"Adıyaman": {
+				Code: "02",
+			},
+			"Afyonkarahisar": {
+				Code: "03",
+			},
+			"Aksaray": {
+				Code: "68",
+			},
+			"Amasya": {
+				Code: "05",
+			},
+			"Ankara": {
+				Code: "06",
+			},
+			"Antalya": {
+				Code: "07",
+			},
+			"Ardahan": {
+				Code: "75",
+			},
+			"Artvin": {
+				Code: "08",
+			},
+			"Aydın": {
+				Code: "09",
+			},
+			"Ağrı": {
+				Code: "04",
+			},
+			"Balıkesir": {
+				Code: "10",
+			},
+			"Bartın": {
+				Code: "74",
+			},
+			"Batman": {
+				Code: "72",
+			},
+			"Bayburt": {
+				Code: "69",
+			},
+			"Bilecik": {
+				Code: "11",
+			},
+			"Bingöl": {
+				Code: "12",
+			},
+			"Bitlis": {
+				Code: "13",
+			},
+			"Bolu": {
+				Code: "14",
+			},
+			"Burdur": {
+				Code: "15",
+			},
+			"Bursa": {
+				Code: "16",
+			},
+			"Denizli": {
+				Code: "20",
+			},
+			"Diyarbakır": {
+				Code: "21",
+			},
+			"Düzce": {
+				Code: "81",
+			},
+			"Edirne": {
+				Code: "22",
+			},
+			"Elazığ": {
+				Code: "23",
+			},
+			"Erzincan": {
+				Code: "24",
+			},
+			"Erzurum": {
+				Code: "25",
+			},
+			"Eskişehir": {
+				Code: "26",
+			},
+			"Gaziantep": {
+				Code: "27",
+			},
+			"Giresun": {
+				Code: "28",
+			},
+			"Gümüşhane": {
+				Code: "29",
+			},
+			"Hakkâri": {
+				Code: "30",
+			},
+			"Hatay": {
+				Code: "31",
+			},
+			"Isparta": {
+				Code: "32",
+			},
+			"Iğdır": {
+				Code: "76",
+			},
+			"Kahramanmaraş": {
+				Code: "46",
+			},
+			"Karabük": {
+				Code: "78",
+			},
+			"Karaman": {
+				Code: "70",
+			},
+			"Kars": {
+				Code: "36",
+			},
+			"Kastamonu": {
+				Code: "37",
+			},
+			"Kayseri": {
+				Code: "38",
+			},
+			"Kilis": {
+				Code: "79",
+			},
+			"Kocaeli": {
+				Code: "41",
+			},
+			"Konya": {
+				Code: "42",
+			},
+			"Kütahya": {
+				Code: "43",
+			},
+			"Kırklareli": {
+				Code: "39",
+			},
+			"Kırıkkale": {
+				Code: "71",
+			},
+			"Kırşehir": {
+				Code: "40",
+			},
+			"Malatya": {
+				Code: "44",
+			},
+			"Manisa": {
+				Code: "45",
+			},
+			"Mardin": {
+				Code: "47",
+			},
+			"Mersin": {
+				Code: "33",
+			},
+			"Muğla": {
+				Code: "48",
+			},
+			"Muş": {
+				Code: "49",
+			},
+			"Nevşehir": {
+				Code: "50",
+			},
+			"Niğde": {
+				Code: "51",
+			},
+			"Ordu": {
+				Code: "52",
+			},
+			"Osmaniye": {
+				Code: "80",
+			},
+			"Rize": {
+				Code: "53",
+			},
+			"Sakarya": {
+				Code: "54",
+			},
+			"Samsun": {
+				Code: "55",
+			},
+			"Siirt": {
+				Code: "56",
+			},
+			"Sinop": {
+				Code: "57",
+			},
+			"Sivas": {
+				Code: "58",
+			},
+			"Tekirdağ": {
+				Code: "59",
+			},
+			"Tokat": {
+				Code: "60",
+			},
+			"Trabzon": {
+				Code: "61",
+			},
+			"Tunceli": {
+				Code: "62",
+			},
+			"Uşak": {
+				Code: "64",
+			},
+			"Van": {
+				Code: "65",
+			},
+			"Yalova": {
+				Code: "77",
+			},
+			"Yozgat": {
+				Code: "66",
+			},
+			"Zonguldak": {
+				Code: "67",
+			},
+			"Çanakkale": {
+				Code: "17",
+			},
+			"Çankırı": {
+				Code: "18",
+			},
+			"Çorum": {
+				Code: "19",
+			},
+			"İstanbul": {
+				Code: "34",
+			},
+			"İzmir": {
+				Code: "35",
+			},
+			"Şanlıurfa": {
+				Code: "63",
+			},
+			"Şırnak": {
+				Code: "73",
+			},
+		},
 	},
 
 	"TT": {
@@ -2765,6 +45107,149 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Trinidad and Tobago",
 		CommonName:   "",
 		Numeric:      "780",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"ARI": {
+				Name:         "Arima",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "municipality",
+			},
+			"CHA": {
+				Name:         "Chaguanas",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "municipality",
+			},
+			"CTT": {
+				Name:         "Couva-Tabaquite-Talparo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"DMN": {
+				Name:         "Diego Martin",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"MRC": {
+				Name:         "Mayaro-Rio Claro",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"PED": {
+				Name:         "Penal-Debe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"POS": {
+				Name:         "Port of Spain",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "municipality",
+			},
+			"PRT": {
+				Name:         "Princes Town",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"PTF": {
+				Name:         "Point Fortin",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "municipality",
+			},
+			"SFO": {
+				Name:         "San Fernando",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "municipality",
+			},
+			"SGE": {
+				Name:         "Sangre Grande",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"SIP": {
+				Name:         "Siparia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"SJL": {
+				Name:         "San Juan-Laventille",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"TOB": {
+				Name:         "Tobago",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "ward",
+			},
+			"TUP": {
+				Name:         "Tunapuna-Piarco",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Arima": {
+				Code: "ARI",
+			},
+			"Chaguanas": {
+				Code: "CHA",
+			},
+			"Couva-Tabaquite-Talparo": {
+				Code: "CTT",
+			},
+			"Diego Martin": {
+				Code: "DMN",
+			},
+			"Mayaro-Rio Claro": {
+				Code: "MRC",
+			},
+			"Penal-Debe": {
+				Code: "PED",
+			},
+			"Point Fortin": {
+				Code: "PTF",
+			},
+			"Port of Spain": {
+				Code: "POS",
+			},
+			"Princes Town": {
+				Code: "PRT",
+			},
+			"San Fernando": {
+				Code: "SFO",
+			},
+			"San Juan-Laventille": {
+				Code: "SJL",
+			},
+			"Sangre Grande": {
+				Code: "SGE",
+			},
+			"Siparia": {
+				Code: "SIP",
+			},
+			"Tobago": {
+				Code: "TOB",
+			},
+			"Tunapuna-Piarco": {
+				Code: "TUP",
+			},
+		},
 	},
 
 	"TV": {
@@ -2774,6 +45259,86 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "798",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"FUN": {
+				Name:         "Funafuti",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "town council",
+			},
+			"NIT": {
+				Name:         "Niutao",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "island council",
+			},
+			"NKF": {
+				Name:         "Nukufetau",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "island council",
+			},
+			"NKL": {
+				Name:         "Nukulaelae",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "island council",
+			},
+			"NMA": {
+				Name:         "Nanumea",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "island council",
+			},
+			"NMG": {
+				Name:         "Nanumaga",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "island council",
+			},
+			"NUI": {
+				Name:         "Nui",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "island council",
+			},
+			"VAI": {
+				Name:         "Vaitupu",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "island council",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Funafuti": {
+				Code: "FUN",
+			},
+			"Nanumaga": {
+				Code: "NMG",
+			},
+			"Nanumea": {
+				Code: "NMA",
+			},
+			"Niutao": {
+				Code: "NIT",
+			},
+			"Nui": {
+				Code: "NUI",
+			},
+			"Nukufetau": {
+				Code: "NKF",
+			},
+			"Nukulaelae": {
+				Code: "NKL",
+			},
+			"Vaitupu": {
+				Code: "VAI",
+			},
+		},
 	},
 
 	"TW": {
@@ -2783,6 +45348,206 @@ var CountryStates = map[string]Country{
 		OfficialName: "Taiwan, Province of China",
 		CommonName:   "Taiwan",
 		Numeric:      "158",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"CHA": {
+				Name:         "Changhua",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+			"CYI": {
+				Name:         "Chiayi",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "city",
+			},
+			"CYQ": {
+				Name:         "Chiayi",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+			"HSQ": {
+				Name:         "Hsinchu",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+			"HSZ": {
+				Name:         "Hsinchu",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "city",
+			},
+			"HUA": {
+				Name:         "Hualien",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+			"ILA": {
+				Name:         "Yilan",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+			"KEE": {
+				Name:         "Keelung",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "city",
+			},
+			"KHH": {
+				Name:         "Kaohsiung",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "special municipality",
+			},
+			"KIN": {
+				Name:         "Kinmen",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+			"LIE": {
+				Name:         "Lienchiang",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+			"MIA": {
+				Name:         "Miaoli",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+			"NAN": {
+				Name:         "Nantou",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+			"NWT": {
+				Name:         "New Taipei",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "special municipality",
+			},
+			"PEN": {
+				Name:         "Penghu",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+			"PIF": {
+				Name:         "Pingtung",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+			"TAO": {
+				Name:         "Taoyuan",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "special municipality",
+			},
+			"TNN": {
+				Name:         "Tainan",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "special municipality",
+			},
+			"TPE": {
+				Name:         "Taipei",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "special municipality",
+			},
+			"TTT": {
+				Name:         "Taitung",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+			"TXG": {
+				Name:         "Taichung",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "special municipality",
+			},
+			"YUN": {
+				Name:         "Yunlin",
+				LocalName:    "",
+				LanguageCode: "zh",
+				Type:         "county",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Changhua": {
+				Code: "CHA",
+			},
+			"Chiayi": {
+				Code: "CYQ",
+			},
+			"Hsinchu": {
+				Code: "HSQ",
+			},
+			"Hualien": {
+				Code: "HUA",
+			},
+			"Kaohsiung": {
+				Code: "KHH",
+			},
+			"Keelung": {
+				Code: "KEE",
+			},
+			"Kinmen": {
+				Code: "KIN",
+			},
+			"Lienchiang": {
+				Code: "LIE",
+			},
+			"Miaoli": {
+				Code: "MIA",
+			},
+			"Nantou": {
+				Code: "NAN",
+			},
+			"New Taipei": {
+				Code: "NWT",
+			},
+			"Penghu": {
+				Code: "PEN",
+			},
+			"Pingtung": {
+				Code: "PIF",
+			},
+			"Taichung": {
+				Code: "TXG",
+			},
+			"Tainan": {
+				Code: "TNN",
+			},
+			"Taipei": {
+				Code: "TPE",
+			},
+			"Taitung": {
+				Code: "TTT",
+			},
+			"Taoyuan": {
+				Code: "TAO",
+			},
+			"Yilan": {
+				Code: "ILA",
+			},
+			"Yunlin": {
+				Code: "YUN",
+			},
+		},
 	},
 
 	"TZ": {
@@ -2792,6 +45557,293 @@ var CountryStates = map[string]Country{
 		OfficialName: "United Republic of Tanzania",
 		CommonName:   "Tanzania",
 		Numeric:      "834",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Arusha",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"02": {
+				Name:         "Dar es Salaam",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"03": {
+				Name:         "Dodoma",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"04": {
+				Name:         "Iringa",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"05": {
+				Name:         "Kagera",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"06": {
+				Name:         "Pemba North",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"07": {
+				Name:         "Zanzibar North",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"08": {
+				Name:         "Kigoma",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"09": {
+				Name:         "Kilimanjaro",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"10": {
+				Name:         "Pemba South",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"11": {
+				Name:         "Zanzibar South",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"12": {
+				Name:         "Lindi",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"13": {
+				Name:         "Mara",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"14": {
+				Name:         "Mbeya",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"15": {
+				Name:         "Zanzibar West",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"16": {
+				Name:         "Morogoro",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"17": {
+				Name:         "Mtwara",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"18": {
+				Name:         "Mwanza",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"19": {
+				Name:         "Coast",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+			"20": {
+				Name:         "Rukwa",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"21": {
+				Name:         "Ruvuma",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"22": {
+				Name:         "Shinyanga",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"23": {
+				Name:         "Singida",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"24": {
+				Name:         "Tabora",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"25": {
+				Name:         "Tanga",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"26": {
+				Name:         "Manyara",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"27": {
+				Name:         "Geita",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"28": {
+				Name:         "Katavi",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"29": {
+				Name:         "Njombe",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"30": {
+				Name:         "Simiyu",
+				LocalName:    "",
+				LanguageCode: "sw",
+				Type:         "region",
+			},
+			"31": {
+				Name:         "Songwe",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Arusha": {
+				Code: "01",
+			},
+			"Coast": {
+				Code: "19",
+			},
+			"Dar es Salaam": {
+				Code: "02",
+			},
+			"Dodoma": {
+				Code: "03",
+			},
+			"Geita": {
+				Code: "27",
+			},
+			"Iringa": {
+				Code: "04",
+			},
+			"Kagera": {
+				Code: "05",
+			},
+			"Katavi": {
+				Code: "28",
+			},
+			"Kigoma": {
+				Code: "08",
+			},
+			"Kilimanjaro": {
+				Code: "09",
+			},
+			"Lindi": {
+				Code: "12",
+			},
+			"Manyara": {
+				Code: "26",
+			},
+			"Mara": {
+				Code: "13",
+			},
+			"Mbeya": {
+				Code: "14",
+			},
+			"Morogoro": {
+				Code: "16",
+			},
+			"Mtwara": {
+				Code: "17",
+			},
+			"Mwanza": {
+				Code: "18",
+			},
+			"Njombe": {
+				Code: "29",
+			},
+			"Pemba North": {
+				Code: "06",
+			},
+			"Pemba South": {
+				Code: "10",
+			},
+			"Rukwa": {
+				Code: "20",
+			},
+			"Ruvuma": {
+				Code: "21",
+			},
+			"Shinyanga": {
+				Code: "22",
+			},
+			"Simiyu": {
+				Code: "30",
+			},
+			"Singida": {
+				Code: "23",
+			},
+			"Songwe": {
+				Code: "31",
+			},
+			"Tabora": {
+				Code: "24",
+			},
+			"Tanga": {
+				Code: "25",
+			},
+			"Zanzibar North": {
+				Code: "07",
+			},
+			"Zanzibar South": {
+				Code: "11",
+			},
+			"Zanzibar West": {
+				Code: "15",
+			},
+		},
 	},
 
 	"UA": {
@@ -2801,6 +45853,257 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "804",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"05": {
+				Name:         "Vinnytska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"07": {
+				Name:         "Volynska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"09": {
+				Name:         "Luhanska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"12": {
+				Name:         "Dnipropetrovska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"14": {
+				Name:         "Donetska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"18": {
+				Name:         "Zhytomyrska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"21": {
+				Name:         "Zakarpatska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"23": {
+				Name:         "Zaporizka oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"26": {
+				Name:         "Ivano-Frankivska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"30": {
+				Name:         "Kyiv",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "city",
+			},
+			"32": {
+				Name:         "Kyivska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"35": {
+				Name:         "Kirovohradska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"40": {
+				Name:         "Sevastopol",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "city",
+			},
+			"43": {
+				Name:         "Avtonomna Respublika Krym",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "republic",
+			},
+			"46": {
+				Name:         "Lvivska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"48": {
+				Name:         "Mykolaivska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"51": {
+				Name:         "Odeska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"53": {
+				Name:         "Poltavska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"56": {
+				Name:         "Rivnenska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"59": {
+				Name:         "Sumska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"61": {
+				Name:         "Ternopilska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"63": {
+				Name:         "Kharkivska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"65": {
+				Name:         "Khersonska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"68": {
+				Name:         "Khmelnytska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"71": {
+				Name:         "Cherkaska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"74": {
+				Name:         "Chernihivska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+			"77": {
+				Name:         "Chernivetska oblast",
+				LocalName:    "",
+				LanguageCode: "uk",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Avtonomna Respublika Krym": {
+				Code: "43",
+			},
+			"Cherkaska oblast": {
+				Code: "71",
+			},
+			"Chernihivska oblast": {
+				Code: "74",
+			},
+			"Chernivetska oblast": {
+				Code: "77",
+			},
+			"Dnipropetrovska oblast": {
+				Code: "12",
+			},
+			"Donetska oblast": {
+				Code: "14",
+			},
+			"Ivano-Frankivska oblast": {
+				Code: "26",
+			},
+			"Kharkivska oblast": {
+				Code: "63",
+			},
+			"Khersonska oblast": {
+				Code: "65",
+			},
+			"Khmelnytska oblast": {
+				Code: "68",
+			},
+			"Kirovohradska oblast": {
+				Code: "35",
+			},
+			"Kyiv": {
+				Code: "30",
+			},
+			"Kyivska oblast": {
+				Code: "32",
+			},
+			"Luhanska oblast": {
+				Code: "09",
+			},
+			"Lvivska oblast": {
+				Code: "46",
+			},
+			"Mykolaivska oblast": {
+				Code: "48",
+			},
+			"Odeska oblast": {
+				Code: "51",
+			},
+			"Poltavska oblast": {
+				Code: "53",
+			},
+			"Rivnenska oblast": {
+				Code: "56",
+			},
+			"Sevastopol": {
+				Code: "40",
+			},
+			"Sumska oblast": {
+				Code: "59",
+			},
+			"Ternopilska oblast": {
+				Code: "61",
+			},
+			"Vinnytska oblast": {
+				Code: "05",
+			},
+			"Volynska oblast": {
+				Code: "07",
+			},
+			"Zakarpatska oblast": {
+				Code: "21",
+			},
+			"Zaporizka oblast": {
+				Code: "23",
+			},
+			"Zhytomyrska oblast": {
+				Code: "18",
+			},
+		},
 	},
 
 	"UG": {
@@ -2810,6 +46113,1234 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Uganda",
 		CommonName:   "",
 		Numeric:      "800",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"C": {
+				Name:         "Central",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "geographical region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"101": {
+						Name:         "Kalangala",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"102": {
+						Name:         "Kampala",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "city",
+					},
+					"103": {
+						Name:         "Kiboga",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"104": {
+						Name:         "Luwero",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"105": {
+						Name:         "Masaka",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"106": {
+						Name:         "Mpigi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"107": {
+						Name:         "Mubende",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"108": {
+						Name:         "Mukono",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"109": {
+						Name:         "Nakasongola",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"110": {
+						Name:         "Rakai",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"111": {
+						Name:         "Sembabule",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"112": {
+						Name:         "Kayunga",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"113": {
+						Name:         "Wakiso",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"114": {
+						Name:         "Lyantonde",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"115": {
+						Name:         "Mityana",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"116": {
+						Name:         "Nakaseke",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"117": {
+						Name:         "Buikwe",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"118": {
+						Name:         "Bukomansibi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"119": {
+						Name:         "Butambala",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"120": {
+						Name:         "Buvuma",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"121": {
+						Name:         "Gomba",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"122": {
+						Name:         "Kalungu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"123": {
+						Name:         "Kyankwanzi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"124": {
+						Name:         "Lwengo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"125": {
+						Name:         "Kyotera",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"126": {
+						Name:         "Kasanda",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"E": {
+				Name:         "Eastern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "geographical region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"201": {
+						Name:         "Bugiri",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"202": {
+						Name:         "Busia",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"203": {
+						Name:         "Iganga",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"204": {
+						Name:         "Jinja",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"205": {
+						Name:         "Kamuli",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"206": {
+						Name:         "Kapchorwa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"207": {
+						Name:         "Katakwi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"208": {
+						Name:         "Kumi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"209": {
+						Name:         "Mbale",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"210": {
+						Name:         "Pallisa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"211": {
+						Name:         "Soroti",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"212": {
+						Name:         "Tororo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"213": {
+						Name:         "Kaberamaido",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"214": {
+						Name:         "Mayuge",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"215": {
+						Name:         "Sironko",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"216": {
+						Name:         "Amuria",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"217": {
+						Name:         "Budaka",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"218": {
+						Name:         "Bududa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"219": {
+						Name:         "Bukedea",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"220": {
+						Name:         "Bukwa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"221": {
+						Name:         "Butaleja",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"222": {
+						Name:         "Kaliro",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"223": {
+						Name:         "Manafwa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"224": {
+						Name:         "Namutumba",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"225": {
+						Name:         "Bulambuli",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"226": {
+						Name:         "Buyende",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"227": {
+						Name:         "Kibuku",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"228": {
+						Name:         "Kween",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"229": {
+						Name:         "Luuka",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"230": {
+						Name:         "Namayingo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"231": {
+						Name:         "Ngora",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"232": {
+						Name:         "Serere",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"233": {
+						Name:         "Butebo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"234": {
+						Name:         "Namisindwa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"235": {
+						Name:         "Bugweri",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"236": {
+						Name:         "Kapelebyong",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"N": {
+				Name:         "Northern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "geographical region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"301": {
+						Name:         "Adjumani",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"302": {
+						Name:         "Apac",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"303": {
+						Name:         "Arua",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"304": {
+						Name:         "Gulu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"305": {
+						Name:         "Kitgum",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"306": {
+						Name:         "Kotido",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"307": {
+						Name:         "Lira",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"308": {
+						Name:         "Moroto",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"309": {
+						Name:         "Moyo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"310": {
+						Name:         "Nebbi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"311": {
+						Name:         "Nakapiripirit",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"312": {
+						Name:         "Pader",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"313": {
+						Name:         "Yumbe",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"314": {
+						Name:         "Abim",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"315": {
+						Name:         "Amolatar",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"316": {
+						Name:         "Amuru",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"317": {
+						Name:         "Dokolo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"318": {
+						Name:         "Kaabong",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"319": {
+						Name:         "Koboko",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"320": {
+						Name:         "Maracha",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"321": {
+						Name:         "Oyam",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"322": {
+						Name:         "Agago",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"323": {
+						Name:         "Alebtong",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"324": {
+						Name:         "Amudat",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"325": {
+						Name:         "Kole",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"326": {
+						Name:         "Lamwo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"327": {
+						Name:         "Napak",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"328": {
+						Name:         "Nwoya",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"329": {
+						Name:         "Otuke",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"330": {
+						Name:         "Zombo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"331": {
+						Name:         "Omoro",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"332": {
+						Name:         "Pakwach",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"333": {
+						Name:         "Kwania",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"334": {
+						Name:         "Nabilatuk",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+			"W": {
+				Name:         "Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "geographical region",
+
+				SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+					"401": {
+						Name:         "Bundibugyo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"402": {
+						Name:         "Bushenyi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"403": {
+						Name:         "Hoima",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"404": {
+						Name:         "Kabale",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"405": {
+						Name:         "Kabarole",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"406": {
+						Name:         "Kasese",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"407": {
+						Name:         "Kibaale",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"408": {
+						Name:         "Kisoro",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"409": {
+						Name:         "Masindi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"410": {
+						Name:         "Mbarara",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"411": {
+						Name:         "Ntungamo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"412": {
+						Name:         "Rukungiri",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"413": {
+						Name:         "Kamwenge",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"414": {
+						Name:         "Kanungu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"415": {
+						Name:         "Kyenjojo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"416": {
+						Name:         "Buliisa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"417": {
+						Name:         "Ibanda",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"418": {
+						Name:         "Isingiro",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"419": {
+						Name:         "Kiruhura",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"420": {
+						Name:         "Buhweju",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"421": {
+						Name:         "Kiryandongo",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"422": {
+						Name:         "Kyegegwa",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"423": {
+						Name:         "Mitooma",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"424": {
+						Name:         "Ntoroko",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"425": {
+						Name:         "Rubirizi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"426": {
+						Name:         "Sheema",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"427": {
+						Name:         "Kagadi",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"428": {
+						Name:         "Kakumiro",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"429": {
+						Name:         "Rubanda",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"430": {
+						Name:         "Bunyangabu",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"431": {
+						Name:         "Rukiga",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+					"432": {
+						Name:         "Kikuube",
+						LocalName:    "",
+						LanguageCode: "en",
+						Type:         "district",
+					},
+				},
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Central": {
+				Code: "C",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Buikwe": {
+						Code: "117",
+					},
+					"Bukomansibi": {
+						Code: "118",
+					},
+					"Butambala": {
+						Code: "119",
+					},
+					"Buvuma": {
+						Code: "120",
+					},
+					"Gomba": {
+						Code: "121",
+					},
+					"Kalangala": {
+						Code: "101",
+					},
+					"Kalungu": {
+						Code: "122",
+					},
+					"Kampala": {
+						Code: "102",
+					},
+					"Kasanda": {
+						Code: "126",
+					},
+					"Kayunga": {
+						Code: "112",
+					},
+					"Kiboga": {
+						Code: "103",
+					},
+					"Kyankwanzi": {
+						Code: "123",
+					},
+					"Kyotera": {
+						Code: "125",
+					},
+					"Luwero": {
+						Code: "104",
+					},
+					"Lwengo": {
+						Code: "124",
+					},
+					"Lyantonde": {
+						Code: "114",
+					},
+					"Masaka": {
+						Code: "105",
+					},
+					"Mityana": {
+						Code: "115",
+					},
+					"Mpigi": {
+						Code: "106",
+					},
+					"Mubende": {
+						Code: "107",
+					},
+					"Mukono": {
+						Code: "108",
+					},
+					"Nakaseke": {
+						Code: "116",
+					},
+					"Nakasongola": {
+						Code: "109",
+					},
+					"Rakai": {
+						Code: "110",
+					},
+					"Sembabule": {
+						Code: "111",
+					},
+					"Wakiso": {
+						Code: "113",
+					},
+				},
+			},
+			"Eastern": {
+				Code: "E",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Amuria": {
+						Code: "216",
+					},
+					"Budaka": {
+						Code: "217",
+					},
+					"Bududa": {
+						Code: "218",
+					},
+					"Bugiri": {
+						Code: "201",
+					},
+					"Bugweri": {
+						Code: "235",
+					},
+					"Bukedea": {
+						Code: "219",
+					},
+					"Bukwa": {
+						Code: "220",
+					},
+					"Bulambuli": {
+						Code: "225",
+					},
+					"Busia": {
+						Code: "202",
+					},
+					"Butaleja": {
+						Code: "221",
+					},
+					"Butebo": {
+						Code: "233",
+					},
+					"Buyende": {
+						Code: "226",
+					},
+					"Iganga": {
+						Code: "203",
+					},
+					"Jinja": {
+						Code: "204",
+					},
+					"Kaberamaido": {
+						Code: "213",
+					},
+					"Kaliro": {
+						Code: "222",
+					},
+					"Kamuli": {
+						Code: "205",
+					},
+					"Kapchorwa": {
+						Code: "206",
+					},
+					"Kapelebyong": {
+						Code: "236",
+					},
+					"Katakwi": {
+						Code: "207",
+					},
+					"Kibuku": {
+						Code: "227",
+					},
+					"Kumi": {
+						Code: "208",
+					},
+					"Kween": {
+						Code: "228",
+					},
+					"Luuka": {
+						Code: "229",
+					},
+					"Manafwa": {
+						Code: "223",
+					},
+					"Mayuge": {
+						Code: "214",
+					},
+					"Mbale": {
+						Code: "209",
+					},
+					"Namayingo": {
+						Code: "230",
+					},
+					"Namisindwa": {
+						Code: "234",
+					},
+					"Namutumba": {
+						Code: "224",
+					},
+					"Ngora": {
+						Code: "231",
+					},
+					"Pallisa": {
+						Code: "210",
+					},
+					"Serere": {
+						Code: "232",
+					},
+					"Sironko": {
+						Code: "215",
+					},
+					"Soroti": {
+						Code: "211",
+					},
+					"Tororo": {
+						Code: "212",
+					},
+				},
+			},
+			"Northern": {
+				Code: "N",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Abim": {
+						Code: "314",
+					},
+					"Adjumani": {
+						Code: "301",
+					},
+					"Agago": {
+						Code: "322",
+					},
+					"Alebtong": {
+						Code: "323",
+					},
+					"Amolatar": {
+						Code: "315",
+					},
+					"Amudat": {
+						Code: "324",
+					},
+					"Amuru": {
+						Code: "316",
+					},
+					"Apac": {
+						Code: "302",
+					},
+					"Arua": {
+						Code: "303",
+					},
+					"Dokolo": {
+						Code: "317",
+					},
+					"Gulu": {
+						Code: "304",
+					},
+					"Kaabong": {
+						Code: "318",
+					},
+					"Kitgum": {
+						Code: "305",
+					},
+					"Koboko": {
+						Code: "319",
+					},
+					"Kole": {
+						Code: "325",
+					},
+					"Kotido": {
+						Code: "306",
+					},
+					"Kwania": {
+						Code: "333",
+					},
+					"Lamwo": {
+						Code: "326",
+					},
+					"Lira": {
+						Code: "307",
+					},
+					"Maracha": {
+						Code: "320",
+					},
+					"Moroto": {
+						Code: "308",
+					},
+					"Moyo": {
+						Code: "309",
+					},
+					"Nabilatuk": {
+						Code: "334",
+					},
+					"Nakapiripirit": {
+						Code: "311",
+					},
+					"Napak": {
+						Code: "327",
+					},
+					"Nebbi": {
+						Code: "310",
+					},
+					"Nwoya": {
+						Code: "328",
+					},
+					"Omoro": {
+						Code: "331",
+					},
+					"Otuke": {
+						Code: "329",
+					},
+					"Oyam": {
+						Code: "321",
+					},
+					"Pader": {
+						Code: "312",
+					},
+					"Pakwach": {
+						Code: "332",
+					},
+					"Yumbe": {
+						Code: "313",
+					},
+					"Zombo": {
+						Code: "330",
+					},
+				},
+			},
+			"Western": {
+				Code: "W",
+
+				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+					"Buhweju": {
+						Code: "420",
+					},
+					"Buliisa": {
+						Code: "416",
+					},
+					"Bundibugyo": {
+						Code: "401",
+					},
+					"Bunyangabu": {
+						Code: "430",
+					},
+					"Bushenyi": {
+						Code: "402",
+					},
+					"Hoima": {
+						Code: "403",
+					},
+					"Ibanda": {
+						Code: "417",
+					},
+					"Isingiro": {
+						Code: "418",
+					},
+					"Kabale": {
+						Code: "404",
+					},
+					"Kabarole": {
+						Code: "405",
+					},
+					"Kagadi": {
+						Code: "427",
+					},
+					"Kakumiro": {
+						Code: "428",
+					},
+					"Kamwenge": {
+						Code: "413",
+					},
+					"Kanungu": {
+						Code: "414",
+					},
+					"Kasese": {
+						Code: "406",
+					},
+					"Kibaale": {
+						Code: "407",
+					},
+					"Kikuube": {
+						Code: "432",
+					},
+					"Kiruhura": {
+						Code: "419",
+					},
+					"Kiryandongo": {
+						Code: "421",
+					},
+					"Kisoro": {
+						Code: "408",
+					},
+					"Kyegegwa": {
+						Code: "422",
+					},
+					"Kyenjojo": {
+						Code: "415",
+					},
+					"Masindi": {
+						Code: "409",
+					},
+					"Mbarara": {
+						Code: "410",
+					},
+					"Mitooma": {
+						Code: "423",
+					},
+					"Ntoroko": {
+						Code: "424",
+					},
+					"Ntungamo": {
+						Code: "411",
+					},
+					"Rubanda": {
+						Code: "429",
+					},
+					"Rubirizi": {
+						Code: "425",
+					},
+					"Rukiga": {
+						Code: "431",
+					},
+					"Rukungiri": {
+						Code: "412",
+					},
+					"Sheema": {
+						Code: "426",
+					},
+				},
+			},
+		},
 	},
 
 	"UM": {
@@ -2819,6 +47350,95 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "581",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"67": {
+				Name:         "Johnston Atoll",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "islands, groups of islands",
+			},
+			"71": {
+				Name:         "Midway Islands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "islands, groups of islands",
+			},
+			"76": {
+				Name:         "Navassa Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "islands, groups of islands",
+			},
+			"79": {
+				Name:         "Wake Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "islands, groups of islands",
+			},
+			"81": {
+				Name:         "Baker Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "islands, groups of islands",
+			},
+			"84": {
+				Name:         "Howland Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "islands, groups of islands",
+			},
+			"86": {
+				Name:         "Jarvis Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "islands, groups of islands",
+			},
+			"89": {
+				Name:         "Kingman Reef",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "islands, groups of islands",
+			},
+			"95": {
+				Name:         "Palmyra Atoll",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "islands, groups of islands",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Baker Island": {
+				Code: "81",
+			},
+			"Howland Island": {
+				Code: "84",
+			},
+			"Jarvis Island": {
+				Code: "86",
+			},
+			"Johnston Atoll": {
+				Code: "67",
+			},
+			"Kingman Reef": {
+				Code: "89",
+			},
+			"Midway Islands": {
+				Code: "71",
+			},
+			"Navassa Island": {
+				Code: "76",
+			},
+			"Palmyra Atoll": {
+				Code: "95",
+			},
+			"Wake Island": {
+				Code: "79",
+			},
+		},
 	},
 
 	"US": {
@@ -2828,6 +47448,527 @@ var CountryStates = map[string]Country{
 		OfficialName: "United States of America",
 		CommonName:   "",
 		Numeric:      "840",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AK": {
+				Name:         "Alaska",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"AL": {
+				Name:         "Alabama",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"AR": {
+				Name:         "Arkansas",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"AS": {
+				Name:         "American Samoa (see also separate country code entry under AS)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "outlying area",
+			},
+			"AZ": {
+				Name:         "Arizona",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"CA": {
+				Name:         "California",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"CO": {
+				Name:         "Colorado",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"CT": {
+				Name:         "Connecticut",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"DC": {
+				Name:         "District of Columbia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"DE": {
+				Name:         "Delaware",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"FL": {
+				Name:         "Florida",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"GA": {
+				Name:         "Georgia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"GU": {
+				Name:         "Guam (see also separate country code entry under GU)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "outlying area",
+			},
+			"HI": {
+				Name:         "Hawaii",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"IA": {
+				Name:         "Iowa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"ID": {
+				Name:         "Idaho",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"IL": {
+				Name:         "Illinois",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"IN": {
+				Name:         "Indiana",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KS": {
+				Name:         "Kansas",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"KY": {
+				Name:         "Kentucky",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"LA": {
+				Name:         "Louisiana",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"MA": {
+				Name:         "Massachusetts",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"MD": {
+				Name:         "Maryland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"ME": {
+				Name:         "Maine",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"MI": {
+				Name:         "Michigan",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"MN": {
+				Name:         "Minnesota",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"MO": {
+				Name:         "Missouri",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"MP": {
+				Name:         "Northern Mariana Islands (see also separate country code entry under MP)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "outlying area",
+			},
+			"MS": {
+				Name:         "Mississippi",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"MT": {
+				Name:         "Montana",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NC": {
+				Name:         "North Carolina",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"ND": {
+				Name:         "North Dakota",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NE": {
+				Name:         "Nebraska",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NH": {
+				Name:         "New Hampshire",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NJ": {
+				Name:         "New Jersey",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NM": {
+				Name:         "New Mexico",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NV": {
+				Name:         "Nevada",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"NY": {
+				Name:         "New York",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"OH": {
+				Name:         "Ohio",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"OK": {
+				Name:         "Oklahoma",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"OR": {
+				Name:         "Oregon",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"PA": {
+				Name:         "Pennsylvania",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"PR": {
+				Name:         "Puerto Rico (see also separate country code entry under PR)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "outlying area",
+			},
+			"RI": {
+				Name:         "Rhode Island",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"SC": {
+				Name:         "South Carolina",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"SD": {
+				Name:         "South Dakota",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"TN": {
+				Name:         "Tennessee",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"TX": {
+				Name:         "Texas",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"UM": {
+				Name:         "United States Minor Outlying Islands (see also separate country code entry under UM)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "outlying area",
+			},
+			"UT": {
+				Name:         "Utah",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"VA": {
+				Name:         "Virginia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"VI": {
+				Name:         "Virgin Islands, U.S. (see also separate country code entry under VI)",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "outlying area",
+			},
+			"VT": {
+				Name:         "Vermont",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"WA": {
+				Name:         "Washington",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"WI": {
+				Name:         "Wisconsin",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"WV": {
+				Name:         "West Virginia",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+			"WY": {
+				Name:         "Wyoming",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Alabama": {
+				Code: "AL",
+			},
+			"Alaska": {
+				Code: "AK",
+			},
+			"American Samoa (see also separate country code entry under AS)": {
+				Code: "AS",
+			},
+			"Arizona": {
+				Code: "AZ",
+			},
+			"Arkansas": {
+				Code: "AR",
+			},
+			"California": {
+				Code: "CA",
+			},
+			"Colorado": {
+				Code: "CO",
+			},
+			"Connecticut": {
+				Code: "CT",
+			},
+			"Delaware": {
+				Code: "DE",
+			},
+			"District of Columbia": {
+				Code: "DC",
+			},
+			"Florida": {
+				Code: "FL",
+			},
+			"Georgia": {
+				Code: "GA",
+			},
+			"Guam (see also separate country code entry under GU)": {
+				Code: "GU",
+			},
+			"Hawaii": {
+				Code: "HI",
+			},
+			"Idaho": {
+				Code: "ID",
+			},
+			"Illinois": {
+				Code: "IL",
+			},
+			"Indiana": {
+				Code: "IN",
+			},
+			"Iowa": {
+				Code: "IA",
+			},
+			"Kansas": {
+				Code: "KS",
+			},
+			"Kentucky": {
+				Code: "KY",
+			},
+			"Louisiana": {
+				Code: "LA",
+			},
+			"Maine": {
+				Code: "ME",
+			},
+			"Maryland": {
+				Code: "MD",
+			},
+			"Massachusetts": {
+				Code: "MA",
+			},
+			"Michigan": {
+				Code: "MI",
+			},
+			"Minnesota": {
+				Code: "MN",
+			},
+			"Mississippi": {
+				Code: "MS",
+			},
+			"Missouri": {
+				Code: "MO",
+			},
+			"Montana": {
+				Code: "MT",
+			},
+			"Nebraska": {
+				Code: "NE",
+			},
+			"Nevada": {
+				Code: "NV",
+			},
+			"New Hampshire": {
+				Code: "NH",
+			},
+			"New Jersey": {
+				Code: "NJ",
+			},
+			"New Mexico": {
+				Code: "NM",
+			},
+			"New York": {
+				Code: "NY",
+			},
+			"North Carolina": {
+				Code: "NC",
+			},
+			"North Dakota": {
+				Code: "ND",
+			},
+			"Northern Mariana Islands (see also separate country code entry under MP)": {
+				Code: "MP",
+			},
+			"Ohio": {
+				Code: "OH",
+			},
+			"Oklahoma": {
+				Code: "OK",
+			},
+			"Oregon": {
+				Code: "OR",
+			},
+			"Pennsylvania": {
+				Code: "PA",
+			},
+			"Puerto Rico (see also separate country code entry under PR)": {
+				Code: "PR",
+			},
+			"Rhode Island": {
+				Code: "RI",
+			},
+			"South Carolina": {
+				Code: "SC",
+			},
+			"South Dakota": {
+				Code: "SD",
+			},
+			"Tennessee": {
+				Code: "TN",
+			},
+			"Texas": {
+				Code: "TX",
+			},
+			"United States Minor Outlying Islands (see also separate country code entry under UM)": {
+				Code: "UM",
+			},
+			"Utah": {
+				Code: "UT",
+			},
+			"Vermont": {
+				Code: "VT",
+			},
+			"Virgin Islands, U.S. (see also separate country code entry under VI)": {
+				Code: "VI",
+			},
+			"Virginia": {
+				Code: "VA",
+			},
+			"Washington": {
+				Code: "WA",
+			},
+			"West Virginia": {
+				Code: "WV",
+			},
+			"Wisconsin": {
+				Code: "WI",
+			},
+			"Wyoming": {
+				Code: "WY",
+			},
+		},
 	},
 
 	"UY": {
@@ -2837,6 +47978,185 @@ var CountryStates = map[string]Country{
 		OfficialName: "Eastern Republic of Uruguay",
 		CommonName:   "",
 		Numeric:      "858",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AR": {
+				Name:         "Artigas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CA": {
+				Name:         "Canelones",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CL": {
+				Name:         "Cerro Largo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"CO": {
+				Name:         "Colonia",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"DU": {
+				Name:         "Durazno",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"FD": {
+				Name:         "Florida",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"FS": {
+				Name:         "Flores",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"LA": {
+				Name:         "Lavalleja",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"MA": {
+				Name:         "Maldonado",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"MO": {
+				Name:         "Montevideo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"PA": {
+				Name:         "Paysandú",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"RN": {
+				Name:         "Río Negro",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"RO": {
+				Name:         "Rocha",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"RV": {
+				Name:         "Rivera",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SA": {
+				Name:         "Salto",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SJ": {
+				Name:         "San José",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"SO": {
+				Name:         "Soriano",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"TA": {
+				Name:         "Tacuarembó",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+			"TT": {
+				Name:         "Treinta y Tres",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "department",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Artigas": {
+				Code: "AR",
+			},
+			"Canelones": {
+				Code: "CA",
+			},
+			"Cerro Largo": {
+				Code: "CL",
+			},
+			"Colonia": {
+				Code: "CO",
+			},
+			"Durazno": {
+				Code: "DU",
+			},
+			"Flores": {
+				Code: "FS",
+			},
+			"Florida": {
+				Code: "FD",
+			},
+			"Lavalleja": {
+				Code: "LA",
+			},
+			"Maldonado": {
+				Code: "MA",
+			},
+			"Montevideo": {
+				Code: "MO",
+			},
+			"Paysandú": {
+				Code: "PA",
+			},
+			"Rivera": {
+				Code: "RV",
+			},
+			"Rocha": {
+				Code: "RO",
+			},
+			"Río Negro": {
+				Code: "RN",
+			},
+			"Salto": {
+				Code: "SA",
+			},
+			"San José": {
+				Code: "SJ",
+			},
+			"Soriano": {
+				Code: "SO",
+			},
+			"Tacuarembó": {
+				Code: "TA",
+			},
+			"Treinta y Tres": {
+				Code: "TT",
+			},
+		},
 	},
 
 	"UZ": {
@@ -2846,6 +48166,137 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Uzbekistan",
 		CommonName:   "",
 		Numeric:      "860",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AN": {
+				Name:         "Andijon",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "region",
+			},
+			"BU": {
+				Name:         "Buxoro",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "region",
+			},
+			"FA": {
+				Name:         "Farg‘ona",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "region",
+			},
+			"JI": {
+				Name:         "Jizzax",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "region",
+			},
+			"NG": {
+				Name:         "Namangan",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "region",
+			},
+			"NW": {
+				Name:         "Navoiy",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "region",
+			},
+			"QA": {
+				Name:         "Qashqadaryo",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "region",
+			},
+			"QR": {
+				Name:         "Qoraqalpog‘iston Respublikasi",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "republic",
+			},
+			"SA": {
+				Name:         "Samarqand",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "region",
+			},
+			"SI": {
+				Name:         "Sirdaryo",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "region",
+			},
+			"SU": {
+				Name:         "Surxondaryo",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "region",
+			},
+			"TK": {
+				Name:         "Toshkent",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "city",
+			},
+			"TO": {
+				Name:         "Toshkent",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "region",
+			},
+			"XO": {
+				Name:         "Xorazm",
+				LocalName:    "",
+				LanguageCode: "uz",
+				Type:         "region",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Andijon": {
+				Code: "AN",
+			},
+			"Buxoro": {
+				Code: "BU",
+			},
+			"Farg‘ona": {
+				Code: "FA",
+			},
+			"Jizzax": {
+				Code: "JI",
+			},
+			"Namangan": {
+				Code: "NG",
+			},
+			"Navoiy": {
+				Code: "NW",
+			},
+			"Qashqadaryo": {
+				Code: "QA",
+			},
+			"Qoraqalpog‘iston Respublikasi": {
+				Code: "QR",
+			},
+			"Samarqand": {
+				Code: "SA",
+			},
+			"Sirdaryo": {
+				Code: "SI",
+			},
+			"Surxondaryo": {
+				Code: "SU",
+			},
+			"Toshkent": {
+				Code: "TK",
+			},
+			"Xorazm": {
+				Code: "XO",
+			},
+		},
 	},
 
 	"VA": {
@@ -2864,6 +48315,68 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "670",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Charlotte",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"02": {
+				Name:         "Saint Andrew",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"03": {
+				Name:         "Saint David",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"04": {
+				Name:         "Saint George",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"05": {
+				Name:         "Saint Patrick",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+			"06": {
+				Name:         "Grenadines",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "parish",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Charlotte": {
+				Code: "01",
+			},
+			"Grenadines": {
+				Code: "06",
+			},
+			"Saint Andrew": {
+				Code: "02",
+			},
+			"Saint David": {
+				Code: "03",
+			},
+			"Saint George": {
+				Code: "04",
+			},
+			"Saint Patrick": {
+				Code: "05",
+			},
+		},
 	},
 
 	"VE": {
@@ -2873,6 +48386,239 @@ var CountryStates = map[string]Country{
 		OfficialName: "Bolivarian Republic of Venezuela",
 		CommonName:   "Venezuela",
 		Numeric:      "862",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"A": {
+				Name:         "Distrito Capital",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "capital district",
+			},
+			"B": {
+				Name:         "Anzoátegui",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"C": {
+				Name:         "Apure",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"D": {
+				Name:         "Aragua",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"E": {
+				Name:         "Barinas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"F": {
+				Name:         "Bolívar",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"G": {
+				Name:         "Carabobo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"H": {
+				Name:         "Cojedes",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"I": {
+				Name:         "Falcón",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"J": {
+				Name:         "Guárico",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"K": {
+				Name:         "Lara",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"L": {
+				Name:         "Mérida",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"M": {
+				Name:         "Miranda",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"N": {
+				Name:         "Monagas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"O": {
+				Name:         "Nueva Esparta",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"P": {
+				Name:         "Portuguesa",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"R": {
+				Name:         "Sucre",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"S": {
+				Name:         "Táchira",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"T": {
+				Name:         "Trujillo",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"U": {
+				Name:         "Yaracuy",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"V": {
+				Name:         "Zulia",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"W": {
+				Name:         "Dependencias Federales",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "federal dependency",
+			},
+			"X": {
+				Name:         "Vargas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"Y": {
+				Name:         "Delta Amacuro",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+			"Z": {
+				Name:         "Amazonas",
+				LocalName:    "",
+				LanguageCode: "es",
+				Type:         "state",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Amazonas": {
+				Code: "Z",
+			},
+			"Anzoátegui": {
+				Code: "B",
+			},
+			"Apure": {
+				Code: "C",
+			},
+			"Aragua": {
+				Code: "D",
+			},
+			"Barinas": {
+				Code: "E",
+			},
+			"Bolívar": {
+				Code: "F",
+			},
+			"Carabobo": {
+				Code: "G",
+			},
+			"Cojedes": {
+				Code: "H",
+			},
+			"Delta Amacuro": {
+				Code: "Y",
+			},
+			"Dependencias Federales": {
+				Code: "W",
+			},
+			"Distrito Capital": {
+				Code: "A",
+			},
+			"Falcón": {
+				Code: "I",
+			},
+			"Guárico": {
+				Code: "J",
+			},
+			"Lara": {
+				Code: "K",
+			},
+			"Miranda": {
+				Code: "M",
+			},
+			"Monagas": {
+				Code: "N",
+			},
+			"Mérida": {
+				Code: "L",
+			},
+			"Nueva Esparta": {
+				Code: "O",
+			},
+			"Portuguesa": {
+				Code: "P",
+			},
+			"Sucre": {
+				Code: "R",
+			},
+			"Trujillo": {
+				Code: "T",
+			},
+			"Táchira": {
+				Code: "S",
+			},
+			"Vargas": {
+				Code: "X",
+			},
+			"Yaracuy": {
+				Code: "U",
+			},
+			"Zulia": {
+				Code: "V",
+			},
+		},
 	},
 
 	"VG": {
@@ -2900,6 +48646,581 @@ var CountryStates = map[string]Country{
 		OfficialName: "Socialist Republic of Viet Nam",
 		CommonName:   "Vietnam",
 		Numeric:      "704",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Lai Châu",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"02": {
+				Name:         "Lào Cai",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"03": {
+				Name:         "Hà Giang",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"04": {
+				Name:         "Cao Bằng",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"05": {
+				Name:         "Sơn La",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"06": {
+				Name:         "Yên Bái",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"07": {
+				Name:         "Tuyên Quang",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"09": {
+				Name:         "Lạng Sơn",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"13": {
+				Name:         "Quảng Ninh",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"14": {
+				Name:         "Hòa Bình",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"18": {
+				Name:         "Ninh Bình",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"20": {
+				Name:         "Thái Bình",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"21": {
+				Name:         "Thanh Hóa",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"22": {
+				Name:         "Nghệ An",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"23": {
+				Name:         "Hà Tĩnh",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"24": {
+				Name:         "Quảng Bình",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"25": {
+				Name:         "Quảng Trị",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"26": {
+				Name:         "Thừa Thiên-Huế",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"27": {
+				Name:         "Quảng Nam",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"28": {
+				Name:         "Kon Tum",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"29": {
+				Name:         "Quảng Ngãi",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"30": {
+				Name:         "Gia Lai",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"31": {
+				Name:         "Bình Định",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"32": {
+				Name:         "Phú Yên",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"33": {
+				Name:         "Đắk Lắk",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"34": {
+				Name:         "Khánh Hòa",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"35": {
+				Name:         "Lâm Đồng",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"36": {
+				Name:         "Ninh Thuận",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"37": {
+				Name:         "Tây Ninh",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"39": {
+				Name:         "Đồng Nai",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"40": {
+				Name:         "Bình Thuận",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"41": {
+				Name:         "Long An",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"43": {
+				Name:         "Bà Rịa - Vũng Tàu",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"44": {
+				Name:         "An Giang",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"45": {
+				Name:         "Đồng Tháp",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"46": {
+				Name:         "Tiền Giang",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"47": {
+				Name:         "Kiến Giang",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"49": {
+				Name:         "Vĩnh Long",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"50": {
+				Name:         "Bến Tre",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"51": {
+				Name:         "Trà Vinh",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"52": {
+				Name:         "Sóc Trăng",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"53": {
+				Name:         "Bắc Kạn",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"54": {
+				Name:         "Bắc Giang",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"55": {
+				Name:         "Bạc Liêu",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"56": {
+				Name:         "Bắc Ninh",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"57": {
+				Name:         "Bình Dương",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"58": {
+				Name:         "Bình Phước",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"59": {
+				Name:         "Cà Mau",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"61": {
+				Name:         "Hải Dương",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"63": {
+				Name:         "Hà Nam",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"66": {
+				Name:         "Hưng Yên",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"67": {
+				Name:         "Nam Định",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"68": {
+				Name:         "Phú Thọ",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"69": {
+				Name:         "Thái Nguyên",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"70": {
+				Name:         "Vĩnh Phúc",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"71": {
+				Name:         "Điện Biên",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"72": {
+				Name:         "Đắk Nông",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"73": {
+				Name:         "Hậu Giang",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "province",
+			},
+			"CT": {
+				Name:         "Can Tho",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "municipality",
+			},
+			"DN": {
+				Name:         "Da Nang",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "municipality",
+			},
+			"HN": {
+				Name:         "Ha Noi",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "municipality",
+			},
+			"HP": {
+				Name:         "Hai Phong",
+				LocalName:    "",
+				LanguageCode: "vi",
+				Type:         "municipality",
+			},
+			"SG": {
+				Name:         "Ho Chi Minh",
+				LocalName:    "Sai Gon",
+				LanguageCode: "vi",
+				Type:         "municipality",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"An Giang": {
+				Code: "44",
+			},
+			"Bà Rịa - Vũng Tàu": {
+				Code: "43",
+			},
+			"Bình Dương": {
+				Code: "57",
+			},
+			"Bình Phước": {
+				Code: "58",
+			},
+			"Bình Thuận": {
+				Code: "40",
+			},
+			"Bình Định": {
+				Code: "31",
+			},
+			"Bạc Liêu": {
+				Code: "55",
+			},
+			"Bắc Giang": {
+				Code: "54",
+			},
+			"Bắc Kạn": {
+				Code: "53",
+			},
+			"Bắc Ninh": {
+				Code: "56",
+			},
+			"Bến Tre": {
+				Code: "50",
+			},
+			"Can Tho": {
+				Code: "CT",
+			},
+			"Cao Bằng": {
+				Code: "04",
+			},
+			"Cà Mau": {
+				Code: "59",
+			},
+			"Da Nang": {
+				Code: "DN",
+			},
+			"Gia Lai": {
+				Code: "30",
+			},
+			"Ha Noi": {
+				Code: "HN",
+			},
+			"Hai Phong": {
+				Code: "HP",
+			},
+			"Ho Chi Minh": {
+				Code: "SG",
+			},
+			"Hà Giang": {
+				Code: "03",
+			},
+			"Hà Nam": {
+				Code: "63",
+			},
+			"Hà Tĩnh": {
+				Code: "23",
+			},
+			"Hòa Bình": {
+				Code: "14",
+			},
+			"Hưng Yên": {
+				Code: "66",
+			},
+			"Hải Dương": {
+				Code: "61",
+			},
+			"Hậu Giang": {
+				Code: "73",
+			},
+			"Khánh Hòa": {
+				Code: "34",
+			},
+			"Kiến Giang": {
+				Code: "47",
+			},
+			"Kon Tum": {
+				Code: "28",
+			},
+			"Lai Châu": {
+				Code: "01",
+			},
+			"Long An": {
+				Code: "41",
+			},
+			"Lào Cai": {
+				Code: "02",
+			},
+			"Lâm Đồng": {
+				Code: "35",
+			},
+			"Lạng Sơn": {
+				Code: "09",
+			},
+			"Nam Định": {
+				Code: "67",
+			},
+			"Nghệ An": {
+				Code: "22",
+			},
+			"Ninh Bình": {
+				Code: "18",
+			},
+			"Ninh Thuận": {
+				Code: "36",
+			},
+			"Phú Thọ": {
+				Code: "68",
+			},
+			"Phú Yên": {
+				Code: "32",
+			},
+			"Quảng Bình": {
+				Code: "24",
+			},
+			"Quảng Nam": {
+				Code: "27",
+			},
+			"Quảng Ngãi": {
+				Code: "29",
+			},
+			"Quảng Ninh": {
+				Code: "13",
+			},
+			"Quảng Trị": {
+				Code: "25",
+			},
+			"Sóc Trăng": {
+				Code: "52",
+			},
+			"Sơn La": {
+				Code: "05",
+			},
+			"Thanh Hóa": {
+				Code: "21",
+			},
+			"Thái Bình": {
+				Code: "20",
+			},
+			"Thái Nguyên": {
+				Code: "69",
+			},
+			"Thừa Thiên-Huế": {
+				Code: "26",
+			},
+			"Tiền Giang": {
+				Code: "46",
+			},
+			"Trà Vinh": {
+				Code: "51",
+			},
+			"Tuyên Quang": {
+				Code: "07",
+			},
+			"Tây Ninh": {
+				Code: "37",
+			},
+			"Vĩnh Long": {
+				Code: "49",
+			},
+			"Vĩnh Phúc": {
+				Code: "70",
+			},
+			"Yên Bái": {
+				Code: "06",
+			},
+			"Điện Biên": {
+				Code: "71",
+			},
+			"Đắk Lắk": {
+				Code: "33",
+			},
+			"Đắk Nông": {
+				Code: "72",
+			},
+			"Đồng Nai": {
+				Code: "39",
+			},
+			"Đồng Tháp": {
+				Code: "45",
+			},
+		},
 	},
 
 	"VU": {
@@ -2909,6 +49230,68 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Vanuatu",
 		CommonName:   "",
 		Numeric:      "548",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"MAP": {
+				Name:         "Malampa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"PAM": {
+				Name:         "Pénama",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"SAM": {
+				Name:         "Sanma",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"SEE": {
+				Name:         "Shéfa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"TAE": {
+				Name:         "Taféa",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"TOB": {
+				Name:         "Torba",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Malampa": {
+				Code: "MAP",
+			},
+			"Pénama": {
+				Code: "PAM",
+			},
+			"Sanma": {
+				Code: "SAM",
+			},
+			"Shéfa": {
+				Code: "SEE",
+			},
+			"Taféa": {
+				Code: "TAE",
+			},
+			"Torba": {
+				Code: "TOB",
+			},
+		},
 	},
 
 	"WF": {
@@ -2918,6 +49301,41 @@ var CountryStates = map[string]Country{
 		OfficialName: "",
 		CommonName:   "",
 		Numeric:      "876",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AL": {
+				Name:         "Alo",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "administrative precinct",
+			},
+			"SG": {
+				Name:         "Sigave",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "administrative precinct",
+			},
+			"UV": {
+				Name:         "Uvea",
+				LocalName:    "",
+				LanguageCode: "fr",
+				Type:         "administrative precinct",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Alo": {
+				Code: "AL",
+			},
+			"Sigave": {
+				Code: "SG",
+			},
+			"Uvea": {
+				Code: "UV",
+			},
+		},
 	},
 
 	"WS": {
@@ -2927,6 +49345,113 @@ var CountryStates = map[string]Country{
 		OfficialName: "Independent State of Samoa",
 		CommonName:   "",
 		Numeric:      "882",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AA": {
+				Name:         "A'ana",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"AL": {
+				Name:         "Aiga-i-le-Tai",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"AT": {
+				Name:         "Atua",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"FA": {
+				Name:         "Fa'asaleleaga",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"GE": {
+				Name:         "Gaga'emauga",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"GI": {
+				Name:         "Gagaifomauga",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"PA": {
+				Name:         "Palauli",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"SA": {
+				Name:         "Satupa'itea",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"TU": {
+				Name:         "Tuamasaga",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"VF": {
+				Name:         "Va'a-o-Fonoti",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+			"VS": {
+				Name:         "Vaisigano",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "district",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"A'ana": {
+				Code: "AA",
+			},
+			"Aiga-i-le-Tai": {
+				Code: "AL",
+			},
+			"Atua": {
+				Code: "AT",
+			},
+			"Fa'asaleleaga": {
+				Code: "FA",
+			},
+			"Gaga'emauga": {
+				Code: "GE",
+			},
+			"Gagaifomauga": {
+				Code: "GI",
+			},
+			"Palauli": {
+				Code: "PA",
+			},
+			"Satupa'itea": {
+				Code: "SA",
+			},
+			"Tuamasaga": {
+				Code: "TU",
+			},
+			"Va'a-o-Fonoti": {
+				Code: "VF",
+			},
+			"Vaisigano": {
+				Code: "VS",
+			},
+		},
 	},
 
 	"YE": {
@@ -2936,6 +49461,212 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Yemen",
 		CommonName:   "",
 		Numeric:      "887",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"AB": {
+				Name:         "Abyan",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"AD": {
+				Name:         "‘Adan",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"AM": {
+				Name:         "‘Amrān",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"BA": {
+				Name:         "Al Bayḑā’",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"DA": {
+				Name:         "Aḑ Ḑāli‘",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"DH": {
+				Name:         "Dhamār",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"HD": {
+				Name:         "Ḩaḑramawt",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"HJ": {
+				Name:         "Ḩajjah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"HU": {
+				Name:         "Al Ḩudaydah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"IB": {
+				Name:         "Ibb",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"JA": {
+				Name:         "Al Jawf",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"LA": {
+				Name:         "Laḩij",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MA": {
+				Name:         "Ma’rib",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MR": {
+				Name:         "Al Mahrah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"MW": {
+				Name:         "Al Maḩwīt",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"RA": {
+				Name:         "Raymah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"SA": {
+				Name:         "Amānat al ‘Āşimah [city]",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "municipality",
+			},
+			"SD": {
+				Name:         "Şāʻdah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"SH": {
+				Name:         "Shabwah",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"SN": {
+				Name:         "Şanʻā’",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"SU": {
+				Name:         "Arkhabīl Suquţrá",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+			"TA": {
+				Name:         "Tāʻizz",
+				LocalName:    "",
+				LanguageCode: "ar",
+				Type:         "governorate",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Abyan": {
+				Code: "AB",
+			},
+			"Al Bayḑā’": {
+				Code: "BA",
+			},
+			"Al Jawf": {
+				Code: "JA",
+			},
+			"Al Mahrah": {
+				Code: "MR",
+			},
+			"Al Maḩwīt": {
+				Code: "MW",
+			},
+			"Al Ḩudaydah": {
+				Code: "HU",
+			},
+			"Amānat al ‘Āşimah [city]": {
+				Code: "SA",
+			},
+			"Arkhabīl Suquţrá": {
+				Code: "SU",
+			},
+			"Aḑ Ḑāli‘": {
+				Code: "DA",
+			},
+			"Dhamār": {
+				Code: "DH",
+			},
+			"Ibb": {
+				Code: "IB",
+			},
+			"Laḩij": {
+				Code: "LA",
+			},
+			"Ma’rib": {
+				Code: "MA",
+			},
+			"Raymah": {
+				Code: "RA",
+			},
+			"Shabwah": {
+				Code: "SH",
+			},
+			"Tāʻizz": {
+				Code: "TA",
+			},
+			"Şanʻā’": {
+				Code: "SN",
+			},
+			"Şāʻdah": {
+				Code: "SD",
+			},
+			"Ḩajjah": {
+				Code: "HJ",
+			},
+			"Ḩaḑramawt": {
+				Code: "HD",
+			},
+			"‘Adan": {
+				Code: "AD",
+			},
+			"‘Amrān": {
+				Code: "AM",
+			},
+		},
 	},
 
 	"YT": {
@@ -2954,6 +49685,95 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of South Africa",
 		CommonName:   "",
 		Numeric:      "710",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"EC": {
+				Name:         "Eastern Cape",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"FS": {
+				Name:         "Free State",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"GP": {
+				Name:         "Gauteng",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"KZN": {
+				Name:         "Kwazulu-Natal",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"LP": {
+				Name:         "Limpopo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MP": {
+				Name:         "Mpumalanga",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"NC": {
+				Name:         "Northern Cape",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"NW": {
+				Name:         "North-West",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"WC": {
+				Name:         "Western Cape",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Eastern Cape": {
+				Code: "EC",
+			},
+			"Free State": {
+				Code: "FS",
+			},
+			"Gauteng": {
+				Code: "GP",
+			},
+			"Kwazulu-Natal": {
+				Code: "KZN",
+			},
+			"Limpopo": {
+				Code: "LP",
+			},
+			"Mpumalanga": {
+				Code: "MP",
+			},
+			"North-West": {
+				Code: "NW",
+			},
+			"Northern Cape": {
+				Code: "NC",
+			},
+			"Western Cape": {
+				Code: "WC",
+			},
+		},
 	},
 
 	"ZM": {
@@ -2963,6 +49783,104 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Zambia",
 		CommonName:   "",
 		Numeric:      "894",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"01": {
+				Name:         "Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"02": {
+				Name:         "Central",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"03": {
+				Name:         "Eastern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"04": {
+				Name:         "Luapula",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"05": {
+				Name:         "Northern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"06": {
+				Name:         "North-Western",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"07": {
+				Name:         "Southern",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"08": {
+				Name:         "Copperbelt",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"09": {
+				Name:         "Lusaka",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"10": {
+				Name:         "Muchinga",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Central": {
+				Code: "02",
+			},
+			"Copperbelt": {
+				Code: "08",
+			},
+			"Eastern": {
+				Code: "03",
+			},
+			"Luapula": {
+				Code: "04",
+			},
+			"Lusaka": {
+				Code: "09",
+			},
+			"Muchinga": {
+				Code: "10",
+			},
+			"North-Western": {
+				Code: "06",
+			},
+			"Northern": {
+				Code: "05",
+			},
+			"Southern": {
+				Code: "07",
+			},
+			"Western": {
+				Code: "01",
+			},
+		},
 	},
 
 	"ZW": {
@@ -2972,5 +49890,103 @@ var CountryStates = map[string]Country{
 		OfficialName: "Republic of Zimbabwe",
 		CommonName:   "",
 		Numeric:      "716",
+
+		SubDivCodeToName: map[string]SubDivisionNameWrapper{
+
+			"BU": {
+				Name:         "Bulawayo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"HA": {
+				Name:         "Harare",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MA": {
+				Name:         "Manicaland",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MC": {
+				Name:         "Mashonaland Central",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"ME": {
+				Name:         "Mashonaland East",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MI": {
+				Name:         "Midlands",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MN": {
+				Name:         "Matabeleland North",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MS": {
+				Name:         "Matabeleland South",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MV": {
+				Name:         "Masvingo",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+			"MW": {
+				Name:         "Mashonaland West",
+				LocalName:    "",
+				LanguageCode: "en",
+				Type:         "province",
+			},
+		},
+
+		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
+
+			"Bulawayo": {
+				Code: "BU",
+			},
+			"Harare": {
+				Code: "HA",
+			},
+			"Manicaland": {
+				Code: "MA",
+			},
+			"Mashonaland Central": {
+				Code: "MC",
+			},
+			"Mashonaland East": {
+				Code: "ME",
+			},
+			"Mashonaland West": {
+				Code: "MW",
+			},
+			"Masvingo": {
+				Code: "MV",
+			},
+			"Matabeleland North": {
+				Code: "MN",
+			},
+			"Matabeleland South": {
+				Code: "MS",
+			},
+			"Midlands": {
+				Code: "MI",
+			},
+		},
 	},
 }
