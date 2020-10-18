@@ -27,3 +27,14 @@ func ExampleCountryNameToAlpha2() {
 }
 
 
+func ExampleSubDivisionNameToCode() {
+	code, err := iso3166.SubDivisionNameToCode("GB", "Bath and North East Somerset")
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(code)
+	// Output:
+	// BAS
+}
+
+
