@@ -90,11 +90,17 @@ func TestCountryCodeToName(t *testing.T) {
 		},
 		{
 			code:    "us",
-			wantErr: true,
+			want:    "United States",
+			wantErr: false,
 		},
 		{
 			code:    "CA",
 			want:    "Canada",
+			wantErr: false,
+		},
+		{
+			code:    "gB",
+			want:    "United Kingdom",
 			wantErr: false,
 		},
 		{
@@ -134,8 +140,8 @@ func TestValidCountryCode(t *testing.T) {
 			want: true,
 		},
 		{
-			code: "us",
-			want: false,
+			code: "US",
+			want: true,
 		},
 		{
 			code: "CA",
@@ -147,6 +153,14 @@ func TestValidCountryCode(t *testing.T) {
 		},
 		{
 			code: "HU",
+			want: true,
+		},
+		{
+			code: "FM",
+			want: true,
+		},
+		{
+			code: "Gb",
 			want: true,
 		},
 	}
@@ -225,12 +239,6 @@ func TestSubDivisionNameToCode(t *testing.T) {
 			countryCode: "US",
 			subDivName:  "District Of Columbia",
 			want:        "DC",
-			wantErr:     false,
-		},
-		{
-			countryCode: "US",
-			subDivName:  "Federated States Of Micronesia",
-			want:        "FM",
 			wantErr:     false,
 		},
 		{
@@ -317,6 +325,12 @@ func TestSubDivisionNameToCode(t *testing.T) {
 			want:        "YT",
 			wantErr:     false,
 		},
+		{
+			countryCode: "RS",
+			subDivName:  "Srednjebanatski okrug",
+			want:        "02",
+			wantErr:     false,
+		},
 	}
 	for _, tt := range tests {
 		tt := tt
@@ -331,5 +345,39 @@ func TestSubDivisionNameToCode(t *testing.T) {
 				t.Errorf("SubDivisionNameToCode() got = %v, want %v", got, tt.want)
 			}
 		})
+	}
+}
+
+func BenchmarkSubDivisionNameToCodeCaseInsensitive(b *testing.B) {
+	countryCode := "gB"                          // United Kingdom
+	subDivName := "batH and noRth east soMerset" // Bath and North East Somerset
+	var subDivCode string
+	var err error
+	b.ReportAllocs()
+	for i := 0; i < b.N; i++ {
+		subDivCode, err = SubDivisionNameToCode(countryCode, subDivName)
+		if err != nil {
+			b.Error(err)
+		}
+	}
+	if subDivCode != "BAS" {
+		b.Error("invalid subdivision code")
+	}
+}
+
+func BenchmarkSubDivisionNameToCodeCaseSensitive(b *testing.B) {
+	countryCode := "GB"                          // United Kingdom
+	subDivName := "Bath and North East Somerset" // Bath and North East Somerset
+	var subDivCode string
+	var err error
+	b.ReportAllocs()
+	for i := 0; i < b.N; i++ {
+		subDivCode, err = SubDivisionNameToCode(countryCode, subDivName)
+		if err != nil {
+			b.Error(err)
+		}
+	}
+	if subDivCode != "BAS" {
+		b.Error("invalid subdivision code")
 	}
 }
