@@ -7251,7 +7251,7 @@ var CountryStates = map[string]Country{
 				Type:         "province",
 			},
 			"HK": {
-				Name:         "Xianggang Tebiexingzhengqu (see also separate country code entry under HK)",
+				Name:         "Xianggang Tebiexingzhengqu",
 				LocalName:    "",
 				LanguageCode: "zh",
 				Type:         "special administrative region",
@@ -7293,7 +7293,7 @@ var CountryStates = map[string]Country{
 				Type:         "province",
 			},
 			"MO": {
-				Name:         "Aomen Tebiexingzhengqu (see also separate country code entry under MO)",
+				Name:         "Aomen Tebiexingzhengqu",
 				LocalName:    "",
 				LanguageCode: "zh",
 				Type:         "special administrative region",
@@ -7353,7 +7353,7 @@ var CountryStates = map[string]Country{
 				Type:         "municipality",
 			},
 			"TW": {
-				Name:         "Taiwan Sheng (see also separate country code entry under TW)",
+				Name:         "Taiwan Sheng",
 				LocalName:    "",
 				LanguageCode: "zh",
 				Type:         "province",
@@ -7389,7 +7389,7 @@ var CountryStates = map[string]Country{
 			"Anhui Sheng": {
 				Code: "AH",
 			},
-			"Aomen Tebiexingzhengqu (see also separate country code entry under MO)": {
+			"Aomen Tebiexingzhengqu": {
 				Code: "MO",
 			},
 			"Beijing Shi": {
@@ -7467,13 +7467,13 @@ var CountryStates = map[string]Country{
 			"Sichuan Sheng": {
 				Code: "SC",
 			},
-			"Taiwan Sheng (see also separate country code entry under TW)": {
+			"Taiwan Sheng": {
 				Code: "TW",
 			},
 			"Tianjin Shi": {
 				Code: "TJ",
 			},
-			"Xianggang Tebiexingzhengqu (see also separate country code entry under HK)": {
+			"Xianggang Tebiexingzhengqu": {
 				Code: "HK",
 			},
 			"Xinjiang Uygur Zizhiqu": {
@@ -12885,7 +12885,7 @@ var CountryStates = map[string]Country{
 				},
 			},
 			"BL": {
-				Name:         "Saint-Barthélemy (see also separate country code entry under BL)",
+				Name:         "Saint-Barthélemy",
 				LocalName:    "",
 				LanguageCode: "fr",
 				Type:         "overseas territorial collectivity",
@@ -13069,7 +13069,7 @@ var CountryStates = map[string]Country{
 				},
 			},
 			"GF": {
-				Name:         "Guyane (française) (see also separate country code entry under GF)",
+				Name:         "Guyane (française)",
 				LocalName:    "",
 				LanguageCode: "fr",
 				Type:         "overseas territorial collectivity",
@@ -13083,7 +13083,7 @@ var CountryStates = map[string]Country{
 				SubDivCodeToName: map[string]SubDivisionNameWrapper{
 
 					"GP": {
-						Name:         "Guadeloupe (see also separate country code entry under GP)",
+						Name:         "Guadeloupe",
 						LocalName:    "",
 						LanguageCode: "fr",
 						Type:         "overseas department",
@@ -13197,7 +13197,7 @@ var CountryStates = map[string]Country{
 				SubDivCodeToName: map[string]SubDivisionNameWrapper{
 
 					"RE": {
-						Name:         "La Réunion (see also separate country code entry under RE)",
+						Name:         "La Réunion",
 						LocalName:    "",
 						LanguageCode: "fr",
 						Type:         "overseas department",
@@ -13213,7 +13213,7 @@ var CountryStates = map[string]Country{
 				SubDivCodeToName: map[string]SubDivisionNameWrapper{
 
 					"YT": {
-						Name:         "Mayotte (see also separate country code entry under YT)",
+						Name:         "Mayotte",
 						LocalName:    "",
 						LanguageCode: "fr",
 						Type:         "overseas department",
@@ -13221,13 +13221,13 @@ var CountryStates = map[string]Country{
 				},
 			},
 			"MF": {
-				Name:         "Saint-Martin (see also separate country code entry under MF)",
+				Name:         "Saint-Martin",
 				LocalName:    "",
 				LanguageCode: "fr",
 				Type:         "overseas territorial collectivity",
 			},
 			"MQ": {
-				Name:         "Martinique (see also separate country code entry under MQ)",
+				Name:         "Martinique",
 				LocalName:    "",
 				LanguageCode: "fr",
 				Type:         "overseas territorial collectivity",
@@ -13315,7 +13315,7 @@ var CountryStates = map[string]Country{
 				},
 			},
 			"NC": {
-				Name:         "Nouvelle-Calédonie (see also separate country code entry under NC)",
+				Name:         "Nouvelle-Calédonie",
 				LocalName:    "",
 				LanguageCode: "fr",
 				Type:         "overseas territorial collectivity",
@@ -13535,25 +13535,25 @@ var CountryStates = map[string]Country{
 				},
 			},
 			"PF": {
-				Name:         "Polynésie française (see also separate country code entry under PF)",
+				Name:         "Polynésie française",
 				LocalName:    "",
 				LanguageCode: "fr",
 				Type:         "overseas territorial collectivity",
 			},
 			"PM": {
-				Name:         "Saint-Pierre-et-Miquelon (see also separate country code entry under PM)",
+				Name:         "Saint-Pierre-et-Miquelon",
 				LocalName:    "",
 				LanguageCode: "fr",
 				Type:         "overseas territorial collectivity",
 			},
 			"TF": {
-				Name:         "Terres australes françaises (see also separate country code entry under TF)",
+				Name:         "Terres australes françaises",
 				LocalName:    "",
 				LanguageCode: "fr",
 				Type:         "overseas territorial collectivity",
 			},
 			"WF": {
-				Name:         "Wallis-et-Futuna (see also separate country code entry under WF)",
+				Name:         "Wallis-et-Futuna",
 				LocalName:    "",
 				LanguageCode: "fr",
 				Type:         "overseas territorial collectivity",
@@ -13738,12 +13738,12 @@ var CountryStates = map[string]Country{
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Guadeloupe (see also separate country code entry under GP)": {
+					"Guadeloupe": {
 						Code: "GP",
 					},
 				},
 			},
-			"Guyane (française) (see also separate country code entry under GF)": {
+			"Guyane (française)": {
 				Code: "GF",
 			},
 			"Hauts-de-France": {
@@ -13773,12 +13773,12 @@ var CountryStates = map[string]Country{
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"La Réunion (see also separate country code entry under RE)": {
+					"La Réunion": {
 						Code: "RE",
 					},
 				},
 			},
-			"Martinique (see also separate country code entry under MQ)": {
+			"Martinique": {
 				Code: "MQ",
 			},
 			"Mayotte": {
@@ -13786,7 +13786,7 @@ var CountryStates = map[string]Country{
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Mayotte (see also separate country code entry under YT)": {
+					"Mayotte": {
 						Code: "YT",
 					},
 				},
@@ -13856,7 +13856,7 @@ var CountryStates = map[string]Country{
 					},
 				},
 			},
-			"Nouvelle-Calédonie (see also separate country code entry under NC)": {
+			"Nouvelle-Calédonie": {
 				Code: "NC",
 			},
 			"Occitanie": {
@@ -13927,7 +13927,7 @@ var CountryStates = map[string]Country{
 					},
 				},
 			},
-			"Polynésie française (see also separate country code entry under PF)": {
+			"Polynésie française": {
 				Code: "PF",
 			},
 			"Provence-Alpes-Côte-d’Azur": {
@@ -13955,19 +13955,19 @@ var CountryStates = map[string]Country{
 					},
 				},
 			},
-			"Saint-Barthélemy (see also separate country code entry under BL)": {
+			"Saint-Barthélemy": {
 				Code: "BL",
 			},
-			"Saint-Martin (see also separate country code entry under MF)": {
+			"Saint-Martin": {
 				Code: "MF",
 			},
-			"Saint-Pierre-et-Miquelon (see also separate country code entry under PM)": {
+			"Saint-Pierre-et-Miquelon": {
 				Code: "PM",
 			},
-			"Terres australes françaises (see also separate country code entry under TF)": {
+			"Terres australes françaises": {
 				Code: "TF",
 			},
-			"Wallis-et-Futuna (see also separate country code entry under WF)": {
+			"Wallis-et-Futuna": {
 				Code: "WF",
 			},
 			"Île-de-France": {
@@ -24204,7 +24204,7 @@ var CountryStates = map[string]Country{
 				Code: "SV",
 			},
 			"Viangchan": {
-				Code: "VI",
+				Code: "VT",
 			},
 			"Xaignabouli": {
 				Code: "XA",
@@ -31442,7 +31442,7 @@ var CountryStates = map[string]Country{
 				Code: "PW",
 			},
 			"Port Louis": {
-				Code: "PL",
+				Code: "PU",
 			},
 			"Quatre Bornes": {
 				Code: "QB",
@@ -32547,7 +32547,7 @@ var CountryStates = map[string]Country{
 				Code: "B",
 			},
 			"Maputo": {
-				Code: "MPM",
+				Code: "L",
 			},
 			"Nampula": {
 				Code: "N",
@@ -33348,31 +33348,31 @@ var CountryStates = map[string]Country{
 		SubDivCodeToName: map[string]SubDivisionNameWrapper{
 
 			"AW": {
-				Name:         "Aruba (see also separate country code entry under AW)",
+				Name:         "Aruba",
 				LocalName:    "",
 				LanguageCode: "nl",
 				Type:         "country",
 			},
 			"BQ1": {
-				Name:         "Bonaire (see also separate country code entry under BQ)",
+				Name:         "Bonaire",
 				LocalName:    "",
 				LanguageCode: "nl",
 				Type:         "special municipality",
 			},
 			"BQ2": {
-				Name:         "Saba (see also separate country code entry under BQ)",
+				Name:         "Saba",
 				LocalName:    "",
 				LanguageCode: "nl",
 				Type:         "special municipality",
 			},
 			"BQ3": {
-				Name:         "Sint Eustatius (see also separate country code entry under BQ)",
+				Name:         "Sint Eustatius",
 				LocalName:    "",
 				LanguageCode: "nl",
 				Type:         "special municipality",
 			},
 			"CW": {
-				Name:         "Curaçao (see also separate country code entry under CW)",
+				Name:         "Curaçao",
 				LocalName:    "",
 				LanguageCode: "nl",
 				Type:         "country",
@@ -33432,7 +33432,7 @@ var CountryStates = map[string]Country{
 				Type:         "province",
 			},
 			"SX": {
-				Name:         "Sint Maarten (see also separate country code entry under SX)",
+				Name:         "Sint Maarten",
 				LocalName:    "",
 				LanguageCode: "nl",
 				Type:         "country",
@@ -33459,13 +33459,13 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aruba (see also separate country code entry under AW)": {
+			"Aruba": {
 				Code: "AW",
 			},
-			"Bonaire (see also separate country code entry under BQ)": {
+			"Bonaire": {
 				Code: "BQ1",
 			},
-			"Curaçao (see also separate country code entry under CW)": {
+			"Curaçao": {
 				Code: "CW",
 			},
 			"Drenthe": {
@@ -33495,13 +33495,13 @@ var CountryStates = map[string]Country{
 			"Overijssel": {
 				Code: "OV",
 			},
-			"Saba (see also separate country code entry under BQ)": {
+			"Saba": {
 				Code: "BQ2",
 			},
-			"Sint Eustatius (see also separate country code entry under BQ)": {
+			"Sint Eustatius": {
 				Code: "BQ3",
 			},
-			"Sint Maarten (see also separate country code entry under SX)": {
+			"Sint Maarten": {
 				Code: "SX",
 			},
 			"Utrecht": {
@@ -33629,13 +33629,13 @@ var CountryStates = map[string]Country{
 				Type:         "county",
 			},
 			"21": {
-				Name:         "Svalbard (Arctic Region) (see also separate country code entry under SJ)",
+				Name:         "Svalbard (Arctic Region)",
 				LocalName:    "",
 				LanguageCode: "nn",
 				Type:         "arctic region",
 			},
 			"22": {
-				Name:         "Jan Mayen (Arctic Region) (see also separate country code entry under SJ)",
+				Name:         "Jan Mayen (Arctic Region)",
 				LocalName:    "",
 				LanguageCode: "nn",
 				Type:         "arctic region",
@@ -33668,7 +33668,7 @@ var CountryStates = map[string]Country{
 			"Hordaland": {
 				Code: "12",
 			},
-			"Jan Mayen (Arctic Region) (see also separate country code entry under SJ)": {
+			"Jan Mayen (Arctic Region)": {
 				Code: "22",
 			},
 			"Møre og Romsdal": {
@@ -33689,7 +33689,7 @@ var CountryStates = map[string]Country{
 			"Sogn og Fjordane": {
 				Code: "14",
 			},
-			"Svalbard (Arctic Region) (see also separate country code entry under SJ)": {
+			"Svalbard (Arctic Region)": {
 				Code: "21",
 			},
 			"Telemark": {
@@ -45494,7 +45494,7 @@ var CountryStates = map[string]Country{
 				Code: "CYQ",
 			},
 			"Hsinchu": {
-				Code: "HSQ",
+				Code: "HSZ",
 			},
 			"Hualien": {
 				Code: "HUA",
@@ -47470,7 +47470,7 @@ var CountryStates = map[string]Country{
 				Type:         "state",
 			},
 			"AS": {
-				Name:         "American Samoa (see also separate country code entry under AS)",
+				Name:         "American Samoa",
 				LocalName:    "",
 				LanguageCode: "en",
 				Type:         "outlying area",
@@ -47524,7 +47524,7 @@ var CountryStates = map[string]Country{
 				Type:         "state",
 			},
 			"GU": {
-				Name:         "Guam (see also separate country code entry under GU)",
+				Name:         "Guam",
 				LocalName:    "",
 				LanguageCode: "en",
 				Type:         "outlying area",
@@ -47614,7 +47614,7 @@ var CountryStates = map[string]Country{
 				Type:         "state",
 			},
 			"MP": {
-				Name:         "Northern Mariana Islands (see also separate country code entry under MP)",
+				Name:         "Northern Mariana Islands",
 				LocalName:    "",
 				LanguageCode: "en",
 				Type:         "outlying area",
@@ -47704,7 +47704,7 @@ var CountryStates = map[string]Country{
 				Type:         "state",
 			},
 			"PR": {
-				Name:         "Puerto Rico (see also separate country code entry under PR)",
+				Name:         "Puerto Rico",
 				LocalName:    "",
 				LanguageCode: "en",
 				Type:         "outlying area",
@@ -47740,7 +47740,7 @@ var CountryStates = map[string]Country{
 				Type:         "state",
 			},
 			"UM": {
-				Name:         "United States Minor Outlying Islands (see also separate country code entry under UM)",
+				Name:         "United States Minor Outlying Islands",
 				LocalName:    "",
 				LanguageCode: "en",
 				Type:         "outlying area",
@@ -47758,7 +47758,7 @@ var CountryStates = map[string]Country{
 				Type:         "state",
 			},
 			"VI": {
-				Name:         "Virgin Islands, U.S. (see also separate country code entry under VI)",
+				Name:         "Virgin Islands",
 				LocalName:    "",
 				LanguageCode: "en",
 				Type:         "outlying area",
@@ -47803,7 +47803,7 @@ var CountryStates = map[string]Country{
 			"Alaska": {
 				Code: "AK",
 			},
-			"American Samoa (see also separate country code entry under AS)": {
+			"American Samoa": {
 				Code: "AS",
 			},
 			"Arizona": {
@@ -47833,7 +47833,7 @@ var CountryStates = map[string]Country{
 			"Georgia": {
 				Code: "GA",
 			},
-			"Guam (see also separate country code entry under GU)": {
+			"Guam": {
 				Code: "GU",
 			},
 			"Hawaii": {
@@ -47908,7 +47908,7 @@ var CountryStates = map[string]Country{
 			"North Dakota": {
 				Code: "ND",
 			},
-			"Northern Mariana Islands (see also separate country code entry under MP)": {
+			"Northern Mariana Islands": {
 				Code: "MP",
 			},
 			"Ohio": {
@@ -47923,7 +47923,7 @@ var CountryStates = map[string]Country{
 			"Pennsylvania": {
 				Code: "PA",
 			},
-			"Puerto Rico (see also separate country code entry under PR)": {
+			"Puerto Rico": {
 				Code: "PR",
 			},
 			"Rhode Island": {
@@ -47941,7 +47941,7 @@ var CountryStates = map[string]Country{
 			"Texas": {
 				Code: "TX",
 			},
-			"United States Minor Outlying Islands (see also separate country code entry under UM)": {
+			"United States Minor Outlying Islands": {
 				Code: "UM",
 			},
 			"Utah": {
@@ -47950,7 +47950,7 @@ var CountryStates = map[string]Country{
 			"Vermont": {
 				Code: "VT",
 			},
-			"Virgin Islands, U.S. (see also separate country code entry under VI)": {
+			"Virgin Islands": {
 				Code: "VI",
 			},
 			"Virginia": {

@@ -753,7 +753,7 @@ region,CL-TA*,Tarapacá,,es,,
 region,CL-VS*,Valparaíso,,es,,
 region,CL-NB*,Ñuble,,es,,
 province,CN-AH,Anhui Sheng,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
-special administrative region,CN-MO,Aomen Tebiexingzhengqu (see also separate country code entry under MO),,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
+special administrative region,CN-MO,Aomen Tebiexingzhengqu,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
 municipality,CN-BJ,Beijing Shi,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
 municipality,CN-CQ,Chongqing Shi,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
 province,CN-FJ,Fujian Sheng,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
@@ -779,9 +779,9 @@ province,CN-SD,Shandong Sheng,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
 municipality,CN-SH,Shanghai Shi,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
 province,CN-SX,Shanxi Sheng,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
 province,CN-SC,Sichuan Sheng,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
-province,CN-TW,Taiwan Sheng (see also separate country code entry under TW),,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
+province,CN-TW,Taiwan Sheng,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
 municipality,CN-TJ,Tianjin Shi,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
-special administrative region,CN-HK,Xianggang Tebiexingzhengqu (see also separate country code entry under HK),,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
+special administrative region,CN-HK,Xianggang Tebiexingzhengqu,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
 autonomous region,CN-XJ,Xinjiang Uygur Zizhiqu,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
 autonomous region,CN-XZ,Xizang Zizhiqu,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
 province,CN-YN,Yunnan Sheng,,zh,National 1958 = ISO 7098:2015 = UN III/8 1977,
@@ -1267,8 +1267,8 @@ metropolitan department,FR-32,Gers,,fr,,FR-OCC
 metropolitan department,FR-33,Gironde,,fr,,FR-NAQ
 metropolitan region,FR-GES,Grand-Est,,fr,,
 overseas region,FR-GUA,Guadeloupe,,fr,,
-overseas department,FR-GP,Guadeloupe (see also separate country code entry under GP),,fr,,FR-GUA
-overseas territorial collectivity,FR-GF,Guyane (française) (see also separate country code entry under GF),,fr,,
+overseas department,FR-GP,Guadeloupe,,fr,,FR-GUA
+overseas territorial collectivity,FR-GF,Guyane (française),,fr,,
 metropolitan department,FR-68,Haut-Rhin,,fr,,FR-GES
 metropolitan department,FR-2B,Haute-Corse,,fr,,FR-COR
 metropolitan department,FR-31,Haute-Garonne,,fr,,FR-OCC
@@ -1288,7 +1288,7 @@ metropolitan department,FR-37,Indre-et-Loire,,fr,,FR-CVL
 metropolitan department,FR-38,Isère,,fr,,FR-ARA
 metropolitan department,FR-39,Jura,,fr,,FR-BFC
 overseas region,FR-LRE,La Réunion,,fr,,
-overseas department,FR-RE,La Réunion (see also separate country code entry under RE),,fr,,FR-LRE
+overseas department,FR-RE,La Réunion,,fr,,FR-LRE
 metropolitan department,FR-40,Landes,,fr,,FR-NAQ
 metropolitan department,FR-41,Loir-et-Cher,,fr,,FR-CVL
 metropolitan department,FR-42,Loire,,fr,,FR-ARA
@@ -1300,10 +1300,10 @@ metropolitan department,FR-48,Lozère,,fr,,FR-OCC
 metropolitan department,FR-49,Maine-et-Loire,,fr,,FR-PDL
 metropolitan department,FR-50,Manche,,fr,,FR-NOR
 metropolitan department,FR-51,Marne,,fr,,FR-GES
-overseas territorial collectivity,FR-MQ,Martinique (see also separate country code entry under MQ),,fr,,
+overseas territorial collectivity,FR-MQ,Martinique,,fr,,
 metropolitan department,FR-53,Mayenne,,fr,,FR-PDL
 overseas region,FR-MAY,Mayotte,,fr,,
-overseas department,FR-YT,Mayotte (see also separate country code entry under YT),,fr,,FR-MAY
+overseas department,FR-YT,Mayotte,,fr,,FR-MAY
 metropolitan department,FR-54,Meurthe-et-Moselle,,fr,,FR-GES
 metropolitan department,FR-55,Meuse,,fr,,FR-GES
 metropolitan department,FR-56,Morbihan,,fr,,FR-BRE
@@ -1312,22 +1312,22 @@ metropolitan department,FR-58,Nièvre,,fr,,FR-BFC
 metropolitan department,FR-59,Nord,,fr,,FR-HDF
 metropolitan region,FR-NOR,Normandie,,fr,,
 metropolitan region,FR-NAQ,Nouvelle-Aquitaine,,fr,,
-overseas territorial collectivity,FR-NC,Nouvelle-Calédonie (see also separate country code entry under NC),,fr,,
+overseas territorial collectivity,FR-NC,Nouvelle-Calédonie,,fr,,
 metropolitan region,FR-OCC,Occitanie,,fr,,
 metropolitan department,FR-60,Oise,,fr,,FR-HDF
 metropolitan department,FR-61,Orne,,fr,,FR-NOR
 metropolitan department,FR-75,Paris,,fr,,FR-IDF
 metropolitan department,FR-62,Pas-de-Calais,,fr,,FR-HDF
 metropolitan region,FR-PDL,Pays-de-la-Loire,,fr,,
-overseas territorial collectivity,FR-PF,Polynésie française (see also separate country code entry under PF),,fr,,
+overseas territorial collectivity,FR-PF,Polynésie française,,fr,,
 metropolitan region,FR-PAC,Provence-Alpes-Côte-d’Azur,,fr,,
 metropolitan department,FR-63,Puy-de-Dôme,,fr,,FR-ARA
 metropolitan department,FR-64,Pyrénées-Atlantiques,,fr,,FR-NAQ
 metropolitan department,FR-66,Pyrénées-Orientales,,fr,,FR-OCC
 metropolitan department,FR-69,Rhône,,fr,,FR-ARA
-overseas territorial collectivity,FR-BL,Saint-Barthélemy (see also separate country code entry under BL),,fr,,
-overseas territorial collectivity,FR-MF,Saint-Martin (see also separate country code entry under MF),,fr,,
-overseas territorial collectivity,FR-PM,Saint-Pierre-et-Miquelon (see also separate country code entry under PM),,fr,,
+overseas territorial collectivity,FR-BL,Saint-Barthélemy,,fr,,
+overseas territorial collectivity,FR-MF,Saint-Martin,,fr,,
+overseas territorial collectivity,FR-PM,Saint-Pierre-et-Miquelon,,fr,,
 metropolitan department,FR-72,Sarthe,,fr,,FR-PDL
 metropolitan department,FR-73,Savoie,,fr,,FR-ARA
 metropolitan department,FR-71,Saône-et-Loire,,fr,,FR-BFC
@@ -1337,7 +1337,7 @@ metropolitan department,FR-77,Seine-et-Marne,,fr,,FR-IDF
 metropolitan department,FR-80,Somme,,fr,,FR-HDF
 metropolitan department,FR-81,Tarn,,fr,,FR-OCC
 metropolitan department,FR-82,Tarn-et-Garonne,,fr,,FR-OCC
-overseas territorial collectivity,FR-TF,Terres australes françaises (see also separate country code entry under TF),,fr,,
+overseas territorial collectivity,FR-TF,Terres australes françaises,,fr,,
 metropolitan department,FR-90,Territoire de Belfort,,fr,,FR-BFC
 metropolitan department,FR-95,Val-d'Oise,,fr,,FR-IDF
 metropolitan department,FR-94,Val-de-Marne,,fr,,FR-IDF
@@ -1346,7 +1346,7 @@ metropolitan department,FR-84,Vaucluse,,fr,,FR-PAC
 metropolitan department,FR-85,Vendée,,fr,,FR-PDL
 metropolitan department,FR-86,Vienne,,fr,,FR-NAQ
 metropolitan department,FR-88,Vosges,,fr,,FR-GES
-overseas territorial collectivity,FR-WF,Wallis-et-Futuna (see also separate country code entry under WF),,fr,,
+overseas territorial collectivity,FR-WF,Wallis-et-Futuna,,fr,,
 metropolitan department,FR-89,Yonne,,fr,,FR-BFC
 metropolitan department,FR-78,Yvelines,,fr,,FR-IDF
 metropolitan region,FR-IDF,Île-de-France,,fr,,
@@ -2868,9 +2868,9 @@ zone,NP-RA,Rapti,,ne,conventional names,NP-2
 zone,NP-SA,Sagarmatha,,ne,conventional names,NP-4
 zone,NP-SE,Seti,,ne,conventional names,NP-5
 development region,NP-3,Western,,en,,
-country,NL-AW*,Aruba (see also separate country code entry under AW),,nl,,
-special municipality,NL-BQ1*,Bonaire (see also separate country code entry under BQ),,nl,,
-country,NL-CW*,Curaçao (see also separate country code entry under CW),,nl,,
+country,NL-AW*,Aruba,,nl,,
+special municipality,NL-BQ1*,Bonaire,,nl,,
+country,NL-CW*,Curaçao,,nl,,
 province,NL-DR,Drenthe,,nl,,
 province,NL-FL*,Flevoland,,nl,,
 province,NL-FR,Fryslân,,fy,,
@@ -2880,9 +2880,9 @@ province,NL-LI,Limburg,,nl,,
 province,NL-NB,Noord-Brabant,,nl,,
 province,NL-NH,Noord-Holland,,nl,,
 province,NL-OV,Overijssel,,nl,,
-special municipality,NL-BQ2*,Saba (see also separate country code entry under BQ),,nl,,
-special municipality,NL-BQ3*,Sint Eustatius (see also separate country code entry under BQ),,nl,,
-country,NL-SX*,Sint Maarten (see also separate country code entry under SX),,nl,,
+special municipality,NL-BQ2*,Saba,,nl,,
+special municipality,NL-BQ3*,Sint Eustatius,,nl,,
+country,NL-SX*,Sint Maarten,,nl,,
 province,NL-UT,Utrecht,,nl,,
 province,NL-ZE,Zeeland,,nl,,
 province,NL-ZH,Zuid-Holland,,nl,,
@@ -3051,14 +3051,14 @@ county,NO-06,Buskerud,,nn,,
 county,NO-20,Finnmark,,nn,,
 county,NO-04,Hedmark,,nn,,
 county,NO-12,Hordaland,,nn,,
-arctic region,NO-22,Jan Mayen (Arctic Region) (see also separate country code entry under SJ),,nn,,
+arctic region,NO-22,Jan Mayen (Arctic Region),,nn,,
 county,NO-15,Møre og Romsdal,,nn,,
 county,NO-18,Nordland,,nn,,
 county,NO-05,Oppland,,nn,,
 county,NO-03,Oslo,,nn,,
 county,NO-11,Rogaland,,nn,,
 county,NO-14,Sogn og Fjordane,,nn,,
-arctic region,NO-21,Svalbard (Arctic Region) (see also separate country code entry under SJ),,nn,,
+arctic region,NO-21,Svalbard (Arctic Region),,nn,,
 county,NO-08,Telemark,,nn,,
 county,NO-19,Troms,,nn,,
 county,NO-50,Trøndelag,,nn,,
@@ -4763,7 +4763,7 @@ unitary authority,GB-YOR,York,,en,,
 "islands, groups of islands",UM-79,Wake Island,,en,,
 state,US-AL,Alabama,,en,,
 state,US-AK,Alaska,,en,,
-outlying area,US-AS,American Samoa (see also separate country code entry under AS),,en,,
+outlying area,US-AS,American Samoa,,en,,
 state,US-AZ,Arizona,,en,,
 state,US-AR,Arkansas,,en,,
 state,US-CA,California,,en,,
@@ -4773,7 +4773,7 @@ state,US-DE,Delaware,,en,,
 district,US-DC,District of Columbia,,en,,
 state,US-FL,Florida,,en,,
 state,US-GA,Georgia,,en,,
-outlying area,US-GU,Guam (see also separate country code entry under GU),,en,,
+outlying area,US-GU,Guam,,en,,
 state,US-HI,Hawaii,,en,,
 state,US-ID,Idaho,,en,,
 state,US-IL,Illinois,,en,,
@@ -4798,21 +4798,21 @@ state,US-NM,New Mexico,,en,,
 state,US-NY,New York,,en,,
 state,US-NC,North Carolina,,en,,
 state,US-ND,North Dakota,,en,,
-outlying area,US-MP,Northern Mariana Islands (see also separate country code entry under MP),,en,,
+outlying area,US-MP,Northern Mariana Islands,,en,,
 state,US-OH,Ohio,,en,,
 state,US-OK,Oklahoma,,en,,
 state,US-OR,Oregon,,en,,
 state,US-PA,Pennsylvania,,en,,
-outlying area,US-PR,Puerto Rico (see also separate country code entry under PR),,en,,
+outlying area,US-PR,Puerto Rico,,en,,
 state,US-RI,Rhode Island,,en,,
 state,US-SC,South Carolina,,en,,
 state,US-SD,South Dakota,,en,,
 state,US-TN,Tennessee,,en,,
 state,US-TX,Texas,,en,,
-outlying area,US-UM,United States Minor Outlying Islands (see also separate country code entry under UM),,en,,
+outlying area,US-UM,United States Minor Outlying Islands,,en,,
 state,US-UT,Utah,,en,,
 state,US-VT,Vermont,,en,,
-outlying area,US-VI,"Virgin Islands, U.S. (see also separate country code entry under VI)",,en,,
+outlying area,US-VI,Virgin Islands,,en,,
 state,US-VA,Virginia,,en,,
 state,US-WA,Washington,,en,,
 state,US-WV,West Virginia,,en,,
