@@ -122,3 +122,23 @@ func SubDivisionCodeToName(countryCode, subDivCode string) (string, error) {
 
 	return "", ErrInvalidSubDivCode
 }
+
+func ValidSubDivisionCode(countryCode, subDivCode string) bool {
+	countryCode = strings.ToUpper(countryCode)
+	if !ValidCountryCode(countryCode) {
+		var err error
+		countryCode, err = CountryNameToAlpha2(countryCode)
+		if err != nil {
+			return false
+		}
+	}
+	if _, ok := CountryStates[countryCode].SubDivCodeToName[subDivCode]; ok {
+		return true
+	}
+	for _, subDiv := range CountryStates[countryCode].SubDivCodeToName {
+		if _, ok := subDiv.SubDivCodeToName[subDivCode]; ok {
+			return true
+		}
+	}
+	return false
+}
