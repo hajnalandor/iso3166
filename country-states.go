@@ -85,25 +85,25 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Andorra la Vella": {
+			"ANDORRA LA VELLA": {
 				Code: "07",
 			},
-			"Canillo": {
+			"CANILLO": {
 				Code: "02",
 			},
-			"Encamp": {
+			"ENCAMP": {
 				Code: "03",
 			},
-			"Escaldes-Engordany": {
+			"ESCALDES-ENGORDANY": {
 				Code: "08",
 			},
-			"La Massana": {
+			"LA MASSANA": {
 				Code: "04",
 			},
-			"Ordino": {
+			"ORDINO": {
 				Code: "05",
 			},
-			"Sant Julià de Lòria": {
+			"SANT JULIÀ DE LÒRIA": {
 				Code: "06",
 			},
 		},
@@ -165,25 +165,25 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Abū Z̧aby": {
+			"ABŪ Z̧ABY": {
 				Code: "AZ",
 			},
-			"Al Fujayrah": {
+			"AL FUJAYRAH": {
 				Code: "FU",
 			},
-			"Ash Shāriqah": {
+			"ASH SHĀRIQAH": {
 				Code: "SH",
 			},
-			"Dubayy": {
+			"DUBAYY": {
 				Code: "DU",
 			},
-			"Ra’s al Khaymah": {
+			"RA’S AL KHAYMAH": {
 				Code: "RK",
 			},
-			"Umm al Qaywayn": {
+			"UMM AL QAYWAYN": {
 				Code: "UQ",
 			},
-			"‘Ajmān": {
+			"‘AJMĀN": {
 				Code: "AJ",
 			},
 		},
@@ -407,106 +407,106 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Badakhshān": {
+			"BADAKHSHĀN": {
 				Code: "BDS",
 			},
-			"Baghlān": {
+			"BAGHLĀN": {
 				Code: "BGL",
 			},
-			"Balkh": {
+			"BALKH": {
 				Code: "BAL",
 			},
-			"Bādghīs": {
+			"BĀDGHĪS": {
 				Code: "BDG",
 			},
-			"Bāmyān": {
+			"BĀMYĀN": {
 				Code: "BAM",
 			},
-			"Dāykundī": {
+			"DĀYKUNDĪ": {
 				Code: "DAY",
 			},
-			"Farāh": {
+			"FARĀH": {
 				Code: "FRA",
 			},
-			"Fāryāb": {
+			"FĀRYĀB": {
 				Code: "FYB",
 			},
-			"Ghaznī": {
+			"GHAZNĪ": {
 				Code: "GHA",
 			},
-			"Ghōr": {
+			"GHŌR": {
 				Code: "GHO",
 			},
-			"Helmand": {
+			"HELMAND": {
 				Code: "HEL",
 			},
-			"Herāt": {
+			"HERĀT": {
 				Code: "HER",
 			},
-			"Jowzjān": {
+			"JOWZJĀN": {
 				Code: "JOW",
 			},
-			"Kandahār": {
+			"KANDAHĀR": {
 				Code: "KAN",
 			},
-			"Khōst": {
+			"KHŌST": {
 				Code: "KHO",
 			},
-			"Kunaṟ": {
+			"KUNAṞ": {
 				Code: "KNR",
 			},
-			"Kunduz": {
+			"KUNDUZ": {
 				Code: "KDZ",
 			},
-			"Kābul": {
+			"KĀBUL": {
 				Code: "KAB",
 			},
-			"Kāpīsā": {
+			"KĀPĪSĀ": {
 				Code: "KAP",
 			},
-			"Laghmān": {
+			"LAGHMĀN": {
 				Code: "LAG",
 			},
-			"Lōgar": {
+			"LŌGAR": {
 				Code: "LOG",
 			},
-			"Nangarhār": {
+			"NANGARHĀR": {
 				Code: "NAN",
 			},
-			"Nīmrōz": {
+			"NĪMRŌZ": {
 				Code: "NIM",
 			},
-			"Nūristān": {
+			"NŪRISTĀN": {
 				Code: "NUR",
 			},
-			"Paktiyā": {
+			"PAKTIYĀ": {
 				Code: "PIA",
 			},
-			"Paktīkā": {
+			"PAKTĪKĀ": {
 				Code: "PKA",
 			},
-			"Panjshayr": {
+			"PANJSHAYR": {
 				Code: "PAN",
 			},
-			"Parwān": {
+			"PARWĀN": {
 				Code: "PAR",
 			},
-			"Samangān": {
+			"SAMANGĀN": {
 				Code: "SAM",
 			},
-			"Sar-e Pul": {
+			"SAR-E PUL": {
 				Code: "SAR",
 			},
-			"Takhār": {
+			"TAKHĀR": {
 				Code: "TAK",
 			},
-			"Uruzgān": {
+			"URUZGĀN": {
 				Code: "URU",
 			},
-			"Wardak": {
+			"WARDAK": {
 				Code: "WAR",
 			},
-			"Zābul": {
+			"ZĀBUL": {
 				Code: "ZAB",
 			},
 		},
@@ -574,28 +574,28 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Barbuda": {
+			"BARBUDA": {
 				Code: "10",
 			},
-			"Redonda": {
+			"REDONDA": {
 				Code: "11",
 			},
-			"Saint George": {
+			"SAINT GEORGE": {
 				Code: "03",
 			},
-			"Saint John": {
+			"SAINT JOHN": {
 				Code: "04",
 			},
-			"Saint Mary": {
+			"SAINT MARY": {
 				Code: "05",
 			},
-			"Saint Paul": {
+			"SAINT PAUL": {
 				Code: "06",
 			},
-			"Saint Peter": {
+			"SAINT PETER": {
 				Code: "07",
 			},
-			"Saint Philip": {
+			"SAINT PHILIP": {
 				Code: "08",
 			},
 		},
@@ -696,40 +696,40 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Berat": {
+			"BERAT": {
 				Code: "01",
 			},
-			"Dibër": {
+			"DIBËR": {
 				Code: "09",
 			},
-			"Durrës": {
+			"DURRËS": {
 				Code: "02",
 			},
-			"Elbasan": {
+			"ELBASAN": {
 				Code: "03",
 			},
-			"Fier": {
+			"FIER": {
 				Code: "04",
 			},
-			"Gjirokastër": {
+			"GJIROKASTËR": {
 				Code: "05",
 			},
-			"Korçë": {
+			"KORÇË": {
 				Code: "06",
 			},
-			"Kukës": {
+			"KUKËS": {
 				Code: "07",
 			},
-			"Lezhë": {
+			"LEZHË": {
 				Code: "08",
 			},
-			"Shkodër": {
+			"SHKODËR": {
 				Code: "10",
 			},
-			"Tiranë": {
+			"TIRANË": {
 				Code: "11",
 			},
-			"Vlorë": {
+			"VLORË": {
 				Code: "12",
 			},
 		},
@@ -815,37 +815,37 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aragac̣otn": {
+			"ARAGAC̣OTN": {
 				Code: "AG",
 			},
-			"Ararat": {
+			"ARARAT": {
 				Code: "AR",
 			},
-			"Armavir": {
+			"ARMAVIR": {
 				Code: "AV",
 			},
-			"Erevan": {
+			"EREVAN": {
 				Code: "ER",
 			},
-			"Geġark'unik'": {
+			"GEĠARK'UNIK'": {
 				Code: "GR",
 			},
-			"Kotayk'": {
+			"KOTAYK'": {
 				Code: "KT",
 			},
-			"Loṙi": {
+			"LOṘI": {
 				Code: "LO",
 			},
-			"Syunik'": {
+			"SYUNIK'": {
 				Code: "SU",
 			},
-			"Tavuš": {
+			"TAVUŠ": {
 				Code: "TV",
 			},
-			"Vayoć Jor": {
+			"VAYOĆ JOR": {
 				Code: "VD",
 			},
-			"Širak": {
+			"ŠIRAK": {
 				Code: "SH",
 			},
 		},
@@ -973,58 +973,58 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bengo": {
+			"BENGO": {
 				Code: "BGO",
 			},
-			"Benguela": {
+			"BENGUELA": {
 				Code: "BGU",
 			},
-			"Bié": {
+			"BIÉ": {
 				Code: "BIE",
 			},
-			"Cabinda": {
+			"CABINDA": {
 				Code: "CAB",
 			},
-			"Cunene": {
+			"CUNENE": {
 				Code: "CNN",
 			},
-			"Huambo": {
+			"HUAMBO": {
 				Code: "HUA",
 			},
-			"Huíla": {
+			"HUÍLA": {
 				Code: "HUI",
 			},
-			"Kuando Kubango": {
+			"KUANDO KUBANGO": {
 				Code: "CCU",
 			},
-			"Kwanza Norte": {
+			"KWANZA NORTE": {
 				Code: "CNO",
 			},
-			"Kwanza Sul": {
+			"KWANZA SUL": {
 				Code: "CUS",
 			},
-			"Luanda": {
+			"LUANDA": {
 				Code: "LUA",
 			},
-			"Lunda Norte": {
+			"LUNDA NORTE": {
 				Code: "LNO",
 			},
-			"Lunda Sul": {
+			"LUNDA SUL": {
 				Code: "LSU",
 			},
-			"Malange": {
+			"MALANGE": {
 				Code: "MAL",
 			},
-			"Moxico": {
+			"MOXICO": {
 				Code: "MOX",
 			},
-			"Namibe": {
+			"NAMIBE": {
 				Code: "NAM",
 			},
-			"Uíge": {
+			"UÍGE": {
 				Code: "UIG",
 			},
-			"Zaire": {
+			"ZAIRE": {
 				Code: "ZAI",
 			},
 		},
@@ -1197,76 +1197,76 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Buenos Aires": {
+			"BUENOS AIRES": {
 				Code: "B",
 			},
-			"Catamarca": {
+			"CATAMARCA": {
 				Code: "K",
 			},
-			"Chaco": {
+			"CHACO": {
 				Code: "H",
 			},
-			"Chubut": {
+			"CHUBUT": {
 				Code: "U",
 			},
-			"Ciudad Autónoma de Buenos Aires": {
+			"CIUDAD AUTÓNOMA DE BUENOS AIRES": {
 				Code: "C",
 			},
-			"Corrientes": {
+			"CORRIENTES": {
 				Code: "W",
 			},
-			"Córdoba": {
+			"CÓRDOBA": {
 				Code: "X",
 			},
-			"Entre Ríos": {
+			"ENTRE RÍOS": {
 				Code: "E",
 			},
-			"Formosa": {
+			"FORMOSA": {
 				Code: "P",
 			},
-			"Jujuy": {
+			"JUJUY": {
 				Code: "Y",
 			},
-			"La Pampa": {
+			"LA PAMPA": {
 				Code: "L",
 			},
-			"La Rioja": {
+			"LA RIOJA": {
 				Code: "F",
 			},
-			"Mendoza": {
+			"MENDOZA": {
 				Code: "M",
 			},
-			"Misiones": {
+			"MISIONES": {
 				Code: "N",
 			},
-			"Neuquén": {
+			"NEUQUÉN": {
 				Code: "Q",
 			},
-			"Río Negro": {
+			"RÍO NEGRO": {
 				Code: "R",
 			},
-			"Salta": {
+			"SALTA": {
 				Code: "A",
 			},
-			"San Juan": {
+			"SAN JUAN": {
 				Code: "J",
 			},
-			"San Luis": {
+			"SAN LUIS": {
 				Code: "D",
 			},
-			"Santa Cruz": {
+			"SANTA CRUZ": {
 				Code: "Z",
 			},
-			"Santa Fe": {
+			"SANTA FE": {
 				Code: "S",
 			},
-			"Santiago del Estero": {
+			"SANTIAGO DEL ESTERO": {
 				Code: "G",
 			},
-			"Tierra del Fuego": {
+			"TIERRA DEL FUEGO": {
 				Code: "V",
 			},
-			"Tucumán": {
+			"TUCUMÁN": {
 				Code: "T",
 			},
 		},
@@ -1349,31 +1349,31 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Burgenland": {
+			"BURGENLAND": {
 				Code: "1",
 			},
-			"Kärnten": {
+			"KÄRNTEN": {
 				Code: "2",
 			},
-			"Niederösterreich": {
+			"NIEDERÖSTERREICH": {
 				Code: "3",
 			},
-			"Oberösterreich": {
+			"OBERÖSTERREICH": {
 				Code: "4",
 			},
-			"Salzburg": {
+			"SALZBURG": {
 				Code: "5",
 			},
-			"Steiermark": {
+			"STEIERMARK": {
 				Code: "6",
 			},
-			"Tirol": {
+			"TIROL": {
 				Code: "7",
 			},
-			"Vorarlberg": {
+			"VORARLBERG": {
 				Code: "8",
 			},
-			"Wien": {
+			"WIEN": {
 				Code: "9",
 			},
 		},
@@ -1441,28 +1441,28 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Australian Capital Territory": {
+			"AUSTRALIAN CAPITAL TERRITORY": {
 				Code: "ACT",
 			},
-			"New South Wales": {
+			"NEW SOUTH WALES": {
 				Code: "NSW",
 			},
-			"Northern Territory": {
+			"NORTHERN TERRITORY": {
 				Code: "NT",
 			},
-			"Queensland": {
+			"QUEENSLAND": {
 				Code: "QLD",
 			},
-			"South Australia": {
+			"SOUTH AUSTRALIA": {
 				Code: "SA",
 			},
-			"Tasmania": {
+			"TASMANIA": {
 				Code: "TAS",
 			},
-			"Victoria": {
+			"VICTORIA": {
 				Code: "VIC",
 			},
-			"Western Australia": {
+			"WESTERN AUSTRALIA": {
 				Code: "WA",
 			},
 		},
@@ -1972,233 +1972,233 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Abşeron": {
+			"ABŞERON": {
 				Code: "ABS",
 			},
-			"Astara": {
+			"ASTARA": {
 				Code: "AST",
 			},
-			"Ağcabədi": {
+			"AĞCABƏDI": {
 				Code: "AGC",
 			},
-			"Ağdam": {
+			"AĞDAM": {
 				Code: "AGM",
 			},
-			"Ağdaş": {
+			"AĞDAŞ": {
 				Code: "AGS",
 			},
-			"Ağstafa": {
+			"AĞSTAFA": {
 				Code: "AGA",
 			},
-			"Ağsu": {
+			"AĞSU": {
 				Code: "AGU",
 			},
-			"Bakı": {
+			"BAKI": {
 				Code: "BA",
 			},
-			"Balakən": {
+			"BALAKƏN": {
 				Code: "BAL",
 			},
-			"Beyləqan": {
+			"BEYLƏQAN": {
 				Code: "BEY",
 			},
-			"Biləsuvar": {
+			"BILƏSUVAR": {
 				Code: "BIL",
 			},
-			"Bərdə": {
+			"BƏRDƏ": {
 				Code: "BAR",
 			},
-			"Cəbrayıl": {
+			"CƏBRAYIL": {
 				Code: "CAB",
 			},
-			"Cəlilabad": {
+			"CƏLILABAD": {
 				Code: "CAL",
 			},
-			"Daşkəsən": {
+			"DAŞKƏSƏN": {
 				Code: "DAS",
 			},
-			"Füzuli": {
+			"FÜZULI": {
 				Code: "FUZ",
 			},
-			"Goranboy": {
+			"GORANBOY": {
 				Code: "GOR",
 			},
-			"Göygöl": {
+			"GÖYGÖL": {
 				Code: "GYG",
 			},
-			"Göyçay": {
+			"GÖYÇAY": {
 				Code: "GOY",
 			},
-			"Gədəbəy": {
+			"GƏDƏBƏY": {
 				Code: "GAD",
 			},
-			"Gəncə": {
+			"GƏNCƏ": {
 				Code: "GA",
 			},
-			"Hacıqabul": {
+			"HACIQABUL": {
 				Code: "HAC",
 			},
-			"Kürdəmir": {
+			"KÜRDƏMIR": {
 				Code: "KUR",
 			},
-			"Kəlbəcər": {
+			"KƏLBƏCƏR": {
 				Code: "KAL",
 			},
-			"Laçın": {
+			"LAÇIN": {
 				Code: "LAC",
 			},
-			"Lerik": {
+			"LERIK": {
 				Code: "LER",
 			},
-			"Lənkəran": {
+			"LƏNKƏRAN": {
 				Code: "LAN",
 			},
-			"Masallı": {
+			"MASALLI": {
 				Code: "MAS",
 			},
-			"Mingəçevir": {
+			"MINGƏÇEVIR": {
 				Code: "MI",
 			},
-			"Naftalan": {
+			"NAFTALAN": {
 				Code: "NA",
 			},
-			"Naxçıvan": {
+			"NAXÇIVAN": {
 				Code: "NX",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Babək": {
+					"BABƏK": {
 						Code: "BAB",
 					},
-					"Culfa": {
+					"CULFA": {
 						Code: "CUL",
 					},
-					"Kǝngǝrli": {
+					"KƎNGƎRLI": {
 						Code: "KAN",
 					},
-					"Naxçıvan": {
+					"NAXÇIVAN": {
 						Code: "NV",
 					},
-					"Ordubad": {
+					"ORDUBAD": {
 						Code: "ORD",
 					},
-					"Sədərək": {
+					"SƏDƏRƏK": {
 						Code: "SAD",
 					},
-					"Şahbuz": {
+					"ŞAHBUZ": {
 						Code: "SAH",
 					},
-					"Şərur": {
+					"ŞƏRUR": {
 						Code: "SAR",
 					},
 				},
 			},
-			"Neftçala": {
+			"NEFTÇALA": {
 				Code: "NEF",
 			},
-			"Oğuz": {
+			"OĞUZ": {
 				Code: "OGU",
 			},
-			"Qax": {
+			"QAX": {
 				Code: "QAX",
 			},
-			"Qazax": {
+			"QAZAX": {
 				Code: "QAZ",
 			},
-			"Qobustan": {
+			"QOBUSTAN": {
 				Code: "QOB",
 			},
-			"Quba": {
+			"QUBA": {
 				Code: "QBA",
 			},
-			"Qubadlı": {
+			"QUBADLI": {
 				Code: "QBI",
 			},
-			"Qusar": {
+			"QUSAR": {
 				Code: "QUS",
 			},
-			"Qəbələ": {
+			"QƏBƏLƏ": {
 				Code: "QAB",
 			},
-			"Saatlı": {
+			"SAATLI": {
 				Code: "SAT",
 			},
-			"Sabirabad": {
+			"SABIRABAD": {
 				Code: "SAB",
 			},
-			"Salyan": {
+			"SALYAN": {
 				Code: "SAL",
 			},
-			"Samux": {
+			"SAMUX": {
 				Code: "SMX",
 			},
-			"Siyəzən": {
+			"SIYƏZƏN": {
 				Code: "SIY",
 			},
-			"Sumqayıt": {
+			"SUMQAYIT": {
 				Code: "SM",
 			},
-			"Tovuz": {
+			"TOVUZ": {
 				Code: "TOV",
 			},
-			"Tərtər": {
+			"TƏRTƏR": {
 				Code: "TAR",
 			},
-			"Ucar": {
+			"UCAR": {
 				Code: "UCA",
 			},
-			"Xankəndi": {
+			"XANKƏNDI": {
 				Code: "XA",
 			},
-			"Xaçmaz": {
+			"XAÇMAZ": {
 				Code: "XAC",
 			},
-			"Xocalı": {
-				Code: "XCI",
-			},
-			"Xocavənd": {
-				Code: "XVD",
-			},
-			"Xızı": {
+			"XIZI": {
 				Code: "XIZ",
 			},
-			"Yardımlı": {
+			"XOCALI": {
+				Code: "XCI",
+			},
+			"XOCAVƏND": {
+				Code: "XVD",
+			},
+			"YARDIMLI": {
 				Code: "YAR",
 			},
-			"Yevlax": {
-				Code: "YE",
+			"YEVLAX": {
+				Code: "YEV",
 			},
-			"Zaqatala": {
+			"ZAQATALA": {
 				Code: "ZAQ",
 			},
-			"Zəngilan": {
+			"ZƏNGILAN": {
 				Code: "ZAN",
 			},
-			"Zərdab": {
+			"ZƏRDAB": {
 				Code: "ZAR",
 			},
-			"İmişli": {
+			"İMIŞLI": {
 				Code: "IMI",
 			},
-			"İsmayıllı": {
+			"İSMAYILLI": {
 				Code: "ISM",
 			},
-			"Şabran": {
+			"ŞABRAN": {
 				Code: "SBN",
 			},
-			"Şamaxı": {
+			"ŞAMAXI": {
 				Code: "SMI",
 			},
-			"Şirvan": {
+			"ŞIRVAN": {
 				Code: "SR",
 			},
-			"Şuşa": {
+			"ŞUŞA": {
 				Code: "SUS",
 			},
-			"Şəki": {
-				Code: "SAK",
+			"ŞƏKI": {
+				Code: "SA",
 			},
-			"Şəmkir": {
+			"ŞƏMKIR": {
 				Code: "SKR",
 			},
 		},
@@ -2236,13 +2236,13 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Brčko distrikt": {
+			"BRČKO DISTRIKT": {
 				Code: "BRC",
 			},
-			"Federacija Bosne i Hercegovine": {
+			"FEDERACIJA BOSNE I HERCEGOVINE": {
 				Code: "BIH",
 			},
-			"Republika Srpska": {
+			"REPUBLIKA SRPSKA": {
 				Code: "SRP",
 			},
 		},
@@ -2328,37 +2328,37 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Christ Church": {
+			"CHRIST CHURCH": {
 				Code: "01",
 			},
-			"Saint Andrew": {
+			"SAINT ANDREW": {
 				Code: "02",
 			},
-			"Saint George": {
+			"SAINT GEORGE": {
 				Code: "03",
 			},
-			"Saint James": {
+			"SAINT JAMES": {
 				Code: "04",
 			},
-			"Saint John": {
+			"SAINT JOHN": {
 				Code: "05",
 			},
-			"Saint Joseph": {
+			"SAINT JOSEPH": {
 				Code: "06",
 			},
-			"Saint Lucy": {
+			"SAINT LUCY": {
 				Code: "07",
 			},
-			"Saint Michael": {
+			"SAINT MICHAEL": {
 				Code: "08",
 			},
-			"Saint Peter": {
+			"SAINT PETER": {
 				Code: "09",
 			},
-			"Saint Philip": {
+			"SAINT PHILIP": {
 				Code: "10",
 			},
-			"Saint Thomas": {
+			"SAINT THOMAS": {
 				Code: "11",
 			},
 		},
@@ -2842,250 +2842,250 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Barisal": {
+			"BARISAL": {
 				Code: "A",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Barguna": {
+					"BARGUNA": {
 						Code: "02",
 					},
-					"Barisal": {
+					"BARISAL": {
 						Code: "06",
 					},
-					"Bhola": {
+					"BHOLA": {
 						Code: "07",
 					},
-					"Jhalakathi": {
+					"JHALAKATHI": {
 						Code: "25",
 					},
-					"Patuakhali": {
+					"PATUAKHALI": {
 						Code: "51",
 					},
-					"Pirojpur": {
+					"PIROJPUR": {
 						Code: "50",
 					},
 				},
 			},
-			"Chittagong": {
+			"CHITTAGONG": {
 				Code: "B",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bandarban": {
+					"BANDARBAN": {
 						Code: "01",
 					},
-					"Brahmanbaria": {
+					"BRAHMANBARIA": {
 						Code: "04",
 					},
-					"Chandpur": {
+					"CHANDPUR": {
 						Code: "09",
 					},
-					"Chittagong": {
+					"CHITTAGONG": {
 						Code: "10",
 					},
-					"Comilla": {
+					"COMILLA": {
 						Code: "08",
 					},
-					"Cox's Bazar": {
+					"COX'S BAZAR": {
 						Code: "11",
 					},
-					"Feni": {
+					"FENI": {
 						Code: "16",
 					},
-					"Khagrachhari": {
+					"KHAGRACHHARI": {
 						Code: "29",
 					},
-					"Lakshmipur": {
+					"LAKSHMIPUR": {
 						Code: "31",
 					},
-					"Noakhali": {
+					"NOAKHALI": {
 						Code: "47",
 					},
-					"Rangamati": {
+					"RANGAMATI": {
 						Code: "56",
 					},
 				},
 			},
-			"Dhaka": {
+			"DHAKA": {
 				Code: "C",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Dhaka": {
+					"DHAKA": {
 						Code: "13",
 					},
-					"Faridpur": {
+					"FARIDPUR": {
 						Code: "15",
 					},
-					"Gazipur": {
+					"GAZIPUR": {
 						Code: "18",
 					},
-					"Gopalganj": {
+					"GOPALGANJ": {
 						Code: "17",
 					},
-					"Kishoreganj": {
+					"KISHOREGANJ": {
 						Code: "26",
 					},
-					"Madaripur": {
+					"MADARIPUR": {
 						Code: "36",
 					},
-					"Manikganj": {
+					"MANIKGANJ": {
 						Code: "33",
 					},
-					"Munshiganj": {
+					"MUNSHIGANJ": {
 						Code: "35",
 					},
-					"Narayanganj": {
+					"NARAYANGANJ": {
 						Code: "40",
 					},
-					"Narsingdi": {
+					"NARSINGDI": {
 						Code: "42",
 					},
-					"Rajbari": {
+					"RAJBARI": {
 						Code: "53",
 					},
-					"Shariatpur": {
+					"SHARIATPUR": {
 						Code: "62",
 					},
-					"Tangail": {
+					"TANGAIL": {
 						Code: "63",
 					},
 				},
 			},
-			"Khulna": {
+			"KHULNA": {
 				Code: "D",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bagerhat": {
+					"BAGERHAT": {
 						Code: "05",
 					},
-					"Chuadanga": {
+					"CHUADANGA": {
 						Code: "12",
 					},
-					"Jessore": {
+					"JESSORE": {
 						Code: "22",
 					},
-					"Jhenaidah": {
+					"JHENAIDAH": {
 						Code: "23",
 					},
-					"Khulna": {
+					"KHULNA": {
 						Code: "27",
 					},
-					"Kushtia": {
+					"KUSHTIA": {
 						Code: "30",
 					},
-					"Magura": {
+					"MAGURA": {
 						Code: "37",
 					},
-					"Meherpur": {
+					"MEHERPUR": {
 						Code: "39",
 					},
-					"Narail": {
+					"NARAIL": {
 						Code: "43",
 					},
-					"Satkhira": {
+					"SATKHIRA": {
 						Code: "58",
 					},
 				},
 			},
-			"Mymensingh": {
+			"MYMENSINGH": {
 				Code: "H",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Jamalpur": {
+					"JAMALPUR": {
 						Code: "21",
 					},
-					"Mymensingh": {
+					"MYMENSINGH": {
 						Code: "34",
 					},
-					"Netrakona": {
+					"NETRAKONA": {
 						Code: "41",
 					},
-					"Sherpur": {
+					"SHERPUR": {
 						Code: "57",
 					},
 				},
 			},
-			"Rajshahi": {
+			"RAJSHAHI": {
 				Code: "E",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bogra": {
+					"BOGRA": {
 						Code: "03",
 					},
-					"Chapai Nawabganj": {
+					"CHAPAI NAWABGANJ": {
 						Code: "45",
 					},
-					"Joypurhat": {
+					"JOYPURHAT": {
 						Code: "24",
 					},
-					"Naogaon": {
+					"NAOGAON": {
 						Code: "48",
 					},
-					"Natore": {
+					"NATORE": {
 						Code: "44",
 					},
-					"Pabna": {
+					"PABNA": {
 						Code: "49",
 					},
-					"Rajshahi": {
+					"RAJSHAHI": {
 						Code: "54",
 					},
-					"Sirajganj": {
+					"SIRAJGANJ": {
 						Code: "59",
 					},
 				},
 			},
-			"Rangpur": {
+			"RANGPUR": {
 				Code: "F",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Dinajpur": {
+					"DINAJPUR": {
 						Code: "14",
 					},
-					"Gaibandha": {
+					"GAIBANDHA": {
 						Code: "19",
 					},
-					"Kurigram": {
+					"KURIGRAM": {
 						Code: "28",
 					},
-					"Lalmonirhat": {
+					"LALMONIRHAT": {
 						Code: "32",
 					},
-					"Nilphamari": {
+					"NILPHAMARI": {
 						Code: "46",
 					},
-					"Panchagarh": {
+					"PANCHAGARH": {
 						Code: "52",
 					},
-					"Rangpur": {
+					"RANGPUR": {
 						Code: "55",
 					},
-					"Thakurgaon": {
+					"THAKURGAON": {
 						Code: "64",
 					},
 				},
 			},
-			"Sylhet": {
+			"SYLHET": {
 				Code: "G",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Habiganj": {
+					"HABIGANJ": {
 						Code: "20",
 					},
-					"Moulvibazar": {
+					"MOULVIBAZAR": {
 						Code: "38",
 					},
-					"Sunamganj": {
+					"SUNAMGANJ": {
 						Code: "61",
 					},
-					"Sylhet": {
+					"SYLHET": {
 						Code: "60",
 					},
 				},
@@ -3193,49 +3193,49 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Brussels Hoofdstedelijk Gewest": {
+			"BRUSSELS HOOFDSTEDELIJK GEWEST": {
 				Code: "BRU",
 			},
-			"Vlaams Gewest": {
+			"VLAAMS GEWEST": {
 				Code: "VLG",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Antwerpen": {
+					"ANTWERPEN": {
 						Code: "VAN",
 					},
-					"Limburg": {
+					"LIMBURG": {
 						Code: "VLI",
 					},
-					"Oost-Vlaanderen": {
+					"OOST-VLAANDEREN": {
 						Code: "VOV",
 					},
-					"Vlaams-Brabant": {
+					"VLAAMS-BRABANT": {
 						Code: "VBR",
 					},
-					"West-Vlaanderen": {
+					"WEST-VLAANDEREN": {
 						Code: "VWV",
 					},
 				},
 			},
-			"wallonne, Région": {
+			"WALLONNE, RÉGION": {
 				Code: "WAL",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Brabant wallon": {
+					"BRABANT WALLON": {
 						Code: "WBR",
 					},
-					"Hainaut": {
+					"HAINAUT": {
 						Code: "WHT",
 					},
-					"Liège": {
+					"LIÈGE": {
 						Code: "WLG",
 					},
-					"Luxembourg": {
+					"LUXEMBOURG": {
 						Code: "WLX",
 					},
-					"Namur": {
+					"NAMUR": {
 						Code: "WNA",
 					},
 				},
@@ -3657,228 +3657,228 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Boucle du Mouhoun": {
+			"BOUCLE DU MOUHOUN": {
 				Code: "01",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Balé": {
+					"BALÉ": {
 						Code: "BAL",
 					},
-					"Banwa": {
+					"BANWA": {
 						Code: "BAN",
 					},
-					"Kossi": {
+					"KOSSI": {
 						Code: "KOS",
 					},
-					"Mouhoun": {
+					"MOUHOUN": {
 						Code: "MOU",
 					},
-					"Nayala": {
+					"NAYALA": {
 						Code: "NAY",
 					},
-					"Sourou": {
+					"SOUROU": {
 						Code: "SOR",
 					},
 				},
 			},
-			"Cascades": {
+			"CASCADES": {
 				Code: "02",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Comoé": {
+					"COMOÉ": {
 						Code: "COM",
 					},
-					"Léraba": {
+					"LÉRABA": {
 						Code: "LER",
 					},
 				},
 			},
-			"Centre": {
+			"CENTRE": {
 				Code: "03",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Kadiogo": {
+					"KADIOGO": {
 						Code: "KAD",
 					},
 				},
 			},
-			"Centre-Est": {
+			"CENTRE-EST": {
 				Code: "04",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Boulgou": {
+					"BOULGOU": {
 						Code: "BLG",
 					},
-					"Koulpélogo": {
+					"KOULPÉLOGO": {
 						Code: "KOP",
 					},
-					"Kouritenga": {
+					"KOURITENGA": {
 						Code: "KOT",
 					},
 				},
 			},
-			"Centre-Nord": {
+			"CENTRE-NORD": {
 				Code: "05",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bam": {
+					"BAM": {
 						Code: "BAM",
 					},
-					"Namentenga": {
+					"NAMENTENGA": {
 						Code: "NAM",
 					},
-					"Sanmatenga": {
+					"SANMATENGA": {
 						Code: "SMT",
 					},
 				},
 			},
-			"Centre-Ouest": {
+			"CENTRE-OUEST": {
 				Code: "06",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Boulkiemdé": {
+					"BOULKIEMDÉ": {
 						Code: "BLK",
 					},
-					"Sanguié": {
+					"SANGUIÉ": {
 						Code: "SNG",
 					},
-					"Sissili": {
+					"SISSILI": {
 						Code: "SIS",
 					},
-					"Ziro": {
+					"ZIRO": {
 						Code: "ZIR",
 					},
 				},
 			},
-			"Centre-Sud": {
+			"CENTRE-SUD": {
 				Code: "07",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bazèga": {
+					"BAZÈGA": {
 						Code: "BAZ",
 					},
-					"Nahouri": {
+					"NAHOURI": {
 						Code: "NAO",
 					},
-					"Zoundwéogo": {
+					"ZOUNDWÉOGO": {
 						Code: "ZOU",
 					},
 				},
 			},
-			"Est": {
+			"EST": {
 				Code: "08",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Gnagna": {
+					"GNAGNA": {
 						Code: "GNA",
 					},
-					"Gourma": {
+					"GOURMA": {
 						Code: "GOU",
 					},
-					"Komondjari": {
+					"KOMONDJARI": {
 						Code: "KMD",
 					},
-					"Kompienga": {
+					"KOMPIENGA": {
 						Code: "KMP",
 					},
-					"Tapoa": {
+					"TAPOA": {
 						Code: "TAP",
 					},
 				},
 			},
-			"Hauts-Bassins": {
+			"HAUTS-BASSINS": {
 				Code: "09",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Houet": {
+					"HOUET": {
 						Code: "HOU",
 					},
-					"Kénédougou": {
+					"KÉNÉDOUGOU": {
 						Code: "KEN",
 					},
-					"Tuy": {
+					"TUY": {
 						Code: "TUI",
 					},
 				},
 			},
-			"Nord": {
+			"NORD": {
 				Code: "10",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Loroum": {
+					"LOROUM": {
 						Code: "LOR",
 					},
-					"Passoré": {
+					"PASSORÉ": {
 						Code: "PAS",
 					},
-					"Yatenga": {
+					"YATENGA": {
 						Code: "YAT",
 					},
-					"Zondoma": {
+					"ZONDOMA": {
 						Code: "ZON",
 					},
 				},
 			},
-			"Plateau-Central": {
+			"PLATEAU-CENTRAL": {
 				Code: "11",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Ganzourgou": {
+					"GANZOURGOU": {
 						Code: "GAN",
 					},
-					"Kourwéogo": {
+					"KOURWÉOGO": {
 						Code: "KOW",
 					},
-					"Oubritenga": {
+					"OUBRITENGA": {
 						Code: "OUB",
 					},
 				},
 			},
-			"Sahel": {
+			"SAHEL": {
 				Code: "12",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Oudalan": {
+					"OUDALAN": {
 						Code: "OUD",
 					},
-					"Soum": {
+					"SOUM": {
 						Code: "SOM",
 					},
-					"Séno": {
+					"SÉNO": {
 						Code: "SEN",
 					},
-					"Yagha": {
+					"YAGHA": {
 						Code: "YAG",
 					},
 				},
 			},
-			"Sud-Ouest": {
+			"SUD-OUEST": {
 				Code: "13",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bougouriba": {
+					"BOUGOURIBA": {
 						Code: "BGR",
 					},
-					"Ioba": {
+					"IOBA": {
 						Code: "IOB",
 					},
-					"Noumbiel": {
+					"NOUMBIEL": {
 						Code: "NOU",
 					},
-					"Poni": {
+					"PONI": {
 						Code: "PON",
 					},
 				},
@@ -4068,88 +4068,88 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Blagoevgrad": {
+			"BLAGOEVGRAD": {
 				Code: "01",
 			},
-			"Burgas": {
+			"BURGAS": {
 				Code: "02",
 			},
-			"Dobrich": {
+			"DOBRICH": {
 				Code: "08",
 			},
-			"Gabrovo": {
+			"GABROVO": {
 				Code: "07",
 			},
-			"Haskovo": {
+			"HASKOVO": {
 				Code: "26",
 			},
-			"Kardzhali": {
+			"KARDZHALI": {
 				Code: "09",
 			},
-			"Kyustendil": {
+			"KYUSTENDIL": {
 				Code: "10",
 			},
-			"Lovech": {
+			"LOVECH": {
 				Code: "11",
 			},
-			"Montana": {
+			"MONTANA": {
 				Code: "12",
 			},
-			"Pazardzhik": {
+			"PAZARDZHIK": {
 				Code: "13",
 			},
-			"Pernik": {
+			"PERNIK": {
 				Code: "14",
 			},
-			"Pleven": {
+			"PLEVEN": {
 				Code: "15",
 			},
-			"Plovdiv": {
+			"PLOVDIV": {
 				Code: "16",
 			},
-			"Razgrad": {
+			"RAZGRAD": {
 				Code: "17",
 			},
-			"Ruse": {
+			"RUSE": {
 				Code: "18",
 			},
-			"Shumen": {
+			"SHUMEN": {
 				Code: "27",
 			},
-			"Silistra": {
+			"SILISTRA": {
 				Code: "19",
 			},
-			"Sliven": {
+			"SLIVEN": {
 				Code: "20",
 			},
-			"Smolyan": {
+			"SMOLYAN": {
 				Code: "21",
 			},
-			"Sofia": {
+			"SOFIA": {
 				Code: "23",
 			},
-			"Sofia (stolitsa)": {
+			"SOFIA (STOLITSA)": {
 				Code: "22",
 			},
-			"Stara Zagora": {
+			"STARA ZAGORA": {
 				Code: "24",
 			},
-			"Targovishte": {
+			"TARGOVISHTE": {
 				Code: "25",
 			},
-			"Varna": {
+			"VARNA": {
 				Code: "03",
 			},
-			"Veliko Tarnovo": {
+			"VELIKO TARNOVO": {
 				Code: "04",
 			},
-			"Vidin": {
+			"VIDIN": {
 				Code: "05",
 			},
-			"Vratsa": {
+			"VRATSA": {
 				Code: "06",
 			},
-			"Yambol": {
+			"YAMBOL": {
 				Code: "28",
 			},
 		},
@@ -4193,16 +4193,16 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Al Janūbīyah": {
+			"AL JANŪBĪYAH": {
 				Code: "14",
 			},
-			"Al Muḩarraq": {
+			"AL MUḨARRAQ": {
 				Code: "15",
 			},
-			"Al ‘Āşimah": {
+			"AL ‘ĀŞIMAH": {
 				Code: "13",
 			},
-			"Ash Shamālīyah": {
+			"ASH SHAMĀLĪYAH": {
 				Code: "17",
 			},
 		},
@@ -4330,58 +4330,58 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bubanza": {
+			"BUBANZA": {
 				Code: "BB",
 			},
-			"Bujumbura Mairie": {
+			"BUJUMBURA MAIRIE": {
 				Code: "BM",
 			},
-			"Bujumbura Rural": {
+			"BUJUMBURA RURAL": {
 				Code: "BL",
 			},
-			"Bururi": {
+			"BURURI": {
 				Code: "BR",
 			},
-			"Cankuzo": {
+			"CANKUZO": {
 				Code: "CA",
 			},
-			"Cibitoke": {
+			"CIBITOKE": {
 				Code: "CI",
 			},
-			"Gitega": {
+			"GITEGA": {
 				Code: "GI",
 			},
-			"Karuzi": {
+			"KARUZI": {
 				Code: "KR",
 			},
-			"Kayanza": {
+			"KAYANZA": {
 				Code: "KY",
 			},
-			"Kirundo": {
+			"KIRUNDO": {
 				Code: "KI",
 			},
-			"Makamba": {
+			"MAKAMBA": {
 				Code: "MA",
 			},
-			"Muramvya": {
+			"MURAMVYA": {
 				Code: "MU",
 			},
-			"Muyinga": {
+			"MUYINGA": {
 				Code: "MY",
 			},
-			"Mwaro": {
+			"MWARO": {
 				Code: "MW",
 			},
-			"Ngozi": {
+			"NGOZI": {
 				Code: "NG",
 			},
-			"Rumonge": {
+			"RUMONGE": {
 				Code: "RM",
 			},
-			"Rutana": {
+			"RUTANA": {
 				Code: "RT",
 			},
-			"Ruyigi": {
+			"RUYIGI": {
 				Code: "RY",
 			},
 		},
@@ -4473,40 +4473,40 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Alibori": {
+			"ALIBORI": {
 				Code: "AL",
 			},
-			"Atacora": {
+			"ATACORA": {
 				Code: "AK",
 			},
-			"Atlantique": {
+			"ATLANTIQUE": {
 				Code: "AQ",
 			},
-			"Borgou": {
+			"BORGOU": {
 				Code: "BO",
 			},
-			"Collines": {
+			"COLLINES": {
 				Code: "CO",
 			},
-			"Couffo": {
+			"COUFFO": {
 				Code: "KO",
 			},
-			"Donga": {
+			"DONGA": {
 				Code: "DO",
 			},
-			"Littoral": {
+			"LITTORAL": {
 				Code: "LI",
 			},
-			"Mono": {
+			"MONO": {
 				Code: "MO",
 			},
-			"Ouémé": {
+			"OUÉMÉ": {
 				Code: "OU",
 			},
-			"Plateau": {
+			"PLATEAU": {
 				Code: "PL",
 			},
-			"Zou": {
+			"ZOU": {
 				Code: "ZO",
 			},
 		},
@@ -4568,16 +4568,16 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Belait": {
+			"BELAIT": {
 				Code: "BE",
 			},
-			"Brunei-Muara": {
+			"BRUNEI-MUARA": {
 				Code: "BM",
 			},
-			"Temburong": {
+			"TEMBURONG": {
 				Code: "TE",
 			},
-			"Tutong": {
+			"TUTONG": {
 				Code: "TU",
 			},
 		},
@@ -4651,31 +4651,31 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Chuquisaca": {
+			"CHUQUISACA": {
 				Code: "H",
 			},
-			"Cochabamba": {
+			"COCHABAMBA": {
 				Code: "C",
 			},
-			"El Beni": {
+			"EL BENI": {
 				Code: "B",
 			},
-			"La Paz": {
+			"LA PAZ": {
 				Code: "L",
 			},
-			"Oruro": {
+			"ORURO": {
 				Code: "O",
 			},
-			"Pando": {
+			"PANDO": {
 				Code: "N",
 			},
-			"Potosí": {
+			"POTOSÍ": {
 				Code: "P",
 			},
-			"Santa Cruz": {
+			"SANTA CRUZ": {
 				Code: "S",
 			},
-			"Tarija": {
+			"TARIJA": {
 				Code: "T",
 			},
 		},
@@ -4713,13 +4713,13 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bonaire": {
+			"BONAIRE": {
 				Code: "BO",
 			},
-			"Saba": {
+			"SABA": {
 				Code: "SA",
 			},
-			"Sint Eustatius": {
+			"SINT EUSTATIUS": {
 				Code: "SE",
 			},
 		},
@@ -4901,85 +4901,85 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Acre": {
+			"ACRE": {
 				Code: "AC",
 			},
-			"Alagoas": {
+			"ALAGOAS": {
 				Code: "AL",
 			},
-			"Amapá": {
+			"AMAPÁ": {
 				Code: "AP",
 			},
-			"Amazonas": {
+			"AMAZONAS": {
 				Code: "AM",
 			},
-			"Bahia": {
+			"BAHIA": {
 				Code: "BA",
 			},
-			"Ceará": {
+			"CEARÁ": {
 				Code: "CE",
 			},
-			"Distrito Federal": {
+			"DISTRITO FEDERAL": {
 				Code: "DF",
 			},
-			"Espírito Santo": {
+			"ESPÍRITO SANTO": {
 				Code: "ES",
 			},
-			"Goiás": {
+			"GOIÁS": {
 				Code: "GO",
 			},
-			"Maranhão": {
+			"MARANHÃO": {
 				Code: "MA",
 			},
-			"Mato Grosso": {
+			"MATO GROSSO": {
 				Code: "MT",
 			},
-			"Mato Grosso do Sul": {
+			"MATO GROSSO DO SUL": {
 				Code: "MS",
 			},
-			"Minas Gerais": {
+			"MINAS GERAIS": {
 				Code: "MG",
 			},
-			"Paraná": {
+			"PARANÁ": {
 				Code: "PR",
 			},
-			"Paraíba": {
+			"PARAÍBA": {
 				Code: "PB",
 			},
-			"Pará": {
+			"PARÁ": {
 				Code: "PA",
 			},
-			"Pernambuco": {
+			"PERNAMBUCO": {
 				Code: "PE",
 			},
-			"Piauí": {
+			"PIAUÍ": {
 				Code: "PI",
 			},
-			"Rio Grande do Norte": {
-				Code: "RN",
-			},
-			"Rio Grande do Sul": {
-				Code: "RS",
-			},
-			"Rio de Janeiro": {
+			"RIO DE JANEIRO": {
 				Code: "RJ",
 			},
-			"Rondônia": {
+			"RIO GRANDE DO NORTE": {
+				Code: "RN",
+			},
+			"RIO GRANDE DO SUL": {
+				Code: "RS",
+			},
+			"RONDÔNIA": {
 				Code: "RO",
 			},
-			"Roraima": {
+			"RORAIMA": {
 				Code: "RR",
 			},
-			"Santa Catarina": {
+			"SANTA CATARINA": {
 				Code: "SC",
 			},
-			"Sergipe": {
+			"SERGIPE": {
 				Code: "SE",
 			},
-			"São Paulo": {
+			"SÃO PAULO": {
 				Code: "SP",
 			},
-			"Tocantins": {
+			"TOCANTINS": {
 				Code: "TO",
 			},
 		},
@@ -5191,100 +5191,100 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Acklins": {
+			"ACKLINS": {
 				Code: "AK",
 			},
-			"Berry Islands": {
+			"BERRY ISLANDS": {
 				Code: "BY",
 			},
-			"Bimini": {
+			"BIMINI": {
 				Code: "BI",
 			},
-			"Black Point": {
+			"BLACK POINT": {
 				Code: "BP",
 			},
-			"Cat Island": {
+			"CAT ISLAND": {
 				Code: "CI",
 			},
-			"Central Abaco": {
+			"CENTRAL ABACO": {
 				Code: "CO",
 			},
-			"Central Andros": {
+			"CENTRAL ANDROS": {
 				Code: "CS",
 			},
-			"Central Eleuthera": {
+			"CENTRAL ELEUTHERA": {
 				Code: "CE",
 			},
-			"City of Freeport": {
+			"CITY OF FREEPORT": {
 				Code: "FP",
 			},
-			"Crooked Island and Long Cay": {
+			"CROOKED ISLAND AND LONG CAY": {
 				Code: "CK",
 			},
-			"East Grand Bahama": {
+			"EAST GRAND BAHAMA": {
 				Code: "EG",
 			},
-			"Exuma": {
+			"EXUMA": {
 				Code: "EX",
 			},
-			"Grand Cay": {
+			"GRAND CAY": {
 				Code: "GC",
 			},
-			"Harbour Island": {
+			"HARBOUR ISLAND": {
 				Code: "HI",
 			},
-			"Hope Town": {
+			"HOPE TOWN": {
 				Code: "HT",
 			},
-			"Inagua": {
+			"INAGUA": {
 				Code: "IN",
 			},
-			"Long Island": {
+			"LONG ISLAND": {
 				Code: "LI",
 			},
-			"Mangrove Cay": {
+			"MANGROVE CAY": {
 				Code: "MC",
 			},
-			"Mayaguana": {
+			"MAYAGUANA": {
 				Code: "MG",
 			},
-			"Moore's Island": {
+			"MOORE'S ISLAND": {
 				Code: "MI",
 			},
-			"New Providence": {
+			"NEW PROVIDENCE": {
 				Code: "NP",
 			},
-			"North Abaco": {
+			"NORTH ABACO": {
 				Code: "NO",
 			},
-			"North Andros": {
+			"NORTH ANDROS": {
 				Code: "NS",
 			},
-			"North Eleuthera": {
+			"NORTH ELEUTHERA": {
 				Code: "NE",
 			},
-			"Ragged Island": {
+			"RAGGED ISLAND": {
 				Code: "RI",
 			},
-			"Rum Cay": {
+			"RUM CAY": {
 				Code: "RC",
 			},
-			"San Salvador": {
+			"SAN SALVADOR": {
 				Code: "SS",
 			},
-			"South Abaco": {
+			"SOUTH ABACO": {
 				Code: "SO",
 			},
-			"South Andros": {
+			"SOUTH ANDROS": {
 				Code: "SA",
 			},
-			"South Eleuthera": {
+			"SOUTH ELEUTHERA": {
 				Code: "SE",
 			},
-			"Spanish Wells": {
+			"SPANISH WELLS": {
 				Code: "SW",
 			},
-			"West Grand Bahama": {
+			"WEST GRAND BAHAMA": {
 				Code: "WG",
 			},
 		},
@@ -5424,64 +5424,64 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bumthang": {
+			"BUMTHANG": {
 				Code: "33",
 			},
-			"Chhukha": {
+			"CHHUKHA": {
 				Code: "12",
 			},
-			"Dagana": {
+			"DAGANA": {
 				Code: "22",
 			},
-			"Gasa": {
+			"GASA": {
 				Code: "GA",
 			},
-			"Haa": {
+			"HAA": {
 				Code: "13",
 			},
-			"Lhuentse": {
+			"LHUENTSE": {
 				Code: "44",
 			},
-			"Monggar": {
+			"MONGGAR": {
 				Code: "42",
 			},
-			"Paro": {
+			"PARO": {
 				Code: "11",
 			},
-			"Pemagatshel": {
+			"PEMAGATSHEL": {
 				Code: "43",
 			},
-			"Punakha": {
+			"PUNAKHA": {
 				Code: "23",
 			},
-			"Samdrup Jongkhar": {
+			"SAMDRUP JONGKHAR": {
 				Code: "45",
 			},
-			"Samtse": {
+			"SAMTSE": {
 				Code: "14",
 			},
-			"Sarpang": {
+			"SARPANG": {
 				Code: "31",
 			},
-			"Thimphu": {
+			"THIMPHU": {
 				Code: "15",
 			},
-			"Trashi Yangtse": {
+			"TRASHI YANGTSE": {
 				Code: "TY",
 			},
-			"Trashigang": {
+			"TRASHIGANG": {
 				Code: "41",
 			},
-			"Trongsa": {
+			"TRONGSA": {
 				Code: "32",
 			},
-			"Tsirang": {
+			"TSIRANG": {
 				Code: "21",
 			},
-			"Wangdue Phodrang": {
+			"WANGDUE PHODRANG": {
 				Code: "24",
 			},
-			"Zhemgang": {
+			"ZHEMGANG": {
 				Code: "34",
 			},
 		},
@@ -5606,52 +5606,52 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Central": {
+			"CENTRAL": {
 				Code: "CE",
 			},
-			"Chobe": {
+			"CHOBE": {
 				Code: "CH",
 			},
-			"Francistown": {
+			"FRANCISTOWN": {
 				Code: "FR",
 			},
-			"Gaborone": {
+			"GABORONE": {
 				Code: "GA",
 			},
-			"Ghanzi": {
+			"GHANZI": {
 				Code: "GH",
 			},
-			"Jwaneng": {
+			"JWANENG": {
 				Code: "JW",
 			},
-			"Kgalagadi": {
+			"KGALAGADI": {
 				Code: "KG",
 			},
-			"Kgatleng": {
+			"KGATLENG": {
 				Code: "KL",
 			},
-			"Kweneng": {
+			"KWENENG": {
 				Code: "KW",
 			},
-			"Lobatse": {
+			"LOBATSE": {
 				Code: "LO",
 			},
-			"North East": {
+			"NORTH EAST": {
 				Code: "NE",
 			},
-			"North West": {
+			"NORTH WEST": {
 				Code: "NW",
 			},
-			"Selibe Phikwe": {
+			"SELIBE PHIKWE": {
 				Code: "SP",
 			},
-			"South East": {
+			"SOUTH EAST": {
 				Code: "SE",
 			},
-			"Southern": {
+			"SOUTHERN": {
 				Code: "SO",
 			},
-			"Sowa Town": {
+			"SOWA TOWN": {
 				Code: "ST",
 			},
 		},
@@ -5713,25 +5713,25 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bresckaja voblasć": {
+			"BRESCKAJA VOBLASĆ": {
 				Code: "BR",
 			},
-			"Homieĺskaja voblasć": {
+			"HOMIEĹSKAJA VOBLASĆ": {
 				Code: "HO",
 			},
-			"Horad Minsk": {
+			"HORAD MINSK": {
 				Code: "HM",
 			},
-			"Hrodzienskaja voblasć": {
+			"HRODZIENSKAJA VOBLASĆ": {
 				Code: "HR",
 			},
-			"Mahilioŭskaja voblasć": {
+			"MAHILIOŬSKAJA VOBLASĆ": {
 				Code: "MA",
 			},
-			"Minskaja voblasć": {
+			"MINSKAJA VOBLASĆ": {
 				Code: "MI",
 			},
-			"Viciebskaja voblasć": {
+			"VICIEBSKAJA VOBLASĆ": {
 				Code: "VI",
 			},
 		},
@@ -5787,22 +5787,22 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Belize": {
+			"BELIZE": {
 				Code: "BZ",
 			},
-			"Cayo": {
+			"CAYO": {
 				Code: "CY",
 			},
-			"Corozal": {
+			"COROZAL": {
 				Code: "CZL",
 			},
-			"Orange Walk": {
+			"ORANGE WALK": {
 				Code: "OW",
 			},
-			"Stann Creek": {
+			"STANN CREEK": {
 				Code: "SC",
 			},
-			"Toledo": {
+			"TOLEDO": {
 				Code: "TOL",
 			},
 		},
@@ -5900,43 +5900,43 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Alberta": {
+			"ALBERTA": {
 				Code: "AB",
 			},
-			"British Columbia": {
+			"BRITISH COLUMBIA": {
 				Code: "BC",
 			},
-			"Manitoba": {
+			"MANITOBA": {
 				Code: "MB",
 			},
-			"New Brunswick": {
+			"NEW BRUNSWICK": {
 				Code: "NB",
 			},
-			"Newfoundland and Labrador": {
+			"NEWFOUNDLAND AND LABRADOR": {
 				Code: "NL",
 			},
-			"Northwest Territories": {
+			"NORTHWEST TERRITORIES": {
 				Code: "NT",
 			},
-			"Nova Scotia": {
+			"NOVA SCOTIA": {
 				Code: "NS",
 			},
-			"Nunavut": {
+			"NUNAVUT": {
 				Code: "NU",
 			},
-			"Ontario": {
+			"ONTARIO": {
 				Code: "ON",
 			},
-			"Prince Edward Island": {
+			"PRINCE EDWARD ISLAND": {
 				Code: "PE",
 			},
-			"Quebec": {
+			"QUEBEC": {
 				Code: "QC",
 			},
-			"Saskatchewan": {
+			"SASKATCHEWAN": {
 				Code: "SK",
 			},
-			"Yukon": {
+			"YUKON": {
 				Code: "YT",
 			},
 		},
@@ -6121,82 +6121,82 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bas-Uélé": {
+			"BAS-UÉLÉ": {
 				Code: "BU",
 			},
-			"Haut-Katanga": {
+			"HAUT-KATANGA": {
 				Code: "HK",
 			},
-			"Haut-Lomami": {
+			"HAUT-LOMAMI": {
 				Code: "HL",
 			},
-			"Haut-Uélé": {
+			"HAUT-UÉLÉ": {
 				Code: "HU",
 			},
-			"Ituri": {
+			"ITURI": {
 				Code: "IT",
 			},
-			"Kasaï": {
+			"KASAÏ": {
 				Code: "KS",
 			},
-			"Kasaï Central": {
+			"KASAÏ CENTRAL": {
 				Code: "KC",
 			},
-			"Kasaï Oriental": {
+			"KASAÏ ORIENTAL": {
 				Code: "KE",
 			},
-			"Kinshasa": {
+			"KINSHASA": {
 				Code: "KN",
 			},
-			"Kongo Central": {
+			"KONGO CENTRAL": {
 				Code: "BC",
 			},
-			"Kwango": {
+			"KWANGO": {
 				Code: "KG",
 			},
-			"Kwilu": {
+			"KWILU": {
 				Code: "KL",
 			},
-			"Lomami": {
+			"LOMAMI": {
 				Code: "LO",
 			},
-			"Lualaba": {
+			"LUALABA": {
 				Code: "LU",
 			},
-			"Mai-Ndombe": {
+			"MAI-NDOMBE": {
 				Code: "MN",
 			},
-			"Maniema": {
+			"MANIEMA": {
 				Code: "MA",
 			},
-			"Mongala": {
+			"MONGALA": {
 				Code: "MO",
 			},
-			"Nord-Kivu": {
+			"NORD-KIVU": {
 				Code: "NK",
 			},
-			"Nord-Ubangi": {
+			"NORD-UBANGI": {
 				Code: "NU",
 			},
-			"Sankuru": {
+			"SANKURU": {
 				Code: "SA",
 			},
-			"Sud-Kivu": {
+			"SUD-KIVU": {
 				Code: "SK",
 			},
-			"Sud-Ubangi": {
+			"SUD-UBANGI": {
 				Code: "SU",
 			},
-			"Tanganyika": {
+			"TANGANYIKA": {
 				Code: "TA",
 			},
-			"Tshopo": {
+			"TSHOPO": {
 				Code: "TO",
 			},
-			"Tshuapa": {
+			"TSHUAPA": {
 				Code: "TU",
 			},
-			"Équateur": {
+			"ÉQUATEUR": {
 				Code: "EQ",
 			},
 		},
@@ -6318,55 +6318,55 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bamingui-Bangoran": {
+			"BAMINGUI-BANGORAN": {
 				Code: "BB",
 			},
-			"Bangui": {
+			"BANGUI": {
 				Code: "BGF",
 			},
-			"Basse-Kotto": {
+			"BASSE-KOTTO": {
 				Code: "BK",
 			},
-			"Gribingui": {
+			"GRIBINGUI": {
 				Code: "KB",
 			},
-			"Haut-Mbomou": {
+			"HAUT-MBOMOU": {
 				Code: "HM",
 			},
-			"Haute-Kotto": {
+			"HAUTE-KOTTO": {
 				Code: "HK",
 			},
-			"Haute-Sangha / Mambéré-Kadéï": {
+			"HAUTE-SANGHA / MAMBÉRÉ-KADÉÏ": {
 				Code: "HS",
 			},
-			"Kémo-Gribingui": {
+			"KÉMO-GRIBINGUI": {
 				Code: "KG",
 			},
-			"Lobaye": {
+			"LOBAYE": {
 				Code: "LB",
 			},
-			"Mbomou": {
+			"MBOMOU": {
 				Code: "MB",
 			},
-			"Nana-Mambéré": {
+			"NANA-MAMBÉRÉ": {
 				Code: "NM",
 			},
-			"Ombella-Mpoko": {
+			"OMBELLA-MPOKO": {
 				Code: "MP",
 			},
-			"Ouaka": {
+			"OUAKA": {
 				Code: "UK",
 			},
-			"Ouham": {
+			"OUHAM": {
 				Code: "AC",
 			},
-			"Ouham-Pendé": {
+			"OUHAM-PENDÉ": {
 				Code: "OP",
 			},
-			"Sangha": {
+			"SANGHA": {
 				Code: "SE",
 			},
-			"Vakaga": {
+			"VAKAGA": {
 				Code: "VK",
 			},
 		},
@@ -6458,40 +6458,40 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bouenza": {
+			"BOUENZA": {
 				Code: "11",
 			},
-			"Brazzaville": {
+			"BRAZZAVILLE": {
 				Code: "BZV",
 			},
-			"Cuvette": {
+			"CUVETTE": {
 				Code: "8",
 			},
-			"Cuvette-Ouest": {
+			"CUVETTE-OUEST": {
 				Code: "15",
 			},
-			"Kouilou": {
+			"KOUILOU": {
 				Code: "5",
 			},
-			"Likouala": {
+			"LIKOUALA": {
 				Code: "7",
 			},
-			"Lékoumou": {
+			"LÉKOUMOU": {
 				Code: "2",
 			},
-			"Niari": {
+			"NIARI": {
 				Code: "9",
 			},
-			"Plateaux": {
+			"PLATEAUX": {
 				Code: "14",
 			},
-			"Pointe-Noire": {
+			"POINTE-NOIRE": {
 				Code: "16",
 			},
-			"Pool": {
+			"POOL": {
 				Code: "12",
 			},
-			"Sangha": {
+			"SANGHA": {
 				Code: "13",
 			},
 		},
@@ -6667,82 +6667,82 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aargau": {
+			"AARGAU": {
 				Code: "AG",
 			},
-			"Appenzell Ausserrhoden": {
+			"APPENZELL AUSSERRHODEN": {
 				Code: "AR",
 			},
-			"Appenzell Innerrhoden": {
+			"APPENZELL INNERRHODEN": {
 				Code: "AI",
 			},
-			"Basel-Landschaft": {
+			"BASEL-LANDSCHAFT": {
 				Code: "BL",
 			},
-			"Basel-Stadt": {
+			"BASEL-STADT": {
 				Code: "BS",
 			},
-			"Bern": {
+			"BERN": {
 				Code: "BE",
 			},
-			"Freiburg": {
+			"FREIBURG": {
 				Code: "FR",
 			},
-			"Genève": {
+			"GENÈVE": {
 				Code: "GE",
 			},
-			"Glarus": {
+			"GLARUS": {
 				Code: "GL",
 			},
-			"Graubünden": {
+			"GRAUBÜNDEN": {
 				Code: "GR",
 			},
-			"Jura": {
+			"JURA": {
 				Code: "JU",
 			},
-			"Luzern": {
+			"LUZERN": {
 				Code: "LU",
 			},
-			"Neuchâtel": {
+			"NEUCHÂTEL": {
 				Code: "NE",
 			},
-			"Nidwalden": {
+			"NIDWALDEN": {
 				Code: "NW",
 			},
-			"Obwalden": {
+			"OBWALDEN": {
 				Code: "OW",
 			},
-			"Sankt Gallen": {
+			"SANKT GALLEN": {
 				Code: "SG",
 			},
-			"Schaffhausen": {
+			"SCHAFFHAUSEN": {
 				Code: "SH",
 			},
-			"Schwyz": {
+			"SCHWYZ": {
 				Code: "SZ",
 			},
-			"Solothurn": {
+			"SOLOTHURN": {
 				Code: "SO",
 			},
-			"Thurgau": {
+			"THURGAU": {
 				Code: "TG",
 			},
-			"Ticino": {
+			"TICINO": {
 				Code: "TI",
 			},
-			"Uri": {
+			"URI": {
 				Code: "UR",
 			},
-			"Vaud": {
+			"VAUD": {
 				Code: "VD",
 			},
-			"Wallis": {
+			"WALLIS": {
 				Code: "VS",
 			},
-			"Zug": {
+			"ZUG": {
 				Code: "ZG",
 			},
-			"Zürich": {
+			"ZÜRICH": {
 				Code: "ZH",
 			},
 		},
@@ -6846,46 +6846,46 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Abidjan": {
+			"ABIDJAN": {
 				Code: "AB",
 			},
-			"Bas-Sassandra": {
+			"BAS-SASSANDRA": {
 				Code: "BS",
 			},
-			"Comoé": {
+			"COMOÉ": {
 				Code: "CM",
 			},
-			"Denguélé": {
+			"DENGUÉLÉ": {
 				Code: "DN",
 			},
-			"Gôh-Djiboua": {
+			"GÔH-DJIBOUA": {
 				Code: "GD",
 			},
-			"Lacs": {
+			"LACS": {
 				Code: "LC",
 			},
-			"Lagunes": {
+			"LAGUNES": {
 				Code: "LG",
 			},
-			"Montagnes": {
+			"MONTAGNES": {
 				Code: "MG",
 			},
-			"Sassandra-Marahoué": {
+			"SASSANDRA-MARAHOUÉ": {
 				Code: "SM",
 			},
-			"Savanes": {
+			"SAVANES": {
 				Code: "SV",
 			},
-			"Vallée du Bandama": {
+			"VALLÉE DU BANDAMA": {
 				Code: "VB",
 			},
-			"Woroba": {
+			"WOROBA": {
 				Code: "WR",
 			},
-			"Yamoussoukro": {
+			"YAMOUSSOUKRO": {
 				Code: "YM",
 			},
-			"Zanzan": {
+			"ZANZAN": {
 				Code: "ZZ",
 			},
 		},
@@ -7010,52 +7010,52 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aisén del General Carlos Ibañez del Campo": {
+			"AISÉN DEL GENERAL CARLOS IBAÑEZ DEL CAMPO": {
 				Code: "AI",
 			},
-			"Antofagasta": {
+			"ANTOFAGASTA": {
 				Code: "AN",
 			},
-			"Arica y Parinacota": {
+			"ARICA Y PARINACOTA": {
 				Code: "AP",
 			},
-			"Atacama": {
+			"ATACAMA": {
 				Code: "AT",
 			},
-			"Biobío": {
+			"BIOBÍO": {
 				Code: "BI",
 			},
-			"Coquimbo": {
+			"COQUIMBO": {
 				Code: "CO",
 			},
-			"La Araucanía": {
+			"LA ARAUCANÍA": {
 				Code: "AR",
 			},
-			"Libertador General Bernardo O'Higgins": {
+			"LIBERTADOR GENERAL BERNARDO O'HIGGINS": {
 				Code: "LI",
 			},
-			"Los Lagos": {
+			"LOS LAGOS": {
 				Code: "LL",
 			},
-			"Los Ríos": {
+			"LOS RÍOS": {
 				Code: "LR",
 			},
-			"Magallanes": {
+			"MAGALLANES": {
 				Code: "MA",
 			},
-			"Maule": {
+			"MAULE": {
 				Code: "ML",
 			},
-			"Región Metropolitana de Santiago": {
+			"REGIÓN METROPOLITANA DE SANTIAGO": {
 				Code: "RM",
 			},
-			"Tarapacá": {
+			"TARAPACÁ": {
 				Code: "TA",
 			},
-			"Valparaíso": {
+			"VALPARAÍSO": {
 				Code: "VS",
 			},
-			"Ñuble": {
+			"ÑUBLE": {
 				Code: "NB",
 			},
 		},
@@ -7135,34 +7135,34 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Adamaoua": {
+			"ADAMAOUA": {
 				Code: "AD",
 			},
-			"Centre": {
+			"CENTRE": {
 				Code: "CE",
 			},
-			"East": {
+			"EAST": {
 				Code: "ES",
 			},
-			"Far North": {
+			"FAR NORTH": {
 				Code: "EN",
 			},
-			"Littoral": {
+			"LITTORAL": {
 				Code: "LT",
 			},
-			"North": {
+			"NORTH": {
 				Code: "NO",
 			},
-			"North-West": {
+			"NORTH-WEST": {
 				Code: "NW",
 			},
-			"South": {
+			"SOUTH": {
 				Code: "SU",
 			},
-			"South-West": {
+			"SOUTH-WEST": {
 				Code: "SW",
 			},
-			"West": {
+			"WEST": {
 				Code: "OU",
 			},
 		},
@@ -7386,106 +7386,106 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Anhui Sheng": {
+			"ANHUI SHENG": {
 				Code: "AH",
 			},
-			"Aomen Tebiexingzhengqu": {
+			"AOMEN TEBIEXINGZHENGQU": {
 				Code: "MO",
 			},
-			"Beijing Shi": {
+			"BEIJING SHI": {
 				Code: "BJ",
 			},
-			"Chongqing Shi": {
+			"CHONGQING SHI": {
 				Code: "CQ",
 			},
-			"Fujian Sheng": {
+			"FUJIAN SHENG": {
 				Code: "FJ",
 			},
-			"Gansu Sheng": {
+			"GANSU SHENG": {
 				Code: "GS",
 			},
-			"Guangdong Sheng": {
+			"GUANGDONG SHENG": {
 				Code: "GD",
 			},
-			"Guangxi Zhuangzu Zizhiqu": {
+			"GUANGXI ZHUANGZU ZIZHIQU": {
 				Code: "GX",
 			},
-			"Guizhou Sheng": {
+			"GUIZHOU SHENG": {
 				Code: "GZ",
 			},
-			"Hainan Sheng": {
+			"HAINAN SHENG": {
 				Code: "HI",
 			},
-			"Hebei Sheng": {
+			"HEBEI SHENG": {
 				Code: "HE",
 			},
-			"Heilongjiang Sheng": {
+			"HEILONGJIANG SHENG": {
 				Code: "HL",
 			},
-			"Henan Sheng": {
+			"HENAN SHENG": {
 				Code: "HA",
 			},
-			"Hubei Sheng": {
+			"HUBEI SHENG": {
 				Code: "HB",
 			},
-			"Hunan Sheng": {
+			"HUNAN SHENG": {
 				Code: "HN",
 			},
-			"Jiangsu Sheng": {
+			"JIANGSU SHENG": {
 				Code: "JS",
 			},
-			"Jiangxi Sheng": {
+			"JIANGXI SHENG": {
 				Code: "JX",
 			},
-			"Jilin Sheng": {
+			"JILIN SHENG": {
 				Code: "JL",
 			},
-			"Liaoning Sheng": {
+			"LIAONING SHENG": {
 				Code: "LN",
 			},
-			"Nei Mongol Zizhiqu": {
+			"NEI MONGOL ZIZHIQU": {
 				Code: "NM",
 			},
-			"Ningxia Huizi Zizhiqu": {
+			"NINGXIA HUIZI ZIZHIQU": {
 				Code: "NX",
 			},
-			"Qinghai Sheng": {
+			"QINGHAI SHENG": {
 				Code: "QH",
 			},
-			"Shaanxi Sheng": {
+			"SHAANXI SHENG": {
 				Code: "SN",
 			},
-			"Shandong Sheng": {
+			"SHANDONG SHENG": {
 				Code: "SD",
 			},
-			"Shanghai Shi": {
+			"SHANGHAI SHI": {
 				Code: "SH",
 			},
-			"Shanxi Sheng": {
+			"SHANXI SHENG": {
 				Code: "SX",
 			},
-			"Sichuan Sheng": {
+			"SICHUAN SHENG": {
 				Code: "SC",
 			},
-			"Taiwan Sheng": {
+			"TAIWAN SHENG": {
 				Code: "TW",
 			},
-			"Tianjin Shi": {
+			"TIANJIN SHI": {
 				Code: "TJ",
 			},
-			"Xianggang Tebiexingzhengqu": {
+			"XIANGGANG TEBIEXINGZHENGQU": {
 				Code: "HK",
 			},
-			"Xinjiang Uygur Zizhiqu": {
+			"XINJIANG UYGUR ZIZHIQU": {
 				Code: "XJ",
 			},
-			"Xizang Zizhiqu": {
+			"XIZANG ZIZHIQU": {
 				Code: "XZ",
 			},
-			"Yunnan Sheng": {
+			"YUNNAN SHENG": {
 				Code: "YN",
 			},
-			"Zhejiang Sheng": {
+			"ZHEJIANG SHENG": {
 				Code: "ZJ",
 			},
 		},
@@ -7703,103 +7703,103 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Amazonas": {
+			"AMAZONAS": {
 				Code: "AMA",
 			},
-			"Antioquia": {
+			"ANTIOQUIA": {
 				Code: "ANT",
 			},
-			"Arauca": {
+			"ARAUCA": {
 				Code: "ARA",
 			},
-			"Atlántico": {
+			"ATLÁNTICO": {
 				Code: "ATL",
 			},
-			"Bolívar": {
+			"BOLÍVAR": {
 				Code: "BOL",
 			},
-			"Boyacá": {
+			"BOYACÁ": {
 				Code: "BOY",
 			},
-			"Caldas": {
+			"CALDAS": {
 				Code: "CAL",
 			},
-			"Caquetá": {
+			"CAQUETÁ": {
 				Code: "CAQ",
 			},
-			"Casanare": {
+			"CASANARE": {
 				Code: "CAS",
 			},
-			"Cauca": {
+			"CAUCA": {
 				Code: "CAU",
 			},
-			"Cesar": {
+			"CESAR": {
 				Code: "CES",
 			},
-			"Chocó": {
+			"CHOCÓ": {
 				Code: "CHO",
 			},
-			"Cundinamarca": {
+			"CUNDINAMARCA": {
 				Code: "CUN",
 			},
-			"Córdoba": {
+			"CÓRDOBA": {
 				Code: "COR",
 			},
-			"Distrito Capital de Bogotá": {
+			"DISTRITO CAPITAL DE BOGOTÁ": {
 				Code: "DC",
 			},
-			"Guainía": {
+			"GUAINÍA": {
 				Code: "GUA",
 			},
-			"Guaviare": {
+			"GUAVIARE": {
 				Code: "GUV",
 			},
-			"Huila": {
+			"HUILA": {
 				Code: "HUI",
 			},
-			"La Guajira": {
+			"LA GUAJIRA": {
 				Code: "LAG",
 			},
-			"Magdalena": {
+			"MAGDALENA": {
 				Code: "MAG",
 			},
-			"Meta": {
+			"META": {
 				Code: "MET",
 			},
-			"Nariño": {
+			"NARIÑO": {
 				Code: "NAR",
 			},
-			"Norte de Santander": {
+			"NORTE DE SANTANDER": {
 				Code: "NSA",
 			},
-			"Putumayo": {
+			"PUTUMAYO": {
 				Code: "PUT",
 			},
-			"Quindío": {
+			"QUINDÍO": {
 				Code: "QUI",
 			},
-			"Risaralda": {
+			"RISARALDA": {
 				Code: "RIS",
 			},
-			"San Andrés, Providencia y Santa Catalina": {
+			"SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA": {
 				Code: "SAP",
 			},
-			"Santander": {
+			"SANTANDER": {
 				Code: "SAN",
 			},
-			"Sucre": {
+			"SUCRE": {
 				Code: "SUC",
 			},
-			"Tolima": {
+			"TOLIMA": {
 				Code: "TOL",
 			},
-			"Valle del Cauca": {
+			"VALLE DEL CAUCA": {
 				Code: "VAC",
 			},
-			"Vaupés": {
+			"VAUPÉS": {
 				Code: "VAU",
 			},
-			"Vichada": {
+			"VICHADA": {
 				Code: "VID",
 			},
 		},
@@ -7861,25 +7861,25 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Alajuela": {
+			"ALAJUELA": {
 				Code: "A",
 			},
-			"Cartago": {
+			"CARTAGO": {
 				Code: "C",
 			},
-			"Guanacaste": {
+			"GUANACASTE": {
 				Code: "G",
 			},
-			"Heredia": {
+			"HEREDIA": {
 				Code: "H",
 			},
-			"Limón": {
+			"LIMÓN": {
 				Code: "L",
 			},
-			"Puntarenas": {
+			"PUNTARENAS": {
 				Code: "P",
 			},
-			"San José": {
+			"SAN JOSÉ": {
 				Code: "SJ",
 			},
 		},
@@ -7995,52 +7995,52 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Artemisa": {
+			"ARTEMISA": {
 				Code: "15",
 			},
-			"Camagüey": {
+			"CAMAGÜEY": {
 				Code: "09",
 			},
-			"Ciego de Ávila": {
+			"CIEGO DE ÁVILA": {
 				Code: "08",
 			},
-			"Cienfuegos": {
+			"CIENFUEGOS": {
 				Code: "06",
 			},
-			"Granma": {
+			"GRANMA": {
 				Code: "12",
 			},
-			"Guantánamo": {
+			"GUANTÁNAMO": {
 				Code: "14",
 			},
-			"Holguín": {
+			"HOLGUÍN": {
 				Code: "11",
 			},
-			"Isla de la Juventud": {
+			"ISLA DE LA JUVENTUD": {
 				Code: "99",
 			},
-			"La Habana": {
+			"LA HABANA": {
 				Code: "03",
 			},
-			"Las Tunas": {
+			"LAS TUNAS": {
 				Code: "10",
 			},
-			"Matanzas": {
+			"MATANZAS": {
 				Code: "04",
 			},
-			"Mayabeque": {
+			"MAYABEQUE": {
 				Code: "16",
 			},
-			"Pinar del Río": {
+			"PINAR DEL RÍO": {
 				Code: "01",
 			},
-			"Sancti Spíritus": {
+			"SANCTI SPÍRITUS": {
 				Code: "07",
 			},
-			"Santiago de Cuba": {
+			"SANTIAGO DE CUBA": {
 				Code: "13",
 			},
-			"Villa Clara": {
+			"VILLA CLARA": {
 				Code: "05",
 			},
 		},
@@ -8212,82 +8212,82 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ilhas de Barlavento": {
+			"ILHAS DE BARLAVENTO": {
 				Code: "B",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Boa Vista": {
+					"BOA VISTA": {
 						Code: "BV",
 					},
-					"Paul": {
+					"PAUL": {
 						Code: "PA",
 					},
-					"Porto Novo": {
+					"PORTO NOVO": {
 						Code: "PN",
 					},
-					"Ribeira Brava": {
+					"RIBEIRA BRAVA": {
 						Code: "RB",
 					},
-					"Ribeira Grande": {
+					"RIBEIRA GRANDE": {
 						Code: "RG",
 					},
-					"Sal": {
+					"SAL": {
 						Code: "SL",
 					},
-					"São Vicente": {
+					"SÃO VICENTE": {
 						Code: "SV",
 					},
-					"Tarrafal de São Nicolau": {
+					"TARRAFAL DE SÃO NICOLAU": {
 						Code: "TS",
 					},
 				},
 			},
-			"Ilhas de Sotavento": {
+			"ILHAS DE SOTAVENTO": {
 				Code: "S",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Brava": {
+					"BRAVA": {
 						Code: "BR",
 					},
-					"Maio": {
+					"MAIO": {
 						Code: "MA",
 					},
-					"Mosteiros": {
+					"MOSTEIROS": {
 						Code: "MO",
 					},
-					"Praia": {
+					"PRAIA": {
 						Code: "PR",
 					},
-					"Ribeira Grande de Santiago": {
+					"RIBEIRA GRANDE DE SANTIAGO": {
 						Code: "RS",
 					},
-					"Santa Catarina": {
+					"SANTA CATARINA": {
 						Code: "CA",
 					},
-					"Santa Catarina do Fogo": {
+					"SANTA CATARINA DO FOGO": {
 						Code: "CF",
 					},
-					"Santa Cruz": {
+					"SANTA CRUZ": {
 						Code: "CR",
 					},
-					"São Domingos": {
+					"SÃO DOMINGOS": {
 						Code: "SD",
 					},
-					"São Filipe": {
+					"SÃO FILIPE": {
 						Code: "SF",
 					},
-					"São Lourenço dos Órgãos": {
+					"SÃO LOURENÇO DOS ÓRGÃOS": {
 						Code: "SO",
 					},
-					"São Miguel": {
+					"SÃO MIGUEL": {
 						Code: "SM",
 					},
-					"São Salvador do Mundo": {
+					"SÃO SALVADOR DO MUNDO": {
 						Code: "SS",
 					},
-					"Tarrafal": {
+					"TARRAFAL": {
 						Code: "TA",
 					},
 				},
@@ -8363,22 +8363,22 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ammochostos": {
+			"AMMOCHOSTOS": {
 				Code: "04",
 			},
-			"Keryneia": {
+			"KERYNEIA": {
 				Code: "06",
 			},
-			"Larnaka": {
+			"LARNAKA": {
 				Code: "03",
 			},
-			"Lefkosia": {
+			"LEFKOSIA": {
 				Code: "01",
 			},
-			"Lemesos": {
+			"LEMESOS": {
 				Code: "02",
 			},
-			"Pafos": {
+			"PAFOS": {
 				Code: "05",
 			},
 		},
@@ -8990,324 +8990,324 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Jihomoravský kraj": {
+			"JIHOMORAVSKÝ KRAJ": {
 				Code: "64",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Blansko": {
+					"BLANSKO": {
 						Code: "641",
 					},
-					"Brno-město": {
+					"BRNO-MĚSTO": {
 						Code: "642",
 					},
-					"Brno-venkov": {
+					"BRNO-VENKOV": {
 						Code: "643",
 					},
-					"Břeclav": {
+					"BŘECLAV": {
 						Code: "644",
 					},
-					"Hodonín": {
+					"HODONÍN": {
 						Code: "645",
 					},
-					"Vyškov": {
+					"VYŠKOV": {
 						Code: "646",
 					},
-					"Znojmo": {
+					"ZNOJMO": {
 						Code: "647",
 					},
 				},
 			},
-			"Jihočeský kraj": {
+			"JIHOČESKÝ KRAJ": {
 				Code: "31",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Jindřichův Hradec": {
+					"JINDŘICHŮV HRADEC": {
 						Code: "313",
 					},
-					"Prachatice": {
+					"PRACHATICE": {
 						Code: "315",
 					},
-					"Písek": {
+					"PÍSEK": {
 						Code: "314",
 					},
-					"Strakonice": {
+					"STRAKONICE": {
 						Code: "316",
 					},
-					"Tábor": {
+					"TÁBOR": {
 						Code: "317",
 					},
-					"České Budějovice": {
+					"ČESKÉ BUDĚJOVICE": {
 						Code: "311",
 					},
-					"Český Krumlov": {
+					"ČESKÝ KRUMLOV": {
 						Code: "312",
 					},
 				},
 			},
-			"Karlovarský kraj": {
+			"KARLOVARSKÝ KRAJ": {
 				Code: "41",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Cheb": {
+					"CHEB": {
 						Code: "411",
 					},
-					"Karlovy Vary": {
+					"KARLOVY VARY": {
 						Code: "412",
 					},
-					"Sokolov": {
+					"SOKOLOV": {
 						Code: "413",
 					},
 				},
 			},
-			"Kraj Vysočina": {
+			"KRAJ VYSOČINA": {
 				Code: "63",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Havlíčkův Brod": {
+					"HAVLÍČKŮV BROD": {
 						Code: "631",
 					},
-					"Jihlava": {
+					"JIHLAVA": {
 						Code: "632",
 					},
-					"Pelhřimov": {
+					"PELHŘIMOV": {
 						Code: "633",
 					},
-					"Třebíč": {
+					"TŘEBÍČ": {
 						Code: "634",
 					},
-					"Žďár nad Sázavou": {
+					"ŽĎÁR NAD SÁZAVOU": {
 						Code: "635",
 					},
 				},
 			},
-			"Královéhradecký kraj": {
+			"KRÁLOVÉHRADECKÝ KRAJ": {
 				Code: "52",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Hradec Králové": {
+					"HRADEC KRÁLOVÉ": {
 						Code: "521",
 					},
-					"Jičín": {
+					"JIČÍN": {
 						Code: "522",
 					},
-					"Náchod": {
+					"NÁCHOD": {
 						Code: "523",
 					},
-					"Rychnov nad Kněžnou": {
+					"RYCHNOV NAD KNĚŽNOU": {
 						Code: "524",
 					},
-					"Trutnov": {
+					"TRUTNOV": {
 						Code: "525",
 					},
 				},
 			},
-			"Liberecký kraj": {
+			"LIBERECKÝ KRAJ": {
 				Code: "51",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Jablonec nad Nisou": {
+					"JABLONEC NAD NISOU": {
 						Code: "512",
 					},
-					"Liberec": {
+					"LIBEREC": {
 						Code: "513",
 					},
-					"Semily": {
+					"SEMILY": {
 						Code: "514",
 					},
-					"Česká Lípa": {
+					"ČESKÁ LÍPA": {
 						Code: "511",
 					},
 				},
 			},
-			"Moravskoslezský kraj": {
+			"MORAVSKOSLEZSKÝ KRAJ": {
 				Code: "80",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bruntál": {
+					"BRUNTÁL": {
 						Code: "801",
 					},
-					"Frýdek-Místek": {
+					"FRÝDEK-MÍSTEK": {
 						Code: "802",
 					},
-					"Karviná": {
+					"KARVINÁ": {
 						Code: "803",
 					},
-					"Nový Jičín": {
+					"NOVÝ JIČÍN": {
 						Code: "804",
 					},
-					"Opava": {
+					"OPAVA": {
 						Code: "805",
 					},
-					"Ostrava-město": {
+					"OSTRAVA-MĚSTO": {
 						Code: "806",
 					},
 				},
 			},
-			"Olomoucký kraj": {
+			"OLOMOUCKÝ KRAJ": {
 				Code: "71",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Jeseník": {
+					"JESENÍK": {
 						Code: "711",
 					},
-					"Olomouc": {
+					"OLOMOUC": {
 						Code: "712",
 					},
-					"Prostějov": {
+					"PROSTĚJOV": {
 						Code: "713",
 					},
-					"Přerov": {
+					"PŘEROV": {
 						Code: "714",
 					},
-					"Šumperk": {
+					"ŠUMPERK": {
 						Code: "715",
 					},
 				},
 			},
-			"Pardubický kraj": {
+			"PARDUBICKÝ KRAJ": {
 				Code: "53",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Chrudim": {
+					"CHRUDIM": {
 						Code: "531",
 					},
-					"Pardubice": {
+					"PARDUBICE": {
 						Code: "532",
 					},
-					"Svitavy": {
+					"SVITAVY": {
 						Code: "533",
 					},
-					"Ústí nad Orlicí": {
+					"ÚSTÍ NAD ORLICÍ": {
 						Code: "534",
 					},
 				},
 			},
-			"Plzeňský kraj": {
+			"PLZEŇSKÝ KRAJ": {
 				Code: "32",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Domažlice": {
+					"DOMAŽLICE": {
 						Code: "321",
 					},
-					"Klatovy": {
+					"KLATOVY": {
 						Code: "322",
 					},
-					"Plzeň-jih": {
+					"PLZEŇ-JIH": {
 						Code: "324",
 					},
-					"Plzeň-město": {
+					"PLZEŇ-MĚSTO": {
 						Code: "323",
 					},
-					"Plzeň-sever": {
+					"PLZEŇ-SEVER": {
 						Code: "325",
 					},
-					"Rokycany": {
+					"ROKYCANY": {
 						Code: "326",
 					},
-					"Tachov": {
+					"TACHOV": {
 						Code: "327",
 					},
 				},
 			},
-			"Praha, Hlavní město": {
+			"PRAHA, HLAVNÍ MĚSTO": {
 				Code: "10",
 			},
-			"Středočeský kraj": {
+			"STŘEDOČESKÝ KRAJ": {
 				Code: "20",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Benešov": {
+					"BENEŠOV": {
 						Code: "201",
 					},
-					"Beroun": {
+					"BEROUN": {
 						Code: "202",
 					},
-					"Kladno": {
+					"KLADNO": {
 						Code: "203",
 					},
-					"Kolín": {
+					"KOLÍN": {
 						Code: "204",
 					},
-					"Kutná Hora": {
+					"KUTNÁ HORA": {
 						Code: "205",
 					},
-					"Mladá Boleslav": {
+					"MLADÁ BOLESLAV": {
 						Code: "207",
 					},
-					"Mělník": {
+					"MĚLNÍK": {
 						Code: "206",
 					},
-					"Nymburk": {
+					"NYMBURK": {
 						Code: "208",
 					},
-					"Praha-východ": {
+					"PRAHA-VÝCHOD": {
 						Code: "209",
 					},
-					"Praha-západ": {
+					"PRAHA-ZÁPAD": {
 						Code: "20A",
 					},
-					"Příbram": {
+					"PŘÍBRAM": {
 						Code: "20B",
 					},
-					"Rakovník": {
+					"RAKOVNÍK": {
 						Code: "20C",
 					},
 				},
 			},
-			"Zlínský kraj": {
+			"ZLÍNSKÝ KRAJ": {
 				Code: "72",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Kroměříž": {
+					"KROMĚŘÍŽ": {
 						Code: "721",
 					},
-					"Uherské Hradiště": {
+					"UHERSKÉ HRADIŠTĚ": {
 						Code: "722",
 					},
-					"Vsetín": {
+					"VSETÍN": {
 						Code: "723",
 					},
-					"Zlín": {
+					"ZLÍN": {
 						Code: "724",
 					},
 				},
 			},
-			"Ústecký kraj": {
+			"ÚSTECKÝ KRAJ": {
 				Code: "42",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Chomutov": {
+					"CHOMUTOV": {
 						Code: "422",
 					},
-					"Děčín": {
+					"DĚČÍN": {
 						Code: "421",
 					},
-					"Litoměřice": {
+					"LITOMĚŘICE": {
 						Code: "423",
 					},
-					"Louny": {
+					"LOUNY": {
 						Code: "424",
 					},
-					"Most": {
+					"MOST": {
 						Code: "425",
 					},
-					"Teplice": {
+					"TEPLICE": {
 						Code: "426",
 					},
-					"Ústí nad Labem": {
+					"ÚSTÍ NAD LABEM": {
 						Code: "427",
 					},
 				},
@@ -9425,52 +9425,52 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Baden-Württemberg": {
+			"BADEN-WÜRTTEMBERG": {
 				Code: "BW",
 			},
-			"Bayern": {
+			"BAYERN": {
 				Code: "BY",
 			},
-			"Berlin": {
+			"BERLIN": {
 				Code: "BE",
 			},
-			"Brandenburg": {
+			"BRANDENBURG": {
 				Code: "BB",
 			},
-			"Bremen": {
+			"BREMEN": {
 				Code: "HB",
 			},
-			"Hamburg": {
+			"HAMBURG": {
 				Code: "HH",
 			},
-			"Hessen": {
+			"HESSEN": {
 				Code: "HE",
 			},
-			"Mecklenburg-Vorpommern": {
+			"MECKLENBURG-VORPOMMERN": {
 				Code: "MV",
 			},
-			"Niedersachsen": {
+			"NIEDERSACHSEN": {
 				Code: "NI",
 			},
-			"Nordrhein-Westfalen": {
+			"NORDRHEIN-WESTFALEN": {
 				Code: "NW",
 			},
-			"Rheinland-Pfalz": {
+			"RHEINLAND-PFALZ": {
 				Code: "RP",
 			},
-			"Saarland": {
+			"SAARLAND": {
 				Code: "SL",
 			},
-			"Sachsen": {
+			"SACHSEN": {
 				Code: "SN",
 			},
-			"Sachsen-Anhalt": {
+			"SACHSEN-ANHALT": {
 				Code: "ST",
 			},
-			"Schleswig-Holstein": {
+			"SCHLESWIG-HOLSTEIN": {
 				Code: "SH",
 			},
-			"Thüringen": {
+			"THÜRINGEN": {
 				Code: "TH",
 			},
 		},
@@ -9526,22 +9526,22 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ali Sabieh": {
+			"ALI SABIEH": {
 				Code: "AS",
 			},
-			"Arta": {
+			"ARTA": {
 				Code: "AR",
 			},
-			"Dikhil": {
+			"DIKHIL": {
 				Code: "DI",
 			},
-			"Djibouti": {
+			"DJIBOUTI": {
 				Code: "DJ",
 			},
-			"Obock": {
+			"OBOCK": {
 				Code: "OB",
 			},
-			"Tadjourah": {
+			"TADJOURAH": {
 				Code: "TA",
 			},
 		},
@@ -9591,19 +9591,19 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Hovedstaden": {
+			"HOVEDSTADEN": {
 				Code: "84",
 			},
-			"Midtjylland": {
+			"MIDTJYLLAND": {
 				Code: "82",
 			},
-			"Nordjylland": {
+			"NORDJYLLAND": {
 				Code: "81",
 			},
-			"Sjælland": {
+			"SJÆLLAND": {
 				Code: "85",
 			},
-			"Syddanmark": {
+			"SYDDANMARK": {
 				Code: "83",
 			},
 		},
@@ -9683,34 +9683,34 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Saint Andrew": {
+			"SAINT ANDREW": {
 				Code: "02",
 			},
-			"Saint David": {
+			"SAINT DAVID": {
 				Code: "03",
 			},
-			"Saint George": {
+			"SAINT GEORGE": {
 				Code: "04",
 			},
-			"Saint John": {
+			"SAINT JOHN": {
 				Code: "05",
 			},
-			"Saint Joseph": {
+			"SAINT JOSEPH": {
 				Code: "06",
 			},
-			"Saint Luke": {
+			"SAINT LUKE": {
 				Code: "07",
 			},
-			"Saint Mark": {
+			"SAINT MARK": {
 				Code: "08",
 			},
-			"Saint Patrick": {
+			"SAINT PATRICK": {
 				Code: "09",
 			},
-			"Saint Paul": {
+			"SAINT PAUL": {
 				Code: "10",
 			},
-			"Saint Peter": {
+			"SAINT PETER": {
 				Code: "11",
 			},
 		},
@@ -10022,168 +10022,168 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Cibao Nordeste": {
+			"CIBAO NORDESTE": {
 				Code: "33",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Duarte": {
+					"DUARTE": {
 						Code: "06",
 					},
-					"Hermanas Mirabal": {
+					"HERMANAS MIRABAL": {
 						Code: "19",
 					},
-					"María Trinidad Sánchez": {
+					"MARÍA TRINIDAD SÁNCHEZ": {
 						Code: "14",
 					},
-					"Samaná": {
+					"SAMANÁ": {
 						Code: "20",
 					},
 				},
 			},
-			"Cibao Noroeste": {
+			"CIBAO NOROESTE": {
 				Code: "34",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Dajabón": {
+					"DAJABÓN": {
 						Code: "05",
 					},
-					"Monte Cristi": {
+					"MONTE CRISTI": {
 						Code: "15",
 					},
-					"Santiago Rodríguez": {
+					"SANTIAGO RODRÍGUEZ": {
 						Code: "26",
 					},
-					"Valverde": {
+					"VALVERDE": {
 						Code: "27",
 					},
 				},
 			},
-			"Cibao Norte": {
+			"CIBAO NORTE": {
 				Code: "35",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Espaillat": {
+					"ESPAILLAT": {
 						Code: "09",
 					},
-					"Puerto Plata": {
+					"PUERTO PLATA": {
 						Code: "18",
 					},
-					"Santiago": {
+					"SANTIAGO": {
 						Code: "25",
 					},
 				},
 			},
-			"Cibao Sur": {
+			"CIBAO SUR": {
 				Code: "36",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"La Vega": {
+					"LA VEGA": {
 						Code: "13",
 					},
-					"Monseñor Nouel": {
+					"MONSEÑOR NOUEL": {
 						Code: "28",
 					},
-					"Sánchez Ramírez": {
+					"SÁNCHEZ RAMÍREZ": {
 						Code: "24",
 					},
 				},
 			},
-			"El Valle": {
+			"EL VALLE": {
 				Code: "37",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Elías Piña": {
+					"ELÍAS PIÑA": {
 						Code: "07",
 					},
-					"San Juan": {
+					"SAN JUAN": {
 						Code: "22",
 					},
 				},
 			},
-			"Enriquillo": {
+			"ENRIQUILLO": {
 				Code: "38",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Baoruco": {
+					"BAORUCO": {
 						Code: "03",
 					},
-					"Barahona": {
+					"BARAHONA": {
 						Code: "04",
 					},
-					"Independencia": {
+					"INDEPENDENCIA": {
 						Code: "10",
 					},
-					"Pedernales": {
+					"PEDERNALES": {
 						Code: "16",
 					},
 				},
 			},
-			"Higuamo": {
+			"HIGUAMO": {
 				Code: "39",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Hato Mayor": {
+					"HATO MAYOR": {
 						Code: "30",
 					},
-					"Monte Plata": {
+					"MONTE PLATA": {
 						Code: "29",
 					},
-					"San Pedro de Macorís": {
+					"SAN PEDRO DE MACORÍS": {
 						Code: "23",
 					},
 				},
 			},
-			"Ozama": {
+			"OZAMA": {
 				Code: "40",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Distrito Nacional (Santo Domingo)": {
+					"DISTRITO NACIONAL (SANTO DOMINGO)": {
 						Code: "01",
 					},
-					"Santo Domingo": {
+					"SANTO DOMINGO": {
 						Code: "32",
 					},
 				},
 			},
-			"Valdesia": {
+			"VALDESIA": {
 				Code: "41",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Azua": {
+					"AZUA": {
 						Code: "02",
 					},
-					"Peravia": {
+					"PERAVIA": {
 						Code: "17",
 					},
-					"San Cristóbal": {
+					"SAN CRISTÓBAL": {
 						Code: "21",
 					},
-					"San José de Ocoa": {
+					"SAN JOSÉ DE OCOA": {
 						Code: "31",
 					},
 				},
 			},
-			"Yuma": {
+			"YUMA": {
 				Code: "42",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"El Seibo": {
+					"EL SEIBO": {
 						Code: "08",
 					},
-					"La Altagracia": {
+					"LA ALTAGRACIA": {
 						Code: "11",
 					},
-					"La Romana": {
+					"LA ROMANA": {
 						Code: "12",
 					},
 				},
@@ -10493,148 +10493,148 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Adrar": {
+			"ADRAR": {
 				Code: "01",
 			},
-			"Alger": {
+			"ALGER": {
 				Code: "16",
 			},
-			"Annaba": {
+			"ANNABA": {
 				Code: "23",
 			},
-			"Aïn Defla": {
+			"AÏN DEFLA": {
 				Code: "44",
 			},
-			"Aïn Témouchent": {
+			"AÏN TÉMOUCHENT": {
 				Code: "46",
 			},
-			"Batna": {
+			"BATNA": {
 				Code: "05",
 			},
-			"Biskra": {
+			"BISKRA": {
 				Code: "07",
 			},
-			"Blida": {
+			"BLIDA": {
 				Code: "09",
 			},
-			"Bordj Bou Arréridj": {
+			"BORDJ BOU ARRÉRIDJ": {
 				Code: "34",
 			},
-			"Bouira": {
+			"BOUIRA": {
 				Code: "10",
 			},
-			"Boumerdès": {
+			"BOUMERDÈS": {
 				Code: "35",
 			},
-			"Béchar": {
+			"BÉCHAR": {
 				Code: "08",
 			},
-			"Béjaïa": {
+			"BÉJAÏA": {
 				Code: "06",
 			},
-			"Chlef": {
+			"CHLEF": {
 				Code: "02",
 			},
-			"Constantine": {
+			"CONSTANTINE": {
 				Code: "25",
 			},
-			"Djelfa": {
+			"DJELFA": {
 				Code: "17",
 			},
-			"El Bayadh": {
+			"EL BAYADH": {
 				Code: "32",
 			},
-			"El Oued": {
+			"EL OUED": {
 				Code: "39",
 			},
-			"El Tarf": {
+			"EL TARF": {
 				Code: "36",
 			},
-			"Ghardaïa": {
+			"GHARDAÏA": {
 				Code: "47",
 			},
-			"Guelma": {
+			"GUELMA": {
 				Code: "24",
 			},
-			"Illizi": {
+			"ILLIZI": {
 				Code: "33",
 			},
-			"Jijel": {
+			"JIJEL": {
 				Code: "18",
 			},
-			"Khenchela": {
+			"KHENCHELA": {
 				Code: "40",
 			},
-			"Laghouat": {
+			"LAGHOUAT": {
 				Code: "03",
 			},
-			"M'sila": {
+			"M'SILA": {
 				Code: "28",
 			},
-			"Mascara": {
+			"MASCARA": {
 				Code: "29",
 			},
-			"Mila": {
+			"MILA": {
 				Code: "43",
 			},
-			"Mostaganem": {
+			"MOSTAGANEM": {
 				Code: "27",
 			},
-			"Médéa": {
+			"MÉDÉA": {
 				Code: "26",
 			},
-			"Naama": {
+			"NAAMA": {
 				Code: "45",
 			},
-			"Oran": {
+			"ORAN": {
 				Code: "31",
 			},
-			"Ouargla": {
+			"OUARGLA": {
 				Code: "30",
 			},
-			"Oum el Bouaghi": {
+			"OUM EL BOUAGHI": {
 				Code: "04",
 			},
-			"Relizane": {
+			"RELIZANE": {
 				Code: "48",
 			},
-			"Saïda": {
+			"SAÏDA": {
 				Code: "20",
 			},
-			"Sidi Bel Abbès": {
+			"SIDI BEL ABBÈS": {
 				Code: "22",
 			},
-			"Skikda": {
+			"SKIKDA": {
 				Code: "21",
 			},
-			"Souk Ahras": {
+			"SOUK AHRAS": {
 				Code: "41",
 			},
-			"Sétif": {
+			"SÉTIF": {
 				Code: "19",
 			},
-			"Tamanrasset": {
+			"TAMANRASSET": {
 				Code: "11",
 			},
-			"Tiaret": {
+			"TIARET": {
 				Code: "14",
 			},
-			"Tindouf": {
+			"TINDOUF": {
 				Code: "37",
 			},
-			"Tipaza": {
+			"TIPAZA": {
 				Code: "42",
 			},
-			"Tissemsilt": {
+			"TISSEMSILT": {
 				Code: "38",
 			},
-			"Tizi Ouzou": {
+			"TIZI OUZOU": {
 				Code: "15",
 			},
-			"Tlemcen": {
+			"TLEMCEN": {
 				Code: "13",
 			},
-			"Tébessa": {
+			"TÉBESSA": {
 				Code: "12",
 			},
 		},
@@ -10798,76 +10798,76 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Azuay": {
+			"AZUAY": {
 				Code: "A",
 			},
-			"Bolívar": {
+			"BOLÍVAR": {
 				Code: "B",
 			},
-			"Carchi": {
+			"CARCHI": {
 				Code: "C",
 			},
-			"Cañar": {
+			"CAÑAR": {
 				Code: "F",
 			},
-			"Chimborazo": {
+			"CHIMBORAZO": {
 				Code: "H",
 			},
-			"Cotopaxi": {
+			"COTOPAXI": {
 				Code: "X",
 			},
-			"El Oro": {
+			"EL ORO": {
 				Code: "O",
 			},
-			"Esmeraldas": {
+			"ESMERALDAS": {
 				Code: "E",
 			},
-			"Galápagos": {
+			"GALÁPAGOS": {
 				Code: "W",
 			},
-			"Guayas": {
+			"GUAYAS": {
 				Code: "G",
 			},
-			"Imbabura": {
+			"IMBABURA": {
 				Code: "I",
 			},
-			"Loja": {
+			"LOJA": {
 				Code: "L",
 			},
-			"Los Ríos": {
+			"LOS RÍOS": {
 				Code: "R",
 			},
-			"Manabí": {
+			"MANABÍ": {
 				Code: "M",
 			},
-			"Morona Santiago": {
+			"MORONA SANTIAGO": {
 				Code: "S",
 			},
-			"Napo": {
+			"NAPO": {
 				Code: "N",
 			},
-			"Orellana": {
+			"ORELLANA": {
 				Code: "D",
 			},
-			"Pastaza": {
+			"PASTAZA": {
 				Code: "Y",
 			},
-			"Pichincha": {
+			"PICHINCHA": {
 				Code: "P",
 			},
-			"Santa Elena": {
+			"SANTA ELENA": {
 				Code: "SE",
 			},
-			"Santo Domingo de los Tsáchilas": {
+			"SANTO DOMINGO DE LOS TSÁCHILAS": {
 				Code: "SD",
 			},
-			"Sucumbíos": {
+			"SUCUMBÍOS": {
 				Code: "U",
 			},
-			"Tungurahua": {
+			"TUNGURAHUA": {
 				Code: "T",
 			},
-			"Zamora Chinchipe": {
+			"ZAMORA CHINCHIPE": {
 				Code: "Z",
 			},
 		},
@@ -10977,49 +10977,49 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Harjumaa": {
+			"HARJUMAA": {
 				Code: "37",
 			},
-			"Hiiumaa": {
+			"HIIUMAA": {
 				Code: "39",
 			},
-			"Ida-Virumaa": {
+			"IDA-VIRUMAA": {
 				Code: "44",
 			},
-			"Järvamaa": {
+			"JÄRVAMAA": {
 				Code: "51",
 			},
-			"Jõgevamaa": {
+			"JÕGEVAMAA": {
 				Code: "49",
 			},
-			"Lääne-Virumaa": {
+			"LÄÄNE-VIRUMAA": {
 				Code: "59",
 			},
-			"Läänemaa": {
+			"LÄÄNEMAA": {
 				Code: "57",
 			},
-			"Pärnumaa": {
+			"PÄRNUMAA": {
 				Code: "67",
 			},
-			"Põlvamaa": {
+			"PÕLVAMAA": {
 				Code: "65",
 			},
-			"Raplamaa": {
+			"RAPLAMAA": {
 				Code: "70",
 			},
-			"Saaremaa": {
+			"SAAREMAA": {
 				Code: "74",
 			},
-			"Tartumaa": {
+			"TARTUMAA": {
 				Code: "78",
 			},
-			"Valgamaa": {
+			"VALGAMAA": {
 				Code: "82",
 			},
-			"Viljandimaa": {
+			"VILJANDIMAA": {
 				Code: "84",
 			},
-			"Võrumaa": {
+			"VÕRUMAA": {
 				Code: "86",
 			},
 		},
@@ -11201,85 +11201,85 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ad Daqahlīyah": {
+			"AD DAQAHLĪYAH": {
 				Code: "DK",
 			},
-			"Al Baḩr al Aḩmar": {
+			"AL BAḨR AL AḨMAR": {
 				Code: "BA",
 			},
-			"Al Buḩayrah": {
+			"AL BUḨAYRAH": {
 				Code: "BH",
 			},
-			"Al Fayyūm": {
+			"AL FAYYŪM": {
 				Code: "FYM",
 			},
-			"Al Gharbīyah": {
+			"AL GHARBĪYAH": {
 				Code: "GH",
 			},
-			"Al Iskandarīyah": {
+			"AL ISKANDARĪYAH": {
 				Code: "ALX",
 			},
-			"Al Ismā'īlīyah": {
+			"AL ISMĀ'ĪLĪYAH": {
 				Code: "IS",
 			},
-			"Al Jīzah": {
+			"AL JĪZAH": {
 				Code: "GZ",
 			},
-			"Al Minyā": {
+			"AL MINYĀ": {
 				Code: "MN",
 			},
-			"Al Minūfīyah": {
+			"AL MINŪFĪYAH": {
 				Code: "MNF",
 			},
-			"Al Qalyūbīyah": {
+			"AL QALYŪBĪYAH": {
 				Code: "KB",
 			},
-			"Al Qāhirah": {
+			"AL QĀHIRAH": {
 				Code: "C",
 			},
-			"Al Uqşur": {
+			"AL UQŞUR": {
 				Code: "LX",
 			},
-			"Al Wādī al Jadīd": {
+			"AL WĀDĪ AL JADĪD": {
 				Code: "WAD",
 			},
-			"As Suways": {
+			"AS SUWAYS": {
 				Code: "SUZ",
 			},
-			"Ash Sharqīyah": {
+			"ASH SHARQĪYAH": {
 				Code: "SHR",
 			},
-			"Aswān": {
+			"ASWĀN": {
 				Code: "ASN",
 			},
-			"Asyūţ": {
+			"ASYŪŢ": {
 				Code: "AST",
 			},
-			"Banī Suwayf": {
+			"BANĪ SUWAYF": {
 				Code: "BNS",
 			},
-			"Būr Sa‘īd": {
+			"BŪR SA‘ĪD": {
 				Code: "PTS",
 			},
-			"Dumyāţ": {
+			"DUMYĀŢ": {
 				Code: "DT",
 			},
-			"Janūb Sīnā'": {
+			"JANŪB SĪNĀ'": {
 				Code: "JS",
 			},
-			"Kafr ash Shaykh": {
+			"KAFR ASH SHAYKH": {
 				Code: "KFS",
 			},
-			"Maţrūḩ": {
+			"MAŢRŪḨ": {
 				Code: "MT",
 			},
-			"Qinā": {
+			"QINĀ": {
 				Code: "KN",
 			},
-			"Shamāl Sīnā'": {
+			"SHAMĀL SĪNĀ'": {
 				Code: "SIN",
 			},
-			"Sūhāj": {
+			"SŪHĀJ": {
 				Code: "SHG",
 			},
 		},
@@ -11344,22 +11344,22 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Debub": {
+			"DEBUB": {
 				Code: "DU",
 			},
-			"Debubawi K’eyyĭḥ Baḥri": {
+			"DEBUBAWI K’EYYĬḤ BAḤRI": {
 				Code: "DK",
 			},
-			"Gash-Barka": {
+			"GASH-BARKA": {
 				Code: "GB",
 			},
-			"Ma’ĭkel": {
+			"MA’ĬKEL": {
 				Code: "MA",
 			},
-			"Semienawi K’eyyĭḥ Baḥri": {
+			"SEMIENAWI K’EYYĬḤ BAḤRI": {
 				Code: "SK",
 			},
-			"‘Anseba": {
+			"‘ANSEBA": {
 				Code: "AN",
 			},
 		},
@@ -11861,277 +11861,277 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Andalucía": {
+			"ANDALUCÍA": {
 				Code: "AN",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Almería": {
+					"ALMERÍA": {
 						Code: "AL",
 					},
-					"Cádiz": {
+					"CÁDIZ": {
 						Code: "CA",
 					},
-					"Córdoba": {
+					"CÓRDOBA": {
 						Code: "CO",
 					},
-					"Granada": {
+					"GRANADA": {
 						Code: "GR",
 					},
-					"Huelva": {
+					"HUELVA": {
 						Code: "H",
 					},
-					"Jaén": {
+					"JAÉN": {
 						Code: "J",
 					},
-					"Málaga": {
+					"MÁLAGA": {
 						Code: "MA",
 					},
-					"Sevilla": {
+					"SEVILLA": {
 						Code: "SE",
 					},
 				},
 			},
-			"Aragón": {
+			"ARAGÓN": {
 				Code: "AR",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Huesca": {
+					"HUESCA": {
 						Code: "HU",
 					},
-					"Teruel": {
+					"TERUEL": {
 						Code: "TE",
 					},
-					"Zaragoza": {
+					"ZARAGOZA": {
 						Code: "Z",
 					},
 				},
 			},
-			"Asturias, Principado de": {
+			"ASTURIAS, PRINCIPADO DE": {
 				Code: "AS",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Asturias": {
+					"ASTURIAS": {
 						Code: "O",
 					},
 				},
 			},
-			"Canarias": {
+			"CANARIAS": {
 				Code: "CN",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Las Palmas": {
+					"LAS PALMAS": {
 						Code: "GC",
 					},
-					"Santa Cruz de Tenerife": {
+					"SANTA CRUZ DE TENERIFE": {
 						Code: "TF",
 					},
 				},
 			},
-			"Cantabria": {
+			"CANTABRIA": {
 				Code: "CB",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Cantabria": {
+					"CANTABRIA": {
 						Code: "S",
 					},
 				},
 			},
-			"Castilla y León": {
+			"CASTILLA Y LEÓN": {
 				Code: "CL",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Burgos": {
+					"BURGOS": {
 						Code: "BU",
 					},
-					"León": {
+					"LEÓN": {
 						Code: "LE",
 					},
-					"Palencia": {
+					"PALENCIA": {
 						Code: "P",
 					},
-					"Salamanca": {
+					"SALAMANCA": {
 						Code: "SA",
 					},
-					"Segovia": {
+					"SEGOVIA": {
 						Code: "SG",
 					},
-					"Soria": {
+					"SORIA": {
 						Code: "SO",
 					},
-					"Valladolid": {
+					"VALLADOLID": {
 						Code: "VA",
 					},
-					"Zamora": {
+					"ZAMORA": {
 						Code: "ZA",
 					},
-					"Ávila": {
+					"ÁVILA": {
 						Code: "AV",
 					},
 				},
 			},
-			"Castilla-La Mancha": {
+			"CASTILLA-LA MANCHA": {
 				Code: "CM",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Albacete": {
+					"ALBACETE": {
 						Code: "AB",
 					},
-					"Ciudad Real": {
+					"CIUDAD REAL": {
 						Code: "CR",
 					},
-					"Cuenca": {
+					"CUENCA": {
 						Code: "CU",
 					},
-					"Guadalajara": {
+					"GUADALAJARA": {
 						Code: "GU",
 					},
-					"Toledo": {
+					"TOLEDO": {
 						Code: "TO",
 					},
 				},
 			},
-			"Catalunya [Cataluña]": {
+			"CATALUNYA [CATALUÑA]": {
 				Code: "CT",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Barcelona [Barcelona]": {
+					"BARCELONA [BARCELONA]": {
 						Code: "B",
 					},
-					"Girona [Gerona]": {
+					"GIRONA [GERONA]": {
 						Code: "GI",
 					},
-					"Lleida [Lérida]": {
+					"LLEIDA [LÉRIDA]": {
 						Code: "L",
 					},
-					"Tarragona [Tarragona]": {
+					"TARRAGONA [TARRAGONA]": {
 						Code: "T",
 					},
 				},
 			},
-			"Ceuta": {
+			"CEUTA": {
 				Code: "CE",
 			},
-			"Extremadura": {
+			"EXTREMADURA": {
 				Code: "EX",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Badajoz": {
+					"BADAJOZ": {
 						Code: "BA",
 					},
-					"Cáceres": {
+					"CÁCERES": {
 						Code: "CC",
 					},
 				},
 			},
-			"Galicia [Galicia]": {
+			"GALICIA [GALICIA]": {
 				Code: "GA",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"A Coruña [La Coruña]": {
+					"A CORUÑA [LA CORUÑA]": {
 						Code: "C",
 					},
-					"Lugo [Lugo]": {
+					"LUGO [LUGO]": {
 						Code: "LU",
 					},
-					"Ourense [Orense]": {
+					"OURENSE [ORENSE]": {
 						Code: "OR",
 					},
-					"Pontevedra [Pontevedra]": {
+					"PONTEVEDRA [PONTEVEDRA]": {
 						Code: "PO",
 					},
 				},
 			},
-			"Illes Balears [Islas Baleares]": {
+			"ILLES BALEARS [ISLAS BALEARES]": {
 				Code: "IB",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Balears [Baleares]": {
+					"BALEARS [BALEARES]": {
 						Code: "PM",
 					},
 				},
 			},
-			"La Rioja": {
+			"LA RIOJA": {
 				Code: "RI",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"La Rioja": {
+					"LA RIOJA": {
 						Code: "LO",
 					},
 				},
 			},
-			"Madrid, Comunidad de": {
+			"MADRID, COMUNIDAD DE": {
 				Code: "MD",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Madrid": {
+					"MADRID": {
 						Code: "M",
 					},
 				},
 			},
-			"Melilla": {
+			"MELILLA": {
 				Code: "ML",
 			},
-			"Murcia, Región de": {
+			"MURCIA, REGIÓN DE": {
 				Code: "MC",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Murcia": {
+					"MURCIA": {
 						Code: "MU",
 					},
 				},
 			},
-			"Navarra, Comunidad Foral de": {
+			"NAVARRA, COMUNIDAD FORAL DE": {
 				Code: "NC",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Navarra": {
+					"NAVARRA": {
 						Code: "NA",
 					},
 				},
 			},
-			"País Vasco": {
+			"PAÍS VASCO": {
 				Code: "PV",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bizkaia": {
+					"BIZKAIA": {
 						Code: "BI",
 					},
-					"Gipuzkoa": {
+					"GIPUZKOA": {
 						Code: "SS",
 					},
-					"Álava": {
+					"ÁLAVA": {
 						Code: "VI",
 					},
 				},
 			},
-			"Valenciana, Comunidad": {
+			"VALENCIANA, COMUNIDAD": {
 				Code: "VC",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Alicante": {
+					"ALICANTE": {
 						Code: "A",
 					},
-					"Castellón": {
+					"CASTELLÓN": {
 						Code: "CS",
 					},
-					"Valencia": {
+					"VALENCIA": {
 						Code: "V",
 					},
 				},
@@ -12219,37 +12219,37 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Addis Ababa": {
+			"ADDIS ABABA": {
 				Code: "AA",
 			},
-			"Afar": {
+			"AFAR": {
 				Code: "AF",
 			},
-			"Amara": {
+			"AMARA": {
 				Code: "AM",
 			},
-			"Benshangul-Gumaz": {
+			"BENSHANGUL-GUMAZ": {
 				Code: "BE",
 			},
-			"Dire Dawa": {
+			"DIRE DAWA": {
 				Code: "DD",
 			},
-			"Gambela Peoples": {
+			"GAMBELA PEOPLES": {
 				Code: "GA",
 			},
-			"Harari People": {
+			"HARARI PEOPLE": {
 				Code: "HA",
 			},
-			"Oromia": {
+			"OROMIA": {
 				Code: "OR",
 			},
-			"Somali": {
+			"SOMALI": {
 				Code: "SO",
 			},
-			"Southern Nations, Nationalities and Peoples": {
+			"SOUTHERN NATIONS, NATIONALITIES AND PEOPLES": {
 				Code: "SN",
 			},
-			"Tigrai": {
+			"TIGRAI": {
 				Code: "TI",
 			},
 		},
@@ -12383,61 +12383,61 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Birkaland": {
+			"BIRKALAND": {
 				Code: "11",
 			},
-			"Egentliga Finland": {
+			"EGENTLIGA FINLAND": {
 				Code: "19",
 			},
-			"Egentliga Tavastland": {
+			"EGENTLIGA TAVASTLAND": {
 				Code: "06",
 			},
-			"Kajanaland": {
+			"KAJANALAND": {
 				Code: "05",
 			},
-			"Kymmenedalen": {
+			"KYMMENEDALEN": {
 				Code: "09",
 			},
-			"Landskapet Åland": {
+			"LANDSKAPET ÅLAND": {
 				Code: "01",
 			},
-			"Lappland": {
+			"LAPPLAND": {
 				Code: "10",
 			},
-			"Mellersta Finland": {
+			"MELLERSTA FINLAND": {
 				Code: "08",
 			},
-			"Mellersta Österbotten": {
+			"MELLERSTA ÖSTERBOTTEN": {
 				Code: "07",
 			},
-			"Norra Karelen": {
+			"NORRA KARELEN": {
 				Code: "13",
 			},
-			"Norra Savolax": {
+			"NORRA SAVOLAX": {
 				Code: "15",
 			},
-			"Norra Österbotten": {
+			"NORRA ÖSTERBOTTEN": {
 				Code: "14",
 			},
-			"Nyland": {
+			"NYLAND": {
 				Code: "18",
 			},
-			"Päijänne-Tavastland": {
+			"PÄIJÄNNE-TAVASTLAND": {
 				Code: "16",
 			},
-			"Satakunda": {
+			"SATAKUNDA": {
 				Code: "17",
 			},
-			"Södra Karelen": {
+			"SÖDRA KARELEN": {
 				Code: "02",
 			},
-			"Södra Savolax": {
+			"SÖDRA SAVOLAX": {
 				Code: "04",
 			},
-			"Södra Österbotten": {
+			"SÖDRA ÖSTERBOTTEN": {
 				Code: "03",
 			},
-			"Österbotten": {
+			"ÖSTERBOTTEN": {
 				Code: "12",
 			},
 		},
@@ -12587,75 +12587,75 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Central": {
+			"CENTRAL": {
 				Code: "C",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Naitasiri": {
+					"NAITASIRI": {
 						Code: "09",
 					},
-					"Namosi": {
+					"NAMOSI": {
 						Code: "10",
 					},
-					"Rewa": {
+					"REWA": {
 						Code: "12",
 					},
-					"Serua": {
+					"SERUA": {
 						Code: "13",
 					},
-					"Tailevu": {
+					"TAILEVU": {
 						Code: "14",
 					},
 				},
 			},
-			"Eastern": {
+			"EASTERN": {
 				Code: "E",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Kadavu": {
+					"KADAVU": {
 						Code: "04",
 					},
-					"Lau": {
+					"LAU": {
 						Code: "05",
 					},
-					"Lomaiviti": {
+					"LOMAIVITI": {
 						Code: "06",
 					},
 				},
 			},
-			"Northern": {
+			"NORTHERN": {
 				Code: "N",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bua": {
+					"BUA": {
 						Code: "02",
 					},
-					"Cakaudrove": {
+					"CAKAUDROVE": {
 						Code: "03",
 					},
-					"Macuata": {
+					"MACUATA": {
 						Code: "07",
 					},
 				},
 			},
-			"Rotuma": {
+			"ROTUMA": {
 				Code: "R",
 			},
-			"Western": {
+			"WESTERN": {
 				Code: "W",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Ba": {
+					"BA": {
 						Code: "01",
 					},
-					"Nadroga and Navosa": {
+					"NADROGA AND NAVOSA": {
 						Code: "08",
 					},
-					"Ra": {
+					"RA": {
 						Code: "11",
 					},
 				},
@@ -12710,16 +12710,16 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Chuuk": {
+			"CHUUK": {
 				Code: "TRK",
 			},
-			"Kosrae": {
+			"KOSRAE": {
 				Code: "KSA",
 			},
-			"Pohnpei": {
+			"POHNPEI": {
 				Code: "PNI",
 			},
-			"Yap": {
+			"YAP": {
 				Code: "YAP",
 			},
 		},
@@ -13562,441 +13562,441 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Auvergne-Rhône-Alpes": {
+			"AUVERGNE-RHÔNE-ALPES": {
 				Code: "ARA",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Ain": {
+					"AIN": {
 						Code: "01",
 					},
-					"Allier": {
+					"ALLIER": {
 						Code: "03",
 					},
-					"Ardèche": {
+					"ARDÈCHE": {
 						Code: "07",
 					},
-					"Cantal": {
+					"CANTAL": {
 						Code: "15",
 					},
-					"Drôme": {
+					"DRÔME": {
 						Code: "26",
 					},
-					"Haute-Loire": {
+					"HAUTE-LOIRE": {
 						Code: "43",
 					},
-					"Haute-Savoie": {
+					"HAUTE-SAVOIE": {
 						Code: "74",
 					},
-					"Isère": {
+					"ISÈRE": {
 						Code: "38",
 					},
-					"Loire": {
+					"LOIRE": {
 						Code: "42",
 					},
-					"Puy-de-Dôme": {
+					"PUY-DE-DÔME": {
 						Code: "63",
 					},
-					"Rhône": {
+					"RHÔNE": {
 						Code: "69",
 					},
-					"Savoie": {
+					"SAVOIE": {
 						Code: "73",
 					},
 				},
 			},
-			"Bourgogne-Franche-Comté": {
+			"BOURGOGNE-FRANCHE-COMTÉ": {
 				Code: "BFC",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Côte-d'Or": {
+					"CÔTE-D'OR": {
 						Code: "21",
 					},
-					"Doubs": {
+					"DOUBS": {
 						Code: "25",
 					},
-					"Haute-Saône": {
+					"HAUTE-SAÔNE": {
 						Code: "70",
 					},
-					"Jura": {
+					"JURA": {
 						Code: "39",
 					},
-					"Nièvre": {
+					"NIÈVRE": {
 						Code: "58",
 					},
-					"Saône-et-Loire": {
+					"SAÔNE-ET-LOIRE": {
 						Code: "71",
 					},
-					"Territoire de Belfort": {
+					"TERRITOIRE DE BELFORT": {
 						Code: "90",
 					},
-					"Yonne": {
+					"YONNE": {
 						Code: "89",
 					},
 				},
 			},
-			"Bretagne": {
+			"BRETAGNE": {
 				Code: "BRE",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Côtes-d'Armor": {
+					"CÔTES-D'ARMOR": {
 						Code: "22",
 					},
-					"Finistère": {
+					"FINISTÈRE": {
 						Code: "29",
 					},
-					"Ille-et-Vilaine": {
+					"ILLE-ET-VILAINE": {
 						Code: "35",
 					},
-					"Morbihan": {
+					"MORBIHAN": {
 						Code: "56",
 					},
 				},
 			},
-			"Centre-Val de Loire": {
+			"CENTRE-VAL DE LOIRE": {
 				Code: "CVL",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Cher": {
+					"CHER": {
 						Code: "18",
 					},
-					"Eure-et-Loir": {
+					"EURE-ET-LOIR": {
 						Code: "28",
 					},
-					"Indre": {
+					"INDRE": {
 						Code: "36",
 					},
-					"Indre-et-Loire": {
+					"INDRE-ET-LOIRE": {
 						Code: "37",
 					},
-					"Loir-et-Cher": {
+					"LOIR-ET-CHER": {
 						Code: "41",
 					},
-					"Loiret": {
+					"LOIRET": {
 						Code: "45",
 					},
 				},
 			},
-			"Clipperton": {
+			"CLIPPERTON": {
 				Code: "CP",
 			},
-			"Corse": {
+			"CORSE": {
 				Code: "COR",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Corse-du-Sud": {
+					"CORSE-DU-SUD": {
 						Code: "2A",
 					},
-					"Haute-Corse": {
+					"HAUTE-CORSE": {
 						Code: "2B",
 					},
 				},
 			},
-			"Grand-Est": {
+			"GRAND-EST": {
 				Code: "GES",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Ardennes": {
+					"ARDENNES": {
 						Code: "08",
 					},
-					"Aube": {
+					"AUBE": {
 						Code: "10",
 					},
-					"Bas-Rhin": {
+					"BAS-RHIN": {
 						Code: "67",
 					},
-					"Haut-Rhin": {
+					"HAUT-RHIN": {
 						Code: "68",
 					},
-					"Haute-Marne": {
+					"HAUTE-MARNE": {
 						Code: "52",
 					},
-					"Marne": {
+					"MARNE": {
 						Code: "51",
 					},
-					"Meurthe-et-Moselle": {
+					"MEURTHE-ET-MOSELLE": {
 						Code: "54",
 					},
-					"Meuse": {
+					"MEUSE": {
 						Code: "55",
 					},
-					"Moselle": {
+					"MOSELLE": {
 						Code: "57",
 					},
-					"Vosges": {
+					"VOSGES": {
 						Code: "88",
 					},
 				},
 			},
-			"Guadeloupe": {
+			"GUADELOUPE": {
 				Code: "GUA",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Guadeloupe": {
+					"GUADELOUPE": {
 						Code: "GP",
 					},
 				},
 			},
-			"Guyane (française)": {
+			"GUYANE (FRANÇAISE)": {
 				Code: "GF",
 			},
-			"Hauts-de-France": {
+			"HAUTS-DE-FRANCE": {
 				Code: "HDF",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Aisne": {
+					"AISNE": {
 						Code: "02",
 					},
-					"Nord": {
+					"NORD": {
 						Code: "59",
 					},
-					"Oise": {
+					"OISE": {
 						Code: "60",
 					},
-					"Pas-de-Calais": {
+					"PAS-DE-CALAIS": {
 						Code: "62",
 					},
-					"Somme": {
+					"SOMME": {
 						Code: "80",
 					},
 				},
 			},
-			"La Réunion": {
+			"LA RÉUNION": {
 				Code: "LRE",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"La Réunion": {
+					"LA RÉUNION": {
 						Code: "RE",
 					},
 				},
 			},
-			"Martinique": {
+			"MARTINIQUE": {
 				Code: "MQ",
 			},
-			"Mayotte": {
+			"MAYOTTE": {
 				Code: "MAY",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Mayotte": {
+					"MAYOTTE": {
 						Code: "YT",
 					},
 				},
 			},
-			"Normandie": {
+			"NORMANDIE": {
 				Code: "NOR",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Calvados": {
+					"CALVADOS": {
 						Code: "14",
 					},
-					"Eure": {
+					"EURE": {
 						Code: "27",
 					},
-					"Manche": {
+					"MANCHE": {
 						Code: "50",
 					},
-					"Orne": {
+					"ORNE": {
 						Code: "61",
 					},
-					"Seine-Maritime": {
+					"SEINE-MARITIME": {
 						Code: "76",
 					},
 				},
 			},
-			"Nouvelle-Aquitaine": {
+			"NOUVELLE-AQUITAINE": {
 				Code: "NAQ",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Charente": {
+					"CHARENTE": {
 						Code: "16",
 					},
-					"Charente-Maritime": {
+					"CHARENTE-MARITIME": {
 						Code: "17",
 					},
-					"Corrèze": {
+					"CORRÈZE": {
 						Code: "19",
 					},
-					"Creuse": {
+					"CREUSE": {
 						Code: "23",
 					},
-					"Deux-Sèvres": {
+					"DEUX-SÈVRES": {
 						Code: "79",
 					},
-					"Dordogne": {
+					"DORDOGNE": {
 						Code: "24",
 					},
-					"Gironde": {
+					"GIRONDE": {
 						Code: "33",
 					},
-					"Haute-Vienne": {
+					"HAUTE-VIENNE": {
 						Code: "87",
 					},
-					"Landes": {
+					"LANDES": {
 						Code: "40",
 					},
-					"Lot-et-Garonne": {
+					"LOT-ET-GARONNE": {
 						Code: "47",
 					},
-					"Pyrénées-Atlantiques": {
+					"PYRÉNÉES-ATLANTIQUES": {
 						Code: "64",
 					},
-					"Vienne": {
+					"VIENNE": {
 						Code: "86",
 					},
 				},
 			},
-			"Nouvelle-Calédonie": {
+			"NOUVELLE-CALÉDONIE": {
 				Code: "NC",
 			},
-			"Occitanie": {
+			"OCCITANIE": {
 				Code: "OCC",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Ariège": {
+					"ARIÈGE": {
 						Code: "09",
 					},
-					"Aude": {
+					"AUDE": {
 						Code: "11",
 					},
-					"Aveyron": {
+					"AVEYRON": {
 						Code: "12",
 					},
-					"Gard": {
+					"GARD": {
 						Code: "30",
 					},
-					"Gers": {
+					"GERS": {
 						Code: "32",
 					},
-					"Haute-Garonne": {
+					"HAUTE-GARONNE": {
 						Code: "31",
 					},
-					"Hautes-Pyrénées": {
+					"HAUTES-PYRÉNÉES": {
 						Code: "65",
 					},
-					"Hérault": {
+					"HÉRAULT": {
 						Code: "34",
 					},
-					"Lot": {
+					"LOT": {
 						Code: "46",
 					},
-					"Lozère": {
+					"LOZÈRE": {
 						Code: "48",
 					},
-					"Pyrénées-Orientales": {
+					"PYRÉNÉES-ORIENTALES": {
 						Code: "66",
 					},
-					"Tarn": {
+					"TARN": {
 						Code: "81",
 					},
-					"Tarn-et-Garonne": {
+					"TARN-ET-GARONNE": {
 						Code: "82",
 					},
 				},
 			},
-			"Pays-de-la-Loire": {
+			"PAYS-DE-LA-LOIRE": {
 				Code: "PDL",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Loire-Atlantique": {
+					"LOIRE-ATLANTIQUE": {
 						Code: "44",
 					},
-					"Maine-et-Loire": {
+					"MAINE-ET-LOIRE": {
 						Code: "49",
 					},
-					"Mayenne": {
+					"MAYENNE": {
 						Code: "53",
 					},
-					"Sarthe": {
+					"SARTHE": {
 						Code: "72",
 					},
-					"Vendée": {
+					"VENDÉE": {
 						Code: "85",
 					},
 				},
 			},
-			"Polynésie française": {
+			"POLYNÉSIE FRANÇAISE": {
 				Code: "PF",
 			},
-			"Provence-Alpes-Côte-d’Azur": {
+			"PROVENCE-ALPES-CÔTE-D’AZUR": {
 				Code: "PAC",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Alpes-Maritimes": {
-						Code: "06",
-					},
-					"Alpes-de-Haute-Provence": {
+					"ALPES-DE-HAUTE-PROVENCE": {
 						Code: "04",
 					},
-					"Bouches-du-Rhône": {
+					"ALPES-MARITIMES": {
+						Code: "06",
+					},
+					"BOUCHES-DU-RHÔNE": {
 						Code: "13",
 					},
-					"Hautes-Alpes": {
+					"HAUTES-ALPES": {
 						Code: "05",
 					},
-					"Var": {
+					"VAR": {
 						Code: "83",
 					},
-					"Vaucluse": {
+					"VAUCLUSE": {
 						Code: "84",
 					},
 				},
 			},
-			"Saint-Barthélemy": {
+			"SAINT-BARTHÉLEMY": {
 				Code: "BL",
 			},
-			"Saint-Martin": {
+			"SAINT-MARTIN": {
 				Code: "MF",
 			},
-			"Saint-Pierre-et-Miquelon": {
+			"SAINT-PIERRE-ET-MIQUELON": {
 				Code: "PM",
 			},
-			"Terres australes françaises": {
+			"TERRES AUSTRALES FRANÇAISES": {
 				Code: "TF",
 			},
-			"Wallis-et-Futuna": {
+			"WALLIS-ET-FUTUNA": {
 				Code: "WF",
 			},
-			"Île-de-France": {
+			"ÎLE-DE-FRANCE": {
 				Code: "IDF",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Essonne": {
+					"ESSONNE": {
 						Code: "91",
 					},
-					"Hauts-de-Seine": {
+					"HAUTS-DE-SEINE": {
 						Code: "92",
 					},
-					"Paris": {
+					"PARIS": {
 						Code: "75",
 					},
-					"Seine-Saint-Denis": {
-						Code: "93",
-					},
-					"Seine-et-Marne": {
+					"SEINE-ET-MARNE": {
 						Code: "77",
 					},
-					"Val-d'Oise": {
+					"SEINE-SAINT-DENIS": {
+						Code: "93",
+					},
+					"VAL-D'OISE": {
 						Code: "95",
 					},
-					"Val-de-Marne": {
+					"VAL-DE-MARNE": {
 						Code: "94",
 					},
-					"Yvelines": {
+					"YVELINES": {
 						Code: "78",
 					},
 				},
@@ -14072,31 +14072,31 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Estuaire": {
+			"ESTUAIRE": {
 				Code: "1",
 			},
-			"Haut-Ogooué": {
+			"HAUT-OGOOUÉ": {
 				Code: "2",
 			},
-			"Moyen-Ogooué": {
+			"MOYEN-OGOOUÉ": {
 				Code: "3",
 			},
-			"Ngounié": {
+			"NGOUNIÉ": {
 				Code: "4",
 			},
-			"Nyanga": {
+			"NYANGA": {
 				Code: "5",
 			},
-			"Ogooué-Ivindo": {
+			"OGOOUÉ-IVINDO": {
 				Code: "6",
 			},
-			"Ogooué-Lolo": {
+			"OGOOUÉ-LOLO": {
 				Code: "7",
 			},
-			"Ogooué-Maritime": {
+			"OGOOUÉ-MARITIME": {
 				Code: "8",
 			},
-			"Woleu-Ntem": {
+			"WOLEU-NTEM": {
 				Code: "9",
 			},
 		},
@@ -15418,655 +15418,655 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aberdeen City": {
+			"ABERDEEN CITY": {
 				Code: "ABE",
 			},
-			"Aberdeenshire": {
+			"ABERDEENSHIRE": {
 				Code: "ABD",
 			},
-			"Angus": {
+			"ANGUS": {
 				Code: "ANS",
 			},
-			"Antrim and Newtownabbey": {
+			"ANTRIM AND NEWTOWNABBEY": {
 				Code: "ANN",
 			},
-			"Ards and North Down": {
+			"ARDS AND NORTH DOWN": {
 				Code: "AND",
 			},
-			"Argyll and Bute": {
+			"ARGYLL AND BUTE": {
 				Code: "AGB",
 			},
-			"Armagh City, Banbridge and Craigavon": {
+			"ARMAGH CITY, BANBRIDGE AND CRAIGAVON": {
 				Code: "ABC",
 			},
-			"Barking and Dagenham": {
+			"BARKING AND DAGENHAM": {
 				Code: "BDG",
 			},
-			"Barnet": {
+			"BARNET": {
 				Code: "BNE",
 			},
-			"Barnsley": {
+			"BARNSLEY": {
 				Code: "BNS",
 			},
-			"Bath and North East Somerset": {
+			"BATH AND NORTH EAST SOMERSET": {
 				Code: "BAS",
 			},
-			"Bedford": {
+			"BEDFORD": {
 				Code: "BDF",
 			},
-			"Belfast": {
+			"BELFAST": {
 				Code: "BFS",
 			},
-			"Bexley": {
+			"BEXLEY": {
 				Code: "BEX",
 			},
-			"Birmingham": {
+			"BIRMINGHAM": {
 				Code: "BIR",
 			},
-			"Blackburn with Darwen": {
+			"BLACKBURN WITH DARWEN": {
 				Code: "BBD",
 			},
-			"Blackpool": {
+			"BLACKPOOL": {
 				Code: "BPL",
 			},
-			"Blaenau Gwent": {
+			"BLAENAU GWENT": {
 				Code: "BGW",
 			},
-			"Bolton": {
+			"BOLTON": {
 				Code: "BOL",
 			},
-			"Bournemouth": {
+			"BOURNEMOUTH": {
 				Code: "BMH",
 			},
-			"Bracknell Forest": {
+			"BRACKNELL FOREST": {
 				Code: "BRC",
 			},
-			"Bradford": {
+			"BRADFORD": {
 				Code: "BRD",
 			},
-			"Brent": {
+			"BRENT": {
 				Code: "BEN",
 			},
-			"Bridgend [Pen-y-bont ar Ogwr GB-POG]": {
+			"BRIDGEND [PEN-Y-BONT AR OGWR GB-POG]": {
 				Code: "BGE",
 			},
-			"Brighton and Hove": {
+			"BRIGHTON AND HOVE": {
 				Code: "BNH",
 			},
-			"Bristol, City of": {
+			"BRISTOL, CITY OF": {
 				Code: "BST",
 			},
-			"Bromley": {
+			"BROMLEY": {
 				Code: "BRY",
 			},
-			"Buckinghamshire": {
+			"BUCKINGHAMSHIRE": {
 				Code: "BKM",
 			},
-			"Bury": {
+			"BURY": {
 				Code: "BUR",
 			},
-			"Caerphilly [Caerffili GB-CAF]": {
+			"CAERPHILLY [CAERFFILI GB-CAF]": {
 				Code: "CAY",
 			},
-			"Calderdale": {
+			"CALDERDALE": {
 				Code: "CLD",
 			},
-			"Cambridgeshire": {
+			"CAMBRIDGESHIRE": {
 				Code: "CAM",
 			},
-			"Camden": {
+			"CAMDEN": {
 				Code: "CMD",
 			},
-			"Cardiff [Caerdydd GB-CRD]": {
+			"CARDIFF [CAERDYDD GB-CRD]": {
 				Code: "CRF",
 			},
-			"Carmarthenshire [Sir Gaerfyrddin GB-GFY]": {
+			"CARMARTHENSHIRE [SIR GAERFYRDDIN GB-GFY]": {
 				Code: "CMN",
 			},
-			"Causeway Coast and Glens": {
+			"CAUSEWAY COAST AND GLENS": {
 				Code: "CCG",
 			},
-			"Central Bedfordshire": {
+			"CENTRAL BEDFORDSHIRE": {
 				Code: "CBF",
 			},
-			"Ceredigion [Sir Ceredigion]": {
+			"CEREDIGION [SIR CEREDIGION]": {
 				Code: "CGN",
 			},
-			"Cheshire East": {
+			"CHESHIRE EAST": {
 				Code: "CHE",
 			},
-			"Cheshire West and Chester": {
+			"CHESHIRE WEST AND CHESTER": {
 				Code: "CHW",
 			},
-			"Clackmannanshire": {
+			"CLACKMANNANSHIRE": {
 				Code: "CLK",
 			},
-			"Conwy": {
+			"CONWY": {
 				Code: "CWY",
 			},
-			"Cornwall": {
+			"CORNWALL": {
 				Code: "CON",
 			},
-			"Coventry": {
+			"COVENTRY": {
 				Code: "COV",
 			},
-			"Croydon": {
+			"CROYDON": {
 				Code: "CRY",
 			},
-			"Cumbria": {
+			"CUMBRIA": {
 				Code: "CMA",
 			},
-			"Darlington": {
+			"DARLINGTON": {
 				Code: "DAL",
 			},
-			"Denbighshire [Sir Ddinbych GB-DDB]": {
+			"DENBIGHSHIRE [SIR DDINBYCH GB-DDB]": {
 				Code: "DEN",
 			},
-			"Derby": {
+			"DERBY": {
 				Code: "DER",
 			},
-			"Derbyshire": {
+			"DERBYSHIRE": {
 				Code: "DBY",
 			},
-			"Derry City and Strabane": {
+			"DERRY CITY AND STRABANE": {
 				Code: "DRS",
 			},
-			"Devon": {
+			"DEVON": {
 				Code: "DEV",
 			},
-			"Doncaster": {
+			"DONCASTER": {
 				Code: "DNC",
 			},
-			"Dorset": {
+			"DORSET": {
 				Code: "DOR",
 			},
-			"Dudley": {
+			"DUDLEY": {
 				Code: "DUD",
 			},
-			"Dumfries and Galloway": {
+			"DUMFRIES AND GALLOWAY": {
 				Code: "DGY",
 			},
-			"Dundee City": {
+			"DUNDEE CITY": {
 				Code: "DND",
 			},
-			"Durham County": {
+			"DURHAM COUNTY": {
 				Code: "DUR",
 			},
-			"Ealing": {
+			"EALING": {
 				Code: "EAL",
 			},
-			"East Ayrshire": {
+			"EAST AYRSHIRE": {
 				Code: "EAY",
 			},
-			"East Dunbartonshire": {
+			"EAST DUNBARTONSHIRE": {
 				Code: "EDU",
 			},
-			"East Lothian": {
+			"EAST LOTHIAN": {
 				Code: "ELN",
 			},
-			"East Renfrewshire": {
+			"EAST RENFREWSHIRE": {
 				Code: "ERW",
 			},
-			"East Riding of Yorkshire": {
+			"EAST RIDING OF YORKSHIRE": {
 				Code: "ERY",
 			},
-			"East Sussex": {
+			"EAST SUSSEX": {
 				Code: "ESX",
 			},
-			"Edinburgh, City of": {
+			"EDINBURGH, CITY OF": {
 				Code: "EDH",
 			},
-			"Eilean Siar": {
+			"EILEAN SIAR": {
 				Code: "ELS",
 			},
-			"Enfield": {
+			"ENFIELD": {
 				Code: "ENF",
 			},
-			"Essex": {
+			"ESSEX": {
 				Code: "ESS",
 			},
-			"Falkirk": {
+			"FALKIRK": {
 				Code: "FAL",
 			},
-			"Fermanagh and Omagh": {
+			"FERMANAGH AND OMAGH": {
 				Code: "FMO",
 			},
-			"Fife": {
+			"FIFE": {
 				Code: "FIF",
 			},
-			"Flintshire [Sir y Fflint GB-FFL]": {
+			"FLINTSHIRE [SIR Y FFLINT GB-FFL]": {
 				Code: "FLN",
 			},
-			"Gateshead": {
+			"GATESHEAD": {
 				Code: "GAT",
 			},
-			"Glasgow City": {
+			"GLASGOW CITY": {
 				Code: "GLG",
 			},
-			"Gloucestershire": {
+			"GLOUCESTERSHIRE": {
 				Code: "GLS",
 			},
-			"Greenwich": {
+			"GREENWICH": {
 				Code: "GRE",
 			},
-			"Gwynedd": {
+			"GWYNEDD": {
 				Code: "GWN",
 			},
-			"Hackney": {
+			"HACKNEY": {
 				Code: "HCK",
 			},
-			"Halton": {
+			"HALTON": {
 				Code: "HAL",
 			},
-			"Hammersmith and Fulham": {
+			"HAMMERSMITH AND FULHAM": {
 				Code: "HMF",
 			},
-			"Hampshire": {
+			"HAMPSHIRE": {
 				Code: "HAM",
 			},
-			"Haringey": {
+			"HARINGEY": {
 				Code: "HRY",
 			},
-			"Harrow": {
+			"HARROW": {
 				Code: "HRW",
 			},
-			"Hartlepool": {
+			"HARTLEPOOL": {
 				Code: "HPL",
 			},
-			"Havering": {
+			"HAVERING": {
 				Code: "HAV",
 			},
-			"Herefordshire": {
+			"HEREFORDSHIRE": {
 				Code: "HEF",
 			},
-			"Hertfordshire": {
+			"HERTFORDSHIRE": {
 				Code: "HRT",
 			},
-			"Highland": {
+			"HIGHLAND": {
 				Code: "HLD",
 			},
-			"Hillingdon": {
+			"HILLINGDON": {
 				Code: "HIL",
 			},
-			"Hounslow": {
+			"HOUNSLOW": {
 				Code: "HNS",
 			},
-			"Inverclyde": {
+			"INVERCLYDE": {
 				Code: "IVC",
 			},
-			"Isle of Anglesey [Sir Ynys Môn GB-YNM]": {
+			"ISLE OF ANGLESEY [SIR YNYS MÔN GB-YNM]": {
 				Code: "AGY",
 			},
-			"Isle of Wight": {
+			"ISLE OF WIGHT": {
 				Code: "IOW",
 			},
-			"Isles of Scilly": {
+			"ISLES OF SCILLY": {
 				Code: "IOS",
 			},
-			"Islington": {
+			"ISLINGTON": {
 				Code: "ISL",
 			},
-			"Kensington and Chelsea": {
+			"KENSINGTON AND CHELSEA": {
 				Code: "KEC",
 			},
-			"Kent": {
+			"KENT": {
 				Code: "KEN",
 			},
-			"Kingston upon Hull": {
+			"KINGSTON UPON HULL": {
 				Code: "KHL",
 			},
-			"Kingston upon Thames": {
+			"KINGSTON UPON THAMES": {
 				Code: "KTT",
 			},
-			"Kirklees": {
+			"KIRKLEES": {
 				Code: "KIR",
 			},
-			"Knowsley": {
+			"KNOWSLEY": {
 				Code: "KWL",
 			},
-			"Lambeth": {
+			"LAMBETH": {
 				Code: "LBH",
 			},
-			"Lancashire": {
+			"LANCASHIRE": {
 				Code: "LAN",
 			},
-			"Leeds": {
+			"LEEDS": {
 				Code: "LDS",
 			},
-			"Leicester": {
+			"LEICESTER": {
 				Code: "LCE",
 			},
-			"Leicestershire": {
+			"LEICESTERSHIRE": {
 				Code: "LEC",
 			},
-			"Lewisham": {
+			"LEWISHAM": {
 				Code: "LEW",
 			},
-			"Lincolnshire": {
+			"LINCOLNSHIRE": {
 				Code: "LIN",
 			},
-			"Lisburn and Castlereagh": {
+			"LISBURN AND CASTLEREAGH": {
 				Code: "LBC",
 			},
-			"Liverpool": {
+			"LIVERPOOL": {
 				Code: "LIV",
 			},
-			"London, City of": {
+			"LONDON, CITY OF": {
 				Code: "LND",
 			},
-			"Luton": {
+			"LUTON": {
 				Code: "LUT",
 			},
-			"Manchester": {
+			"MANCHESTER": {
 				Code: "MAN",
 			},
-			"Medway": {
+			"MEDWAY": {
 				Code: "MDW",
 			},
-			"Merthyr Tydfil [Merthyr Tudful GB-MTU]": {
+			"MERTHYR TYDFIL [MERTHYR TUDFUL GB-MTU]": {
 				Code: "MTY",
 			},
-			"Merton": {
+			"MERTON": {
 				Code: "MRT",
 			},
-			"Mid Ulster": {
-				Code: "MUL",
-			},
-			"Mid and East Antrim": {
+			"MID AND EAST ANTRIM": {
 				Code: "MEA",
 			},
-			"Middlesbrough": {
+			"MID ULSTER": {
+				Code: "MUL",
+			},
+			"MIDDLESBROUGH": {
 				Code: "MDB",
 			},
-			"Midlothian": {
+			"MIDLOTHIAN": {
 				Code: "MLN",
 			},
-			"Milton Keynes": {
+			"MILTON KEYNES": {
 				Code: "MIK",
 			},
-			"Monmouthshire [Sir Fynwy GB-FYN]": {
+			"MONMOUTHSHIRE [SIR FYNWY GB-FYN]": {
 				Code: "MON",
 			},
-			"Moray": {
+			"MORAY": {
 				Code: "MRY",
 			},
-			"Neath Port Talbot [Castell-nedd Port Talbot GB-CTL]": {
+			"NEATH PORT TALBOT [CASTELL-NEDD PORT TALBOT GB-CTL]": {
 				Code: "NTL",
 			},
-			"Newcastle upon Tyne": {
+			"NEWCASTLE UPON TYNE": {
 				Code: "NET",
 			},
-			"Newham": {
+			"NEWHAM": {
 				Code: "NWM",
 			},
-			"Newport [Casnewydd GB-CNW]": {
+			"NEWPORT [CASNEWYDD GB-CNW]": {
 				Code: "NWP",
 			},
-			"Newry, Mourne and Down": {
+			"NEWRY, MOURNE AND DOWN": {
 				Code: "NMD",
 			},
-			"Norfolk": {
+			"NORFOLK": {
 				Code: "NFK",
 			},
-			"North Ayrshire": {
+			"NORTH AYRSHIRE": {
 				Code: "NAY",
 			},
-			"North East Lincolnshire": {
+			"NORTH EAST LINCOLNSHIRE": {
 				Code: "NEL",
 			},
-			"North Lanarkshire": {
+			"NORTH LANARKSHIRE": {
 				Code: "NLK",
 			},
-			"North Lincolnshire": {
+			"NORTH LINCOLNSHIRE": {
 				Code: "NLN",
 			},
-			"North Somerset": {
+			"NORTH SOMERSET": {
 				Code: "NSM",
 			},
-			"North Tyneside": {
+			"NORTH TYNESIDE": {
 				Code: "NTY",
 			},
-			"North Yorkshire": {
+			"NORTH YORKSHIRE": {
 				Code: "NYK",
 			},
-			"Northamptonshire": {
+			"NORTHAMPTONSHIRE": {
 				Code: "NTH",
 			},
-			"Northumberland": {
+			"NORTHUMBERLAND": {
 				Code: "NBL",
 			},
-			"Nottingham": {
+			"NOTTINGHAM": {
 				Code: "NGM",
 			},
-			"Nottinghamshire": {
+			"NOTTINGHAMSHIRE": {
 				Code: "NTT",
 			},
-			"Oldham": {
+			"OLDHAM": {
 				Code: "OLD",
 			},
-			"Orkney Islands": {
+			"ORKNEY ISLANDS": {
 				Code: "ORK",
 			},
-			"Oxfordshire": {
+			"OXFORDSHIRE": {
 				Code: "OXF",
 			},
-			"Pembrokeshire [Sir Benfro GB-BNF]": {
+			"PEMBROKESHIRE [SIR BENFRO GB-BNF]": {
 				Code: "PEM",
 			},
-			"Perth and Kinross": {
+			"PERTH AND KINROSS": {
 				Code: "PKN",
 			},
-			"Peterborough": {
+			"PETERBOROUGH": {
 				Code: "PTE",
 			},
-			"Plymouth": {
+			"PLYMOUTH": {
 				Code: "PLY",
 			},
-			"Poole": {
+			"POOLE": {
 				Code: "POL",
 			},
-			"Portsmouth": {
+			"PORTSMOUTH": {
 				Code: "POR",
 			},
-			"Powys": {
+			"POWYS": {
 				Code: "POW",
 			},
-			"Reading": {
+			"READING": {
 				Code: "RDG",
 			},
-			"Redbridge": {
+			"REDBRIDGE": {
 				Code: "RDB",
 			},
-			"Redcar and Cleveland": {
+			"REDCAR AND CLEVELAND": {
 				Code: "RCC",
 			},
-			"Renfrewshire": {
+			"RENFREWSHIRE": {
 				Code: "RFW",
 			},
-			"Rhondda, Cynon, Taff [Rhondda, Cynon,Taf]": {
+			"RHONDDA, CYNON, TAFF [RHONDDA, CYNON,TAF]": {
 				Code: "RCT",
 			},
-			"Richmond upon Thames": {
+			"RICHMOND UPON THAMES": {
 				Code: "RIC",
 			},
-			"Rochdale": {
+			"ROCHDALE": {
 				Code: "RCH",
 			},
-			"Rotherham": {
+			"ROTHERHAM": {
 				Code: "ROT",
 			},
-			"Rutland": {
+			"RUTLAND": {
 				Code: "RUT",
 			},
-			"Salford": {
+			"SALFORD": {
 				Code: "SLF",
 			},
-			"Sandwell": {
+			"SANDWELL": {
 				Code: "SAW",
 			},
-			"Scottish Borders, The": {
+			"SCOTTISH BORDERS, THE": {
 				Code: "SCB",
 			},
-			"Sefton": {
+			"SEFTON": {
 				Code: "SFT",
 			},
-			"Sheffield": {
+			"SHEFFIELD": {
 				Code: "SHF",
 			},
-			"Shetland Islands": {
+			"SHETLAND ISLANDS": {
 				Code: "ZET",
 			},
-			"Shropshire": {
+			"SHROPSHIRE": {
 				Code: "SHR",
 			},
-			"Slough": {
+			"SLOUGH": {
 				Code: "SLG",
 			},
-			"Solihull": {
+			"SOLIHULL": {
 				Code: "SOL",
 			},
-			"Somerset": {
+			"SOMERSET": {
 				Code: "SOM",
 			},
-			"South Ayrshire": {
+			"SOUTH AYRSHIRE": {
 				Code: "SAY",
 			},
-			"South Gloucestershire": {
+			"SOUTH GLOUCESTERSHIRE": {
 				Code: "SGC",
 			},
-			"South Lanarkshire": {
+			"SOUTH LANARKSHIRE": {
 				Code: "SLK",
 			},
-			"South Tyneside": {
+			"SOUTH TYNESIDE": {
 				Code: "STY",
 			},
-			"Southampton": {
+			"SOUTHAMPTON": {
 				Code: "STH",
 			},
-			"Southend-on-Sea": {
+			"SOUTHEND-ON-SEA": {
 				Code: "SOS",
 			},
-			"Southwark": {
+			"SOUTHWARK": {
 				Code: "SWK",
 			},
-			"St. Helens": {
+			"ST. HELENS": {
 				Code: "SHN",
 			},
-			"Staffordshire": {
+			"STAFFORDSHIRE": {
 				Code: "STS",
 			},
-			"Stirling": {
+			"STIRLING": {
 				Code: "STG",
 			},
-			"Stockport": {
+			"STOCKPORT": {
 				Code: "SKP",
 			},
-			"Stockton-on-Tees": {
+			"STOCKTON-ON-TEES": {
 				Code: "STT",
 			},
-			"Stoke-on-Trent": {
+			"STOKE-ON-TRENT": {
 				Code: "STE",
 			},
-			"Suffolk": {
+			"SUFFOLK": {
 				Code: "SFK",
 			},
-			"Sunderland": {
+			"SUNDERLAND": {
 				Code: "SND",
 			},
-			"Surrey": {
+			"SURREY": {
 				Code: "SRY",
 			},
-			"Sutton": {
+			"SUTTON": {
 				Code: "STN",
 			},
-			"Swansea [Abertawe GB-ATA]": {
+			"SWANSEA [ABERTAWE GB-ATA]": {
 				Code: "SWA",
 			},
-			"Swindon": {
+			"SWINDON": {
 				Code: "SWD",
 			},
-			"Tameside": {
+			"TAMESIDE": {
 				Code: "TAM",
 			},
-			"Telford and Wrekin": {
+			"TELFORD AND WREKIN": {
 				Code: "TFW",
 			},
-			"Thurrock": {
+			"THURROCK": {
 				Code: "THR",
 			},
-			"Torbay": {
+			"TORBAY": {
 				Code: "TOB",
 			},
-			"Torfaen [Tor-faen]": {
+			"TORFAEN [TOR-FAEN]": {
 				Code: "TOF",
 			},
-			"Tower Hamlets": {
+			"TOWER HAMLETS": {
 				Code: "TWH",
 			},
-			"Trafford": {
+			"TRAFFORD": {
 				Code: "TRF",
 			},
-			"Vale of Glamorgan, The [Bro Morgannwg GB-BMG]": {
+			"VALE OF GLAMORGAN, THE [BRO MORGANNWG GB-BMG]": {
 				Code: "VGL",
 			},
-			"Wakefield": {
+			"WAKEFIELD": {
 				Code: "WKF",
 			},
-			"Walsall": {
+			"WALSALL": {
 				Code: "WLL",
 			},
-			"Waltham Forest": {
+			"WALTHAM FOREST": {
 				Code: "WFT",
 			},
-			"Wandsworth": {
+			"WANDSWORTH": {
 				Code: "WND",
 			},
-			"Warrington": {
+			"WARRINGTON": {
 				Code: "WRT",
 			},
-			"Warwickshire": {
+			"WARWICKSHIRE": {
 				Code: "WAR",
 			},
-			"West Berkshire": {
+			"WEST BERKSHIRE": {
 				Code: "WBK",
 			},
-			"West Dunbartonshire": {
+			"WEST DUNBARTONSHIRE": {
 				Code: "WDU",
 			},
-			"West Lothian": {
+			"WEST LOTHIAN": {
 				Code: "WLN",
 			},
-			"West Sussex": {
+			"WEST SUSSEX": {
 				Code: "WSX",
 			},
-			"Westminster": {
+			"WESTMINSTER": {
 				Code: "WSM",
 			},
-			"Wigan": {
+			"WIGAN": {
 				Code: "WGN",
 			},
-			"Wiltshire": {
+			"WILTSHIRE": {
 				Code: "WIL",
 			},
-			"Windsor and Maidenhead": {
+			"WINDSOR AND MAIDENHEAD": {
 				Code: "WNM",
 			},
-			"Wirral": {
+			"WIRRAL": {
 				Code: "WRL",
 			},
-			"Wokingham": {
+			"WOKINGHAM": {
 				Code: "WOK",
 			},
-			"Wolverhampton": {
+			"WOLVERHAMPTON": {
 				Code: "WLV",
 			},
-			"Worcestershire": {
+			"WORCESTERSHIRE": {
 				Code: "WOR",
 			},
-			"Wrexham [Wrecsam GB-WRC]": {
+			"WREXHAM [WRECSAM GB-WRC]": {
 				Code: "WRX",
 			},
-			"York": {
+			"YORK": {
 				Code: "YOR",
 			},
 		},
@@ -16128,25 +16128,25 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Saint Andrew": {
+			"SAINT ANDREW": {
 				Code: "01",
 			},
-			"Saint David": {
+			"SAINT DAVID": {
 				Code: "02",
 			},
-			"Saint George": {
+			"SAINT GEORGE": {
 				Code: "03",
 			},
-			"Saint John": {
+			"SAINT JOHN": {
 				Code: "04",
 			},
-			"Saint Mark": {
+			"SAINT MARK": {
 				Code: "05",
 			},
-			"Saint Patrick": {
+			"SAINT PATRICK": {
 				Code: "06",
 			},
-			"Southern Grenadine Islands": {
+			"SOUTHERN GRENADINE ISLANDS": {
 				Code: "10",
 			},
 		},
@@ -16238,40 +16238,40 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Abkhazia": {
+			"ABKHAZIA": {
 				Code: "AB",
 			},
-			"Ajaria": {
+			"AJARIA": {
 				Code: "AJ",
 			},
-			"Guria": {
+			"GURIA": {
 				Code: "GU",
 			},
-			"Imereti": {
+			"IMERETI": {
 				Code: "IM",
 			},
-			"K'akheti": {
+			"K'AKHETI": {
 				Code: "KA",
 			},
-			"Kvemo Kartli": {
+			"KVEMO KARTLI": {
 				Code: "KK",
 			},
-			"Mtskheta-Mtianeti": {
+			"MTSKHETA-MTIANETI": {
 				Code: "MM",
 			},
-			"Rach'a-Lechkhumi-Kvemo Svaneti": {
+			"RACH'A-LECHKHUMI-KVEMO SVANETI": {
 				Code: "RL",
 			},
-			"Samegrelo-Zemo Svaneti": {
+			"SAMEGRELO-ZEMO SVANETI": {
 				Code: "SZ",
 			},
-			"Samtskhe-Javakheti": {
+			"SAMTSKHE-JAVAKHETI": {
 				Code: "SJ",
 			},
-			"Shida Kartli": {
+			"SHIDA KARTLI": {
 				Code: "SK",
 			},
-			"Tbilisi": {
+			"TBILISI": {
 				Code: "TB",
 			},
 		},
@@ -16405,52 +16405,52 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ahafo": {
+			"AHAFO": {
 				Code: "AF",
 			},
-			"Ashanti": {
+			"ASHANTI": {
 				Code: "AH",
 			},
-			"Bono": {
+			"BONO": {
 				Code: "BO",
 			},
-			"Bono East": {
+			"BONO EAST": {
 				Code: "BE",
 			},
-			"Central": {
+			"CENTRAL": {
 				Code: "CP",
 			},
-			"Eastern": {
+			"EASTERN": {
 				Code: "EP",
 			},
-			"Greater Accra": {
+			"GREATER ACCRA": {
 				Code: "AA",
 			},
-			"North East": {
+			"NORTH EAST": {
 				Code: "NE",
 			},
-			"Northern": {
+			"NORTHERN": {
 				Code: "NP",
 			},
-			"Oti": {
+			"OTI": {
 				Code: "OT",
 			},
-			"Savannah": {
+			"SAVANNAH": {
 				Code: "SV",
 			},
-			"Upper East": {
+			"UPPER EAST": {
 				Code: "UE",
 			},
-			"Upper West": {
+			"UPPER WEST": {
 				Code: "UW",
 			},
-			"Volta": {
+			"VOLTA": {
 				Code: "TV",
 			},
-			"Western": {
+			"WESTERN": {
 				Code: "WP",
 			},
-			"Western North": {
+			"WESTERN NORTH": {
 				Code: "WN",
 			},
 		},
@@ -16509,19 +16509,19 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Avannaata Kommunia": {
+			"AVANNAATA KOMMUNIA": {
 				Code: "AV",
 			},
-			"Kommune Kujalleq": {
+			"KOMMUNE KUJALLEQ": {
 				Code: "KU",
 			},
-			"Kommune Qeqertalik": {
+			"KOMMUNE QEQERTALIK": {
 				Code: "QT",
 			},
-			"Kommuneqarfik Sermersooq": {
+			"KOMMUNEQARFIK SERMERSOOQ": {
 				Code: "SM",
 			},
-			"Qeqqata Kommunia": {
+			"QEQQATA KOMMUNIA": {
 				Code: "QE",
 			},
 		},
@@ -16577,22 +16577,22 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Banjul": {
+			"BANJUL": {
 				Code: "B",
 			},
-			"Central River": {
+			"CENTRAL RIVER": {
 				Code: "M",
 			},
-			"Lower River": {
+			"LOWER RIVER": {
 				Code: "L",
 			},
-			"North Bank": {
+			"NORTH BANK": {
 				Code: "N",
 			},
-			"Upper River": {
+			"UPPER RIVER": {
 				Code: "U",
 			},
-			"Western": {
+			"WESTERN": {
 				Code: "W",
 			},
 		},
@@ -16886,153 +16886,153 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Boké": {
+			"BOKÉ": {
 				Code: "B",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Boffa": {
+					"BOFFA": {
 						Code: "BF",
 					},
-					"Boké": {
+					"BOKÉ": {
 						Code: "BK",
 					},
-					"Fria": {
+					"FRIA": {
 						Code: "FR",
 					},
-					"Gaoual": {
+					"GAOUAL": {
 						Code: "GA",
 					},
-					"Koundara": {
+					"KOUNDARA": {
 						Code: "KN",
 					},
 				},
 			},
-			"Conakry": {
+			"CONAKRY": {
 				Code: "C",
 			},
-			"Faranah": {
+			"FARANAH": {
 				Code: "F",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Dabola": {
+					"DABOLA": {
 						Code: "DB",
 					},
-					"Dinguiraye": {
+					"DINGUIRAYE": {
 						Code: "DI",
 					},
-					"Faranah": {
+					"FARANAH": {
 						Code: "FA",
 					},
-					"Kissidougou": {
+					"KISSIDOUGOU": {
 						Code: "KS",
 					},
 				},
 			},
-			"Kankan": {
+			"KANKAN": {
 				Code: "K",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Kankan": {
+					"KANKAN": {
 						Code: "KA",
 					},
-					"Kouroussa": {
+					"KOUROUSSA": {
 						Code: "KO",
 					},
-					"Kérouané": {
+					"KÉROUANÉ": {
 						Code: "KE",
 					},
-					"Mandiana": {
+					"MANDIANA": {
 						Code: "MD",
 					},
-					"Siguiri": {
+					"SIGUIRI": {
 						Code: "SI",
 					},
 				},
 			},
-			"Kindia": {
+			"KINDIA": {
 				Code: "D",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Coyah": {
+					"COYAH": {
 						Code: "CO",
 					},
-					"Dubréka": {
+					"DUBRÉKA": {
 						Code: "DU",
 					},
-					"Forécariah": {
+					"FORÉCARIAH": {
 						Code: "FO",
 					},
-					"Kindia": {
+					"KINDIA": {
 						Code: "KD",
 					},
-					"Télimélé": {
+					"TÉLIMÉLÉ": {
 						Code: "TE",
 					},
 				},
 			},
-			"Labé": {
+			"LABÉ": {
 				Code: "L",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Koubia": {
+					"KOUBIA": {
 						Code: "KB",
 					},
-					"Labé": {
+					"LABÉ": {
 						Code: "LA",
 					},
-					"Lélouma": {
+					"LÉLOUMA": {
 						Code: "LE",
 					},
-					"Mali": {
+					"MALI": {
 						Code: "ML",
 					},
-					"Tougué": {
+					"TOUGUÉ": {
 						Code: "TO",
 					},
 				},
 			},
-			"Mamou": {
+			"MAMOU": {
 				Code: "M",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Dalaba": {
+					"DALABA": {
 						Code: "DL",
 					},
-					"Mamou": {
+					"MAMOU": {
 						Code: "MM",
 					},
-					"Pita": {
+					"PITA": {
 						Code: "PI",
 					},
 				},
 			},
-			"Nzérékoré": {
+			"NZÉRÉKORÉ": {
 				Code: "N",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Beyla": {
+					"BEYLA": {
 						Code: "BE",
 					},
-					"Guékédou": {
+					"GUÉKÉDOU": {
 						Code: "GU",
 					},
-					"Lola": {
+					"LOLA": {
 						Code: "LO",
 					},
-					"Macenta": {
+					"MACENTA": {
 						Code: "MC",
 					},
-					"Nzérékoré": {
+					"NZÉRÉKORÉ": {
 						Code: "NZ",
 					},
-					"Yomou": {
+					"YOMOU": {
 						Code: "YO",
 					},
 				},
@@ -17125,37 +17125,37 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Région Continentale": {
+			"RÉGION CONTINENTALE": {
 				Code: "C",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Centro Sud": {
+					"CENTRO SUD": {
 						Code: "CS",
 					},
-					"Kié-Ntem": {
+					"KIÉ-NTEM": {
 						Code: "KN",
 					},
-					"Littoral": {
+					"LITTORAL": {
 						Code: "LI",
 					},
-					"Wele-Nzas": {
+					"WELE-NZAS": {
 						Code: "WN",
 					},
 				},
 			},
-			"Région Insulaire": {
+			"RÉGION INSULAIRE": {
 				Code: "I",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Annobon": {
+					"ANNOBON": {
 						Code: "AN",
 					},
-					"Bioko Nord": {
+					"BIOKO NORD": {
 						Code: "BN",
 					},
-					"Bioko Sud": {
+					"BIOKO SUD": {
 						Code: "BS",
 					},
 				},
@@ -17261,46 +17261,46 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Anatolikí Makedonía kai Thráki": {
+			"ANATOLIKÍ MAKEDONÍA KAI THRÁKI": {
 				Code: "A",
 			},
-			"Attikí": {
+			"ATTIKÍ": {
 				Code: "I",
 			},
-			"Dytikí Elláda": {
+			"DYTIKÍ ELLÁDA": {
 				Code: "G",
 			},
-			"Dytikí Makedonía": {
+			"DYTIKÍ MAKEDONÍA": {
 				Code: "C",
 			},
-			"Ionía Nísia": {
+			"IONÍA NÍSIA": {
 				Code: "F",
 			},
-			"Kentrikí Makedonía": {
+			"KENTRIKÍ MAKEDONÍA": {
 				Code: "B",
 			},
-			"Kríti": {
+			"KRÍTI": {
 				Code: "M",
 			},
-			"Nótio Aigaío": {
+			"NÓTIO AIGAÍO": {
 				Code: "L",
 			},
-			"Pelopónnisos": {
+			"PELOPÓNNISOS": {
 				Code: "J",
 			},
-			"Stereá Elláda": {
+			"STEREÁ ELLÁDA": {
 				Code: "H",
 			},
-			"Thessalía": {
+			"THESSALÍA": {
 				Code: "E",
 			},
-			"Vóreio Aigaío": {
+			"VÓREIO AIGAÍO": {
 				Code: "K",
 			},
-			"Ágion Óros": {
+			"ÁGION ÓROS": {
 				Code: "69",
 			},
-			"Ípeiros": {
+			"ÍPEIROS": {
 				Code: "D",
 			},
 		},
@@ -17461,70 +17461,70 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Alta Verapaz": {
+			"ALTA VERAPAZ": {
 				Code: "AV",
 			},
-			"Baja Verapaz": {
+			"BAJA VERAPAZ": {
 				Code: "BV",
 			},
-			"Chimaltenango": {
+			"CHIMALTENANGO": {
 				Code: "CM",
 			},
-			"Chiquimula": {
+			"CHIQUIMULA": {
 				Code: "CQ",
 			},
-			"El Progreso": {
+			"EL PROGRESO": {
 				Code: "PR",
 			},
-			"Escuintla": {
+			"ESCUINTLA": {
 				Code: "ES",
 			},
-			"Guatemala": {
+			"GUATEMALA": {
 				Code: "GU",
 			},
-			"Huehuetenango": {
+			"HUEHUETENANGO": {
 				Code: "HU",
 			},
-			"Izabal": {
+			"IZABAL": {
 				Code: "IZ",
 			},
-			"Jalapa": {
+			"JALAPA": {
 				Code: "JA",
 			},
-			"Jutiapa": {
+			"JUTIAPA": {
 				Code: "JU",
 			},
-			"Petén": {
+			"PETÉN": {
 				Code: "PE",
 			},
-			"Quetzaltenango": {
+			"QUETZALTENANGO": {
 				Code: "QZ",
 			},
-			"Quiché": {
+			"QUICHÉ": {
 				Code: "QC",
 			},
-			"Retalhuleu": {
+			"RETALHULEU": {
 				Code: "RE",
 			},
-			"Sacatepéquez": {
+			"SACATEPÉQUEZ": {
 				Code: "SA",
 			},
-			"San Marcos": {
+			"SAN MARCOS": {
 				Code: "SM",
 			},
-			"Santa Rosa": {
+			"SANTA ROSA": {
 				Code: "SR",
 			},
-			"Sololá": {
+			"SOLOLÁ": {
 				Code: "SO",
 			},
-			"Suchitepéquez": {
+			"SUCHITEPÉQUEZ": {
 				Code: "SU",
 			},
-			"Totonicapán": {
+			"TOTONICAPÁN": {
 				Code: "TO",
 			},
-			"Zacapa": {
+			"ZACAPA": {
 				Code: "ZA",
 			},
 		},
@@ -17637,50 +17637,50 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bissau": {
+			"BISSAU": {
 				Code: "BS",
 			},
-			"Leste": {
+			"LESTE": {
 				Code: "L",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bafatá": {
+					"BAFATÁ": {
 						Code: "BA",
 					},
-					"Gabú": {
+					"GABÚ": {
 						Code: "GA",
 					},
 				},
 			},
-			"Norte": {
+			"NORTE": {
 				Code: "N",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Biombo": {
+					"BIOMBO": {
 						Code: "BM",
 					},
-					"Cacheu": {
+					"CACHEU": {
 						Code: "CA",
 					},
-					"Oio": {
+					"OIO": {
 						Code: "OI",
 					},
 				},
 			},
-			"Sul": {
+			"SUL": {
 				Code: "S",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bolama": {
+					"BOLAMA": {
 						Code: "BL",
 					},
-					"Quinara": {
+					"QUINARA": {
 						Code: "QU",
 					},
-					"Tombali": {
+					"TOMBALI": {
 						Code: "TO",
 					},
 				},
@@ -17762,34 +17762,34 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Barima-Waini": {
+			"BARIMA-WAINI": {
 				Code: "BA",
 			},
-			"Cuyuni-Mazaruni": {
+			"CUYUNI-MAZARUNI": {
 				Code: "CU",
 			},
-			"Demerara-Mahaica": {
+			"DEMERARA-MAHAICA": {
 				Code: "DE",
 			},
-			"East Berbice-Corentyne": {
+			"EAST BERBICE-CORENTYNE": {
 				Code: "EB",
 			},
-			"Essequibo Islands-West Demerara": {
+			"ESSEQUIBO ISLANDS-WEST DEMERARA": {
 				Code: "ES",
 			},
-			"Mahaica-Berbice": {
+			"MAHAICA-BERBICE": {
 				Code: "MA",
 			},
-			"Pomeroon-Supenaam": {
+			"POMEROON-SUPENAAM": {
 				Code: "PM",
 			},
-			"Potaro-Siparuni": {
+			"POTARO-SIPARUNI": {
 				Code: "PT",
 			},
-			"Upper Demerara-Berbice": {
+			"UPPER DEMERARA-BERBICE": {
 				Code: "UD",
 			},
-			"Upper Takutu-Upper Essequibo": {
+			"UPPER TAKUTU-UPPER ESSEQUIBO": {
 				Code: "UT",
 			},
 		},
@@ -17935,58 +17935,58 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Atlántida": {
+			"ATLÁNTIDA": {
 				Code: "AT",
 			},
-			"Choluteca": {
+			"CHOLUTECA": {
 				Code: "CH",
 			},
-			"Colón": {
+			"COLÓN": {
 				Code: "CL",
 			},
-			"Comayagua": {
+			"COMAYAGUA": {
 				Code: "CM",
 			},
-			"Copán": {
+			"COPÁN": {
 				Code: "CP",
 			},
-			"Cortés": {
+			"CORTÉS": {
 				Code: "CR",
 			},
-			"El Paraíso": {
+			"EL PARAÍSO": {
 				Code: "EP",
 			},
-			"Francisco Morazán": {
+			"FRANCISCO MORAZÁN": {
 				Code: "FM",
 			},
-			"Gracias a Dios": {
+			"GRACIAS A DIOS": {
 				Code: "GD",
 			},
-			"Intibucá": {
+			"INTIBUCÁ": {
 				Code: "IN",
 			},
-			"Islas de la Bahía": {
+			"ISLAS DE LA BAHÍA": {
 				Code: "IB",
 			},
-			"La Paz": {
+			"LA PAZ": {
 				Code: "LP",
 			},
-			"Lempira": {
+			"LEMPIRA": {
 				Code: "LE",
 			},
-			"Ocotepeque": {
+			"OCOTEPEQUE": {
 				Code: "OC",
 			},
-			"Olancho": {
+			"OLANCHO": {
 				Code: "OL",
 			},
-			"Santa Bárbara": {
+			"SANTA BÁRBARA": {
 				Code: "SB",
 			},
-			"Valle": {
+			"VALLE": {
 				Code: "VA",
 			},
-			"Yoro": {
+			"YORO": {
 				Code: "YO",
 			},
 		},
@@ -18132,67 +18132,67 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bjelovarsko-bilogorska županija": {
+			"BJELOVARSKO-BILOGORSKA ŽUPANIJA": {
 				Code: "07",
 			},
-			"Brodsko-posavska županija": {
+			"BRODSKO-POSAVSKA ŽUPANIJA": {
 				Code: "12",
 			},
-			"Dubrovačko-neretvanska županija": {
+			"DUBROVAČKO-NERETVANSKA ŽUPANIJA": {
 				Code: "19",
 			},
-			"Grad Zagreb": {
+			"GRAD ZAGREB": {
 				Code: "21",
 			},
-			"Istarska županija": {
+			"ISTARSKA ŽUPANIJA": {
 				Code: "18",
 			},
-			"Karlovačka županija": {
+			"KARLOVAČKA ŽUPANIJA": {
 				Code: "04",
 			},
-			"Koprivničko-križevačka županija": {
+			"KOPRIVNIČKO-KRIŽEVAČKA ŽUPANIJA": {
 				Code: "06",
 			},
-			"Krapinsko-zagorska županija": {
+			"KRAPINSKO-ZAGORSKA ŽUPANIJA": {
 				Code: "02",
 			},
-			"Ličko-senjska županija": {
+			"LIČKO-SENJSKA ŽUPANIJA": {
 				Code: "09",
 			},
-			"Međimurska županija": {
+			"MEĐIMURSKA ŽUPANIJA": {
 				Code: "20",
 			},
-			"Osječko-baranjska županija": {
+			"OSJEČKO-BARANJSKA ŽUPANIJA": {
 				Code: "14",
 			},
-			"Požeško-slavonska županija": {
+			"POŽEŠKO-SLAVONSKA ŽUPANIJA": {
 				Code: "11",
 			},
-			"Primorsko-goranska županija": {
+			"PRIMORSKO-GORANSKA ŽUPANIJA": {
 				Code: "08",
 			},
-			"Sisačko-moslavačka županija": {
+			"SISAČKO-MOSLAVAČKA ŽUPANIJA": {
 				Code: "03",
 			},
-			"Splitsko-dalmatinska županija": {
+			"SPLITSKO-DALMATINSKA ŽUPANIJA": {
 				Code: "17",
 			},
-			"Varaždinska županija": {
+			"VARAŽDINSKA ŽUPANIJA": {
 				Code: "05",
 			},
-			"Virovitičko-podravska županija": {
+			"VIROVITIČKO-PODRAVSKA ŽUPANIJA": {
 				Code: "10",
 			},
-			"Vukovarsko-srijemska županija": {
+			"VUKOVARSKO-SRIJEMSKA ŽUPANIJA": {
 				Code: "16",
 			},
-			"Zadarska županija": {
+			"ZADARSKA ŽUPANIJA": {
 				Code: "13",
 			},
-			"Zagrebačka županija": {
+			"ZAGREBAČKA ŽUPANIJA": {
 				Code: "01",
 			},
-			"Šibensko-kninska županija": {
+			"ŠIBENSKO-KNINSKA ŽUPANIJA": {
 				Code: "15",
 			},
 		},
@@ -18272,34 +18272,34 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Grandans": {
+			"GRANDANS": {
 				Code: "GA",
 			},
-			"Latibonit": {
+			"LATIBONIT": {
 				Code: "AR",
 			},
-			"Lwès": {
+			"LWÈS": {
 				Code: "OU",
 			},
-			"Nip": {
+			"NIP": {
 				Code: "NI",
 			},
-			"Nò": {
+			"NÒ": {
 				Code: "ND",
 			},
-			"Nòdwès": {
+			"NÒDWÈS": {
 				Code: "NO",
 			},
-			"Nòdès": {
+			"NÒDÈS": {
 				Code: "NE",
 			},
-			"Sant": {
+			"SANT": {
 				Code: "CE",
 			},
-			"Sid": {
+			"SID": {
 				Code: "SD",
 			},
-			"Sidès": {
+			"SIDÈS": {
 				Code: "SE",
 			},
 		},
@@ -18577,130 +18577,130 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Baranya": {
+			"BARANYA": {
 				Code: "BA",
 			},
-			"Borsod-Abaúj-Zemplén": {
+			"BORSOD-ABAÚJ-ZEMPLÉN": {
 				Code: "BZ",
 			},
-			"Budapest": {
+			"BUDAPEST": {
 				Code: "BU",
 			},
-			"Bács-Kiskun": {
+			"BÁCS-KISKUN": {
 				Code: "BK",
 			},
-			"Békés": {
+			"BÉKÉS": {
 				Code: "BE",
 			},
-			"Békéscsaba": {
+			"BÉKÉSCSABA": {
 				Code: "BC",
 			},
-			"Csongrád": {
+			"CSONGRÁD": {
 				Code: "CS",
 			},
-			"Debrecen": {
+			"DEBRECEN": {
 				Code: "DE",
 			},
-			"Dunaújváros": {
+			"DUNAÚJVÁROS": {
 				Code: "DU",
 			},
-			"Eger": {
+			"EGER": {
 				Code: "EG",
 			},
-			"Fejér": {
+			"FEJÉR": {
 				Code: "FE",
 			},
-			"Győr": {
+			"GYŐR": {
 				Code: "GY",
 			},
-			"Győr-Moson-Sopron": {
+			"GYŐR-MOSON-SOPRON": {
 				Code: "GS",
 			},
-			"Hajdú-Bihar": {
+			"HAJDÚ-BIHAR": {
 				Code: "HB",
 			},
-			"Heves": {
+			"HEVES": {
 				Code: "HE",
 			},
-			"Hódmezővásárhely": {
+			"HÓDMEZŐVÁSÁRHELY": {
 				Code: "HV",
 			},
-			"Jász-Nagykun-Szolnok": {
+			"JÁSZ-NAGYKUN-SZOLNOK": {
 				Code: "JN",
 			},
-			"Kaposvár": {
+			"KAPOSVÁR": {
 				Code: "KV",
 			},
-			"Kecskemét": {
+			"KECSKEMÉT": {
 				Code: "KM",
 			},
-			"Komárom-Esztergom": {
+			"KOMÁROM-ESZTERGOM": {
 				Code: "KE",
 			},
-			"Miskolc": {
+			"MISKOLC": {
 				Code: "MI",
 			},
-			"Nagykanizsa": {
+			"NAGYKANIZSA": {
 				Code: "NK",
 			},
-			"Nyíregyháza": {
+			"NYÍREGYHÁZA": {
 				Code: "NY",
 			},
-			"Nógrád": {
+			"NÓGRÁD": {
 				Code: "NO",
 			},
-			"Pest": {
+			"PEST": {
 				Code: "PE",
 			},
-			"Pécs": {
+			"PÉCS": {
 				Code: "PS",
 			},
-			"Salgótarján": {
+			"SALGÓTARJÁN": {
 				Code: "ST",
 			},
-			"Somogy": {
+			"SOMOGY": {
 				Code: "SO",
 			},
-			"Sopron": {
+			"SOPRON": {
 				Code: "SN",
 			},
-			"Szabolcs-Szatmár-Bereg": {
+			"SZABOLCS-SZATMÁR-BEREG": {
 				Code: "SZ",
 			},
-			"Szeged": {
+			"SZEGED": {
 				Code: "SD",
 			},
-			"Szekszárd": {
+			"SZEKSZÁRD": {
 				Code: "SS",
 			},
-			"Szolnok": {
+			"SZOLNOK": {
 				Code: "SK",
 			},
-			"Szombathely": {
+			"SZOMBATHELY": {
 				Code: "SH",
 			},
-			"Székesfehérvár": {
+			"SZÉKESFEHÉRVÁR": {
 				Code: "SF",
 			},
-			"Tatabánya": {
+			"TATABÁNYA": {
 				Code: "TB",
 			},
-			"Tolna": {
+			"TOLNA": {
 				Code: "TO",
 			},
-			"Vas": {
+			"VAS": {
 				Code: "VA",
 			},
-			"Veszprém": {
-				Code: "VM",
+			"VESZPRÉM": {
+				Code: "VE",
 			},
-			"Zala": {
+			"ZALA": {
 				Code: "ZA",
 			},
-			"Zalaegerszeg": {
+			"ZALAEGERSZEG": {
 				Code: "ZE",
 			},
-			"Érd": {
+			"ÉRD": {
 				Code: "ER",
 			},
 		},
@@ -18994,153 +18994,153 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Jawa": {
+			"JAWA": {
 				Code: "JW",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Banten": {
+					"BANTEN": {
 						Code: "BT",
 					},
-					"Jakarta Raya": {
+					"JAKARTA RAYA": {
 						Code: "JK",
 					},
-					"Jawa Barat": {
+					"JAWA BARAT": {
 						Code: "JB",
 					},
-					"Jawa Tengah": {
+					"JAWA TENGAH": {
 						Code: "JT",
 					},
-					"Jawa Timur": {
+					"JAWA TIMUR": {
 						Code: "JI",
 					},
-					"Yogyakarta": {
+					"YOGYAKARTA": {
 						Code: "YO",
 					},
 				},
 			},
-			"Kalimantan": {
+			"KALIMANTAN": {
 				Code: "KA",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Kalimantan Barat": {
+					"KALIMANTAN BARAT": {
 						Code: "KB",
 					},
-					"Kalimantan Selatan": {
+					"KALIMANTAN SELATAN": {
 						Code: "KS",
 					},
-					"Kalimantan Tengah": {
+					"KALIMANTAN TENGAH": {
 						Code: "KT",
 					},
-					"Kalimantan Timur": {
+					"KALIMANTAN TIMUR": {
 						Code: "KI",
 					},
-					"Kalimantan Utara": {
+					"KALIMANTAN UTARA": {
 						Code: "KU",
 					},
 				},
 			},
-			"Maluku": {
+			"MALUKU": {
 				Code: "ML",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Maluku": {
+					"MALUKU": {
 						Code: "MA",
 					},
-					"Maluku Utara": {
+					"MALUKU UTARA": {
 						Code: "MU",
 					},
 				},
 			},
-			"Nusa Tenggara": {
+			"NUSA TENGGARA": {
 				Code: "NU",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bali": {
+					"BALI": {
 						Code: "BA",
 					},
-					"Nusa Tenggara Barat": {
+					"NUSA TENGGARA BARAT": {
 						Code: "NB",
 					},
-					"Nusa Tenggara Timur": {
+					"NUSA TENGGARA TIMUR": {
 						Code: "NT",
 					},
 				},
 			},
-			"Papua": {
+			"PAPUA": {
 				Code: "PP",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Papua": {
+					"PAPUA": {
 						Code: "PA",
 					},
-					"Papua Barat": {
+					"PAPUA BARAT": {
 						Code: "PB",
 					},
 				},
 			},
-			"Sulawesi": {
+			"SULAWESI": {
 				Code: "SL",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Gorontalo": {
+					"GORONTALO": {
 						Code: "GO",
 					},
-					"Sulawesi Barat": {
+					"SULAWESI BARAT": {
 						Code: "SR",
 					},
-					"Sulawesi Selatan": {
+					"SULAWESI SELATAN": {
 						Code: "SN",
 					},
-					"Sulawesi Tengah": {
+					"SULAWESI TENGAH": {
 						Code: "ST",
 					},
-					"Sulawesi Tenggara": {
+					"SULAWESI TENGGARA": {
 						Code: "SG",
 					},
-					"Sulawesi Utara": {
+					"SULAWESI UTARA": {
 						Code: "SA",
 					},
 				},
 			},
-			"Sumatera": {
+			"SUMATERA": {
 				Code: "SM",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Aceh": {
+					"ACEH": {
 						Code: "AC",
 					},
-					"Bengkulu": {
+					"BENGKULU": {
 						Code: "BE",
 					},
-					"Jambi": {
+					"JAMBI": {
 						Code: "JA",
 					},
-					"Kepulauan Bangka Belitung": {
+					"KEPULAUAN BANGKA BELITUNG": {
 						Code: "BB",
 					},
-					"Kepulauan Riau": {
+					"KEPULAUAN RIAU": {
 						Code: "KR",
 					},
-					"Lampung": {
+					"LAMPUNG": {
 						Code: "LA",
 					},
-					"Riau": {
+					"RIAU": {
 						Code: "RI",
 					},
-					"Sumatera Barat": {
+					"SUMATERA BARAT": {
 						Code: "SB",
 					},
-					"Sumatera Selatan": {
+					"SUMATERA SELATAN": {
 						Code: "SS",
 					},
-					"Sumatera Utara": {
+					"SUMATERA UTARA": {
 						Code: "SU",
 					},
 				},
@@ -19358,108 +19358,108 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Connaught": {
+			"CONNAUGHT": {
 				Code: "C",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Galway": {
+					"GALWAY": {
 						Code: "G",
 					},
-					"Leitrim": {
+					"LEITRIM": {
 						Code: "LM",
 					},
-					"Mayo": {
+					"MAYO": {
 						Code: "MO",
 					},
-					"Roscommon": {
+					"ROSCOMMON": {
 						Code: "RN",
 					},
-					"Sligo": {
+					"SLIGO": {
 						Code: "SO",
 					},
 				},
 			},
-			"Leinster": {
+			"LEINSTER": {
 				Code: "L",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Carlow": {
+					"CARLOW": {
 						Code: "CW",
 					},
-					"Dublin": {
+					"DUBLIN": {
 						Code: "D",
 					},
-					"Kildare": {
+					"KILDARE": {
 						Code: "KE",
 					},
-					"Kilkenny": {
+					"KILKENNY": {
 						Code: "KK",
 					},
-					"Laois": {
+					"LAOIS": {
 						Code: "LS",
 					},
-					"Longford": {
+					"LONGFORD": {
 						Code: "LD",
 					},
-					"Louth": {
+					"LOUTH": {
 						Code: "LH",
 					},
-					"Meath": {
+					"MEATH": {
 						Code: "MH",
 					},
-					"Offaly": {
+					"OFFALY": {
 						Code: "OY",
 					},
-					"Westmeath": {
+					"WESTMEATH": {
 						Code: "WH",
 					},
-					"Wexford": {
+					"WEXFORD": {
 						Code: "WX",
 					},
-					"Wicklow": {
+					"WICKLOW": {
 						Code: "WW",
 					},
 				},
 			},
-			"Munster": {
+			"MUNSTER": {
 				Code: "M",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Clare": {
+					"CLARE": {
 						Code: "CE",
 					},
-					"Cork": {
+					"CORK": {
 						Code: "CO",
 					},
-					"Kerry": {
+					"KERRY": {
 						Code: "KY",
 					},
-					"Limerick": {
+					"LIMERICK": {
 						Code: "LK",
 					},
-					"Tipperary": {
+					"TIPPERARY": {
 						Code: "TA",
 					},
-					"Waterford": {
+					"WATERFORD": {
 						Code: "WD",
 					},
 				},
 			},
-			"Ulster": {
+			"ULSTER": {
 				Code: "U",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Cavan": {
+					"CAVAN": {
 						Code: "CN",
 					},
-					"Donegal": {
+					"DONEGAL": {
 						Code: "DL",
 					},
-					"Monaghan": {
+					"MONAGHAN": {
 						Code: "MN",
 					},
 				},
@@ -19517,22 +19517,22 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"HaDarom": {
+			"HADAROM": {
 				Code: "D",
 			},
-			"HaMerkaz": {
+			"HAMERKAZ": {
 				Code: "M",
 			},
-			"HaTsafon": {
+			"HATSAFON": {
 				Code: "Z",
 			},
-			"H̱efa": {
+			"H̱EFA": {
 				Code: "HA",
 			},
-			"Tel Aviv": {
+			"TEL AVIV": {
 				Code: "TA",
 			},
-			"Yerushalayim": {
+			"YERUSHALAYIM": {
 				Code: "JM",
 			},
 		},
@@ -19783,115 +19783,115 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Andaman and Nicobar Islands": {
+			"ANDAMAN AND NICOBAR ISLANDS": {
 				Code: "AN",
 			},
-			"Andhra Pradesh": {
+			"ANDHRA PRADESH": {
 				Code: "AP",
 			},
-			"Arunachal Pradesh": {
+			"ARUNACHAL PRADESH": {
 				Code: "AR",
 			},
-			"Assam": {
+			"ASSAM": {
 				Code: "AS",
 			},
-			"Bihar": {
+			"BIHAR": {
 				Code: "BR",
 			},
-			"Chandigarh": {
+			"CHANDIGARH": {
 				Code: "CH",
 			},
-			"Chhattisgarh": {
+			"CHHATTISGARH": {
 				Code: "CT",
 			},
-			"Dadra and Nagar Haveli": {
+			"DADRA AND NAGAR HAVELI": {
 				Code: "DN",
 			},
-			"Daman and Diu": {
+			"DAMAN AND DIU": {
 				Code: "DD",
 			},
-			"Delhi": {
+			"DELHI": {
 				Code: "DL",
 			},
-			"Goa": {
+			"GOA": {
 				Code: "GA",
 			},
-			"Gujarat": {
+			"GUJARAT": {
 				Code: "GJ",
 			},
-			"Haryana": {
+			"HARYANA": {
 				Code: "HR",
 			},
-			"Himachal Pradesh": {
+			"HIMACHAL PRADESH": {
 				Code: "HP",
 			},
-			"Jammu and Kashmir": {
+			"JAMMU AND KASHMIR": {
 				Code: "JK",
 			},
-			"Jharkhand": {
+			"JHARKHAND": {
 				Code: "JH",
 			},
-			"Karnataka": {
+			"KARNATAKA": {
 				Code: "KA",
 			},
-			"Kerala": {
+			"KERALA": {
 				Code: "KL",
 			},
-			"Ladakh": {
+			"LADAKH": {
 				Code: "LA",
 			},
-			"Lakshadweep": {
+			"LAKSHADWEEP": {
 				Code: "LD",
 			},
-			"Madhya Pradesh": {
+			"MADHYA PRADESH": {
 				Code: "MP",
 			},
-			"Maharashtra": {
+			"MAHARASHTRA": {
 				Code: "MH",
 			},
-			"Manipur": {
+			"MANIPUR": {
 				Code: "MN",
 			},
-			"Meghalaya": {
+			"MEGHALAYA": {
 				Code: "ML",
 			},
-			"Mizoram": {
+			"MIZORAM": {
 				Code: "MZ",
 			},
-			"Nagaland": {
+			"NAGALAND": {
 				Code: "NL",
 			},
-			"Odisha": {
+			"ODISHA": {
 				Code: "OR",
 			},
-			"Puducherry": {
+			"PUDUCHERRY": {
 				Code: "PY",
 			},
-			"Punjab": {
+			"PUNJAB": {
 				Code: "PB",
 			},
-			"Rajasthan": {
+			"RAJASTHAN": {
 				Code: "RJ",
 			},
-			"Sikkim": {
+			"SIKKIM": {
 				Code: "SK",
 			},
-			"Tamil Nadu": {
+			"TAMIL NADU": {
 				Code: "TN",
 			},
-			"Telangana": {
+			"TELANGANA": {
 				Code: "TG",
 			},
-			"Tripura": {
+			"TRIPURA": {
 				Code: "TR",
 			},
-			"Uttar Pradesh": {
+			"UTTAR PRADESH": {
 				Code: "UP",
 			},
-			"Uttarakhand": {
+			"UTTARAKHAND": {
 				Code: "UT",
 			},
-			"West Bengal": {
+			"WEST BENGAL": {
 				Code: "WB",
 			},
 		},
@@ -20028,58 +20028,58 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Al Anbār": {
+			"AL ANBĀR": {
 				Code: "AN",
 			},
-			"Al Başrah": {
+			"AL BAŞRAH": {
 				Code: "BA",
 			},
-			"Al Muthanná": {
+			"AL MUTHANNÁ": {
 				Code: "MU",
 			},
-			"Al Qādisīyah": {
+			"AL QĀDISĪYAH": {
 				Code: "QA",
 			},
-			"An Najaf": {
+			"AN NAJAF": {
 				Code: "NA",
 			},
-			"Baghdād": {
+			"BAGHDĀD": {
 				Code: "BG",
 			},
-			"Bābil": {
+			"BĀBIL": {
 				Code: "BB",
 			},
-			"Dhī Qār": {
+			"DHĪ QĀR": {
 				Code: "DQ",
 			},
-			"Dihok": {
+			"DIHOK": {
 				Code: "DA",
 			},
-			"Diyālá": {
+			"DIYĀLÁ": {
 				Code: "DI",
 			},
-			"Hewlêr": {
+			"HEWLÊR": {
 				Code: "AR",
 			},
-			"Karbalā’": {
+			"KARBALĀ’": {
 				Code: "KA",
 			},
-			"Kirkūk": {
+			"KIRKŪK": {
 				Code: "KI",
 			},
-			"Maysān": {
+			"MAYSĀN": {
 				Code: "MA",
 			},
-			"Nīnawá": {
+			"NĪNAWÁ": {
 				Code: "NI",
 			},
-			"Slêmanî": {
+			"SLÊMANÎ": {
 				Code: "SU",
 			},
-			"Wāsiţ": {
+			"WĀSIŢ": {
 				Code: "WA",
 			},
-			"Şalāḩ ad Dīn": {
+			"ŞALĀḨ AD DĪN": {
 				Code: "SD",
 			},
 		},
@@ -20285,97 +20285,97 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Alborz": {
+			"ALBORZ": {
 				Code: "32",
 			},
-			"Ardabīl": {
+			"ARDABĪL": {
 				Code: "03",
 			},
-			"Būshehr": {
+			"BŪSHEHR": {
 				Code: "06",
 			},
-			"Chahār Maḩāl va Bakhtīārī": {
+			"CHAHĀR MAḨĀL VA BAKHTĪĀRĪ": {
 				Code: "08",
 			},
-			"Eşfahān": {
+			"EŞFAHĀN": {
 				Code: "04",
 			},
-			"Fārs": {
+			"FĀRS": {
 				Code: "14",
 			},
-			"Golestān": {
+			"GOLESTĀN": {
 				Code: "27",
 			},
-			"Gīlān": {
+			"GĪLĀN": {
 				Code: "19",
 			},
-			"Hamadān": {
+			"HAMADĀN": {
 				Code: "24",
 			},
-			"Hormozgān": {
+			"HORMOZGĀN": {
 				Code: "23",
 			},
-			"Kermān": {
+			"KERMĀN": {
 				Code: "15",
 			},
-			"Kermānshāh": {
+			"KERMĀNSHĀH": {
 				Code: "17",
 			},
-			"Khorāsān-e Jonūbī": {
+			"KHORĀSĀN-E JONŪBĪ": {
 				Code: "29",
 			},
-			"Khorāsān-e Raẕavī": {
+			"KHORĀSĀN-E RAẔAVĪ": {
 				Code: "30",
 			},
-			"Khorāsān-e Shomālī": {
+			"KHORĀSĀN-E SHOMĀLĪ": {
 				Code: "31",
 			},
-			"Khūzestān": {
+			"KHŪZESTĀN": {
 				Code: "10",
 			},
-			"Kohgīlūyeh va Bowyer Aḩmad": {
+			"KOHGĪLŪYEH VA BOWYER AḨMAD": {
 				Code: "18",
 			},
-			"Kordestān": {
+			"KORDESTĀN": {
 				Code: "16",
 			},
-			"Lorestān": {
+			"LORESTĀN": {
 				Code: "20",
 			},
-			"Markazī": {
+			"MARKAZĪ": {
 				Code: "22",
 			},
-			"Māzandarān": {
+			"MĀZANDARĀN": {
 				Code: "21",
 			},
-			"Qazvīn": {
+			"QAZVĪN": {
 				Code: "28",
 			},
-			"Qom": {
+			"QOM": {
 				Code: "26",
 			},
-			"Semnān": {
+			"SEMNĀN": {
 				Code: "12",
 			},
-			"Sīstān va Balūchestān": {
+			"SĪSTĀN VA BALŪCHESTĀN": {
 				Code: "13",
 			},
-			"Tehrān": {
+			"TEHRĀN": {
 				Code: "07",
 			},
-			"Yazd": {
+			"YAZD": {
 				Code: "25",
 			},
-			"Zanjān": {
+			"ZANJĀN": {
 				Code: "11",
 			},
-			"Āz̄ārbāyjān-e Ghārbī": {
+			"ĀZ̄ĀRBĀYJĀN-E GHĀRBĪ": {
 				Code: "02",
 			},
-			"Āz̄ārbāyjān-e Shārqī": {
+			"ĀZ̄ĀRBĀYJĀN-E SHĀRQĪ": {
 				Code: "01",
 			},
-			"Īlām": {
+			"ĪLĀM": {
 				Code: "05",
 			},
 		},
@@ -20443,28 +20443,28 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Austurland": {
+			"AUSTURLAND": {
 				Code: "7",
 			},
-			"Höfuðborgarsvæði": {
+			"HÖFUÐBORGARSVÆÐI": {
 				Code: "1",
 			},
-			"Norðurland eystra": {
+			"NORÐURLAND EYSTRA": {
 				Code: "6",
 			},
-			"Norðurland vestra": {
+			"NORÐURLAND VESTRA": {
 				Code: "5",
 			},
-			"Suðurland": {
+			"SUÐURLAND": {
 				Code: "8",
 			},
-			"Suðurnes": {
+			"SUÐURNES": {
 				Code: "2",
 			},
-			"Vestfirðir": {
+			"VESTFIRÐIR": {
 				Code: "4",
 			},
-			"Vesturland": {
+			"VESTURLAND": {
 				Code: "3",
 			},
 		},
@@ -21288,440 +21288,440 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Abruzzo": {
+			"ABRUZZO": {
 				Code: "65",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Chieti": {
+					"CHIETI": {
 						Code: "CH",
 					},
-					"L'Aquila": {
+					"L'AQUILA": {
 						Code: "AQ",
 					},
-					"Pescara": {
+					"PESCARA": {
 						Code: "PE",
 					},
-					"Teramo": {
+					"TERAMO": {
 						Code: "TE",
 					},
 				},
 			},
-			"Basilicata": {
+			"BASILICATA": {
 				Code: "77",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Matera": {
+					"MATERA": {
 						Code: "MT",
 					},
-					"Potenza": {
+					"POTENZA": {
 						Code: "PZ",
 					},
 				},
 			},
-			"Calabria": {
+			"CALABRIA": {
 				Code: "78",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Catanzaro": {
+					"CATANZARO": {
 						Code: "CZ",
 					},
-					"Cosenza": {
+					"COSENZA": {
 						Code: "CS",
 					},
-					"Crotone": {
+					"CROTONE": {
 						Code: "KR",
 					},
-					"Reggio Calabria": {
+					"REGGIO CALABRIA": {
 						Code: "RC",
 					},
-					"Vibo Valentia": {
+					"VIBO VALENTIA": {
 						Code: "VV",
 					},
 				},
 			},
-			"Campania": {
+			"CAMPANIA": {
 				Code: "72",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Avellino": {
+					"AVELLINO": {
 						Code: "AV",
 					},
-					"Benevento": {
+					"BENEVENTO": {
 						Code: "BN",
 					},
-					"Caserta": {
+					"CASERTA": {
 						Code: "CE",
 					},
-					"Napoli": {
+					"NAPOLI": {
 						Code: "NA",
 					},
-					"Salerno": {
+					"SALERNO": {
 						Code: "SA",
 					},
 				},
 			},
-			"Emilia-Romagna": {
+			"EMILIA-ROMAGNA": {
 				Code: "45",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bologna": {
+					"BOLOGNA": {
 						Code: "BO",
 					},
-					"Ferrara": {
+					"FERRARA": {
 						Code: "FE",
 					},
-					"Forlì-Cesena": {
+					"FORLÌ-CESENA": {
 						Code: "FC",
 					},
-					"Modena": {
+					"MODENA": {
 						Code: "MO",
 					},
-					"Parma": {
+					"PARMA": {
 						Code: "PR",
 					},
-					"Piacenza": {
+					"PIACENZA": {
 						Code: "PC",
 					},
-					"Ravenna": {
+					"RAVENNA": {
 						Code: "RA",
 					},
-					"Reggio Emilia": {
+					"REGGIO EMILIA": {
 						Code: "RE",
 					},
-					"Rimini": {
+					"RIMINI": {
 						Code: "RN",
 					},
 				},
 			},
-			"Friuli Venezia Giulia": {
+			"FRIULI VENEZIA GIULIA": {
 				Code: "36",
 			},
-			"Lazio": {
+			"LAZIO": {
 				Code: "62",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Frosinone": {
+					"FROSINONE": {
 						Code: "FR",
 					},
-					"Latina": {
+					"LATINA": {
 						Code: "LT",
 					},
-					"Rieti": {
+					"RIETI": {
 						Code: "RI",
 					},
-					"Roma": {
+					"ROMA": {
 						Code: "RM",
 					},
-					"Viterbo": {
+					"VITERBO": {
 						Code: "VT",
 					},
 				},
 			},
-			"Liguria": {
+			"LIGURIA": {
 				Code: "42",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Genova": {
+					"GENOVA": {
 						Code: "GE",
 					},
-					"Imperia": {
+					"IMPERIA": {
 						Code: "IM",
 					},
-					"La Spezia": {
+					"LA SPEZIA": {
 						Code: "SP",
 					},
-					"Savona": {
+					"SAVONA": {
 						Code: "SV",
 					},
 				},
 			},
-			"Lombardia": {
+			"LOMBARDIA": {
 				Code: "25",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bergamo": {
+					"BERGAMO": {
 						Code: "BG",
 					},
-					"Brescia": {
+					"BRESCIA": {
 						Code: "BS",
 					},
-					"Como": {
+					"COMO": {
 						Code: "CO",
 					},
-					"Cremona": {
+					"CREMONA": {
 						Code: "CR",
 					},
-					"Lecco": {
+					"LECCO": {
 						Code: "LC",
 					},
-					"Lodi": {
+					"LODI": {
 						Code: "LO",
 					},
-					"Mantova": {
+					"MANTOVA": {
 						Code: "MN",
 					},
-					"Milano": {
+					"MILANO": {
 						Code: "MI",
 					},
-					"Monza e Brianza": {
+					"MONZA E BRIANZA": {
 						Code: "MB",
 					},
-					"Pavia": {
+					"PAVIA": {
 						Code: "PV",
 					},
-					"Sondrio": {
+					"SONDRIO": {
 						Code: "SO",
 					},
-					"Varese": {
+					"VARESE": {
 						Code: "VA",
 					},
 				},
 			},
-			"Marche": {
+			"MARCHE": {
 				Code: "57",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Ancona": {
+					"ANCONA": {
 						Code: "AN",
 					},
-					"Ascoli Piceno": {
+					"ASCOLI PICENO": {
 						Code: "AP",
 					},
-					"Fermo": {
+					"FERMO": {
 						Code: "FM",
 					},
-					"Macerata": {
+					"MACERATA": {
 						Code: "MC",
 					},
-					"Pesaro e Urbino": {
+					"PESARO E URBINO": {
 						Code: "PU",
 					},
 				},
 			},
-			"Molise": {
+			"MOLISE": {
 				Code: "67",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Campobasso": {
+					"CAMPOBASSO": {
 						Code: "CB",
 					},
-					"Isernia": {
+					"ISERNIA": {
 						Code: "IS",
 					},
 				},
 			},
-			"Piemonte": {
+			"PIEMONTE": {
 				Code: "21",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Alessandria": {
+					"ALESSANDRIA": {
 						Code: "AL",
 					},
-					"Asti": {
+					"ASTI": {
 						Code: "AT",
 					},
-					"Biella": {
+					"BIELLA": {
 						Code: "BI",
 					},
-					"Cuneo": {
+					"CUNEO": {
 						Code: "CN",
 					},
-					"Novara": {
+					"NOVARA": {
 						Code: "NO",
 					},
-					"Torino": {
+					"TORINO": {
 						Code: "TO",
 					},
-					"Verbano-Cusio-Ossola": {
+					"VERBANO-CUSIO-OSSOLA": {
 						Code: "VB",
 					},
-					"Vercelli": {
+					"VERCELLI": {
 						Code: "VC",
 					},
 				},
 			},
-			"Puglia": {
+			"PUGLIA": {
 				Code: "75",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bari": {
+					"BARI": {
 						Code: "BA",
 					},
-					"Barletta-Andria-Trani": {
+					"BARLETTA-ANDRIA-TRANI": {
 						Code: "BT",
 					},
-					"Brindisi": {
+					"BRINDISI": {
 						Code: "BR",
 					},
-					"Foggia": {
+					"FOGGIA": {
 						Code: "FG",
 					},
-					"Lecce": {
+					"LECCE": {
 						Code: "LE",
 					},
-					"Taranto": {
+					"TARANTO": {
 						Code: "TA",
 					},
 				},
 			},
-			"Sardegna": {
+			"SARDEGNA": {
 				Code: "88",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Cagliari": {
+					"CAGLIARI": {
 						Code: "CA",
 					},
-					"Nuoro": {
+					"NUORO": {
 						Code: "NU",
 					},
-					"Oristano": {
+					"ORISTANO": {
 						Code: "OR",
 					},
-					"Sassari": {
+					"SASSARI": {
 						Code: "SS",
 					},
-					"Sud Sardegna": {
+					"SUD SARDEGNA": {
 						Code: "SD",
 					},
 				},
 			},
-			"Sicilia": {
+			"SICILIA": {
 				Code: "82",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Agrigento": {
+					"AGRIGENTO": {
 						Code: "AG",
 					},
-					"Caltanissetta": {
+					"CALTANISSETTA": {
 						Code: "CL",
 					},
-					"Catania": {
+					"CATANIA": {
 						Code: "CT",
 					},
-					"Enna": {
+					"ENNA": {
 						Code: "EN",
 					},
-					"Messina": {
+					"MESSINA": {
 						Code: "ME",
 					},
-					"Palermo": {
+					"PALERMO": {
 						Code: "PA",
 					},
-					"Ragusa": {
+					"RAGUSA": {
 						Code: "RG",
 					},
-					"Siracusa": {
+					"SIRACUSA": {
 						Code: "SR",
 					},
-					"Trapani": {
+					"TRAPANI": {
 						Code: "TP",
 					},
 				},
 			},
-			"Toscana": {
+			"TOSCANA": {
 				Code: "52",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Arezzo": {
+					"AREZZO": {
 						Code: "AR",
 					},
-					"Firenze": {
+					"FIRENZE": {
 						Code: "FI",
 					},
-					"Grosseto": {
+					"GROSSETO": {
 						Code: "GR",
 					},
-					"Livorno": {
+					"LIVORNO": {
 						Code: "LI",
 					},
-					"Lucca": {
+					"LUCCA": {
 						Code: "LU",
 					},
-					"Massa-Carrara": {
+					"MASSA-CARRARA": {
 						Code: "MS",
 					},
-					"Pisa": {
+					"PISA": {
 						Code: "PI",
 					},
-					"Pistoia": {
+					"PISTOIA": {
 						Code: "PT",
 					},
-					"Prato": {
+					"PRATO": {
 						Code: "PO",
 					},
-					"Siena": {
+					"SIENA": {
 						Code: "SI",
 					},
 				},
 			},
-			"Trentino-Alto Adige": {
+			"TRENTINO-ALTO ADIGE": {
 				Code: "32",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bolzano": {
+					"BOLZANO": {
 						Code: "BZ",
 					},
-					"Trento": {
+					"TRENTO": {
 						Code: "TN",
 					},
 				},
 			},
-			"Umbria": {
+			"UMBRIA": {
 				Code: "55",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Perugia": {
+					"PERUGIA": {
 						Code: "PG",
 					},
-					"Terni": {
+					"TERNI": {
 						Code: "TR",
 					},
 				},
 			},
-			"Valle d'Aosta": {
+			"VALLE D'AOSTA": {
 				Code: "23",
 			},
-			"Veneto": {
+			"VENETO": {
 				Code: "34",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Belluno": {
+					"BELLUNO": {
 						Code: "BL",
 					},
-					"Padova": {
+					"PADOVA": {
 						Code: "PD",
 					},
-					"Rovigo": {
+					"ROVIGO": {
 						Code: "RO",
 					},
-					"Treviso": {
+					"TREVISO": {
 						Code: "TV",
 					},
-					"Venezia": {
+					"VENEZIA": {
 						Code: "VE",
 					},
-					"Verona": {
+					"VERONA": {
 						Code: "VR",
 					},
-					"Vicenza": {
+					"VICENZA": {
 						Code: "VI",
 					},
 				},
@@ -21836,46 +21836,46 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Clarendon": {
+			"CLARENDON": {
 				Code: "13",
 			},
-			"Hanover": {
+			"HANOVER": {
 				Code: "09",
 			},
-			"Kingston": {
+			"KINGSTON": {
 				Code: "01",
 			},
-			"Manchester": {
+			"MANCHESTER": {
 				Code: "12",
 			},
-			"Portland": {
+			"PORTLAND": {
 				Code: "04",
 			},
-			"Saint Andrew": {
+			"SAINT ANDREW": {
 				Code: "02",
 			},
-			"Saint Ann": {
+			"SAINT ANN": {
 				Code: "06",
 			},
-			"Saint Catherine": {
+			"SAINT CATHERINE": {
 				Code: "14",
 			},
-			"Saint Elizabeth": {
+			"SAINT ELIZABETH": {
 				Code: "11",
 			},
-			"Saint James": {
+			"SAINT JAMES": {
 				Code: "08",
 			},
-			"Saint Mary": {
+			"SAINT MARY": {
 				Code: "05",
 			},
-			"Saint Thomas": {
+			"SAINT THOMAS": {
 				Code: "03",
 			},
-			"Trelawny": {
+			"TRELAWNY": {
 				Code: "07",
 			},
-			"Westmoreland": {
+			"WESTMORELAND": {
 				Code: "10",
 			},
 		},
@@ -21967,40 +21967,40 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Al Balqā’": {
+			"AL BALQĀ’": {
 				Code: "BA",
 			},
-			"Al Karak": {
+			"AL KARAK": {
 				Code: "KA",
 			},
-			"Al Mafraq": {
+			"AL MAFRAQ": {
 				Code: "MA",
 			},
-			"Al ‘Aqabah": {
+			"AL ‘AQABAH": {
 				Code: "AQ",
 			},
-			"Al ‘A̅şimah": {
+			"AL ‘A̅ŞIMAH": {
 				Code: "AM",
 			},
-			"Az Zarqā’": {
+			"AZ ZARQĀ’": {
 				Code: "AZ",
 			},
-			"Aţ Ţafīlah": {
+			"AŢ ŢAFĪLAH": {
 				Code: "AT",
 			},
-			"Irbid": {
+			"IRBID": {
 				Code: "IR",
 			},
-			"Jarash": {
+			"JARASH": {
 				Code: "JA",
 			},
-			"Ma‘ān": {
+			"MA‘ĀN": {
 				Code: "MN",
 			},
-			"Mādabā": {
+			"MĀDABĀ": {
 				Code: "MD",
 			},
-			"‘Ajlūn": {
+			"‘AJLŪN": {
 				Code: "AJ",
 			},
 		},
@@ -22302,145 +22302,145 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aichi": {
+			"AICHI": {
 				Code: "23",
 			},
-			"Akita": {
+			"AKITA": {
 				Code: "05",
 			},
-			"Aomori": {
+			"AOMORI": {
 				Code: "02",
 			},
-			"Chiba": {
+			"CHIBA": {
 				Code: "12",
 			},
-			"Ehime": {
+			"EHIME": {
 				Code: "38",
 			},
-			"Fukui": {
+			"FUKUI": {
 				Code: "18",
 			},
-			"Fukuoka": {
+			"FUKUOKA": {
 				Code: "40",
 			},
-			"Fukushima": {
+			"FUKUSHIMA": {
 				Code: "07",
 			},
-			"Gifu": {
+			"GIFU": {
 				Code: "21",
 			},
-			"Gunma": {
+			"GUNMA": {
 				Code: "10",
 			},
-			"Hiroshima": {
+			"HIROSHIMA": {
 				Code: "34",
 			},
-			"Hokkaido": {
+			"HOKKAIDO": {
 				Code: "01",
 			},
-			"Hyogo": {
+			"HYOGO": {
 				Code: "28",
 			},
-			"Ibaraki": {
+			"IBARAKI": {
 				Code: "08",
 			},
-			"Ishikawa": {
+			"ISHIKAWA": {
 				Code: "17",
 			},
-			"Iwate": {
+			"IWATE": {
 				Code: "03",
 			},
-			"Kagawa": {
+			"KAGAWA": {
 				Code: "37",
 			},
-			"Kagoshima": {
+			"KAGOSHIMA": {
 				Code: "46",
 			},
-			"Kanagawa": {
+			"KANAGAWA": {
 				Code: "14",
 			},
-			"Kochi": {
+			"KOCHI": {
 				Code: "39",
 			},
-			"Kumamoto": {
+			"KUMAMOTO": {
 				Code: "43",
 			},
-			"Kyoto": {
+			"KYOTO": {
 				Code: "26",
 			},
-			"Mie": {
+			"MIE": {
 				Code: "24",
 			},
-			"Miyagi": {
+			"MIYAGI": {
 				Code: "04",
 			},
-			"Miyazaki": {
+			"MIYAZAKI": {
 				Code: "45",
 			},
-			"Nagano": {
+			"NAGANO": {
 				Code: "20",
 			},
-			"Nagasaki": {
+			"NAGASAKI": {
 				Code: "42",
 			},
-			"Nara": {
+			"NARA": {
 				Code: "29",
 			},
-			"Niigata": {
+			"NIIGATA": {
 				Code: "15",
 			},
-			"Oita": {
+			"OITA": {
 				Code: "44",
 			},
-			"Okayama": {
+			"OKAYAMA": {
 				Code: "33",
 			},
-			"Okinawa": {
+			"OKINAWA": {
 				Code: "47",
 			},
-			"Osaka": {
+			"OSAKA": {
 				Code: "27",
 			},
-			"Saga": {
+			"SAGA": {
 				Code: "41",
 			},
-			"Saitama": {
+			"SAITAMA": {
 				Code: "11",
 			},
-			"Shiga": {
+			"SHIGA": {
 				Code: "25",
 			},
-			"Shimane": {
+			"SHIMANE": {
 				Code: "32",
 			},
-			"Shizuoka": {
+			"SHIZUOKA": {
 				Code: "22",
 			},
-			"Tochigi": {
+			"TOCHIGI": {
 				Code: "09",
 			},
-			"Tokushima": {
+			"TOKUSHIMA": {
 				Code: "36",
 			},
-			"Tokyo": {
+			"TOKYO": {
 				Code: "13",
 			},
-			"Tottori": {
+			"TOTTORI": {
 				Code: "31",
 			},
-			"Toyama": {
+			"TOYAMA": {
 				Code: "16",
 			},
-			"Wakayama": {
+			"WAKAYAMA": {
 				Code: "30",
 			},
-			"Yamagata": {
+			"YAMAGATA": {
 				Code: "06",
 			},
-			"Yamaguchi": {
+			"YAMAGUCHI": {
 				Code: "35",
 			},
-			"Yamanashi": {
+			"YAMANASHI": {
 				Code: "19",
 			},
 		},
@@ -22742,145 +22742,145 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Baringo": {
+			"BARINGO": {
 				Code: "01",
 			},
-			"Bomet": {
+			"BOMET": {
 				Code: "02",
 			},
-			"Bungoma": {
+			"BUNGOMA": {
 				Code: "03",
 			},
-			"Busia": {
+			"BUSIA": {
 				Code: "04",
 			},
-			"Elgeyo/Marakwet": {
+			"ELGEYO/MARAKWET": {
 				Code: "05",
 			},
-			"Embu": {
+			"EMBU": {
 				Code: "06",
 			},
-			"Garissa": {
+			"GARISSA": {
 				Code: "07",
 			},
-			"Homa Bay": {
+			"HOMA BAY": {
 				Code: "08",
 			},
-			"Isiolo": {
+			"ISIOLO": {
 				Code: "09",
 			},
-			"Kajiado": {
+			"KAJIADO": {
 				Code: "10",
 			},
-			"Kakamega": {
+			"KAKAMEGA": {
 				Code: "11",
 			},
-			"Kericho": {
+			"KERICHO": {
 				Code: "12",
 			},
-			"Kiambu": {
+			"KIAMBU": {
 				Code: "13",
 			},
-			"Kilifi": {
+			"KILIFI": {
 				Code: "14",
 			},
-			"Kirinyaga": {
+			"KIRINYAGA": {
 				Code: "15",
 			},
-			"Kisii": {
+			"KISII": {
 				Code: "16",
 			},
-			"Kisumu": {
+			"KISUMU": {
 				Code: "17",
 			},
-			"Kitui": {
+			"KITUI": {
 				Code: "18",
 			},
-			"Kwale": {
+			"KWALE": {
 				Code: "19",
 			},
-			"Laikipia": {
+			"LAIKIPIA": {
 				Code: "20",
 			},
-			"Lamu": {
+			"LAMU": {
 				Code: "21",
 			},
-			"Machakos": {
+			"MACHAKOS": {
 				Code: "22",
 			},
-			"Makueni": {
+			"MAKUENI": {
 				Code: "23",
 			},
-			"Mandera": {
+			"MANDERA": {
 				Code: "24",
 			},
-			"Marsabit": {
+			"MARSABIT": {
 				Code: "25",
 			},
-			"Meru": {
+			"MERU": {
 				Code: "26",
 			},
-			"Migori": {
+			"MIGORI": {
 				Code: "27",
 			},
-			"Mombasa": {
+			"MOMBASA": {
 				Code: "28",
 			},
-			"Murang'a": {
+			"MURANG'A": {
 				Code: "29",
 			},
-			"Nairobi City": {
+			"NAIROBI CITY": {
 				Code: "30",
 			},
-			"Nakuru": {
+			"NAKURU": {
 				Code: "31",
 			},
-			"Nandi": {
+			"NANDI": {
 				Code: "32",
 			},
-			"Narok": {
+			"NAROK": {
 				Code: "33",
 			},
-			"Nyamira": {
+			"NYAMIRA": {
 				Code: "34",
 			},
-			"Nyandarua": {
+			"NYANDARUA": {
 				Code: "35",
 			},
-			"Nyeri": {
+			"NYERI": {
 				Code: "36",
 			},
-			"Samburu": {
+			"SAMBURU": {
 				Code: "37",
 			},
-			"Siaya": {
+			"SIAYA": {
 				Code: "38",
 			},
-			"Taita/Taveta": {
+			"TAITA/TAVETA": {
 				Code: "39",
 			},
-			"Tana River": {
+			"TANA RIVER": {
 				Code: "40",
 			},
-			"Tharaka-Nithi": {
+			"THARAKA-NITHI": {
 				Code: "41",
 			},
-			"Trans Nzoia": {
+			"TRANS NZOIA": {
 				Code: "42",
 			},
-			"Turkana": {
+			"TURKANA": {
 				Code: "43",
 			},
-			"Uasin Gishu": {
+			"UASIN GISHU": {
 				Code: "44",
 			},
-			"Vihiga": {
+			"VIHIGA": {
 				Code: "45",
 			},
-			"Wajir": {
+			"WAJIR": {
 				Code: "46",
 			},
-			"West Pokot": {
+			"WEST POKOT": {
 				Code: "47",
 			},
 		},
@@ -22954,31 +22954,31 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Batkenskaja oblast'": {
+			"BATKENSKAJA OBLAST'": {
 				Code: "B",
 			},
-			"Džalal-Abadskaja oblast'": {
+			"DŽALAL-ABADSKAJA OBLAST'": {
 				Code: "J",
 			},
-			"Gorod Biškek": {
+			"GOROD BIŠKEK": {
 				Code: "GB",
 			},
-			"Gorod Oš": {
+			"GOROD OŠ": {
 				Code: "GO",
 			},
-			"Issyk-Kul'skaja oblast'": {
+			"ISSYK-KUL'SKAJA OBLAST'": {
 				Code: "Y",
 			},
-			"Narynskaja oblast'": {
+			"NARYNSKAJA OBLAST'": {
 				Code: "N",
 			},
-			"Ošskaja oblast'": {
+			"OŠSKAJA OBLAST'": {
 				Code: "O",
 			},
-			"Talasskaja oblast'": {
+			"TALASSKAJA OBLAST'": {
 				Code: "T",
 			},
-			"Čujskaja oblast'": {
+			"ČUJSKAJA OBLAST'": {
 				Code: "C",
 			},
 		},
@@ -23148,79 +23148,79 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Baat Dambang": {
+			"BAAT DAMBANG": {
 				Code: "2",
 			},
-			"Banteay Mean Chey": {
+			"BANTEAY MEAN CHEY": {
 				Code: "1",
 			},
-			"Kaeb": {
+			"KAEB": {
 				Code: "23",
 			},
-			"Kampong Chaam": {
+			"KAMPONG CHAAM": {
 				Code: "3",
 			},
-			"Kampong Chhnang": {
+			"KAMPONG CHHNANG": {
 				Code: "4",
 			},
-			"Kampong Spueu": {
+			"KAMPONG SPUEU": {
 				Code: "5",
 			},
-			"Kampong Thum": {
+			"KAMPONG THUM": {
 				Code: "6",
 			},
-			"Kampot": {
+			"KAMPOT": {
 				Code: "7",
 			},
-			"Kandaal": {
+			"KANDAAL": {
 				Code: "8",
 			},
-			"Kaoh Kong": {
+			"KAOH KONG": {
 				Code: "9",
 			},
-			"Kracheh": {
+			"KRACHEH": {
 				Code: "10",
 			},
-			"Mondol Kiri": {
+			"MONDOL KIRI": {
 				Code: "11",
 			},
-			"Otdar Mean Chey": {
+			"OTDAR MEAN CHEY": {
 				Code: "22",
 			},
-			"Pailin": {
+			"PAILIN": {
 				Code: "24",
 			},
-			"Phnom Penh": {
+			"PHNOM PENH": {
 				Code: "12",
 			},
-			"Pousaat": {
+			"POUSAAT": {
 				Code: "15",
 			},
-			"Preah Sihanouk": {
+			"PREAH SIHANOUK": {
 				Code: "18",
 			},
-			"Preah Vihear": {
+			"PREAH VIHEAR": {
 				Code: "13",
 			},
-			"Prey Veaeng": {
+			"PREY VEAENG": {
 				Code: "14",
 			},
-			"Rotanak Kiri": {
+			"ROTANAK KIRI": {
 				Code: "16",
 			},
-			"Siem Reab": {
+			"SIEM REAB": {
 				Code: "17",
 			},
-			"Stoĕng Trêng": {
+			"STOĔNG TRÊNG": {
 				Code: "19",
 			},
-			"Svaay Rieng": {
+			"SVAAY RIENG": {
 				Code: "20",
 			},
-			"Taakaev": {
+			"TAAKAEV": {
 				Code: "21",
 			},
-			"Tbong Khmum": {
+			"TBONG KHMUM": {
 				Code: "25",
 			},
 		},
@@ -23258,13 +23258,13 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Gilbert Islands": {
+			"GILBERT ISLANDS": {
 				Code: "G",
 			},
-			"Line Islands": {
+			"LINE ISLANDS": {
 				Code: "L",
 			},
-			"Phoenix Islands": {
+			"PHOENIX ISLANDS": {
 				Code: "P",
 			},
 		},
@@ -23302,13 +23302,13 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Andjazîdja": {
+			"ANDJAZÎDJA": {
 				Code: "G",
 			},
-			"Andjouân": {
+			"ANDJOUÂN": {
 				Code: "A",
 			},
-			"Moûhîlî": {
+			"MOÛHÎLÎ": {
 				Code: "M",
 			},
 		},
@@ -23432,58 +23432,58 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Nevis": {
+			"NEVIS": {
 				Code: "N",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Saint George Gingerland": {
+					"SAINT GEORGE GINGERLAND": {
 						Code: "04",
 					},
-					"Saint James Windward": {
+					"SAINT JAMES WINDWARD": {
 						Code: "05",
 					},
-					"Saint John Figtree": {
+					"SAINT JOHN FIGTREE": {
 						Code: "07",
 					},
-					"Saint Paul Charlestown": {
+					"SAINT PAUL CHARLESTOWN": {
 						Code: "10",
 					},
-					"Saint Thomas Lowland": {
+					"SAINT THOMAS LOWLAND": {
 						Code: "12",
 					},
 				},
 			},
-			"Saint Kitts": {
+			"SAINT KITTS": {
 				Code: "K",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Christ Church Nichola Town": {
+					"CHRIST CHURCH NICHOLA TOWN": {
 						Code: "01",
 					},
-					"Saint Anne Sandy Point": {
+					"SAINT ANNE SANDY POINT": {
 						Code: "02",
 					},
-					"Saint George Basseterre": {
+					"SAINT GEORGE BASSETERRE": {
 						Code: "03",
 					},
-					"Saint John Capisterre": {
+					"SAINT JOHN CAPISTERRE": {
 						Code: "06",
 					},
-					"Saint Mary Cayon": {
+					"SAINT MARY CAYON": {
 						Code: "08",
 					},
-					"Saint Paul Capisterre": {
+					"SAINT PAUL CAPISTERRE": {
 						Code: "09",
 					},
-					"Saint Peter Basseterre": {
+					"SAINT PETER BASSETERRE": {
 						Code: "11",
 					},
-					"Saint Thomas Middle Island": {
+					"SAINT THOMAS MIDDLE ISLAND": {
 						Code: "13",
 					},
-					"Trinity Palmetto Point": {
+					"TRINITY PALMETTO POINT": {
 						Code: "15",
 					},
 				},
@@ -23577,40 +23577,40 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Hamkyeongnamto": {
+			"HAMKYEONGNAMTO": {
 				Code: "08",
 			},
-			"Hamkyeongpukto": {
+			"HAMKYEONGPUKTO": {
 				Code: "09",
 			},
-			"Hwanghainamto": {
+			"HWANGHAINAMTO": {
 				Code: "05",
 			},
-			"Hwanghaipukto": {
+			"HWANGHAIPUKTO": {
 				Code: "06",
 			},
-			"Jakangto": {
+			"JAKANGTO": {
 				Code: "04",
 			},
-			"Kangweonto": {
+			"KANGWEONTO": {
 				Code: "07",
 			},
-			"Nampho": {
+			"NAMPHO": {
 				Code: "14",
 			},
-			"Phyeongannamto": {
+			"PHYEONGANNAMTO": {
 				Code: "02",
 			},
-			"Phyeonganpukto": {
+			"PHYEONGANPUKTO": {
 				Code: "03",
 			},
-			"Phyeongyang": {
+			"PHYEONGYANG": {
 				Code: "01",
 			},
-			"Raseon": {
+			"RASEON": {
 				Code: "13",
 			},
-			"Ryangkangto": {
+			"RYANGKANGTO": {
 				Code: "10",
 			},
 		},
@@ -23732,55 +23732,55 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Busan-gwangyeoksi": {
+			"BUSAN-GWANGYEOKSI": {
 				Code: "26",
 			},
-			"Chungcheongbuk-do": {
+			"CHUNGCHEONGBUK-DO": {
 				Code: "43",
 			},
-			"Chungcheongnam-do": {
+			"CHUNGCHEONGNAM-DO": {
 				Code: "44",
 			},
-			"Daegu-gwangyeoksi": {
+			"DAEGU-GWANGYEOKSI": {
 				Code: "27",
 			},
-			"Daejeon-gwangyeoksi": {
+			"DAEJEON-GWANGYEOKSI": {
 				Code: "30",
 			},
-			"Gangwon-do": {
+			"GANGWON-DO": {
 				Code: "42",
 			},
-			"Gwangju-gwangyeoksi": {
+			"GWANGJU-GWANGYEOKSI": {
 				Code: "29",
 			},
-			"Gyeonggi-do": {
+			"GYEONGGI-DO": {
 				Code: "41",
 			},
-			"Gyeongsangbuk-do": {
+			"GYEONGSANGBUK-DO": {
 				Code: "47",
 			},
-			"Gyeongsangnam-do": {
+			"GYEONGSANGNAM-DO": {
 				Code: "48",
 			},
-			"Incheon-gwangyeoksi": {
+			"INCHEON-GWANGYEOKSI": {
 				Code: "28",
 			},
-			"Jeju-teukbyeoljachido": {
+			"JEJU-TEUKBYEOLJACHIDO": {
 				Code: "49",
 			},
-			"Jeollabuk-do": {
+			"JEOLLABUK-DO": {
 				Code: "45",
 			},
-			"Jeollanam-do": {
+			"JEOLLANAM-DO": {
 				Code: "46",
 			},
-			"Sejong": {
+			"SEJONG": {
 				Code: "50",
 			},
-			"Seoul-teukbyeolsi": {
+			"SEOUL-TEUKBYEOLSI": {
 				Code: "11",
 			},
-			"Ulsan-gwangyeoksi": {
+			"ULSAN-GWANGYEOKSI": {
 				Code: "31",
 			},
 		},
@@ -23836,22 +23836,22 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Al Aḩmadī": {
+			"AL AḨMADĪ": {
 				Code: "AH",
 			},
-			"Al Farwānīyah": {
+			"AL FARWĀNĪYAH": {
 				Code: "FA",
 			},
-			"Al Jahrā’": {
+			"AL JAHRĀ’": {
 				Code: "JA",
 			},
-			"Al ‘Āşimah": {
+			"AL ‘ĀŞIMAH": {
 				Code: "KU",
 			},
-			"Mubārak al Kabīr": {
+			"MUBĀRAK AL KABĪR": {
 				Code: "MU",
 			},
-			"Ḩawallī": {
+			"ḨAWALLĪ": {
 				Code: "HA",
 			},
 		},
@@ -23988,58 +23988,58 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Akmolinskaja oblast'": {
+			"AKMOLINSKAJA OBLAST'": {
 				Code: "AKM",
 			},
-			"Aktjubinskaja oblast'": {
+			"AKTJUBINSKAJA OBLAST'": {
 				Code: "AKT",
 			},
-			"Almatinskaja oblast'": {
+			"ALMATINSKAJA OBLAST'": {
 				Code: "ALM",
 			},
-			"Almaty": {
+			"ALMATY": {
 				Code: "ALA",
 			},
-			"Astana": {
+			"ASTANA": {
 				Code: "AST",
 			},
-			"Atyrauskaja oblast'": {
+			"ATYRAUSKAJA OBLAST'": {
 				Code: "ATY",
 			},
-			"Bajkonyr": {
+			"BAJKONYR": {
 				Code: "BAY",
 			},
-			"Karagandinskaja oblast'": {
+			"KARAGANDINSKAJA OBLAST'": {
 				Code: "KAR",
 			},
-			"Kostanajskaja oblast'": {
+			"KOSTANAJSKAJA OBLAST'": {
 				Code: "KUS",
 			},
-			"Kyzylordinskaja oblast'": {
+			"KYZYLORDINSKAJA OBLAST'": {
 				Code: "KZY",
 			},
-			"Mangystauskaja oblast'": {
+			"MANGYSTAUSKAJA OBLAST'": {
 				Code: "MAN",
 			},
-			"Pavlodarskaja oblast'": {
+			"PAVLODARSKAJA OBLAST'": {
 				Code: "PAV",
 			},
-			"Severo-Kazahstanskaja oblast'": {
+			"SEVERO-KAZAHSTANSKAJA OBLAST'": {
 				Code: "SEV",
 			},
-			"Turkestanskaja oblast'": {
+			"TURKESTANSKAJA OBLAST'": {
 				Code: "YUZ",
 			},
-			"Vostočno-Kazahstanskaja oblast'": {
+			"VOSTOČNO-KAZAHSTANSKAJA OBLAST'": {
 				Code: "VOS",
 			},
-			"Zapadno-Kazahstanskaja oblast'": {
+			"ZAPADNO-KAZAHSTANSKAJA OBLAST'": {
 				Code: "ZAP",
 			},
-			"Šimkent": {
+			"ŠIMKENT": {
 				Code: "SHY",
 			},
-			"Žambylskaja oblast'": {
+			"ŽAMBYLSKAJA OBLAST'": {
 				Code: "ZHA",
 			},
 		},
@@ -24167,55 +24167,55 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Attapu": {
+			"ATTAPU": {
 				Code: "AT",
 			},
-			"Bokèo": {
+			"BOKÈO": {
 				Code: "BK",
 			},
-			"Bolikhamxai": {
+			"BOLIKHAMXAI": {
 				Code: "BL",
 			},
-			"Champasak": {
+			"CHAMPASAK": {
 				Code: "CH",
 			},
-			"Houaphan": {
+			"HOUAPHAN": {
 				Code: "HO",
 			},
-			"Khammouan": {
+			"KHAMMOUAN": {
 				Code: "KH",
 			},
-			"Louang Namtha": {
+			"LOUANG NAMTHA": {
 				Code: "LM",
 			},
-			"Louangphabang": {
+			"LOUANGPHABANG": {
 				Code: "LP",
 			},
-			"Oudômxai": {
+			"OUDÔMXAI": {
 				Code: "OU",
 			},
-			"Phôngsali": {
+			"PHÔNGSALI": {
 				Code: "PH",
 			},
-			"Salavan": {
+			"SALAVAN": {
 				Code: "SL",
 			},
-			"Savannakhét": {
+			"SAVANNAKHÉT": {
 				Code: "SV",
 			},
-			"Viangchan": {
+			"VIANGCHAN": {
 				Code: "VT",
 			},
-			"Xaignabouli": {
+			"XAIGNABOULI": {
 				Code: "XA",
 			},
-			"Xaisômboun": {
+			"XAISÔMBOUN": {
 				Code: "XS",
 			},
-			"Xiangkhouang": {
+			"XIANGKHOUANG": {
 				Code: "XI",
 			},
-			"Xékong": {
+			"XÉKONG": {
 				Code: "XE",
 			},
 		},
@@ -24283,28 +24283,28 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aakkâr": {
+			"AAKKÂR": {
 				Code: "AK",
 			},
-			"Baalbek-Hermel": {
+			"BAALBEK-HERMEL": {
 				Code: "BH",
 			},
-			"Beyrouth": {
+			"BEYROUTH": {
 				Code: "BA",
 			},
-			"Béqaa": {
+			"BÉQAA": {
 				Code: "BI",
 			},
-			"Liban-Nord": {
+			"LIBAN-NORD": {
 				Code: "AS",
 			},
-			"Liban-Sud": {
+			"LIBAN-SUD": {
 				Code: "JA",
 			},
-			"Mont-Liban": {
+			"MONT-LIBAN": {
 				Code: "JL",
 			},
-			"Nabatîyé": {
+			"NABATÎYÉ": {
 				Code: "NA",
 			},
 		},
@@ -24384,34 +24384,34 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Anse la Raye": {
+			"ANSE LA RAYE": {
 				Code: "01",
 			},
-			"Canaries": {
+			"CANARIES": {
 				Code: "12",
 			},
-			"Castries": {
+			"CASTRIES": {
 				Code: "02",
 			},
-			"Choiseul": {
+			"CHOISEUL": {
 				Code: "03",
 			},
-			"Dennery": {
+			"DENNERY": {
 				Code: "05",
 			},
-			"Gros Islet": {
+			"GROS ISLET": {
 				Code: "06",
 			},
-			"Laborie": {
+			"LABORIE": {
 				Code: "07",
 			},
-			"Micoud": {
+			"MICOUD": {
 				Code: "08",
 			},
-			"Soufrière": {
+			"SOUFRIÈRE": {
 				Code: "10",
 			},
-			"Vieux Fort": {
+			"VIEUX FORT": {
 				Code: "11",
 			},
 		},
@@ -24497,37 +24497,37 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Balzers": {
+			"BALZERS": {
 				Code: "01",
 			},
-			"Eschen": {
+			"ESCHEN": {
 				Code: "02",
 			},
-			"Gamprin": {
+			"GAMPRIN": {
 				Code: "03",
 			},
-			"Mauren": {
+			"MAUREN": {
 				Code: "04",
 			},
-			"Planken": {
+			"PLANKEN": {
 				Code: "05",
 			},
-			"Ruggell": {
+			"RUGGELL": {
 				Code: "06",
 			},
-			"Schaan": {
+			"SCHAAN": {
 				Code: "07",
 			},
-			"Schellenberg": {
+			"SCHELLENBERG": {
 				Code: "08",
 			},
-			"Triesen": {
+			"TRIESEN": {
 				Code: "09",
 			},
-			"Triesenberg": {
+			"TRIESENBERG": {
 				Code: "10",
 			},
-			"Vaduz": {
+			"VADUZ": {
 				Code: "11",
 			},
 		},
@@ -24787,140 +24787,140 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Central Province": {
+			"CENTRAL PROVINCE": {
 				Code: "2",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Kandy": {
+					"KANDY": {
 						Code: "21",
 					},
-					"Matale": {
+					"MATALE": {
 						Code: "22",
 					},
-					"Nuwara Eliya": {
+					"NUWARA ELIYA": {
 						Code: "23",
 					},
 				},
 			},
-			"Eastern Province": {
+			"EASTERN PROVINCE": {
 				Code: "5",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Ampara": {
+					"AMPARA": {
 						Code: "52",
 					},
-					"Batticaloa": {
+					"BATTICALOA": {
 						Code: "51",
 					},
-					"Trincomalee": {
+					"TRINCOMALEE": {
 						Code: "53",
 					},
 				},
 			},
-			"North Central Province": {
+			"NORTH CENTRAL PROVINCE": {
 				Code: "7",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Anuradhapura": {
+					"ANURADHAPURA": {
 						Code: "71",
 					},
-					"Polonnaruwa": {
+					"POLONNARUWA": {
 						Code: "72",
 					},
 				},
 			},
-			"North Western Province": {
+			"NORTH WESTERN PROVINCE": {
 				Code: "6",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Kurunegala": {
+					"KURUNEGALA": {
 						Code: "61",
 					},
-					"Puttalam": {
+					"PUTTALAM": {
 						Code: "62",
 					},
 				},
 			},
-			"Northern Province": {
+			"NORTHERN PROVINCE": {
 				Code: "4",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Jaffna": {
+					"JAFFNA": {
 						Code: "41",
 					},
-					"Kilinochchi": {
+					"KILINOCHCHI": {
 						Code: "42",
 					},
-					"Mannar": {
+					"MANNAR": {
 						Code: "43",
 					},
-					"Mullaittivu": {
+					"MULLAITTIVU": {
 						Code: "45",
 					},
-					"Vavuniya": {
+					"VAVUNIYA": {
 						Code: "44",
 					},
 				},
 			},
-			"Sabaragamuwa Province": {
+			"SABARAGAMUWA PROVINCE": {
 				Code: "9",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Kegalla": {
+					"KEGALLA": {
 						Code: "92",
 					},
-					"Ratnapura": {
+					"RATNAPURA": {
 						Code: "91",
 					},
 				},
 			},
-			"Southern Province": {
+			"SOUTHERN PROVINCE": {
 				Code: "3",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Galle": {
+					"GALLE": {
 						Code: "31",
 					},
-					"Hambantota": {
+					"HAMBANTOTA": {
 						Code: "33",
 					},
-					"Matara": {
+					"MATARA": {
 						Code: "32",
 					},
 				},
 			},
-			"Uva Province": {
+			"UVA PROVINCE": {
 				Code: "8",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Badulla": {
+					"BADULLA": {
 						Code: "81",
 					},
-					"Monaragala": {
+					"MONARAGALA": {
 						Code: "82",
 					},
 				},
 			},
-			"Western Province": {
+			"WESTERN PROVINCE": {
 				Code: "1",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Colombo": {
+					"COLOMBO": {
 						Code: "11",
 					},
-					"Gampaha": {
+					"GAMPAHA": {
 						Code: "12",
 					},
-					"Kalutara": {
+					"KALUTARA": {
 						Code: "13",
 					},
 				},
@@ -25032,49 +25032,49 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bomi": {
+			"BOMI": {
 				Code: "BM",
 			},
-			"Bong": {
+			"BONG": {
 				Code: "BG",
 			},
-			"Gbarpolu": {
+			"GBARPOLU": {
 				Code: "GP",
 			},
-			"Grand Bassa": {
+			"GRAND BASSA": {
 				Code: "GB",
 			},
-			"Grand Cape Mount": {
+			"GRAND CAPE MOUNT": {
 				Code: "CM",
 			},
-			"Grand Gedeh": {
+			"GRAND GEDEH": {
 				Code: "GG",
 			},
-			"Grand Kru": {
+			"GRAND KRU": {
 				Code: "GK",
 			},
-			"Lofa": {
+			"LOFA": {
 				Code: "LO",
 			},
-			"Margibi": {
+			"MARGIBI": {
 				Code: "MG",
 			},
-			"Maryland": {
+			"MARYLAND": {
 				Code: "MY",
 			},
-			"Montserrado": {
+			"MONTSERRADO": {
 				Code: "MO",
 			},
-			"Nimba": {
+			"NIMBA": {
 				Code: "NI",
 			},
-			"River Cess": {
+			"RIVER CESS": {
 				Code: "RI",
 			},
-			"River Gee": {
+			"RIVER GEE": {
 				Code: "RG",
 			},
-			"Sinoe": {
+			"SINOE": {
 				Code: "SI",
 			},
 		},
@@ -25154,34 +25154,34 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Berea": {
+			"BEREA": {
 				Code: "D",
 			},
-			"Butha-Buthe": {
+			"BUTHA-BUTHE": {
 				Code: "B",
 			},
-			"Leribe": {
+			"LERIBE": {
 				Code: "C",
 			},
-			"Mafeteng": {
+			"MAFETENG": {
 				Code: "E",
 			},
-			"Maseru": {
+			"MASERU": {
 				Code: "A",
 			},
-			"Mohale's Hoek": {
+			"MOHALE'S HOEK": {
 				Code: "F",
 			},
-			"Mokhotlong": {
+			"MOKHOTLONG": {
 				Code: "J",
 			},
-			"Qacha's Nek": {
+			"QACHA'S NEK": {
 				Code: "H",
 			},
-			"Quthing": {
+			"QUTHING": {
 				Code: "G",
 			},
-			"Thaba-Tseka": {
+			"THABA-TSEKA": {
 				Code: "K",
 			},
 		},
@@ -25621,214 +25621,214 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Akmenė": {
+			"AKMENĖ": {
 				Code: "01",
 			},
-			"Alytaus apskritis": {
+			"ALYTAUS APSKRITIS": {
 				Code: "AL",
 			},
-			"Alytaus miestas": {
+			"ALYTAUS MIESTAS": {
 				Code: "02",
 			},
-			"Alytus": {
+			"ALYTUS": {
 				Code: "03",
 			},
-			"Anykščiai": {
+			"ANYKŠČIAI": {
 				Code: "04",
 			},
-			"Birštono": {
+			"BIRŠTONO": {
 				Code: "05",
 			},
-			"Biržai": {
+			"BIRŽAI": {
 				Code: "06",
 			},
-			"Druskininkai": {
+			"DRUSKININKAI": {
 				Code: "07",
 			},
-			"Elektrėnai": {
+			"ELEKTRĖNAI": {
 				Code: "08",
 			},
-			"Ignalina": {
+			"IGNALINA": {
 				Code: "09",
 			},
-			"Jonava": {
+			"JONAVA": {
 				Code: "10",
 			},
-			"Joniškis": {
+			"JONIŠKIS": {
 				Code: "11",
 			},
-			"Jurbarkas": {
+			"JURBARKAS": {
 				Code: "12",
 			},
-			"Kaišiadorys": {
+			"KAIŠIADORYS": {
 				Code: "13",
 			},
-			"Kalvarijos": {
+			"KALVARIJOS": {
 				Code: "14",
 			},
-			"Kaunas": {
+			"KAUNAS": {
 				Code: "16",
 			},
-			"Kauno apskritis": {
+			"KAUNO APSKRITIS": {
 				Code: "KU",
 			},
-			"Kauno miestas": {
+			"KAUNO MIESTAS": {
 				Code: "15",
 			},
-			"Kazlų Rūdos": {
+			"KAZLŲ RŪDOS": {
 				Code: "17",
 			},
-			"Kelmė": {
+			"KELMĖ": {
 				Code: "19",
 			},
-			"Klaipėda": {
+			"KLAIPĖDA": {
 				Code: "21",
 			},
-			"Klaipėdos apskritis": {
+			"KLAIPĖDOS APSKRITIS": {
 				Code: "KL",
 			},
-			"Klaipėdos miestas": {
+			"KLAIPĖDOS MIESTAS": {
 				Code: "20",
 			},
-			"Kretinga": {
+			"KRETINGA": {
 				Code: "22",
 			},
-			"Kupiškis": {
+			"KUPIŠKIS": {
 				Code: "23",
 			},
-			"Kėdainiai": {
+			"KĖDAINIAI": {
 				Code: "18",
 			},
-			"Lazdijai": {
+			"LAZDIJAI": {
 				Code: "24",
 			},
-			"Marijampolė": {
+			"MARIJAMPOLĖ": {
 				Code: "25",
 			},
-			"Marijampolės apskritis": {
+			"MARIJAMPOLĖS APSKRITIS": {
 				Code: "MR",
 			},
-			"Mažeikiai": {
+			"MAŽEIKIAI": {
 				Code: "26",
 			},
-			"Molėtai": {
+			"MOLĖTAI": {
 				Code: "27",
 			},
-			"Neringa": {
+			"NERINGA": {
 				Code: "28",
 			},
-			"Pagėgiai": {
+			"PAGĖGIAI": {
 				Code: "29",
 			},
-			"Pakruojis": {
+			"PAKRUOJIS": {
 				Code: "30",
 			},
-			"Palangos miestas": {
+			"PALANGOS MIESTAS": {
 				Code: "31",
 			},
-			"Panevėžio apskritis": {
+			"PANEVĖŽIO APSKRITIS": {
 				Code: "PN",
 			},
-			"Panevėžio miestas": {
+			"PANEVĖŽIO MIESTAS": {
 				Code: "32",
 			},
-			"Panevėžys": {
+			"PANEVĖŽYS": {
 				Code: "33",
 			},
-			"Pasvalys": {
+			"PASVALYS": {
 				Code: "34",
 			},
-			"Plungė": {
+			"PLUNGĖ": {
 				Code: "35",
 			},
-			"Prienai": {
+			"PRIENAI": {
 				Code: "36",
 			},
-			"Radviliškis": {
+			"RADVILIŠKIS": {
 				Code: "37",
 			},
-			"Raseiniai": {
+			"RASEINIAI": {
 				Code: "38",
 			},
-			"Rietavo": {
+			"RIETAVO": {
 				Code: "39",
 			},
-			"Rokiškis": {
+			"ROKIŠKIS": {
 				Code: "40",
 			},
-			"Skuodas": {
+			"SKUODAS": {
 				Code: "48",
 			},
-			"Tauragė": {
+			"TAURAGĖ": {
 				Code: "50",
 			},
-			"Tauragės apskritis": {
+			"TAURAGĖS APSKRITIS": {
 				Code: "TA",
 			},
-			"Telšiai": {
+			"TELŠIAI": {
 				Code: "51",
 			},
-			"Telšių apskritis": {
+			"TELŠIŲ APSKRITIS": {
 				Code: "TE",
 			},
-			"Trakai": {
+			"TRAKAI": {
 				Code: "52",
 			},
-			"Ukmergė": {
+			"UKMERGĖ": {
 				Code: "53",
 			},
-			"Utena": {
+			"UTENA": {
 				Code: "54",
 			},
-			"Utenos apskritis": {
+			"UTENOS APSKRITIS": {
 				Code: "UT",
 			},
-			"Varėna": {
+			"VARĖNA": {
 				Code: "55",
 			},
-			"Vilkaviškis": {
+			"VILKAVIŠKIS": {
 				Code: "56",
 			},
-			"Vilniaus apskritis": {
+			"VILNIAUS APSKRITIS": {
 				Code: "VL",
 			},
-			"Vilniaus miestas": {
+			"VILNIAUS MIESTAS": {
 				Code: "57",
 			},
-			"Vilnius": {
+			"VILNIUS": {
 				Code: "58",
 			},
-			"Visaginas": {
+			"VISAGINAS": {
 				Code: "59",
 			},
-			"Zarasai": {
+			"ZARASAI": {
 				Code: "60",
 			},
-			"Šakiai": {
+			"ŠAKIAI": {
 				Code: "41",
 			},
-			"Šalčininkai": {
+			"ŠALČININKAI": {
 				Code: "42",
 			},
-			"Šiauliai": {
+			"ŠIAULIAI": {
 				Code: "44",
 			},
-			"Šiaulių apskritis": {
+			"ŠIAULIŲ APSKRITIS": {
 				Code: "SA",
 			},
-			"Šiaulių miestas": {
+			"ŠIAULIŲ MIESTAS": {
 				Code: "43",
 			},
-			"Šilalė": {
+			"ŠILALĖ": {
 				Code: "45",
 			},
-			"Šilutė": {
+			"ŠILUTĖ": {
 				Code: "46",
 			},
-			"Širvintos": {
+			"ŠIRVINTOS": {
 				Code: "47",
 			},
-			"Švenčionys": {
+			"ŠVENČIONYS": {
 				Code: "49",
 			},
 		},
@@ -25920,40 +25920,40 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Capellen": {
+			"CAPELLEN": {
 				Code: "CA",
 			},
-			"Clerf": {
+			"CLERF": {
 				Code: "CL",
 			},
-			"Diekirch": {
+			"DIEKIRCH": {
 				Code: "DI",
 			},
-			"Echternach": {
+			"ECHTERNACH": {
 				Code: "EC",
 			},
-			"Esch an der Alzette": {
+			"ESCH AN DER ALZETTE": {
 				Code: "ES",
 			},
-			"Grevenmacher": {
+			"GREVENMACHER": {
 				Code: "GR",
 			},
-			"Luxemburg": {
+			"LUXEMBURG": {
 				Code: "LU",
 			},
-			"Mersch": {
+			"MERSCH": {
 				Code: "ME",
 			},
-			"Redingen": {
+			"REDINGEN": {
 				Code: "RD",
 			},
-			"Remich": {
+			"REMICH": {
 				Code: "RM",
 			},
-			"Vianden": {
+			"VIANDEN": {
 				Code: "VD",
 			},
-			"Wiltz": {
+			"WILTZ": {
 				Code: "WI",
 			},
 		},
@@ -26687,361 +26687,361 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aglonas novads": {
+			"AGLONAS NOVADS": {
 				Code: "001",
 			},
-			"Aizkraukles novads": {
+			"AIZKRAUKLES NOVADS": {
 				Code: "002",
 			},
-			"Aizputes novads": {
+			"AIZPUTES NOVADS": {
 				Code: "003",
 			},
-			"Aknīstes novads": {
+			"AKNĪSTES NOVADS": {
 				Code: "004",
 			},
-			"Alojas novads": {
+			"ALOJAS NOVADS": {
 				Code: "005",
 			},
-			"Alsungas novads": {
+			"ALSUNGAS NOVADS": {
 				Code: "006",
 			},
-			"Alūksnes novads": {
+			"ALŪKSNES NOVADS": {
 				Code: "007",
 			},
-			"Amatas novads": {
+			"AMATAS NOVADS": {
 				Code: "008",
 			},
-			"Apes novads": {
+			"APES NOVADS": {
 				Code: "009",
 			},
-			"Auces novads": {
+			"AUCES NOVADS": {
 				Code: "010",
 			},
-			"Babītes novads": {
+			"BABĪTES NOVADS": {
 				Code: "012",
 			},
-			"Baldones novads": {
+			"BALDONES NOVADS": {
 				Code: "013",
 			},
-			"Baltinavas novads": {
+			"BALTINAVAS NOVADS": {
 				Code: "014",
 			},
-			"Balvu novads": {
+			"BALVU NOVADS": {
 				Code: "015",
 			},
-			"Bauskas novads": {
+			"BAUSKAS NOVADS": {
 				Code: "016",
 			},
-			"Beverīnas novads": {
+			"BEVERĪNAS NOVADS": {
 				Code: "017",
 			},
-			"Brocēnu novads": {
+			"BROCĒNU NOVADS": {
 				Code: "018",
 			},
-			"Burtnieku novads": {
+			"BURTNIEKU NOVADS": {
 				Code: "019",
 			},
-			"Carnikavas novads": {
+			"CARNIKAVAS NOVADS": {
 				Code: "020",
 			},
-			"Cesvaines novads": {
+			"CESVAINES NOVADS": {
 				Code: "021",
 			},
-			"Ciblas novads": {
+			"CIBLAS NOVADS": {
 				Code: "023",
 			},
-			"Cēsu novads": {
+			"CĒSU NOVADS": {
 				Code: "022",
 			},
-			"Dagdas novads": {
+			"DAGDAS NOVADS": {
 				Code: "024",
 			},
-			"Daugavpils": {
+			"DAUGAVPILS": {
 				Code: "DGV",
 			},
-			"Daugavpils novads": {
+			"DAUGAVPILS NOVADS": {
 				Code: "025",
 			},
-			"Dobeles novads": {
+			"DOBELES NOVADS": {
 				Code: "026",
 			},
-			"Dundagas novads": {
+			"DUNDAGAS NOVADS": {
 				Code: "027",
 			},
-			"Durbes novads": {
+			"DURBES NOVADS": {
 				Code: "028",
 			},
-			"Engures novads": {
+			"ENGURES NOVADS": {
 				Code: "029",
 			},
-			"Garkalnes novads": {
+			"GARKALNES NOVADS": {
 				Code: "031",
 			},
-			"Grobiņas novads": {
+			"GROBIŅAS NOVADS": {
 				Code: "032",
 			},
-			"Gulbenes novads": {
+			"GULBENES NOVADS": {
 				Code: "033",
 			},
-			"Iecavas novads": {
+			"IECAVAS NOVADS": {
 				Code: "034",
 			},
-			"Ikšķiles novads": {
+			"IKŠĶILES NOVADS": {
 				Code: "035",
 			},
-			"Ilūkstes novads": {
+			"ILŪKSTES NOVADS": {
 				Code: "036",
 			},
-			"Inčukalna novads": {
+			"INČUKALNA NOVADS": {
 				Code: "037",
 			},
-			"Jaunjelgavas novads": {
+			"JAUNJELGAVAS NOVADS": {
 				Code: "038",
 			},
-			"Jaunpiebalgas novads": {
+			"JAUNPIEBALGAS NOVADS": {
 				Code: "039",
 			},
-			"Jaunpils novads": {
+			"JAUNPILS NOVADS": {
 				Code: "040",
 			},
-			"Jelgava": {
+			"JELGAVA": {
 				Code: "JEL",
 			},
-			"Jelgavas novads": {
+			"JELGAVAS NOVADS": {
 				Code: "041",
 			},
-			"Jēkabpils": {
+			"JĒKABPILS": {
 				Code: "JKB",
 			},
-			"Jēkabpils novads": {
+			"JĒKABPILS NOVADS": {
 				Code: "042",
 			},
-			"Jūrmala": {
+			"JŪRMALA": {
 				Code: "JUR",
 			},
-			"Kandavas novads": {
+			"KANDAVAS NOVADS": {
 				Code: "043",
 			},
-			"Kocēnu novads": {
+			"KOCĒNU NOVADS": {
 				Code: "045",
 			},
-			"Kokneses novads": {
+			"KOKNESES NOVADS": {
 				Code: "046",
 			},
-			"Krimuldas novads": {
+			"KRIMULDAS NOVADS": {
 				Code: "048",
 			},
-			"Krustpils novads": {
+			"KRUSTPILS NOVADS": {
 				Code: "049",
 			},
-			"Krāslavas novads": {
+			"KRĀSLAVAS NOVADS": {
 				Code: "047",
 			},
-			"Kuldīgas novads": {
+			"KULDĪGAS NOVADS": {
 				Code: "050",
 			},
-			"Kārsavas novads": {
+			"KĀRSAVAS NOVADS": {
 				Code: "044",
 			},
-			"Lielvārdes novads": {
+			"LIELVĀRDES NOVADS": {
 				Code: "053",
 			},
-			"Liepāja": {
+			"LIEPĀJA": {
 				Code: "LPX",
 			},
-			"Limbažu novads": {
+			"LIMBAŽU NOVADS": {
 				Code: "054",
 			},
-			"Lubānas novads": {
+			"LUBĀNAS NOVADS": {
 				Code: "057",
 			},
-			"Ludzas novads": {
+			"LUDZAS NOVADS": {
 				Code: "058",
 			},
-			"Līgatnes novads": {
+			"LĪGATNES NOVADS": {
 				Code: "055",
 			},
-			"Līvānu novads": {
+			"LĪVĀNU NOVADS": {
 				Code: "056",
 			},
-			"Madonas novads": {
+			"MADONAS NOVADS": {
 				Code: "059",
 			},
-			"Mazsalacas novads": {
+			"MAZSALACAS NOVADS": {
 				Code: "060",
 			},
-			"Mālpils novads": {
+			"MĀLPILS NOVADS": {
 				Code: "061",
 			},
-			"Mārupes novads": {
+			"MĀRUPES NOVADS": {
 				Code: "062",
 			},
-			"Mērsraga novads": {
+			"MĒRSRAGA NOVADS": {
 				Code: "063",
 			},
-			"Naukšēnu novads": {
+			"NAUKŠĒNU NOVADS": {
 				Code: "064",
 			},
-			"Neretas novads": {
+			"NERETAS NOVADS": {
 				Code: "065",
 			},
-			"Nīcas novads": {
+			"NĪCAS NOVADS": {
 				Code: "066",
 			},
-			"Ogres novads": {
+			"OGRES NOVADS": {
 				Code: "067",
 			},
-			"Olaines novads": {
+			"OLAINES NOVADS": {
 				Code: "068",
 			},
-			"Ozolnieku novads": {
+			"OZOLNIEKU NOVADS": {
 				Code: "069",
 			},
-			"Preiļu novads": {
+			"PREIĻU NOVADS": {
 				Code: "073",
 			},
-			"Priekules novads": {
+			"PRIEKULES NOVADS": {
 				Code: "074",
 			},
-			"Priekuļu novads": {
+			"PRIEKUĻU NOVADS": {
 				Code: "075",
 			},
-			"Pārgaujas novads": {
+			"PĀRGAUJAS NOVADS": {
 				Code: "070",
 			},
-			"Pāvilostas novads": {
+			"PĀVILOSTAS NOVADS": {
 				Code: "071",
 			},
-			"Pļaviņu novads": {
+			"PĻAVIŅU NOVADS": {
 				Code: "072",
 			},
-			"Raunas novads": {
+			"RAUNAS NOVADS": {
 				Code: "076",
 			},
-			"Riebiņu novads": {
+			"RIEBIŅU NOVADS": {
 				Code: "078",
 			},
-			"Rojas novads": {
+			"ROJAS NOVADS": {
 				Code: "079",
 			},
-			"Ropažu novads": {
+			"ROPAŽU NOVADS": {
 				Code: "080",
 			},
-			"Rucavas novads": {
+			"RUCAVAS NOVADS": {
 				Code: "081",
 			},
-			"Rugāju novads": {
+			"RUGĀJU NOVADS": {
 				Code: "082",
 			},
-			"Rundāles novads": {
+			"RUNDĀLES NOVADS": {
 				Code: "083",
 			},
-			"Rēzekne": {
+			"RĒZEKNE": {
 				Code: "REZ",
 			},
-			"Rēzeknes novads": {
+			"RĒZEKNES NOVADS": {
 				Code: "077",
 			},
-			"Rīga": {
+			"RĪGA": {
 				Code: "RIX",
 			},
-			"Rūjienas novads": {
+			"RŪJIENAS NOVADS": {
 				Code: "084",
 			},
-			"Salacgrīvas novads": {
+			"SALACGRĪVAS NOVADS": {
 				Code: "086",
 			},
-			"Salas novads": {
+			"SALAS NOVADS": {
 				Code: "085",
 			},
-			"Salaspils novads": {
+			"SALASPILS NOVADS": {
 				Code: "087",
 			},
-			"Saldus novads": {
+			"SALDUS NOVADS": {
 				Code: "088",
 			},
-			"Saulkrastu novads": {
+			"SAULKRASTU NOVADS": {
 				Code: "089",
 			},
-			"Siguldas novads": {
+			"SIGULDAS NOVADS": {
 				Code: "091",
 			},
-			"Skrundas novads": {
+			"SKRUNDAS NOVADS": {
 				Code: "093",
 			},
-			"Skrīveru novads": {
+			"SKRĪVERU NOVADS": {
 				Code: "092",
 			},
-			"Smiltenes novads": {
+			"SMILTENES NOVADS": {
 				Code: "094",
 			},
-			"Stopiņu novads": {
+			"STOPIŅU NOVADS": {
 				Code: "095",
 			},
-			"Strenču novads": {
+			"STRENČU NOVADS": {
 				Code: "096",
 			},
-			"Sējas novads": {
+			"SĒJAS NOVADS": {
 				Code: "090",
 			},
-			"Talsu novads": {
+			"TALSU NOVADS": {
 				Code: "097",
 			},
-			"Tukuma novads": {
+			"TUKUMA NOVADS": {
 				Code: "099",
 			},
-			"Tērvetes novads": {
+			"TĒRVETES NOVADS": {
 				Code: "098",
 			},
-			"Vaiņodes novads": {
+			"VAIŅODES NOVADS": {
 				Code: "100",
 			},
-			"Valkas novads": {
+			"VALKAS NOVADS": {
 				Code: "101",
 			},
-			"Valmiera": {
+			"VALMIERA": {
 				Code: "VMR",
 			},
-			"Varakļānu novads": {
+			"VARAKĻĀNU NOVADS": {
 				Code: "102",
 			},
-			"Vecpiebalgas novads": {
+			"VECPIEBALGAS NOVADS": {
 				Code: "104",
 			},
-			"Vecumnieku novads": {
+			"VECUMNIEKU NOVADS": {
 				Code: "105",
 			},
-			"Ventspils": {
+			"VENTSPILS": {
 				Code: "VEN",
 			},
-			"Ventspils novads": {
+			"VENTSPILS NOVADS": {
 				Code: "106",
 			},
-			"Viesītes novads": {
+			"VIESĪTES NOVADS": {
 				Code: "107",
 			},
-			"Viļakas novads": {
+			"VIĻAKAS NOVADS": {
 				Code: "108",
 			},
-			"Viļānu novads": {
+			"VIĻĀNU NOVADS": {
 				Code: "109",
 			},
-			"Vārkavas novads": {
+			"VĀRKAVAS NOVADS": {
 				Code: "103",
 			},
-			"Zilupes novads": {
+			"ZILUPES NOVADS": {
 				Code: "110",
 			},
-			"Ādažu novads": {
+			"ĀDAŽU NOVADS": {
 				Code: "011",
 			},
-			"Ērgļu novads": {
+			"ĒRGĻU NOVADS": {
 				Code: "030",
 			},
-			"Ķeguma novads": {
+			"ĶEGUMA NOVADS": {
 				Code: "051",
 			},
-			"Ķekavas novads": {
+			"ĶEKAVAS NOVADS": {
 				Code: "052",
 			},
 		},
@@ -27193,70 +27193,70 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Al Buţnān": {
+			"AL BUŢNĀN": {
 				Code: "BU",
 			},
-			"Al Jabal al Akhḑar": {
+			"AL JABAL AL AKHḐAR": {
 				Code: "JA",
 			},
-			"Al Jabal al Gharbī": {
+			"AL JABAL AL GHARBĪ": {
 				Code: "JG",
 			},
-			"Al Jafārah": {
+			"AL JAFĀRAH": {
 				Code: "JI",
 			},
-			"Al Jufrah": {
+			"AL JUFRAH": {
 				Code: "JU",
 			},
-			"Al Kufrah": {
+			"AL KUFRAH": {
 				Code: "KF",
 			},
-			"Al Marj": {
+			"AL MARJ": {
 				Code: "MJ",
 			},
-			"Al Marqab": {
+			"AL MARQAB": {
 				Code: "MB",
 			},
-			"Al Wāḩāt": {
+			"AL WĀḨĀT": {
 				Code: "WA",
 			},
-			"An Nuqāţ al Khams": {
+			"AN NUQĀŢ AL KHAMS": {
 				Code: "NQ",
 			},
-			"Az Zāwiyah": {
+			"AZ ZĀWIYAH": {
 				Code: "ZA",
 			},
-			"Banghāzī": {
+			"BANGHĀZĪ": {
 				Code: "BA",
 			},
-			"Darnah": {
+			"DARNAH": {
 				Code: "DR",
 			},
-			"Ghāt": {
+			"GHĀT": {
 				Code: "GT",
 			},
-			"Mişrātah": {
+			"MIŞRĀTAH": {
 				Code: "MI",
 			},
-			"Murzuq": {
+			"MURZUQ": {
 				Code: "MQ",
 			},
-			"Nālūt": {
+			"NĀLŪT": {
 				Code: "NL",
 			},
-			"Sabhā": {
+			"SABHĀ": {
 				Code: "SB",
 			},
-			"Surt": {
+			"SURT": {
 				Code: "SR",
 			},
-			"Wādī al Ḩayāt": {
+			"WĀDĪ AL ḨAYĀT": {
 				Code: "WD",
 			},
-			"Wādī ash Shāţi’": {
+			"WĀDĪ ASH SHĀŢI’": {
 				Code: "WS",
 			},
-			"Ţarābulus": {
+			"ŢARĀBULUS": {
 				Code: "TB",
 			},
 		},
@@ -27846,311 +27846,311 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Béni Mellal-Khénifra": {
+			"BÉNI MELLAL-KHÉNIFRA": {
 				Code: "05",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Azilal": {
+					"AZILAL": {
 						Code: "AZI",
 					},
-					"Béni Mellal": {
+					"BÉNI MELLAL": {
 						Code: "BEM",
 					},
-					"Fquih Ben Salah": {
+					"FQUIH BEN SALAH": {
 						Code: "FQH",
 					},
-					"Khenifra": {
+					"KHENIFRA": {
 						Code: "KHN",
 					},
-					"Khouribga": {
+					"KHOURIBGA": {
 						Code: "KHO",
 					},
 				},
 			},
-			"Casablanca-Settat": {
+			"CASABLANCA-SETTAT": {
 				Code: "06",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Benslimane": {
+					"BENSLIMANE": {
 						Code: "BES",
 					},
-					"Berrechid": {
+					"BERRECHID": {
 						Code: "BRR",
 					},
-					"Casablanca": {
+					"CASABLANCA": {
 						Code: "CAS",
 					},
-					"Chtouka-Ait Baha": {
+					"CHTOUKA-AIT BAHA": {
 						Code: "CHT",
 					},
-					"El Jadida": {
+					"EL JADIDA": {
 						Code: "JDI",
 					},
-					"Mohammadia": {
+					"MOHAMMADIA": {
 						Code: "MOH",
 					},
-					"Médiouna": {
+					"MÉDIOUNA": {
 						Code: "MED",
 					},
-					"Settat": {
+					"SETTAT": {
 						Code: "SET",
 					},
-					"Sidi Bennour": {
+					"SIDI BENNOUR": {
 						Code: "SIB",
 					},
 				},
 			},
-			"Dakhla-Oued Ed-Dahab (EH)": {
+			"DAKHLA-OUED ED-DAHAB (EH)": {
 				Code: "12",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Aousserd (EH)": {
+					"AOUSSERD (EH)": {
 						Code: "AOU",
 					},
-					"Oued Ed-Dahab (EH)": {
+					"OUED ED-DAHAB (EH)": {
 						Code: "OUD",
 					},
 				},
 			},
-			"Drâa-Tafilalet": {
+			"DRÂA-TAFILALET": {
 				Code: "08",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Errachidia": {
+					"ERRACHIDIA": {
 						Code: "ERR",
 					},
-					"Midelt": {
+					"MIDELT": {
 						Code: "MID",
 					},
-					"Ouarzazate": {
+					"OUARZAZATE": {
 						Code: "OUA",
 					},
-					"Tinghir": {
+					"TINGHIR": {
 						Code: "TIN",
 					},
-					"Zagora": {
+					"ZAGORA": {
 						Code: "ZAG",
 					},
 				},
 			},
-			"Fès-Meknès": {
+			"FÈS-MEKNÈS": {
 				Code: "03",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Boulemane": {
+					"BOULEMANE": {
 						Code: "BOM",
 					},
-					"El Hajeb": {
+					"EL HAJEB": {
 						Code: "HAJ",
 					},
-					"Fès": {
+					"FÈS": {
 						Code: "FES",
 					},
-					"Ifrane": {
+					"IFRANE": {
 						Code: "IFR",
 					},
-					"Meknès": {
+					"MEKNÈS": {
 						Code: "MEK",
 					},
-					"Moulay Yacoub": {
+					"MOULAY YACOUB": {
 						Code: "MOU",
 					},
-					"Sefrou": {
+					"SEFROU": {
 						Code: "SEF",
 					},
-					"Taounate": {
+					"TAOUNATE": {
 						Code: "TAO",
 					},
-					"Taza": {
+					"TAZA": {
 						Code: "TAZ",
 					},
 				},
 			},
-			"Guelmim-Oued Noun (EH-partial)": {
+			"GUELMIM-OUED NOUN (EH-PARTIAL)": {
 				Code: "10",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Assa-Zag (EH-partial)": {
+					"ASSA-ZAG (EH-PARTIAL)": {
 						Code: "ASZ",
 					},
-					"Guelmim": {
+					"GUELMIM": {
 						Code: "GUE",
 					},
-					"Sidi Ifni": {
+					"SIDI IFNI": {
 						Code: "SIF",
 					},
-					"Tan-Tan (EH-partial)": {
+					"TAN-TAN (EH-PARTIAL)": {
 						Code: "TNT",
 					},
 				},
 			},
-			"L'Oriental": {
+			"L'ORIENTAL": {
 				Code: "02",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Berkane": {
+					"BERKANE": {
 						Code: "BER",
 					},
-					"Driouch": {
+					"DRIOUCH": {
 						Code: "DRI",
 					},
-					"Figuig": {
+					"FIGUIG": {
 						Code: "FIG",
 					},
-					"Guercif": {
+					"GUERCIF": {
 						Code: "GUF",
 					},
-					"Jerada": {
+					"JERADA": {
 						Code: "JRA",
 					},
-					"Nador": {
+					"NADOR": {
 						Code: "NAD",
 					},
-					"Oujda-Angad": {
+					"OUJDA-ANGAD": {
 						Code: "OUJ",
 					},
-					"Taourirt": {
+					"TAOURIRT": {
 						Code: "TAI",
 					},
 				},
 			},
-			"Laâyoune-Sakia El Hamra (EH-partial)": {
+			"LAÂYOUNE-SAKIA EL HAMRA (EH-PARTIAL)": {
 				Code: "11",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Boujdour (EH)": {
+					"BOUJDOUR (EH)": {
 						Code: "BOD",
 					},
-					"Es-Semara (EH-partial)": {
+					"ES-SEMARA (EH-PARTIAL)": {
 						Code: "ESM",
 					},
-					"Laâyoune (EH)": {
+					"LAÂYOUNE (EH)": {
 						Code: "LAA",
 					},
-					"Tarfaya (EH-partial)": {
+					"TARFAYA (EH-PARTIAL)": {
 						Code: "TAF",
 					},
 				},
 			},
-			"Marrakech-Safi": {
+			"MARRAKECH-SAFI": {
 				Code: "07",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Al Haouz": {
+					"AL HAOUZ": {
 						Code: "HAO",
 					},
-					"Chichaoua": {
+					"CHICHAOUA": {
 						Code: "CHI",
 					},
-					"El Kelâa des Sraghna": {
+					"EL KELÂA DES SRAGHNA": {
 						Code: "KES",
 					},
-					"Essaouira": {
+					"ESSAOUIRA": {
 						Code: "ESI",
 					},
-					"Marrakech": {
+					"MARRAKECH": {
 						Code: "MAR",
 					},
-					"Rehamna": {
+					"REHAMNA": {
 						Code: "REH",
 					},
-					"Safi": {
+					"SAFI": {
 						Code: "SAF",
 					},
-					"Youssoufia": {
+					"YOUSSOUFIA": {
 						Code: "YUS",
 					},
 				},
 			},
-			"Rabat-Salé-Kénitra": {
+			"RABAT-SALÉ-KÉNITRA": {
 				Code: "04",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Khemisset": {
+					"KHEMISSET": {
 						Code: "KHE",
 					},
-					"Kénitra": {
+					"KÉNITRA": {
 						Code: "KEN",
 					},
-					"Nouaceur": {
+					"NOUACEUR": {
 						Code: "NOU",
 					},
-					"Rabat": {
+					"RABAT": {
 						Code: "RAB",
 					},
-					"Salé": {
+					"SALÉ": {
 						Code: "SAL",
 					},
-					"Sidi Kacem": {
+					"SIDI KACEM": {
 						Code: "SIK",
 					},
-					"Sidi Slimane": {
+					"SIDI SLIMANE": {
 						Code: "SIL",
 					},
-					"Skhirate-Témara": {
+					"SKHIRATE-TÉMARA": {
 						Code: "SKH",
 					},
 				},
 			},
-			"Souss-Massa": {
+			"SOUSS-MASSA": {
 				Code: "09",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Agadir-Ida-Ou-Tanane": {
+					"AGADIR-IDA-OU-TANANE": {
 						Code: "AGD",
 					},
-					"Inezgane-Ait Melloul": {
+					"INEZGANE-AIT MELLOUL": {
 						Code: "INE",
 					},
-					"Taroudant": {
+					"TAROUDANT": {
 						Code: "TAR",
 					},
-					"Tata": {
+					"TATA": {
 						Code: "TAT",
 					},
-					"Tiznit": {
+					"TIZNIT": {
 						Code: "TIZ",
 					},
 				},
 			},
-			"Tanger-Tétouan-Al Hoceïma": {
+			"TANGER-TÉTOUAN-AL HOCEÏMA": {
 				Code: "01",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Al Hoceïma": {
+					"AL HOCEÏMA": {
 						Code: "HOC",
 					},
-					"Chefchaouen": {
+					"CHEFCHAOUEN": {
 						Code: "CHE",
 					},
-					"Fahs-Anjra": {
+					"FAHS-ANJRA": {
 						Code: "FAH",
 					},
-					"Larache": {
+					"LARACHE": {
 						Code: "LAR",
 					},
-					"M’diq-Fnideq": {
+					"M’DIQ-FNIDEQ": {
 						Code: "MDF",
 					},
-					"Ouezzane": {
+					"OUEZZANE": {
 						Code: "OUZ",
 					},
-					"Tanger-Assilah": {
+					"TANGER-ASSILAH": {
 						Code: "TNG",
 					},
-					"Tétouan": {
+					"TÉTOUAN": {
 						Code: "TET",
 					},
 				},
@@ -28274,55 +28274,55 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Fontvieille": {
+			"FONTVIEILLE": {
 				Code: "FO",
 			},
-			"Jardin Exotique": {
+			"JARDIN EXOTIQUE": {
 				Code: "JE",
 			},
-			"La Colle": {
+			"LA COLLE": {
 				Code: "CL",
 			},
-			"La Condamine": {
+			"LA CONDAMINE": {
 				Code: "CO",
 			},
-			"La Gare": {
+			"LA GARE": {
 				Code: "GA",
 			},
-			"La Source": {
+			"LA SOURCE": {
 				Code: "SO",
 			},
-			"Larvotto": {
+			"LARVOTTO": {
 				Code: "LA",
 			},
-			"Malbousquet": {
+			"MALBOUSQUET": {
 				Code: "MA",
 			},
-			"Monaco-Ville": {
+			"MONACO-VILLE": {
 				Code: "MO",
 			},
-			"Moneghetti": {
+			"MONEGHETTI": {
 				Code: "MG",
 			},
-			"Monte-Carlo": {
+			"MONTE-CARLO": {
 				Code: "MC",
 			},
-			"Moulins": {
+			"MOULINS": {
 				Code: "MU",
 			},
-			"Port-Hercule": {
+			"PORT-HERCULE": {
 				Code: "PH",
 			},
-			"Saint-Roman": {
+			"SAINT-ROMAN": {
 				Code: "SR",
 			},
-			"Sainte-Dévote": {
+			"SAINTE-DÉVOTE": {
 				Code: "SD",
 			},
-			"Spélugues": {
+			"SPÉLUGUES": {
 				Code: "SP",
 			},
-			"Vallon de la Rousse": {
+			"VALLON DE LA ROUSSE": {
 				Code: "VR",
 			},
 		},
@@ -28564,115 +28564,115 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Anenii Noi": {
+			"ANENII NOI": {
 				Code: "AN",
 			},
-			"Basarabeasca": {
+			"BASARABEASCA": {
 				Code: "BS",
 			},
-			"Bender [Tighina]": {
+			"BENDER [TIGHINA]": {
 				Code: "BD",
 			},
-			"Briceni": {
+			"BRICENI": {
 				Code: "BR",
 			},
-			"Bălți": {
+			"BĂLȚI": {
 				Code: "BA",
 			},
-			"Cahul": {
+			"CAHUL": {
 				Code: "CA",
 			},
-			"Cantemir": {
+			"CANTEMIR": {
 				Code: "CT",
 			},
-			"Chișinău": {
+			"CHIȘINĂU": {
 				Code: "CU",
 			},
-			"Cimișlia": {
+			"CIMIȘLIA": {
 				Code: "CM",
 			},
-			"Criuleni": {
+			"CRIULENI": {
 				Code: "CR",
 			},
-			"Călărași": {
+			"CĂLĂRAȘI": {
 				Code: "CL",
 			},
-			"Căușeni": {
+			"CĂUȘENI": {
 				Code: "CS",
 			},
-			"Dondușeni": {
+			"DONDUȘENI": {
 				Code: "DO",
 			},
-			"Drochia": {
+			"DROCHIA": {
 				Code: "DR",
 			},
-			"Dubăsari": {
+			"DUBĂSARI": {
 				Code: "DU",
 			},
-			"Edineț": {
+			"EDINEȚ": {
 				Code: "ED",
 			},
-			"Florești": {
+			"FLOREȘTI": {
 				Code: "FL",
 			},
-			"Fălești": {
+			"FĂLEȘTI": {
 				Code: "FA",
 			},
-			"Glodeni": {
+			"GLODENI": {
 				Code: "GL",
 			},
-			"Găgăuzia, Unitatea teritorială autonomă (UTAG)": {
+			"GĂGĂUZIA, UNITATEA TERITORIALĂ AUTONOMĂ (UTAG)": {
 				Code: "GA",
 			},
-			"Hîncești": {
+			"HÎNCEȘTI": {
 				Code: "HI",
 			},
-			"Ialoveni": {
+			"IALOVENI": {
 				Code: "IA",
 			},
-			"Leova": {
+			"LEOVA": {
 				Code: "LE",
 			},
-			"Nisporeni": {
+			"NISPORENI": {
 				Code: "NI",
 			},
-			"Ocnița": {
+			"OCNIȚA": {
 				Code: "OC",
 			},
-			"Orhei": {
+			"ORHEI": {
 				Code: "OR",
 			},
-			"Rezina": {
+			"REZINA": {
 				Code: "RE",
 			},
-			"Rîșcani": {
+			"RÎȘCANI": {
 				Code: "RI",
 			},
-			"Soroca": {
+			"SOROCA": {
 				Code: "SO",
 			},
-			"Strășeni": {
+			"STRĂȘENI": {
 				Code: "ST",
 			},
-			"Stînga Nistrului, unitatea teritorială din": {
+			"STÎNGA NISTRULUI, UNITATEA TERITORIALĂ DIN": {
 				Code: "SN",
 			},
-			"Sîngerei": {
+			"SÎNGEREI": {
 				Code: "SI",
 			},
-			"Taraclia": {
+			"TARACLIA": {
 				Code: "TA",
 			},
-			"Telenești": {
+			"TELENEȘTI": {
 				Code: "TE",
 			},
-			"Ungheni": {
+			"UNGHENI": {
 				Code: "UN",
 			},
-			"Șoldănești": {
+			"ȘOLDĂNEȘTI": {
 				Code: "SD",
 			},
-			"Ștefan Vodă": {
+			"ȘTEFAN VODĂ": {
 				Code: "SV",
 			},
 		},
@@ -28836,76 +28836,76 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Andrijevica": {
+			"ANDRIJEVICA": {
 				Code: "01",
 			},
-			"Bar": {
+			"BAR": {
 				Code: "02",
 			},
-			"Berane": {
+			"BERANE": {
 				Code: "03",
 			},
-			"Bijelo Polje": {
+			"BIJELO POLJE": {
 				Code: "04",
 			},
-			"Budva": {
+			"BUDVA": {
 				Code: "05",
 			},
-			"Cetinje": {
+			"CETINJE": {
 				Code: "06",
 			},
-			"Danilovgrad": {
+			"DANILOVGRAD": {
 				Code: "07",
 			},
-			"Gusinje": {
+			"GUSINJE": {
 				Code: "22",
 			},
-			"Herceg-Novi": {
+			"HERCEG-NOVI": {
 				Code: "08",
 			},
-			"Kolašin": {
+			"KOLAŠIN": {
 				Code: "09",
 			},
-			"Kotor": {
+			"KOTOR": {
 				Code: "10",
 			},
-			"Mojkovac": {
+			"MOJKOVAC": {
 				Code: "11",
 			},
-			"Nikšić": {
+			"NIKŠIĆ": {
 				Code: "12",
 			},
-			"Petnjica": {
+			"PETNJICA": {
 				Code: "23",
 			},
-			"Plav": {
+			"PLAV": {
 				Code: "13",
 			},
-			"Pljevlja": {
+			"PLJEVLJA": {
 				Code: "14",
 			},
-			"Plužine": {
+			"PLUŽINE": {
 				Code: "15",
 			},
-			"Podgorica": {
+			"PODGORICA": {
 				Code: "16",
 			},
-			"Rožaje": {
+			"ROŽAJE": {
 				Code: "17",
 			},
-			"Tivat": {
+			"TIVAT": {
 				Code: "19",
 			},
-			"Tuzi": {
+			"TUZI": {
 				Code: "24",
 			},
-			"Ulcinj": {
+			"ULCINJ": {
 				Code: "20",
 			},
-			"Šavnik": {
+			"ŠAVNIK": {
 				Code: "18",
 			},
-			"Žabljak": {
+			"ŽABLJAK": {
 				Code: "21",
 			},
 		},
@@ -28970,22 +28970,22 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Antananarivo": {
+			"ANTANANARIVO": {
 				Code: "T",
 			},
-			"Antsiranana": {
+			"ANTSIRANANA": {
 				Code: "D",
 			},
-			"Fianarantsoa": {
+			"FIANARANTSOA": {
 				Code: "F",
 			},
-			"Mahajanga": {
+			"MAHAJANGA": {
 				Code: "M",
 			},
-			"Toamasina": {
+			"TOAMASINA": {
 				Code: "A",
 			},
-			"Toliara": {
+			"TOLIARA": {
 				Code: "U",
 			},
 		},
@@ -29169,88 +29169,88 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ralik chain": {
+			"RALIK CHAIN": {
 				Code: "L",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Ailinglaplap": {
+					"AILINGLAPLAP": {
 						Code: "ALL",
 					},
-					"Bikini & Kili": {
+					"BIKINI & KILI": {
 						Code: "KIL",
 					},
-					"Ebon": {
+					"EBON": {
 						Code: "EBO",
 					},
-					"Enewetak & Ujelang": {
+					"ENEWETAK & UJELANG": {
 						Code: "ENI",
 					},
-					"Jabat": {
+					"JABAT": {
 						Code: "JAB",
 					},
-					"Jaluit": {
+					"JALUIT": {
 						Code: "JAL",
 					},
-					"Kwajalein": {
+					"KWAJALEIN": {
 						Code: "KWA",
 					},
-					"Lae": {
+					"LAE": {
 						Code: "LAE",
 					},
-					"Lib": {
+					"LIB": {
 						Code: "LIB",
 					},
-					"Namdrik": {
+					"NAMDRIK": {
 						Code: "NMK",
 					},
-					"Namu": {
+					"NAMU": {
 						Code: "NMU",
 					},
-					"Rongelap": {
+					"RONGELAP": {
 						Code: "RON",
 					},
-					"Ujae": {
+					"UJAE": {
 						Code: "UJA",
 					},
-					"Wotho": {
+					"WOTHO": {
 						Code: "WTH",
 					},
 				},
 			},
-			"Ratak chain": {
+			"RATAK CHAIN": {
 				Code: "T",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Ailuk": {
+					"AILUK": {
 						Code: "ALK",
 					},
-					"Arno": {
+					"ARNO": {
 						Code: "ARN",
 					},
-					"Aur": {
+					"AUR": {
 						Code: "AUR",
 					},
-					"Likiep": {
+					"LIKIEP": {
 						Code: "LIK",
 					},
-					"Majuro": {
+					"MAJURO": {
 						Code: "MAJ",
 					},
-					"Maloelap": {
+					"MALOELAP": {
 						Code: "MAL",
 					},
-					"Mejit": {
+					"MEJIT": {
 						Code: "MEJ",
 					},
-					"Mili": {
+					"MILI": {
 						Code: "MIL",
 					},
-					"Utrik": {
+					"UTRIK": {
 						Code: "UTI",
 					},
-					"Wotje": {
+					"WOTJE": {
 						Code: "WTJ",
 					},
 				},
@@ -29752,244 +29752,244 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aerodrom †": {
+			"AERODROM †": {
 				Code: "801",
 			},
-			"Aračinovo": {
+			"ARAČINOVO": {
 				Code: "802",
 			},
-			"Berovo": {
+			"BEROVO": {
 				Code: "201",
 			},
-			"Bitola": {
+			"BITOLA": {
 				Code: "501",
 			},
-			"Bogdanci": {
+			"BOGDANCI": {
 				Code: "401",
 			},
-			"Bogovinje": {
+			"BOGOVINJE": {
 				Code: "601",
 			},
-			"Bosilovo": {
+			"BOSILOVO": {
 				Code: "402",
 			},
-			"Brvenica": {
+			"BRVENICA": {
 				Code: "602",
 			},
-			"Butel †": {
+			"BUTEL †": {
 				Code: "803",
 			},
-			"Centar Župa": {
+			"CENTAR ŽUPA": {
 				Code: "313",
 			},
-			"Centar †": {
+			"CENTAR †": {
 				Code: "814",
 			},
-			"Debar": {
+			"DEBAR": {
 				Code: "303",
 			},
-			"Debrca": {
+			"DEBRCA": {
 				Code: "304",
 			},
-			"Delčevo": {
+			"DELČEVO": {
 				Code: "203",
 			},
-			"Demir Hisar": {
+			"DEMIR HISAR": {
 				Code: "502",
 			},
-			"Demir Kapija": {
+			"DEMIR KAPIJA": {
 				Code: "103",
 			},
-			"Dojran": {
+			"DOJRAN": {
 				Code: "406",
 			},
-			"Dolneni": {
+			"DOLNENI": {
 				Code: "503",
 			},
-			"Gazi Baba †": {
+			"GAZI BABA †": {
 				Code: "804",
 			},
-			"Gevgelija": {
+			"GEVGELIJA": {
 				Code: "405",
 			},
-			"Gjorče Petrov †": {
+			"GJORČE PETROV †": {
 				Code: "805",
 			},
-			"Gostivar": {
+			"GOSTIVAR": {
 				Code: "604",
 			},
-			"Gradsko": {
+			"GRADSKO": {
 				Code: "102",
 			},
-			"Ilinden": {
+			"ILINDEN": {
 				Code: "807",
 			},
-			"Jegunovce": {
+			"JEGUNOVCE": {
 				Code: "606",
 			},
-			"Karbinci": {
+			"KARBINCI": {
 				Code: "205",
 			},
-			"Karpoš †": {
+			"KARPOŠ †": {
 				Code: "808",
 			},
-			"Kavadarci": {
+			"KAVADARCI": {
 				Code: "104",
 			},
-			"Kisela Voda †": {
+			"KISELA VODA †": {
 				Code: "809",
 			},
-			"Kičevo": {
+			"KIČEVO": {
 				Code: "307",
 			},
-			"Konče": {
+			"KONČE": {
 				Code: "407",
 			},
-			"Kočani": {
+			"KOČANI": {
 				Code: "206",
 			},
-			"Kratovo": {
+			"KRATOVO": {
 				Code: "701",
 			},
-			"Kriva Palanka": {
+			"KRIVA PALANKA": {
 				Code: "702",
 			},
-			"Krivogaštani": {
+			"KRIVOGAŠTANI": {
 				Code: "504",
 			},
-			"Kruševo": {
+			"KRUŠEVO": {
 				Code: "505",
 			},
-			"Kumanovo": {
+			"KUMANOVO": {
 				Code: "703",
 			},
-			"Lipkovo": {
+			"LIPKOVO": {
 				Code: "704",
 			},
-			"Lozovo": {
+			"LOZOVO": {
 				Code: "105",
 			},
-			"Makedonska Kamenica": {
+			"MAKEDONSKA KAMENICA": {
 				Code: "207",
 			},
-			"Makedonski Brod": {
+			"MAKEDONSKI BROD": {
 				Code: "308",
 			},
-			"Mavrovo i Rostuše": {
+			"MAVROVO I ROSTUŠE": {
 				Code: "607",
 			},
-			"Mogila": {
+			"MOGILA": {
 				Code: "506",
 			},
-			"Negotino": {
+			"NEGOTINO": {
 				Code: "106",
 			},
-			"Novaci": {
+			"NOVACI": {
 				Code: "507",
 			},
-			"Novo Selo": {
+			"NOVO SELO": {
 				Code: "408",
 			},
-			"Ohrid": {
+			"OHRID": {
 				Code: "310",
 			},
-			"Pehčevo": {
+			"PEHČEVO": {
 				Code: "208",
 			},
-			"Petrovec": {
+			"PETROVEC": {
 				Code: "810",
 			},
-			"Plasnica": {
+			"PLASNICA": {
 				Code: "311",
 			},
-			"Prilep": {
+			"PRILEP": {
 				Code: "508",
 			},
-			"Probištip": {
+			"PROBIŠTIP": {
 				Code: "209",
 			},
-			"Radoviš": {
+			"RADOVIŠ": {
 				Code: "409",
 			},
-			"Rankovce": {
+			"RANKOVCE": {
 				Code: "705",
 			},
-			"Resen": {
+			"RESEN": {
 				Code: "509",
 			},
-			"Rosoman": {
+			"ROSOMAN": {
 				Code: "107",
 			},
-			"Saraj †": {
+			"SARAJ †": {
 				Code: "811",
 			},
-			"Sopište": {
+			"SOPIŠTE": {
 				Code: "812",
 			},
-			"Staro Nagoričane": {
+			"STARO NAGORIČANE": {
 				Code: "706",
 			},
-			"Struga": {
+			"STRUGA": {
 				Code: "312",
 			},
-			"Strumica": {
+			"STRUMICA": {
 				Code: "410",
 			},
-			"Studeničani": {
+			"STUDENIČANI": {
 				Code: "813",
 			},
-			"Sveti Nikole": {
+			"SVETI NIKOLE": {
 				Code: "108",
 			},
-			"Tearce": {
+			"TEARCE": {
 				Code: "608",
 			},
-			"Tetovo": {
+			"TETOVO": {
 				Code: "609",
 			},
-			"Valandovo": {
+			"VALANDOVO": {
 				Code: "403",
 			},
-			"Vasilevo": {
+			"VASILEVO": {
 				Code: "404",
 			},
-			"Veles": {
+			"VELES": {
 				Code: "101",
 			},
-			"Vevčani": {
+			"VEVČANI": {
 				Code: "301",
 			},
-			"Vinica": {
+			"VINICA": {
 				Code: "202",
 			},
-			"Vrapčište": {
+			"VRAPČIŠTE": {
 				Code: "603",
 			},
-			"Zelenikovo": {
+			"ZELENIKOVO": {
 				Code: "806",
 			},
-			"Zrnovci": {
+			"ZRNOVCI": {
 				Code: "204",
 			},
-			"Čair †": {
+			"ČAIR †": {
 				Code: "815",
 			},
-			"Čaška": {
+			"ČAŠKA": {
 				Code: "109",
 			},
-			"Češinovo-Obleševo": {
+			"ČEŠINOVO-OBLEŠEVO": {
 				Code: "210",
 			},
-			"Čučer-Sandevo": {
+			"ČUČER-SANDEVO": {
 				Code: "816",
 			},
-			"Štip": {
+			"ŠTIP": {
 				Code: "211",
 			},
-			"Šuto Orizari †": {
+			"ŠUTO ORIZARI †": {
 				Code: "817",
 			},
-			"Želino": {
+			"ŽELINO": {
 				Code: "605",
 			},
 		},
@@ -30075,37 +30075,37 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bamako": {
+			"BAMAKO": {
 				Code: "BKO",
 			},
-			"Gao": {
+			"GAO": {
 				Code: "7",
 			},
-			"Kayes": {
+			"KAYES": {
 				Code: "1",
 			},
-			"Kidal": {
+			"KIDAL": {
 				Code: "8",
 			},
-			"Koulikoro": {
+			"KOULIKORO": {
 				Code: "2",
 			},
-			"Mopti": {
+			"MOPTI": {
 				Code: "5",
 			},
-			"Ménaka": {
+			"MÉNAKA": {
 				Code: "9",
 			},
-			"Sikasso": {
+			"SIKASSO": {
 				Code: "3",
 			},
-			"Ségou": {
+			"SÉGOU": {
 				Code: "4",
 			},
-			"Taoudénit": {
+			"TAOUDÉNIT": {
 				Code: "10",
 			},
-			"Tombouctou": {
+			"TOMBOUCTOU": {
 				Code: "6",
 			},
 		},
@@ -30215,49 +30215,49 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ayeyarwady": {
+			"AYEYARWADY": {
 				Code: "07",
 			},
-			"Bago": {
+			"BAGO": {
 				Code: "02",
 			},
-			"Chin": {
+			"CHIN": {
 				Code: "14",
 			},
-			"Kachin": {
+			"KACHIN": {
 				Code: "11",
 			},
-			"Kayah": {
+			"KAYAH": {
 				Code: "12",
 			},
-			"Kayin": {
+			"KAYIN": {
 				Code: "13",
 			},
-			"Magway": {
+			"MAGWAY": {
 				Code: "03",
 			},
-			"Mandalay": {
+			"MANDALAY": {
 				Code: "04",
 			},
-			"Mon": {
+			"MON": {
 				Code: "15",
 			},
-			"Nay Pyi Taw": {
+			"NAY PYI TAW": {
 				Code: "18",
 			},
-			"Rakhine": {
+			"RAKHINE": {
 				Code: "16",
 			},
-			"Sagaing": {
+			"SAGAING": {
 				Code: "01",
 			},
-			"Shan": {
+			"SHAN": {
 				Code: "17",
 			},
-			"Tanintharyi": {
+			"TANINTHARYI": {
 				Code: "05",
 			},
-			"Yangon": {
+			"YANGON": {
 				Code: "06",
 			},
 		},
@@ -30409,70 +30409,70 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Arhangay": {
+			"ARHANGAY": {
 				Code: "073",
 			},
-			"Bayan-Ölgiy": {
+			"BAYAN-ÖLGIY": {
 				Code: "071",
 			},
-			"Bayanhongor": {
+			"BAYANHONGOR": {
 				Code: "069",
 			},
-			"Bulgan": {
+			"BULGAN": {
 				Code: "067",
 			},
-			"Darhan uul": {
+			"DARHAN UUL": {
 				Code: "037",
 			},
-			"Dornod": {
+			"DORNOD": {
 				Code: "061",
 			},
-			"Dornogovĭ": {
+			"DORNOGOVĬ": {
 				Code: "063",
 			},
-			"Dundgovĭ": {
+			"DUNDGOVĬ": {
 				Code: "059",
 			},
-			"Dzavhan": {
+			"DZAVHAN": {
 				Code: "057",
 			},
-			"Govĭ-Altay": {
+			"GOVĬ-ALTAY": {
 				Code: "065",
 			},
-			"Govĭ-Sümber": {
+			"GOVĬ-SÜMBER": {
 				Code: "064",
 			},
-			"Hentiy": {
+			"HENTIY": {
 				Code: "039",
 			},
-			"Hovd": {
+			"HOVD": {
 				Code: "043",
 			},
-			"Hövsgöl": {
+			"HÖVSGÖL": {
 				Code: "041",
 			},
-			"Orhon": {
+			"ORHON": {
 				Code: "035",
 			},
-			"Selenge": {
+			"SELENGE": {
 				Code: "049",
 			},
-			"Sühbaatar": {
+			"SÜHBAATAR": {
 				Code: "051",
 			},
-			"Töv": {
+			"TÖV": {
 				Code: "047",
 			},
-			"Ulaanbaatar": {
+			"ULAANBAATAR": {
 				Code: "1",
 			},
-			"Uvs": {
+			"UVS": {
 				Code: "046",
 			},
-			"Ömnögovĭ": {
+			"ÖMNÖGOVĬ": {
 				Code: "053",
 			},
-			"Övörhangay": {
+			"ÖVÖRHANGAY": {
 				Code: "055",
 			},
 		},
@@ -30609,49 +30609,49 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Adrar": {
+			"ADRAR": {
 				Code: "07",
 			},
-			"Assaba": {
+			"ASSABA": {
 				Code: "03",
 			},
-			"Brakna": {
+			"BRAKNA": {
 				Code: "05",
 			},
-			"Dakhlet Nouâdhibou": {
+			"DAKHLET NOUÂDHIBOU": {
 				Code: "08",
 			},
-			"Gorgol": {
+			"GORGOL": {
 				Code: "04",
 			},
-			"Guidimaka": {
+			"GUIDIMAKA": {
 				Code: "10",
 			},
-			"Hodh ech Chargui": {
+			"HODH ECH CHARGUI": {
 				Code: "01",
 			},
-			"Hodh el Gharbi": {
+			"HODH EL GHARBI": {
 				Code: "02",
 			},
-			"Inchiri": {
+			"INCHIRI": {
 				Code: "12",
 			},
-			"Nuwākshūţ al Gharbīyah": {
+			"NUWĀKSHŪŢ AL GHARBĪYAH": {
 				Code: "13",
 			},
-			"Nuwākshūţ al Janūbīyah": {
+			"NUWĀKSHŪŢ AL JANŪBĪYAH": {
 				Code: "15",
 			},
-			"Nuwākshūţ ash Shamālīyah": {
+			"NUWĀKSHŪŢ ASH SHAMĀLĪYAH": {
 				Code: "14",
 			},
-			"Tagant": {
+			"TAGANT": {
 				Code: "09",
 			},
-			"Tiris Zemmour": {
+			"TIRIS ZEMMOUR": {
 				Code: "11",
 			},
-			"Trarza": {
+			"TRARZA": {
 				Code: "06",
 			},
 		},
@@ -31088,208 +31088,208 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Attard": {
+			"ATTARD": {
 				Code: "01",
 			},
-			"Balzan": {
+			"BALZAN": {
 				Code: "02",
 			},
-			"Birgu": {
+			"BIRGU": {
 				Code: "03",
 			},
-			"Birkirkara": {
+			"BIRKIRKARA": {
 				Code: "04",
 			},
-			"Birżebbuġa": {
+			"BIRŻEBBUĠA": {
 				Code: "05",
 			},
-			"Bormla": {
+			"BORMLA": {
 				Code: "06",
 			},
-			"Dingli": {
+			"DINGLI": {
 				Code: "07",
 			},
-			"Fgura": {
+			"FGURA": {
 				Code: "08",
 			},
-			"Floriana": {
+			"FLORIANA": {
 				Code: "09",
 			},
-			"Fontana": {
+			"FONTANA": {
 				Code: "10",
 			},
-			"Gudja": {
+			"GUDJA": {
 				Code: "11",
 			},
-			"Għajnsielem": {
+			"GĦAJNSIELEM": {
 				Code: "13",
 			},
-			"Għarb": {
+			"GĦARB": {
 				Code: "14",
 			},
-			"Għargħur": {
+			"GĦARGĦUR": {
 				Code: "15",
 			},
-			"Għasri": {
+			"GĦASRI": {
 				Code: "16",
 			},
-			"Għaxaq": {
+			"GĦAXAQ": {
 				Code: "17",
 			},
-			"Gżira": {
+			"GŻIRA": {
 				Code: "12",
 			},
-			"Iklin": {
+			"IKLIN": {
 				Code: "19",
 			},
-			"Isla": {
+			"ISLA": {
 				Code: "20",
 			},
-			"Kalkara": {
+			"KALKARA": {
 				Code: "21",
 			},
-			"Kerċem": {
+			"KERĊEM": {
 				Code: "22",
 			},
-			"Kirkop": {
+			"KIRKOP": {
 				Code: "23",
 			},
-			"Lija": {
+			"LIJA": {
 				Code: "24",
 			},
-			"Luqa": {
+			"LUQA": {
 				Code: "25",
 			},
-			"Marsa": {
+			"MARSA": {
 				Code: "26",
 			},
-			"Marsaskala": {
+			"MARSASKALA": {
 				Code: "27",
 			},
-			"Marsaxlokk": {
+			"MARSAXLOKK": {
 				Code: "28",
 			},
-			"Mdina": {
+			"MDINA": {
 				Code: "29",
 			},
-			"Mellieħa": {
+			"MELLIEĦA": {
 				Code: "30",
 			},
-			"Mosta": {
+			"MOSTA": {
 				Code: "32",
 			},
-			"Mqabba": {
+			"MQABBA": {
 				Code: "33",
 			},
-			"Msida": {
+			"MSIDA": {
 				Code: "34",
 			},
-			"Mtarfa": {
+			"MTARFA": {
 				Code: "35",
 			},
-			"Munxar": {
+			"MUNXAR": {
 				Code: "36",
 			},
-			"Mġarr": {
+			"MĠARR": {
 				Code: "31",
 			},
-			"Nadur": {
+			"NADUR": {
 				Code: "37",
 			},
-			"Naxxar": {
+			"NAXXAR": {
 				Code: "38",
 			},
-			"Paola": {
+			"PAOLA": {
 				Code: "39",
 			},
-			"Pembroke": {
+			"PEMBROKE": {
 				Code: "40",
 			},
-			"Pietà": {
+			"PIETÀ": {
 				Code: "41",
 			},
-			"Qala": {
+			"QALA": {
 				Code: "42",
 			},
-			"Qormi": {
+			"QORMI": {
 				Code: "43",
 			},
-			"Qrendi": {
+			"QRENDI": {
 				Code: "44",
 			},
-			"Rabat Gozo": {
+			"RABAT GOZO": {
 				Code: "45",
 			},
-			"Rabat Malta": {
+			"RABAT MALTA": {
 				Code: "46",
 			},
-			"Safi": {
+			"SAFI": {
 				Code: "47",
 			},
-			"Saint John": {
+			"SAINT JOHN": {
 				Code: "49",
 			},
-			"Saint Julian's": {
+			"SAINT JULIAN'S": {
 				Code: "48",
 			},
-			"Saint Lawrence": {
+			"SAINT LAWRENCE": {
 				Code: "50",
 			},
-			"Saint Lucia's": {
+			"SAINT LUCIA'S": {
 				Code: "53",
 			},
-			"Saint Paul's Bay": {
+			"SAINT PAUL'S BAY": {
 				Code: "51",
 			},
-			"Sannat": {
+			"SANNAT": {
 				Code: "52",
 			},
-			"Santa Venera": {
+			"SANTA VENERA": {
 				Code: "54",
 			},
-			"Siġġiewi": {
+			"SIĠĠIEWI": {
 				Code: "55",
 			},
-			"Sliema": {
+			"SLIEMA": {
 				Code: "56",
 			},
-			"Swieqi": {
+			"SWIEQI": {
 				Code: "57",
 			},
-			"Ta' Xbiex": {
+			"TA' XBIEX": {
 				Code: "58",
 			},
-			"Tarxien": {
+			"TARXIEN": {
 				Code: "59",
 			},
-			"Valletta": {
+			"VALLETTA": {
 				Code: "60",
 			},
-			"Xagħra": {
+			"XAGĦRA": {
 				Code: "61",
 			},
-			"Xewkija": {
+			"XEWKIJA": {
 				Code: "62",
 			},
-			"Xgħajra": {
+			"XGĦAJRA": {
 				Code: "63",
 			},
-			"Ħamrun": {
+			"ĦAMRUN": {
 				Code: "18",
 			},
-			"Żabbar": {
+			"ŻABBAR": {
 				Code: "64",
 			},
-			"Żebbuġ Gozo": {
+			"ŻEBBUĠ GOZO": {
 				Code: "65",
 			},
-			"Żebbuġ Malta": {
+			"ŻEBBUĠ MALTA": {
 				Code: "66",
 			},
-			"Żejtun": {
+			"ŻEJTUN": {
 				Code: "67",
 			},
-			"Żurrieq": {
+			"ŻURRIEQ": {
 				Code: "68",
 			},
 		},
@@ -31411,52 +31411,52 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Agalega Islands": {
+			"AGALEGA ISLANDS": {
 				Code: "AG",
 			},
-			"Beau Bassin-Rose Hill": {
+			"BEAU BASSIN-ROSE HILL": {
 				Code: "BR",
 			},
-			"Black River": {
+			"BLACK RIVER": {
 				Code: "BL",
 			},
-			"Cargados Carajos Shoals": {
+			"CARGADOS CARAJOS SHOALS": {
 				Code: "CC",
 			},
-			"Curepipe": {
+			"CUREPIPE": {
 				Code: "CU",
 			},
-			"Flacq": {
+			"FLACQ": {
 				Code: "FL",
 			},
-			"Grand Port": {
+			"GRAND PORT": {
 				Code: "GP",
 			},
-			"Moka": {
+			"MOKA": {
 				Code: "MO",
 			},
-			"Pamplemousses": {
+			"PAMPLEMOUSSES": {
 				Code: "PA",
 			},
-			"Plaines Wilhems": {
+			"PLAINES WILHEMS": {
 				Code: "PW",
 			},
-			"Port Louis": {
-				Code: "PU",
+			"PORT LOUIS": {
+				Code: "PL",
 			},
-			"Quatre Bornes": {
+			"QUATRE BORNES": {
 				Code: "QB",
 			},
-			"Rivière du Rempart": {
+			"RIVIÈRE DU REMPART": {
 				Code: "RR",
 			},
-			"Rodrigues Island": {
+			"RODRIGUES ISLAND": {
 				Code: "RO",
 			},
-			"Savanne": {
+			"SAVANNE": {
 				Code: "SA",
 			},
-			"Vacoas-Phoenix": {
+			"VACOAS-PHOENIX": {
 				Code: "VP",
 			},
 		},
@@ -31602,67 +31602,67 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Addu City": {
+			"ADDU CITY": {
 				Code: "01",
 			},
-			"Faadhippolhu": {
+			"FAADHIPPOLHU": {
 				Code: "03",
 			},
-			"Felidhu Atoll": {
+			"FELIDHU ATOLL": {
 				Code: "04",
 			},
-			"Fuvammulah": {
+			"FUVAMMULAH": {
 				Code: "29",
 			},
-			"Hahdhunmathi": {
+			"HAHDHUNMATHI": {
 				Code: "05",
 			},
-			"Kolhumadulu": {
+			"KOLHUMADULU": {
 				Code: "08",
 			},
-			"Male": {
+			"MALE": {
 				Code: "MLE",
 			},
-			"Male Atoll": {
+			"MALE ATOLL": {
 				Code: "26",
 			},
-			"Mulaku Atoll": {
+			"MULAKU ATOLL": {
 				Code: "12",
 			},
-			"North Ari Atoll": {
+			"NORTH ARI ATOLL": {
 				Code: "02",
 			},
-			"North Huvadhu Atoll": {
+			"NORTH HUVADHU ATOLL": {
 				Code: "27",
 			},
-			"North Maalhosmadulu": {
+			"NORTH MAALHOSMADULU": {
 				Code: "13",
 			},
-			"North Miladhunmadulu": {
+			"NORTH MILADHUNMADULU": {
 				Code: "24",
 			},
-			"North Nilandhe Atoll": {
+			"NORTH NILANDHE ATOLL": {
 				Code: "14",
 			},
-			"North Thiladhunmathi": {
+			"NORTH THILADHUNMATHI": {
 				Code: "07",
 			},
-			"South Ari Atoll": {
+			"SOUTH ARI ATOLL": {
 				Code: "00",
 			},
-			"South Huvadhu Atoll": {
+			"SOUTH HUVADHU ATOLL": {
 				Code: "28",
 			},
-			"South Maalhosmadulu": {
+			"SOUTH MAALHOSMADULU": {
 				Code: "20",
 			},
-			"South Miladhunmadulu": {
+			"SOUTH MILADHUNMADULU": {
 				Code: "25",
 			},
-			"South Nilandhe Atoll": {
+			"SOUTH NILANDHE ATOLL": {
 				Code: "17",
 			},
-			"South Thiladhunmathi": {
+			"SOUTH THILADHUNMATHI": {
 				Code: "23",
 			},
 		},
@@ -31880,107 +31880,107 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Central Region": {
+			"CENTRAL REGION": {
 				Code: "C",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Dedza": {
+					"DEDZA": {
 						Code: "DE",
 					},
-					"Dowa": {
+					"DOWA": {
 						Code: "DO",
 					},
-					"Kasungu": {
+					"KASUNGU": {
 						Code: "KS",
 					},
-					"Lilongwe": {
+					"LILONGWE": {
 						Code: "LI",
 					},
-					"Mchinji": {
+					"MCHINJI": {
 						Code: "MC",
 					},
-					"Nkhotakota": {
+					"NKHOTAKOTA": {
 						Code: "NK",
 					},
-					"Ntcheu": {
+					"NTCHEU": {
 						Code: "NU",
 					},
-					"Ntchisi": {
+					"NTCHISI": {
 						Code: "NI",
 					},
-					"Salima": {
+					"SALIMA": {
 						Code: "SA",
 					},
 				},
 			},
-			"Northern Region": {
+			"NORTHERN REGION": {
 				Code: "N",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Chitipa": {
+					"CHITIPA": {
 						Code: "CT",
 					},
-					"Karonga": {
+					"KARONGA": {
 						Code: "KR",
 					},
-					"Likoma": {
+					"LIKOMA": {
 						Code: "LK",
 					},
-					"Mzimba": {
+					"MZIMBA": {
 						Code: "MZ",
 					},
-					"Nkhata Bay": {
+					"NKHATA BAY": {
 						Code: "NB",
 					},
-					"Rumphi": {
+					"RUMPHI": {
 						Code: "RU",
 					},
 				},
 			},
-			"Southern Region": {
+			"SOUTHERN REGION": {
 				Code: "S",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Balaka": {
+					"BALAKA": {
 						Code: "BA",
 					},
-					"Blantyre": {
+					"BLANTYRE": {
 						Code: "BL",
 					},
-					"Chikwawa": {
+					"CHIKWAWA": {
 						Code: "CK",
 					},
-					"Chiradzulu": {
+					"CHIRADZULU": {
 						Code: "CR",
 					},
-					"Machinga": {
+					"MACHINGA": {
 						Code: "MH",
 					},
-					"Mangochi": {
+					"MANGOCHI": {
 						Code: "MG",
 					},
-					"Mulanje": {
+					"MULANJE": {
 						Code: "MU",
 					},
-					"Mwanza": {
+					"MWANZA": {
 						Code: "MW",
 					},
-					"Neno": {
+					"NENO": {
 						Code: "NE",
 					},
-					"Nsanje": {
+					"NSANJE": {
 						Code: "NS",
 					},
-					"Phalombe": {
+					"PHALOMBE": {
 						Code: "PH",
 					},
-					"Thyolo": {
+					"THYOLO": {
 						Code: "TH",
 					},
-					"Zomba": {
+					"ZOMBA": {
 						Code: "ZO",
 					},
 				},
@@ -32194,100 +32194,100 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aguascalientes": {
+			"AGUASCALIENTES": {
 				Code: "AGU",
 			},
-			"Baja California": {
+			"BAJA CALIFORNIA": {
 				Code: "BCN",
 			},
-			"Baja California Sur": {
+			"BAJA CALIFORNIA SUR": {
 				Code: "BCS",
 			},
-			"Campeche": {
+			"CAMPECHE": {
 				Code: "CAM",
 			},
-			"Chiapas": {
+			"CHIAPAS": {
 				Code: "CHP",
 			},
-			"Chihuahua": {
+			"CHIHUAHUA": {
 				Code: "CHH",
 			},
-			"Ciudad de México": {
+			"CIUDAD DE MÉXICO": {
 				Code: "CMX",
 			},
-			"Coahuila de Zaragoza": {
+			"COAHUILA DE ZARAGOZA": {
 				Code: "COA",
 			},
-			"Colima": {
+			"COLIMA": {
 				Code: "COL",
 			},
-			"Durango": {
+			"DURANGO": {
 				Code: "DUR",
 			},
-			"Guanajuato": {
+			"GUANAJUATO": {
 				Code: "GUA",
 			},
-			"Guerrero": {
+			"GUERRERO": {
 				Code: "GRO",
 			},
-			"Hidalgo": {
+			"HIDALGO": {
 				Code: "HID",
 			},
-			"Jalisco": {
+			"JALISCO": {
 				Code: "JAL",
 			},
-			"Michoacán de Ocampo": {
+			"MICHOACÁN DE OCAMPO": {
 				Code: "MIC",
 			},
-			"Morelos": {
+			"MORELOS": {
 				Code: "MOR",
 			},
-			"México": {
+			"MÉXICO": {
 				Code: "MEX",
 			},
-			"Nayarit": {
+			"NAYARIT": {
 				Code: "NAY",
 			},
-			"Nuevo León": {
+			"NUEVO LEÓN": {
 				Code: "NLE",
 			},
-			"Oaxaca": {
+			"OAXACA": {
 				Code: "OAX",
 			},
-			"Puebla": {
+			"PUEBLA": {
 				Code: "PUE",
 			},
-			"Querétaro": {
+			"QUERÉTARO": {
 				Code: "QUE",
 			},
-			"Quintana Roo": {
+			"QUINTANA ROO": {
 				Code: "ROO",
 			},
-			"San Luis Potosí": {
+			"SAN LUIS POTOSÍ": {
 				Code: "SLP",
 			},
-			"Sinaloa": {
+			"SINALOA": {
 				Code: "SIN",
 			},
-			"Sonora": {
+			"SONORA": {
 				Code: "SON",
 			},
-			"Tabasco": {
+			"TABASCO": {
 				Code: "TAB",
 			},
-			"Tamaulipas": {
+			"TAMAULIPAS": {
 				Code: "TAM",
 			},
-			"Tlaxcala": {
+			"TLAXCALA": {
 				Code: "TLA",
 			},
-			"Veracruz de Ignacio de la Llave": {
+			"VERACRUZ DE IGNACIO DE LA LLAVE": {
 				Code: "VER",
 			},
-			"Yucatán": {
+			"YUCATÁN": {
 				Code: "YUC",
 			},
-			"Zacatecas": {
+			"ZACATECAS": {
 				Code: "ZAC",
 			},
 		},
@@ -32403,52 +32403,52 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Johor": {
+			"JOHOR": {
 				Code: "01",
 			},
-			"Kedah": {
+			"KEDAH": {
 				Code: "02",
 			},
-			"Kelantan": {
+			"KELANTAN": {
 				Code: "03",
 			},
-			"Melaka": {
+			"MELAKA": {
 				Code: "04",
 			},
-			"Negeri Sembilan": {
+			"NEGERI SEMBILAN": {
 				Code: "05",
 			},
-			"Pahang": {
+			"PAHANG": {
 				Code: "06",
 			},
-			"Perak": {
+			"PERAK": {
 				Code: "08",
 			},
-			"Perlis": {
+			"PERLIS": {
 				Code: "09",
 			},
-			"Pulau Pinang": {
+			"PULAU PINANG": {
 				Code: "07",
 			},
-			"Sabah": {
+			"SABAH": {
 				Code: "12",
 			},
-			"Sarawak": {
+			"SARAWAK": {
 				Code: "13",
 			},
-			"Selangor": {
+			"SELANGOR": {
 				Code: "10",
 			},
-			"Terengganu": {
+			"TERENGGANU": {
 				Code: "11",
 			},
-			"Wilayah Persekutuan Kuala Lumpur": {
+			"WILAYAH PERSEKUTUAN KUALA LUMPUR": {
 				Code: "14",
 			},
-			"Wilayah Persekutuan Labuan": {
+			"WILAYAH PERSEKUTUAN LABUAN": {
 				Code: "15",
 			},
-			"Wilayah Persekutuan Putrajaya": {
+			"WILAYAH PERSEKUTUAN PUTRAJAYA": {
 				Code: "16",
 			},
 		},
@@ -32534,34 +32534,34 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Cabo Delgado": {
+			"CABO DELGADO": {
 				Code: "P",
 			},
-			"Gaza": {
+			"GAZA": {
 				Code: "G",
 			},
-			"Inhambane": {
+			"INHAMBANE": {
 				Code: "I",
 			},
-			"Manica": {
+			"MANICA": {
 				Code: "B",
 			},
-			"Maputo": {
+			"MAPUTO": {
 				Code: "L",
 			},
-			"Nampula": {
+			"NAMPULA": {
 				Code: "N",
 			},
-			"Niassa": {
+			"NIASSA": {
 				Code: "A",
 			},
-			"Sofala": {
+			"SOFALA": {
 				Code: "S",
 			},
-			"Tete": {
+			"TETE": {
 				Code: "T",
 			},
-			"Zambézia": {
+			"ZAMBÉZIA": {
 				Code: "Q",
 			},
 		},
@@ -32665,46 +32665,46 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Erongo": {
+			"ERONGO": {
 				Code: "ER",
 			},
-			"Hardap": {
+			"HARDAP": {
 				Code: "HA",
 			},
-			"Karas": {
+			"KARAS": {
 				Code: "KA",
 			},
-			"Kavango East": {
+			"KAVANGO EAST": {
 				Code: "KE",
 			},
-			"Kavango West": {
+			"KAVANGO WEST": {
 				Code: "KW",
 			},
-			"Khomas": {
+			"KHOMAS": {
 				Code: "KH",
 			},
-			"Kunene": {
+			"KUNENE": {
 				Code: "KU",
 			},
-			"Ohangwena": {
+			"OHANGWENA": {
 				Code: "OW",
 			},
-			"Omaheke": {
+			"OMAHEKE": {
 				Code: "OH",
 			},
-			"Omusati": {
+			"OMUSATI": {
 				Code: "OS",
 			},
-			"Oshana": {
+			"OSHANA": {
 				Code: "ON",
 			},
-			"Oshikoto": {
+			"OSHIKOTO": {
 				Code: "OT",
 			},
-			"Otjozondjupa": {
+			"OTJOZONDJUPA": {
 				Code: "OD",
 			},
-			"Zambezi": {
+			"ZAMBEZI": {
 				Code: "CA",
 			},
 		},
@@ -32781,28 +32781,28 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Agadez": {
+			"AGADEZ": {
 				Code: "1",
 			},
-			"Diffa": {
+			"DIFFA": {
 				Code: "2",
 			},
-			"Dosso": {
+			"DOSSO": {
 				Code: "3",
 			},
-			"Maradi": {
+			"MARADI": {
 				Code: "4",
 			},
-			"Niamey": {
+			"NIAMEY": {
 				Code: "8",
 			},
-			"Tahoua": {
+			"TAHOUA": {
 				Code: "5",
 			},
-			"Tillabéri": {
+			"TILLABÉRI": {
 				Code: "6",
 			},
-			"Zinder": {
+			"ZINDER": {
 				Code: "7",
 			},
 		},
@@ -33053,115 +33053,115 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Abia": {
+			"ABIA": {
 				Code: "AB",
 			},
-			"Abuja Federal Capital Territory": {
+			"ABUJA FEDERAL CAPITAL TERRITORY": {
 				Code: "FC",
 			},
-			"Adamawa": {
+			"ADAMAWA": {
 				Code: "AD",
 			},
-			"Akwa Ibom": {
+			"AKWA IBOM": {
 				Code: "AK",
 			},
-			"Anambra": {
+			"ANAMBRA": {
 				Code: "AN",
 			},
-			"Bauchi": {
+			"BAUCHI": {
 				Code: "BA",
 			},
-			"Bayelsa": {
+			"BAYELSA": {
 				Code: "BY",
 			},
-			"Benue": {
+			"BENUE": {
 				Code: "BE",
 			},
-			"Borno": {
+			"BORNO": {
 				Code: "BO",
 			},
-			"Cross River": {
+			"CROSS RIVER": {
 				Code: "CR",
 			},
-			"Delta": {
+			"DELTA": {
 				Code: "DE",
 			},
-			"Ebonyi": {
+			"EBONYI": {
 				Code: "EB",
 			},
-			"Edo": {
+			"EDO": {
 				Code: "ED",
 			},
-			"Ekiti": {
+			"EKITI": {
 				Code: "EK",
 			},
-			"Enugu": {
+			"ENUGU": {
 				Code: "EN",
 			},
-			"Gombe": {
+			"GOMBE": {
 				Code: "GO",
 			},
-			"Imo": {
+			"IMO": {
 				Code: "IM",
 			},
-			"Jigawa": {
+			"JIGAWA": {
 				Code: "JI",
 			},
-			"Kaduna": {
+			"KADUNA": {
 				Code: "KD",
 			},
-			"Kano": {
+			"KANO": {
 				Code: "KN",
 			},
-			"Katsina": {
+			"KATSINA": {
 				Code: "KT",
 			},
-			"Kebbi": {
+			"KEBBI": {
 				Code: "KE",
 			},
-			"Kogi": {
+			"KOGI": {
 				Code: "KO",
 			},
-			"Kwara": {
+			"KWARA": {
 				Code: "KW",
 			},
-			"Lagos": {
+			"LAGOS": {
 				Code: "LA",
 			},
-			"Nasarawa": {
+			"NASARAWA": {
 				Code: "NA",
 			},
-			"Niger": {
+			"NIGER": {
 				Code: "NI",
 			},
-			"Ogun": {
+			"OGUN": {
 				Code: "OG",
 			},
-			"Ondo": {
+			"ONDO": {
 				Code: "ON",
 			},
-			"Osun": {
+			"OSUN": {
 				Code: "OS",
 			},
-			"Oyo": {
+			"OYO": {
 				Code: "OY",
 			},
-			"Plateau": {
+			"PLATEAU": {
 				Code: "PL",
 			},
-			"Rivers": {
+			"RIVERS": {
 				Code: "RI",
 			},
-			"Sokoto": {
+			"SOKOTO": {
 				Code: "SO",
 			},
-			"Taraba": {
+			"TARABA": {
 				Code: "TA",
 			},
-			"Yobe": {
+			"YOBE": {
 				Code: "YO",
 			},
-			"Zamfara": {
+			"ZAMFARA": {
 				Code: "ZA",
 			},
 		},
@@ -33283,55 +33283,55 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Boaco": {
+			"BOACO": {
 				Code: "BO",
 			},
-			"Carazo": {
+			"CARAZO": {
 				Code: "CA",
 			},
-			"Chinandega": {
+			"CHINANDEGA": {
 				Code: "CI",
 			},
-			"Chontales": {
+			"CHONTALES": {
 				Code: "CO",
 			},
-			"Costa Caribe Norte": {
+			"COSTA CARIBE NORTE": {
 				Code: "AN",
 			},
-			"Costa Caribe Sur": {
+			"COSTA CARIBE SUR": {
 				Code: "AS",
 			},
-			"Estelí": {
+			"ESTELÍ": {
 				Code: "ES",
 			},
-			"Granada": {
+			"GRANADA": {
 				Code: "GR",
 			},
-			"Jinotega": {
+			"JINOTEGA": {
 				Code: "JI",
 			},
-			"León": {
+			"LEÓN": {
 				Code: "LE",
 			},
-			"Madriz": {
+			"MADRIZ": {
 				Code: "MD",
 			},
-			"Managua": {
+			"MANAGUA": {
 				Code: "MN",
 			},
-			"Masaya": {
+			"MASAYA": {
 				Code: "MS",
 			},
-			"Matagalpa": {
+			"MATAGALPA": {
 				Code: "MT",
 			},
-			"Nueva Segovia": {
+			"NUEVA SEGOVIA": {
 				Code: "NS",
 			},
-			"Rivas": {
+			"RIVAS": {
 				Code: "RI",
 			},
-			"Río San Juan": {
+			"RÍO SAN JUAN": {
 				Code: "SJ",
 			},
 		},
@@ -33459,58 +33459,58 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aruba": {
+			"ARUBA": {
 				Code: "AW",
 			},
-			"Bonaire": {
+			"BONAIRE": {
 				Code: "BQ1",
 			},
-			"Curaçao": {
+			"CURAÇAO": {
 				Code: "CW",
 			},
-			"Drenthe": {
+			"DRENTHE": {
 				Code: "DR",
 			},
-			"Flevoland": {
+			"FLEVOLAND": {
 				Code: "FL",
 			},
-			"Fryslân": {
+			"FRYSLÂN": {
 				Code: "FR",
 			},
-			"Gelderland": {
+			"GELDERLAND": {
 				Code: "GE",
 			},
-			"Groningen": {
+			"GRONINGEN": {
 				Code: "GR",
 			},
-			"Limburg": {
+			"LIMBURG": {
 				Code: "LI",
 			},
-			"Noord-Brabant": {
+			"NOORD-BRABANT": {
 				Code: "NB",
 			},
-			"Noord-Holland": {
+			"NOORD-HOLLAND": {
 				Code: "NH",
 			},
-			"Overijssel": {
+			"OVERIJSSEL": {
 				Code: "OV",
 			},
-			"Saba": {
+			"SABA": {
 				Code: "BQ2",
 			},
-			"Sint Eustatius": {
+			"SINT EUSTATIUS": {
 				Code: "BQ3",
 			},
-			"Sint Maarten": {
+			"SINT MAARTEN": {
 				Code: "SX",
 			},
-			"Utrecht": {
+			"UTRECHT": {
 				Code: "UT",
 			},
-			"Zeeland": {
+			"ZEELAND": {
 				Code: "ZE",
 			},
-			"Zuid-Holland": {
+			"ZUID-HOLLAND": {
 				Code: "ZH",
 			},
 		},
@@ -33650,64 +33650,64 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Akershus": {
+			"AKERSHUS": {
 				Code: "02",
 			},
-			"Aust-Agder": {
+			"AUST-AGDER": {
 				Code: "09",
 			},
-			"Buskerud": {
+			"BUSKERUD": {
 				Code: "06",
 			},
-			"Finnmark": {
+			"FINNMARK": {
 				Code: "20",
 			},
-			"Hedmark": {
+			"HEDMARK": {
 				Code: "04",
 			},
-			"Hordaland": {
+			"HORDALAND": {
 				Code: "12",
 			},
-			"Jan Mayen (Arctic Region)": {
+			"JAN MAYEN (ARCTIC REGION)": {
 				Code: "22",
 			},
-			"Møre og Romsdal": {
+			"MØRE OG ROMSDAL": {
 				Code: "15",
 			},
-			"Nordland": {
+			"NORDLAND": {
 				Code: "18",
 			},
-			"Oppland": {
+			"OPPLAND": {
 				Code: "05",
 			},
-			"Oslo": {
+			"OSLO": {
 				Code: "03",
 			},
-			"Rogaland": {
+			"ROGALAND": {
 				Code: "11",
 			},
-			"Sogn og Fjordane": {
+			"SOGN OG FJORDANE": {
 				Code: "14",
 			},
-			"Svalbard (Arctic Region)": {
+			"SVALBARD (ARCTIC REGION)": {
 				Code: "21",
 			},
-			"Telemark": {
+			"TELEMARK": {
 				Code: "08",
 			},
-			"Troms": {
+			"TROMS": {
 				Code: "19",
 			},
-			"Trøndelag": {
+			"TRØNDELAG": {
 				Code: "50",
 			},
-			"Vest-Agder": {
+			"VEST-AGDER": {
 				Code: "10",
 			},
-			"Vestfold": {
+			"VESTFOLD": {
 				Code: "07",
 			},
-			"Østfold": {
+			"ØSTFOLD": {
 				Code: "01",
 			},
 		},
@@ -33903,100 +33903,100 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Central": {
+			"CENTRAL": {
 				Code: "1",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bagmati": {
+					"BAGMATI": {
 						Code: "BA",
 					},
-					"Janakpur": {
+					"JANAKPUR": {
 						Code: "JA",
 					},
-					"Narayani": {
+					"NARAYANI": {
 						Code: "NA",
 					},
 				},
 			},
-			"Eastern": {
+			"EASTERN": {
 				Code: "4",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Kosi": {
+					"KOSI": {
 						Code: "KO",
 					},
-					"Mechi": {
+					"MECHI": {
 						Code: "ME",
 					},
-					"Sagarmatha": {
+					"SAGARMATHA": {
 						Code: "SA",
 					},
 				},
 			},
-			"Far Western": {
+			"FAR WESTERN": {
 				Code: "5",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Mahakali": {
+					"MAHAKALI": {
 						Code: "MA",
 					},
-					"Seti": {
+					"SETI": {
 						Code: "SE",
 					},
 				},
 			},
-			"Gandaki": {
+			"GANDAKI": {
 				Code: "P4",
 			},
-			"Karnali": {
+			"KARNALI": {
 				Code: "P6",
 			},
-			"Mid Western": {
+			"MID WESTERN": {
 				Code: "2",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bheri": {
+					"BHERI": {
 						Code: "BH",
 					},
-					"Karnali": {
+					"KARNALI": {
 						Code: "KA",
 					},
-					"Rapti": {
+					"RAPTI": {
 						Code: "RA",
 					},
 				},
 			},
-			"Province 1": {
+			"PROVINCE 1": {
 				Code: "P1",
 			},
-			"Province 2": {
+			"PROVINCE 2": {
 				Code: "P2",
 			},
-			"Province 3": {
+			"PROVINCE 3": {
 				Code: "P3",
 			},
-			"Province 5": {
+			"PROVINCE 5": {
 				Code: "P5",
 			},
-			"Province 7": {
+			"PROVINCE 7": {
 				Code: "P7",
 			},
-			"Western": {
+			"WESTERN": {
 				Code: "3",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Dhawalagiri": {
+					"DHAWALAGIRI": {
 						Code: "DH",
 					},
-					"Gandaki": {
+					"GANDAKI": {
 						Code: "GA",
 					},
-					"Lumbini": {
+					"LUMBINI": {
 						Code: "LU",
 					},
 				},
@@ -34102,46 +34102,46 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aiwo": {
+			"AIWO": {
 				Code: "01",
 			},
-			"Anabar": {
+			"ANABAR": {
 				Code: "02",
 			},
-			"Anetan": {
+			"ANETAN": {
 				Code: "03",
 			},
-			"Anibare": {
+			"ANIBARE": {
 				Code: "04",
 			},
-			"Baitsi": {
+			"BAITSI": {
 				Code: "05",
 			},
-			"Boe": {
+			"BOE": {
 				Code: "06",
 			},
-			"Buada": {
+			"BUADA": {
 				Code: "07",
 			},
-			"Denigomodu": {
+			"DENIGOMODU": {
 				Code: "08",
 			},
-			"Ewa": {
+			"EWA": {
 				Code: "09",
 			},
-			"Ijuw": {
+			"IJUW": {
 				Code: "10",
 			},
-			"Meneng": {
+			"MENENG": {
 				Code: "11",
 			},
-			"Nibok": {
+			"NIBOK": {
 				Code: "12",
 			},
-			"Uaboe": {
+			"UABOE": {
 				Code: "13",
 			},
-			"Yaren": {
+			"YAREN": {
 				Code: "14",
 			},
 		},
@@ -34272,55 +34272,55 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Auckland": {
+			"AUCKLAND": {
 				Code: "AUK",
 			},
-			"Bay of Plenty": {
+			"BAY OF PLENTY": {
 				Code: "BOP",
 			},
-			"Canterbury": {
+			"CANTERBURY": {
 				Code: "CAN",
 			},
-			"Chatham Islands Territory": {
+			"CHATHAM ISLANDS TERRITORY": {
 				Code: "CIT",
 			},
-			"Gisborne": {
+			"GISBORNE": {
 				Code: "GIS",
 			},
-			"Hawke's Bay": {
+			"HAWKE'S BAY": {
 				Code: "HKB",
 			},
-			"Manawatu-Wanganui": {
+			"MANAWATU-WANGANUI": {
 				Code: "MWT",
 			},
-			"Marlborough": {
+			"MARLBOROUGH": {
 				Code: "MBH",
 			},
-			"Nelson": {
+			"NELSON": {
 				Code: "NSN",
 			},
-			"Northland": {
+			"NORTHLAND": {
 				Code: "NTL",
 			},
-			"Otago": {
+			"OTAGO": {
 				Code: "OTA",
 			},
-			"Southland": {
+			"SOUTHLAND": {
 				Code: "STL",
 			},
-			"Taranaki": {
+			"TARANAKI": {
 				Code: "TKI",
 			},
-			"Tasman": {
+			"TASMAN": {
 				Code: "TAS",
 			},
-			"Waikato": {
+			"WAIKATO": {
 				Code: "WKO",
 			},
-			"Wellington": {
+			"WELLINGTON": {
 				Code: "WGN",
 			},
-			"West Coast": {
+			"WEST COAST": {
 				Code: "WTC",
 			},
 		},
@@ -34406,37 +34406,37 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ad Dākhilīyah": {
+			"AD DĀKHILĪYAH": {
 				Code: "DA",
 			},
-			"Al Buraymī": {
+			"AL BURAYMĪ": {
 				Code: "BU",
 			},
-			"Al Wusţá": {
+			"AL WUSŢÁ": {
 				Code: "WU",
 			},
-			"Az̧ Z̧āhirah": {
+			"AZ̧ Z̧ĀHIRAH": {
 				Code: "ZA",
 			},
-			"Janūb al Bāţinah": {
+			"JANŪB AL BĀŢINAH": {
 				Code: "BJ",
 			},
-			"Janūb ash Sharqīyah": {
+			"JANŪB ASH SHARQĪYAH": {
 				Code: "SJ",
 			},
-			"Masqaţ": {
+			"MASQAŢ": {
 				Code: "MA",
 			},
-			"Musandam": {
+			"MUSANDAM": {
 				Code: "MU",
 			},
-			"Shamāl al Bāţinah": {
+			"SHAMĀL AL BĀŢINAH": {
 				Code: "BS",
 			},
-			"Shamāl ash Sharqīyah": {
+			"SHAMĀL ASH SHARQĪYAH": {
 				Code: "SS",
 			},
-			"Z̧ufār": {
+			"Z̧UFĀR": {
 				Code: "ZU",
 			},
 		},
@@ -34534,43 +34534,43 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bocas del Toro": {
+			"BOCAS DEL TORO": {
 				Code: "1",
 			},
-			"Chiriquí": {
+			"CHIRIQUÍ": {
 				Code: "4",
 			},
-			"Coclé": {
+			"COCLÉ": {
 				Code: "2",
 			},
-			"Colón": {
+			"COLÓN": {
 				Code: "3",
 			},
-			"Darién": {
+			"DARIÉN": {
 				Code: "5",
 			},
-			"Emberá": {
+			"EMBERÁ": {
 				Code: "EM",
 			},
-			"Guna Yala": {
+			"GUNA YALA": {
 				Code: "KY",
 			},
-			"Herrera": {
+			"HERRERA": {
 				Code: "6",
 			},
-			"Los Santos": {
+			"LOS SANTOS": {
 				Code: "7",
 			},
-			"Ngöbe-Buglé": {
+			"NGÖBE-BUGLÉ": {
 				Code: "NB",
 			},
-			"Panamá": {
+			"PANAMÁ": {
 				Code: "8",
 			},
-			"Panamá Oeste": {
+			"PANAMÁ OESTE": {
 				Code: "10",
 			},
-			"Veraguas": {
+			"VERAGUAS": {
 				Code: "9",
 			},
 		},
@@ -34746,82 +34746,82 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Amazonas": {
+			"AMAZONAS": {
 				Code: "AMA",
 			},
-			"Ancash": {
+			"ANCASH": {
 				Code: "ANC",
 			},
-			"Apurímac": {
+			"APURÍMAC": {
 				Code: "APU",
 			},
-			"Arequipa": {
+			"AREQUIPA": {
 				Code: "ARE",
 			},
-			"Ayacucho": {
+			"AYACUCHO": {
 				Code: "AYA",
 			},
-			"Cajamarca": {
+			"CAJAMARCA": {
 				Code: "CAJ",
 			},
-			"Cusco": {
+			"CUSCO": {
 				Code: "CUS",
 			},
-			"El Callao": {
+			"EL CALLAO": {
 				Code: "CAL",
 			},
-			"Huancavelica": {
+			"HUANCAVELICA": {
 				Code: "HUV",
 			},
-			"Huánuco": {
+			"HUÁNUCO": {
 				Code: "HUC",
 			},
-			"Ica": {
+			"ICA": {
 				Code: "ICA",
 			},
-			"Junín": {
+			"JUNÍN": {
 				Code: "JUN",
 			},
-			"La Libertad": {
+			"LA LIBERTAD": {
 				Code: "LAL",
 			},
-			"Lambayeque": {
+			"LAMBAYEQUE": {
 				Code: "LAM",
 			},
-			"Lima": {
+			"LIMA": {
 				Code: "LIM",
 			},
-			"Loreto": {
+			"LORETO": {
 				Code: "LOR",
 			},
-			"Madre de Dios": {
+			"MADRE DE DIOS": {
 				Code: "MDD",
 			},
-			"Moquegua": {
+			"MOQUEGUA": {
 				Code: "MOQ",
 			},
-			"Municipalidad Metropolitana de Lima": {
+			"MUNICIPALIDAD METROPOLITANA DE LIMA": {
 				Code: "LMA",
 			},
-			"Pasco": {
+			"PASCO": {
 				Code: "PAS",
 			},
-			"Piura": {
+			"PIURA": {
 				Code: "PIU",
 			},
-			"Puno": {
+			"PUNO": {
 				Code: "PUN",
 			},
-			"San Martín": {
+			"SAN MARTÍN": {
 				Code: "SAM",
 			},
-			"Tacna": {
+			"TACNA": {
 				Code: "TAC",
 			},
-			"Tumbes": {
+			"TUMBES": {
 				Code: "TUM",
 			},
-			"Ucayali": {
+			"UCAYALI": {
 				Code: "UCA",
 			},
 		},
@@ -34982,70 +34982,70 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bougainville": {
+			"BOUGAINVILLE": {
 				Code: "NSB",
 			},
-			"Central": {
+			"CENTRAL": {
 				Code: "CPM",
 			},
-			"Chimbu": {
+			"CHIMBU": {
 				Code: "CPK",
 			},
-			"East New Britain": {
+			"EAST NEW BRITAIN": {
 				Code: "EBR",
 			},
-			"East Sepik": {
+			"EAST SEPIK": {
 				Code: "ESW",
 			},
-			"Eastern Highlands": {
+			"EASTERN HIGHLANDS": {
 				Code: "EHG",
 			},
-			"Enga": {
+			"ENGA": {
 				Code: "EPW",
 			},
-			"Gulf": {
+			"GULF": {
 				Code: "GPK",
 			},
-			"Hela": {
+			"HELA": {
 				Code: "HLA",
 			},
-			"Jiwaka": {
+			"JIWAKA": {
 				Code: "JWK",
 			},
-			"Madang": {
+			"MADANG": {
 				Code: "MPM",
 			},
-			"Manus": {
+			"MANUS": {
 				Code: "MRL",
 			},
-			"Milne Bay": {
+			"MILNE BAY": {
 				Code: "MBA",
 			},
-			"Morobe": {
+			"MOROBE": {
 				Code: "MPL",
 			},
-			"National Capital District (Port Moresby)": {
+			"NATIONAL CAPITAL DISTRICT (PORT MORESBY)": {
 				Code: "NCD",
 			},
-			"New Ireland": {
+			"NEW IRELAND": {
 				Code: "NIK",
 			},
-			"Northern": {
+			"NORTHERN": {
 				Code: "NPP",
 			},
-			"Southern Highlands": {
+			"SOUTHERN HIGHLANDS": {
 				Code: "SHM",
 			},
-			"West New Britain": {
+			"WEST NEW BRITAIN": {
 				Code: "WBK",
 			},
-			"West Sepik": {
+			"WEST SEPIK": {
 				Code: "SAN",
 			},
-			"Western": {
+			"WESTERN": {
 				Code: "WPD",
 			},
-			"Western Highlands": {
+			"WESTERN HIGHLANDS": {
 				Code: "WHM",
 			},
 		},
@@ -35717,361 +35717,361 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Autonomous Region in Muslim Mindanao (ARMM)": {
+			"AUTONOMOUS REGION IN MUSLIM MINDANAO (ARMM)": {
 				Code: "14",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Lanao del Sur": {
+					"LANAO DEL SUR": {
 						Code: "LAS",
 					},
-					"Maguindanao": {
+					"MAGUINDANAO": {
 						Code: "MAG",
 					},
-					"Sulu": {
+					"SULU": {
 						Code: "SLU",
 					},
-					"Tawi-Tawi": {
+					"TAWI-TAWI": {
 						Code: "TAW",
 					},
 				},
 			},
-			"Bicol (Region V)": {
+			"BICOL (REGION V)": {
 				Code: "05",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Albay": {
+					"ALBAY": {
 						Code: "ALB",
 					},
-					"Camarines Norte": {
+					"CAMARINES NORTE": {
 						Code: "CAN",
 					},
-					"Camarines Sur": {
+					"CAMARINES SUR": {
 						Code: "CAS",
 					},
-					"Catanduanes": {
+					"CATANDUANES": {
 						Code: "CAT",
 					},
-					"Masbate": {
+					"MASBATE": {
 						Code: "MAS",
 					},
-					"Sorsogon": {
+					"SORSOGON": {
 						Code: "SOR",
 					},
 				},
 			},
-			"Cagayan Valley (Region II)": {
+			"CAGAYAN VALLEY (REGION II)": {
 				Code: "02",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Batanes": {
+					"BATANES": {
 						Code: "BTN",
 					},
-					"Cagayan": {
+					"CAGAYAN": {
 						Code: "CAG",
 					},
-					"Isabela": {
+					"ISABELA": {
 						Code: "ISA",
 					},
-					"Nueva Vizcaya": {
+					"NUEVA VIZCAYA": {
 						Code: "NUV",
 					},
-					"Quirino": {
+					"QUIRINO": {
 						Code: "QUI",
 					},
 				},
 			},
-			"Calabarzon (Region IV-A)": {
+			"CALABARZON (REGION IV-A)": {
 				Code: "40",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Batangas": {
+					"BATANGAS": {
 						Code: "BTG",
 					},
-					"Cavite": {
+					"CAVITE": {
 						Code: "CAV",
 					},
-					"Laguna": {
+					"LAGUNA": {
 						Code: "LAG",
 					},
-					"Quezon": {
+					"QUEZON": {
 						Code: "QUE",
 					},
-					"Rizal": {
+					"RIZAL": {
 						Code: "RIZ",
 					},
 				},
 			},
-			"Caraga (Region XIII)": {
+			"CARAGA (REGION XIII)": {
 				Code: "13",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Agusan del Norte": {
+					"AGUSAN DEL NORTE": {
 						Code: "AGN",
 					},
-					"Agusan del Sur": {
+					"AGUSAN DEL SUR": {
 						Code: "AGS",
 					},
-					"Dinagat Islands": {
+					"DINAGAT ISLANDS": {
 						Code: "DIN",
 					},
-					"Surigao del Norte": {
+					"SURIGAO DEL NORTE": {
 						Code: "SUN",
 					},
-					"Surigao del Sur": {
+					"SURIGAO DEL SUR": {
 						Code: "SUR",
 					},
 				},
 			},
-			"Central Luzon (Region III)": {
+			"CENTRAL LUZON (REGION III)": {
 				Code: "03",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Aurora": {
+					"AURORA": {
 						Code: "AUR",
 					},
-					"Bataan": {
+					"BATAAN": {
 						Code: "BAN",
 					},
-					"Bulacan": {
+					"BULACAN": {
 						Code: "BUL",
 					},
-					"Nueva Ecija": {
+					"NUEVA ECIJA": {
 						Code: "NUE",
 					},
-					"Pampanga": {
+					"PAMPANGA": {
 						Code: "PAM",
 					},
-					"Tarlac": {
+					"TARLAC": {
 						Code: "TAR",
 					},
-					"Zambales": {
+					"ZAMBALES": {
 						Code: "ZMB",
 					},
 				},
 			},
-			"Central Visayas (Region VII)": {
+			"CENTRAL VISAYAS (REGION VII)": {
 				Code: "07",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bohol": {
+					"BOHOL": {
 						Code: "BOH",
 					},
-					"Cebu": {
+					"CEBU": {
 						Code: "CEB",
 					},
-					"Negros Oriental": {
+					"NEGROS ORIENTAL": {
 						Code: "NER",
 					},
-					"Siquijor": {
+					"SIQUIJOR": {
 						Code: "SIG",
 					},
 				},
 			},
-			"Cordillera Administrative Region (CAR)": {
+			"CORDILLERA ADMINISTRATIVE REGION (CAR)": {
 				Code: "15",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Abra": {
+					"ABRA": {
 						Code: "ABR",
 					},
-					"Apayao": {
+					"APAYAO": {
 						Code: "APA",
 					},
-					"Benguet": {
+					"BENGUET": {
 						Code: "BEN",
 					},
-					"Ifugao": {
+					"IFUGAO": {
 						Code: "IFU",
 					},
-					"Kalinga": {
+					"KALINGA": {
 						Code: "KAL",
 					},
-					"Mountain Province": {
+					"MOUNTAIN PROVINCE": {
 						Code: "MOU",
 					},
 				},
 			},
-			"Davao (Region XI)": {
+			"DAVAO (REGION XI)": {
 				Code: "11",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Compostela Valley": {
+					"COMPOSTELA VALLEY": {
 						Code: "COM",
 					},
-					"Davao Occidental": {
-						Code: "DVO",
-					},
-					"Davao Oriental": {
-						Code: "DAO",
-					},
-					"Davao del Norte": {
+					"DAVAO DEL NORTE": {
 						Code: "DAV",
 					},
-					"Davao del Sur": {
+					"DAVAO DEL SUR": {
 						Code: "DAS",
 					},
-					"Sarangani": {
+					"DAVAO OCCIDENTAL": {
+						Code: "DVO",
+					},
+					"DAVAO ORIENTAL": {
+						Code: "DAO",
+					},
+					"SARANGANI": {
 						Code: "SAR",
 					},
-					"South Cotabato": {
+					"SOUTH COTABATO": {
 						Code: "SCO",
 					},
 				},
 			},
-			"Eastern Visayas (Region VIII)": {
+			"EASTERN VISAYAS (REGION VIII)": {
 				Code: "08",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Biliran": {
+					"BILIRAN": {
 						Code: "BIL",
 					},
-					"Eastern Samar": {
+					"EASTERN SAMAR": {
 						Code: "EAS",
 					},
-					"Leyte": {
+					"LEYTE": {
 						Code: "LEY",
 					},
-					"Northern Samar": {
+					"NORTHERN SAMAR": {
 						Code: "NSA",
 					},
-					"Samar": {
+					"SAMAR": {
 						Code: "WSA",
 					},
-					"Southern Leyte": {
+					"SOUTHERN LEYTE": {
 						Code: "SLE",
 					},
 				},
 			},
-			"Ilocos (Region I)": {
+			"ILOCOS (REGION I)": {
 				Code: "01",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Ilocos Norte": {
+					"ILOCOS NORTE": {
 						Code: "ILN",
 					},
-					"Ilocos Sur": {
+					"ILOCOS SUR": {
 						Code: "ILS",
 					},
-					"La Union": {
+					"LA UNION": {
 						Code: "LUN",
 					},
-					"Pangasinan": {
+					"PANGASINAN": {
 						Code: "PAN",
 					},
 				},
 			},
-			"Mimaropa (Region IV-B)": {
+			"MIMAROPA (REGION IV-B)": {
 				Code: "41",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Marinduque": {
+					"MARINDUQUE": {
 						Code: "MAD",
 					},
-					"Mindoro Occidental": {
+					"MINDORO OCCIDENTAL": {
 						Code: "MDC",
 					},
-					"Mindoro Oriental": {
+					"MINDORO ORIENTAL": {
 						Code: "MDR",
 					},
-					"Palawan": {
+					"PALAWAN": {
 						Code: "PLW",
 					},
-					"Romblon": {
+					"ROMBLON": {
 						Code: "ROM",
 					},
 				},
 			},
-			"National Capital Region": {
+			"NATIONAL CAPITAL REGION": {
 				Code: "00",
 			},
-			"Northern Mindanao (Region X)": {
+			"NORTHERN MINDANAO (REGION X)": {
 				Code: "10",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Bukidnon": {
+					"BUKIDNON": {
 						Code: "BUK",
 					},
-					"Camiguin": {
+					"CAMIGUIN": {
 						Code: "CAM",
 					},
-					"Misamis Occidental": {
+					"MISAMIS OCCIDENTAL": {
 						Code: "MSC",
 					},
-					"Misamis Oriental": {
+					"MISAMIS ORIENTAL": {
 						Code: "MSR",
 					},
 				},
 			},
-			"Soccsksargen (Region XII)": {
+			"SOCCSKSARGEN (REGION XII)": {
 				Code: "12",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Cotabato": {
+					"COTABATO": {
 						Code: "NCO",
 					},
-					"Lanao del Norte": {
+					"LANAO DEL NORTE": {
 						Code: "LAN",
 					},
-					"Sultan Kudarat": {
+					"SULTAN KUDARAT": {
 						Code: "SUK",
 					},
 				},
 			},
-			"Western Visayas (Region VI)": {
+			"WESTERN VISAYAS (REGION VI)": {
 				Code: "06",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Aklan": {
+					"AKLAN": {
 						Code: "AKL",
 					},
-					"Antique": {
+					"ANTIQUE": {
 						Code: "ANT",
 					},
-					"Capiz": {
+					"CAPIZ": {
 						Code: "CAP",
 					},
-					"Guimaras": {
+					"GUIMARAS": {
 						Code: "GUI",
 					},
-					"Iloilo": {
+					"ILOILO": {
 						Code: "ILI",
 					},
-					"Negros Occidental": {
+					"NEGROS OCCIDENTAL": {
 						Code: "NEC",
 					},
 				},
 			},
-			"Zamboanga Peninsula (Region IX)": {
+			"ZAMBOANGA PENINSULA (REGION IX)": {
 				Code: "09",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Basilan": {
+					"BASILAN": {
 						Code: "BAS",
 					},
-					"Zamboanga Sibugay": {
-						Code: "ZSI",
-					},
-					"Zamboanga del Norte": {
+					"ZAMBOANGA DEL NORTE": {
 						Code: "ZAN",
 					},
-					"Zamboanga del Sur": {
+					"ZAMBOANGA DEL SUR": {
 						Code: "ZAS",
+					},
+					"ZAMBOANGA SIBUGAY": {
+						Code: "ZSI",
 					},
 				},
 			},
@@ -36134,25 +36134,25 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Azad Jammu and Kashmir": {
+			"AZAD JAMMU AND KASHMIR": {
 				Code: "JK",
 			},
-			"Balochistan": {
+			"BALOCHISTAN": {
 				Code: "BA",
 			},
-			"Gilgit-Baltistan": {
+			"GILGIT-BALTISTAN": {
 				Code: "GB",
 			},
-			"Islamabad": {
+			"ISLAMABAD": {
 				Code: "IS",
 			},
-			"Khyber Pakhtunkhwa": {
+			"KHYBER PAKHTUNKHWA": {
 				Code: "KP",
 			},
-			"Punjab": {
+			"PUNJAB": {
 				Code: "PB",
 			},
-			"Sindh": {
+			"SINDH": {
 				Code: "SD",
 			},
 		},
@@ -36268,52 +36268,52 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Dolnośląskie": {
+			"DOLNOŚLĄSKIE": {
 				Code: "02",
 			},
-			"Kujawsko-pomorskie": {
+			"KUJAWSKO-POMORSKIE": {
 				Code: "04",
 			},
-			"Lubelskie": {
+			"LUBELSKIE": {
 				Code: "06",
 			},
-			"Lubuskie": {
+			"LUBUSKIE": {
 				Code: "08",
 			},
-			"Mazowieckie": {
+			"MAZOWIECKIE": {
 				Code: "14",
 			},
-			"Małopolskie": {
+			"MAŁOPOLSKIE": {
 				Code: "12",
 			},
-			"Opolskie": {
+			"OPOLSKIE": {
 				Code: "16",
 			},
-			"Podkarpackie": {
+			"PODKARPACKIE": {
 				Code: "18",
 			},
-			"Podlaskie": {
+			"PODLASKIE": {
 				Code: "20",
 			},
-			"Pomorskie": {
+			"POMORSKIE": {
 				Code: "22",
 			},
-			"Warmińsko-mazurskie": {
+			"WARMIŃSKO-MAZURSKIE": {
 				Code: "28",
 			},
-			"Wielkopolskie": {
+			"WIELKOPOLSKIE": {
 				Code: "30",
 			},
-			"Zachodniopomorskie": {
+			"ZACHODNIOPOMORSKIE": {
 				Code: "32",
 			},
-			"Łódzkie": {
+			"ŁÓDZKIE": {
 				Code: "10",
 			},
-			"Śląskie": {
+			"ŚLĄSKIE": {
 				Code: "24",
 			},
-			"Świętokrzyskie": {
+			"ŚWIĘTOKRZYSKIE": {
 				Code: "26",
 			},
 		},
@@ -36456,52 +36456,52 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bethlehem": {
+			"BETHLEHEM": {
 				Code: "BTH",
 			},
-			"Deir El Balah": {
+			"DEIR EL BALAH": {
 				Code: "DEB",
 			},
-			"Gaza": {
+			"GAZA": {
 				Code: "GZA",
 			},
-			"Hebron": {
+			"HEBRON": {
 				Code: "HBN",
 			},
-			"Jenin": {
+			"JENIN": {
 				Code: "JEN",
 			},
-			"Jericho and Al Aghwar": {
+			"JERICHO AND AL AGHWAR": {
 				Code: "JRH",
 			},
-			"Jerusalem": {
+			"JERUSALEM": {
 				Code: "JEM",
 			},
-			"Khan Yunis": {
+			"KHAN YUNIS": {
 				Code: "KYS",
 			},
-			"Nablus": {
+			"NABLUS": {
 				Code: "NBS",
 			},
-			"North Gaza": {
+			"NORTH GAZA": {
 				Code: "NGZ",
 			},
-			"Qalqilya": {
+			"QALQILYA": {
 				Code: "QQA",
 			},
-			"Rafah": {
+			"RAFAH": {
 				Code: "RFH",
 			},
-			"Ramallah": {
+			"RAMALLAH": {
 				Code: "RBH",
 			},
-			"Salfit": {
+			"SALFIT": {
 				Code: "SLT",
 			},
-			"Tubas": {
+			"TUBAS": {
 				Code: "TBS",
 			},
-			"Tulkarm": {
+			"TULKARM": {
 				Code: "TKM",
 			},
 		},
@@ -36641,64 +36641,64 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aveiro": {
+			"AVEIRO": {
 				Code: "01",
 			},
-			"Beja": {
+			"BEJA": {
 				Code: "02",
 			},
-			"Braga": {
+			"BRAGA": {
 				Code: "03",
 			},
-			"Bragança": {
+			"BRAGANÇA": {
 				Code: "04",
 			},
-			"Castelo Branco": {
+			"CASTELO BRANCO": {
 				Code: "05",
 			},
-			"Coimbra": {
+			"COIMBRA": {
 				Code: "06",
 			},
-			"Faro": {
+			"FARO": {
 				Code: "08",
 			},
-			"Guarda": {
+			"GUARDA": {
 				Code: "09",
 			},
-			"Leiria": {
+			"LEIRIA": {
 				Code: "10",
 			},
-			"Lisboa": {
+			"LISBOA": {
 				Code: "11",
 			},
-			"Portalegre": {
+			"PORTALEGRE": {
 				Code: "12",
 			},
-			"Porto": {
+			"PORTO": {
 				Code: "13",
 			},
-			"Região Autónoma da Madeira": {
+			"REGIÃO AUTÓNOMA DA MADEIRA": {
 				Code: "30",
 			},
-			"Região Autónoma dos Açores": {
+			"REGIÃO AUTÓNOMA DOS AÇORES": {
 				Code: "20",
 			},
-			"Santarém": {
+			"SANTARÉM": {
 				Code: "14",
 			},
-			"Setúbal": {
+			"SETÚBAL": {
 				Code: "15",
 			},
-			"Viana do Castelo": {
+			"VIANA DO CASTELO": {
 				Code: "16",
 			},
-			"Vila Real": {
+			"VILA REAL": {
 				Code: "17",
 			},
-			"Viseu": {
+			"VISEU": {
 				Code: "18",
 			},
-			"Évora": {
+			"ÉVORA": {
 				Code: "07",
 			},
 		},
@@ -36814,52 +36814,52 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aimeliik": {
+			"AIMELIIK": {
 				Code: "002",
 			},
-			"Airai": {
+			"AIRAI": {
 				Code: "004",
 			},
-			"Angaur": {
+			"ANGAUR": {
 				Code: "010",
 			},
-			"Hatohobei": {
+			"HATOHOBEI": {
 				Code: "050",
 			},
-			"Kayangel": {
+			"KAYANGEL": {
 				Code: "100",
 			},
-			"Koror": {
+			"KOROR": {
 				Code: "150",
 			},
-			"Melekeok": {
+			"MELEKEOK": {
 				Code: "212",
 			},
-			"Ngaraard": {
+			"NGARAARD": {
 				Code: "214",
 			},
-			"Ngarchelong": {
+			"NGARCHELONG": {
 				Code: "218",
 			},
-			"Ngardmau": {
+			"NGARDMAU": {
 				Code: "222",
 			},
-			"Ngatpang": {
+			"NGATPANG": {
 				Code: "224",
 			},
-			"Ngchesar": {
+			"NGCHESAR": {
 				Code: "226",
 			},
-			"Ngeremlengui": {
+			"NGEREMLENGUI": {
 				Code: "227",
 			},
-			"Ngiwal": {
+			"NGIWAL": {
 				Code: "228",
 			},
-			"Peleliu": {
+			"PELELIU": {
 				Code: "350",
 			},
-			"Sonsorol": {
+			"SONSOROL": {
 				Code: "370",
 			},
 		},
@@ -36987,58 +36987,58 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Alto Paraguay": {
+			"ALTO PARAGUAY": {
 				Code: "16",
 			},
-			"Alto Paraná": {
+			"ALTO PARANÁ": {
 				Code: "10",
 			},
-			"Amambay": {
+			"AMAMBAY": {
 				Code: "13",
 			},
-			"Asunción": {
+			"ASUNCIÓN": {
 				Code: "ASU",
 			},
-			"Boquerón": {
+			"BOQUERÓN": {
 				Code: "19",
 			},
-			"Caaguazú": {
+			"CAAGUAZÚ": {
 				Code: "5",
 			},
-			"Caazapá": {
+			"CAAZAPÁ": {
 				Code: "6",
 			},
-			"Canindeyú": {
+			"CANINDEYÚ": {
 				Code: "14",
 			},
-			"Central": {
+			"CENTRAL": {
 				Code: "11",
 			},
-			"Concepción": {
+			"CONCEPCIÓN": {
 				Code: "1",
 			},
-			"Cordillera": {
+			"CORDILLERA": {
 				Code: "3",
 			},
-			"Guairá": {
+			"GUAIRÁ": {
 				Code: "4",
 			},
-			"Itapúa": {
+			"ITAPÚA": {
 				Code: "7",
 			},
-			"Misiones": {
+			"MISIONES": {
 				Code: "8",
 			},
-			"Paraguarí": {
+			"PARAGUARÍ": {
 				Code: "9",
 			},
-			"Presidente Hayes": {
+			"PRESIDENTE HAYES": {
 				Code: "15",
 			},
-			"San Pedro": {
+			"SAN PEDRO": {
 				Code: "2",
 			},
-			"Ñeembucú": {
+			"ÑEEMBUCÚ": {
 				Code: "12",
 			},
 		},
@@ -37106,28 +37106,28 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ad Dawḩah": {
+			"AD DAWḨAH": {
 				Code: "DA",
 			},
-			"Al Khawr wa adh Dhakhīrah": {
+			"AL KHAWR WA ADH DHAKHĪRAH": {
 				Code: "KH",
 			},
-			"Al Wakrah": {
+			"AL WAKRAH": {
 				Code: "WA",
 			},
-			"Ar Rayyān": {
+			"AR RAYYĀN": {
 				Code: "RA",
 			},
-			"Ash Shamāl": {
+			"ASH SHAMĀL": {
 				Code: "MS",
 			},
-			"Ash Shīḩānīyah": {
+			"ASH SHĪḨĀNĪYAH": {
 				Code: "SH",
 			},
-			"Az̧ Z̧a‘āyin": {
+			"AZ̧ Z̧A‘ĀYIN": {
 				Code: "ZA",
 			},
-			"Umm Şalāl": {
+			"UMM ŞALĀL": {
 				Code: "US",
 			},
 		},
@@ -37408,130 +37408,130 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Alba": {
+			"ALBA": {
 				Code: "AB",
 			},
-			"Arad": {
+			"ARAD": {
 				Code: "AR",
 			},
-			"Argeș": {
+			"ARGEȘ": {
 				Code: "AG",
 			},
-			"Bacău": {
+			"BACĂU": {
 				Code: "BC",
 			},
-			"Bihor": {
+			"BIHOR": {
 				Code: "BH",
 			},
-			"Bistrița-Năsăud": {
+			"BISTRIȚA-NĂSĂUD": {
 				Code: "BN",
 			},
-			"Botoșani": {
+			"BOTOȘANI": {
 				Code: "BT",
 			},
-			"Brașov": {
+			"BRAȘOV": {
 				Code: "BV",
 			},
-			"Brăila": {
+			"BRĂILA": {
 				Code: "BR",
 			},
-			"București": {
+			"BUCUREȘTI": {
 				Code: "B",
 			},
-			"Buzău": {
+			"BUZĂU": {
 				Code: "BZ",
 			},
-			"Caraș-Severin": {
+			"CARAȘ-SEVERIN": {
 				Code: "CS",
 			},
-			"Cluj": {
+			"CLUJ": {
 				Code: "CJ",
 			},
-			"Constanța": {
+			"CONSTANȚA": {
 				Code: "CT",
 			},
-			"Covasna": {
+			"COVASNA": {
 				Code: "CV",
 			},
-			"Călărași": {
+			"CĂLĂRAȘI": {
 				Code: "CL",
 			},
-			"Dolj": {
+			"DOLJ": {
 				Code: "DJ",
 			},
-			"Dâmbovița": {
+			"DÂMBOVIȚA": {
 				Code: "DB",
 			},
-			"Galați": {
+			"GALAȚI": {
 				Code: "GL",
 			},
-			"Giurgiu": {
+			"GIURGIU": {
 				Code: "GR",
 			},
-			"Gorj": {
+			"GORJ": {
 				Code: "GJ",
 			},
-			"Harghita": {
+			"HARGHITA": {
 				Code: "HR",
 			},
-			"Hunedoara": {
+			"HUNEDOARA": {
 				Code: "HD",
 			},
-			"Ialomița": {
+			"IALOMIȚA": {
 				Code: "IL",
 			},
-			"Iași": {
+			"IAȘI": {
 				Code: "IS",
 			},
-			"Ilfov": {
+			"ILFOV": {
 				Code: "IF",
 			},
-			"Maramureș": {
+			"MARAMUREȘ": {
 				Code: "MM",
 			},
-			"Mehedinți": {
+			"MEHEDINȚI": {
 				Code: "MH",
 			},
-			"Mureș": {
+			"MUREȘ": {
 				Code: "MS",
 			},
-			"Neamț": {
+			"NEAMȚ": {
 				Code: "NT",
 			},
-			"Olt": {
+			"OLT": {
 				Code: "OT",
 			},
-			"Prahova": {
+			"PRAHOVA": {
 				Code: "PH",
 			},
-			"Satu Mare": {
+			"SATU MARE": {
 				Code: "SM",
 			},
-			"Sibiu": {
+			"SIBIU": {
 				Code: "SB",
 			},
-			"Suceava": {
+			"SUCEAVA": {
 				Code: "SV",
 			},
-			"Sălaj": {
+			"SĂLAJ": {
 				Code: "SJ",
 			},
-			"Teleorman": {
+			"TELEORMAN": {
 				Code: "TR",
 			},
-			"Timiș": {
+			"TIMIȘ": {
 				Code: "TM",
 			},
-			"Tulcea": {
+			"TULCEA": {
 				Code: "TL",
 			},
-			"Vaslui": {
+			"VASLUI": {
 				Code: "VS",
 			},
-			"Vrancea": {
+			"VRANCEA": {
 				Code: "VN",
 			},
-			"Vâlcea": {
+			"VÂLCEA": {
 				Code: "VL",
 			},
 		},
@@ -37751,108 +37751,108 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Beograd": {
+			"BEOGRAD": {
 				Code: "00",
 			},
-			"Borski okrug": {
+			"BORSKI OKRUG": {
 				Code: "14",
 			},
-			"Braničevski okrug": {
+			"BRANIČEVSKI OKRUG": {
 				Code: "11",
 			},
-			"Jablanički okrug": {
+			"JABLANIČKI OKRUG": {
 				Code: "23",
 			},
-			"Kolubarski okrug": {
+			"KOLUBARSKI OKRUG": {
 				Code: "09",
 			},
-			"Kosovo-Metohija": {
+			"KOSOVO-METOHIJA": {
 				Code: "KM",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Kosovski okrug": {
+					"KOSOVSKI OKRUG": {
 						Code: "25",
 					},
-					"Kosovsko-Mitrovački okrug": {
+					"KOSOVSKO-MITROVAČKI OKRUG": {
 						Code: "28",
 					},
-					"Kosovsko-Pomoravski okrug": {
+					"KOSOVSKO-POMORAVSKI OKRUG": {
 						Code: "29",
 					},
-					"Pećki okrug": {
+					"PEĆKI OKRUG": {
 						Code: "26",
 					},
-					"Prizrenski okrug": {
+					"PRIZRENSKI OKRUG": {
 						Code: "27",
 					},
 				},
 			},
-			"Mačvanski okrug": {
+			"MAČVANSKI OKRUG": {
 				Code: "08",
 			},
-			"Moravički okrug": {
+			"MORAVIČKI OKRUG": {
 				Code: "17",
 			},
-			"Nišavski okrug": {
+			"NIŠAVSKI OKRUG": {
 				Code: "20",
 			},
-			"Pirotski okrug": {
+			"PIROTSKI OKRUG": {
 				Code: "22",
 			},
-			"Podunavski okrug": {
+			"PODUNAVSKI OKRUG": {
 				Code: "10",
 			},
-			"Pomoravski okrug": {
+			"POMORAVSKI OKRUG": {
 				Code: "13",
 			},
-			"Pčinjski okrug": {
+			"PČINJSKI OKRUG": {
 				Code: "24",
 			},
-			"Rasinski okrug": {
+			"RASINSKI OKRUG": {
 				Code: "19",
 			},
-			"Raški okrug": {
+			"RAŠKI OKRUG": {
 				Code: "18",
 			},
-			"Toplički okrug": {
+			"TOPLIČKI OKRUG": {
 				Code: "21",
 			},
-			"Vojvodina": {
+			"VOJVODINA": {
 				Code: "VO",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Južnobanatski okrug": {
+					"JUŽNOBANATSKI OKRUG": {
 						Code: "04",
 					},
-					"Južnobački okrug": {
+					"JUŽNOBAČKI OKRUG": {
 						Code: "06",
 					},
-					"Severnobanatski okrug": {
+					"SEVERNOBANATSKI OKRUG": {
 						Code: "03",
 					},
-					"Severnobački okrug": {
+					"SEVERNOBAČKI OKRUG": {
 						Code: "01",
 					},
-					"Srednjebanatski okrug": {
+					"SREDNJEBANATSKI OKRUG": {
 						Code: "02",
 					},
-					"Sremski okrug": {
+					"SREMSKI OKRUG": {
 						Code: "07",
 					},
-					"Zapadnobački okrug": {
+					"ZAPADNOBAČKI OKRUG": {
 						Code: "05",
 					},
 				},
 			},
-			"Zaječarski okrug": {
+			"ZAJEČARSKI OKRUG": {
 				Code: "15",
 			},
-			"Zlatiborski okrug": {
+			"ZLATIBORSKI OKRUG": {
 				Code: "16",
 			},
-			"Šumadijski okrug": {
+			"ŠUMADIJSKI OKRUG": {
 				Code: "12",
 			},
 		},
@@ -38370,253 +38370,253 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Adygeja, Respublika": {
+			"ADYGEJA, RESPUBLIKA": {
 				Code: "AD",
 			},
-			"Altaj, Respublika": {
+			"ALTAJ, RESPUBLIKA": {
 				Code: "AL",
 			},
-			"Altajskij kraj": {
+			"ALTAJSKIJ KRAJ": {
 				Code: "ALT",
 			},
-			"Amurskaja oblast'": {
+			"AMURSKAJA OBLAST'": {
 				Code: "AMU",
 			},
-			"Arhangel'skaja oblast'": {
+			"ARHANGEL'SKAJA OBLAST'": {
 				Code: "ARK",
 			},
-			"Astrahanskaja oblast'": {
+			"ASTRAHANSKAJA OBLAST'": {
 				Code: "AST",
 			},
-			"Baškortostan, Respublika": {
+			"BAŠKORTOSTAN, RESPUBLIKA": {
 				Code: "BA",
 			},
-			"Belgorodskaja oblast'": {
+			"BELGORODSKAJA OBLAST'": {
 				Code: "BEL",
 			},
-			"Brjanskaja oblast'": {
+			"BRJANSKAJA OBLAST'": {
 				Code: "BRY",
 			},
-			"Burjatija, Respublika": {
+			"BURJATIJA, RESPUBLIKA": {
 				Code: "BU",
 			},
-			"Dagestan, Respublika": {
+			"DAGESTAN, RESPUBLIKA": {
 				Code: "DA",
 			},
-			"Evrejskaja avtonomnaja oblast'": {
+			"EVREJSKAJA AVTONOMNAJA OBLAST'": {
 				Code: "YEV",
 			},
-			"Habarovskij kraj": {
+			"HABAROVSKIJ KRAJ": {
 				Code: "KHA",
 			},
-			"Hakasija, Respublika": {
+			"HAKASIJA, RESPUBLIKA": {
 				Code: "KK",
 			},
-			"Hanty-Mansijskij avtonomnyj okrug": {
+			"HANTY-MANSIJSKIJ AVTONOMNYJ OKRUG": {
 				Code: "KHM",
 			},
-			"Ingušetija, Respublika": {
+			"INGUŠETIJA, RESPUBLIKA": {
 				Code: "IN",
 			},
-			"Irkutskaja oblast'": {
+			"IRKUTSKAJA OBLAST'": {
 				Code: "IRK",
 			},
-			"Ivanovskaja oblast'": {
+			"IVANOVSKAJA OBLAST'": {
 				Code: "IVA",
 			},
-			"Jamalo-Neneckij avtonomnyj okrug": {
+			"JAMALO-NENECKIJ AVTONOMNYJ OKRUG": {
 				Code: "YAN",
 			},
-			"Jaroslavskaja oblast'": {
+			"JAROSLAVSKAJA OBLAST'": {
 				Code: "YAR",
 			},
-			"Kabardino-Balkarskaja Respublika": {
+			"KABARDINO-BALKARSKAJA RESPUBLIKA": {
 				Code: "KB",
 			},
-			"Kaliningradskaja oblast'": {
+			"KALININGRADSKAJA OBLAST'": {
 				Code: "KGD",
 			},
-			"Kalmykija, Respublika": {
+			"KALMYKIJA, RESPUBLIKA": {
 				Code: "KL",
 			},
-			"Kalužskaja oblast'": {
+			"KALUŽSKAJA OBLAST'": {
 				Code: "KLU",
 			},
-			"Kamčatskij kraj": {
+			"KAMČATSKIJ KRAJ": {
 				Code: "KAM",
 			},
-			"Karačaevo-Čerkesskaja Respublika": {
+			"KARAČAEVO-ČERKESSKAJA RESPUBLIKA": {
 				Code: "KC",
 			},
-			"Karelija, Respublika": {
+			"KARELIJA, RESPUBLIKA": {
 				Code: "KR",
 			},
-			"Kemerovskaja oblast'": {
+			"KEMEROVSKAJA OBLAST'": {
 				Code: "KEM",
 			},
-			"Kirovskaja oblast'": {
+			"KIROVSKAJA OBLAST'": {
 				Code: "KIR",
 			},
-			"Komi, Respublika": {
+			"KOMI, RESPUBLIKA": {
 				Code: "KO",
 			},
-			"Kostromskaja oblast'": {
+			"KOSTROMSKAJA OBLAST'": {
 				Code: "KOS",
 			},
-			"Krasnodarskij kraj": {
+			"KRASNODARSKIJ KRAJ": {
 				Code: "KDA",
 			},
-			"Krasnojarskij kraj": {
+			"KRASNOJARSKIJ KRAJ": {
 				Code: "KYA",
 			},
-			"Kurganskaja oblast'": {
+			"KURGANSKAJA OBLAST'": {
 				Code: "KGN",
 			},
-			"Kurskaja oblast'": {
+			"KURSKAJA OBLAST'": {
 				Code: "KRS",
 			},
-			"Leningradskaja oblast'": {
+			"LENINGRADSKAJA OBLAST'": {
 				Code: "LEN",
 			},
-			"Lipeckaja oblast'": {
+			"LIPECKAJA OBLAST'": {
 				Code: "LIP",
 			},
-			"Magadanskaja oblast'": {
+			"MAGADANSKAJA OBLAST'": {
 				Code: "MAG",
 			},
-			"Marij Èl, Respublika": {
+			"MARIJ ÈL, RESPUBLIKA": {
 				Code: "ME",
 			},
-			"Mordovija, Respublika": {
+			"MORDOVIJA, RESPUBLIKA": {
 				Code: "MO",
 			},
-			"Moskovskaja oblast'": {
+			"MOSKOVSKAJA OBLAST'": {
 				Code: "MOS",
 			},
-			"Moskva": {
+			"MOSKVA": {
 				Code: "MOW",
 			},
-			"Murmanskaja oblast'": {
+			"MURMANSKAJA OBLAST'": {
 				Code: "MUR",
 			},
-			"Neneckij avtonomnyj okrug": {
+			"NENECKIJ AVTONOMNYJ OKRUG": {
 				Code: "NEN",
 			},
-			"Nizhegorodskaya oblast'": {
+			"NIZHEGORODSKAYA OBLAST'": {
 				Code: "NIZ",
 			},
-			"Novgorodskaja oblast'": {
+			"NOVGORODSKAJA OBLAST'": {
 				Code: "NGR",
 			},
-			"Novosibirskaja oblast'": {
+			"NOVOSIBIRSKAJA OBLAST'": {
 				Code: "NVS",
 			},
-			"Omskaja oblast'": {
+			"OMSKAJA OBLAST'": {
 				Code: "OMS",
 			},
-			"Orenburgskaja oblast'": {
+			"ORENBURGSKAJA OBLAST'": {
 				Code: "ORE",
 			},
-			"Orlovskaja oblast'": {
+			"ORLOVSKAJA OBLAST'": {
 				Code: "ORL",
 			},
-			"Penzenskaja oblast'": {
+			"PENZENSKAJA OBLAST'": {
 				Code: "PNZ",
 			},
-			"Permskij kraj": {
+			"PERMSKIJ KRAJ": {
 				Code: "PER",
 			},
-			"Primorskij kraj": {
+			"PRIMORSKIJ KRAJ": {
 				Code: "PRI",
 			},
-			"Pskovskaja oblast'": {
+			"PSKOVSKAJA OBLAST'": {
 				Code: "PSK",
 			},
-			"Rjazanskaja oblast'": {
+			"RJAZANSKAJA OBLAST'": {
 				Code: "RYA",
 			},
-			"Rostovskaja oblast'": {
+			"ROSTOVSKAJA OBLAST'": {
 				Code: "ROS",
 			},
-			"Sahalinskaja oblast'": {
+			"SAHALINSKAJA OBLAST'": {
 				Code: "SAK",
 			},
-			"Sakha, Respublika": {
+			"SAKHA, RESPUBLIKA": {
 				Code: "SA",
 			},
-			"Samarskaja oblast'": {
+			"SAMARSKAJA OBLAST'": {
 				Code: "SAM",
 			},
-			"Sankt-Peterburg": {
+			"SANKT-PETERBURG": {
 				Code: "SPE",
 			},
-			"Saratovskaja oblast'": {
+			"SARATOVSKAJA OBLAST'": {
 				Code: "SAR",
 			},
-			"Severnaja Osetija, Respublika": {
+			"SEVERNAJA OSETIJA, RESPUBLIKA": {
 				Code: "SE",
 			},
-			"Smolenskaja oblast'": {
+			"SMOLENSKAJA OBLAST'": {
 				Code: "SMO",
 			},
-			"Stavropol'skij kraj": {
+			"STAVROPOL'SKIJ KRAJ": {
 				Code: "STA",
 			},
-			"Sverdlovskaja oblast'": {
+			"SVERDLOVSKAJA OBLAST'": {
 				Code: "SVE",
 			},
-			"Tambovskaja oblast'": {
+			"TAMBOVSKAJA OBLAST'": {
 				Code: "TAM",
 			},
-			"Tatarstan, Respublika": {
+			"TATARSTAN, RESPUBLIKA": {
 				Code: "TA",
 			},
-			"Tjumenskaja oblast'": {
+			"TJUMENSKAJA OBLAST'": {
 				Code: "TYU",
 			},
-			"Tomskaja oblast'": {
+			"TOMSKAJA OBLAST'": {
 				Code: "TOM",
 			},
-			"Tul'skaja oblast'": {
+			"TUL'SKAJA OBLAST'": {
 				Code: "TUL",
 			},
-			"Tverskaja oblast'": {
+			"TVERSKAJA OBLAST'": {
 				Code: "TVE",
 			},
-			"Tyva, Respublika": {
+			"TYVA, RESPUBLIKA": {
 				Code: "TY",
 			},
-			"Udmurtskaja Respublika": {
+			"UDMURTSKAJA RESPUBLIKA": {
 				Code: "UD",
 			},
-			"Ul'janovskaja oblast'": {
+			"UL'JANOVSKAJA OBLAST'": {
 				Code: "ULY",
 			},
-			"Vladimirskaja oblast'": {
+			"VLADIMIRSKAJA OBLAST'": {
 				Code: "VLA",
 			},
-			"Volgogradskaja oblast'": {
+			"VOLGOGRADSKAJA OBLAST'": {
 				Code: "VGG",
 			},
-			"Vologodskaja oblast'": {
+			"VOLOGODSKAJA OBLAST'": {
 				Code: "VLG",
 			},
-			"Voronežskaja oblast'": {
+			"VORONEŽSKAJA OBLAST'": {
 				Code: "VOR",
 			},
-			"Zabajkal'skij kraj": {
+			"ZABAJKAL'SKIJ KRAJ": {
 				Code: "ZAB",
 			},
-			"Čeljabinskaja oblast'": {
+			"ČELJABINSKAJA OBLAST'": {
 				Code: "CHE",
 			},
-			"Čečenskaja Respublika": {
+			"ČEČENSKAJA RESPUBLIKA": {
 				Code: "CE",
 			},
-			"Čukotskij avtonomnyj okrug": {
+			"ČUKOTSKIJ AVTONOMNYJ OKRUG": {
 				Code: "CHU",
 			},
-			"Čuvašskaja Respublika": {
+			"ČUVAŠSKAJA RESPUBLIKA": {
 				Code: "CU",
 			},
 		},
@@ -38666,19 +38666,19 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"City of Kigali": {
+			"CITY OF KIGALI": {
 				Code: "01",
 			},
-			"Eastern": {
+			"EASTERN": {
 				Code: "02",
 			},
-			"Northern": {
+			"NORTHERN": {
 				Code: "03",
 			},
-			"Southern": {
+			"SOUTHERN": {
 				Code: "05",
 			},
-			"Western": {
+			"WESTERN": {
 				Code: "04",
 			},
 		},
@@ -38776,43 +38776,43 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Al Bāḩah": {
+			"AL BĀḨAH": {
 				Code: "11",
 			},
-			"Al Jawf": {
+			"AL JAWF": {
 				Code: "12",
 			},
-			"Al Madīnah al Munawwarah": {
+			"AL MADĪNAH AL MUNAWWARAH": {
 				Code: "03",
 			},
-			"Al Qaşīm": {
+			"AL QAŞĪM": {
 				Code: "05",
 			},
-			"Al Ḩudūd ash Shamālīyah": {
+			"AL ḨUDŪD ASH SHAMĀLĪYAH": {
 				Code: "08",
 			},
-			"Ar Riyāḑ": {
+			"AR RIYĀḐ": {
 				Code: "01",
 			},
-			"Ash Sharqīyah": {
+			"ASH SHARQĪYAH": {
 				Code: "04",
 			},
-			"Asīr": {
+			"ASĪR": {
 				Code: "14",
 			},
-			"Jāzān": {
+			"JĀZĀN": {
 				Code: "09",
 			},
-			"Makkah al Mukarramah": {
+			"MAKKAH AL MUKARRAMAH": {
 				Code: "02",
 			},
-			"Najrān": {
+			"NAJRĀN": {
 				Code: "10",
 			},
-			"Tabūk": {
+			"TABŪK": {
 				Code: "07",
 			},
-			"Ḩā'il": {
+			"ḨĀ'IL": {
 				Code: "06",
 			},
 		},
@@ -38892,34 +38892,34 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Capital Territory (Honiara)": {
+			"CAPITAL TERRITORY (HONIARA)": {
 				Code: "CT",
 			},
-			"Central": {
+			"CENTRAL": {
 				Code: "CE",
 			},
-			"Choiseul": {
+			"CHOISEUL": {
 				Code: "CH",
 			},
-			"Guadalcanal": {
+			"GUADALCANAL": {
 				Code: "GU",
 			},
-			"Isabel": {
+			"ISABEL": {
 				Code: "IS",
 			},
-			"Makira-Ulawa": {
+			"MAKIRA-ULAWA": {
 				Code: "MK",
 			},
-			"Malaita": {
+			"MALAITA": {
 				Code: "ML",
 			},
-			"Rennell and Bellona": {
+			"RENNELL AND BELLONA": {
 				Code: "RB",
 			},
-			"Temotu": {
+			"TEMOTU": {
 				Code: "TE",
 			},
-			"Western": {
+			"WESTERN": {
 				Code: "WE",
 			},
 		},
@@ -39089,79 +39089,79 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Anse Boileau": {
-				Code: "02",
-			},
-			"Anse Etoile": {
-				Code: "03",
-			},
-			"Anse Royale": {
-				Code: "05",
-			},
-			"Anse aux Pins": {
+			"ANSE AUX PINS": {
 				Code: "01",
 			},
-			"Au Cap": {
+			"ANSE BOILEAU": {
+				Code: "02",
+			},
+			"ANSE ETOILE": {
+				Code: "03",
+			},
+			"ANSE ROYALE": {
+				Code: "05",
+			},
+			"AU CAP": {
 				Code: "04",
 			},
-			"Baie Lazare": {
+			"BAIE LAZARE": {
 				Code: "06",
 			},
-			"Baie Sainte Anne": {
+			"BAIE SAINTE ANNE": {
 				Code: "07",
 			},
-			"Beau Vallon": {
+			"BEAU VALLON": {
 				Code: "08",
 			},
-			"Bel Air": {
+			"BEL AIR": {
 				Code: "09",
 			},
-			"Bel Ombre": {
+			"BEL OMBRE": {
 				Code: "10",
 			},
-			"Cascade": {
+			"CASCADE": {
 				Code: "11",
 			},
-			"English River": {
+			"ENGLISH RIVER": {
 				Code: "16",
 			},
-			"Glacis": {
+			"GLACIS": {
 				Code: "12",
 			},
-			"Grand Anse Mahe": {
+			"GRAND ANSE MAHE": {
 				Code: "13",
 			},
-			"Grand Anse Praslin": {
+			"GRAND ANSE PRASLIN": {
 				Code: "14",
 			},
-			"La Digue": {
+			"LA DIGUE": {
 				Code: "15",
 			},
-			"Les Mamelles": {
+			"LES MAMELLES": {
 				Code: "24",
 			},
-			"Mont Buxton": {
+			"MONT BUXTON": {
 				Code: "17",
 			},
-			"Mont Fleuri": {
+			"MONT FLEURI": {
 				Code: "18",
 			},
-			"Plaisance": {
+			"PLAISANCE": {
 				Code: "19",
 			},
-			"Pointe Larue": {
+			"POINTE LARUE": {
 				Code: "20",
 			},
-			"Port Glaud": {
+			"PORT GLAUD": {
 				Code: "21",
 			},
-			"Roche Caiman": {
+			"ROCHE CAIMAN": {
 				Code: "25",
 			},
-			"Saint Louis": {
+			"SAINT LOUIS": {
 				Code: "22",
 			},
-			"Takamaka": {
+			"TAKAMAKA": {
 				Code: "23",
 			},
 		},
@@ -39289,58 +39289,58 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Blue Nile": {
+			"BLUE NILE": {
 				Code: "NB",
 			},
-			"Central Darfur": {
+			"CENTRAL DARFUR": {
 				Code: "DC",
 			},
-			"East Darfur": {
+			"EAST DARFUR": {
 				Code: "DE",
 			},
-			"Gedaref": {
+			"GEDAREF": {
 				Code: "GD",
 			},
-			"Gezira": {
+			"GEZIRA": {
 				Code: "GZ",
 			},
-			"Kassala": {
+			"KASSALA": {
 				Code: "KA",
 			},
-			"Khartoum": {
+			"KHARTOUM": {
 				Code: "KH",
 			},
-			"North Darfur": {
+			"NORTH DARFUR": {
 				Code: "DN",
 			},
-			"North Kordofan": {
+			"NORTH KORDOFAN": {
 				Code: "KN",
 			},
-			"Northern": {
+			"NORTHERN": {
 				Code: "NO",
 			},
-			"Red Sea": {
+			"RED SEA": {
 				Code: "RS",
 			},
-			"River Nile": {
+			"RIVER NILE": {
 				Code: "NR",
 			},
-			"Sennar": {
+			"SENNAR": {
 				Code: "SI",
 			},
-			"South Darfur": {
+			"SOUTH DARFUR": {
 				Code: "DS",
 			},
-			"South Kordofan": {
+			"SOUTH KORDOFAN": {
 				Code: "KS",
 			},
-			"West Darfur": {
+			"WEST DARFUR": {
 				Code: "DW",
 			},
-			"West Kordofan": {
+			"WEST KORDOFAN": {
 				Code: "GK",
 			},
-			"White Nile": {
+			"WHITE NILE": {
 				Code: "NW",
 			},
 		},
@@ -39486,67 +39486,67 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Blekinge län [SE-10]": {
+			"BLEKINGE LÄN [SE-10]": {
 				Code: "K",
 			},
-			"Dalarnas län [SE-20]": {
+			"DALARNAS LÄN [SE-20]": {
 				Code: "W",
 			},
-			"Gotlands län [SE-09]": {
+			"GOTLANDS LÄN [SE-09]": {
 				Code: "I",
 			},
-			"Gävleborgs län [SE-21]": {
+			"GÄVLEBORGS LÄN [SE-21]": {
 				Code: "X",
 			},
-			"Hallands län [SE-13]": {
+			"HALLANDS LÄN [SE-13]": {
 				Code: "N",
 			},
-			"Jämtlands län [SE-23]": {
+			"JÄMTLANDS LÄN [SE-23]": {
 				Code: "Z",
 			},
-			"Jönköpings län [SE-06]": {
+			"JÖNKÖPINGS LÄN [SE-06]": {
 				Code: "F",
 			},
-			"Kalmar län [SE-08]": {
+			"KALMAR LÄN [SE-08]": {
 				Code: "H",
 			},
-			"Kronobergs län [SE-07]": {
+			"KRONOBERGS LÄN [SE-07]": {
 				Code: "G",
 			},
-			"Norrbottens län [SE-25]": {
+			"NORRBOTTENS LÄN [SE-25]": {
 				Code: "BD",
 			},
-			"Skåne län [SE-12]": {
+			"SKÅNE LÄN [SE-12]": {
 				Code: "M",
 			},
-			"Stockholms län [SE-01]": {
+			"STOCKHOLMS LÄN [SE-01]": {
 				Code: "AB",
 			},
-			"Södermanlands län [SE-04]": {
+			"SÖDERMANLANDS LÄN [SE-04]": {
 				Code: "D",
 			},
-			"Uppsala län [SE-03]": {
+			"UPPSALA LÄN [SE-03]": {
 				Code: "C",
 			},
-			"Värmlands län [SE-17]": {
+			"VÄRMLANDS LÄN [SE-17]": {
 				Code: "S",
 			},
-			"Västerbottens län [SE-24]": {
+			"VÄSTERBOTTENS LÄN [SE-24]": {
 				Code: "AC",
 			},
-			"Västernorrlands län [SE-22]": {
+			"VÄSTERNORRLANDS LÄN [SE-22]": {
 				Code: "Y",
 			},
-			"Västmanlands län [SE-19]": {
+			"VÄSTMANLANDS LÄN [SE-19]": {
 				Code: "U",
 			},
-			"Västra Götalands län [SE-14]": {
+			"VÄSTRA GÖTALANDS LÄN [SE-14]": {
 				Code: "O",
 			},
-			"Örebro län [SE-18]": {
+			"ÖREBRO LÄN [SE-18]": {
 				Code: "T",
 			},
-			"Östergötlands län [SE-05]": {
+			"ÖSTERGÖTLANDS LÄN [SE-05]": {
 				Code: "E",
 			},
 		},
@@ -39596,19 +39596,19 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Central Singapore": {
+			"CENTRAL SINGAPORE": {
 				Code: "01",
 			},
-			"North East": {
+			"NORTH EAST": {
 				Code: "02",
 			},
-			"North West": {
+			"NORTH WEST": {
 				Code: "03",
 			},
-			"South East": {
+			"SOUTH EAST": {
 				Code: "04",
 			},
-			"South West": {
+			"SOUTH WEST": {
 				Code: "05",
 			},
 		},
@@ -39646,13 +39646,13 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ascension": {
+			"ASCENSION": {
 				Code: "AC",
 			},
-			"Saint Helena": {
+			"SAINT HELENA": {
 				Code: "HL",
 			},
-			"Tristan da Cunha": {
+			"TRISTAN DA CUNHA": {
 				Code: "TA",
 			},
 		},
@@ -40944,640 +40944,640 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ajdovščina": {
+			"AJDOVŠČINA": {
 				Code: "001",
 			},
-			"Ankaran": {
+			"ANKARAN": {
 				Code: "213",
 			},
-			"Apače": {
+			"APAČE": {
 				Code: "195",
 			},
-			"Beltinci": {
+			"BELTINCI": {
 				Code: "002",
 			},
-			"Benedikt": {
+			"BENEDIKT": {
 				Code: "148",
 			},
-			"Bistrica ob Sotli": {
+			"BISTRICA OB SOTLI": {
 				Code: "149",
 			},
-			"Bled": {
+			"BLED": {
 				Code: "003",
 			},
-			"Bloke": {
+			"BLOKE": {
 				Code: "150",
 			},
-			"Bohinj": {
+			"BOHINJ": {
 				Code: "004",
 			},
-			"Borovnica": {
+			"BOROVNICA": {
 				Code: "005",
 			},
-			"Bovec": {
+			"BOVEC": {
 				Code: "006",
 			},
-			"Braslovče": {
+			"BRASLOVČE": {
 				Code: "151",
 			},
-			"Brda": {
+			"BRDA": {
 				Code: "007",
 			},
-			"Brezovica": {
+			"BREZOVICA": {
 				Code: "008",
 			},
-			"Brežice": {
+			"BREŽICE": {
 				Code: "009",
 			},
-			"Cankova": {
+			"CANKOVA": {
 				Code: "152",
 			},
-			"Celje": {
+			"CELJE": {
 				Code: "011",
 			},
-			"Cerklje na Gorenjskem": {
+			"CERKLJE NA GORENJSKEM": {
 				Code: "012",
 			},
-			"Cerknica": {
+			"CERKNICA": {
 				Code: "013",
 			},
-			"Cerkno": {
+			"CERKNO": {
 				Code: "014",
 			},
-			"Cerkvenjak": {
+			"CERKVENJAK": {
 				Code: "153",
 			},
-			"Cirkulane": {
+			"CIRKULANE": {
 				Code: "196",
 			},
-			"Destrnik": {
+			"DESTRNIK": {
 				Code: "018",
 			},
-			"Divača": {
+			"DIVAČA": {
 				Code: "019",
 			},
-			"Dobje": {
+			"DOBJE": {
 				Code: "154",
 			},
-			"Dobrepolje": {
+			"DOBREPOLJE": {
 				Code: "020",
 			},
-			"Dobrna": {
+			"DOBRNA": {
 				Code: "155",
 			},
-			"Dobrova-Polhov Gradec": {
+			"DOBROVA-POLHOV GRADEC": {
 				Code: "021",
 			},
-			"Dobrovnik": {
+			"DOBROVNIK": {
 				Code: "156",
 			},
-			"Dol pri Ljubljani": {
+			"DOL PRI LJUBLJANI": {
 				Code: "022",
 			},
-			"Dolenjske Toplice": {
+			"DOLENJSKE TOPLICE": {
 				Code: "157",
 			},
-			"Domžale": {
+			"DOMŽALE": {
 				Code: "023",
 			},
-			"Dornava": {
+			"DORNAVA": {
 				Code: "024",
 			},
-			"Dravograd": {
+			"DRAVOGRAD": {
 				Code: "025",
 			},
-			"Duplek": {
+			"DUPLEK": {
 				Code: "026",
 			},
-			"Gorenja vas-Poljane": {
+			"GORENJA VAS-POLJANE": {
 				Code: "027",
 			},
-			"Gorišnica": {
+			"GORIŠNICA": {
 				Code: "028",
 			},
-			"Gorje": {
+			"GORJE": {
 				Code: "207",
 			},
-			"Gornja Radgona": {
+			"GORNJA RADGONA": {
 				Code: "029",
 			},
-			"Gornji Grad": {
+			"GORNJI GRAD": {
 				Code: "030",
 			},
-			"Gornji Petrovci": {
+			"GORNJI PETROVCI": {
 				Code: "031",
 			},
-			"Grad": {
+			"GRAD": {
 				Code: "158",
 			},
-			"Grosuplje": {
+			"GROSUPLJE": {
 				Code: "032",
 			},
-			"Hajdina": {
+			"HAJDINA": {
 				Code: "159",
 			},
-			"Hodoš": {
+			"HODOŠ": {
 				Code: "161",
 			},
-			"Horjul": {
+			"HORJUL": {
 				Code: "162",
 			},
-			"Hoče-Slivnica": {
+			"HOČE-SLIVNICA": {
 				Code: "160",
 			},
-			"Hrastnik": {
+			"HRASTNIK": {
 				Code: "034",
 			},
-			"Hrpelje-Kozina": {
+			"HRPELJE-KOZINA": {
 				Code: "035",
 			},
-			"Idrija": {
+			"IDRIJA": {
 				Code: "036",
 			},
-			"Ig": {
+			"IG": {
 				Code: "037",
 			},
-			"Ilirska Bistrica": {
+			"ILIRSKA BISTRICA": {
 				Code: "038",
 			},
-			"Ivančna Gorica": {
+			"IVANČNA GORICA": {
 				Code: "039",
 			},
-			"Izola": {
+			"IZOLA": {
 				Code: "040",
 			},
-			"Jesenice": {
+			"JESENICE": {
 				Code: "041",
 			},
-			"Jezersko": {
+			"JEZERSKO": {
 				Code: "163",
 			},
-			"Juršinci": {
+			"JURŠINCI": {
 				Code: "042",
 			},
-			"Kamnik": {
+			"KAMNIK": {
 				Code: "043",
 			},
-			"Kanal": {
+			"KANAL": {
 				Code: "044",
 			},
-			"Kidričevo": {
+			"KIDRIČEVO": {
 				Code: "045",
 			},
-			"Kobarid": {
+			"KOBARID": {
 				Code: "046",
 			},
-			"Kobilje": {
+			"KOBILJE": {
 				Code: "047",
 			},
-			"Komen": {
+			"KOMEN": {
 				Code: "049",
 			},
-			"Komenda": {
+			"KOMENDA": {
 				Code: "164",
 			},
-			"Koper": {
+			"KOPER": {
 				Code: "050",
 			},
-			"Kosanjevica na Krki": {
+			"KOSANJEVICA NA KRKI": {
 				Code: "197",
 			},
-			"Kostel": {
+			"KOSTEL": {
 				Code: "165",
 			},
-			"Kozje": {
+			"KOZJE": {
 				Code: "051",
 			},
-			"Kočevje": {
+			"KOČEVJE": {
 				Code: "048",
 			},
-			"Kranj": {
+			"KRANJ": {
 				Code: "052",
 			},
-			"Kranjska Gora": {
+			"KRANJSKA GORA": {
 				Code: "053",
 			},
-			"Križevci": {
+			"KRIŽEVCI": {
 				Code: "166",
 			},
-			"Krško": {
+			"KRŠKO": {
 				Code: "054",
 			},
-			"Kungota": {
+			"KUNGOTA": {
 				Code: "055",
 			},
-			"Kuzma": {
+			"KUZMA": {
 				Code: "056",
 			},
-			"Laško": {
+			"LAŠKO": {
 				Code: "057",
 			},
-			"Lenart": {
+			"LENART": {
 				Code: "058",
 			},
-			"Lendava": {
+			"LENDAVA": {
 				Code: "059",
 			},
-			"Litija": {
+			"LITIJA": {
 				Code: "060",
 			},
-			"Ljubljana": {
+			"LJUBLJANA": {
 				Code: "061",
 			},
-			"Ljubno": {
+			"LJUBNO": {
 				Code: "062",
 			},
-			"Ljutomer": {
+			"LJUTOMER": {
 				Code: "063",
 			},
-			"Log-Dragomer": {
+			"LOG-DRAGOMER": {
 				Code: "208",
 			},
-			"Logatec": {
+			"LOGATEC": {
 				Code: "064",
 			},
-			"Lovrenc na Pohorju": {
+			"LOVRENC NA POHORJU": {
 				Code: "167",
 			},
-			"Loška Dolina": {
+			"LOŠKA DOLINA": {
 				Code: "065",
 			},
-			"Loški Potok": {
+			"LOŠKI POTOK": {
 				Code: "066",
 			},
-			"Lukovica": {
+			"LUKOVICA": {
 				Code: "068",
 			},
-			"Luče": {
+			"LUČE": {
 				Code: "067",
 			},
-			"Majšperk": {
+			"MAJŠPERK": {
 				Code: "069",
 			},
-			"Makole": {
+			"MAKOLE": {
 				Code: "198",
 			},
-			"Maribor": {
+			"MARIBOR": {
 				Code: "070",
 			},
-			"Markovci": {
+			"MARKOVCI": {
 				Code: "168",
 			},
-			"Medvode": {
+			"MEDVODE": {
 				Code: "071",
 			},
-			"Mengeš": {
+			"MENGEŠ": {
 				Code: "072",
 			},
-			"Metlika": {
+			"METLIKA": {
 				Code: "073",
 			},
-			"Mežica": {
+			"MEŽICA": {
 				Code: "074",
 			},
-			"Miklavž na Dravskem Polju": {
+			"MIKLAVŽ NA DRAVSKEM POLJU": {
 				Code: "169",
 			},
-			"Miren-Kostanjevica": {
+			"MIREN-KOSTANJEVICA": {
 				Code: "075",
 			},
-			"Mirna": {
+			"MIRNA": {
 				Code: "212",
 			},
-			"Mirna Peč": {
+			"MIRNA PEČ": {
 				Code: "170",
 			},
-			"Mislinja": {
+			"MISLINJA": {
 				Code: "076",
 			},
-			"Mokronog-Trebelno": {
+			"MOKRONOG-TREBELNO": {
 				Code: "199",
 			},
-			"Moravske Toplice": {
+			"MORAVSKE TOPLICE": {
 				Code: "078",
 			},
-			"Moravče": {
+			"MORAVČE": {
 				Code: "077",
 			},
-			"Mozirje": {
+			"MOZIRJE": {
 				Code: "079",
 			},
-			"Murska Sobota": {
+			"MURSKA SOBOTA": {
 				Code: "080",
 			},
-			"Muta": {
+			"MUTA": {
 				Code: "081",
 			},
-			"Naklo": {
+			"NAKLO": {
 				Code: "082",
 			},
-			"Nazarje": {
+			"NAZARJE": {
 				Code: "083",
 			},
-			"Nova Gorica": {
+			"NOVA GORICA": {
 				Code: "084",
 			},
-			"Novo Mesto": {
+			"NOVO MESTO": {
 				Code: "085",
 			},
-			"Odranci": {
+			"ODRANCI": {
 				Code: "086",
 			},
-			"Oplotnica": {
+			"OPLOTNICA": {
 				Code: "171",
 			},
-			"Ormož": {
+			"ORMOŽ": {
 				Code: "087",
 			},
-			"Osilnica": {
+			"OSILNICA": {
 				Code: "088",
 			},
-			"Pesnica": {
+			"PESNICA": {
 				Code: "089",
 			},
-			"Piran": {
+			"PIRAN": {
 				Code: "090",
 			},
-			"Pivka": {
+			"PIVKA": {
 				Code: "091",
 			},
-			"Podlehnik": {
+			"PODLEHNIK": {
 				Code: "172",
 			},
-			"Podvelka": {
+			"PODVELKA": {
 				Code: "093",
 			},
-			"Podčetrtek": {
+			"PODČETRTEK": {
 				Code: "092",
 			},
-			"Poljčane": {
+			"POLJČANE": {
 				Code: "200",
 			},
-			"Polzela": {
+			"POLZELA": {
 				Code: "173",
 			},
-			"Postojna": {
+			"POSTOJNA": {
 				Code: "094",
 			},
-			"Prebold": {
+			"PREBOLD": {
 				Code: "174",
 			},
-			"Preddvor": {
+			"PREDDVOR": {
 				Code: "095",
 			},
-			"Prevalje": {
+			"PREVALJE": {
 				Code: "175",
 			},
-			"Ptuj": {
+			"PTUJ": {
 				Code: "096",
 			},
-			"Puconci": {
+			"PUCONCI": {
 				Code: "097",
 			},
-			"Radenci": {
+			"RADENCI": {
 				Code: "100",
 			},
-			"Radeče": {
+			"RADEČE": {
 				Code: "099",
 			},
-			"Radlje ob Dravi": {
+			"RADLJE OB DRAVI": {
 				Code: "101",
 			},
-			"Radovljica": {
+			"RADOVLJICA": {
 				Code: "102",
 			},
-			"Ravne na Koroškem": {
+			"RAVNE NA KOROŠKEM": {
 				Code: "103",
 			},
-			"Razkrižje": {
+			"RAZKRIŽJE": {
 				Code: "176",
 			},
-			"Rače-Fram": {
+			"RAČE-FRAM": {
 				Code: "098",
 			},
-			"Renče-Vogrsko": {
+			"RENČE-VOGRSKO": {
 				Code: "201",
 			},
-			"Rečica ob Savinji": {
+			"REČICA OB SAVINJI": {
 				Code: "209",
 			},
-			"Ribnica": {
+			"RIBNICA": {
 				Code: "104",
 			},
-			"Ribnica na Pohorju": {
+			"RIBNICA NA POHORJU": {
 				Code: "177",
 			},
-			"Rogatec": {
+			"ROGATEC": {
 				Code: "107",
 			},
-			"Rogaška Slatina": {
+			"ROGAŠKA SLATINA": {
 				Code: "106",
 			},
-			"Rogašovci": {
+			"ROGAŠOVCI": {
 				Code: "105",
 			},
-			"Ruše": {
+			"RUŠE": {
 				Code: "108",
 			},
-			"Selnica ob Dravi": {
+			"SELNICA OB DRAVI": {
 				Code: "178",
 			},
-			"Semič": {
+			"SEMIČ": {
 				Code: "109",
 			},
-			"Sevnica": {
+			"SEVNICA": {
 				Code: "110",
 			},
-			"Sežana": {
+			"SEŽANA": {
 				Code: "111",
 			},
-			"Slovenj Gradec": {
+			"SLOVENJ GRADEC": {
 				Code: "112",
 			},
-			"Slovenska Bistrica": {
+			"SLOVENSKA BISTRICA": {
 				Code: "113",
 			},
-			"Slovenske Konjice": {
+			"SLOVENSKE KONJICE": {
 				Code: "114",
 			},
-			"Sodražica": {
+			"SODRAŽICA": {
 				Code: "179",
 			},
-			"Solčava": {
+			"SOLČAVA": {
 				Code: "180",
 			},
-			"Središče ob Dravi": {
+			"SREDIŠČE OB DRAVI": {
 				Code: "202",
 			},
-			"Starše": {
+			"STARŠE": {
 				Code: "115",
 			},
-			"Straža": {
+			"STRAŽA": {
 				Code: "203",
 			},
-			"Sveta Ana": {
+			"SVETA ANA": {
 				Code: "181",
 			},
-			"Sveta Trojica v Slovenskih Goricah": {
+			"SVETA TROJICA V SLOVENSKIH GORICAH": {
 				Code: "204",
 			},
-			"Sveti Andraž v Slovenskih Goricah": {
+			"SVETI ANDRAŽ V SLOVENSKIH GORICAH": {
 				Code: "182",
 			},
-			"Sveti Jurij": {
+			"SVETI JURIJ": {
 				Code: "116",
 			},
-			"Sveti Jurij v Slovenskih Goricah": {
+			"SVETI JURIJ V SLOVENSKIH GORICAH": {
 				Code: "210",
 			},
-			"Sveti Tomaž": {
+			"SVETI TOMAŽ": {
 				Code: "205",
 			},
-			"Tabor": {
+			"TABOR": {
 				Code: "184",
 			},
-			"Tišina": {
+			"TIŠINA": {
 				Code: "010",
 			},
-			"Tolmin": {
+			"TOLMIN": {
 				Code: "128",
 			},
-			"Trbovlje": {
+			"TRBOVLJE": {
 				Code: "129",
 			},
-			"Trebnje": {
+			"TREBNJE": {
 				Code: "130",
 			},
-			"Trnovska Vas": {
+			"TRNOVSKA VAS": {
 				Code: "185",
 			},
-			"Trzin": {
+			"TRZIN": {
 				Code: "186",
 			},
-			"Tržič": {
+			"TRŽIČ": {
 				Code: "131",
 			},
-			"Turnišče": {
+			"TURNIŠČE": {
 				Code: "132",
 			},
-			"Velenje": {
+			"VELENJE": {
 				Code: "133",
 			},
-			"Velika Polana": {
+			"VELIKA POLANA": {
 				Code: "187",
 			},
-			"Velike Lašče": {
+			"VELIKE LAŠČE": {
 				Code: "134",
 			},
-			"Veržej": {
+			"VERŽEJ": {
 				Code: "188",
 			},
-			"Videm": {
+			"VIDEM": {
 				Code: "135",
 			},
-			"Vipava": {
+			"VIPAVA": {
 				Code: "136",
 			},
-			"Vitanje": {
+			"VITANJE": {
 				Code: "137",
 			},
-			"Vodice": {
+			"VODICE": {
 				Code: "138",
 			},
-			"Vojnik": {
+			"VOJNIK": {
 				Code: "139",
 			},
-			"Vransko": {
+			"VRANSKO": {
 				Code: "189",
 			},
-			"Vrhnika": {
+			"VRHNIKA": {
 				Code: "140",
 			},
-			"Vuzenica": {
+			"VUZENICA": {
 				Code: "141",
 			},
-			"Zagorje ob Savi": {
+			"ZAGORJE OB SAVI": {
 				Code: "142",
 			},
-			"Zavrč": {
+			"ZAVRČ": {
 				Code: "143",
 			},
-			"Zreče": {
+			"ZREČE": {
 				Code: "144",
 			},
-			"Črenšovci": {
+			"ČRENŠOVCI": {
 				Code: "015",
 			},
-			"Črna na Koroškem": {
+			"ČRNA NA KOROŠKEM": {
 				Code: "016",
 			},
-			"Črnomelj": {
+			"ČRNOMELJ": {
 				Code: "017",
 			},
-			"Šalovci": {
+			"ŠALOVCI": {
 				Code: "033",
 			},
-			"Šempeter-Vrtojba": {
+			"ŠEMPETER-VRTOJBA": {
 				Code: "183",
 			},
-			"Šentilj": {
+			"ŠENTILJ": {
 				Code: "118",
 			},
-			"Šentjernej": {
+			"ŠENTJERNEJ": {
 				Code: "119",
 			},
-			"Šentjur": {
+			"ŠENTJUR": {
 				Code: "120",
 			},
-			"Šentrupert": {
+			"ŠENTRUPERT": {
 				Code: "211",
 			},
-			"Šenčur": {
+			"ŠENČUR": {
 				Code: "117",
 			},
-			"Škocjan": {
+			"ŠKOCJAN": {
 				Code: "121",
 			},
-			"Škofja Loka": {
+			"ŠKOFJA LOKA": {
 				Code: "122",
 			},
-			"Škofljica": {
+			"ŠKOFLJICA": {
 				Code: "123",
 			},
-			"Šmarje pri Jelšah": {
+			"ŠMARJE PRI JELŠAH": {
 				Code: "124",
 			},
-			"Šmarješke Toplice": {
+			"ŠMARJEŠKE TOPLICE": {
 				Code: "206",
 			},
-			"Šmartno ob Paki": {
+			"ŠMARTNO OB PAKI": {
 				Code: "125",
 			},
-			"Šmartno pri Litiji": {
+			"ŠMARTNO PRI LITIJI": {
 				Code: "194",
 			},
-			"Šoštanj": {
+			"ŠOŠTANJ": {
 				Code: "126",
 			},
-			"Štore": {
+			"ŠTORE": {
 				Code: "127",
 			},
-			"Žalec": {
+			"ŽALEC": {
 				Code: "190",
 			},
-			"Železniki": {
+			"ŽELEZNIKI": {
 				Code: "146",
 			},
-			"Žetale": {
+			"ŽETALE": {
 				Code: "191",
 			},
-			"Žiri": {
+			"ŽIRI": {
 				Code: "147",
 			},
-			"Žirovnica": {
+			"ŽIROVNICA": {
 				Code: "192",
 			},
-			"Žužemberk": {
+			"ŽUŽEMBERK": {
 				Code: "193",
 			},
 		},
@@ -41654,28 +41654,28 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Banskobystrický kraj": {
+			"BANSKOBYSTRICKÝ KRAJ": {
 				Code: "BC",
 			},
-			"Bratislavský kraj": {
+			"BRATISLAVSKÝ KRAJ": {
 				Code: "BL",
 			},
-			"Košický kraj": {
+			"KOŠICKÝ KRAJ": {
 				Code: "KI",
 			},
-			"Nitriansky kraj": {
+			"NITRIANSKY KRAJ": {
 				Code: "NI",
 			},
-			"Prešovský kraj": {
+			"PREŠOVSKÝ KRAJ": {
 				Code: "PV",
 			},
-			"Trenčiansky kraj": {
+			"TRENČIANSKY KRAJ": {
 				Code: "TC",
 			},
-			"Trnavský kraj": {
+			"TRNAVSKÝ KRAJ": {
 				Code: "TA",
 			},
-			"Žilinský kraj": {
+			"ŽILINSKÝ KRAJ": {
 				Code: "ZI",
 			},
 		},
@@ -41725,19 +41725,19 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Eastern": {
+			"EASTERN": {
 				Code: "E",
 			},
-			"North Western": {
+			"NORTH WESTERN": {
 				Code: "NW",
 			},
-			"Northern": {
+			"NORTHERN": {
 				Code: "N",
 			},
-			"Southern": {
+			"SOUTHERN": {
 				Code: "S",
 			},
-			"Western Area (Freetown)": {
+			"WESTERN AREA (FREETOWN)": {
 				Code: "W",
 			},
 		},
@@ -41811,31 +41811,31 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Acquaviva": {
+			"ACQUAVIVA": {
 				Code: "01",
 			},
-			"Borgo Maggiore": {
+			"BORGO MAGGIORE": {
 				Code: "06",
 			},
-			"Chiesanuova": {
+			"CHIESANUOVA": {
 				Code: "02",
 			},
-			"Domagnano": {
+			"DOMAGNANO": {
 				Code: "03",
 			},
-			"Faetano": {
+			"FAETANO": {
 				Code: "04",
 			},
-			"Fiorentino": {
+			"FIORENTINO": {
 				Code: "05",
 			},
-			"Montegiardino": {
+			"MONTEGIARDINO": {
 				Code: "08",
 			},
-			"San Marino": {
+			"SAN MARINO": {
 				Code: "07",
 			},
-			"Serravalle": {
+			"SERRAVALLE": {
 				Code: "09",
 			},
 		},
@@ -41939,46 +41939,46 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Dakar": {
+			"DAKAR": {
 				Code: "DK",
 			},
-			"Diourbel": {
+			"DIOURBEL": {
 				Code: "DB",
 			},
-			"Fatick": {
+			"FATICK": {
 				Code: "FK",
 			},
-			"Kaffrine": {
+			"KAFFRINE": {
 				Code: "KA",
 			},
-			"Kaolack": {
+			"KAOLACK": {
 				Code: "KL",
 			},
-			"Kolda": {
+			"KOLDA": {
 				Code: "KD",
 			},
-			"Kédougou": {
+			"KÉDOUGOU": {
 				Code: "KE",
 			},
-			"Louga": {
+			"LOUGA": {
 				Code: "LG",
 			},
-			"Matam": {
+			"MATAM": {
 				Code: "MT",
 			},
-			"Saint-Louis": {
+			"SAINT-LOUIS": {
 				Code: "SL",
 			},
-			"Sédhiou": {
+			"SÉDHIOU": {
 				Code: "SE",
 			},
-			"Tambacounda": {
+			"TAMBACOUNDA": {
 				Code: "TC",
 			},
-			"Thiès": {
+			"THIÈS": {
 				Code: "TH",
 			},
-			"Ziguinchor": {
+			"ZIGUINCHOR": {
 				Code: "ZG",
 			},
 		},
@@ -42106,58 +42106,58 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Awdal": {
+			"AWDAL": {
 				Code: "AW",
 			},
-			"Bakool": {
+			"BAKOOL": {
 				Code: "BK",
 			},
-			"Banaadir": {
+			"BANAADIR": {
 				Code: "BN",
 			},
-			"Bari": {
+			"BARI": {
 				Code: "BR",
 			},
-			"Bay": {
+			"BAY": {
 				Code: "BY",
 			},
-			"Galguduud": {
+			"GALGUDUUD": {
 				Code: "GA",
 			},
-			"Gedo": {
+			"GEDO": {
 				Code: "GE",
 			},
-			"Hiiraan": {
+			"HIIRAAN": {
 				Code: "HI",
 			},
-			"Jubbada Dhexe": {
+			"JUBBADA DHEXE": {
 				Code: "JD",
 			},
-			"Jubbada Hoose": {
+			"JUBBADA HOOSE": {
 				Code: "JH",
 			},
-			"Mudug": {
+			"MUDUG": {
 				Code: "MU",
 			},
-			"Nugaal": {
+			"NUGAAL": {
 				Code: "NU",
 			},
-			"Sanaag": {
+			"SANAAG": {
 				Code: "SA",
 			},
-			"Shabeellaha Dhexe": {
+			"SHABEELLAHA DHEXE": {
 				Code: "SD",
 			},
-			"Shabeellaha Hoose": {
+			"SHABEELLAHA HOOSE": {
 				Code: "SH",
 			},
-			"Sool": {
+			"SOOL": {
 				Code: "SO",
 			},
-			"Togdheer": {
+			"TOGDHEER": {
 				Code: "TO",
 			},
-			"Woqooyi Galbeed": {
+			"WOQOOYI GALBEED": {
 				Code: "WO",
 			},
 		},
@@ -42237,34 +42237,34 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Brokopondo": {
+			"BROKOPONDO": {
 				Code: "BR",
 			},
-			"Commewijne": {
+			"COMMEWIJNE": {
 				Code: "CM",
 			},
-			"Coronie": {
+			"CORONIE": {
 				Code: "CR",
 			},
-			"Marowijne": {
+			"MAROWIJNE": {
 				Code: "MA",
 			},
-			"Nickerie": {
+			"NICKERIE": {
 				Code: "NI",
 			},
-			"Para": {
+			"PARA": {
 				Code: "PR",
 			},
-			"Paramaribo": {
+			"PARAMARIBO": {
 				Code: "PM",
 			},
-			"Saramacca": {
+			"SARAMACCA": {
 				Code: "SA",
 			},
-			"Sipaliwini": {
+			"SIPALIWINI": {
 				Code: "SI",
 			},
-			"Wanica": {
+			"WANICA": {
 				Code: "WA",
 			},
 		},
@@ -42344,34 +42344,34 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Central Equatoria": {
+			"CENTRAL EQUATORIA": {
 				Code: "EC",
 			},
-			"Eastern Equatoria": {
+			"EASTERN EQUATORIA": {
 				Code: "EE",
 			},
-			"Jonglei": {
+			"JONGLEI": {
 				Code: "JG",
 			},
-			"Lakes": {
+			"LAKES": {
 				Code: "LK",
 			},
-			"Northern Bahr el Ghazal": {
+			"NORTHERN BAHR EL GHAZAL": {
 				Code: "BN",
 			},
-			"Unity": {
+			"UNITY": {
 				Code: "UY",
 			},
-			"Upper Nile": {
+			"UPPER NILE": {
 				Code: "NU",
 			},
-			"Warrap": {
+			"WARRAP": {
 				Code: "WR",
 			},
-			"Western Bahr el Ghazal": {
+			"WESTERN BAHR EL GHAZAL": {
 				Code: "BW",
 			},
-			"Western Equatoria": {
+			"WESTERN EQUATORIA": {
 				Code: "EW",
 			},
 		},
@@ -42403,10 +42403,10 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Príncipe": {
+			"PRÍNCIPE": {
 				Code: "P",
 			},
-			"São Tomé": {
+			"SÃO TOMÉ": {
 				Code: "S",
 			},
 		},
@@ -42510,46 +42510,46 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ahuachapán": {
+			"AHUACHAPÁN": {
 				Code: "AH",
 			},
-			"Cabañas": {
+			"CABAÑAS": {
 				Code: "CA",
 			},
-			"Chalatenango": {
+			"CHALATENANGO": {
 				Code: "CH",
 			},
-			"Cuscatlán": {
+			"CUSCATLÁN": {
 				Code: "CU",
 			},
-			"La Libertad": {
+			"LA LIBERTAD": {
 				Code: "LI",
 			},
-			"La Paz": {
+			"LA PAZ": {
 				Code: "PA",
 			},
-			"La Unión": {
+			"LA UNIÓN": {
 				Code: "UN",
 			},
-			"Morazán": {
+			"MORAZÁN": {
 				Code: "MO",
 			},
-			"San Miguel": {
+			"SAN MIGUEL": {
 				Code: "SM",
 			},
-			"San Salvador": {
+			"SAN SALVADOR": {
 				Code: "SS",
 			},
-			"San Vicente": {
+			"SAN VICENTE": {
 				Code: "SV",
 			},
-			"Santa Ana": {
+			"SANTA ANA": {
 				Code: "SA",
 			},
-			"Sonsonate": {
+			"SONSONATE": {
 				Code: "SO",
 			},
-			"Usulután": {
+			"USULUTÁN": {
 				Code: "US",
 			},
 		},
@@ -42662,46 +42662,46 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Al Lādhiqīyah": {
+			"AL LĀDHIQĪYAH": {
 				Code: "LA",
 			},
-			"Al Qunayţirah": {
+			"AL QUNAYŢIRAH": {
 				Code: "QU",
 			},
-			"Al Ḩasakah": {
+			"AL ḨASAKAH": {
 				Code: "HA",
 			},
-			"Ar Raqqah": {
+			"AR RAQQAH": {
 				Code: "RA",
 			},
-			"As Suwaydā'": {
+			"AS SUWAYDĀ'": {
 				Code: "SU",
 			},
-			"Dar'ā": {
+			"DAR'Ā": {
 				Code: "DR",
 			},
-			"Dayr az Zawr": {
+			"DAYR AZ ZAWR": {
 				Code: "DY",
 			},
-			"Dimashq": {
+			"DIMASHQ": {
 				Code: "DI",
 			},
-			"Idlib": {
+			"IDLIB": {
 				Code: "ID",
 			},
-			"Rīf Dimashq": {
+			"RĪF DIMASHQ": {
 				Code: "RD",
 			},
-			"Ţarţūs": {
+			"ŢARŢŪS": {
 				Code: "TA",
 			},
-			"Ḩalab": {
+			"ḨALAB": {
 				Code: "HL",
 			},
-			"Ḩamāh": {
+			"ḨAMĀH": {
 				Code: "HM",
 			},
-			"Ḩimş": {
+			"ḨIMŞ": {
 				Code: "HI",
 			},
 		},
@@ -42745,16 +42745,16 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Hhohho": {
+			"HHOHHO": {
 				Code: "HH",
 			},
-			"Lubombo": {
+			"LUBOMBO": {
 				Code: "LU",
 			},
-			"Manzini": {
+			"MANZINI": {
 				Code: "MA",
 			},
-			"Shiselweni": {
+			"SHISELWENI": {
 				Code: "SH",
 			},
 		},
@@ -42921,73 +42921,73 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bahr el Ghazal": {
+			"BAHR EL GHAZAL": {
 				Code: "BG",
 			},
-			"Batha": {
+			"BATHA": {
 				Code: "BA",
 			},
-			"Borkou": {
+			"BORKOU": {
 				Code: "BO",
 			},
-			"Chari-Baguirmi": {
+			"CHARI-BAGUIRMI": {
 				Code: "CB",
 			},
-			"Ennedi-Est": {
+			"ENNEDI-EST": {
 				Code: "EE",
 			},
-			"Ennedi-Ouest": {
+			"ENNEDI-OUEST": {
 				Code: "EO",
 			},
-			"Guéra": {
+			"GUÉRA": {
 				Code: "GR",
 			},
-			"Hadjer Lamis": {
+			"HADJER LAMIS": {
 				Code: "HL",
 			},
-			"Kanem": {
+			"KANEM": {
 				Code: "KA",
 			},
-			"Lac": {
+			"LAC": {
 				Code: "LC",
 			},
-			"Logone-Occidental": {
+			"LOGONE-OCCIDENTAL": {
 				Code: "LO",
 			},
-			"Logone-Oriental": {
+			"LOGONE-ORIENTAL": {
 				Code: "LR",
 			},
-			"Mandoul": {
+			"MANDOUL": {
 				Code: "MA",
 			},
-			"Mayo-Kebbi-Est": {
+			"MAYO-KEBBI-EST": {
 				Code: "ME",
 			},
-			"Mayo-Kebbi-Ouest": {
+			"MAYO-KEBBI-OUEST": {
 				Code: "MO",
 			},
-			"Moyen-Chari": {
+			"MOYEN-CHARI": {
 				Code: "MC",
 			},
-			"Ouaddaï": {
+			"OUADDAÏ": {
 				Code: "OD",
 			},
-			"Salamat": {
+			"SALAMAT": {
 				Code: "SA",
 			},
-			"Sila": {
+			"SILA": {
 				Code: "SI",
 			},
-			"Tandjilé": {
+			"TANDJILÉ": {
 				Code: "TA",
 			},
-			"Tibesti": {
+			"TIBESTI": {
 				Code: "TI",
 			},
-			"Ville de Ndjamena": {
+			"VILLE DE NDJAMENA": {
 				Code: "ND",
 			},
-			"Wadi Fira": {
+			"WADI FIRA": {
 				Code: "WF",
 			},
 		},
@@ -43046,19 +43046,19 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Centrale": {
+			"CENTRALE": {
 				Code: "C",
 			},
-			"Kara": {
+			"KARA": {
 				Code: "K",
 			},
-			"Maritime (Région)": {
+			"MARITIME (RÉGION)": {
 				Code: "M",
 			},
-			"Plateaux": {
+			"PLATEAUX": {
 				Code: "P",
 			},
-			"Savanes": {
+			"SAVANES": {
 				Code: "S",
 			},
 		},
@@ -43546,238 +43546,238 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Amnat Charoen": {
+			"AMNAT CHAROEN": {
 				Code: "37",
 			},
-			"Ang Thong": {
+			"ANG THONG": {
 				Code: "15",
 			},
-			"Bueng Kan": {
+			"BUENG KAN": {
 				Code: "38",
 			},
-			"Buri Ram": {
+			"BURI RAM": {
 				Code: "31",
 			},
-			"Chachoengsao": {
+			"CHACHOENGSAO": {
 				Code: "24",
 			},
-			"Chai Nat": {
+			"CHAI NAT": {
 				Code: "18",
 			},
-			"Chaiyaphum": {
+			"CHAIYAPHUM": {
 				Code: "36",
 			},
-			"Chanthaburi": {
+			"CHANTHABURI": {
 				Code: "22",
 			},
-			"Chiang Mai": {
+			"CHIANG MAI": {
 				Code: "50",
 			},
-			"Chiang Rai": {
+			"CHIANG RAI": {
 				Code: "57",
 			},
-			"Chon Buri": {
+			"CHON BURI": {
 				Code: "20",
 			},
-			"Chumphon": {
+			"CHUMPHON": {
 				Code: "86",
 			},
-			"Kalasin": {
+			"KALASIN": {
 				Code: "46",
 			},
-			"Kamphaeng Phet": {
+			"KAMPHAENG PHET": {
 				Code: "62",
 			},
-			"Kanchanaburi": {
+			"KANCHANABURI": {
 				Code: "71",
 			},
-			"Khon Kaen": {
+			"KHON KAEN": {
 				Code: "40",
 			},
-			"Krabi": {
+			"KRABI": {
 				Code: "81",
 			},
-			"Krung Thep Maha Nakhon": {
+			"KRUNG THEP MAHA NAKHON": {
 				Code: "10",
 			},
-			"Lampang": {
+			"LAMPANG": {
 				Code: "52",
 			},
-			"Lamphun": {
+			"LAMPHUN": {
 				Code: "51",
 			},
-			"Loei": {
+			"LOEI": {
 				Code: "42",
 			},
-			"Lop Buri": {
+			"LOP BURI": {
 				Code: "16",
 			},
-			"Mae Hong Son": {
+			"MAE HONG SON": {
 				Code: "58",
 			},
-			"Maha Sarakham": {
+			"MAHA SARAKHAM": {
 				Code: "44",
 			},
-			"Mukdahan": {
+			"MUKDAHAN": {
 				Code: "49",
 			},
-			"Nakhon Nayok": {
+			"NAKHON NAYOK": {
 				Code: "26",
 			},
-			"Nakhon Pathom": {
+			"NAKHON PATHOM": {
 				Code: "73",
 			},
-			"Nakhon Phanom": {
+			"NAKHON PHANOM": {
 				Code: "48",
 			},
-			"Nakhon Ratchasima": {
+			"NAKHON RATCHASIMA": {
 				Code: "30",
 			},
-			"Nakhon Sawan": {
+			"NAKHON SAWAN": {
 				Code: "60",
 			},
-			"Nakhon Si Thammarat": {
+			"NAKHON SI THAMMARAT": {
 				Code: "80",
 			},
-			"Nan": {
+			"NAN": {
 				Code: "55",
 			},
-			"Narathiwat": {
+			"NARATHIWAT": {
 				Code: "96",
 			},
-			"Nong Bua Lam Phu": {
+			"NONG BUA LAM PHU": {
 				Code: "39",
 			},
-			"Nong Khai": {
+			"NONG KHAI": {
 				Code: "43",
 			},
-			"Nonthaburi": {
+			"NONTHABURI": {
 				Code: "12",
 			},
-			"Pathum Thani": {
+			"PATHUM THANI": {
 				Code: "13",
 			},
-			"Pattani": {
+			"PATTANI": {
 				Code: "94",
 			},
-			"Phangnga": {
+			"PHANGNGA": {
 				Code: "82",
 			},
-			"Phatthalung": {
+			"PHATTHALUNG": {
 				Code: "93",
 			},
-			"Phatthaya": {
+			"PHATTHAYA": {
 				Code: "S",
 			},
-			"Phayao": {
+			"PHAYAO": {
 				Code: "56",
 			},
-			"Phetchabun": {
+			"PHETCHABUN": {
 				Code: "67",
 			},
-			"Phetchaburi": {
+			"PHETCHABURI": {
 				Code: "76",
 			},
-			"Phichit": {
+			"PHICHIT": {
 				Code: "66",
 			},
-			"Phitsanulok": {
+			"PHITSANULOK": {
 				Code: "65",
 			},
-			"Phra Nakhon Si Ayutthaya": {
+			"PHRA NAKHON SI AYUTTHAYA": {
 				Code: "14",
 			},
-			"Phrae": {
+			"PHRAE": {
 				Code: "54",
 			},
-			"Phuket": {
+			"PHUKET": {
 				Code: "83",
 			},
-			"Prachin Buri": {
+			"PRACHIN BURI": {
 				Code: "25",
 			},
-			"Prachuap Khiri Khan": {
+			"PRACHUAP KHIRI KHAN": {
 				Code: "77",
 			},
-			"Ranong": {
+			"RANONG": {
 				Code: "85",
 			},
-			"Ratchaburi": {
+			"RATCHABURI": {
 				Code: "70",
 			},
-			"Rayong": {
+			"RAYONG": {
 				Code: "21",
 			},
-			"Roi Et": {
+			"ROI ET": {
 				Code: "45",
 			},
-			"Sa Kaeo": {
+			"SA KAEO": {
 				Code: "27",
 			},
-			"Sakon Nakhon": {
+			"SAKON NAKHON": {
 				Code: "47",
 			},
-			"Samut Prakan": {
+			"SAMUT PRAKAN": {
 				Code: "11",
 			},
-			"Samut Sakhon": {
+			"SAMUT SAKHON": {
 				Code: "74",
 			},
-			"Samut Songkhram": {
+			"SAMUT SONGKHRAM": {
 				Code: "75",
 			},
-			"Saraburi": {
+			"SARABURI": {
 				Code: "19",
 			},
-			"Satun": {
+			"SATUN": {
 				Code: "91",
 			},
-			"Si Sa Ket": {
+			"SI SA KET": {
 				Code: "33",
 			},
-			"Sing Buri": {
+			"SING BURI": {
 				Code: "17",
 			},
-			"Songkhla": {
+			"SONGKHLA": {
 				Code: "90",
 			},
-			"Sukhothai": {
+			"SUKHOTHAI": {
 				Code: "64",
 			},
-			"Suphan Buri": {
+			"SUPHAN BURI": {
 				Code: "72",
 			},
-			"Surat Thani": {
+			"SURAT THANI": {
 				Code: "84",
 			},
-			"Surin": {
+			"SURIN": {
 				Code: "32",
 			},
-			"Tak": {
+			"TAK": {
 				Code: "63",
 			},
-			"Trang": {
+			"TRANG": {
 				Code: "92",
 			},
-			"Trat": {
+			"TRAT": {
 				Code: "23",
 			},
-			"Ubon Ratchathani": {
+			"UBON RATCHATHANI": {
 				Code: "34",
 			},
-			"Udon Thani": {
+			"UDON THANI": {
 				Code: "41",
 			},
-			"Uthai Thani": {
+			"UTHAI THANI": {
 				Code: "61",
 			},
-			"Uttaradit": {
+			"UTTARADIT": {
 				Code: "53",
 			},
-			"Yala": {
+			"YALA": {
 				Code: "95",
 			},
-			"Yasothon": {
+			"YASOTHON": {
 				Code: "35",
 			},
 		},
@@ -43827,20 +43827,20 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Dushanbe": {
+			"DUSHANBE": {
 				Code: "DU",
 			},
-			"Khatlon": {
+			"KHATLON": {
 				Code: "KT",
 			},
-			"Kŭhistoni Badakhshon": {
+			"KŬHISTONI BADAKHSHON": {
 				Code: "GB",
 			},
-			"Sughd": {
-				Code: "SU",
-			},
-			"nohiyahoi tobei jumhurí": {
+			"NOHIYAHOI TOBEI JUMHURÍ": {
 				Code: "RA",
+			},
+			"SUGHD": {
+				Code: "SU",
 			},
 		},
 	},
@@ -43946,43 +43946,43 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Aileu": {
+			"AILEU": {
 				Code: "AL",
 			},
-			"Ainaru": {
+			"AINARU": {
 				Code: "AN",
 			},
-			"Baukau": {
+			"BAUKAU": {
 				Code: "BA",
 			},
-			"Bobonaru": {
+			"BOBONARU": {
 				Code: "BO",
 			},
-			"Díli": {
+			"DÍLI": {
 				Code: "DI",
 			},
-			"Ermera": {
+			"ERMERA": {
 				Code: "ER",
 			},
-			"Kovalima": {
+			"KOVALIMA": {
 				Code: "CO",
 			},
-			"Lautein": {
+			"LAUTEIN": {
 				Code: "LA",
 			},
-			"Likisá": {
+			"LIKISÁ": {
 				Code: "LI",
 			},
-			"Manatutu": {
+			"MANATUTU": {
 				Code: "MT",
 			},
-			"Manufahi": {
+			"MANUFAHI": {
 				Code: "MF",
 			},
-			"Oekusi-Ambenu": {
+			"OEKUSI-AMBENU": {
 				Code: "OE",
 			},
-			"Vikeke": {
+			"VIKEKE": {
 				Code: "VI",
 			},
 		},
@@ -44038,22 +44038,22 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ahal": {
+			"AHAL": {
 				Code: "A",
 			},
-			"Aşgabat": {
+			"AŞGABAT": {
 				Code: "S",
 			},
-			"Balkan": {
+			"BALKAN": {
 				Code: "B",
 			},
-			"Daşoguz": {
+			"DAŞOGUZ": {
 				Code: "D",
 			},
-			"Lebap": {
+			"LEBAP": {
 				Code: "L",
 			},
-			"Mary": {
+			"MARY": {
 				Code: "M",
 			},
 		},
@@ -44217,76 +44217,76 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Ben Arous": {
+			"BEN AROUS": {
 				Code: "13",
 			},
-			"Bizerte": {
+			"BIZERTE": {
 				Code: "23",
 			},
-			"Béja": {
+			"BÉJA": {
 				Code: "31",
 			},
-			"Gabès": {
+			"GABÈS": {
 				Code: "81",
 			},
-			"Gafsa": {
+			"GAFSA": {
 				Code: "71",
 			},
-			"Jendouba": {
+			"JENDOUBA": {
 				Code: "32",
 			},
-			"Kairouan": {
+			"KAIROUAN": {
 				Code: "41",
 			},
-			"Kasserine": {
+			"KASSERINE": {
 				Code: "42",
 			},
-			"Kébili": {
+			"KÉBILI": {
 				Code: "73",
 			},
-			"L'Ariana": {
+			"L'ARIANA": {
 				Code: "12",
 			},
-			"La Manouba": {
+			"LA MANOUBA": {
 				Code: "14",
 			},
-			"Le Kef": {
+			"LE KEF": {
 				Code: "33",
 			},
-			"Mahdia": {
+			"MAHDIA": {
 				Code: "53",
 			},
-			"Monastir": {
+			"MONASTIR": {
 				Code: "52",
 			},
-			"Médenine": {
+			"MÉDENINE": {
 				Code: "82",
 			},
-			"Nabeul": {
+			"NABEUL": {
 				Code: "21",
 			},
-			"Sfax": {
+			"SFAX": {
 				Code: "61",
 			},
-			"Sidi Bouzid": {
+			"SIDI BOUZID": {
 				Code: "43",
 			},
-			"Siliana": {
+			"SILIANA": {
 				Code: "34",
 			},
-			"Sousse": {
+			"SOUSSE": {
 				Code: "51",
 			},
-			"Tataouine": {
+			"TATAOUINE": {
 				Code: "83",
 			},
-			"Tozeur": {
+			"TOZEUR": {
 				Code: "72",
 			},
-			"Tunis": {
+			"TUNIS": {
 				Code: "11",
 			},
-			"Zaghouan": {
+			"ZAGHOUAN": {
 				Code: "22",
 			},
 		},
@@ -44336,19 +44336,19 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Eua": {
+			"EUA": {
 				Code: "01",
 			},
-			"Ha'apai": {
+			"HA'APAI": {
 				Code: "02",
 			},
-			"Niuas": {
+			"NIUAS": {
 				Code: "03",
 			},
-			"Tongatapu": {
+			"TONGATAPU": {
 				Code: "04",
 			},
-			"Vava'u": {
+			"VAVA'U": {
 				Code: "05",
 			},
 		},
@@ -44854,247 +44854,247 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Adana": {
+			"ADANA": {
 				Code: "01",
 			},
-			"Adıyaman": {
+			"ADIYAMAN": {
 				Code: "02",
 			},
-			"Afyonkarahisar": {
+			"AFYONKARAHISAR": {
 				Code: "03",
 			},
-			"Aksaray": {
+			"AKSARAY": {
 				Code: "68",
 			},
-			"Amasya": {
+			"AMASYA": {
 				Code: "05",
 			},
-			"Ankara": {
+			"ANKARA": {
 				Code: "06",
 			},
-			"Antalya": {
+			"ANTALYA": {
 				Code: "07",
 			},
-			"Ardahan": {
+			"ARDAHAN": {
 				Code: "75",
 			},
-			"Artvin": {
+			"ARTVIN": {
 				Code: "08",
 			},
-			"Aydın": {
+			"AYDIN": {
 				Code: "09",
 			},
-			"Ağrı": {
+			"AĞRI": {
 				Code: "04",
 			},
-			"Balıkesir": {
+			"BALIKESIR": {
 				Code: "10",
 			},
-			"Bartın": {
+			"BARTIN": {
 				Code: "74",
 			},
-			"Batman": {
+			"BATMAN": {
 				Code: "72",
 			},
-			"Bayburt": {
+			"BAYBURT": {
 				Code: "69",
 			},
-			"Bilecik": {
+			"BILECIK": {
 				Code: "11",
 			},
-			"Bingöl": {
+			"BINGÖL": {
 				Code: "12",
 			},
-			"Bitlis": {
+			"BITLIS": {
 				Code: "13",
 			},
-			"Bolu": {
+			"BOLU": {
 				Code: "14",
 			},
-			"Burdur": {
+			"BURDUR": {
 				Code: "15",
 			},
-			"Bursa": {
+			"BURSA": {
 				Code: "16",
 			},
-			"Denizli": {
+			"DENIZLI": {
 				Code: "20",
 			},
-			"Diyarbakır": {
+			"DIYARBAKIR": {
 				Code: "21",
 			},
-			"Düzce": {
+			"DÜZCE": {
 				Code: "81",
 			},
-			"Edirne": {
+			"EDIRNE": {
 				Code: "22",
 			},
-			"Elazığ": {
+			"ELAZIĞ": {
 				Code: "23",
 			},
-			"Erzincan": {
+			"ERZINCAN": {
 				Code: "24",
 			},
-			"Erzurum": {
+			"ERZURUM": {
 				Code: "25",
 			},
-			"Eskişehir": {
+			"ESKIŞEHIR": {
 				Code: "26",
 			},
-			"Gaziantep": {
+			"GAZIANTEP": {
 				Code: "27",
 			},
-			"Giresun": {
+			"GIRESUN": {
 				Code: "28",
 			},
-			"Gümüşhane": {
+			"GÜMÜŞHANE": {
 				Code: "29",
 			},
-			"Hakkâri": {
+			"HAKKÂRI": {
 				Code: "30",
 			},
-			"Hatay": {
+			"HATAY": {
 				Code: "31",
 			},
-			"Isparta": {
+			"ISPARTA": {
 				Code: "32",
 			},
-			"Iğdır": {
+			"IĞDIR": {
 				Code: "76",
 			},
-			"Kahramanmaraş": {
+			"KAHRAMANMARAŞ": {
 				Code: "46",
 			},
-			"Karabük": {
+			"KARABÜK": {
 				Code: "78",
 			},
-			"Karaman": {
+			"KARAMAN": {
 				Code: "70",
 			},
-			"Kars": {
+			"KARS": {
 				Code: "36",
 			},
-			"Kastamonu": {
+			"KASTAMONU": {
 				Code: "37",
 			},
-			"Kayseri": {
+			"KAYSERI": {
 				Code: "38",
 			},
-			"Kilis": {
+			"KILIS": {
 				Code: "79",
 			},
-			"Kocaeli": {
-				Code: "41",
-			},
-			"Konya": {
-				Code: "42",
-			},
-			"Kütahya": {
-				Code: "43",
-			},
-			"Kırklareli": {
-				Code: "39",
-			},
-			"Kırıkkale": {
+			"KIRIKKALE": {
 				Code: "71",
 			},
-			"Kırşehir": {
+			"KIRKLARELI": {
+				Code: "39",
+			},
+			"KIRŞEHIR": {
 				Code: "40",
 			},
-			"Malatya": {
+			"KOCAELI": {
+				Code: "41",
+			},
+			"KONYA": {
+				Code: "42",
+			},
+			"KÜTAHYA": {
+				Code: "43",
+			},
+			"MALATYA": {
 				Code: "44",
 			},
-			"Manisa": {
+			"MANISA": {
 				Code: "45",
 			},
-			"Mardin": {
+			"MARDIN": {
 				Code: "47",
 			},
-			"Mersin": {
+			"MERSIN": {
 				Code: "33",
 			},
-			"Muğla": {
+			"MUĞLA": {
 				Code: "48",
 			},
-			"Muş": {
+			"MUŞ": {
 				Code: "49",
 			},
-			"Nevşehir": {
+			"NEVŞEHIR": {
 				Code: "50",
 			},
-			"Niğde": {
+			"NIĞDE": {
 				Code: "51",
 			},
-			"Ordu": {
+			"ORDU": {
 				Code: "52",
 			},
-			"Osmaniye": {
+			"OSMANIYE": {
 				Code: "80",
 			},
-			"Rize": {
+			"RIZE": {
 				Code: "53",
 			},
-			"Sakarya": {
+			"SAKARYA": {
 				Code: "54",
 			},
-			"Samsun": {
+			"SAMSUN": {
 				Code: "55",
 			},
-			"Siirt": {
+			"SIIRT": {
 				Code: "56",
 			},
-			"Sinop": {
+			"SINOP": {
 				Code: "57",
 			},
-			"Sivas": {
+			"SIVAS": {
 				Code: "58",
 			},
-			"Tekirdağ": {
+			"TEKIRDAĞ": {
 				Code: "59",
 			},
-			"Tokat": {
+			"TOKAT": {
 				Code: "60",
 			},
-			"Trabzon": {
+			"TRABZON": {
 				Code: "61",
 			},
-			"Tunceli": {
+			"TUNCELI": {
 				Code: "62",
 			},
-			"Uşak": {
+			"UŞAK": {
 				Code: "64",
 			},
-			"Van": {
+			"VAN": {
 				Code: "65",
 			},
-			"Yalova": {
+			"YALOVA": {
 				Code: "77",
 			},
-			"Yozgat": {
+			"YOZGAT": {
 				Code: "66",
 			},
-			"Zonguldak": {
+			"ZONGULDAK": {
 				Code: "67",
 			},
-			"Çanakkale": {
+			"ÇANAKKALE": {
 				Code: "17",
 			},
-			"Çankırı": {
+			"ÇANKIRI": {
 				Code: "18",
 			},
-			"Çorum": {
+			"ÇORUM": {
 				Code: "19",
 			},
-			"İstanbul": {
+			"İSTANBUL": {
 				Code: "34",
 			},
-			"İzmir": {
+			"İZMIR": {
 				Code: "35",
 			},
-			"Şanlıurfa": {
+			"ŞANLIURFA": {
 				Code: "63",
 			},
-			"Şırnak": {
+			"ŞIRNAK": {
 				Code: "73",
 			},
 		},
@@ -45204,49 +45204,49 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Arima": {
+			"ARIMA": {
 				Code: "ARI",
 			},
-			"Chaguanas": {
+			"CHAGUANAS": {
 				Code: "CHA",
 			},
-			"Couva-Tabaquite-Talparo": {
+			"COUVA-TABAQUITE-TALPARO": {
 				Code: "CTT",
 			},
-			"Diego Martin": {
+			"DIEGO MARTIN": {
 				Code: "DMN",
 			},
-			"Mayaro-Rio Claro": {
+			"MAYARO-RIO CLARO": {
 				Code: "MRC",
 			},
-			"Penal-Debe": {
+			"PENAL-DEBE": {
 				Code: "PED",
 			},
-			"Point Fortin": {
+			"POINT FORTIN": {
 				Code: "PTF",
 			},
-			"Port of Spain": {
+			"PORT OF SPAIN": {
 				Code: "POS",
 			},
-			"Princes Town": {
+			"PRINCES TOWN": {
 				Code: "PRT",
 			},
-			"San Fernando": {
+			"SAN FERNANDO": {
 				Code: "SFO",
 			},
-			"San Juan-Laventille": {
+			"SAN JUAN-LAVENTILLE": {
 				Code: "SJL",
 			},
-			"Sangre Grande": {
+			"SANGRE GRANDE": {
 				Code: "SGE",
 			},
-			"Siparia": {
+			"SIPARIA": {
 				Code: "SIP",
 			},
-			"Tobago": {
+			"TOBAGO": {
 				Code: "TOB",
 			},
-			"Tunapuna-Piarco": {
+			"TUNAPUNA-PIARCO": {
 				Code: "TUP",
 			},
 		},
@@ -45314,28 +45314,28 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Funafuti": {
+			"FUNAFUTI": {
 				Code: "FUN",
 			},
-			"Nanumaga": {
+			"NANUMAGA": {
 				Code: "NMG",
 			},
-			"Nanumea": {
+			"NANUMEA": {
 				Code: "NMA",
 			},
-			"Niutao": {
+			"NIUTAO": {
 				Code: "NIT",
 			},
-			"Nui": {
+			"NUI": {
 				Code: "NUI",
 			},
-			"Nukufetau": {
+			"NUKUFETAU": {
 				Code: "NKF",
 			},
-			"Nukulaelae": {
+			"NUKULAELAE": {
 				Code: "NKL",
 			},
-			"Vaitupu": {
+			"VAITUPU": {
 				Code: "VAI",
 			},
 		},
@@ -45487,64 +45487,64 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Changhua": {
+			"CHANGHUA": {
 				Code: "CHA",
 			},
-			"Chiayi": {
+			"CHIAYI": {
 				Code: "CYQ",
 			},
-			"Hsinchu": {
+			"HSINCHU": {
 				Code: "HSZ",
 			},
-			"Hualien": {
+			"HUALIEN": {
 				Code: "HUA",
 			},
-			"Kaohsiung": {
+			"KAOHSIUNG": {
 				Code: "KHH",
 			},
-			"Keelung": {
+			"KEELUNG": {
 				Code: "KEE",
 			},
-			"Kinmen": {
+			"KINMEN": {
 				Code: "KIN",
 			},
-			"Lienchiang": {
+			"LIENCHIANG": {
 				Code: "LIE",
 			},
-			"Miaoli": {
+			"MIAOLI": {
 				Code: "MIA",
 			},
-			"Nantou": {
+			"NANTOU": {
 				Code: "NAN",
 			},
-			"New Taipei": {
+			"NEW TAIPEI": {
 				Code: "NWT",
 			},
-			"Penghu": {
+			"PENGHU": {
 				Code: "PEN",
 			},
-			"Pingtung": {
+			"PINGTUNG": {
 				Code: "PIF",
 			},
-			"Taichung": {
+			"TAICHUNG": {
 				Code: "TXG",
 			},
-			"Tainan": {
+			"TAINAN": {
 				Code: "TNN",
 			},
-			"Taipei": {
+			"TAIPEI": {
 				Code: "TPE",
 			},
-			"Taitung": {
+			"TAITUNG": {
 				Code: "TTT",
 			},
-			"Taoyuan": {
+			"TAOYUAN": {
 				Code: "TAO",
 			},
-			"Yilan": {
+			"YILAN": {
 				Code: "ILA",
 			},
-			"Yunlin": {
+			"YUNLIN": {
 				Code: "YUN",
 			},
 		},
@@ -45750,97 +45750,97 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Arusha": {
+			"ARUSHA": {
 				Code: "01",
 			},
-			"Coast": {
+			"COAST": {
 				Code: "19",
 			},
-			"Dar es Salaam": {
+			"DAR ES SALAAM": {
 				Code: "02",
 			},
-			"Dodoma": {
+			"DODOMA": {
 				Code: "03",
 			},
-			"Geita": {
+			"GEITA": {
 				Code: "27",
 			},
-			"Iringa": {
+			"IRINGA": {
 				Code: "04",
 			},
-			"Kagera": {
+			"KAGERA": {
 				Code: "05",
 			},
-			"Katavi": {
+			"KATAVI": {
 				Code: "28",
 			},
-			"Kigoma": {
+			"KIGOMA": {
 				Code: "08",
 			},
-			"Kilimanjaro": {
+			"KILIMANJARO": {
 				Code: "09",
 			},
-			"Lindi": {
+			"LINDI": {
 				Code: "12",
 			},
-			"Manyara": {
+			"MANYARA": {
 				Code: "26",
 			},
-			"Mara": {
+			"MARA": {
 				Code: "13",
 			},
-			"Mbeya": {
+			"MBEYA": {
 				Code: "14",
 			},
-			"Morogoro": {
+			"MOROGORO": {
 				Code: "16",
 			},
-			"Mtwara": {
+			"MTWARA": {
 				Code: "17",
 			},
-			"Mwanza": {
+			"MWANZA": {
 				Code: "18",
 			},
-			"Njombe": {
+			"NJOMBE": {
 				Code: "29",
 			},
-			"Pemba North": {
+			"PEMBA NORTH": {
 				Code: "06",
 			},
-			"Pemba South": {
+			"PEMBA SOUTH": {
 				Code: "10",
 			},
-			"Rukwa": {
+			"RUKWA": {
 				Code: "20",
 			},
-			"Ruvuma": {
+			"RUVUMA": {
 				Code: "21",
 			},
-			"Shinyanga": {
+			"SHINYANGA": {
 				Code: "22",
 			},
-			"Simiyu": {
+			"SIMIYU": {
 				Code: "30",
 			},
-			"Singida": {
+			"SINGIDA": {
 				Code: "23",
 			},
-			"Songwe": {
+			"SONGWE": {
 				Code: "31",
 			},
-			"Tabora": {
+			"TABORA": {
 				Code: "24",
 			},
-			"Tanga": {
+			"TANGA": {
 				Code: "25",
 			},
-			"Zanzibar North": {
+			"ZANZIBAR NORTH": {
 				Code: "07",
 			},
-			"Zanzibar South": {
+			"ZANZIBAR SOUTH": {
 				Code: "11",
 			},
-			"Zanzibar West": {
+			"ZANZIBAR WEST": {
 				Code: "15",
 			},
 		},
@@ -46022,85 +46022,85 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Avtonomna Respublika Krym": {
+			"AVTONOMNA RESPUBLIKA KRYM": {
 				Code: "43",
 			},
-			"Cherkaska oblast": {
+			"CHERKASKA OBLAST": {
 				Code: "71",
 			},
-			"Chernihivska oblast": {
+			"CHERNIHIVSKA OBLAST": {
 				Code: "74",
 			},
-			"Chernivetska oblast": {
+			"CHERNIVETSKA OBLAST": {
 				Code: "77",
 			},
-			"Dnipropetrovska oblast": {
+			"DNIPROPETROVSKA OBLAST": {
 				Code: "12",
 			},
-			"Donetska oblast": {
+			"DONETSKA OBLAST": {
 				Code: "14",
 			},
-			"Ivano-Frankivska oblast": {
+			"IVANO-FRANKIVSKA OBLAST": {
 				Code: "26",
 			},
-			"Kharkivska oblast": {
+			"KHARKIVSKA OBLAST": {
 				Code: "63",
 			},
-			"Khersonska oblast": {
+			"KHERSONSKA OBLAST": {
 				Code: "65",
 			},
-			"Khmelnytska oblast": {
+			"KHMELNYTSKA OBLAST": {
 				Code: "68",
 			},
-			"Kirovohradska oblast": {
+			"KIROVOHRADSKA OBLAST": {
 				Code: "35",
 			},
-			"Kyiv": {
+			"KYIV": {
 				Code: "30",
 			},
-			"Kyivska oblast": {
+			"KYIVSKA OBLAST": {
 				Code: "32",
 			},
-			"Luhanska oblast": {
+			"LUHANSKA OBLAST": {
 				Code: "09",
 			},
-			"Lvivska oblast": {
+			"LVIVSKA OBLAST": {
 				Code: "46",
 			},
-			"Mykolaivska oblast": {
+			"MYKOLAIVSKA OBLAST": {
 				Code: "48",
 			},
-			"Odeska oblast": {
+			"ODESKA OBLAST": {
 				Code: "51",
 			},
-			"Poltavska oblast": {
+			"POLTAVSKA OBLAST": {
 				Code: "53",
 			},
-			"Rivnenska oblast": {
+			"RIVNENSKA OBLAST": {
 				Code: "56",
 			},
-			"Sevastopol": {
+			"SEVASTOPOL": {
 				Code: "40",
 			},
-			"Sumska oblast": {
+			"SUMSKA OBLAST": {
 				Code: "59",
 			},
-			"Ternopilska oblast": {
+			"TERNOPILSKA OBLAST": {
 				Code: "61",
 			},
-			"Vinnytska oblast": {
+			"VINNYTSKA OBLAST": {
 				Code: "05",
 			},
-			"Volynska oblast": {
+			"VOLYNSKA OBLAST": {
 				Code: "07",
 			},
-			"Zakarpatska oblast": {
+			"ZAKARPATSKA OBLAST": {
 				Code: "21",
 			},
-			"Zaporizka oblast": {
+			"ZAPORIZKA OBLAST": {
 				Code: "23",
 			},
-			"Zhytomyrska oblast": {
+			"ZHYTOMYRSKA OBLAST": {
 				Code: "18",
 			},
 		},
@@ -46928,414 +46928,414 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Central": {
+			"CENTRAL": {
 				Code: "C",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Buikwe": {
+					"BUIKWE": {
 						Code: "117",
 					},
-					"Bukomansibi": {
+					"BUKOMANSIBI": {
 						Code: "118",
 					},
-					"Butambala": {
+					"BUTAMBALA": {
 						Code: "119",
 					},
-					"Buvuma": {
+					"BUVUMA": {
 						Code: "120",
 					},
-					"Gomba": {
+					"GOMBA": {
 						Code: "121",
 					},
-					"Kalangala": {
+					"KALANGALA": {
 						Code: "101",
 					},
-					"Kalungu": {
+					"KALUNGU": {
 						Code: "122",
 					},
-					"Kampala": {
+					"KAMPALA": {
 						Code: "102",
 					},
-					"Kasanda": {
+					"KASANDA": {
 						Code: "126",
 					},
-					"Kayunga": {
+					"KAYUNGA": {
 						Code: "112",
 					},
-					"Kiboga": {
+					"KIBOGA": {
 						Code: "103",
 					},
-					"Kyankwanzi": {
+					"KYANKWANZI": {
 						Code: "123",
 					},
-					"Kyotera": {
+					"KYOTERA": {
 						Code: "125",
 					},
-					"Luwero": {
+					"LUWERO": {
 						Code: "104",
 					},
-					"Lwengo": {
+					"LWENGO": {
 						Code: "124",
 					},
-					"Lyantonde": {
+					"LYANTONDE": {
 						Code: "114",
 					},
-					"Masaka": {
+					"MASAKA": {
 						Code: "105",
 					},
-					"Mityana": {
+					"MITYANA": {
 						Code: "115",
 					},
-					"Mpigi": {
+					"MPIGI": {
 						Code: "106",
 					},
-					"Mubende": {
+					"MUBENDE": {
 						Code: "107",
 					},
-					"Mukono": {
+					"MUKONO": {
 						Code: "108",
 					},
-					"Nakaseke": {
+					"NAKASEKE": {
 						Code: "116",
 					},
-					"Nakasongola": {
+					"NAKASONGOLA": {
 						Code: "109",
 					},
-					"Rakai": {
+					"RAKAI": {
 						Code: "110",
 					},
-					"Sembabule": {
+					"SEMBABULE": {
 						Code: "111",
 					},
-					"Wakiso": {
+					"WAKISO": {
 						Code: "113",
 					},
 				},
 			},
-			"Eastern": {
+			"EASTERN": {
 				Code: "E",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Amuria": {
+					"AMURIA": {
 						Code: "216",
 					},
-					"Budaka": {
+					"BUDAKA": {
 						Code: "217",
 					},
-					"Bududa": {
+					"BUDUDA": {
 						Code: "218",
 					},
-					"Bugiri": {
+					"BUGIRI": {
 						Code: "201",
 					},
-					"Bugweri": {
+					"BUGWERI": {
 						Code: "235",
 					},
-					"Bukedea": {
+					"BUKEDEA": {
 						Code: "219",
 					},
-					"Bukwa": {
+					"BUKWA": {
 						Code: "220",
 					},
-					"Bulambuli": {
+					"BULAMBULI": {
 						Code: "225",
 					},
-					"Busia": {
+					"BUSIA": {
 						Code: "202",
 					},
-					"Butaleja": {
+					"BUTALEJA": {
 						Code: "221",
 					},
-					"Butebo": {
+					"BUTEBO": {
 						Code: "233",
 					},
-					"Buyende": {
+					"BUYENDE": {
 						Code: "226",
 					},
-					"Iganga": {
+					"IGANGA": {
 						Code: "203",
 					},
-					"Jinja": {
+					"JINJA": {
 						Code: "204",
 					},
-					"Kaberamaido": {
+					"KABERAMAIDO": {
 						Code: "213",
 					},
-					"Kaliro": {
+					"KALIRO": {
 						Code: "222",
 					},
-					"Kamuli": {
+					"KAMULI": {
 						Code: "205",
 					},
-					"Kapchorwa": {
+					"KAPCHORWA": {
 						Code: "206",
 					},
-					"Kapelebyong": {
+					"KAPELEBYONG": {
 						Code: "236",
 					},
-					"Katakwi": {
+					"KATAKWI": {
 						Code: "207",
 					},
-					"Kibuku": {
+					"KIBUKU": {
 						Code: "227",
 					},
-					"Kumi": {
+					"KUMI": {
 						Code: "208",
 					},
-					"Kween": {
+					"KWEEN": {
 						Code: "228",
 					},
-					"Luuka": {
+					"LUUKA": {
 						Code: "229",
 					},
-					"Manafwa": {
+					"MANAFWA": {
 						Code: "223",
 					},
-					"Mayuge": {
+					"MAYUGE": {
 						Code: "214",
 					},
-					"Mbale": {
+					"MBALE": {
 						Code: "209",
 					},
-					"Namayingo": {
+					"NAMAYINGO": {
 						Code: "230",
 					},
-					"Namisindwa": {
+					"NAMISINDWA": {
 						Code: "234",
 					},
-					"Namutumba": {
+					"NAMUTUMBA": {
 						Code: "224",
 					},
-					"Ngora": {
+					"NGORA": {
 						Code: "231",
 					},
-					"Pallisa": {
+					"PALLISA": {
 						Code: "210",
 					},
-					"Serere": {
+					"SERERE": {
 						Code: "232",
 					},
-					"Sironko": {
+					"SIRONKO": {
 						Code: "215",
 					},
-					"Soroti": {
+					"SOROTI": {
 						Code: "211",
 					},
-					"Tororo": {
+					"TORORO": {
 						Code: "212",
 					},
 				},
 			},
-			"Northern": {
+			"NORTHERN": {
 				Code: "N",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Abim": {
+					"ABIM": {
 						Code: "314",
 					},
-					"Adjumani": {
+					"ADJUMANI": {
 						Code: "301",
 					},
-					"Agago": {
+					"AGAGO": {
 						Code: "322",
 					},
-					"Alebtong": {
+					"ALEBTONG": {
 						Code: "323",
 					},
-					"Amolatar": {
+					"AMOLATAR": {
 						Code: "315",
 					},
-					"Amudat": {
+					"AMUDAT": {
 						Code: "324",
 					},
-					"Amuru": {
+					"AMURU": {
 						Code: "316",
 					},
-					"Apac": {
+					"APAC": {
 						Code: "302",
 					},
-					"Arua": {
+					"ARUA": {
 						Code: "303",
 					},
-					"Dokolo": {
+					"DOKOLO": {
 						Code: "317",
 					},
-					"Gulu": {
+					"GULU": {
 						Code: "304",
 					},
-					"Kaabong": {
+					"KAABONG": {
 						Code: "318",
 					},
-					"Kitgum": {
+					"KITGUM": {
 						Code: "305",
 					},
-					"Koboko": {
+					"KOBOKO": {
 						Code: "319",
 					},
-					"Kole": {
+					"KOLE": {
 						Code: "325",
 					},
-					"Kotido": {
+					"KOTIDO": {
 						Code: "306",
 					},
-					"Kwania": {
+					"KWANIA": {
 						Code: "333",
 					},
-					"Lamwo": {
+					"LAMWO": {
 						Code: "326",
 					},
-					"Lira": {
+					"LIRA": {
 						Code: "307",
 					},
-					"Maracha": {
+					"MARACHA": {
 						Code: "320",
 					},
-					"Moroto": {
+					"MOROTO": {
 						Code: "308",
 					},
-					"Moyo": {
+					"MOYO": {
 						Code: "309",
 					},
-					"Nabilatuk": {
+					"NABILATUK": {
 						Code: "334",
 					},
-					"Nakapiripirit": {
+					"NAKAPIRIPIRIT": {
 						Code: "311",
 					},
-					"Napak": {
+					"NAPAK": {
 						Code: "327",
 					},
-					"Nebbi": {
+					"NEBBI": {
 						Code: "310",
 					},
-					"Nwoya": {
+					"NWOYA": {
 						Code: "328",
 					},
-					"Omoro": {
+					"OMORO": {
 						Code: "331",
 					},
-					"Otuke": {
+					"OTUKE": {
 						Code: "329",
 					},
-					"Oyam": {
+					"OYAM": {
 						Code: "321",
 					},
-					"Pader": {
+					"PADER": {
 						Code: "312",
 					},
-					"Pakwach": {
+					"PAKWACH": {
 						Code: "332",
 					},
-					"Yumbe": {
+					"YUMBE": {
 						Code: "313",
 					},
-					"Zombo": {
+					"ZOMBO": {
 						Code: "330",
 					},
 				},
 			},
-			"Western": {
+			"WESTERN": {
 				Code: "W",
 
 				SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-					"Buhweju": {
+					"BUHWEJU": {
 						Code: "420",
 					},
-					"Buliisa": {
+					"BULIISA": {
 						Code: "416",
 					},
-					"Bundibugyo": {
+					"BUNDIBUGYO": {
 						Code: "401",
 					},
-					"Bunyangabu": {
+					"BUNYANGABU": {
 						Code: "430",
 					},
-					"Bushenyi": {
+					"BUSHENYI": {
 						Code: "402",
 					},
-					"Hoima": {
+					"HOIMA": {
 						Code: "403",
 					},
-					"Ibanda": {
+					"IBANDA": {
 						Code: "417",
 					},
-					"Isingiro": {
+					"ISINGIRO": {
 						Code: "418",
 					},
-					"Kabale": {
+					"KABALE": {
 						Code: "404",
 					},
-					"Kabarole": {
+					"KABAROLE": {
 						Code: "405",
 					},
-					"Kagadi": {
+					"KAGADI": {
 						Code: "427",
 					},
-					"Kakumiro": {
+					"KAKUMIRO": {
 						Code: "428",
 					},
-					"Kamwenge": {
+					"KAMWENGE": {
 						Code: "413",
 					},
-					"Kanungu": {
+					"KANUNGU": {
 						Code: "414",
 					},
-					"Kasese": {
+					"KASESE": {
 						Code: "406",
 					},
-					"Kibaale": {
+					"KIBAALE": {
 						Code: "407",
 					},
-					"Kikuube": {
+					"KIKUUBE": {
 						Code: "432",
 					},
-					"Kiruhura": {
+					"KIRUHURA": {
 						Code: "419",
 					},
-					"Kiryandongo": {
+					"KIRYANDONGO": {
 						Code: "421",
 					},
-					"Kisoro": {
+					"KISORO": {
 						Code: "408",
 					},
-					"Kyegegwa": {
+					"KYEGEGWA": {
 						Code: "422",
 					},
-					"Kyenjojo": {
+					"KYENJOJO": {
 						Code: "415",
 					},
-					"Masindi": {
+					"MASINDI": {
 						Code: "409",
 					},
-					"Mbarara": {
+					"MBARARA": {
 						Code: "410",
 					},
-					"Mitooma": {
+					"MITOOMA": {
 						Code: "423",
 					},
-					"Ntoroko": {
+					"NTOROKO": {
 						Code: "424",
 					},
-					"Ntungamo": {
+					"NTUNGAMO": {
 						Code: "411",
 					},
-					"Rubanda": {
+					"RUBANDA": {
 						Code: "429",
 					},
-					"Rubirizi": {
+					"RUBIRIZI": {
 						Code: "425",
 					},
-					"Rukiga": {
+					"RUKIGA": {
 						Code: "431",
 					},
-					"Rukungiri": {
+					"RUKUNGIRI": {
 						Code: "412",
 					},
-					"Sheema": {
+					"SHEEMA": {
 						Code: "426",
 					},
 				},
@@ -47411,31 +47411,31 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Baker Island": {
+			"BAKER ISLAND": {
 				Code: "81",
 			},
-			"Howland Island": {
+			"HOWLAND ISLAND": {
 				Code: "84",
 			},
-			"Jarvis Island": {
+			"JARVIS ISLAND": {
 				Code: "86",
 			},
-			"Johnston Atoll": {
+			"JOHNSTON ATOLL": {
 				Code: "67",
 			},
-			"Kingman Reef": {
+			"KINGMAN REEF": {
 				Code: "89",
 			},
-			"Midway Islands": {
+			"MIDWAY ISLANDS": {
 				Code: "71",
 			},
-			"Navassa Island": {
+			"NAVASSA ISLAND": {
 				Code: "76",
 			},
-			"Palmyra Atoll": {
+			"PALMYRA ATOLL": {
 				Code: "95",
 			},
-			"Wake Island": {
+			"WAKE ISLAND": {
 				Code: "79",
 			},
 		},
@@ -47797,175 +47797,175 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Alabama": {
+			"ALABAMA": {
 				Code: "AL",
 			},
-			"Alaska": {
+			"ALASKA": {
 				Code: "AK",
 			},
-			"American Samoa": {
+			"AMERICAN SAMOA": {
 				Code: "AS",
 			},
-			"Arizona": {
+			"ARIZONA": {
 				Code: "AZ",
 			},
-			"Arkansas": {
+			"ARKANSAS": {
 				Code: "AR",
 			},
-			"California": {
+			"CALIFORNIA": {
 				Code: "CA",
 			},
-			"Colorado": {
+			"COLORADO": {
 				Code: "CO",
 			},
-			"Connecticut": {
+			"CONNECTICUT": {
 				Code: "CT",
 			},
-			"Delaware": {
+			"DELAWARE": {
 				Code: "DE",
 			},
-			"District of Columbia": {
+			"DISTRICT OF COLUMBIA": {
 				Code: "DC",
 			},
-			"Florida": {
+			"FLORIDA": {
 				Code: "FL",
 			},
-			"Georgia": {
+			"GEORGIA": {
 				Code: "GA",
 			},
-			"Guam": {
+			"GUAM": {
 				Code: "GU",
 			},
-			"Hawaii": {
+			"HAWAII": {
 				Code: "HI",
 			},
-			"Idaho": {
+			"IDAHO": {
 				Code: "ID",
 			},
-			"Illinois": {
+			"ILLINOIS": {
 				Code: "IL",
 			},
-			"Indiana": {
+			"INDIANA": {
 				Code: "IN",
 			},
-			"Iowa": {
+			"IOWA": {
 				Code: "IA",
 			},
-			"Kansas": {
+			"KANSAS": {
 				Code: "KS",
 			},
-			"Kentucky": {
+			"KENTUCKY": {
 				Code: "KY",
 			},
-			"Louisiana": {
+			"LOUISIANA": {
 				Code: "LA",
 			},
-			"Maine": {
+			"MAINE": {
 				Code: "ME",
 			},
-			"Maryland": {
+			"MARYLAND": {
 				Code: "MD",
 			},
-			"Massachusetts": {
+			"MASSACHUSETTS": {
 				Code: "MA",
 			},
-			"Michigan": {
+			"MICHIGAN": {
 				Code: "MI",
 			},
-			"Minnesota": {
+			"MINNESOTA": {
 				Code: "MN",
 			},
-			"Mississippi": {
+			"MISSISSIPPI": {
 				Code: "MS",
 			},
-			"Missouri": {
+			"MISSOURI": {
 				Code: "MO",
 			},
-			"Montana": {
+			"MONTANA": {
 				Code: "MT",
 			},
-			"Nebraska": {
+			"NEBRASKA": {
 				Code: "NE",
 			},
-			"Nevada": {
+			"NEVADA": {
 				Code: "NV",
 			},
-			"New Hampshire": {
+			"NEW HAMPSHIRE": {
 				Code: "NH",
 			},
-			"New Jersey": {
+			"NEW JERSEY": {
 				Code: "NJ",
 			},
-			"New Mexico": {
+			"NEW MEXICO": {
 				Code: "NM",
 			},
-			"New York": {
+			"NEW YORK": {
 				Code: "NY",
 			},
-			"North Carolina": {
+			"NORTH CAROLINA": {
 				Code: "NC",
 			},
-			"North Dakota": {
+			"NORTH DAKOTA": {
 				Code: "ND",
 			},
-			"Northern Mariana Islands": {
+			"NORTHERN MARIANA ISLANDS": {
 				Code: "MP",
 			},
-			"Ohio": {
+			"OHIO": {
 				Code: "OH",
 			},
-			"Oklahoma": {
+			"OKLAHOMA": {
 				Code: "OK",
 			},
-			"Oregon": {
+			"OREGON": {
 				Code: "OR",
 			},
-			"Pennsylvania": {
+			"PENNSYLVANIA": {
 				Code: "PA",
 			},
-			"Puerto Rico": {
+			"PUERTO RICO": {
 				Code: "PR",
 			},
-			"Rhode Island": {
+			"RHODE ISLAND": {
 				Code: "RI",
 			},
-			"South Carolina": {
+			"SOUTH CAROLINA": {
 				Code: "SC",
 			},
-			"South Dakota": {
+			"SOUTH DAKOTA": {
 				Code: "SD",
 			},
-			"Tennessee": {
+			"TENNESSEE": {
 				Code: "TN",
 			},
-			"Texas": {
+			"TEXAS": {
 				Code: "TX",
 			},
-			"United States Minor Outlying Islands": {
+			"UNITED STATES MINOR OUTLYING ISLANDS": {
 				Code: "UM",
 			},
-			"Utah": {
+			"UTAH": {
 				Code: "UT",
 			},
-			"Vermont": {
+			"VERMONT": {
 				Code: "VT",
 			},
-			"Virgin Islands": {
+			"VIRGIN ISLANDS": {
 				Code: "VI",
 			},
-			"Virginia": {
+			"VIRGINIA": {
 				Code: "VA",
 			},
-			"Washington": {
+			"WASHINGTON": {
 				Code: "WA",
 			},
-			"West Virginia": {
+			"WEST VIRGINIA": {
 				Code: "WV",
 			},
-			"Wisconsin": {
+			"WISCONSIN": {
 				Code: "WI",
 			},
-			"Wyoming": {
+			"WYOMING": {
 				Code: "WY",
 			},
 		},
@@ -48099,61 +48099,61 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Artigas": {
+			"ARTIGAS": {
 				Code: "AR",
 			},
-			"Canelones": {
+			"CANELONES": {
 				Code: "CA",
 			},
-			"Cerro Largo": {
+			"CERRO LARGO": {
 				Code: "CL",
 			},
-			"Colonia": {
+			"COLONIA": {
 				Code: "CO",
 			},
-			"Durazno": {
+			"DURAZNO": {
 				Code: "DU",
 			},
-			"Flores": {
+			"FLORES": {
 				Code: "FS",
 			},
-			"Florida": {
+			"FLORIDA": {
 				Code: "FD",
 			},
-			"Lavalleja": {
+			"LAVALLEJA": {
 				Code: "LA",
 			},
-			"Maldonado": {
+			"MALDONADO": {
 				Code: "MA",
 			},
-			"Montevideo": {
+			"MONTEVIDEO": {
 				Code: "MO",
 			},
-			"Paysandú": {
+			"PAYSANDÚ": {
 				Code: "PA",
 			},
-			"Rivera": {
+			"RIVERA": {
 				Code: "RV",
 			},
-			"Rocha": {
+			"ROCHA": {
 				Code: "RO",
 			},
-			"Río Negro": {
+			"RÍO NEGRO": {
 				Code: "RN",
 			},
-			"Salto": {
+			"SALTO": {
 				Code: "SA",
 			},
-			"San José": {
+			"SAN JOSÉ": {
 				Code: "SJ",
 			},
-			"Soriano": {
+			"SORIANO": {
 				Code: "SO",
 			},
-			"Tacuarembó": {
+			"TACUAREMBÓ": {
 				Code: "TA",
 			},
-			"Treinta y Tres": {
+			"TREINTA Y TRES": {
 				Code: "TT",
 			},
 		},
@@ -48257,43 +48257,43 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Andijon": {
+			"ANDIJON": {
 				Code: "AN",
 			},
-			"Buxoro": {
+			"BUXORO": {
 				Code: "BU",
 			},
-			"Farg‘ona": {
+			"FARG‘ONA": {
 				Code: "FA",
 			},
-			"Jizzax": {
+			"JIZZAX": {
 				Code: "JI",
 			},
-			"Namangan": {
+			"NAMANGAN": {
 				Code: "NG",
 			},
-			"Navoiy": {
+			"NAVOIY": {
 				Code: "NW",
 			},
-			"Qashqadaryo": {
+			"QASHQADARYO": {
 				Code: "QA",
 			},
-			"Qoraqalpog‘iston Respublikasi": {
+			"QORAQALPOG‘ISTON RESPUBLIKASI": {
 				Code: "QR",
 			},
-			"Samarqand": {
+			"SAMARQAND": {
 				Code: "SA",
 			},
-			"Sirdaryo": {
+			"SIRDARYO": {
 				Code: "SI",
 			},
-			"Surxondaryo": {
+			"SURXONDARYO": {
 				Code: "SU",
 			},
-			"Toshkent": {
+			"TOSHKENT": {
 				Code: "TK",
 			},
-			"Xorazm": {
+			"XORAZM": {
 				Code: "XO",
 			},
 		},
@@ -48358,22 +48358,22 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Charlotte": {
+			"CHARLOTTE": {
 				Code: "01",
 			},
-			"Grenadines": {
+			"GRENADINES": {
 				Code: "06",
 			},
-			"Saint Andrew": {
+			"SAINT ANDREW": {
 				Code: "02",
 			},
-			"Saint David": {
+			"SAINT DAVID": {
 				Code: "03",
 			},
-			"Saint George": {
+			"SAINT GEORGE": {
 				Code: "04",
 			},
-			"Saint Patrick": {
+			"SAINT PATRICK": {
 				Code: "05",
 			},
 		},
@@ -48543,79 +48543,79 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Amazonas": {
+			"AMAZONAS": {
 				Code: "Z",
 			},
-			"Anzoátegui": {
+			"ANZOÁTEGUI": {
 				Code: "B",
 			},
-			"Apure": {
+			"APURE": {
 				Code: "C",
 			},
-			"Aragua": {
+			"ARAGUA": {
 				Code: "D",
 			},
-			"Barinas": {
+			"BARINAS": {
 				Code: "E",
 			},
-			"Bolívar": {
+			"BOLÍVAR": {
 				Code: "F",
 			},
-			"Carabobo": {
+			"CARABOBO": {
 				Code: "G",
 			},
-			"Cojedes": {
+			"COJEDES": {
 				Code: "H",
 			},
-			"Delta Amacuro": {
+			"DELTA AMACURO": {
 				Code: "Y",
 			},
-			"Dependencias Federales": {
+			"DEPENDENCIAS FEDERALES": {
 				Code: "W",
 			},
-			"Distrito Capital": {
+			"DISTRITO CAPITAL": {
 				Code: "A",
 			},
-			"Falcón": {
+			"FALCÓN": {
 				Code: "I",
 			},
-			"Guárico": {
+			"GUÁRICO": {
 				Code: "J",
 			},
-			"Lara": {
+			"LARA": {
 				Code: "K",
 			},
-			"Miranda": {
+			"MIRANDA": {
 				Code: "M",
 			},
-			"Monagas": {
+			"MONAGAS": {
 				Code: "N",
 			},
-			"Mérida": {
+			"MÉRIDA": {
 				Code: "L",
 			},
-			"Nueva Esparta": {
+			"NUEVA ESPARTA": {
 				Code: "O",
 			},
-			"Portuguesa": {
+			"PORTUGUESA": {
 				Code: "P",
 			},
-			"Sucre": {
+			"SUCRE": {
 				Code: "R",
 			},
-			"Trujillo": {
+			"TRUJILLO": {
 				Code: "T",
 			},
-			"Táchira": {
+			"TÁCHIRA": {
 				Code: "S",
 			},
-			"Vargas": {
+			"VARGAS": {
 				Code: "X",
 			},
-			"Yaracuy": {
+			"YARACUY": {
 				Code: "U",
 			},
-			"Zulia": {
+			"ZULIA": {
 				Code: "V",
 			},
 		},
@@ -49031,193 +49031,193 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"An Giang": {
+			"AN GIANG": {
 				Code: "44",
 			},
-			"Bà Rịa - Vũng Tàu": {
+			"BÀ RỊA - VŨNG TÀU": {
 				Code: "43",
 			},
-			"Bình Dương": {
+			"BÌNH DƯƠNG": {
 				Code: "57",
 			},
-			"Bình Phước": {
+			"BÌNH PHƯỚC": {
 				Code: "58",
 			},
-			"Bình Thuận": {
+			"BÌNH THUẬN": {
 				Code: "40",
 			},
-			"Bình Định": {
+			"BÌNH ĐỊNH": {
 				Code: "31",
 			},
-			"Bạc Liêu": {
+			"BẠC LIÊU": {
 				Code: "55",
 			},
-			"Bắc Giang": {
+			"BẮC GIANG": {
 				Code: "54",
 			},
-			"Bắc Kạn": {
+			"BẮC KẠN": {
 				Code: "53",
 			},
-			"Bắc Ninh": {
+			"BẮC NINH": {
 				Code: "56",
 			},
-			"Bến Tre": {
+			"BẾN TRE": {
 				Code: "50",
 			},
-			"Can Tho": {
+			"CAN THO": {
 				Code: "CT",
 			},
-			"Cao Bằng": {
+			"CAO BẰNG": {
 				Code: "04",
 			},
-			"Cà Mau": {
+			"CÀ MAU": {
 				Code: "59",
 			},
-			"Da Nang": {
+			"DA NANG": {
 				Code: "DN",
 			},
-			"Gia Lai": {
+			"GIA LAI": {
 				Code: "30",
 			},
-			"Ha Noi": {
+			"HA NOI": {
 				Code: "HN",
 			},
-			"Hai Phong": {
+			"HAI PHONG": {
 				Code: "HP",
 			},
-			"Ho Chi Minh": {
+			"HO CHI MINH": {
 				Code: "SG",
 			},
-			"Hà Giang": {
+			"HÀ GIANG": {
 				Code: "03",
 			},
-			"Hà Nam": {
+			"HÀ NAM": {
 				Code: "63",
 			},
-			"Hà Tĩnh": {
+			"HÀ TĨNH": {
 				Code: "23",
 			},
-			"Hòa Bình": {
+			"HÒA BÌNH": {
 				Code: "14",
 			},
-			"Hưng Yên": {
+			"HƯNG YÊN": {
 				Code: "66",
 			},
-			"Hải Dương": {
+			"HẢI DƯƠNG": {
 				Code: "61",
 			},
-			"Hậu Giang": {
+			"HẬU GIANG": {
 				Code: "73",
 			},
-			"Khánh Hòa": {
+			"KHÁNH HÒA": {
 				Code: "34",
 			},
-			"Kiến Giang": {
+			"KIẾN GIANG": {
 				Code: "47",
 			},
-			"Kon Tum": {
+			"KON TUM": {
 				Code: "28",
 			},
-			"Lai Châu": {
+			"LAI CHÂU": {
 				Code: "01",
 			},
-			"Long An": {
+			"LONG AN": {
 				Code: "41",
 			},
-			"Lào Cai": {
+			"LÀO CAI": {
 				Code: "02",
 			},
-			"Lâm Đồng": {
+			"LÂM ĐỒNG": {
 				Code: "35",
 			},
-			"Lạng Sơn": {
+			"LẠNG SƠN": {
 				Code: "09",
 			},
-			"Nam Định": {
+			"NAM ĐỊNH": {
 				Code: "67",
 			},
-			"Nghệ An": {
+			"NGHỆ AN": {
 				Code: "22",
 			},
-			"Ninh Bình": {
+			"NINH BÌNH": {
 				Code: "18",
 			},
-			"Ninh Thuận": {
+			"NINH THUẬN": {
 				Code: "36",
 			},
-			"Phú Thọ": {
+			"PHÚ THỌ": {
 				Code: "68",
 			},
-			"Phú Yên": {
+			"PHÚ YÊN": {
 				Code: "32",
 			},
-			"Quảng Bình": {
+			"QUẢNG BÌNH": {
 				Code: "24",
 			},
-			"Quảng Nam": {
+			"QUẢNG NAM": {
 				Code: "27",
 			},
-			"Quảng Ngãi": {
+			"QUẢNG NGÃI": {
 				Code: "29",
 			},
-			"Quảng Ninh": {
+			"QUẢNG NINH": {
 				Code: "13",
 			},
-			"Quảng Trị": {
+			"QUẢNG TRỊ": {
 				Code: "25",
 			},
-			"Sóc Trăng": {
+			"SÓC TRĂNG": {
 				Code: "52",
 			},
-			"Sơn La": {
+			"SƠN LA": {
 				Code: "05",
 			},
-			"Thanh Hóa": {
+			"THANH HÓA": {
 				Code: "21",
 			},
-			"Thái Bình": {
+			"THÁI BÌNH": {
 				Code: "20",
 			},
-			"Thái Nguyên": {
+			"THÁI NGUYÊN": {
 				Code: "69",
 			},
-			"Thừa Thiên-Huế": {
+			"THỪA THIÊN-HUẾ": {
 				Code: "26",
 			},
-			"Tiền Giang": {
+			"TIỀN GIANG": {
 				Code: "46",
 			},
-			"Trà Vinh": {
+			"TRÀ VINH": {
 				Code: "51",
 			},
-			"Tuyên Quang": {
+			"TUYÊN QUANG": {
 				Code: "07",
 			},
-			"Tây Ninh": {
+			"TÂY NINH": {
 				Code: "37",
 			},
-			"Vĩnh Long": {
+			"VĨNH LONG": {
 				Code: "49",
 			},
-			"Vĩnh Phúc": {
+			"VĨNH PHÚC": {
 				Code: "70",
 			},
-			"Yên Bái": {
+			"YÊN BÁI": {
 				Code: "06",
 			},
-			"Điện Biên": {
+			"ĐIỆN BIÊN": {
 				Code: "71",
 			},
-			"Đắk Lắk": {
+			"ĐẮK LẮK": {
 				Code: "33",
 			},
-			"Đắk Nông": {
+			"ĐẮK NÔNG": {
 				Code: "72",
 			},
-			"Đồng Nai": {
+			"ĐỒNG NAI": {
 				Code: "39",
 			},
-			"Đồng Tháp": {
+			"ĐỒNG THÁP": {
 				Code: "45",
 			},
 		},
@@ -49273,22 +49273,22 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Malampa": {
+			"MALAMPA": {
 				Code: "MAP",
 			},
-			"Pénama": {
+			"PÉNAMA": {
 				Code: "PAM",
 			},
-			"Sanma": {
+			"SANMA": {
 				Code: "SAM",
 			},
-			"Shéfa": {
+			"SHÉFA": {
 				Code: "SEE",
 			},
-			"Taféa": {
+			"TAFÉA": {
 				Code: "TAE",
 			},
-			"Torba": {
+			"TORBA": {
 				Code: "TOB",
 			},
 		},
@@ -49326,13 +49326,13 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Alo": {
+			"ALO": {
 				Code: "AL",
 			},
-			"Sigave": {
+			"SIGAVE": {
 				Code: "SG",
 			},
-			"Uvea": {
+			"UVEA": {
 				Code: "UV",
 			},
 		},
@@ -49418,37 +49418,37 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"A'ana": {
+			"A'ANA": {
 				Code: "AA",
 			},
-			"Aiga-i-le-Tai": {
+			"AIGA-I-LE-TAI": {
 				Code: "AL",
 			},
-			"Atua": {
+			"ATUA": {
 				Code: "AT",
 			},
-			"Fa'asaleleaga": {
+			"FA'ASALELEAGA": {
 				Code: "FA",
 			},
-			"Gaga'emauga": {
+			"GAGA'EMAUGA": {
 				Code: "GE",
 			},
-			"Gagaifomauga": {
+			"GAGAIFOMAUGA": {
 				Code: "GI",
 			},
-			"Palauli": {
+			"PALAULI": {
 				Code: "PA",
 			},
-			"Satupa'itea": {
+			"SATUPA'ITEA": {
 				Code: "SA",
 			},
-			"Tuamasaga": {
+			"TUAMASAGA": {
 				Code: "TU",
 			},
-			"Va'a-o-Fonoti": {
+			"VA'A-O-FONOTI": {
 				Code: "VF",
 			},
-			"Vaisigano": {
+			"VAISIGANO": {
 				Code: "VS",
 			},
 		},
@@ -49600,70 +49600,70 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Abyan": {
+			"ABYAN": {
 				Code: "AB",
 			},
-			"Al Bayḑā’": {
+			"AL BAYḐĀ’": {
 				Code: "BA",
 			},
-			"Al Jawf": {
+			"AL JAWF": {
 				Code: "JA",
 			},
-			"Al Mahrah": {
+			"AL MAHRAH": {
 				Code: "MR",
 			},
-			"Al Maḩwīt": {
+			"AL MAḨWĪT": {
 				Code: "MW",
 			},
-			"Al Ḩudaydah": {
+			"AL ḨUDAYDAH": {
 				Code: "HU",
 			},
-			"Amānat al ‘Āşimah [city]": {
+			"AMĀNAT AL ‘ĀŞIMAH [CITY]": {
 				Code: "SA",
 			},
-			"Arkhabīl Suquţrá": {
+			"ARKHABĪL SUQUŢRÁ": {
 				Code: "SU",
 			},
-			"Aḑ Ḑāli‘": {
+			"AḐ ḐĀLI‘": {
 				Code: "DA",
 			},
-			"Dhamār": {
+			"DHAMĀR": {
 				Code: "DH",
 			},
-			"Ibb": {
+			"IBB": {
 				Code: "IB",
 			},
-			"Laḩij": {
+			"LAḨIJ": {
 				Code: "LA",
 			},
-			"Ma’rib": {
+			"MA’RIB": {
 				Code: "MA",
 			},
-			"Raymah": {
+			"RAYMAH": {
 				Code: "RA",
 			},
-			"Shabwah": {
+			"SHABWAH": {
 				Code: "SH",
 			},
-			"Tāʻizz": {
+			"TĀʻIZZ": {
 				Code: "TA",
 			},
-			"Şanʻā’": {
+			"ŞANʻĀ’": {
 				Code: "SN",
 			},
-			"Şāʻdah": {
+			"ŞĀʻDAH": {
 				Code: "SD",
 			},
-			"Ḩajjah": {
+			"ḨAJJAH": {
 				Code: "HJ",
 			},
-			"Ḩaḑramawt": {
+			"ḨAḐRAMAWT": {
 				Code: "HD",
 			},
-			"‘Adan": {
+			"‘ADAN": {
 				Code: "AD",
 			},
-			"‘Amrān": {
+			"‘AMRĀN": {
 				Code: "AM",
 			},
 		},
@@ -49746,31 +49746,31 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Eastern Cape": {
+			"EASTERN CAPE": {
 				Code: "EC",
 			},
-			"Free State": {
+			"FREE STATE": {
 				Code: "FS",
 			},
-			"Gauteng": {
+			"GAUTENG": {
 				Code: "GP",
 			},
-			"Kwazulu-Natal": {
+			"KWAZULU-NATAL": {
 				Code: "KZN",
 			},
-			"Limpopo": {
+			"LIMPOPO": {
 				Code: "LP",
 			},
-			"Mpumalanga": {
+			"MPUMALANGA": {
 				Code: "MP",
 			},
-			"North-West": {
+			"NORTH-WEST": {
 				Code: "NW",
 			},
-			"Northern Cape": {
+			"NORTHERN CAPE": {
 				Code: "NC",
 			},
-			"Western Cape": {
+			"WESTERN CAPE": {
 				Code: "WC",
 			},
 		},
@@ -49850,34 +49850,34 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Central": {
+			"CENTRAL": {
 				Code: "02",
 			},
-			"Copperbelt": {
+			"COPPERBELT": {
 				Code: "08",
 			},
-			"Eastern": {
+			"EASTERN": {
 				Code: "03",
 			},
-			"Luapula": {
+			"LUAPULA": {
 				Code: "04",
 			},
-			"Lusaka": {
+			"LUSAKA": {
 				Code: "09",
 			},
-			"Muchinga": {
+			"MUCHINGA": {
 				Code: "10",
 			},
-			"North-Western": {
+			"NORTH-WESTERN": {
 				Code: "06",
 			},
-			"Northern": {
+			"NORTHERN": {
 				Code: "05",
 			},
-			"Southern": {
+			"SOUTHERN": {
 				Code: "07",
 			},
-			"Western": {
+			"WESTERN": {
 				Code: "01",
 			},
 		},
@@ -49957,34 +49957,34 @@ var CountryStates = map[string]Country{
 
 		SubDivNameToCode: map[string]SubDivisionCodeWrapper{
 
-			"Bulawayo": {
+			"BULAWAYO": {
 				Code: "BU",
 			},
-			"Harare": {
+			"HARARE": {
 				Code: "HA",
 			},
-			"Manicaland": {
+			"MANICALAND": {
 				Code: "MA",
 			},
-			"Mashonaland Central": {
+			"MASHONALAND CENTRAL": {
 				Code: "MC",
 			},
-			"Mashonaland East": {
+			"MASHONALAND EAST": {
 				Code: "ME",
 			},
-			"Mashonaland West": {
+			"MASHONALAND WEST": {
 				Code: "MW",
 			},
-			"Masvingo": {
+			"MASVINGO": {
 				Code: "MV",
 			},
-			"Matabeleland North": {
+			"MATABELELAND NORTH": {
 				Code: "MN",
 			},
-			"Matabeleland South": {
+			"MATABELELAND SOUTH": {
 				Code: "MS",
 			},
-			"Midlands": {
+			"MIDLANDS": {
 				Code: "MI",
 			},
 		},

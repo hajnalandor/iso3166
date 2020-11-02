@@ -78,7 +78,7 @@ func buildSubDiv(parent map[string][]string,
 			Type:             subDiv.Type,
 			SubDivCodeToName: subSubDivCode,
 		}
-		parentSubDivNameMap[subDiv.Name] = SubDivisionCodeWrapper{
+		parentSubDivNameMap[strings.ToUpper(subDiv.Name)] = SubDivisionCodeWrapper{
 			Code:             strings.Split(subDiv.Code, "-")[1],
 			SubDivNameToCode: subSubDivName,
 		}
@@ -98,7 +98,7 @@ func buildSubSubDiv(parent []string, countryCode string, wrapper SubDivisionWrap
 			LanguageCode: subDiv.LanguageCode,
 			Type:         subDiv.Type,
 		}
-		tmpSubDivName[subDiv.Name] = SubDivisionCodeWrapper{
+		tmpSubDivName[strings.ToUpper(subDiv.Name)] = SubDivisionCodeWrapper{
 			Code: strings.Split(subDiv.Code, "-")[1],
 		}
 	}

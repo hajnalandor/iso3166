@@ -16,9 +16,9 @@ func CountryNameToAlpha2(name string) (string, error) {
 	if alpha2, ok := CountryToAlpha2[name]; ok {
 		return alpha2, nil
 	} else {
-		name = strings.ToLower(name)
+		name = strings.ToUpper(name)
 		for _, country := range CountryStates {
-			if strings.ToLower(country.Name) == name || strings.ToLower(country.OfficialName) == name || strings.ToLower(country.CommonName) == name {
+			if strings.ToUpper(country.Name) == name || strings.ToUpper(country.OfficialName) == name || strings.ToUpper(country.CommonName) == name {
 				return country.Alpha2, nil
 			}
 		}
@@ -30,9 +30,9 @@ func ValidCountryName(name string) bool {
 	if _, ok := CountryToAlpha2[name]; ok {
 		return true
 	} else {
-		name = strings.ToLower(name)
+		name = strings.ToUpper(name)
 		for _, country := range CountryStates {
-			if strings.ToLower(country.Name) == name || strings.ToLower(country.OfficialName) == name || strings.ToLower(country.CommonName) == name {
+			if strings.ToUpper(country.Name) == name || strings.ToUpper(country.OfficialName) == name || strings.ToUpper(country.CommonName) == name {
 				return true
 			}
 		}
@@ -77,6 +77,7 @@ func ValidCountryCode(code string) bool {
 
 func SubDivisionNameToCode(countryCode, subDivName string) (string, error) {
 	countryCode = strings.ToUpper(countryCode)
+	subDivName = strings.ToUpper(subDivName)
 	if !ValidCountryCode(countryCode) {
 		var err error
 		countryCode, err = CountryNameToAlpha2(countryCode)
@@ -92,9 +93,8 @@ func SubDivisionNameToCode(countryCode, subDivName string) (string, error) {
 			return codeWrapper.Code, nil
 		}
 	}
-	subDivName = strings.ToLower(subDivName)
 	for subDivCode, subDivWrapper := range CountryStates[countryCode].SubDivCodeToName {
-		if strings.ToLower(subDivWrapper.Name) == subDivName || strings.ToLower(subDivWrapper.LocalName) == subDivName {
+		if subDivWrapper.Name == subDivName || subDivWrapper.LocalName == subDivName {
 			return subDivCode, nil
 		}
 	}

@@ -331,6 +331,12 @@ func TestSubDivisionNameToCode(t *testing.T) {
 			want:        "02",
 			wantErr:     false,
 		},
+		{
+			countryCode: "GB",
+			subDivName:  "West Berkshire",
+			want:        "WBK",
+			wantErr:     false,
+		},
 	}
 	for _, tt := range tests {
 		tt := tt
