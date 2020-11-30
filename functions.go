@@ -6,12 +6,13 @@ import (
 )
 
 var (
-	ErrInvalidCountryName = errors.New("invalid country name")
-	ErrInvalidCountryCode = errors.New("invalid country code")
-	ErrInvalidSubDivName  = errors.New("invalid state name")
-	ErrInvalidSubDivCode  = errors.New("invalid state code")
+	ErrInvalidCountryName   = errors.New("invalid country name")
+	ErrInvalidCountryAlpha2 = errors.New("invalid country alpha2")
+	ErrInvalidSubDivName    = errors.New("invalid state name")
+	ErrInvalidSubDivCode    = errors.New("invalid state code")
 )
 
+// CountryNameToAlpha2 returns the countries alpha2 representation
 func CountryNameToAlpha2(name string) (string, error) {
 	if alpha2, ok := CountryToAlpha2[name]; ok {
 		return alpha2, nil
@@ -26,6 +27,9 @@ func CountryNameToAlpha2(name string) (string, error) {
 	return "", ErrInvalidCountryName
 }
 
+// ValidCountryName is validate whether the country name is a valid name,
+// looking in the alpha2 representation, country's name, country's official
+// name and country's common name
 func ValidCountryName(name string) bool {
 	if _, ok := CountryToAlpha2[name]; ok {
 		return true
@@ -41,59 +45,64 @@ func ValidCountryName(name string) bool {
 	return false
 }
 
-func CountryCodeToName(code string) (string, error) {
-	code = strings.ToUpper(code)
-	if country, ok := CountryStates[code]; ok {
+// CountryAlpha2ToName returns the country's name from alpha2 representation
+func CountryAlpha2ToName(alpha2 string) (string, error) {
+	alpha2 = strings.ToUpper(alpha2)
+	if country, ok := CountryStates[alpha2]; ok {
 		return country.Name, nil
 	}
 
-	return "", ErrInvalidCountryCode
+	return "", ErrInvalidCountryAlpha2
 }
 
-func CountryCodeToOfficialName(code string) (string, error) {
-	code = strings.ToUpper(code)
-	if country, ok := CountryStates[code]; ok {
+// CountryAlpha2ToOfficalName returns the country's offical name from alpha2 representation
+func CountryAlpha2ToOfficialName(alpha2 string) (string, error) {
+	alpha2 = strings.ToUpper(alpha2)
+	if country, ok := CountryStates[alpha2]; ok {
 		return country.OfficialName, nil
 	}
 
-	return "", ErrInvalidCountryCode
+	return "", ErrInvalidCountryAlpha2
 }
 
-func CountryCodeToCommonName(code string) (string, error) {
-	code = strings.ToUpper(code)
-	if country, ok := CountryStates[code]; ok {
+// CountryAlpha2ToCommonName returns the country's common name from alpha2 representation
+func CountryAlpha2ToCommonName(alpha2 string) (string, error) {
+	alpha2 = strings.ToUpper(alpha2)
+	if country, ok := CountryStates[alpha2]; ok {
 		return country.CommonName, nil
 	}
 
-	return "", ErrInvalidCountryCode
+	return "", ErrInvalidCountryAlpha2
 }
 
-func ValidCountryCode(code string) bool {
-	code = strings.ToUpper(code)
-	_, ok := CountryStates[code]
+// ValidCountryAlpha2 validates the alpha2 representation
+func ValidCountryAlpha2(alpha2 string) bool {
+	alpha2 = strings.ToUpper(alpha2)
+	_, ok := CountryStates[alpha2]
 
 	return ok
 }
 
-func SubDivisionNameToCode(countryCode, subDivName string) (string, error) {
-	countryCode = strings.ToUpper(countryCode)
+// SubdivisionNameToCode returns the subdivision's code from it's name
+func SubdivisionNameToCode(countryAlpha2, subDivName string) (string, error) {
+	countryAlpha2 = strings.ToUpper(countryAlpha2)
 	subDivName = strings.ToUpper(subDivName)
-	if !ValidCountryCode(countryCode) {
+	if !ValidCountryAlpha2(countryAlpha2) {
 		var err error
-		countryCode, err = CountryNameToAlpha2(countryCode)
+		countryAlpha2, err = CountryNameToAlpha2(countryAlpha2)
 		if err != nil {
 			return "", err
 		}
 	}
-	if c, ok := CountryStates[countryCode].SubDivNameToCode[subDivName]; ok {
+	if c, ok := CountryStates[countryAlpha2].SubDivNameToCode[subDivName]; ok {
 		return c.Code, nil
 	}
-	for _, subDiv := range CountryStates[countryCode].SubDivNameToCode {
+	for _, subDiv := range CountryStates[countryAlpha2].SubDivNameToCode {
 		if codeWrapper, ok := subDiv.SubDivNameToCode[subDivName]; ok {
 			return codeWrapper.Code, nil
 		}
 	}
-	for subDivCode, subDivWrapper := range CountryStates[countryCode].SubDivCodeToName {
+	for subDivCode, subDivWrapper := range CountryStates[countryAlpha2].SubDivCodeToName {
 		if subDivWrapper.Name == subDivName || subDivWrapper.LocalName == subDivName {
 			return subDivCode, nil
 		}
@@ -102,19 +111,20 @@ func SubDivisionNameToCode(countryCode, subDivName string) (string, error) {
 	return "", ErrInvalidSubDivName
 }
 
-func SubDivisionCodeToName(countryCode, subDivCode string) (string, error) {
-	countryCode = strings.ToUpper(countryCode)
-	if !ValidCountryCode(countryCode) {
+// SubdivisionCodeToName returns the subdivison's name from it's code
+func SubdivisionCodeToName(countryAlpha2, subDivCode string) (string, error) {
+	countryAlpha2 = strings.ToUpper(countryAlpha2)
+	if !ValidCountryAlpha2(countryAlpha2) {
 		var err error
-		countryCode, err = CountryNameToAlpha2(countryCode)
+		countryAlpha2, err = CountryNameToAlpha2(countryAlpha2)
 		if err != nil {
 			return "", err
 		}
 	}
-	if c, ok := CountryStates[countryCode].SubDivCodeToName[subDivCode]; ok {
+	if c, ok := CountryStates[countryAlpha2].SubDivCodeToName[subDivCode]; ok {
 		return c.Name, nil
 	}
-	for _, subDiv := range CountryStates[countryCode].SubDivCodeToName {
+	for _, subDiv := range CountryStates[countryAlpha2].SubDivCodeToName {
 		if codeWrapper, ok := subDiv.SubDivCodeToName[subDivCode]; ok {
 			return codeWrapper.Name, nil
 		}
@@ -123,19 +133,20 @@ func SubDivisionCodeToName(countryCode, subDivCode string) (string, error) {
 	return "", ErrInvalidSubDivCode
 }
 
-func ValidSubDivisionCode(countryCode, subDivCode string) bool {
-	countryCode = strings.ToUpper(countryCode)
-	if !ValidCountryCode(countryCode) {
+// ValidSubdivisonCode validate the code of the subdivison
+func ValidSubdivisionCode(countryAlpha2, subDivCode string) bool {
+	countryAlpha2 = strings.ToUpper(countryAlpha2)
+	if !ValidCountryAlpha2(countryAlpha2) {
 		var err error
-		countryCode, err = CountryNameToAlpha2(countryCode)
+		countryAlpha2, err = CountryNameToAlpha2(countryAlpha2)
 		if err != nil {
 			return false
 		}
 	}
-	if _, ok := CountryStates[countryCode].SubDivCodeToName[subDivCode]; ok {
+	if _, ok := CountryStates[countryAlpha2].SubDivCodeToName[subDivCode]; ok {
 		return true
 	}
-	for _, subDiv := range CountryStates[countryCode].SubDivCodeToName {
+	for _, subDiv := range CountryStates[countryAlpha2].SubDivCodeToName {
 		if _, ok := subDiv.SubDivCodeToName[subDivCode]; ok {
 			return true
 		}

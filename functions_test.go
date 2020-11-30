@@ -117,7 +117,7 @@ func TestCountryCodeToName(t *testing.T) {
 	for _, tt := range tests {
 		tt := tt
 		t.Run(tt.code, func(t *testing.T) {
-			got, err := CountryCodeToName(tt.code)
+			got, err := CountryAlpha2ToName(tt.code)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("CountryCodeToName() error = %v, wantErr %v", err, tt.wantErr)
 
@@ -167,7 +167,7 @@ func TestValidCountryCode(t *testing.T) {
 	for _, tt := range tests {
 		tt := tt
 		t.Run(tt.code, func(t *testing.T) {
-			if got := ValidCountryCode(tt.code); got != tt.want {
+			if got := ValidCountryAlpha2(tt.code); got != tt.want {
 				t.Errorf("ValidCountryCode() = %v, want %v", got, tt.want)
 			}
 		})
@@ -341,7 +341,7 @@ func TestSubDivisionNameToCode(t *testing.T) {
 	for _, tt := range tests {
 		tt := tt
 		t.Run(tt.countryCode+tt.subDivName, func(t *testing.T) {
-			got, err := SubDivisionNameToCode(tt.countryCode, tt.subDivName)
+			got, err := SubdivisionNameToCode(tt.countryCode, tt.subDivName)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("SubDivisionNameToCode() error = %v, wantErr %v", err, tt.wantErr)
 
@@ -361,7 +361,7 @@ func BenchmarkSubDivisionNameToCodeCaseInsensitive(b *testing.B) {
 	var err error
 	b.ReportAllocs()
 	for i := 0; i < b.N; i++ {
-		subDivCode, err = SubDivisionNameToCode(countryCode, subDivName)
+		subDivCode, err = SubdivisionNameToCode(countryCode, subDivName)
 		if err != nil {
 			b.Error(err)
 		}
@@ -378,7 +378,7 @@ func BenchmarkSubDivisionNameToCodeCaseSensitive(b *testing.B) {
 	var err error
 	b.ReportAllocs()
 	for i := 0; i < b.N; i++ {
-		subDivCode, err = SubDivisionNameToCode(countryCode, subDivName)
+		subDivCode, err = SubdivisionNameToCode(countryCode, subDivName)
 		if err != nil {
 			b.Error(err)
 		}
