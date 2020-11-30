@@ -70,7 +70,7 @@ func TestValidCountryName(t *testing.T) {
 	for _, tt := range tests {
 		tt := tt
 		t.Run(tt.name, func(t *testing.T) {
-			if got := ValidCountryName(tt.name); got != tt.want {
+			if got := ValidateCountryName(tt.name); got != tt.want {
 				t.Errorf("ValidCountryName() = %v, want %v", got, tt.want)
 			}
 		})
@@ -167,7 +167,7 @@ func TestValidCountryCode(t *testing.T) {
 	for _, tt := range tests {
 		tt := tt
 		t.Run(tt.code, func(t *testing.T) {
-			if got := ValidCountryAlpha2(tt.code); got != tt.want {
+			if got := ValidateCountryAlpha2(tt.code); got != tt.want {
 				t.Errorf("ValidCountryCode() = %v, want %v", got, tt.want)
 			}
 		})

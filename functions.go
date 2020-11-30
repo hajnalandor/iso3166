@@ -27,10 +27,10 @@ func CountryNameToAlpha2(name string) (string, error) {
 	return "", ErrInvalidCountryName
 }
 
-// ValidCountryName is validate whether the country name is a valid name,
+// ValidateCountryName is validate whether the country name is a valid name,
 // looking in the alpha2 representation, country's name, country's official
 // name and country's common name
-func ValidCountryName(name string) bool {
+func ValidateCountryName(name string) bool {
 	if _, ok := CountryToAlpha2[name]; ok {
 		return true
 	} else {
@@ -75,8 +75,8 @@ func CountryAlpha2ToCommonName(alpha2 string) (string, error) {
 	return "", ErrInvalidCountryAlpha2
 }
 
-// ValidCountryAlpha2 validates the alpha2 representation
-func ValidCountryAlpha2(alpha2 string) bool {
+// ValidateCountryAlpha2 validates the alpha2 representation
+func ValidateCountryAlpha2(alpha2 string) bool {
 	alpha2 = strings.ToUpper(alpha2)
 	_, ok := CountryStates[alpha2]
 
@@ -87,7 +87,7 @@ func ValidCountryAlpha2(alpha2 string) bool {
 func SubdivisionNameToCode(countryAlpha2, subDivName string) (string, error) {
 	countryAlpha2 = strings.ToUpper(countryAlpha2)
 	subDivName = strings.ToUpper(subDivName)
-	if !ValidCountryAlpha2(countryAlpha2) {
+	if !ValidateCountryAlpha2(countryAlpha2) {
 		var err error
 		countryAlpha2, err = CountryNameToAlpha2(countryAlpha2)
 		if err != nil {
@@ -114,7 +114,7 @@ func SubdivisionNameToCode(countryAlpha2, subDivName string) (string, error) {
 // SubdivisionCodeToName returns the subdivison's name from it's code
 func SubdivisionCodeToName(countryAlpha2, subDivCode string) (string, error) {
 	countryAlpha2 = strings.ToUpper(countryAlpha2)
-	if !ValidCountryAlpha2(countryAlpha2) {
+	if !ValidateCountryAlpha2(countryAlpha2) {
 		var err error
 		countryAlpha2, err = CountryNameToAlpha2(countryAlpha2)
 		if err != nil {
@@ -133,10 +133,10 @@ func SubdivisionCodeToName(countryAlpha2, subDivCode string) (string, error) {
 	return "", ErrInvalidSubDivCode
 }
 
-// ValidSubdivisonCode validate the code of the subdivison
-func ValidSubdivisionCode(countryAlpha2, subDivCode string) bool {
+// ValidateSubdivisonCode validate the code of the subdivison
+func ValidateSubdivisionCode(countryAlpha2, subDivCode string) bool {
 	countryAlpha2 = strings.ToUpper(countryAlpha2)
-	if !ValidCountryAlpha2(countryAlpha2) {
+	if !ValidateCountryAlpha2(countryAlpha2) {
 		var err error
 		countryAlpha2, err = CountryNameToAlpha2(countryAlpha2)
 		if err != nil {
