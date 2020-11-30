@@ -61,17 +61,23 @@ iso3166.CountryAlpha2ToOfficalName("US") // output: "United States of America"
 #### Subdivision name to code
 
 ```
-iso3166.SubdivisonNameToCode("GB", "Bath and North East Somerset") // output: BAS
+iso3166.SubdivisionNameToCode("GB", "Bath and North East Somerset") // output: BAS
 ```
 
 #### Subdivision code to name
 
 ```
-iso3166.SubdivisonCodeToName("GB", "BAS") // output: Bath and North East Somerset
+iso3166.SubdivisionCodeToName("GB", "BAS") // output: Bath and North East Somerset
 ```
 
-#### Validate subdivison code
+#### Validate subdivision code
 
 ```
 iso3166.ValidateSubdivisionCode("GB", "BAS") // output: true
+```
+
+#### Validate subdivision name
+
+```
+iso3166.ValidateSubdivisionName("GB", "Bath and North East Somerset") // output: true
 ```
