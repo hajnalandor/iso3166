@@ -30,3 +30,11 @@ func TestGenerateCountryToAlpha2FromJSON(t *testing.T) {
 	data := getCountryNameToAlpha2Map(cw)
 	GenerateCountryToAlpha2(data)
 }
+
+func TestGenerateCountryToAlpha3FromJSON(t *testing.T) {
+	var cw CountryWrapper
+	MustParseJSONFile("../../data/iso3166-1.json", &cw)
+
+	data := getCountryNameToAlpha3Map(cw)
+	GenerateCountryToAlpha3(data)
+}
