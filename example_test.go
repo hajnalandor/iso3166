@@ -6,8 +6,8 @@ import (
 	"github.com/hajnalandor/iso3166"
 )
 
-func ExampleCountryCodeToName() {
-	name, err := iso3166.CountryCodeToName("US")
+func exampleCountryCodeToName() {
+	name, err := iso3166.CountryAlpha2ToName("US")
 	if err != nil {
 		panic(err)
 	}
@@ -16,7 +16,7 @@ func ExampleCountryCodeToName() {
 	// United States
 }
 
-func ExampleCountryNameToAlpha2() {
+func exampleCountryNameToAlpha2() {
 	name, err := iso3166.CountryNameToAlpha2("United States")
 	if err != nil {
 		panic(err)
@@ -26,9 +26,8 @@ func ExampleCountryNameToAlpha2() {
 	// US
 }
 
-
-func ExampleSubDivisionNameToCode() {
-	code, err := iso3166.SubDivisionNameToCode("GB", "Bath and North East Somerset")
+func exampleSubDivisionNameToCode() {
+	code, err := iso3166.SubdivisionNameToCode("GB", "Bath and North East Somerset")
 	if err != nil {
 		panic(err)
 	}
@@ -36,5 +35,3 @@ func ExampleSubDivisionNameToCode() {
 	// Output:
 	// BAS
 }
-
-
