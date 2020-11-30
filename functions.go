@@ -8,6 +8,7 @@ import (
 var (
 	ErrInvalidCountryName   = errors.New("invalid country name")
 	ErrInvalidCountryAlpha2 = errors.New("invalid country alpha2")
+	ErrInvalidCountryAlpha3 = errors.New("invalid country alpha3")
 	ErrInvalidSubDivName    = errors.New("invalid state name")
 	ErrInvalidSubDivCode    = errors.New("invalid state code")
 )
@@ -81,6 +82,33 @@ func ValidateCountryAlpha2(alpha2 string) bool {
 	_, ok := CountryStates[alpha2]
 
 	return ok
+}
+
+// CountryNameToAlpha3 returns the countries alpha3 representation
+func CountryNameToAlpha3(name string) (string, error) {
+	if alpha3, ok := CountryToAlpha3[name]; ok {
+		return alpha3, nil
+	} else {
+		name = strings.ToUpper(name)
+		for _, country := range CountryStates {
+			if strings.ToUpper(country.Name) == name || strings.ToUpper(country.OfficialName) == name || strings.ToUpper(country.CommonName) == name {
+				return country.Alpha3, nil
+			}
+		}
+	}
+	return "", ErrInvalidCountryName
+}
+
+// CountryAlpha3ToName returns the country's name from alpha3 representation
+func CountryAlpha3ToName(alpha3 string) (string, error) {
+	alpha3 = strings.ToUpper(alpha3)
+	for n, alpha3Variant := range CountryToAlpha3 {
+		if alpha3Variant == alpha3 {
+			return n, nil
+		}
+	}
+
+	return "", ErrInvalidCountryAlpha3
 }
 
 // SubdivisionNameToCode returns the subdivision's code from it's name

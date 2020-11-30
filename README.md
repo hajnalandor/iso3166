@@ -52,6 +52,18 @@ iso3166.ValidateCountryAlpha2("US") // output: true
 iso3166.CountryAlpha2ToCommonName("US") // output: "" United States doesn't have common name
 ```
 
+#### Country name to alpha3 code
+
+```
+iso3166.CountryNameToAlpha3("United States") // output: USA
+```
+
+#### Country alpha3 code to name
+
+```
+iso3166.CountryAlpha3ToName("USA") // output: United States
+```
+
 #### Country alpha2 code to offical name
 
 ```
