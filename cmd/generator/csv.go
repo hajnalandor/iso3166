@@ -10,18 +10,16 @@ import (
 	"github.com/gocarina/gocsv"
 )
 
-type SubDiv struct {
+type csvLine struct {
 	Type               string `csv:"type"`
 	Code               string `csv:"code"`
 	Name               string `csv:"name"`
 	Local              string `csv:"local"`
-	LanguageCode       string `csv:"language"`
-	RomanizationSystem string `csv:"rsystem"`
 	Parent             string `csv:"parent"`
 }
 
-func MustParseCsv(fileName string) []SubDiv {
-	parseCsv, err := ParseCsv(fileName)
+func mustParseCsv(fileName string) []csvLine {
+	parseCsv, err := parseCsv(fileName)
 	if err != nil {
 		panic(err)
 	}
@@ -29,14 +27,14 @@ func MustParseCsv(fileName string) []SubDiv {
 	return parseCsv
 }
 
-func ParseCsv(fileName string) ([]SubDiv, error) {
+func parseCsv(fileName string) ([]csvLine, error) {
 	csvFile, err := os.Open(fileName)
 	if err != nil {
 		return nil, fmt.Errorf("couldn't open the csv file because %v", err)
 	}
 
 	reader := csv.NewReader(bufio.NewReader(csvFile))
-	var lines []SubDiv
+	var lines []csvLine
 
 	if err := gocsv.UnmarshalCSV(reader, &lines); err != nil {
 		return nil, err
@@ -45,28 +43,34 @@ func ParseCsv(fileName string) ([]SubDiv, error) {
 	return cleanLines(lines), nil
 }
 
-func cleanLines(csvLines []SubDiv) []SubDiv {
-	cLines := make([]SubDiv, 0)
+func cleanLines(csvLines []csvLine) []csvLine {
+	lines := make([]csvLine, 0)
 	for _, l := range csvLines {
 		l.Code = strings.Replace(l.Code, "*", "", -1)
-		cLines = append(cLines, l)
+		lines = append(lines, l)
 	}
 
-	return cLines
+	return lines
 }
 
-func mapToSubDivision(csvLines []SubDiv) SubDivisionWrapper {
-	sd := make([]SubDivision, 0)
+func csvToSubdivision(csvLines []csvLine) []subDivision {
+	csvLines = cleanLines(csvLines)
+
+	sd := make([]subDivision, 0)
 	for _, l := range csvLines {
-		sd = append(sd, SubDivision{
-			Name:         l.Name,
-			LocalName:    l.Local,
-			LanguageCode: l.LanguageCode,
-			Code:         l.Code,
-			Parent:       l.Parent,
-			Type:         l.Type,
+		splittedSubdivisionCode := strings.Split(l.Code,"-")
+		parentCode := ""
+		if s := strings.Split(l.Parent,"-"); len(s) == 2{
+			parentCode = s[1]
+		}
+		sd = append(sd, subDivision{
+			Name:              l.Name,
+			countryAlpha2Code: splittedSubdivisionCode[0],
+			Code:              splittedSubdivisionCode[1],
+			LocalName:         l.Local,
+			Type:              l.Type,
+			Parent:            parentCode,
 		})
 	}
-
-	return SubDivisionWrapper{SubDivisions: sd}
+	return sd
 }
