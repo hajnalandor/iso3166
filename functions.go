@@ -9,8 +9,10 @@ var (
 	ErrInvalidCountryName   = errors.New("invalid country name")
 	ErrInvalidCountryAlpha2 = errors.New("invalid country alpha2")
 	ErrInvalidCountryAlpha3 = errors.New("invalid country alpha3")
+	ErrCountryNotFound      = errors.New("country not found")
 	ErrInvalidSubDivName    = errors.New("invalid state name")
 	ErrInvalidSubDivCode    = errors.New("invalid state code")
+	ErrSubdivisionNotFound  = errors.New("subdivision not found")
 )
 
 // CountryNameToAlpha2 returns the countries alpha2 representation
@@ -19,7 +21,7 @@ func CountryNameToAlpha2(name string) (string, error) {
 		return alpha2, nil
 	} else {
 		name = strings.ToUpper(name)
-		for _, country := range CountryStates {
+		for _, country := range Countries {
 			if strings.ToUpper(country.Name) == name || strings.ToUpper(country.OfficialName) == name || strings.ToUpper(country.CommonName) == name {
 				return country.Alpha2, nil
 			}
@@ -36,7 +38,7 @@ func ValidateCountryName(name string) bool {
 		return true
 	} else {
 		name = strings.ToUpper(name)
-		for _, country := range CountryStates {
+		for _, country := range Countries {
 			if strings.ToUpper(country.Name) == name || strings.ToUpper(country.OfficialName) == name || strings.ToUpper(country.CommonName) == name {
 				return true
 			}
@@ -49,8 +51,10 @@ func ValidateCountryName(name string) bool {
 // CountryAlpha2ToName returns the country's name from alpha2 representation
 func CountryAlpha2ToName(alpha2 string) (string, error) {
 	alpha2 = strings.ToUpper(alpha2)
-	if country, ok := CountryStates[alpha2]; ok {
-		return country.Name, nil
+	for _, country := range Countries {
+		if country.Alpha2 == alpha2 {
+			return country.Name, nil
+		}
 	}
 
 	return "", ErrInvalidCountryAlpha2
@@ -59,8 +63,10 @@ func CountryAlpha2ToName(alpha2 string) (string, error) {
 // CountryAlpha2ToOfficalName returns the country's offical name from alpha2 representation
 func CountryAlpha2ToOfficialName(alpha2 string) (string, error) {
 	alpha2 = strings.ToUpper(alpha2)
-	if country, ok := CountryStates[alpha2]; ok {
-		return country.OfficialName, nil
+	for _, country := range Countries {
+		if country.Alpha2 == alpha2 {
+			return country.OfficialName, nil
+		}
 	}
 
 	return "", ErrInvalidCountryAlpha2
@@ -69,8 +75,10 @@ func CountryAlpha2ToOfficialName(alpha2 string) (string, error) {
 // CountryAlpha2ToCommonName returns the country's common name from alpha2 representation
 func CountryAlpha2ToCommonName(alpha2 string) (string, error) {
 	alpha2 = strings.ToUpper(alpha2)
-	if country, ok := CountryStates[alpha2]; ok {
-		return country.CommonName, nil
+	for _, country := range Countries {
+		if country.Alpha2 == alpha2 {
+			return country.CommonName, nil
+		}
 	}
 
 	return "", ErrInvalidCountryAlpha2
@@ -79,9 +87,13 @@ func CountryAlpha2ToCommonName(alpha2 string) (string, error) {
 // ValidateCountryAlpha2 validates the alpha2 representation
 func ValidateCountryAlpha2(alpha2 string) bool {
 	alpha2 = strings.ToUpper(alpha2)
-	_, ok := CountryStates[alpha2]
+	for _, country := range Countries {
+		if country.Alpha2 == alpha2 {
+			return true
+		}
+	}
 
-	return ok
+	return false
 }
 
 // CountryNameToAlpha3 returns the countries alpha3 representation
@@ -90,7 +102,7 @@ func CountryNameToAlpha3(name string) (string, error) {
 		return alpha3, nil
 	} else {
 		name = strings.ToUpper(name)
-		for _, country := range CountryStates {
+		for _, country := range Countries {
 			if strings.ToUpper(country.Name) == name || strings.ToUpper(country.OfficialName) == name || strings.ToUpper(country.CommonName) == name {
 				return country.Alpha3, nil
 			}
@@ -122,17 +134,13 @@ func SubdivisionNameToCode(countryAlpha2, subdivisionName string) (string, error
 			return "", err
 		}
 	}
-	if c, ok := CountryStates[countryAlpha2].SubDivNameToCode[subdivisionName]; ok {
-		return c.Code, nil
-	}
-	for _, subDiv := range CountryStates[countryAlpha2].SubDivNameToCode {
-		if codeWrapper, ok := subDiv.SubDivNameToCode[subdivisionName]; ok {
-			return codeWrapper.Code, nil
-		}
-	}
-	for subDivCode, subDivWrapper := range CountryStates[countryAlpha2].SubDivCodeToName {
-		if subDivWrapper.Name == subdivisionName || subDivWrapper.LocalName == subdivisionName {
-			return subDivCode, nil
+	for _, country := range Countries {
+		if country.Alpha2 == countryAlpha2 {
+			for _, subdivision := range country.Subdivisions {
+				if strings.ToUpper(subdivision.Name) == subdivisionName || strings.ToUpper(subdivision.LocalName) == subdivisionName {
+					return subdivision.Code, nil
+				}
+			}
 		}
 	}
 
@@ -149,12 +157,15 @@ func SubdivisionCodeToName(countryAlpha2, subdivisionCode string) (string, error
 			return "", err
 		}
 	}
-	if c, ok := CountryStates[countryAlpha2].SubDivCodeToName[subdivisionCode]; ok {
-		return c.Name, nil
-	}
-	for _, subDiv := range CountryStates[countryAlpha2].SubDivCodeToName {
-		if codeWrapper, ok := subDiv.SubDivCodeToName[subdivisionCode]; ok {
-			return codeWrapper.Name, nil
+
+	subdivisionCode = strings.ToUpper(subdivisionCode)
+	for _, country := range Countries {
+		if country.Alpha2 == countryAlpha2 {
+			for _, subdivision := range country.Subdivisions {
+				if subdivision.Code == subdivisionCode {
+					return subdivision.Name, nil
+				}
+			}
 		}
 	}
 
@@ -171,12 +182,15 @@ func ValidateSubdivisionCode(countryAlpha2, subdivisionCode string) bool {
 			return false
 		}
 	}
-	if _, ok := CountryStates[countryAlpha2].SubDivCodeToName[subdivisionCode]; ok {
-		return true
-	}
-	for _, subDiv := range CountryStates[countryAlpha2].SubDivCodeToName {
-		if _, ok := subDiv.SubDivCodeToName[subdivisionCode]; ok {
-			return true
+
+	subdivisionCode = strings.ToUpper(subdivisionCode)
+	for _, country := range Countries {
+		if country.Alpha2 == countryAlpha2 {
+			for _, subdivision := range country.Subdivisions {
+				if subdivision.Code == subdivisionCode {
+					return true
+				}
+			}
 		}
 	}
 	return false
@@ -187,4 +201,31 @@ func ValidateSubdivisionName(countryAlpha2, subdivisionName string) bool {
 		return false
 	}
 	return true
+}
+
+func ParseCountry(name string) (Country, error) {
+	name = strings.ToUpper(name)
+	for _, c := range Countries {
+		if strings.ToUpper(c.Name) == name || strings.ToUpper(c.OfficialName) == name ||
+			strings.ToUpper(c.CommonName) == name || c.Alpha2 == name || c.Alpha3 == name {
+			return c, nil
+		}
+	}
+	return Country{}, ErrCountryNotFound
+}
+
+func ParseSubdivision(countryAlpha2, subdivisionName string) (Subdivision, error) {
+	countryAlpha2 = strings.ToUpper(countryAlpha2)
+	subdivisionName = strings.ToUpper(subdivisionName)
+
+	for _, c := range Countries {
+		if c.Alpha2 == countryAlpha2 {
+			for _, subdivision := range c.Subdivisions {
+				if strings.ToUpper(subdivision.Name) == subdivisionName || strings.ToUpper(subdivision.LocalName) == subdivisionName {
+					return subdivision, nil
+				}
+			}
+		}
+	}
+	return Subdivision{}, ErrSubdivisionNotFound
 }
