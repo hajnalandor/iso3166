@@ -51,10 +51,8 @@ func ValidateCountryName(name string) bool {
 // CountryAlpha2ToName returns the country's name from alpha2 representation
 func CountryAlpha2ToName(alpha2 string) (string, error) {
 	alpha2 = strings.ToUpper(alpha2)
-	for _, country := range Countries {
-		if country.Alpha2 == alpha2 {
-			return country.Name, nil
-		}
+	if name, ok := Alpha2ToCountry[alpha2]; ok {
+		return name, nil
 	}
 
 	return "", ErrInvalidCountryAlpha2
@@ -87,13 +85,9 @@ func CountryAlpha2ToCommonName(alpha2 string) (string, error) {
 // ValidateCountryAlpha2 validates the alpha2 representation
 func ValidateCountryAlpha2(alpha2 string) bool {
 	alpha2 = strings.ToUpper(alpha2)
-	for _, country := range Countries {
-		if country.Alpha2 == alpha2 {
-			return true
-		}
-	}
+	_, ok := Alpha2ToCountry[alpha2]
 
-	return false
+	return ok
 }
 
 // CountryNameToAlpha3 returns the countries alpha3 representation
@@ -114,10 +108,8 @@ func CountryNameToAlpha3(name string) (string, error) {
 // CountryAlpha3ToName returns the country's name from alpha3 representation
 func CountryAlpha3ToName(alpha3 string) (string, error) {
 	alpha3 = strings.ToUpper(alpha3)
-	for n, alpha3Variant := range CountryToAlpha3 {
-		if alpha3Variant == alpha3 {
-			return n, nil
-		}
+	if name, ok := Alpha2ToCountry[alpha3]; ok {
+		return name, nil
 	}
 
 	return "", ErrInvalidCountryAlpha3

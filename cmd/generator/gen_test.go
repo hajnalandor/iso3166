@@ -15,7 +15,7 @@ func TestGenerateSubdivisions(t *testing.T) {
 	generateSubdivisions(countries)
 }
 
-func TestGenerateCountryToAlphaFromJSON(t *testing.T) {
+func TestGenerateCountryMapsFromJSON(t *testing.T) {
 	var cw countryWrapper
 	mustParseJSONFile("../../data/iso3166-1.json", &cw)
 

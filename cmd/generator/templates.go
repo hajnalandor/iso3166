@@ -17,6 +17,18 @@ var CountryToAlpha3 = map[string]string {
 		"{{$country}}":"{{$alpha_codes.Alpha3}}",
 	{{- end}}
 }
+
+var Alpha2ToCountry = map[string]string {
+	{{ range $country, $alpha_codes := . }}
+		"{{$alpha_codes.Alpha2}}":"{{$country}}",
+	{{- end}}
+}
+
+var Alpha3ToCountry = map[string]string {
+	{{ range $country, $alpha_codes := . }}
+		"{{$alpha_codes.Alpha3}}":"{{$country}}",
+	{{- end}}
+}
 `
 
 var countrySubDivtmpl = `
