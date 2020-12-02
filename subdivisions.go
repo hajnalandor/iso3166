@@ -21,7 +21,7 @@ type Subdivision struct {
 	ParentCode string
 }
 
-var countries = [249]Country{
+var Countries = [249]Country{
 
 	{
 		Alpha2:       "AW",

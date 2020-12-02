@@ -43,7 +43,7 @@ package iso3166
 		ParentCode		 string
 	}
 
-	var countries = [{{len .}}]Country {
+	var Countries = [{{len .}}]Country {
 		{{ range $index, $country := . }}
 		{
 			Alpha2:			"{{$country.Alpha2}}",
