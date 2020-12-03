@@ -104,7 +104,7 @@ func TestSubDivisionNameToCode(t *testing.T) {
 		subDivName  string
 		want        string
 		wantErr     bool
-		error		error
+		error       error
 	}{
 		{
 			countryCode: "US",
@@ -267,14 +267,14 @@ func TestSubDivisionNameToCode(t *testing.T) {
 			subDivName:  "West Berkshire",
 			want:        "",
 			wantErr:     true,
-			error: ErrInvalidCountryAlpha2,
+			error:       ErrInvalidCountryAlpha2,
 		},
 		{
 			countryCode: "GB",
 			subDivName:  "West Berkshire something",
 			want:        "",
 			wantErr:     true,
-			error: ErrSubdivisionNotFound,
+			error:       ErrSubdivisionNotFound,
 		},
 	}
 	for _, tt := range tests {
