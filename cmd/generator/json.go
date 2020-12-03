@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 )
 
-func MustParseJSONFile(filename string, s interface{}) {
+func mustParseJSONFile(filename string, s interface{}) {
 	file, err := readFile(filename)
 	if err != nil {
 		panic(err)

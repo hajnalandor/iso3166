@@ -2,7 +2,7 @@ package iso3166
 
 import "testing"
 
-func TestCountryNameToAlpha2(t *testing.T) {
+func TestParseCountryByName(t *testing.T) {
 	tests := []struct {
 		name    string
 		want    string
@@ -32,52 +32,20 @@ func TestCountryNameToAlpha2(t *testing.T) {
 	for _, tt := range tests {
 		tt := tt
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := CountryNameToAlpha2(tt.name)
+			gotCountry, err := ParseCountry(tt.name)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("CountryNameToAlpha2() error = %v, wantErr %v", err, tt.wantErr)
 
 				return
 			}
-			if got != tt.want {
-				t.Errorf("CountryNameToAlpha2() got = %v, want %v", got, tt.want)
+			if gotCountry.Alpha2 != tt.want {
+				t.Errorf("CountryNameToAlpha2() got = %v, want %v", gotCountry.Alpha2, tt.want)
 			}
 		})
 	}
 }
 
-func TestValidCountryName(t *testing.T) {
-	tests := []struct {
-		name string
-		want bool
-	}{
-		{
-			name: "United States",
-			want: true,
-		},
-		{
-			name: "Canada",
-			want: true,
-		},
-		{
-			name: "Invalid",
-			want: false,
-		},
-		{
-			name: "Hungary",
-			want: true,
-		},
-	}
-	for _, tt := range tests {
-		tt := tt
-		t.Run(tt.name, func(t *testing.T) {
-			if got := ValidateCountryName(tt.name); got != tt.want {
-				t.Errorf("ValidCountryName() = %v, want %v", got, tt.want)
-			}
-		})
-	}
-}
-
-func TestCountryCodeToName(t *testing.T) {
+func TestParseCountryByAlpha2Code(t *testing.T) {
 	tests := []struct {
 		code    string
 		want    string
@@ -117,58 +85,14 @@ func TestCountryCodeToName(t *testing.T) {
 	for _, tt := range tests {
 		tt := tt
 		t.Run(tt.code, func(t *testing.T) {
-			got, err := CountryAlpha2ToName(tt.code)
+			gotCountry, err := ParseCountry(tt.code)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("CountryCodeToName() error = %v, wantErr %v", err, tt.wantErr)
 
 				return
 			}
-			if got != tt.want {
-				t.Errorf("CountryCodeToName() got = %v, want %v", got, tt.want)
-			}
-		})
-	}
-}
-
-func TestValidCountryCode(t *testing.T) {
-	tests := []struct {
-		code string
-		want bool
-	}{
-		{
-			code: "US",
-			want: true,
-		},
-		{
-			code: "US",
-			want: true,
-		},
-		{
-			code: "CA",
-			want: true,
-		},
-		{
-			code: "Invalid",
-			want: false,
-		},
-		{
-			code: "HU",
-			want: true,
-		},
-		{
-			code: "FM",
-			want: true,
-		},
-		{
-			code: "Gb",
-			want: true,
-		},
-	}
-	for _, tt := range tests {
-		tt := tt
-		t.Run(tt.code, func(t *testing.T) {
-			if got := ValidateCountryAlpha2(tt.code); got != tt.want {
-				t.Errorf("ValidCountryCode() = %v, want %v", got, tt.want)
+			if gotCountry.Name != tt.want {
+				t.Errorf("CountryCodeToName() got = %v, want %v", gotCountry.Name, tt.want)
 			}
 		})
 	}
@@ -180,6 +104,7 @@ func TestSubDivisionNameToCode(t *testing.T) {
 		subDivName  string
 		want        string
 		wantErr     bool
+		error		error
 	}{
 		{
 			countryCode: "US",
@@ -337,18 +262,35 @@ func TestSubDivisionNameToCode(t *testing.T) {
 			want:        "WBK",
 			wantErr:     false,
 		},
+		{
+			countryCode: "INVALID",
+			subDivName:  "West Berkshire",
+			want:        "",
+			wantErr:     true,
+			error: ErrInvalidCountryAlpha2,
+		},
+		{
+			countryCode: "GB",
+			subDivName:  "West Berkshire something",
+			want:        "",
+			wantErr:     true,
+			error: ErrSubdivisionNotFound,
+		},
 	}
 	for _, tt := range tests {
 		tt := tt
 		t.Run(tt.countryCode+tt.subDivName, func(t *testing.T) {
-			got, err := SubdivisionNameToCode(tt.countryCode, tt.subDivName)
+			gotSubdivision, err := ParseSubdivision(tt.countryCode, tt.subDivName)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("SubDivisionNameToCode() error = %v, wantErr %v", err, tt.wantErr)
-
 				return
 			}
-			if got != tt.want {
-				t.Errorf("SubDivisionNameToCode() got = %v, want %v", got, tt.want)
+			if tt.wantErr && tt.error != err {
+				t.Errorf("SubDivisionNameToCode() error = %v, wantErr %v", err, tt.wantErr)
+				return
+			}
+			if gotSubdivision.Code != tt.want {
+				t.Errorf("SubDivisionNameToCode() got = %v, want %v", gotSubdivision.Code, tt.want)
 			}
 		})
 	}
@@ -357,16 +299,16 @@ func TestSubDivisionNameToCode(t *testing.T) {
 func BenchmarkSubDivisionNameToCodeCaseInsensitive(b *testing.B) {
 	countryCode := "gB"                          // United Kingdom
 	subDivName := "batH and noRth east soMerset" // Bath and North East Somerset
-	var subDivCode string
+	var subdiv Subdivision
 	var err error
 	b.ReportAllocs()
 	for i := 0; i < b.N; i++ {
-		subDivCode, err = SubdivisionNameToCode(countryCode, subDivName)
+		subdiv, err = ParseSubdivision(countryCode, subDivName)
 		if err != nil {
 			b.Error(err)
 		}
 	}
-	if subDivCode != "BAS" {
+	if subdiv.Code != "BAS" {
 		b.Error("invalid subdivision code")
 	}
 }
@@ -374,16 +316,16 @@ func BenchmarkSubDivisionNameToCodeCaseInsensitive(b *testing.B) {
 func BenchmarkSubDivisionNameToCodeCaseSensitive(b *testing.B) {
 	countryCode := "GB"                          // United Kingdom
 	subDivName := "Bath and North East Somerset" // Bath and North East Somerset
-	var subDivCode string
+	var subdiv Subdivision
 	var err error
 	b.ReportAllocs()
 	for i := 0; i < b.N; i++ {
-		subDivCode, err = SubdivisionNameToCode(countryCode, subDivName)
+		subdiv, err = ParseSubdivision(countryCode, subDivName)
 		if err != nil {
 			b.Error(err)
 		}
 	}
-	if subDivCode != "BAS" {
+	if subdiv.Code != "BAS" {
 		b.Error("invalid subdivision code")
 	}
 }

@@ -7,31 +7,31 @@ import (
 )
 
 func exampleCountryCodeToName() {
-	name, err := iso3166.CountryAlpha2ToName("US")
+	country, err := iso3166.ParseCountry("US")
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(name)
+	fmt.Println(country.Name)
 	// Output:
 	// United States
 }
 
 func exampleCountryNameToAlpha2() {
-	name, err := iso3166.CountryNameToAlpha2("United States")
+	country, err := iso3166.ParseCountry("United States")
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(name)
+	fmt.Println(country.Alpha2)
 	// Output:
 	// US
 }
 
 func exampleSubDivisionNameToCode() {
-	code, err := iso3166.SubdivisionNameToCode("GB", "Bath and North East Somerset")
+	subdivision, err := iso3166.ParseSubdivision("GB", "Bath and North East Somerset")
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(code)
+	fmt.Println(subdivision.Code)
 	// Output:
 	// BAS
 }
