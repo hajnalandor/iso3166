@@ -42,7 +42,7 @@ func ParseSubdivision(countryAlpha2, subdivisionName string) (Subdivision, error
 		}
 	}
 	if !validAlpha2 {
-		return Subdivision{},ErrInvalidCountryAlpha2
+		return Subdivision{}, ErrInvalidCountryAlpha2
 	}
 	return Subdivision{}, ErrSubdivisionNotFound
 }

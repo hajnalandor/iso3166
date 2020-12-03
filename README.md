@@ -19,77 +19,23 @@ go get github.com/hajnalandor/iso3166
 ```
 import (
     "github.com/hajnalandor/iso3166"
-    )
+)
 ```
 
-#### Country name to alpha2 code
+### Parse country
 
 ```
-iso3166.CountryNameToAlpha2("United States") // output: US
+iso3166.ParseCountry("GB") 
+iso3166.ParseCountry("US") 
+
+// output: iso3166.Country or error
 ```
 
-#### Country alpha2 code to name
+### Parse subdivision
 
 ```
-iso3166.CountryAlpha2ToName("US") // output: United States
-```
+iso3166.ParseSubdivision("GB", "Bath and North East Somerset") 
+iso3166.ParseSubdivision("US", "Illinois") 
 
-#### Validate country name
-
-```
-iso3166.ValidateCountryName("United States") // output: true
-```
-
-#### Validate country alpha2 code
-
-```
-iso3166.ValidateCountryAlpha2("US") // output: true
-```
-
-#### Country alpha2 code to common name
-
-```
-iso3166.CountryAlpha2ToCommonName("US") // output: "" United States doesn't have common name
-```
-
-#### Country name to alpha3 code
-
-```
-iso3166.CountryNameToAlpha3("United States") // output: USA
-```
-
-#### Country alpha3 code to name
-
-```
-iso3166.CountryAlpha3ToName("USA") // output: United States
-```
-
-#### Country alpha2 code to offical name
-
-```
-iso3166.CountryAlpha2ToOfficalName("US") // output: "United States of America"
-```
-
-#### Subdivision name to code
-
-```
-iso3166.SubdivisionNameToCode("GB", "Bath and North East Somerset") // output: BAS
-```
-
-#### Subdivision code to name
-
-```
-iso3166.SubdivisionCodeToName("GB", "BAS") // output: Bath and North East Somerset
-```
-
-#### Validate subdivision code
-
-```
-iso3166.ValidateSubdivisionCode("GB", "BAS") // output: true
-```
-
-#### Validate subdivision name
-
-```
-iso3166.ValidateSubdivisionName("GB", "Bath and North East Somerset") // output: true
+// output: iso3166.Subdivision or error
 ```
