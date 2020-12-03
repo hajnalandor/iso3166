@@ -104,6 +104,7 @@ func TestSubDivisionNameToCode(t *testing.T) {
 		subDivName  string
 		want        string
 		wantErr     bool
+		error		error
 	}{
 		{
 			countryCode: "US",
@@ -261,6 +262,20 @@ func TestSubDivisionNameToCode(t *testing.T) {
 			want:        "WBK",
 			wantErr:     false,
 		},
+		{
+			countryCode: "INVALID",
+			subDivName:  "West Berkshire",
+			want:        "",
+			wantErr:     true,
+			error: ErrInvalidCountryAlpha2,
+		},
+		{
+			countryCode: "GB",
+			subDivName:  "West Berkshire something",
+			want:        "",
+			wantErr:     true,
+			error: ErrSubdivisionNotFound,
+		},
 	}
 	for _, tt := range tests {
 		tt := tt
@@ -268,7 +283,10 @@ func TestSubDivisionNameToCode(t *testing.T) {
 			gotSubdivision, err := ParseSubdivision(tt.countryCode, tt.subDivName)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("SubDivisionNameToCode() error = %v, wantErr %v", err, tt.wantErr)
-
+				return
+			}
+			if tt.wantErr && tt.error != err {
+				t.Errorf("SubDivisionNameToCode() error = %v, wantErr %v", err, tt.wantErr)
 				return
 			}
 			if gotSubdivision.Code != tt.want {
