@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestGenerateSubdivisions(t *testing.T) {
+func TestGenerateCountries(t *testing.T) {
 	var cw countryWrapper
 	mustParseJSONFile("../../data/iso3166-1.json", &cw)
 
@@ -12,7 +12,7 @@ func TestGenerateSubdivisions(t *testing.T) {
 	subDivisions := csvToSubdivision(csvLines)
 
 	countries := addSubdivisions(cw.Countries,subDivisions)
-	generateSubdivisions(countries)
+	generateCountries(countries)
 }
 
 func TestGenerateCountryMapsFromJSON(t *testing.T) {

@@ -79,13 +79,13 @@ func generateCountryMap(data map[string]country) {
 	}
 }
 
-func generateSubdivisions(data []country) {
+func generateCountries(data []country) {
 	tmpl, err := template.New("subdivision-generator").Parse(countrySubDivtmpl)
 	if err != nil {
 		panic(err)
 	}
 
-	f, err := os.Create("../../subdivisions.go")
+	f, err := os.Create("../../countries.go")
 	if err != nil {
 		panic(err)
 	}
