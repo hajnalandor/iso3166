@@ -32,10 +32,18 @@ iso3166.ParseCountry("US")
 ```
 
 ### Parse subdivision
-
+ #### Use ParseSubdivision for exact match (country param is optional)
 ```
-iso3166.ParseSubdivision("GB", "Bath and North East Somerset") 
-iso3166.ParseSubdivision("US", "Illinois") 
+iso3166.ParseSubdivision("Bath and North East Somerset","GB") 
+iso3166.ParseSubdivision("Illinois") 
 
 // output: iso3166.Subdivision or error
+```
+
+#### Use LookupSubdivision for partial match (country param is optional)
+```
+iso3166.LookupSubdivision("Bath and North East Somerset","GB") 
+iso3166.LookupSubdivision("Illinois") 
+
+// output: []iso3166.Subdivision or error
 ```
