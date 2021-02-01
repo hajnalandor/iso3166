@@ -297,11 +297,18 @@ func TestSubDivisionNameToCode(t *testing.T) {
 			wantErr:     true,
 			error:       ErrSubdivisionNotFound,
 		},
+		{
+			countryCode: "United sTates",
+			subDivName:  "gA",
+			want:        "GA",
+			wantErr:     false,
+			error:       nil,
+		},
 	}
 	for _, tt := range tests {
 		tt := tt
 		t.Run(tt.countryCode+tt.subDivName, func(t *testing.T) {
-			gotSubdivision, err := ParseSubdivision(tt.countryCode, tt.subDivName)
+			gotSubdivision, err := ParseSubdivision(tt.subDivName, tt.countryCode)
 			if (err != nil) != tt.wantErr {
 				t.Errorf("SubDivisionNameToCode() error = %v, wantErr %v", err, tt.wantErr)
 				return
@@ -312,6 +319,106 @@ func TestSubDivisionNameToCode(t *testing.T) {
 			}
 			if gotSubdivision.Code != tt.want {
 				t.Errorf("SubDivisionNameToCode() got = %v, want %v", gotSubdivision.Code, tt.want)
+			}
+		})
+	}
+}
+
+func TestLookupSubdivision(t *testing.T) {
+	tests := []struct {
+		countryCode string
+		subDivName  string
+		want        string
+		wantErr     bool
+		error       error
+	}{
+		{
+			countryCode: "US",
+			subDivName:  "Alabama",
+			want:        "AL",
+			wantErr:     false,
+		},
+		{
+			subDivName: "Alaska",
+			want:       "AK",
+			wantErr:    false,
+		},
+		{
+			countryCode: "US",
+			subDivName:  "American Samoa",
+			want:        "AS",
+			wantErr:     false,
+		},
+		{
+			countryCode: "GB",
+			subDivName:  "Berkshire",
+			want:        "WBK",
+		},
+		{
+			subDivName: "Berkshire",
+			want:       "WBK",
+		},
+	}
+	for _, tt := range tests {
+		tt := tt
+		t.Run(tt.countryCode+tt.subDivName, func(t *testing.T) {
+			gotSubdivision, err := LookupSubdivision(tt.subDivName, tt.countryCode)
+			if (err != nil) != tt.wantErr {
+				t.Errorf("SubDivisionNameToCode() error = %v, wantErr %v", err, tt.wantErr)
+				return
+			}
+			if tt.wantErr && tt.error != err {
+				t.Errorf("SubDivisionNameToCode() error = %v, wantErr %v", err, tt.wantErr)
+				return
+			}
+			if gotSubdivision[0].Code != tt.want {
+				t.Errorf("SubDivisionNameToCode() got = %v, want %v", gotSubdivision[0].Code, tt.want)
+			}
+		})
+	}
+}
+
+func TestLookupSubdivisionSubdivisionNameOnly(t *testing.T) {
+	tests := []struct {
+		subDivName string
+		want       string
+		wantErr    bool
+		error      error
+	}{
+		{
+			subDivName: "Alabama",
+			want:       "AL",
+			wantErr:    false,
+		},
+		{
+			subDivName: "Alaska",
+			want:    "AK",
+			wantErr: false,
+		},
+		{
+			subDivName: "American Samoa",
+			want:       "AS",
+			wantErr:    false,
+		},
+		{
+			subDivName:  "Berkshire",
+			want:        "WBK",
+		},
+	}
+	for _, tt := range tests {
+		tt := tt
+		t.Run(tt.subDivName, func(t *testing.T) {
+			gotSubdivision, err := LookupSubdivision(tt.subDivName)
+			if (err != nil) != tt.wantErr {
+				t.Errorf("SubDivisionNameToCode() error = %v, wantErr %v", err, tt.wantErr)
+				return
+			}
+			if tt.wantErr && tt.error != err {
+				t.Errorf("SubDivisionNameToCode() error = %v, wantErr %v", err, tt.wantErr)
+				return
+			}
+			if gotSubdivision[0].Code != tt.want {
+				t.Errorf("SubDivisionNameToCode() got = %v, want %v", gotSubdivision[0].Code, tt.want)
 			}
 		})
 	}

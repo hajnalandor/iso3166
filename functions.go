@@ -6,10 +6,12 @@ import (
 )
 
 var (
+	ErrInvalidCountry       = errors.New("invalid country")
 	ErrInvalidCountryName   = errors.New("invalid country name")
 	ErrInvalidCountryAlpha2 = errors.New("invalid country alpha2")
 	ErrInvalidCountryAlpha3 = errors.New("invalid country alpha3")
 	ErrCountryNotFound      = errors.New("country not found")
+	ErrInvalidState         = errors.New("invalid state")
 	ErrInvalidSubDivName    = errors.New("invalid state name")
 	ErrInvalidSubDivCode    = errors.New("invalid state code")
 	ErrSubdivisionNotFound  = errors.New("subdivision not found")
@@ -26,18 +28,25 @@ func ParseCountry(name string) (Country, error) {
 	return Country{}, ErrCountryNotFound
 }
 
-func ParseSubdivision(countryAlpha2, subdivisionName string) (Subdivision, error) {
-	countryAlpha2 = strings.ToUpper(countryAlpha2)
+func ParseSubdivision(subdivisionName string, country ...string) (Subdivision, error) {
+	var countryName string
+	if len(country) == 1 {
+		countryName = country[0]
+	}
+	if subdivisionName == "" {
+		return Subdivision{}, ErrInvalidState
+	}
+	countryName = strings.ToUpper(countryName)
 	subdivisionName = strings.ToUpper(subdivisionName)
 	validAlpha2 := false
 
 	for _, c := range Countries {
-		if c.Alpha2 == countryAlpha2 {
+		if countryName == "" || strings.ToUpper(c.Alpha2) == countryName || strings.ToUpper(c.Alpha3) == countryName || strings.ToUpper(c.Name) == countryName {
 			validAlpha2 = true
 			for _, subdivision := range c.Subdivisions {
 				if strings.ToUpper(subdivision.Name) == subdivisionName ||
 					strings.ToUpper(subdivision.LocalName) == subdivisionName ||
-					strings.ToUpper(subdivision.Code) == subdivisionName{
+					strings.ToUpper(subdivision.Code) == subdivisionName {
 					return subdivision, nil
 				}
 			}
@@ -47,4 +56,35 @@ func ParseSubdivision(countryAlpha2, subdivisionName string) (Subdivision, error
 		return Subdivision{}, ErrInvalidCountryAlpha2
 	}
 	return Subdivision{}, ErrSubdivisionNotFound
+}
+
+func LookupSubdivision(subdivisionName string, country ...string) ([]Subdivision, error) {
+	var countryName string
+	if len(country) == 1 {
+		countryName = country[0]
+	}
+	if subdivisionName == "" {
+		return []Subdivision{}, ErrInvalidState
+	}
+	countryName = strings.ToUpper(countryName)
+	subdivisionName = strings.ToUpper(subdivisionName)
+	validAlpha2 := false
+
+	var subdivisionList []Subdivision
+	for _, c := range Countries {
+		if countryName == "" || strings.ToUpper(c.Alpha2) == countryName || strings.ToUpper(c.Alpha3) == countryName || strings.ToUpper(c.Name) == countryName {
+			validAlpha2 = true
+			for _, subdivision := range c.Subdivisions {
+				if strings.Contains(strings.ToUpper(subdivision.Name), subdivisionName) ||
+					strings.Contains(strings.ToUpper(subdivision.LocalName), subdivisionName) ||
+					strings.Contains(strings.ToUpper(subdivision.Code), subdivisionName) {
+					subdivisionList = append(subdivisionList, subdivision)
+				}
+			}
+		}
+	}
+	if !validAlpha2 {
+		return []Subdivision{}, ErrInvalidCountryAlpha2
+	}
+	return subdivisionList, nil
 }

@@ -5,6 +5,9 @@ import (
 )
 
 func TestGenerateCountries(t *testing.T) {
+	if true {
+		t.Skip()
+	}
 	var cw countryWrapper
 	mustParseJSONFile("../../data/iso3166-1.json", &cw)
 
@@ -16,6 +19,9 @@ func TestGenerateCountries(t *testing.T) {
 }
 
 func TestGenerateCountryMapsFromJSON(t *testing.T) {
+	if true {
+		t.Skip()
+	}
 	var cw countryWrapper
 	mustParseJSONFile("../../data/iso3166-1.json", &cw)
 
