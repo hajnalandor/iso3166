@@ -392,8 +392,8 @@ func TestLookupSubdivisionSubdivisionNameOnly(t *testing.T) {
 		},
 		{
 			subDivName: "Alaska",
-			want:    "AK",
-			wantErr: false,
+			want:       "AK",
+			wantErr:    false,
 		},
 		{
 			subDivName: "American Samoa",
@@ -401,8 +401,8 @@ func TestLookupSubdivisionSubdivisionNameOnly(t *testing.T) {
 			wantErr:    false,
 		},
 		{
-			subDivName:  "Berkshire",
-			want:        "WBK",
+			subDivName: "Berkshire",
+			want:       "WBK",
 		},
 	}
 	for _, tt := range tests {

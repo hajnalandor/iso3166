@@ -14,7 +14,7 @@ func TestGenerateCountries(t *testing.T) {
 	csvLines := mustParseCsv("../../data/iso3166-2.csv")
 	subDivisions := csvToSubdivision(csvLines)
 
-	countries := addSubdivisions(cw.Countries,subDivisions)
+	countries := addSubdivisions(cw.Countries, subDivisions)
 	generateCountries(countries)
 }
 

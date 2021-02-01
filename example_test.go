@@ -27,7 +27,7 @@ func exampleCountryNameToAlpha2() {
 }
 
 func exampleSubDivisionNameToCode() {
-	subdivision, err := iso3166.ParseSubdivision( "Bath and North East Somerset","GB")
+	subdivision, err := iso3166.ParseSubdivision("Bath and North East Somerset", "GB")
 	if err != nil {
 		panic(err)
 	}

@@ -11,11 +11,11 @@ import (
 )
 
 type csvLine struct {
-	Type               string `csv:"type"`
-	Code               string `csv:"code"`
-	Name               string `csv:"name"`
-	Local              string `csv:"local"`
-	Parent             string `csv:"parent"`
+	Type   string `csv:"type"`
+	Code   string `csv:"code"`
+	Name   string `csv:"name"`
+	Local  string `csv:"local"`
+	Parent string `csv:"parent"`
 }
 
 func mustParseCsv(fileName string) []csvLine {
@@ -58,9 +58,9 @@ func csvToSubdivision(csvLines []csvLine) []subDivision {
 
 	sd := make([]subDivision, 0)
 	for _, l := range csvLines {
-		splittedSubdivisionCode := strings.Split(l.Code,"-")
+		splittedSubdivisionCode := strings.Split(l.Code, "-")
 		parentCode := ""
-		if s := strings.Split(l.Parent,"-"); len(s) == 2{
+		if s := strings.Split(l.Parent, "-"); len(s) == 2 {
 			parentCode = s[1]
 		}
 		sd = append(sd, subDivision{
