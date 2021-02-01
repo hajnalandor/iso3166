@@ -35,7 +35,9 @@ func ParseSubdivision(countryAlpha2, subdivisionName string) (Subdivision, error
 		if c.Alpha2 == countryAlpha2 {
 			validAlpha2 = true
 			for _, subdivision := range c.Subdivisions {
-				if strings.ToUpper(subdivision.Name) == subdivisionName || strings.ToUpper(subdivision.LocalName) == subdivisionName {
+				if strings.ToUpper(subdivision.Name) == subdivisionName ||
+					strings.ToUpper(subdivision.LocalName) == subdivisionName ||
+					strings.ToUpper(subdivision.Code) == subdivisionName{
 					return subdivision, nil
 				}
 			}
