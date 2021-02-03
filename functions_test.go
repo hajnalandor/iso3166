@@ -431,7 +431,7 @@ func BenchmarkSubDivisionNameToCodeCaseInsensitive(b *testing.B) {
 	var err error
 	b.ReportAllocs()
 	for i := 0; i < b.N; i++ {
-		subdiv, err = ParseSubdivision(countryCode, subDivName)
+		subdiv, err = ParseSubdivision(subDivName, countryCode)
 		if err != nil {
 			b.Error(err)
 		}
@@ -448,7 +448,7 @@ func BenchmarkSubDivisionNameToCodeCaseSensitive(b *testing.B) {
 	var err error
 	b.ReportAllocs()
 	for i := 0; i < b.N; i++ {
-		subdiv, err = ParseSubdivision(countryCode, subDivName)
+		subdiv, err = ParseSubdivision(subDivName, countryCode)
 		if err != nil {
 			b.Error(err)
 		}

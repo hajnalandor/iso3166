@@ -65,9 +65,10 @@ func csvToSubdivision(csvLines []csvLine) []subDivision {
 		}
 		sd = append(sd, subDivision{
 			Name:              l.Name,
+			NameUppercase:     strings.ToUpper(l.Name),
 			countryAlpha2Code: splittedSubdivisionCode[0],
-			Code:              splittedSubdivisionCode[1],
-			LocalName:         l.Local,
+			Code:              strings.ToUpper(splittedSubdivisionCode[1]),
+			LocalName:         strings.ToUpper(l.Local),
 			Type:              l.Type,
 			Parent:            parentCode,
 		})
