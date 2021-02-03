@@ -40,7 +40,8 @@ package iso3166
 	type Country struct {
 		Alpha2       string 
 		Alpha3       string 
-		Name         string 
+		Name         string
+		NameUppercase string
 		OfficialName string 
 		CommonName   string 
 		Numeric      string 
@@ -49,6 +50,7 @@ package iso3166
 
 	type Subdivision struct {
 		Name             string
+		NameUppercase    string
 		Code 			 string
 		Type             string
 		LocalName        string
@@ -61,17 +63,19 @@ package iso3166
 			Alpha2:			"{{$country.Alpha2}}",
 			Alpha3:			"{{$country.Alpha3}}",
 			Name:			"{{$country.Name}}",
+			NameUppercase:  "{{$country.NameUppercase}}",
 			OfficialName:	"{{$country.OfficialName}}",
 			CommonName:		"{{$country.CommonName}}",
 			Numeric:		"{{$country.Numeric}}",
 			Subdivisions:   []Subdivision {
 				{{ range $subdivision := $country.Subdivisions }}
 				{
-					Name:"{{$subdivision.Name}}",
-					Code:"{{$subdivision.Code}}",
-					Type:"{{$subdivision.Type}}",
-					LocalName:"{{$subdivision.LocalName}}",
-					ParentCode:"{{$subdivision.Parent}}",
+					Name:          	"{{$subdivision.Name}}",
+					NameUppercase: 	"{{$subdivision.NameUppercase}}",
+					Code:          	"{{$subdivision.Code}}",
+					Type:			"{{$subdivision.Type}}",
+					LocalName:		"{{$subdivision.LocalName}}",
+					ParentCode:		"{{$subdivision.Parent}}",
 				},
 				{{- end}}
 			},

@@ -4,6 +4,7 @@ import (
 	"bytes"
 	"go/format"
 	"os"
+	"strings"
 	"text/template"
 )
 
@@ -12,22 +13,34 @@ type countryWrapper struct {
 }
 
 type country struct {
-	Alpha2       string `json:"alpha_2"`
-	Alpha3       string `json:"alpha_3"`
-	Name         string `json:"name"`
-	OfficialName string `json:"official_name"`
-	CommonName   string `json:"common_name"`
-	Numeric      string `json:"numeric"`
-	Subdivisions []subDivision
+	Alpha2        string `json:"alpha_2"`
+	Alpha3        string `json:"alpha_3"`
+	Name          string `json:"name"`
+	NameUppercase string `json:"name_uppercase"`
+	OfficialName  string `json:"official_name"`
+	CommonName    string `json:"common_name"`
+	Numeric       string `json:"numeric"`
+	Subdivisions  []subDivision
 }
 
 type subDivision struct {
 	countryAlpha2Code string
 	Name              string
+	NameUppercase     string
 	Code              string
 	LocalName         string
 	Type              string
 	Parent            string
+}
+
+func toUpper(cw countryWrapper) {
+	for i := 0; i < len(cw.Countries); i++ {
+		cw.Countries[i].Alpha2 = strings.ToUpper(cw.Countries[i].Alpha2)
+		cw.Countries[i].Alpha3 = strings.ToUpper(cw.Countries[i].Alpha3)
+		cw.Countries[i].NameUppercase = strings.ToUpper(cw.Countries[i].Name)
+		cw.Countries[i].CommonName = strings.ToUpper(cw.Countries[i].CommonName)
+		cw.Countries[i].OfficialName = strings.ToUpper(cw.Countries[i].OfficialName)
+	}
 }
 
 func getCountryToAlphaMap(cw countryWrapper) map[string]country {

@@ -20,8 +20,8 @@ var (
 func ParseCountry(name string) (Country, error) {
 	name = strings.ToUpper(name)
 	for _, c := range Countries {
-		if strings.ToUpper(c.Name) == name || strings.ToUpper(c.OfficialName) == name ||
-			strings.ToUpper(c.CommonName) == name || c.Alpha2 == name || c.Alpha3 == name {
+		if c.NameUppercase == name || c.OfficialName == name ||
+			c.CommonName == name || c.Alpha2 == name || c.Alpha3 == name {
 			return c, nil
 		}
 	}
@@ -41,12 +41,12 @@ func ParseSubdivision(subdivisionName string, country ...string) (Subdivision, e
 	validAlpha2 := false
 
 	for _, c := range Countries {
-		if countryName == "" || strings.ToUpper(c.Alpha2) == countryName || strings.ToUpper(c.Alpha3) == countryName || strings.ToUpper(c.Name) == countryName {
+		if countryName == "" || c.Alpha2 == countryName || c.Alpha3 == countryName || c.NameUppercase == countryName {
 			validAlpha2 = true
 			for _, subdivision := range c.Subdivisions {
-				if strings.ToUpper(subdivision.Name) == subdivisionName ||
-					strings.ToUpper(subdivision.LocalName) == subdivisionName ||
-					strings.ToUpper(subdivision.Code) == subdivisionName {
+				if subdivision.NameUppercase == subdivisionName ||
+					subdivision.LocalName == subdivisionName ||
+					subdivision.Code == subdivisionName {
 					return subdivision, nil
 				}
 			}
@@ -72,12 +72,12 @@ func LookupSubdivision(subdivisionName string, country ...string) ([]Subdivision
 
 	var subdivisionList []Subdivision
 	for _, c := range Countries {
-		if countryName == "" || strings.ToUpper(c.Alpha2) == countryName || strings.ToUpper(c.Alpha3) == countryName || strings.ToUpper(c.Name) == countryName {
+		if countryName == "" || c.Alpha2 == countryName || c.Alpha3 == countryName || c.NameUppercase == countryName {
 			validAlpha2 = true
 			for _, subdivision := range c.Subdivisions {
-				if strings.Contains(strings.ToUpper(subdivision.Name), subdivisionName) ||
-					strings.Contains(strings.ToUpper(subdivision.LocalName), subdivisionName) ||
-					strings.Contains(strings.ToUpper(subdivision.Code), subdivisionName) {
+				if strings.Contains(subdivision.NameUppercase, subdivisionName) ||
+					strings.Contains(subdivision.LocalName, subdivisionName) ||
+					strings.Contains(subdivision.Code, subdivisionName) {
 					subdivisionList = append(subdivisionList, subdivision)
 				}
 			}
