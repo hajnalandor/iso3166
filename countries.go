@@ -40790,7 +40790,30 @@ var Countries = [249]Country{
 		CommonName:    "",
 		Numeric:       "840",
 		Subdivisions: []Subdivision{
-
+			{
+				Name:          "Armed Forces AA",
+				NameUppercase: "ARMED FORCES AA",
+				Code:          "AA",
+				Type:          "state",
+				LocalName:     "",
+				ParentCode:    "",
+			},
+			{
+				Name:          "Armed Forces AE",
+				NameUppercase: "ARMED FORCES AE",
+				Code:          "AE",
+				Type:          "state",
+				LocalName:     "",
+				ParentCode:    "",
+			},
+			{
+				Name:          "Armed Forces AP",
+				NameUppercase: "ARMED FORCES AP",
+				Code:          "AP",
+				Type:          "state",
+				LocalName:     "",
+				ParentCode:    "",
+			},
 			{
 				Name:          "Alabama",
 				NameUppercase: "ALABAMA",
