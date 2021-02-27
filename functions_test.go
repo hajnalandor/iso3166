@@ -108,6 +108,24 @@ func TestSubDivisionNameToCode(t *testing.T) {
 	}{
 		{
 			countryCode: "US",
+			subDivName:  "Armed Forces AA",
+			want:        "AA",
+			wantErr:     false,
+		},
+		{
+			countryCode: "US",
+			subDivName:  "Armed Forces AE",
+			want:        "AE",
+			wantErr:     false,
+		},
+		{
+			countryCode: "US",
+			subDivName:  "Armed Forces AP",
+			want:        "AP",
+			wantErr:     false,
+		},
+		{
+			countryCode: "US",
 			subDivName:  "Alabama",
 			want:        "AL",
 			wantErr:     false,
