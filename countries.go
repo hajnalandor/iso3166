@@ -40790,6 +40790,7 @@ var Countries = [249]Country{
 		CommonName:    "",
 		Numeric:       "840",
 		Subdivisions: []Subdivision{
+
 			{
 				Name:          "Armed Forces AA",
 				NameUppercase: "ARMED FORCES AA",

@@ -6,6 +6,8 @@ import (
 	"os"
 	"strings"
 	"text/template"
+
+	"github.com/ditashi/jsbeautifier-go/jsbeautifier"
 )
 
 type countryWrapper struct {
@@ -113,6 +115,51 @@ func generateCountries(data []country) {
 		panic(err)
 	}
 	_, err = f.Write(formatted)
+	if err != nil {
+		panic(err)
+	}
+}
+
+func generateCountriesJS(data []country) {
+	// delete countries with no subdivisions
+	for index := range data {
+		if index == len(data) {
+			break
+		}
+		if data[index].Subdivisions == nil || len(data[index].Subdivisions) == 0 {
+			data = append(data[:index], data[index+1:]...)
+		}
+	}
+	tmpl, err := template.New("subdivision-generator").Parse(countrySubDivJSTmpl)
+	if err != nil {
+		panic(err)
+	}
+
+	f, err := os.Create("../../data.js")
+	if err != nil {
+		panic(err)
+	}
+
+	var buf bytes.Buffer
+	err = tmpl.Execute(&buf, data)
+	if err != nil {
+		panic(err)
+	}
+	_, err = f.Write(buf.Bytes())
+	if err != nil {
+		panic(err)
+	}
+	options := jsbeautifier.DefaultOptions()
+	options["end_with_newline"] = true
+	options["indent_with_tabs"] = true
+	options["jslint_happy"] = true
+	options["brace_style"] = "expand"
+	formatted := *jsbeautifier.BeautifyFile("../../data.js", options)
+	f, err = os.Create("../../data.js")
+	if err != nil {
+		panic(err)
+	}
+	_, err = f.Write([]byte(formatted))
 	if err != nil {
 		panic(err)
 	}
