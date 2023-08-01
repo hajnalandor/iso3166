@@ -2,6 +2,7 @@ package generator
 
 import (
 	"bytes"
+	"encoding/json"
 	"go/format"
 	"os"
 	"strings"
@@ -114,6 +115,17 @@ func generateCountries(data []country) {
 	}
 	_, err = f.Write(formatted)
 	if err != nil {
+		panic(err)
+	}
+}
+
+func generateCountriesJSON(data []country) {
+	f, err := os.Create("../../countries-subdivisions.json")
+	if err != nil {
+		panic(err)
+	}
+
+	if err := json.NewEncoder(f).Encode(data); err != nil {
 		panic(err)
 	}
 }
